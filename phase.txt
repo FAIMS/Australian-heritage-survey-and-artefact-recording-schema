@@ -1,8 +1,0 @@
-<opts>
-     <opt>Phase 1
-          <desc>Coarse level of recording intended to capture overall characteristics of a feature or site. Typically, this approach is used for complex features with multiple attributes that could potentially be recorded separately.</desc>
-     </opt>
-     <opt>Phase 2
-          <desc>High resolution recording of discrete features present within a site or assemblage. For example, recording of individual buildings or structures, delineating boundaries of artefact scatters, hearths, faunal deposits or objects that together comprise a discrete feature</desc>
-     </opt>
-</opts>
