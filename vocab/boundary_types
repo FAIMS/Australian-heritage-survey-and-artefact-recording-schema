@@ -1,0 +1,21 @@
+<opts>
+    <opt>Geomorphic feature extent
+        <desc>Cultural deposits are exposed only across a specific geomorphic feature, with artefact density dropping significantly beyond the geomorphic feature boundary</desc>
+    </opt>
+
+    <opt>Mound margins
+        <desc>Mound margins, demarcated by a visible increase in mound height in relation to adjacent substrate</desc>
+    </opt>
+
+    <opt>Reduction in artefact density
+        <desc>Exposure of cultural materials is not constrained by the extent of a geomorphic feature, and thus the feature boundary reflects the real distribution of artefacts observed. Site boundary represents a significant decline in artefact numbers.</desc>
+    </opt>
+
+    <opt>Extent of built feature
+        <desc>Recorded boundary reflects the extent of a built feature (e.g. fenced area, structural foundations)</desc>
+    </opt>
+
+    <opt>Not recorded
+        <desc>No boundary recording was conducted due to the feature having a constrained extent (e.g. isolated artefact)</desc>
+    </opt>
+</opts>
