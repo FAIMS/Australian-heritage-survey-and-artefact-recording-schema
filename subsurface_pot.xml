@@ -1,0 +1,10 @@
+<opts>
+				<opt>Clear
+					<desc>Tangible evidence of-surface deposits, for example, where a section has been exposed that reveals cultural material, or where cultural materials are seen to be eroding from a portion of the feature (e.g. on a slope)</desc></opt>
+				<opt>High
+					<desc>No unambiguous evidence of sub-surface deposits, but the characterstics of the landform (e.g. aggrading land surface) and local archaeology are highly suggestive of such deposits existing </desc></opt>
+				<opt>Low
+					<desc>Sub-surface deposits are considered unlikely, due to the characterstics of the landform (e.g. badly eroded surface), but the potential for such deposits to occur can not be ruled out. </desc></opt>
+				<opt>None
+					<desc>Situations where sub-surface deposits can be ruled out due to the landform characteristics (e.g. a substrate of bedrock, clay hardpan or, stones and rubble)</desc></opt>
+			</opts>

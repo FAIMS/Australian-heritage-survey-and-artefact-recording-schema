@@ -1,0 +1,223 @@
+<!--@POSTPROC: ./postproc.sh-->
+<module>
+<User_List f="nodata">
+  <User_List f="noscroll">
+    <User_List t="list" f="nolabel user" l="Control"/>
+  </User_List>
+<!--   <Manual>
+    <Manual t="webview" f="nolabel"/>
+  </Manual> -->
+</User_List>
+
+<Control f="nodata">
+	<Control>
+		<!-- 'Create new [dropdown of entity types (SE, mound, etc.)]' ['Create' button] → opens Element Group (SE, mound, etc.) 'Add' screen.
+Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
+Underneath: GPS diagnostics (as specified above)
+ -->
+ 		<Complex_Features t="webview" f="nolabel">
+ 			<markdown># Complex Features</markdown>
+ 		</Complex_Features>
+ 		<New_Surface_Exposure t="button" l="Surface_Exposure"/>
+		<New_Mound t="button" l="Mound"/>
+		<New_Rockshelter t="button" l="Rockshelter"/>
+		<New_Historical_Feature t="button" l="Historical_Feature"/>
+		<New_Burial t="button" l="Burial"/>
+		<New_Point_of_Interest t="button" l="Point_of_Interest"/>
+		<Objects t="webview" f="nolabel">
+ 			<markdown># Objects</markdown>
+ 		</Objects>
+		<New_Tree t="button" l="Tree"/>
+		<New_Flake t="button" l="Flake"/>
+		<New_Other_Stone_Artefact t="button" l="Other_Stone_Artefact"/>
+		<New_Glass_Artefact t="button" l="Glass_Artefact"/>
+		<New_Ceramic_Artefact t="button" l="Ceramic_Artefact"/>
+		<New_Misc_Artefact t="button" l="Misc_Artefact"/>
+		<New_Discrete_Hearth	 t="button" l="Discrete_Hearth"/>	
+ 		<GPS_diagnostics t="gpsdiag"/>
+	</Control>
+	<Recent f="noscroll">
+		<Recent_records t="list">
+	</Recent>
+	<search/>
+	<!--"Select User" dropdown has been added using @POSTPROC-->
+	
+
+	<Autonumbering>
+		<autonum/>
+	</Autonumbering>
+	<Map f="noscroll">
+<!--SRID: 4326-->
+	<Map t="map" f="nolabel"/>
+	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
+	</Map>
+</Control>	
+<Surface_Exposure>
+	<fmt>SE{{ID}}</fmt>
+	<Surface_Exposure>
+		<ID f="id autonum"/> 					
+		
+		<author f="nocertainty noannotation"/>								
+		<timestamp f="id nocertainty noannotation"/> 
+
+		<Level_of_recording f="nocertainty"> 
+			<desc>Detail the recording approach used
+			</desc>
+			<!--@SOURCE: vocab/phase.xml-->
+		</Level_of_recording>
+		<gps f="notnull nocertainty"> 
+			<desc>Record a coordinate near the site centre
+			</desc>
+		</gps>
+		
+		<Device_photos t="camera" f="nocertainty"> 
+			<desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.
+			</desc>
+		</Device_photos>
+		<External_camera_ID f="nocertainty"> 
+			<desc>Select other cameras used for photography (if applicable)
+			</desc>
+			<!--@SOURCE: vocab/camera_ids.xml-->
+	
+		</External_camera_ID>
+		<External_camera_filenames f="nocertainty"> 
+			<desc>Provide file names and brief captions (if applicable)
+			</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty"> 
+			<desc>If recording coincides with instrument survey, please select appropriate instrument name.
+			</desc>
+			<!--@SOURCE: vocab/survey_instr.xml-->
+			
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty"> 
+			<desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.
+			</desc>
+		</Survey_instrument_data>
+		<Landform_pattern> 
+			<desc>300m observational unit.</desc>
+			<!--@SOURCE: vocab/landform_pattern.xml-->	
+			
+		</Landform_pattern>
+		<Landform_element> 
+			<desc>30m observational unit
+			</desc>
+			<!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+		<Dominant_vegetation_type> 
+			<desc>30m observational unit, uppermost vegetation stratum only
+			</desc>
+			<!--@SOURCE: vocab/veg_struct_form.xml-->
+		</Dominant_vegetation_type>
+		<Dominant_vegetation_cover f="nocertainty"> 
+			<desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only
+			</desc>
+			<!--@SOURCE: vocab/veg_struct_cov.xml-->		
+		</Dominant_vegetation_cover>
+		<Additional_environmental_notes f="noannotation nocertainty"> 
+			<desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured
+			</desc>
+		</Additional_environmental_notes>
+		<Add_new_note t="camera" f="nocertainty"> 
+			<desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.
+			</desc>
+		</Add_new_note>
+		<Morphology_type > 
+			<desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
+			</desc>
+			<!--@SOURCE: vocab/feat_morphology.xml-->
+		</Morphology_type>
+		<Morphology_notes f="nocertainty noannotation"> 
+			<desc>Record any additional notes about site morphology not captured elsewhere
+			</desc>
+		</Morphology_notes>
+		<Length_m b="decimal" f="nocertainty noannotation"> 
+			<desc>Estimate maximum length of feature, using a tape or pacing
+			</desc>
+		</Length_m>
+		<Width_m b="decimal" f="nocertainty noannotation"> 
+			<desc>Estimate maximum width of feature, using tape or pacing
+			</desc>
+		</Width_m>
+		<Other_measurement b="decimal"> 
+			<desc>Record other key measurements here, with annotation to describe what measurement relates to. Please ensure units are noted here
+			</desc>
+		</Other_measurement>
+		<Stone_artefact_count b="integer"> 
+			<desc>Record a tally of stone artefacts observed on the site. Use the certainty slider for estimates on large assemblages
+			</desc>
+		</Stone_artefact_count>
+		<Stone_artefact_types t="checkbox"> 
+			<desc>Select all artefact types observed
+			</desc>
+			<!--@SOURCE: vocab/sart_gen_types.xml-->
+		</Stone_artefact_types>
+		<Stone_artefact_raw_materials t="checkbox"> 
+			<desc>Select all raw materials observed
+			</desc>
+			<!--@SOURCE: vocab/sa_rawmaterial.xml-->
+		</Stone_artefact_raw_materials>
+		<Historical_artefact_count b="integer"> 
+			<desc>Record a tally of historic artefacts observed on the site. Use the certainty slider for estimates on large assemblages
+			</desc>
+		</Historical_artefact_count>
+		<Historical_artefact_types t="checkbox"> 
+			<desc>Select all artefact types observed
+			</desc>
+			<!--@SOURCE: vocab/hart_gen_types.xml-->
+		</Historical_artefact_types>
+		<In_situ_hearth_count b="integer"> 
+			<desc>Record a tally of all in situ hearths observed
+			</desc>
+		</In_situ_hearth_count>
+		<Heating_element_scatters t="radio"> 
+			<desc>Is there evidence of disturbed or remnant hearths as indicated by scatters of heating elements within the feature boundary?
+			</desc>
+			<!--@SOURCE: vocab/he_frequency.xml-->
+		</Heating_element_scatters>
+		<Heating_element_types_observed t="checkbox"> 
+			<desc>Select all heating element types observed
+			</desc>
+			<!--@SOURCE: vocab/he_types.xml-->
+		</Heating_element_types_observed>
+		<Faunal_materials_present t="checkbox"> 
+			<desc>Select all faunal materials observed
+			</desc>
+			<!--@SOURCE: vocab/faun_mat_types.xml-->
+		</Faunal_materials_present>
+		<Subsurface_potential t="radio" f="nocertainty"> 
+			<desc>Assess the potential for sub-surface deposits of cultural material.
+			</desc>
+			<!--@SOURCE: vocab/subsurface_pot.xml-->
+		</Subsurface_potential>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
+	</Surface_Exposure>
+	<Boundary f="noscroll">
+		<Boundary_criterion f="nocertainty"> 
+			<desc>Select criterion used in recording boundary coordinates			
+			</desc>
+			
+			<!--@SOURCE: vocab/boundary_types.xml-->
+		</Boundary_criterion>
+		<New_Boundary_Point t="button" lc="Surface_Exposure_Boundary_point"/>
+		<List_of_Related_Boundary_Points t="list" ec="Surface_Exposure_Boundary_point"/>
+	</Boundary>
+
+</Surface_Exposure>
+<Surface_Exposure_Boundary_point>
+	<fmt>SE-BP-{{timestamp}}</fmt>
+	<Surface_Exposure_Boundary_point>
+	<timestamp/>
+<!-- 	<Boundary_point_ID f="id" i="Surface_Exposure/Surface_Exposure/ID">
+	</Boundary_point_ID> -->
+	<gps f="id">
+		<desc>Record boundary coordinates at 3-5 m intervals</desc>
+	</gps>
+
+	</Surface_Exposure_Boundary_point>
+</Surface_Exposure_Boundary_point>
+</module>
+
