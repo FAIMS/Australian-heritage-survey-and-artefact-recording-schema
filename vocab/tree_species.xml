@@ -1,0 +1,26 @@
+<opts>
+    <opt>Cooktown ironwood
+        <desc>Erythrophleum chlorostachys</desc>
+    </opt>
+    <opt>Redgum
+        <desc>Eucalyptus camaldulensis</desc>
+    </opt>
+    <opt>Black box
+        <desc>Eucalyptus largiflorens</desc>
+    </opt>
+    <opt>Sandalwood
+        <desc>Santulum spp.</desc>
+    </opt>
+    <opt>Paperbark
+        <desc>Melaleuca spp.</desc>
+    </opt>
+    <opt>Tamarind
+        <desc>Tamarindus indica</desc>
+    </opt>
+    <opt>Mango
+        <desc>Mangifera indica</desc>
+    </opt>
+    <opt>Other
+        <desc>Please provide common, language and scientific name in annotation, where possible.</desc>
+    </opt>
+</opts>

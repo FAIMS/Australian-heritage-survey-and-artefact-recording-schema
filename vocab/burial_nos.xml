@@ -1,0 +1,29 @@
+<opts>
+    <opt>None present
+        <desc>No markers present, typically associated with Indigenous burials that are exposed at the ground surface</desc>
+    </opt>
+    <opt>Stone cairn
+        <desc>Stone placed to create a cairn or small heap over the burial</desc>
+    </opt>
+    <opt>Stone lined
+        <desc>Stone used to mark the boundary of the burial area</desc>
+    </opt>
+    <opt>Wooden marker
+        <desc>Simple wooden marker, not in the form of a cross, and used to mark the burial</desc>
+    </opt>
+    <opt>Wooden cross
+        <desc>Wooden cross placed on burial</desc>
+    </opt>
+    <opt>Wooden fence
+        <desc>Wooden fence placed around burial area</desc>
+    </opt>
+    <opt>Concreted
+        <desc>Concrete used to demarcate the burial, either by creating a border or cover (partial or full)</desc>
+    </opt>
+    <opt>Headstone
+        <desc>Manufactured headstone, typically with engraved or applied script</desc>
+    </opt>
+    <opt>Other
+        <desc>Other markers used, please describe in annotations</desc>
+    </opt>
+</opts>

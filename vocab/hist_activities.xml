@@ -1,0 +1,44 @@
+<opts>
+    <opt>Stock
+        <desc>Stuctures associated with management of stock (yards, shelters)</desc>
+    </opt>
+    <opt>Gardening and agriculture
+        <desc>Areas or structures associated with growing plants for food or ornamental reasons (nursery, household garden, orchard)</desc>
+    </opt>
+    <opt>Residential dwelling
+        <desc>Building used primarily as a residence for people</desc>
+    </opt>
+    <opt>Residential outbuildings
+        <desc>Ancilliary structures used mostly by people and associated with a residential dwelling, but that are not used as a residence (e.g. outhouses, external kitchen)</desc>
+    </opt>
+    <opt>Industrial
+        <desc>Industrial facilities associated with manufacturing or production, regardless of scale or commercial intent (mining, milling timber, brick making, lime kiln)</desc>
+    </opt>
+    <opt>Commercial
+        <desc>Features directly associated with commercial activities (e.g. store, hotel, bank)</desc>
+    </opt>
+    <opt>Communications
+        <desc>Features directly associated with communication (telegraph station or line, radio tower)</desc>
+    </opt>
+    <opt>Transport
+        <desc>Features constructed to aid transportation of people or goods (e.g. weir, bridge, landing, loading ramp, railway siding)</desc>
+    </opt>
+    <opt>Water management
+        <desc>Features associated with storage or movement of water (e.g. tanks, weirs)</desc>
+    </opt>
+    <opt>Religious
+        <desc>Features associated with religious worshop and associated actiivites (e.g. church)</desc>
+    </opt>
+    <opt>Memorials
+        <desc>Features marking significant events or activities, but not associated with a burial (e.g. historic monument)</desc>
+    </opt>
+    <opt>Burials
+        <desc>Single or multiple burials. </desc>
+    </opt>
+    <opt>Defensive
+        <desc>Military installations </desc>
+    </opt>
+    <opt>Other
+        <desc>other please describe</desc>
+    </opt>
+</opts>

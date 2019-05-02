@@ -1,0 +1,23 @@
+<opts>
+    <opt>Glass
+        <desc>Glass items or sherds</desc>
+    </opt>
+    <opt>Ceramic
+        <desc>Ceramic items or sherds</desc>
+    </opt>
+    <opt>Metal
+        <desc>Metal items or fragments</desc>
+    </opt>
+    <opt>Stone artefacts
+        <desc>Stone flakes, cores, grindstones, pounders, etc</desc>
+    </opt>
+    <opt>Stone manuports
+        <desc>Stones, with no evidence of utilisation or use, and not part of a stone border (e.g. placing a stone on grave)</desc>
+    </opt>
+    <opt>Faunal materials
+        <desc>Shells, animal teeth, egg shells, etc</desc>
+    </opt>
+    <opt>Ochre
+        <desc>Ochre observed</desc>
+    </opt>
+</opts>

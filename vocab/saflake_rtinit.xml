@@ -1,0 +1,11 @@
+<opts>
+    <opt>Ventral
+        <desc>Unifacial retouch initiated on the ventral surface, resulting in small flakes detaching from the dorsal surface</desc>
+    </opt>
+    <opt>Dorsal
+        <desc>Unifacial retouch initiated on the dorsal surface, resulting in small flakes detaching from the ventral surface</desc>
+    </opt>
+    <opt>Bifacial
+        <desc>Bifacial retouch, initiated on both dorsal and ventral surface</desc>
+    </opt>
+</opts>

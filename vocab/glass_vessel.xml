@@ -1,0 +1,26 @@
+<opts>
+    <opt>Bottle
+        <desc>Any bottle type</desc>
+    </opt>
+    <opt>Tableware
+        <desc>Glass plates, saucers, cups or other such tableware items</desc>
+    </opt>
+    <opt>Stemware
+        <desc>Glass artefacts with stems, such as wine glasses</desc>
+    </opt>
+    <opt>Condiments
+        <desc>Artefacts used for storing salt, spices, sauces, etc</desc>
+    </opt>
+    <opt>Tumbler
+        <desc>Tumbler or shot glass</desc>
+    </opt>
+    <opt>Lamp
+        <desc>Lamp glass</desc>
+    </opt>
+    <opt>Window
+        <desc>Window glass</desc>
+    </opt>
+    <opt>Other
+        <desc>Other please describe</desc>
+    </opt>
+</opts>

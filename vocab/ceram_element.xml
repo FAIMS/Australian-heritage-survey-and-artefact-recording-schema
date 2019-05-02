@@ -1,0 +1,50 @@
+<opts>
+    <opt>RIM
+        <desc>Rim or marley only</desc>
+    </opt>
+    <opt>BODY
+        <desc>Body sherd or side</desc>
+    </opt>
+    <opt>BASE
+        <desc>Base or footing only</desc>
+    </opt>
+    <opt>BODYBase
+        <desc>Body and base</desc>
+    </opt>
+    <opt>BODYRim
+        <desc>Body and rim</desc>
+    </opt>
+    <opt>HANDLE
+        <desc>Handle</desc>
+    </opt>
+    <opt>LID
+        <desc>Lid</desc>
+    </opt>
+    <opt>NECK
+        <desc>Neck only</desc>
+    </opt>
+    <opt>NECKfin
+        <desc>Neck and finish</desc>
+    </opt>
+    <opt>FINISH
+        <desc>Finish only</desc>
+    </opt>
+    <opt>SHOULDNECK
+        <desc>Shoulder and neck</desc>
+    </opt>
+    <opt>FIN_SHOUL_NCK
+        <desc>Finish shoulder and neck</desc>
+    </opt>
+    <opt>SHOULDER
+        <desc>Shoulder only</desc>
+    </opt>
+    <opt>PIPEBOWL
+        <desc>Pipe bowl</desc>
+    </opt>
+    <opt>PIPESTEM
+        <desc>Pipe stem</desc>
+    </opt>
+    <opt>OTHER
+        <desc>Other please describe</desc>
+    </opt>
+</opts>

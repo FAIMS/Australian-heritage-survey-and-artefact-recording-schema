@@ -1,0 +1,17 @@
+<opts>
+    <opt>Not exposed
+        <desc>Burial that is not exposed, with location only indicated by a grave marker</desc>
+    </opt>
+    <opt>Partially exposed
+        <desc>Less than 50% of the burial is exposed at the ground surface, with the remainder likely to be insitu but fully buried</desc>
+    </opt>
+    <opt>Exposed but insitu
+        <desc>The burial is mostly exposed, but remains insitu, with major skeletal elements present</desc>
+    </opt>
+    <opt>Disturbed
+        <desc>The burial is mostly exposed, and less than 50% of major skeletal elements are present</desc>
+    </opt>
+    <opt>Remnant
+        <desc>Highly degraded burial, with only minor remnants (&amp;amp;lt;10%) of skeletal materials present</desc>
+    </opt>
+</opts>

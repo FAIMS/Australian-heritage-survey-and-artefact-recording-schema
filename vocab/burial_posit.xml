@@ -1,0 +1,26 @@
+<opts>
+    <opt>Disarticulated
+        <desc>Disarticulated remains</desc>
+    </opt>
+    <opt>Buried
+        <desc>No skeletal remains observable</desc>
+    </opt>
+    <opt>Ext_FD
+        <desc>Extended, face down</desc>
+    </opt>
+    <opt>Ext_FU
+        <desc>Extended, face up</desc>
+    </opt>
+    <opt>Flex_UP
+        <desc>Flexed, upright position (head up)</desc>
+    </opt>
+    <opt>Flex_SIDE
+        <desc>Flexed, on side</desc>
+    </opt>
+    <opt>Tree
+        <desc>Tree burial, bundle</desc>
+    </opt>
+    <opt>Other
+        <desc>Other burial types</desc>
+    </opt>
+</opts>

@@ -25,11 +25,26 @@
           </User_List>
           <Control>
             <Control>
-              <Entity_list/>
-              <New_entity/>
-              <Recent_records/>
+              <Complex_Features/>
+              <New_Surface_Exposure/>
+              <New_Mound/>
+              <New_Rockshelter/>
+              <New_Historical_Feature/>
+              <New_Burial/>
+              <New_Point_of_Interest/>
+              <Objects/>
+              <New_Tree/>
+              <New_Flake/>
+              <New_Other_Stone_Artefact/>
+              <New_Glass_Artefact/>
+              <New_Ceramic_Artefact/>
+              <New_Misc_Artefact/>
+              <New_Discrete_Hearth/>
               <GPS_diagnostics/>
             </Control>
+            <Recent>
+              <Recent_records/>
+            </Recent>
             <Search>
               <Colgroup_0>
                 <Col_0>
@@ -42,6 +57,9 @@
               <Entity_Types/>
               <Entity_List/>
             </Search>
+            <Autonumbering>
+              <Next_ID/>
+            </Autonumbering>
             <Map>
               <Map/>
               <Colgroup_1>
@@ -56,6 +74,7 @@
           </Control>
           <Surface_Exposure>
             <Surface_Exposure>
+              <ID/>
               <Surface_Exposure_author/>
               <Surface_Exposure_timestamp/>
               <Level_of_recording/>
@@ -79,12 +98,15 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
-              <External_camera_ID/>
-              <External_camera_filenames/>
-              <Survey_instrument_name/>
-              <Survey_instrument_data/>
+            </Surface_Exposure>
+            <Boundary>
+              <New_Boundary_Point/>
+              <List_of_Related_Boundary_Points/>
+            </Boundary>
+            <Landscape_context>
               <Landform_pattern/>
               <Landform_element/>
               <Dominant_vegetation_type/>
@@ -94,6 +116,8 @@
               <Add_new_note_Button_1/>
               <Morphology_type/>
               <Morphology_notes/>
+            </Landscape_context>
+            <Feature_details>
               <Length_m/>
               <Width_m/>
               <Other_measurement/>
@@ -107,16 +131,22 @@
               <Heating_element_types_observed/>
               <Faunal_materials_present/>
               <Subsurface_potential/>
+            </Feature_details>
+            <Supplementary>
               <Additional_notes/>
-            </Surface_Exposure>
-            <Boundary>
-              <Boundary_criterion/>
-              <New_Boundary_Point/>
-              <List_of_Related_Boundary_Points/>
-            </Boundary>
+              <Paper_notes_and_sketches/>
+              <Paper_notes_and_sketches_Button_1/>
+              <External_camera_ID/>
+              <External_camera_filenames/>
+              <External_camera_filenames_Button_1/>
+              <Survey_instrument_name/>
+              <Survey_instrument_data/>
+            </Supplementary>
           </Surface_Exposure>
           <Surface_Exposure_Boundary_point>
             <Surface_Exposure_Boundary_point>
+              <Surface_Exposure_ID/>
+              <Boundary_Point_ID/>
               <Surface_Exposure_Boundary_point_timestamp/>
               <Colgroup_1>
                 <Col_1>
@@ -138,16 +168,18 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Comment/>
             </Surface_Exposure_Boundary_point>
           </Surface_Exposure_Boundary_point>
         </faims>
       </instance>
-      <bind nodeset="/faims/Surface_Exposure/Surface_Exposure/Length_m" type="decimal"/>
-      <bind nodeset="/faims/Surface_Exposure/Surface_Exposure/Width_m" type="decimal"/>
-      <bind nodeset="/faims/Surface_Exposure/Surface_Exposure/Other_measurement" type="decimal"/>
-      <bind nodeset="/faims/Surface_Exposure/Surface_Exposure/Stone_artefact_count" type="integer"/>
-      <bind nodeset="/faims/Surface_Exposure/Surface_Exposure/Historical_artefact_count" type="integer"/>
-      <bind nodeset="/faims/Surface_Exposure/Surface_Exposure/In_situ_hearth_count" type="integer"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_ID" type="decimal"/>
+      <bind nodeset="/faims/Surface_Exposure/Feature_details/Length_m" type="decimal"/>
+      <bind nodeset="/faims/Surface_Exposure/Feature_details/Width_m" type="decimal"/>
+      <bind nodeset="/faims/Surface_Exposure/Feature_details/Other_measurement" type="decimal"/>
+      <bind nodeset="/faims/Surface_Exposure/Feature_details/Stone_artefact_count" type="integer"/>
+      <bind nodeset="/faims/Surface_Exposure/Feature_details/Historical_artefact_count" type="integer"/>
+      <bind nodeset="/faims/Surface_Exposure/Feature_details/In_situ_hearth_count" type="integer"/>
     </model>
   </h:head>
   <h:body>
@@ -189,18 +221,59 @@
     </group>
     <group ref="Control">
       <label>{Control}</label>
-      <group ref="Control" faims_scrollable="false">
+      <group ref="Control">
         <label>{Control}</label>
-        <select1 ref="Entity_list">
-          <label>{Entity_list}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
-        <trigger ref="New_entity">
-          <label>{New_entity}</label>
+        <input faims_web="true" ref="Complex_Features">
+          <label/>
+        </input>
+        <trigger ref="New_Surface_Exposure">
+          <label>{New_Surface_Exposure}</label>
         </trigger>
+        <trigger ref="New_Mound">
+          <label>{New_Mound}</label>
+        </trigger>
+        <trigger ref="New_Rockshelter">
+          <label>{New_Rockshelter}</label>
+        </trigger>
+        <trigger ref="New_Historical_Feature">
+          <label>{New_Historical_Feature}</label>
+        </trigger>
+        <trigger ref="New_Burial">
+          <label>{New_Burial}</label>
+        </trigger>
+        <trigger ref="New_Point_of_Interest">
+          <label>{New_Point_of_Interest}</label>
+        </trigger>
+        <input faims_web="true" ref="Objects">
+          <label/>
+        </input>
+        <trigger ref="New_Tree">
+          <label>{New_Tree}</label>
+        </trigger>
+        <trigger ref="New_Flake">
+          <label>{New_Flake}</label>
+        </trigger>
+        <trigger ref="New_Other_Stone_Artefact">
+          <label>{New_Other_Stone_Artefact}</label>
+        </trigger>
+        <trigger ref="New_Glass_Artefact">
+          <label>{New_Glass_Artefact}</label>
+        </trigger>
+        <trigger ref="New_Ceramic_Artefact">
+          <label>{New_Ceramic_Artefact}</label>
+        </trigger>
+        <trigger ref="New_Misc_Artefact">
+          <label>{New_Misc_Artefact}</label>
+        </trigger>
+        <trigger ref="New_Discrete_Hearth">
+          <label>{New_Discrete_Hearth}</label>
+        </trigger>
+        <input faims_read_only="true" ref="GPS_diagnostics">
+          <label>{GPS_diagnostics}</label>
+        </input>
+      </group>
+      <group ref="Recent" faims_scrollable="false">
+        <label>{Recent}</label>
         <select1 appearance="compact" ref="Recent_records">
           <label>{Recent_records}</label>
           <item>
@@ -208,9 +281,6 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_read_only="true" ref="GPS_diagnostics">
-          <label>{GPS_diagnostics}</label>
-        </input>
       </group>
       <group ref="Search" faims_scrollable="false">
         <label>{Search}</label>
@@ -244,6 +314,12 @@
           </item>
         </select1>
       </group>
+      <group ref="Autonumbering">
+        <label>{Autonumbering}</label>
+        <input ref="Next_ID" faims_style_class="required">
+          <label>{Next_ID}</label>
+        </input>
+      </group>
       <group ref="Map" faims_scrollable="false">
         <label>{Map}</label>
         <input faims_map="true" ref="Map">
@@ -270,10 +346,13 @@
       <label>{Surface_Exposure}</label>
       <group ref="Surface_Exposure">
         <label>{Surface_Exposure}</label>
-        <input faims_attribute_name="Surface Exposure author" faims_attribute_type="measure" ref="Surface_Exposure_author" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+        <input faims_attribute_name="ID" faims_attribute_type="measure" ref="ID">
+          <label>{ID}</label>
+        </input>
+        <input faims_attribute_name="Surface Exposure author" faims_attribute_type="measure" ref="Surface_Exposure_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Surface Exposure timestamp" faims_attribute_type="measure" ref="Surface_Exposure_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+        <input faims_attribute_name="Surface Exposure timestamp" faims_attribute_type="measure" ref="Surface_Exposure_timestamp" faims_read_only="true" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <select1 faims_attribute_name="Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
@@ -322,6 +401,13 @@
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
         </trigger>
+        <select1 faims_attribute_name="Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
+          <label>{Boundary_criterion}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
@@ -332,26 +418,22 @@
         <trigger ref="Device_photos_Button_1">
           <label>{Device_photos}</label>
         </trigger>
-        <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
-          <label>{External_camera_ID}</label>
+      </group>
+      <group ref="Boundary" faims_scrollable="false">
+        <label>{Boundary}</label>
+        <trigger ref="New_Boundary_Point">
+          <label>{New_Boundary_Point}</label>
+        </trigger>
+        <select1 appearance="compact" ref="List_of_Related_Boundary_Points">
+          <label>{List_of_Related_Boundary_Points}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera filenames" faims_attribute_type="measure" ref="External_camera_filenames" faims_certainty="false">
-          <label>{External_camera_filenames}</label>
-        </input>
-        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
-          <label>{Survey_instrument_name}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
-        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
-          <label>{Survey_instrument_data}</label>
-        </input>
+      </group>
+      <group ref="Landscape_context">
+        <label>{Landscape_context}</label>
         <select1 faims_attribute_name="Landform pattern" faims_attribute_type="vocab" ref="Landform_pattern">
           <label>{Landform_pattern}</label>
           <item>
@@ -403,6 +485,9 @@
         <input faims_attribute_name="Morphology notes" faims_attribute_type="measure" ref="Morphology_notes" faims_annotation="false" faims_certainty="false">
           <label>{Morphology_notes}</label>
         </input>
+      </group>
+      <group ref="Feature_details">
+        <label>{Feature_details}</label>
         <input faims_attribute_name="Length m" faims_attribute_type="measure" ref="Length_m" faims_annotation="false" faims_certainty="false">
           <label>{Length_m}</label>
         </input>
@@ -470,36 +555,62 @@
             <value>Options not loaded</value>
           </item>
         </select1>
+      </group>
+      <group ref="Supplementary">
+        <label>{Supplementary}</label>
         <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_notes}</label>
         </input>
-      </group>
-      <group ref="Boundary" faims_scrollable="false">
-        <label>{Boundary}</label>
-        <select1 faims_attribute_name="Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
-          <label>{Boundary_criterion}</label>
+        <select faims_sync="true" type="camera" faims_attribute_name="Paper notes and sketches" faims_attribute_type="measure" ref="Paper_notes_and_sketches" faims_certainty="false">
+          <label>{Paper_notes_and_sketches}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
-        </select1>
-        <trigger ref="New_Boundary_Point">
-          <label>{New_Boundary_Point}</label>
+        </select>
+        <trigger ref="Paper_notes_and_sketches_Button_1">
+          <label>{Paper_notes_and_sketches}</label>
         </trigger>
-        <select1 appearance="compact" ref="List_of_Related_Boundary_Points">
-          <label>{List_of_Related_Boundary_Points}</label>
+        <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
+          <label>{External_camera_ID}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera filenames" faims_attribute_type="measure" ref="External_camera_filenames" faims_certainty="false">
+          <label>{External_camera_filenames}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="External_camera_filenames_Button_1">
+          <label>{External_camera_filenames}</label>
+        </trigger>
+        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+          <label>{Survey_instrument_name}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+          <label>{Survey_instrument_data}</label>
+        </input>
       </group>
     </group>
     <group ref="Surface_Exposure_Boundary_point" faims_archent_type="Surface Exposure Boundary point">
       <label>{Surface_Exposure_Boundary_point}</label>
       <group ref="Surface_Exposure_Boundary_point">
         <label>{Surface_Exposure_Boundary_point}</label>
-        <input faims_attribute_name="Surface Exposure Boundary point timestamp" faims_attribute_type="measure" ref="Surface_Exposure_Boundary_point_timestamp" faims_read_only="true">
+        <input faims_attribute_name="Surface Exposure ID" faims_attribute_type="measure" ref="Surface_Exposure_ID" faims_certainty="false">
+          <label>{Surface_Exposure_ID}</label>
+        </input>
+        <input faims_attribute_name="Boundary Point ID" faims_attribute_type="measure" ref="Boundary_Point_ID" faims_certainty="false">
+          <label>{Boundary_Point_ID}</label>
+        </input>
+        <input faims_attribute_name="Surface Exposure Boundary point timestamp" faims_attribute_type="measure" ref="Surface_Exposure_Boundary_point_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
@@ -541,6 +652,9 @@
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
         </trigger>
+        <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
+          <label>{Comment}</label>
+        </input>
       </group>
     </group>
   </h:body>

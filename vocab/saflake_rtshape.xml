@@ -1,0 +1,14 @@
+<opts>
+    <opt>Concave
+        <desc>In plan view, the retouched margins is concave -- typically on a lateral margin</desc>
+    </opt>
+    <opt>Convex
+        <desc>In plan view, the retouched margin is convex</desc>
+    </opt>
+    <opt>Straight
+        <desc>In plan view, the retouched margin in mostly straight</desc>
+    </opt>
+    <opt>Irregular
+        <desc>In plan view, the retouched margin features a combination of edge-shapes</desc>
+    </opt>
+</opts>

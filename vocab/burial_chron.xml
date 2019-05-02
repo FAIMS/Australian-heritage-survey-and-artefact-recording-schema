@@ -1,0 +1,29 @@
+<opts>
+    <opt>Pre-colonial
+        <desc>Feature is associated with pre-colonial lifeways</desc>
+    </opt>
+    <opt>Early settler-colonial
+        <desc>Specific age indeterminate, but burial form and setting is consistent with the pre-1900 period</desc>
+    </opt>
+    <opt>Pre-war
+        <desc>Specific age indeterminate, but burial form and setting is consistent with the period 1900-1939</desc>
+    </opt>
+    <opt>Post-war
+        <desc>Specific age indeterminate, but burial form and setting is consistent with a post-1939 age</desc>
+    </opt>
+    <opt>Early 19th C
+        <desc>Grave markers in range 1800-1850</desc>
+    </opt>
+    <opt>Late 19th C
+        <desc>Grave markers in range 1851-1900</desc>
+    </opt>
+    <opt>Early 20th C
+        <desc>Grave markers in range 1901-1950</desc>
+    </opt>
+    <opt>Late 20th C
+        <desc>Grave markers post-date 1951</desc>
+    </opt>
+    <opt>Indeterminate settler-colonial
+        <desc>Settler colonial burials as indicated by burial form and setting, or associated material culture, but specific age is unknown</desc>
+    </opt>
+</opts>

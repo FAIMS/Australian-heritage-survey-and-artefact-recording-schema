@@ -1,0 +1,17 @@
+<opts>
+    <opt>Earth dominant
+        <desc>Mound matrix is &amp;amp;gt; 70% sediment (aka earth mound)</desc>
+    </opt>
+    <opt>Shell dominant
+        <desc>Mound matrix is &amp;amp;gt; 70% shell or shell fragments (aka shell mound)</desc>
+    </opt>
+    <opt>Sand dominant
+        <desc>Mound matrix is &amp;amp;gt;70% sand</desc>
+    </opt>
+    <opt>Mixed
+        <desc>Mound matrix is mixed (describe below)</desc>
+    </opt>
+    <opt>Unknown
+        <desc>Mound matrix obscured (e.g. by surface vegetation)</desc>
+    </opt>
+</opts>

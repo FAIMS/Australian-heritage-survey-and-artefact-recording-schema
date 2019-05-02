@@ -1,0 +1,35 @@
+<opts>
+    <opt>Exotic
+        <desc>A non-native species, including both intentional plantings as well as natural spread</desc>
+    </opt>
+    <opt>Canoe
+        <desc>Primary scar is likely associated with watercraft manufacture, typically very long (1.5m or more) scar area</desc>
+    </opt>
+    <opt>Woomera
+        <desc>Primary scar is likely associated with cutting wood to produce one or more woomera blanks</desc>
+    </opt>
+    <opt>Sugarbag
+        <desc>Primary scar is associated with extraction of sugarbag, or wild honey</desc>
+    </opt>
+    <opt>Combination
+        <desc>A tree with multiple scar-types</desc>
+    </opt>
+    <opt>AxeMarks
+        <desc>Axe marks not associated with other scar types</desc>
+    </opt>
+    <opt>Toeholds
+        <desc>A series of shallow notches in tree bole, and extending up trunk</desc>
+    </opt>
+    <opt>Markings
+        <desc>Other markings that have involved removal of bark or wood, but reason unclear</desc>
+    </opt>
+    <opt>Guama
+        <desc>Small area of bark removed for manufacture of planer</desc>
+    </opt>
+    <opt>Survey
+        <desc>Any mark associated with land surveying activity</desc>
+    </opt>
+    <opt>Other
+        <desc>Other tree types not listed here</desc>
+    </opt>
+</opts>

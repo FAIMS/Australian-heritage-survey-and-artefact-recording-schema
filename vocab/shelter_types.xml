@@ -1,0 +1,17 @@
+<opts>
+    <opt>Tor
+        <desc>A freestanding rock outcrop that rises abruptly from a gently rounded hill or ridge top</desc>
+    </opt>
+    <opt>Escarpment
+        <desc>Shelter within a typically long, and steep cliff that demarcates two differing areas of vegetation</desc>
+    </opt>
+    <opt>Mesa
+        <desc>A prominent elevated area with a relatively flat top but steep sides</desc>
+    </opt>
+    <opt>Inselburg
+        <desc>A prominent residual relief feature that rises, like an island, from adjacent surrounding plains</desc>
+    </opt>
+    <opt>Other
+        <desc>Please describe in comments</desc>
+    </opt>
+</opts>

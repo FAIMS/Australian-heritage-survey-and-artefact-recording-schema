@@ -1,30 +1,44 @@
 <opts>
-				<opt>Tegillarca granosa
-					<desc>Estuarine species, common in tropical coastal areas. Also known as Kwambuck or Cockle Shell</desc></opt>
-				<opt>Polymesoda erosa
-					<desc>Estuarine species, found in mangrove ecosystems. Also known as mudshell</desc></opt>
-				<opt>Telescopium telescopium
-					<desc>Tropical estuarine species, common on intertidal flats</desc></opt>
-				<opt>Volema cochlidium
-					<desc>Tropical estuarine species, common on intertidal flats</desc></opt>
-				<opt>Other invertebrates
-					<desc>Use for all other marine shellfish species, please photograph and describe representative specimens</desc></opt>
-				<opt>Velesunio ambiguus
-					<desc>Freshwater species, found in many inland river systems</desc></opt>
-				<opt>Alathyria spp.
-					<desc>Freshwater species, common in Murray-Darling and other inland river systems. Similar form to Velesunio, but more compact</desc></opt>
-				<opt>Freshwater molluscs-other
-					<desc>Other freshwater species, photograph and describe representative specimens</desc></opt>
-				<opt>Fish bone
-					<desc>Any fish bones, including otoliths</desc></opt>
-				<opt>Dugong bone
-					<desc>Robust marine mammal, distinctive anatomy. Rare on archaeological sites</desc></opt>
-				<opt>Turtle bone or shell
-					<desc>Marine turtle bone or shell, restricted to northern and eastern Australia. Rare on archaeological sites</desc></opt>
-				<opt>Other vertebrate fauna
-					<desc>Other vertebrate fauna, photograph and describe representative specimens</desc></opt>
-				<opt>Introduced fauna
-					<desc>For exotic species such as cattle, sheep, pig or goat</desc></opt>
-				<opt>Other
-					<desc>Please describe with annotation</desc></opt>	
-			</opts>		
+    <opt>Tegillarca granosa
+        <desc>Estuarine species, common in tropical coastal areas. Also known as Kwambuck or Cockle Shell</desc>
+    </opt>
+    <opt>Polymesoda erosa
+        <desc>Estuarine species, found in mangrove ecosystems. Also known as mudshell</desc>
+    </opt>
+    <opt>Telescopium telescopium
+        <desc>Tropical estuarine species, common on intertidal flats</desc>
+    </opt>
+    <opt>Volema cochlidium
+        <desc>Tropical estuarine species, common on intertidal flats</desc>
+    </opt>
+    <opt>Other invertebrates
+        <desc>Use for all other marine shellfish species, please photograph and describe representative specimens</desc>
+    </opt>
+    <opt>Velesunio ambiguus
+        <desc>Freshwater species, found in many inland river systems</desc>
+    </opt>
+    <opt>Alathyria spp.
+        <desc>Freshwater species, common in Murray-Darling and other inland river systems. Similar form to Velesunio, but more compact</desc>
+    </opt>
+    <opt>Freshwater molluscs-other
+        <desc>Other freshwater species, photograph and describe representative specimens</desc>
+    </opt>
+    <opt>Fish bone
+        <desc>Any fish bones, including otoliths</desc>
+    </opt>
+    <opt>Dugong bone
+        <desc>Robust marine mammal, distinctive anatomy. Rare on archaeological sites</desc>
+    </opt>
+    <opt>Turtle bone or shell
+        <desc>Marine turtle bone or shell, restricted to northern and eastern Australia. Rare on archaeological sites</desc>
+    </opt>
+    <opt>Other vertebrate fauna
+        <desc>Other vertebrate fauna, photograph and describe representative specimens</desc>
+    </opt>
+    <opt>Introduced fauna
+        <desc>For exotic species such as cattle, sheep, pig or goat</desc>
+    </opt>
+    <opt>Other
+        <desc>Please describe with annotation</desc>
+    </opt>
+</opts>

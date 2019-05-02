@@ -1,0 +1,50 @@
+<opts>
+    <opt>Foundations
+        <desc>Features used as footings for structures, such as linear features made from wood, brick, stone or compacted sediment, or raised/levelled features providing a demarcated floor (e.g. raised earthen floor, concrete pad)</desc>
+    </opt>
+    <opt>Standing structure
+        <desc>Any historic structure that is still standing, more than 50% intact, and whose original form and fabric is easily discerned</desc>
+    </opt>
+    <opt>Walls or posts
+        <desc>Any historic wall or remnants thereof, both collapsed or standing, including associated gates, posts or entrances</desc>
+    </opt>
+    <opt>Fences
+        <desc>Any historic fence, collapsed or standing, including associated gates, posts or entrances</desc>
+    </opt>
+    <opt>Landscaping
+        <desc>Modification of the original land surface for any purpose</desc>
+    </opt>
+    <opt>Plantings
+        <desc>Areas used for planting of edible or ornamental species (orchards, gardens)</desc>
+    </opt>
+    <opt>Rubble
+        <desc>Assemblage of construction material (e.g. brick, stone, wood, concrete) associated with a collapsed structure or building</desc>
+    </opt>
+    <opt>Discard area
+        <desc>Areas or features used for intentional discard of refuse (privy pits, incinerators, rubbish areas)</desc>
+    </opt>
+    <opt>Well
+        <desc>Intentionally constructed feature, typically lined, and used for retrieving water</desc>
+    </opt>
+    <opt>Water management
+        <desc>Features associated with capture, movement or storage of water (weir, pipeline, canals, tank)</desc>
+    </opt>
+    <opt>Roads and tracks
+        <desc>Features, typically linear, associated with transportation of people, stock or goods (e.g. historic track, pathway, raised road)</desc>
+    </opt>
+    <opt>Mining
+        <desc>Features assocaited with mining activities (stamp head, davit trench, associated structures and buildings)</desc>
+    </opt>
+    <opt>Machinery
+        <desc>Objects or structures that are mechanical in nature (e.g. abandoned vehicle, wrecked plane, mining equipment)</desc>
+    </opt>
+    <opt>Burials
+        <desc>Evidence of burials (single or multiple)</desc>
+    </opt>
+    <opt>Wharf or landing
+        <desc>Features used for landing, loading and unloading vessels. Can be built structures or modified landscape</desc>
+    </opt>
+    <opt>Other
+        <desc>Use annotation field to describe</desc>
+    </opt>
+</opts>

@@ -1,0 +1,20 @@
+<opts>
+    <opt>NONE
+        <desc>None unglazed</desc>
+    </opt>
+    <opt>SINGLE
+        <desc>Single colour slip</desc>
+    </opt>
+    <opt>ROCK
+        <desc>Rockingham</desc>
+    </opt>
+    <opt>CLEAR
+        <desc>Clear lead or other oxide</desc>
+    </opt>
+    <opt>TIN
+        <desc>Tin</desc>
+    </opt>
+    <opt>SALT
+        <desc>Salt and single colour slip</desc>
+    </opt>
+</opts>

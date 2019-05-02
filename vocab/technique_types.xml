@@ -1,0 +1,29 @@
+<opts>
+    <opt>Pigment -- Stencils
+        <desc>Tracings of objects</desc>
+    </opt>
+    <opt>Pigment -- prints
+        <desc>Wet application of pigment onto subject (e.g. hand) and then placed against panel surface</desc>
+    </opt>
+    <opt>Pigment -- drawings
+        <desc>Typically linear application of pigment, for example, clay &amp;#x27;crayons&amp;#x27;</desc>
+    </opt>
+    <opt>Pigment -- paintings
+        <desc>Wet application of pigment onto surface</desc>
+    </opt>
+    <opt>Engraved -- abraded
+        <desc>Engravings created through direct abrasion</desc>
+    </opt>
+    <opt>Engraved -- pecked
+        <desc>Engravings created through pecking or percussion</desc>
+    </opt>
+    <opt>Engraved with pigment applied
+        <desc>Engravings with pigment applied</desc>
+    </opt>
+    <opt>Grinding patches
+        <desc>Grooves or depressions created through intensive grinding, e.g. for ochre preparation</desc>
+    </opt>
+    <opt>Other
+        <desc>Describe in annotations</desc>
+    </opt>
+</opts>

@@ -1,0 +1,11 @@
+<opts>
+    <opt>Rounded
+        <desc>Smooth cortical surface</desc>
+    </opt>
+    <opt>Irregular
+        <desc>Irregular texture</desc>
+    </opt>
+    <opt>Angular
+        <desc>Angular texture</desc>
+    </opt>
+</opts>

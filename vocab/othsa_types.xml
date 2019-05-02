@@ -1,0 +1,35 @@
+<opts>
+    <opt>Core
+        <desc>Any core type, from which flakes have been detached</desc>
+    </opt>
+    <opt>Anvil
+        <desc>A stone used as a base on which other materials can be hammered or pounded, for example, bipolar flake production, or for cracking seeds </desc>
+    </opt>
+    <opt>Hammerstone
+        <desc>A stone used to detach flakes from a core, with evidence of pitting created through impact</desc>
+    </opt>
+    <opt>Muller
+        <desc>The top stone used in conjunction with a grindstone, which is used to grind seeds, ochre, or other materials</desc>
+    </opt>
+    <opt>Grindstone
+        <desc>The base stone or slab used in conjunction with a muller to grind seeds, ochre, or other materials</desc>
+    </opt>
+    <opt>Edgeground
+        <desc>An edge-ground implement, featuring a distinctive modified distal margin, used for chopping or cutting tasks</desc>
+    </opt>
+    <opt>Manuport
+        <desc>A stone within an archaeological assemblage or landscape setting where such stone does not occur naturally, and thus, must have been moved by humans. If this shows evidence of utilisation, select another category</desc>
+    </opt>
+    <opt>Pounder
+        <desc>An implement used to crack or crush other materials, typically vegetable materials. Can be difficult to distinguish from hammerstones</desc>
+    </opt>
+    <opt>Ochre
+        <desc>Soft, clay-earth pigment composed of ferric oxide, clay and sand, ranging from deep orange to brown in colour</desc>
+    </opt>
+    <opt>Multifunction
+        <desc>A stone used for at least two purposes (e.g. a core utilised for pounding). Complete all relevant fields below</desc>
+    </opt>
+    <opt>Other
+        <desc>Other stone materials utilised by people (e.g hearth stones)</desc>
+    </opt>
+</opts>

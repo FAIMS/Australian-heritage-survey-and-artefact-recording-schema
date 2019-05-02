@@ -1,0 +1,17 @@
+<opts>
+    <opt>Dome
+        <desc>Plan view, circular base. In profile there is only one area of higher elevation with mound surface gently sloping to ground. </desc>
+    </opt>
+    <opt>Cone
+        <desc>Plan view, circular base. In profile, there is only one area of higher elevation, but with steep slope on at least three faces of the mound. Conical appearance</desc>
+    </opt>
+    <opt>Elongate
+        <desc>Plan view, base length is 1.5 to 2 times site width. In profile, there is only one area of higher elevation with mound surface gently sloping to ground.</desc>
+    </opt>
+    <opt>Composite
+        <desc>Mound shape that includes complex shapes in plan view with multiple areas of high elevation</desc>
+    </opt>
+    <opt>Incipient
+        <desc>Low mound, somewhat amorphous in shape</desc>
+    </opt>
+</opts>

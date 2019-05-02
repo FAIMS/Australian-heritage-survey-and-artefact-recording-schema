@@ -1,0 +1,20 @@
+<opts>
+    <opt>Building
+        <desc>A building (remant or extant) created principally to shelter any form of human activity</desc>
+    </opt>
+    <opt>Structure
+        <desc>Immovable functional constructions made for purposes other than creating human shelter (e.g. stock yards, animal shelters, mine shafts, stamp battery) </desc>
+    </opt>
+    <opt>Object
+        <desc>Moveable, small scale, simply constructed items that typically are manufactured for a specific purpose (e.g. ship&amp;#x27;s tank, fuel drum, cornish boiler, plane wreck, abandoned vehicle)</desc>
+    </opt>
+    <opt>Landscape modification
+        <desc>Evidence of modifications to the natural land surface (trenches, ditches, mounds, embankments) or natural vegetation (clearance, new plantings).</desc>
+    </opt>
+    <opt>Site
+        <desc>A focal area for historic occupation or activity, featuring a concentrated assemblage of any combination (extant or remnant) of buildings, structures, objects or landsape modification.</desc>
+    </opt>
+    <opt>
+        <desc>Note: Values and info are adapted from: California Office of Historic Preservation (1995) Instructions for recording historic resources. Department of the Interior, Sacramento, CA. (Accessed 5 April 2019 at http://scic.org/docs/OHP/manual95.pdf)</desc>
+    </opt>
+</opts>

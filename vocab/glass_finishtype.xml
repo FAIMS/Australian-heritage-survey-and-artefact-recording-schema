@@ -1,0 +1,23 @@
+<opts>
+    <opt>Indeterminate</opt>
+    <opt>Not applicable
+        <desc>Item type has no finish</desc>
+    </opt>
+    <opt>External screw thread</opt>
+    <opt>Internal screw thread</opt>
+    <opt>Unfinished</opt>
+    <opt>Blob top</opt>
+    <opt>Single collar ring seal</opt>
+    <opt>Single collar</opt>
+    <opt>Double collar</opt>
+    <opt>Crown seal</opt>
+    <opt>Club sauce</opt>
+    <opt>Prescription lip</opt>
+    <opt>Flared lip</opt>
+    <opt>Two-part</opt>
+    <opt>one-part</opt>
+    <opt>Three-part</opt>
+    <opt>Straight finish folded-in lip</opt>
+    <opt>Flanged</opt>
+    <opt>Applied</opt>
+</opts>

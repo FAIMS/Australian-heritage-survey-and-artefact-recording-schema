@@ -1,0 +1,20 @@
+<opts>
+    <opt>Absent
+        <desc>Missing termination</desc>
+    </opt>
+    <opt>Feather
+        <desc>Minimal thickness at the distal end, and a very acute angle bewteen the dorsal and ventral surface</desc>
+    </opt>
+    <opt>Axial
+        <desc>When the crack forming the termination moves through the core at an approximate right angle</desc>
+    </opt>
+    <opt>Hinge
+        <desc>The fracture meets the core surface at an approximate right angle to the percussion axis of the flake, less abrupt than a step fracture, typically bending from the ventral to dorsal surface </desc>
+    </opt>
+    <opt>Step
+        <desc>Flake is abruptly terminated with a right angled break, creating a distinctive step feature</desc>
+    </opt>
+    <opt>Plunging
+        <desc>The fracture plane curves markedly away from the core and then back into the core, typically leaving a J shaped termination that bends from the dorsal </desc>
+    </opt>
+</opts>

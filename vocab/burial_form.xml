@@ -1,0 +1,14 @@
+<opts>
+    <opt>Landscape
+        <desc>One or more burials with no observed evidence of landscape modification or built structures. Typically associated with Indigenous pre-colonial burials</desc>
+    </opt>
+    <opt>Isolated
+        <desc>Isolated burial/s, outside of a formal cemetary, and typically associated with a short-term endeavour or one off event</desc>
+    </opt>
+    <opt>Formal cemetery
+        <desc>Formal burial area, typically associated with a small township, church or centrally administered body (e.g. council), with multiple burials</desc>
+    </opt>
+    <opt>Discrete burials
+        <desc>Use for phase 2 recording of individual burial plots only.</desc>
+    </opt>
+</opts>

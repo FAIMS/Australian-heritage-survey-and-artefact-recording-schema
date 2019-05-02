@@ -1,0 +1,17 @@
+<opts>
+    <opt>Open
+        <desc>An open fire, built directly on ground surface, not demarcated with stones, and lacking heat retainers</desc>
+    </opt>
+    <opt>Bounded
+        <desc>An open fire, built directly on ground surface, but with stones or other materials placed around edge of hearth</desc>
+    </opt>
+    <opt>PIt
+        <desc>A fire built in a pit, but lacking evidence of the use of heat retainers</desc>
+    </opt>
+    <opt>Earth oven
+        <desc>A fire built in a pit, with heat retainers evident indicating its use as an earth oven</desc>
+    </opt>
+    <opt>Enclosed
+        <desc>A fire built in an enclosed setting, for example, within a brick, stone or metal enclosure</desc>
+    </opt>
+</opts>

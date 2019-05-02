@@ -1,0 +1,35 @@
+<opts>
+    <opt>Charcoal
+        <desc>Fragments of charcoal larger than 10 mm in diameter occur</desc>
+    </opt>
+    <opt>Ashy sediment
+        <desc>Sediment composed of any combination of detrital charcoal, ash, darkened sediment</desc>
+    </opt>
+    <opt>Shellfish
+        <desc>Any shellfish remains</desc>
+    </opt>
+    <opt>Other fauna
+        <desc>Any other kind of faunal remains (e.g. otoliths, teeth)</desc>
+    </opt>
+    <opt>Metal
+        <desc>Metal artefacts or fragments</desc>
+    </opt>
+    <opt>Glass
+        <desc>Any glass items</desc>
+    </opt>
+    <opt>Ceramic
+        <desc>Any ceramic items</desc>
+    </opt>
+    <opt>Brick
+        <desc>Any brick</desc>
+    </opt>
+    <opt>Stone flakes
+        <desc>Flake pieces</desc>
+    </opt>
+    <opt>Stone cores
+        <desc>Stone cores</desc>
+    </opt>
+    <opt>Other
+        <desc>Any other material present</desc>
+    </opt>
+</opts>

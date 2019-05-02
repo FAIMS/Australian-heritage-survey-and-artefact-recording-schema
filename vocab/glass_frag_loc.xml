@@ -1,0 +1,14 @@
+<opts>
+    <opt>Finish or seal only</opt>
+    <opt>Neck with finish or seal</opt>
+    <opt>Neck only</opt>
+    <opt>Shoulder only</opt>
+    <opt>Shoulder with neck</opt>
+    <opt>Body sherd</opt>
+    <opt>Body with base</opt>
+    <opt>Body with shoulder</opt>
+    <opt>Base only</opt>
+    <opt>Stopper</opt>
+    <opt>OtherFrag</opt>
+    <opt>Indeterminate</opt>
+</opts>

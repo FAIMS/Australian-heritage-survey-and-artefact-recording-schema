@@ -1,0 +1,20 @@
+<opts>
+    <opt>Pitting
+        <desc>Small irregular indentations or pits (&amp;amp;lt;5 mm) over a focal area, for example, the distal surface of a hammer stone</desc>
+    </opt>
+    <opt>Crushing
+        <desc>More invasive than pitting, characterised by small fragments of stone being crushed and falling away. Often leaves large pits</desc>
+    </opt>
+    <opt>Grinding
+        <desc>A raw material with at least one surface that is smoother than surrounding cortical surface, typically created by rubbing, and usually indicated also be a colour difference compared with cortex. Does not produce a visible groove</desc>
+    </opt>
+    <opt>Grooves
+        <desc>A distinct, concave and often elongate surface created by removal of raw material through abrasion (e.g. a broad groove on a grindstone)</desc>
+    </opt>
+    <opt>Waist
+        <desc>A narrow, ground or abraded band around the body of a tool (e.g. wasted stone axe)</desc>
+    </opt>
+    <opt>Other
+        <desc>Describe in annotations</desc>
+    </opt>
+</opts>

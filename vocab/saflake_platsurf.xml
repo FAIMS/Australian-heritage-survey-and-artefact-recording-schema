@@ -1,0 +1,14 @@
+<opts>
+    <opt>Absent
+        <desc>Select this if the platform is absent (e.g. medial flakes)</desc>
+    </opt>
+    <opt>Natural
+        <desc>An unmodified natural surface, typically with cortex, though not exclusively</desc>
+    </opt>
+    <opt>Flaked
+        <desc>A platform surface that has been flaked prior to removal of the flake being analysed</desc>
+    </opt>
+    <opt>Abraded
+        <desc>A platform surface that has been ground against a harder surface</desc>
+    </opt>
+</opts>

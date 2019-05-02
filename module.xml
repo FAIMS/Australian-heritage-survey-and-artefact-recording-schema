@@ -37,7 +37,7 @@ Underneath: GPS diagnostics (as specified above)
  		<GPS_diagnostics t="gpsdiag"/>
 	</Control>
 	<Recent f="noscroll">
-		<Recent_records t="list">
+		<Recent_records t="list"/>
 	</Recent>
 	<search/>
 	<!--"Select User" dropdown has been added using @POSTPROC-->
@@ -57,8 +57,8 @@ Underneath: GPS diagnostics (as specified above)
 	<Surface_Exposure>
 		<ID f="id autonum"/> 					
 		
-		<author f="nocertainty noannotation"/>								
-		<timestamp f="id nocertainty noannotation"/> 
+		<author f="nocertainty"/>								
+		<timestamp f="id nocertainty"/> 
 
 		<Level_of_recording f="nocertainty"> 
 			<desc>Detail the recording approach used
@@ -70,30 +70,23 @@ Underneath: GPS diagnostics (as specified above)
 			</desc>
 		</gps>
 		
+		<Boundary_criterion f="nocertainty"> 
+			<desc>Select criterion used in recording boundary coordinates			
+			</desc>
+			
+			<!--@SOURCE: vocab/boundary_types.xml-->
+		</Boundary_criterion>
 		<Device_photos t="camera" f="nocertainty"> 
 			<desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.
 			</desc>
 		</Device_photos>
-		<External_camera_ID f="nocertainty"> 
-			<desc>Select other cameras used for photography (if applicable)
-			</desc>
-			<!--@SOURCE: vocab/camera_ids.xml-->
-	
-		</External_camera_ID>
-		<External_camera_filenames f="nocertainty"> 
-			<desc>Provide file names and brief captions (if applicable)
-			</desc>
-		</External_camera_filenames>
-		<Survey_instrument_name f="nocertainty"> 
-			<desc>If recording coincides with instrument survey, please select appropriate instrument name.
-			</desc>
-			<!--@SOURCE: vocab/survey_instr.xml-->
-			
-		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty"> 
-			<desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.
-			</desc>
-		</Survey_instrument_data>
+	</Surface_Exposure>
+	<Boundary f="noscroll">
+		
+		<New_Boundary_Point t="button" lc="Surface_Exposure_Boundary_point"/>
+		<List_of_Related_Boundary_Points t="list" ec="Surface_Exposure_Boundary_point"/>
+	</Boundary>
+	<Landscape_context>
 		<Landform_pattern> 
 			<desc>300m observational unit.</desc>
 			<!--@SOURCE: vocab/landform_pattern.xml-->	
@@ -131,6 +124,8 @@ Underneath: GPS diagnostics (as specified above)
 			<desc>Record any additional notes about site morphology not captured elsewhere
 			</desc>
 		</Morphology_notes>
+	</Landscape_context>
+	<Feature_details>
 		<Length_m b="decimal" f="nocertainty noannotation"> 
 			<desc>Estimate maximum length of feature, using a tape or pacing
 			</desc>
@@ -190,34 +185,59 @@ Underneath: GPS diagnostics (as specified above)
 			</desc>
 			<!--@SOURCE: vocab/subsurface_pot.xml-->
 		</Subsurface_potential>
+	</Feature_details>
+	<Supplementary>
 		<Additional_notes f="nocertainty noannotation"> 
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
 			</desc>
 		</Additional_notes>
-	</Surface_Exposure>
-	<Boundary f="noscroll">
-		<Boundary_criterion f="nocertainty"> 
-			<desc>Select criterion used in recording boundary coordinates			
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+			<desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
+		<External_camera_ID f="nocertainty"> 
+			<desc>Select other cameras used for photography (if applicable)
 			</desc>
+			<!--@SOURCE: vocab/camera_ids.xml-->
+	
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty"> 
+			<desc>Provide file names and brief captions in annotations, and upload files on server
+			</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty"> 
+			<desc>If recording coincides with instrument survey, please select appropriate instrument name.
+			</desc>
+			<!--@SOURCE: vocab/survey_instr.xml-->
 			
-			<!--@SOURCE: vocab/boundary_types.xml-->
-		</Boundary_criterion>
-		<New_Boundary_Point t="button" lc="Surface_Exposure_Boundary_point"/>
-		<List_of_Related_Boundary_Points t="list" ec="Surface_Exposure_Boundary_point"/>
-	</Boundary>
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty"> 
+			<desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.
+			</desc>
+		</Survey_instrument_data>
+		
+
+		
+	
+	</Supplementary>
 
 </Surface_Exposure>
 <Surface_Exposure_Boundary_point>
-	<fmt>SE-BP-{{timestamp}}</fmt>
+	<fmt>SE{{Surface_Exposure_ID}}-BP{{Boundary_Point_ID}}</fmt>
 	<Surface_Exposure_Boundary_point>
-	<timestamp/>
-<!-- 	<Boundary_point_ID f="id" i="Surface_Exposure/Surface_Exposure/ID">
-	</Boundary_point_ID> -->
-	<gps f="id">
-		<desc>Record boundary coordinates at 3-5 m intervals</desc>
-	</gps>
 
+		<Surface_Exposure_ID f="id nocertainty" i="Surface_Exposure/Surface_Exposure/ID">
+		</Surface_Exposure_ID>
+		<Boundary_Point_ID f="id nocertainty">
+		</Boundary_Point_ID>
+		<timestamp f="nocertainty noannotation"/>
+		<gps>
+			<desc>Record boundary coordinates at 3-5 m intervals</desc>
+		</gps>
+		<Comment f="nocertainty noannotation">
+			<desc>Use this field to document any relevant information about the recorded point</desc>
+		</Comment>
 	</Surface_Exposure_Boundary_point>
 </Surface_Exposure_Boundary_point>
+
 </module>
 

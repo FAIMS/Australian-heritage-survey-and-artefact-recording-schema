@@ -1,0 +1,11 @@
+<opts>
+    <opt>Elongate
+        <desc>Scar length is more than twice its width</desc>
+    </opt>
+    <opt>Intermediate
+        <desc>Scar length is greater than width, but not twice as long as it is wide</desc>
+    </opt>
+    <opt>Expanding
+        <desc>Scar width is greater than scar length</desc>
+    </opt>
+</opts>

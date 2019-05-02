@@ -1,0 +1,20 @@
+<opts>
+    <opt>Skull
+        <desc>Any part of the skull, including mandible</desc>
+    </opt>
+    <opt>Chest and back
+        <desc>Any element from the thorax, e.g. ribs, sternum, spine</desc>
+    </opt>
+    <opt>Pelvic
+        <desc>Any element from the pelvic area</desc>
+    </opt>
+    <opt>Arms and shoulders
+        <desc>Any element from the arm or shoulder, including hands, fingers, humerus</desc>
+    </opt>
+    <opt>Legs and feet
+        <desc>Any element from below the hip</desc>
+    </opt>
+    <opt>Indeterminate
+        <desc>Specimens present are either incomplete or no longer in situ, and thus identifying the skeletal elements present is difficult</desc>
+    </opt>
+</opts>
