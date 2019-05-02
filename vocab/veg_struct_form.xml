@@ -32,7 +32,7 @@
     </opt>
     <opt>Herbs and forbs
         <opt>Forb
-            <desc>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with &amp;#x27;Herb&amp;#x27;. </desc>
+            <desc>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </desc>
         </opt>
     </opt>
     <opt>Grasses
@@ -50,7 +50,7 @@
     </opt>
     <opt>Herbs and forbs
         <opt>Herb
-            <desc>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with &amp;#x27;Forb&amp;#x27;. </desc>
+            <desc>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </desc>
         </opt>
         <opt>Herb: planted/cultivated
             <desc>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</desc>
@@ -73,7 +73,7 @@
     </opt>
     <opt>Rushes and sedges
         <opt>Rush
-            <desc>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. &amp;#x27;graminoid&amp;#x27; or grass-like genera.</desc>
+            <desc>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</desc>
         </opt>
     </opt>
     <opt>Acquatic, coastal and lacustrine

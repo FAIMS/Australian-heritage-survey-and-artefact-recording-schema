@@ -1,6 +1,6 @@
 <opts>
     <opt>Indeterminate</opt>
-    <opt>&amp;lt;5m</opt>
+    <opt>&lt;5m</opt>
     <opt>5-10m</opt>
-    <opt>&amp;gt;10m</opt>
+    <opt>&gt;10m</opt>
 </opts>

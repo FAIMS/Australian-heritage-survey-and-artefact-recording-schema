@@ -12,28 +12,28 @@
 <Control f="nodata">
 	<Control>
 		<!-- 'Create new [dropdown of entity types (SE, mound, etc.)]' ['Create' button] → opens Element Group (SE, mound, etc.) 'Add' screen.
-Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
-Underneath: GPS diagnostics (as specified above)
- -->
+		Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
+		Underneath: GPS diagnostics (as specified above)
+		 -->
  		<Complex_Features t="webview" f="nolabel">
  			<markdown># Complex Features</markdown>
  		</Complex_Features>
  		<New_Surface_Exposure t="button" l="Surface_Exposure"/>
 		<New_Mound t="button" l="Mound"/>
-		<New_Rockshelter t="button" l="Rockshelter"/>
+		<New_Rock_Shelter t="button" l="Rock_Shelter"/>
 		<New_Historical_Feature t="button" l="Historical_Feature"/>
 		<New_Burial t="button" l="Burial"/>
-		<New_Point_of_Interest t="button" l="Point_of_Interest"/>
+		<New_Point_of_Interest t="button" l="Other_Point_of_Interest"/>
 		<Objects t="webview" f="nolabel">
  			<markdown># Objects</markdown>
  		</Objects>
 		<New_Tree t="button" l="Tree"/>
-		<New_Flake t="button" l="Flake"/>
+		<New_Flake t="button" l="Flaked_Stone_Artefact"/>
 		<New_Other_Stone_Artefact t="button" l="Other_Stone_Artefact"/>
 		<New_Glass_Artefact t="button" l="Glass_Artefact"/>
 		<New_Ceramic_Artefact t="button" l="Ceramic_Artefact"/>
 		<New_Misc_Artefact t="button" l="Misc_Artefact"/>
-		<New_Discrete_Hearth	 t="button" l="Discrete_Hearth"/>	
+		<New_Discrete_Hearth	 t="button" l="Discrete_Hearth_Artefact"/>	
  		<GPS_diagnostics t="gpsdiag"/>
 	</Control>
 	<Recent f="noscroll">
@@ -52,10 +52,22 @@ Underneath: GPS diagnostics (as specified above)
 	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
 	</Map>
 </Control>	
+<!--
+
+ ######  ##     ## ########  ########    ###     ######  ######## 
+##    ## ##     ## ##     ## ##         ## ##   ##    ## ##       
+##       ##     ## ##     ## ##        ##   ##  ##       ##       
+ ######  ##     ## ########  ######   ##     ## ##       ######   
+      ## ##     ## ##   ##   ##       ######### ##       ##       
+##    ## ##     ## ##    ##  ##       ##     ## ##    ## ##       
+ ######   #######  ##     ## ##       ##     ##  ######  ######## 
+
+-->
+
 <Surface_Exposure>
-	<fmt>SE{{ID}}</fmt>
-	<Surface_Exposure>
-		<ID f="id autonum"/> 					
+	<fmt>SE{{Surface_Exposure_ID}}</fmt>
+	<General>
+		<Surface_Exposure_ID f="id autonum"/> 					
 		
 		<author f="nocertainty"/>								
 		<timestamp f="id nocertainty"/> 
@@ -80,7 +92,7 @@ Underneath: GPS diagnostics (as specified above)
 			<desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.
 			</desc>
 		</Device_photos>
-	</Surface_Exposure>
+	</General>
 	<Boundary f="noscroll">
 		
 		<New_Boundary_Point t="button" lc="Surface_Exposure_Boundary_point"/>
@@ -225,10 +237,10 @@ Underneath: GPS diagnostics (as specified above)
 	<fmt>SE{{Surface_Exposure_ID}}-BP{{Boundary_Point_ID}}</fmt>
 	<Surface_Exposure_Boundary_point>
 
-		<Surface_Exposure_ID f="id nocertainty" i="Surface_Exposure/Surface_Exposure/ID">
+		<Surface_Exposure_ID f="id nocertainty" i="Surface_Exposure/General/Surface_Exposure_ID">
 		</Surface_Exposure_ID>
-		<Boundary_Point_ID f="id nocertainty">
-		</Boundary_Point_ID>
+		<Surface_Exposure_Boundary_Point_ID f="id autonum nocertainty">
+		</Surface_Exposure_Boundary_Point_ID>
 		<timestamp f="nocertainty noannotation"/>
 		<gps>
 			<desc>Record boundary coordinates at 3-5 m intervals</desc>
@@ -238,6 +250,1531 @@ Underneath: GPS diagnostics (as specified above)
 		</Comment>
 	</Surface_Exposure_Boundary_point>
 </Surface_Exposure_Boundary_point>
+
+<!--
+##     ##  #######  ##     ## ##    ## ########  
+###   ### ##     ## ##     ## ###   ## ##     ## 
+#### #### ##     ## ##     ## ####  ## ##     ## 
+## ### ## ##     ## ##     ## ## ## ## ##     ## 
+##     ## ##     ## ##     ## ##  #### ##     ## 
+##     ## ##     ## ##     ## ##   ### ##     ## 
+##     ##  #######   #######  ##    ## ########  	
+	-->
+<Mound>
+	<fmt>MD{{Mound_ID}}</fmt>
+	<General>
+		<Mound_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		<Level_of_recording f="nocertainty">
+		    <desc>Detail the recording approach used</desc>
+		    <!--@SOURCE: vocab/phase.xml-->
+		</Level_of_recording>
+		<gps/>
+		<Boundary_criterion f="nocertainty">
+		    <desc>Select criterion used in recording boundary coordinates</desc>
+		    <!--@SOURCE: vocab/boundary_types.xml-->
+		</Boundary_criterion>
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+	</General>
+	<Boundary f="noscroll">
+		<New_Boundary_Point t="button" lc="Mound_Boundary_point"/>
+		<List_of_Related_Boundary_Points t="list" ec="Mound_Boundary_point"/>
+	</Boundary>
+	<Landscape_context>
+		<Landform_pattern>
+		    <desc>300m observational unit.</desc>
+		    <!--@SOURCE: vocab/landform_pattern.xml-->
+		</Landform_pattern>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+		<Dominant_vegetation_type>
+		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_form.xml-->
+		</Dominant_vegetation_type>
+		<Dominant_vegetation_cover f="nocertainty">
+		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_cov.xml-->
+		</Dominant_vegetation_cover>
+		<Additional_environmental_notes f="nocertainty noannotation">
+		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
+		</Additional_environmental_notes>
+		<Morphology_type>
+		    <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</desc>
+		    <!--@SOURCE: vocab/feat_morphology.xml-->
+		</Morphology_type>
+		<Morphology_notes f="nocertainty noannotation">
+		    <desc>Record any additional notes about site morphology not captured elsewhere</desc>
+		</Morphology_notes>
+	</Landscape_context>
+	<Feature_details>
+		<Mound_matrix>
+		    <desc>Select the option that best describes the matrix of the mound deposit. Use annotation for additional types</desc>
+		    <!--@SOURCE: vocab/mound_matrix.xml-->
+		</Mound_matrix>
+		<Mound_shape>
+		    <desc>Select the closest mound shape, and use annotations for supplementary detail</desc>
+		    <!--@SOURCE: vocab/mound_shape.xml-->
+		</Mound_shape>
+		<Mound_length_m b="decimal">
+		    <desc>Maximum length, metres</desc>
+		</Mound_length_m>
+		<Mound_width_m b="decimal">
+		    <desc>Maximum width, metres</desc>
+		</Mound_width_m>
+		<Mound_height_estimate_m b="decimal">
+		    <desc>Maximum height, metres</desc>
+		</Mound_height_estimate_m>
+		<Mound_surface_vegetation f="nocertainty">
+		    <desc>Describe and photograph mound surface vegetation, particularly if distinct ecosystem is associated with the mound that is different to that of the local dominant vegetation</desc>
+		</Mound_surface_vegetation>
+		<Stone_artefact_count b="integer">
+		    <desc>Record a tally of stone artefacts observed on the mound surface. Use the certainty slider for estimates on large assemblages</desc>
+		</Stone_artefact_count>
+		<Stone_artefact_types t="checkbox">
+		    <desc>Select all artefact types observed</desc>
+		    <!--@SOURCE: ./vocab/sart_gen_types.xml-->
+		</Stone_artefact_types>
+		<Stone_artefact_raw_materials t="checkbox">
+		    <desc>Select all raw materials observed</desc>
+		    <!--@SOURCE: vocab/sa_rawmaterial.xml -->
+		</Stone_artefact_raw_materials>
+		<Historical_artefact_count b="integer">
+		    <desc>Record a tally of historic artefacts observed on the mound surface. Use the certainty slider for estimates on large assemblages</desc>
+		</Historical_artefact_count>
+		<Historical_artefact_types t="checkbox">
+		    <desc>Select all artefact types observed</desc>
+		    <!--@SOURCE: vocab/hart_gen_types.xml-->
+		</Historical_artefact_types>
+		<In_situ_hearth_count b="ingeger">
+		    <desc>Record a tally of all in situ hearths observed on the mound surface. Use the certainty slider for estimates on larger assemblages</desc>
+		</In_situ_hearth_count>
+		<Heating_element_scatters t="radio">
+		    <desc>Is there evidence of disturbed or remnant hearths as indicated by scatters of heating elements within the feature boundary?</desc>
+		    <!--@SOURCE: vocab/he_frequency.xml-->
+		</Heating_element_scatters>
+		<Heating_element_types_observed t="checkbox">
+		    <desc>Select all heating element types observed</desc>
+		    <!--@SOURCE: vocab/he_types.xml-->
+		</Heating_element_types_observed>
+		<Faunal_materials_present t="checkbox">
+		    <desc>Select all faunal materials observed</desc>
+		    <!--@SOURCE: vocab/faun_mat_types.xml-->
+		</Faunal_materials_present>
+	</Feature_details>
+	<Supplementary>
+		<Additional_notes f="nocertainty noannotation">
+		    <desc>Describe any other significant features or provide additional details here</desc>
+		</Additional_notes>
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
+		<External_camera_ID>
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name>
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data>
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>		
+</Mound>
+<Mound_Boundary_point>
+	<fmt>MD{{Mound_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<Mound_Boundary_point>
+
+		<Mound_ID f="id nocertainty" i="Mound/General/Mound_ID">
+		</Mound_ID>
+		<Mound_Boundary_Point_ID f="id autonum nocertainty">
+		</Mound_Boundary_Point_ID>
+		<timestamp f="nocertainty noannotation"/>
+		<gps>
+			<desc>Record boundary coordinates at 3-5 m intervals</desc>
+		</gps>
+		<Comment f="nocertainty noannotation">
+			<desc>Use this field to document any relevant information about the recorded point</desc>
+		</Comment>
+	</Mound_Boundary_point>
+</Mound_Boundary_point>
+<!-- 
+########   #######   ######  ##    ##     ######  ##     ## ######## ##       
+##     ## ##     ## ##    ## ##   ##     ##    ## ##     ## ##       ##       
+##     ## ##     ## ##       ##  ##      ##       ##     ## ##       ##       
+########  ##     ## ##       #####        ######  ######### ######   ##       
+##   ##   ##     ## ##       ##  ##            ## ##     ## ##       ##       
+##    ##  ##     ## ##    ## ##   ##     ##    ## ##     ## ##       ##       
+##     ##  #######   ######  ##    ##     ######  ##     ## ######## ########  -->
+<Rock_Shelter>
+	<fmt>RS{{Rock_Shelter_ID}}</fmt>
+	<General>
+		<Rock_Shelter_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		<Level_of_recording f="nocertainty">
+		    <desc>Detail the recording approach used</desc>
+		    <!--@SOURCE: vocab/phase.xml-->
+		</Level_of_recording>
+		<gps/>
+		<Boundary_criterion f="nocertainty">
+		    <desc>Select criterion used in recording boundary coordinates</desc>
+		    <!--@SOURCE: vocab/boundary_types.xml-->
+		</Boundary_criterion>
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+	</General>
+	<Boundary f="noscroll">
+		<New_Boundary_Point t="button" lc="Rock_Shelter_Boundary_point"/>
+		<List_of_Related_Boundary_Points t="list" ec="Rock_Shelter_Boundary_point"/>
+	</Boundary>
+	<Landscape_context>
+		<Landform_pattern>
+		    <desc>300m observational unit.</desc>
+		    <!--@SOURCE: vocab/landform_pattern.xml-->
+		</Landform_pattern>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+		<Dominant_vegetation_type>
+		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_form.xml-->
+		</Dominant_vegetation_type>
+		<Dominant_vegetation_cover f="nocertainty">
+		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_cov.xml-->
+		</Dominant_vegetation_cover>
+		<Additional_environmental_notes f="nocertainty noannotation">
+		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
+		</Additional_environmental_notes>
+		
+		
+	</Landscape_context>
+	<Feature_details>
+		<Shelter_type>
+		    <desc>Select the most appropriate shelter type</desc>
+		    <!--@SOURCE: vocab/shelter_types.xml-->
+		</Shelter_type>
+		<Orientation b="decimal">
+		    <desc>Record the compass bearing through the middle of the shelter area and away from the shelter entrance. This should represent the central orientation of the shelter, i.e. perpendicular to the shelter entrance or rear wall, as appropriate.</desc>
+		</Orientation>
+		<Floor_length_m b="decimal">
+		    <desc>Maximum length of floor measured to inner-most dripline (metres)</desc>
+		</Floor_length_m>
+		<Floor_width_m b="decimal">
+		    <desc>Maximum width of floor measured to inner-most dripline (metres)</desc>
+		</Floor_width_m>
+		<Floor_area_m2 b="decimal">
+		    <desc>Estimate floor area (metres square)</desc>
+		</Floor_area_m2>
+		<Floor_component_1_type f="nocertainty">
+		    <desc>Choose the main floor deposit type</desc>
+		    <!--@SOURCE: vocab/shelter_floor.xml-->
+		</Floor_component_1_type>
+		<Floor_component_1_percent f="nocertainty">
+		    <desc>Estimate the percentage of the whole floor surface area for the main floor type</desc>
+		    <!--@SOURCE: vocab/percentages.xml-->
+		</Floor_component_1_percent>
+		<Floor_component_2_type f="nocertainty">
+		    <desc>Describe the secondary floor deposit type</desc>
+   		    <!--@SOURCE: vocab/shelter_floor.xml-->
+
+		</Floor_component_2_type>
+		<Floor_component_2_percent f="nocertainty">
+		    <desc>Estimate the percentage of the whole floor surface area for the secondary floor type</desc>
+		    <!--@SOURCE: vocab/percentages.xml-->
+		</Floor_component_2_percent>
+		<Stone_artefact_count b="integer">
+		    <desc>Record a tally of stone artefacts observed on the mound surface. Use the certainty slider for estimates on large assemblages</desc>
+		</Stone_artefact_count>
+		<Stone_artefact_types t="checkbox">
+		    <desc>Select all artefact types observed</desc>
+		    <!--@SOURCE: ./vocab/sart_gen_types.xml-->
+		</Stone_artefact_types>
+		<Stone_artefact_raw_materials t="checkbox">
+		    <desc>Select all raw materials observed</desc>
+		    <!--@SOURCE: vocab/sa_rawmaterial.xml -->
+		</Stone_artefact_raw_materials>
+		<Historical_artefact_count b="integer">
+		    <desc>Record a tally of historic artefacts observed on the mound surface. Use the certainty slider for estimates on large assemblages</desc>
+		</Historical_artefact_count>
+		<Historical_artefact_types t="checkbox">
+		    <desc>Select all artefact types observed</desc>
+		    <!--@SOURCE: vocab/hart_gen_types.xml-->
+		</Historical_artefact_types>
+		<In_situ_hearth_count b="ingeger">
+		    <desc>Record a tally of all in situ hearths observed on the mound surface. Use the certainty slider for estimates on larger assemblages</desc>
+		</In_situ_hearth_count>
+		<Heating_element_scatters t="radio">
+		    <desc>Is there evidence of disturbed or remnant hearths as indicated by scatters of heating elements within the feature boundary?</desc>
+		    <!--@SOURCE: vocab/he_frequency.xml-->
+		</Heating_element_scatters>
+		<Heating_element_types_observed t="checkbox">
+		    <desc>Select all heating element types observed</desc>
+		    <!--@SOURCE: vocab/he_types.xml-->
+		</Heating_element_types_observed>
+		<Faunal_materials_present t="checkbox">
+		    <desc>Select all faunal materials observed</desc>
+		    <!--@SOURCE: vocab/faun_mat_types.xml-->
+		</Faunal_materials_present>
+		<Art_panel_count b="integer" f="nocertainty">
+		    <desc>Count of individual art panels present at the site. Panels are discrete assemblages of motifs bounded by natural rock features (e.g. fissures) or weathering. For complex sites, please draw sketchplan and photograph, or store an annotated photograph here.</desc>
+		</Art_panel_count>
+		<Techniques t="checkbox" f="nocertainty">
+		    <desc>Select all techniques present</desc>
+		    <!--@SOURCE: vocab/technique_types.xml-->
+		</Techniques>
+		<Subsurface_potential t="radio" f="nocertainty">
+		    <desc>Assess the potential for sub-surface deposits of cultural material.</desc>
+		    <!--@SOURCE: vocab/subsurface_pot.xml-->
+		</Subsurface_potential>
+	</Feature_details>
+	<Supplementary>
+		<Additional_notes f="nocertainty noannotation">
+		    <desc>Describe any other significant features or provide additional details here</desc>
+		</Additional_notes>
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Rock_Shelter>
+<Rock_Shelter_Boundary_point>
+	<fmt>RS{{Rock_Shelter_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<Rock_Shelter_Boundary_point>
+
+		<Rock_Shelter_ID f="id nocertainty" i="Rock_Shelter/General/Rock_Shelter_ID">
+		</Rock_Shelter_ID>
+		<Rock_Shelter_Boundary_Point_ID f="id autonum nocertainty">
+		</Rock_Shelter_Boundary_Point_ID>
+		<timestamp f="nocertainty noannotation"/>
+		<gps>
+			<desc>Record boundary coordinates at 3-5 m intervals</desc>
+		</gps>
+		<Comment f="nocertainty noannotation">
+			<desc>Use this field to document any relevant information about the recorded point</desc>
+		</Comment>
+	</Rock_Shelter_Boundary_point>
+</Rock_Shelter_Boundary_point>
+<!-- 
+##     ## ####  ######  ########  #######  ########  ####  ######     ###    ##       
+##     ##  ##  ##    ##    ##    ##     ## ##     ##  ##  ##    ##   ## ##   ##       
+##     ##  ##  ##          ##    ##     ## ##     ##  ##  ##        ##   ##  ##       
+#########  ##   ######     ##    ##     ## ########   ##  ##       ##     ## ##       
+##     ##  ##        ##    ##    ##     ## ##   ##    ##  ##       ######### ##       
+##     ##  ##  ##    ##    ##    ##     ## ##    ##   ##  ##    ## ##     ## ##       
+##     ## ####  ######     ##     #######  ##     ## ####  ######  ##     ## ########  -->
+
+<Historical_Feature>
+	<fmt>HF{{Historical_Feature_ID}}</fmt>
+	<General>
+		<Historical_Feature_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		<Level_of_recording f="nocertainty">
+		    <desc>Detail the recording approach used</desc>
+		    <!--@SOURCE: vocab/phase.xml-->
+		</Level_of_recording>
+		<gps/>
+		<Boundary_criterion f="nocertainty">
+		    <desc>Select criterion used in recording boundary coordinates</desc>
+		    <!--@SOURCE: vocab/boundary_types.xml-->
+		</Boundary_criterion>
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+	</General>
+	<Boundary f="noscroll">
+		<New_Boundary_Point t="button" lc="Historical_Feature_Boundary_point"/>
+		<List_of_Related_Boundary_Points t="list" ec="Historical_Feature_Boundary_point"/>
+	</Boundary>
+	<Landscape_context>
+		<Landform_pattern>
+		    <desc>300m observational unit.</desc>
+		    <!--@SOURCE: vocab/landform_pattern.xml-->
+		</Landform_pattern>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+		<Dominant_vegetation_type>
+		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_form.xml-->
+		</Dominant_vegetation_type>
+		<Dominant_vegetation_cover f="nocertainty">
+		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_cov.xml-->
+		</Dominant_vegetation_cover>
+		<Additional_environmental_notes f="nocertainty noannotation">
+		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
+		</Additional_environmental_notes>
+		
+		
+	</Landscape_context>
+	<Feature_details>
+		<Place_name f="nocertainty">
+		    <desc>List any names associated with this feature (historic, language or contemporary), if applicable </desc>
+		</Place_name>
+		<Length_m b="decimal">
+		    <desc>Record the maximum length of this feature</desc>
+		</Length_m>
+		<Width_m b="decimal">
+		    <desc>Record the maximum width of this feature</desc>
+		</Width_m>
+		<Height_m b="decimal">
+		    <desc>If applicable, record the maximum height of this feature. Leave blank if not applicable</desc>
+		</Height_m>
+		<General_type>
+		    <desc>Select the general feature type. For phase 1 recording of complex features with multiple attributes, use the 'site' designation</desc>
+		    <!--@SOURCE: vocab/hist_gentype.xml-->
+		</General_type>
+		<Historical_activities t="checkbox">
+		    <desc>What activity types appear to be associated with this feature</desc>
+		    <!--@SOURCE: vocab/hist_activities.xml-->
+		</Historical_activities>
+		<Historical_activities_description>
+		    <desc>Provide a narrative description of activities that appear to have been conducted at this site or feature.</desc>
+		</Historical_activities_description>
+		<Archaeological_features t="checkbox">
+		    <desc>Select all archaeological features present</desc>
+		    <!--@SOURCE: vocab/hist_arch_char.xml-->
+		</Archaeological_features>
+		<Subsurface_potential t="radio" f="nocertainty">
+		    <desc>Assess the potential for sub-surface deposits of cultural material.</desc>
+		    <!--@SOURCE: vocab/subsurface_pot.xml-->
+		</Subsurface_potential>
+		<Archaeological_description f="nocertainty">
+		    <desc>Provide a narrative description of the physical layout of the site or feature, as well as formation processes and potential for sub-surface deposits</desc>
+		</Archaeological_description>
+		<Age_estimate f="nocertainty">
+		    <desc>Make a preliminary assessment of minimum and maximum site age, noting supporting evidence</desc>
+		</Age_estimate>
+	</Feature_details>
+	<Supplementary>
+		<Additional_notes f="nocertainty noannotation">
+		    <desc>Describe any other significant features or provide additional details here</desc>
+		</Additional_notes>
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Historical_Feature>
+<Historical_Feature_Boundary_point>
+	<fmt>HF{{Historical_Feature_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<Historical_Feature_Boundary_point>
+
+		<Historical_Feature_ID f="id nocertainty" i="Historical_Feature/General/Historical_Feature_ID">
+		</Historical_Feature_ID>
+		<Historical_Feature_Boundary_Point_ID f="id autonum nocertainty">
+		</Historical_Feature_Boundary_Point_ID>
+		<timestamp f="nocertainty noannotation"/>
+		<gps>
+			<desc>Record boundary coordinates at 3-5 m intervals</desc>
+		</gps>
+		<Comment f="nocertainty noannotation">
+			<desc>Use this field to document any relevant information about the recorded point</desc>
+		</Comment>
+	</Historical_Feature_Boundary_point>
+</Historical_Feature_Boundary_point>
+<!-- 
+########  ##     ## ########  ####    ###    ##       
+##     ## ##     ## ##     ##  ##    ## ##   ##       
+##     ## ##     ## ##     ##  ##   ##   ##  ##       
+########  ##     ## ########   ##  ##     ## ##       
+##     ## ##     ## ##   ##    ##  ######### ##       
+##     ## ##     ## ##    ##   ##  ##     ## ##       
+########   #######  ##     ## #### ##     ## ########  -->
+
+<Burial>
+	<fmt>BUR{{Burial_ID}}</fmt>
+	<General>
+		<Burial_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		<Level_of_recording f="nocertainty">
+		    <desc>Detail the recording approach used</desc>
+		    <!--@SOURCE: vocab/phase.xml-->
+		</Level_of_recording>
+		<gps/>
+		<Boundary_criterion f="nocertainty">
+		    <desc>Select criterion used in recording boundary coordinates</desc>
+		    <!--@SOURCE: vocab/boundary_types.xml-->
+		</Boundary_criterion>
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+	</General>
+	<Boundary f="noscroll">
+		<New_Boundary_Point t="button" lc="Burial_Boundary_point"/>
+		<List_of_Related_Boundary_Points t="list" ec="Burial_Boundary_point"/>
+	</Boundary>
+	<Landscape_context>
+		<Landform_pattern>
+		    <desc>300m observational unit.</desc>
+		    <!--@SOURCE: vocab/landform_pattern.xml-->
+		</Landform_pattern>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+		<Dominant_vegetation_type>
+		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_form.xml-->
+		</Dominant_vegetation_type>
+		<Dominant_vegetation_cover f="nocertainty">
+		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_cov.xml-->
+		</Dominant_vegetation_cover>
+		<Additional_environmental_notes f="nocertainty noannotation">
+		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
+		</Additional_environmental_notes>
+		<Morphology_type>
+		    <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</desc>
+		    <!--@SOURCE: vocab/feat_morphology.xml-->
+		</Morphology_type>
+		<Morphology_notes f="nocertainty noannotation">
+		    <desc>Record any additional notes about site morphology not captured elsewhere</desc>
+		</Morphology_notes>
+		
+	</Landscape_context>
+	<Feature_details>
+		<Cultural_associations>
+		    <desc>Select cultural associations for this feature</desc>
+		    <!--@SOURCE: vocab/cultural_associations.xml-->
+		</Cultural_associations>
+		<Maximum_age>
+		    <desc>What is the age of the oldest burial?</desc>
+		    <!--@SOURCE: vocab/burial_chron.xml-->
+		</Maximum_age>
+		<Minimum_age>
+		    <desc>What is the age of the youngest burial</desc>
+		    <!--@SOURCE: vocab/burial_chron.xml-->
+		</Minimum_age>
+		<Age_range--specific>
+		    <desc>Note both minimum and maximum ages, where known. Use</desc>
+		</Age_range--specific>
+		<Burial_form>
+		    <desc>What is the form of the burial?</desc>
+		    <!--@SOURCE: vocab/burial_form.xml-->
+		</Burial_form>
+		<Burial_number b="integer">
+		    <desc>A count of individual burials observed</desc>
+		</Burial_number>
+		<Grave_markers_used t="checkbox">
+		    <desc>Select all grave marker types associated with this feature</desc>
+		    <!--@SOURCE: vocab/burial_nos.xml-->
+		</Grave_markers_used>
+		<Preservation t="checkbox">
+		    <desc>Select all preservation conditions that apply to this feature</desc>
+		    <!--@SOURCE: vocab/burial_preserv.xml-->
+		</Preservation>
+		<Orientation b="decimal">
+		    <desc>What is the orientation (degrees, measuring from feet to head) of burials? For multiple burials, record average orientation and provide additional notes or sketches to illustrate</desc>
+		</Orientation>
+		<Artefacts>
+		    <desc>What, if any, artefacts or other cultural materials are associated with this burial</desc>
+		    <!--@SOURCE: vocab/burial_artefacts.xml-->
+		</Artefacts>
+		<Elements_present>
+		    <desc>Which skeletal elements are visible?</desc>
+		    <!--@SOURCE: vocab/burial_elements.xml-->
+		</Elements_present>
+	</Feature_details>
+	<Supplementary>
+		<Additional_notes f="nocertainty noannotation">
+		    <desc>Describe any other significant features or provide additional details here</desc>
+		</Additional_notes>
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Burial>
+<Burial_Boundary_point>
+	<fmt>BUR{{Burial_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<Burial_Boundary_point>
+
+		<Burial_ID f="id nocertainty" i="Burial/General/Burial_ID">
+		</Burial_ID>
+		<Burial_Boundary_Point_ID f="id autonum nocertainty">
+		</Burial_Boundary_Point_ID>
+		<timestamp f="nocertainty noannotation"/>
+		<gps>
+			<desc>Record boundary coordinates at 3-5 m intervals</desc>
+		</gps>
+		<Comment f="nocertainty noannotation">
+			<desc>Use this field to document any relevant information about the recorded point</desc>
+		</Comment>
+	</Burial_Boundary_point>
+</Burial_Boundary_point>
+<!-- 
+########   #######  ####                                                                                                 ##     ## ##     ##  ##                                                                                                  
+##     ## ##     ##  ##                                                                                                  
+########  ##     ##  ##                                                                                                  
+##        ##     ##  ##                                                                                                  
+##        ##     ##  ##                                                                                                  
+##         #######  ####                                                                                                                             -->                                     
+                            
+
+<Other_Point_of_Interest>
+	<fmt>POI{{Other_Point_of_Interest_ID}}</fmt>
+	<General>
+		<Other_Point_of_Interest_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		<Level_of_recording f="nocertainty">
+		    <desc>Detail the recording approach used</desc>
+		    <!--@SOURCE: vocab/phase.xml-->
+		</Level_of_recording>
+		<gps/>
+		<Boundary_criterion f="nocertainty">
+		    <desc>Select criterion used in recording boundary coordinates</desc>
+		    <!--@SOURCE: vocab/boundary_types.xml-->
+		</Boundary_criterion>
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+	</General>
+	<Boundary f="noscroll">
+		<New_Boundary_Point t="button" lc="Other_Point_of_Interest_Boundary_point"/>
+		<List_of_Related_Boundary_Points t="list" ec="Other_Point_of_Interest_Boundary_point"/>
+	</Boundary>
+	<Landscape_context>
+		<Landform_pattern>
+		    <desc>300m observational unit.</desc>
+		    <!--@SOURCE: vocab/landform_pattern.xml-->
+		</Landform_pattern>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+		<Dominant_vegetation_type>
+		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_form.xml-->
+		</Dominant_vegetation_type>
+		<Dominant_vegetation_cover f="nocertainty">
+		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_cov.xml-->
+		</Dominant_vegetation_cover>
+		<Additional_environmental_notes f="nocertainty noannotation">
+		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
+		</Additional_environmental_notes>
+		<Morphology_type>
+		    <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</desc>
+		    <!--@SOURCE: vocab/feat_morphology.xml-->
+		</Morphology_type>
+		<Morphology_notes f="nocertainty noannotation">
+		    <desc>Record any additional notes about site morphology not captured elsewhere</desc>
+		</Morphology_notes>
+		
+	</Landscape_context>
+	<Feature_details>
+		<Type>
+		    <desc>Select the general feature type</desc>
+		    <!--@SOURCE: vocab/poi_type.xml-->
+		</Type>
+		<Detailed_description f="nocertainty">
+		    <desc>Provide a detailed description of this POI and any associated data</desc>
+		</Detailed_description>
+		<Information_source f="nocertainty">
+		    <desc>Record the source of the information, such as names of individuals, historical sources, and so on</desc>
+		</Information_source>
+	</Feature_details>
+	<Supplementary>
+		<Additional_notes f="nocertainty noannotation">
+		    <desc>Describe any other significant features or provide additional details here</desc>
+		</Additional_notes>
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Other_Point_of_Interest>
+<Other_Point_of_Interest_Boundary_point>
+	<fmt>POI{{Other_Point_of_Interest_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<Other_Point_of_Interest_Boundary_point>
+
+		<Other_Point_of_Interest_ID f="id nocertainty" i="Other_Point_of_Interest/General/Other_Point_of_Interest_ID">
+		</Other_Point_of_Interest_ID>
+		<Other_Point_of_Interest_Boundary_Point_ID f="id autonum nocertainty">
+		</Other_Point_of_Interest_Boundary_Point_ID>
+		<timestamp f="nocertainty noannotation"/>
+		<gps>
+			<desc>Record boundary coordinates at 3-5 m intervals</desc>
+		</gps>
+		<Comment f="nocertainty noannotation">
+			<desc>Use this field to document any relevant information about the recorded point</desc>
+		</Comment>
+	</Other_Point_of_Interest_Boundary_point>
+</Other_Point_of_Interest_Boundary_point>
+<!-- 
+######## ########  ######## ########                                                                                
+   ##    ##     ## ##       ##                                                                                      
+   ##    ##     ## ##       ##                                                                                      
+   ##    ########  ######   ######                                                                                  
+   ##    ##   ##   ##       ##                                                                                      
+   ##    ##    ##  ##       ##                                                                                      
+   ##    ##     ## ######## ########   -->   
+
+<Tree>
+	<fmt>TR{{Tree_ID}}</fmt>
+	<General>
+		<Tree_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		<Level_of_recording f="nocertainty">
+		    <desc>Detail the recording approach used</desc>
+		    <!--@SOURCE: vocab/phase.xml-->
+		</Level_of_recording>
+		<gps/>
+		<Boundary_criterion f="nocertainty">
+		    <desc>Select criterion used in recording boundary coordinates</desc>
+		    <!--@SOURCE: vocab/boundary_types.xml-->
+		</Boundary_criterion>
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+	</General>
+	
+	<Landscape_context>
+		<Landform_pattern>
+		    <desc>300m observational unit.</desc>
+		    <!--@SOURCE: vocab/landform_pattern.xml-->
+		</Landform_pattern>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+		<Dominant_vegetation_type>
+		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_form.xml-->
+		</Dominant_vegetation_type>
+		<Dominant_vegetation_cover f="nocertainty">
+		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: vocab/veg_struct_cov.xml-->
+		</Dominant_vegetation_cover>
+		<Additional_environmental_notes f="nocertainty noannotation">
+		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
+		</Additional_environmental_notes>
+		<Morphology_type>
+		    <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</desc>
+		    <!--@SOURCE: vocab/feat_morphology.xml-->
+		</Morphology_type>
+		<Morphology_notes f="nocertainty noannotation">
+		    <desc>Record any additional notes about site morphology not captured elsewhere</desc>
+		</Morphology_notes>
+		
+	</Landscape_context>
+	<Feature_details>
+		<Tree_type>
+		    <desc>Select the most appropriate tree type</desc>
+		    <!--@SOURCE: vocab/tree_types.xml-->
+		</Tree_type>
+		<Species>
+		    <desc>Select the species, if known</desc>
+		    <!--@SOURCE: vocab/tree_species.xml-->
+		</Species>
+		<Girth_mm b="decimal">
+		    <desc>Girth should be measured at 'chest height' i.e. 1.3 m above ground, in milimeters.</desc>
+
+		</Girth_mm>
+		<Tree_Height>
+		    <desc>Choose the most appropriate size range for this tree. Select 'indeterminate' for all felled trees or those that have lost upper limbs</desc>
+		    <!--@SOURCE: vocab/tree_height.xml-->
+		</Tree_Height>
+		<Condition>
+		    <desc>Assess the condition of the tree. For living trees, consider issues such as the number of dead or missing limbs, and areas of damage</desc>
+		    <!--@SOURCE: vocab/tree_condition.xml-->
+		</Condition>
+		<Number_of_scars b="integer">
+		    <desc>List the total number of scars recorded for this tree</desc>
+		</Number_of_scars>
+		<Stump_height_mm b="decimal">
+		    <desc>Measure the height, in millimetres, of any stumps associated with this tree</desc>
+		</Stump_height_mm>
+	</Feature_details>
+	<Scar_control>
+		<New_Scar t="button" lc="Scar"/>
+		<List_of_Related_Scars t="list" ec="Scar"/>
+	</Scar_control>
+	<Supplementary>
+		<Additional_notes f="nocertainty noannotation">
+		    <desc>Describe any other significant features or provide additional details here</desc>
+		</Additional_notes>
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Tree>
+<Scar>
+	<fmt>TR{{Tree_ID}}-SC{{Scar_ID}}</fmt>
+	<Scar>
+		<Tree_ID f="id" i="Tree/General/Tree_ID"/>
+		<Scar_ID f="id autonum"/>
+		<timestamp/>
+		<Scar_type>
+			<!--@SOURCE: vocab/scar_types.xml-->	
+		</Scar_type>
+		<Scar_Height_Above_Ground_mm>
+		    <desc>Measure from the ground surface to the bottom of the scar, if applicable. Please note that the scar base is the lowermost area of axe damage, rather than the scar dry face</desc>
+		</Scar_Height_Above_Ground_mm>
+		<Scar_length_mm>
+		    <desc>Measure the maximum length of scar, i.e., between the upper- and lower-most cut marks observed</desc>
+		</Scar_length_mm>
+		<Scar_width_mm>
+		    <desc>Measure the maximum width of scar, i.e., between the widest lateral cut marks observed</desc>
+		</Scar_width_mm>
+		<Aperture_length_mm>
+		    <desc>Only applicable on scars featuring an aperture into the tree hollow, for example, sugarbag scars. Measure the maximum length of the actual aperture.</desc>
+		</Aperture_length_mm>
+		<Aperture_width_mm>
+		    <desc>Only applicable on scars featuring an aperture into the tree hollow, for example, sugarbag scars. Measure the maximum width of the actual aperture.</desc>
+		</Aperture_width_mm>
+		<Device_photos_of_scar>
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos_of_scar>
+		<External_camera_ID_scars>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID_scars>
+		<External_camera_filenames_scars t="file">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames_scars>
+	</Scar>
+</Scar>
+<!--                                                                               
+######## ##          ###    ##    ## ########                                                                       
+##       ##         ## ##   ##   ##  ##                                                                             
+##       ##        ##   ##  ##  ##   ##                                                                             
+######   ##       ##     ## #####    ######                                                                         
+##       ##       ######### ##  ##   ##                                                                             
+##       ##       ##     ## ##   ##  ##                                                                             
+##       ######## ##     ## ##    ## ########   -->      
+
+
+<Flaked_Stone_Artefact>
+	<fmt>FSA{{Flaked_Stone_Artefact_ID}}</fmt>
+	<General>
+		<Flaked_Stone_Artefact_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>		
+		<gps/>
+		    
+		<Boundary_criterion f="nocertainty">
+		    <desc>Select criterion used in recording boundary coordinates</desc>
+		    <!--@SOURCE: vocab/boundary_types.xml-->
+		</Boundary_criterion>
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+	</General>
+	
+	<Feature_details>
+		<Raw_material_type>
+		    <desc>Select the raw material type</desc>
+		    <!--@SOURCE: vocab/sa_rawmaterial.xml-->
+		</Raw_material_type>
+		<Raw_material_colour f="nocertainty noannotation">
+		    <desc>Provide a classification of the primary colour and secondary colour (e.g. Reddish-brown), or if available, provide the Munsell rock colour designation</desc>
+		</Raw_material_colour>
+		<Weight_g b="decimal" f="nocertainty">
+		    <desc>If available, record artefact weight (e.g. for lab-based analysis)</desc>
+		</Weight_g>
+		<Flake_completeness>
+		    <desc>Assess the degree of flake fragmentation</desc>
+		    <!--@SOURCE: vocab/saflake_completeness.xml-->
+		</Flake_completeness>
+		<Platform_surface>
+		    <desc>Select the type of platform present</desc>
+		    <!--@SOURCE: vocab/saflake_platsurf.xml-->
+		</Platform_surface>
+		<Platform_angle b="decimal">
+		    <desc>Measure the angle between the platform and dorsal surface. Ideally, this should be recorded with a goniometer</desc>
+
+		</Platform_angle>
+		<Platform_width_mm b="decimal">
+		    <desc>Maximum width across the platform surface, and between the two lateral margins. Leave blank if either lateral margin is absent</desc>
+		</Platform_width_mm>
+		<Platform_thickness_mm b="decimal">
+		    <desc>Maximum thickness of the platform, between the ventral and dorsal surface, and measured through the umbo and in line with the percussion axis . Leave blank if platform margin is only partially present (e.g. a crushed platform)</desc>
+		</Platform_thickness_mm>
+		<Maximum_length_mm b="decimal">
+		    <desc>Length of percussion axis, or the length from the point of percussion to the most distal point. This becomes the maximum length on broken flakes where the platform or termination are absent</desc>
+		</Maximum_length_mm>
+		<Maximum_width_mm b="decimal">
+		    <desc>Maximum width, measured across the longest line that can be drawn at right angles to the percussion axis </desc>
+		</Maximum_width_mm>
+		<Maximum_thickness_mm b="decimal">
+		    <desc>Maximum thickness of flake, measured on and through the percussion axis</desc>
+		</Maximum_thickness_mm>
+		<Termination_type>
+		    <desc>The shape of the distal end of the flake or distal fragment</desc>
+		    <!--@SOURCE: vocab/saflake_termination.xml-->
+		</Termination_type>
+		<Overhang_removal>
+		    <desc>Indicate whether there is evidence of overhang removal, typically indicated by the scars on the dorsal surface of the flake that were created before it was detached, through platform preparation</desc>
+		    <!--@SOURCE: vocab/overhang_removal.xml-->
+		</Overhang_removal>
+		<Dorsal_cortex_type>
+		    <desc>A general description of the texture of the cortex</desc>
+		    <!--@SOURCE: vocab/saflake_dorscortex.xml-->
+		</Dorsal_cortex_type>
+		<Dorsal_cortex_amount>
+		    <desc>Ordinal measurement of the amount of cortext remaining on the dorsal surface</desc>
+		    <!--@SOURCE: vocab/percentage_amount.xml-->
+		</Dorsal_cortex_amount>
+		<Dorsal_scar_count>
+		    <desc>Count of negative flake scars on dorsal surface, including both complete and partial scars</desc>
+		</Dorsal_scar_count>
+		<Dorsal_scar_direction t="checkbox">
+		    <desc>Record the initiation quadrant for dorsal scars. For example, a flake with dorsal scars initatied in Q1 and Q2 only would be recorded as 1,2</desc>
+		    <!--@SOURCE: vocab/dorsal_scar_direction.xml-->
+		</Dorsal_scar_direction>
+		<Dorsal_flake_scar_maximum_length>
+		    <desc>Maximum length of the longest flake scar preserved on the dorsal surface</desc>
+		</Dorsal_flake_scar_maximum_length>
+		<Retouched_quadrants t="checkbox">
+		    <desc>Which quadrants feature retouched margins?</desc>
+		    <!--@SOURCE: vocab/dorsal_scar_direction.xml-->
+		</Retouched_quadrants>
+		<Retouch_initiation>
+		    <desc>Describe retouching initiation</desc>
+		    <!--@SOURCE: vocab/saflake_rtinit.xml-->
+		</Retouch_initiation>
+		<Retouch_shape>
+		    <desc>Describe retouch shape</desc>
+		    <!--@SOURCE: vocab/saflake_rtshape.xml-->
+		</Retouch_shape>
+		<Additional_description>
+		    <desc>Provide any additional comments here</desc>
+		</Additional_description>
+	</Feature_details>	
+	<Supplementary>
+		<Additional_description f="nocertainty noannotation">
+		    <desc>Provide any additional comments here</desc>
+		</Additional_description>
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Flaked_Stone_Artefact>
+
+<!--                                                                
+ #######  ######## ##     ## ######## ########      ######  ########  #######  ##    ## ########                    
+##     ##    ##    ##     ## ##       ##     ##    ##    ##    ##    ##     ## ###   ## ##                          
+##     ##    ##    ##     ## ##       ##     ##    ##          ##    ##     ## ####  ## ##                          
+##     ##    ##    ######### ######   ########      ######     ##    ##     ## ## ## ## ######                      
+##     ##    ##    ##     ## ##       ##   ##            ##    ##    ##     ## ##  #### ##                          
+##     ##    ##    ##     ## ##       ##    ##     ##    ##    ##    ##     ## ##   ### ##                          
+ #######     ##    ##     ## ######## ##     ##     ######     ##     #######  ##    ## ########   -->    
+
+
+<Other_Stone_Artefact>
+	<fmt>OSA{{Other_Stone_Artefact_ID}}</fmt>
+	<General>
+		<Other_Stone_Artefact_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		
+		<gps/>		
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+	</General>
+	
+	<Feature_details>
+		<Raw_material_type>
+		    <desc>Select the raw material type</desc>
+		    <!--@SOURCE: vocab/sa_rawmaterial.xml-->
+		</Raw_material_type>
+		<Raw_material_colour f="nocertainty noannotation">
+		    <desc>Provide a classification of the primary colour and secondary colour (e.g. Reddish-brown), or if available, provide the Munsell rock colour designation</desc>
+		</Raw_material_colour>
+		<Completeness f="nocertainty">
+			<desc>Estimate the proportion of the original artefact present</desc>
+			<!--@SOURCE: vocab/percentage_amount.xml-->
+		</Completeness>
+		<Weight_g b="decimal" f="nocertainty">
+		    <desc>If available, record artefact weight (e.g. for lab-based analysis)</desc>
+		</Weight_g>
+		<Type f="nocertainty">
+		    <desc>Select artefact type</desc>
+		    <!--@SOURCE: vocab/othsa_types.xml-->
+		</Type>
+		<Length_mm b="decimal" f="nocertainty">
+		    <desc>Maximum length of the artefact when oriented correctly</desc>
+		</Length_mm>
+		<Width_mm b="decimal" f="nocertainty">
+		    <desc>Maximum width of the artefact when oriented correctly</desc>
+		</Width_mm>
+		<Thickness_mm b="decimal" f="nocertainty">
+		    <desc>Maximum thickness of the artefact when oriented correctly</desc>
+		</Thickness_mm>
+		<Largest_scar_length_mm b="decimal">
+		    <desc>Cores only. Oriented length of the longest flake scar evident on a core, if complete.</desc>
+		</Largest_scar_length_mm>
+		<Core_largest_scar_shape>
+		    <desc>Select the shape of the largest flake scar present</desc>
+		    <!--@SOURCE: vocab/othersa_flakeshape.xml-->
+		</Core_largest_scar_shape>
+		<Core_platform_count b="integer">
+		    <desc>A simple count of the no. of platforms from which flakes were struck</desc>
+		</Core_platform_count>
+		<Core_platform_1_surface>
+		    <desc>Select the type of platform present</desc>
+		    <!--@SOURCE: vocab/saflake_platsurf.xml-->
+		</Core_platform_1_surface>
+		<Core_platform_1_length_mm b="decimal">
+		    <desc>Maximum width across the platform surface, and between the two lateral margins either side of the main flake scar. Leave blank if either lateral margin is absent (e.g. broken core)</desc>
+		</Core_platform_1_length_mm>
+		<Core_platform_1_width_mm b="decimal">
+		    <desc>Maximum thickness of the platform, between the ventral and dorsal surface, and measured through the umbo and in line with the percussion axis</desc>
+		</Core_platform_1_width_mm>
+		<Core_platform_1_angle_mm b="decimal">
+		    <desc>The angle between the platform surface and the surface of the core from which flakes were struck. Requires a goniometer.</desc>
+		</Core_platform_1_angle_mm>
+		<Core_platform_2_surface>
+		    <desc>Select the type of platform present</desc>
+		    <!--@SOURCE: vocab/saflake_platsurf.xml-->
+		</Core_platform_2_surface>
+		<Core_platform_2_length_mm b="decimal">
+		    <desc>Maximum width across the platform surface, and between the two lateral margins either side of the main flake scar. Leave blank if either lateral margin is absent (e.g. broken core)</desc>
+		</Core_platform_2_length_mm>
+		<Core_platform_2_width_mm b="decimal">
+		    <desc>Maximum thickness of the platform, between the ventral and dorsal surface, and measured through the umbo and in line with the percussion axis</desc>
+		</Core_platform_2_width_mm>
+		<Core_platform_2_angle b="decimal">
+		    <desc>The angle between the platform surface and the surface of the core from which flakes were struck. Requires a goniometer.</desc>
+		</Core_platform_2_angle>
+		<Core_classification>
+		    <desc>If known, select the appropriate core type</desc>
+		    <!--@SOURCE: vocab/othersa_coreshape.xml-->
+		</Core_classification>
+		<Remaining_cortical_surface>
+		    <desc>Estimate the proportion of cortical surface remaining on the artefact</desc>
+		    <!--@SOURCE: vocab/percentage_amount.xml-->
+		</Remaining_cortical_surface>
+		<Usewear>
+		    <desc>Record any evidence of impact damage observed on the artefact</desc>
+		    <!--@SOURCE: vocab/othersa_use.xml-->
+		</Usewear>
+		<Other_comments f="nocertainty noannotation">
+		    <desc>For all artefact types, describe any features or measurements obtained that can not be included in other fields on this form. For example, presence of waist on edge ground implements, deep grooves on a grindstone, </desc>
+		</Other_comments>
+	</Feature_details>
+	
+	<Supplementary>
+		<Other_comments f="nocertainty noannotation">
+		    <desc>For all artefact types, describe any features or measurements obtained that can not be included in other fields on this form. For example, presence of waist on edge ground implements, deep grooves on a grindstone, </desc>
+		</Other_comments>
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Other_Stone_Artefact>
+
+<!--                
+ ######   ##          ###     ######   ######                                                                       
+##    ##  ##         ## ##   ##    ## ##    ##                                                                      
+##        ##        ##   ##  ##       ##                                                                            
+##   #### ##       ##     ##  ######   ######                                                                       
+##    ##  ##       #########       ##       ##                                                                      
+##    ##  ##       ##     ## ##    ## ##    ##                                                                      
+ ######   ######## ##     ##  ######   ######  #######  -->                                                             
+
+<Glass_Artefact>
+	<fmt>GA{{Glass_Artefact_ID}}</fmt>
+	<General>
+		<Glass_Artefact_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		
+		<gps/>		
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+	</General>
+	
+	<Feature_details>
+		<Diagnostic>
+		    <desc>Diagnostic artefacts are those that unambiguously indicative of a single original vessel (e.g. finish, base) </desc>
+		    <!--@SOURCE: vocab/yesno.xml-->
+		</Diagnostic>
+		<Colour>
+		    <desc>Select closest colour match</desc>
+		    <!--@SOURCE: vocab/glass_colour.xml-->
+		</Colour>
+		<Grouped_fragments>
+		    <desc>Where multiple fragments resulting from breakage of the same bottle or bottle fragment are found at one location, record as a group </desc>
+		    <!--@SOURCE: vocab/yesno.xml-->
+		</Grouped_fragments>
+		<Grouped_fragment_count b="integer" f="nocertainty noannotation">
+		    <desc>count of all fragments present</desc>
+		</Grouped_fragment_count>
+		<Grouped_fragment_weight_g b="decimal" f="nocertainty noannotation">
+		    <desc>Record collective weight of all fragments if working in lab situation, or otherwise leave blank</desc>
+		</Grouped_fragment_weight_g>
+		<Group_max_fragment_length_mm b="decimal" f="nocertainty noannotation">
+		    <desc>Measure the maximum length of the largest fragment</desc>
+		</Group_max_fragment_length_mm>
+		<Group_notes>
+		    <desc>Record any additional notes relating to the grouped fragments</desc>
+		</Group_notes>
+		<Fragment_location>
+		    <desc>Record fragment location for artefact being catalogued</desc>
+		    <!--@SOURCE: vocab/glass_frag_loc.xml-->
+		</Fragment_location>
+		<Vessel_type>
+		    <desc>Select type of original vessel</desc>
+		    <!--@SOURCE: vocab/glass_vessel.xml-->
+		</Vessel_type>
+		<Length_mm b="decimal">
+		    <desc>Maximum fragment length, mm</desc>
+		</Length_mm>
+		<Width_mm b="decimal">
+		    <desc>Maximum fragment width, mm</desc>
+		</Width_mm>
+		<Thickness_mm b="decimal">
+		    <desc>Maximum fragment thickness, mm</desc>
+		</Thickness_mm>
+		<Body_shape>
+		    <desc>For body sherds only, record horizontal shape</desc>
+		    <!--@SOURCE: vocab/glass_bodysherd.xml-->
+		</Body_shape>
+		<Number_of_mould_seams b="integer">
+		    <desc>Count of mould seams present</desc>
+		</Number_of_mould_seams>
+		<Mould_type>
+		    <desc>Select mould type, if evident</desc>
+		    <!--@SOURCE: vocab/glass_moundtype.xml-->
+		</Mould_type>
+		<Patination_present>
+		    <desc>Presence of white-coloured patina across sherd due exposure</desc>
+		    <!--@SOURCE: vocab/yesno.xml-->
+		</Patination_present>
+		<Base_diameter_mm b="decimal">
+		    <desc>Total diameter of the base, if present</desc>
+		</Base_diameter_mm>
+		<Base_thickness_mm b="decimal">
+		    <desc>thickness of base, if present</desc>
+		</Base_thickness_mm>
+		<Pontil_mark_present>
+		    <desc>Small, usually circular depression on bottle base</desc>
+		    <!--@SOURCE: vocab/yesno.xml-->
+		</Pontil_mark_present>
+		<Kickup_depth_mm b="decimal">
+		    <desc>Depth of kickup on base, measured from base near centre</desc>
+		</Kickup_depth_mm>
+		<Finish_inner_bore_diameter_mm b="decimal">
+		    <desc>Inner width of bore</desc>
+		</Finish_inner_bore_diameter_mm>
+		<Finish_type>
+		    <desc>Type of finish used</desc>
+		    <!--@SOURCE: vocab/glass_finishtype.xml-->
+		</Finish_type>
+		<Closure_type>
+		    <desc>Type of closure used</desc>
+		    <!--@SOURCE: vocab/glass_closure.xml-->
+		</Closure_type>
+		<Applied_finish>
+		    <desc>Is finish applied</desc>
+		    <!--@SOURCE: vocab/yesno.xml-->
+		</Applied_finish>
+		<Trademark>
+		    <desc>Transcribe or photograph trademarks, noting location and details here</desc>
+		</Trademark>
+		<Marks_motifs_and_decoration>
+		    <desc>Transcribe any text, motifs or decoration and, if possible, photograph above</desc>
+		</Marks_motifs_and_decoration>
+		<Other_comments>
+		    <desc>Provide any additional comments here</desc>
+		</Other_comments>
+	</Feature_details>
+	
+	<Supplementary>
+		
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Glass_Artefact>
+
+
+<!--  
+ ######  ######## ########     ###    ##     ## ####  ######                                                        
+##    ## ##       ##     ##   ## ##   ###   ###  ##  ##    ##                                                       
+##       ##       ##     ##  ##   ##  #### ####  ##  ##                                                             
+##       ######   ########  ##     ## ## ### ##  ##  ##                                                             
+##       ##       ##   ##   ######### ##     ##  ##  ##                                                             
+##    ## ##       ##    ##  ##     ## ##     ##  ##  ##    ##                                                       
+ ######  ######## ##     ## ##     ## ##     ## ####  ######  #######   -->   
+
+<Ceramic_Artefact>
+	<fmt>CA{{Ceramic_Artefact_ID}}</fmt>
+	<General>
+		<Ceramic_Artefact_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		
+		<gps/>		
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+	</General>
+	
+	<Feature_details>
+		<Diagnostic>
+		    <desc>Diagnostic artefacts are those that unambiguously indicative of a single original vessel (e.g. base) </desc>
+		    <!--@SOURCE: vocab/yesno.xml-->
+		</Diagnostic>
+		<Type>
+		    <desc>Select general ware type</desc>
+		    <!--@SOURCE: vocab/ceram_type.xml-->
+		</Type>
+		<Element>
+		    <desc>Select element type</desc>
+		    <!--@SOURCE: vocab/ceram_element.xml-->
+		</Element>
+		<Form>
+		    <desc>Select form</desc>
+		    <!--@SOURCE: vocab/ceram_form.xml-->
+		</Form>
+		<Completeness>
+		    <desc>Estimate completeness</desc>
+		    <!--@SOURCE: vocab/percentage_amount.xml-->
+		</Completeness>
+		<Function>
+		    <desc>Select function, if known</desc>
+		    <!--@SOURCE: vocab/ceram_funct.xml-->
+		</Function>
+		<Length_mm b="decimal">
+		    <desc>Maximum fragment length, mm</desc>
+		</Length_mm>
+		<Width_mm b="decimal">
+		    <desc>Maximum fragment width, mm</desc>
+		</Width_mm>
+		<Thickness_mm b="decimal">
+		    <desc>Maximum fragment thickness, mm</desc>
+		</Thickness_mm>
+		<Base_diameter_mm b="decimal">
+		    <desc>Maximum diameter of base</desc>
+		</Base_diameter_mm>
+		<Rim_diameter_mm b="decimal">
+		    <desc>Maximum diameter of rim</desc>
+		</Rim_diameter_mm>
+		<Paste_colour>
+		    <desc>Colour of paste to create ceramic</desc>
+		    <!--@SOURCE: vocab/ceram_paste.xml-->
+		</Paste_colour>
+		<Glaze_type>
+		    <desc>Glaze type, if known</desc>
+		    <!--@SOURCE: vocab/ceram_glaze.xml-->
+		</Glaze_type>
+		<Decorative_methods t="checkbox">
+		    <desc>Select all decorative methods that apply</desc>
+		    <!--@SOURCE: vocab/ceram_decorative.xml-->
+		</Decorative_methods>
+		<Decorative_colours>
+		    <desc>Describe decorative colours used</desc>
+		</Decorative_colours>
+		<Visible_motifs>
+		    <desc>Describe motifs applied (e.g. hairline around rim, coloured and scalloped rim). Please ensure photos include motifs</desc>
+
+		</Visible_motifs>
+		<Decorative_pattern_name>
+		    <desc>If known, select the decorative pattern used</desc>
+		    <!--@SOURCE: vocab/ceram_decorative.xml-->
+		</Decorative_pattern_name>
+		<Other_features f="nocertainty noannotation">
+		    <desc>Detail other features of interest, including trade marks, maker's marks, etc</desc>
+		</Other_features>
+	</Feature_details>
+	
+	<Supplementary>
+		
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Ceramic_Artefact>
+
+ <!--                                           
+##     ## ####  ######   ######             ###    ########  ######## ######## ########    ###     ######  ######## 
+###   ###  ##  ##    ## ##    ##           ## ##   ##     ##    ##    ##       ##         ## ##   ##    ##    ##    
+#### ####  ##  ##       ##                ##   ##  ##     ##    ##    ##       ##        ##   ##  ##          ##    
+## ### ##  ##   ######  ##               ##     ## ########     ##    ######   ######   ##     ## ##          ##    
+##     ##  ##        ## ##               ######### ##   ##      ##    ##       ##       ######### ##          ##    
+##     ##  ##  ##    ## ##    ##         ##     ## ##    ##     ##    ##       ##       ##     ## ##    ##    ##    
+##     ## ####  ######   ######  ####### ##     ## ##     ##    ##    ######## ##       ##     ##  ######     ##    
+ -->
+
+<Misc_Artefact>
+	<fmt>MA{{Misc_Artefact_ID}}</fmt>
+	<General>
+		<Misc_Artefact_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		
+		<gps/>		
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+	</General>
+	
+	<Feature_details>
+		<Material>
+		    <desc>What is the artefact manufactured from</desc>
+		    <!--@SOURCE: vocab/misc_material.xml-->
+		</Material>
+		<Type f="nocertainty noannotation">
+		    <desc>What type of artefact is this, considering both its form and function</desc>
+		</Type>
+		<Length_mm b="decimal">
+		    <desc>Maximum length, mm</desc>
+		</Length_mm>
+		<Width_mm b="decimal">
+		    <desc>Maximum width, mm.</desc>
+		</Width_mm>
+		<Thickness_mm b="decimal">
+		    <desc>Maximum thickness, mm</desc>
+		</Thickness_mm>
+		<Height_mm b="decimal">
+		    <desc>Height (if applicable) -- e.g posts</desc>
+		</Height_mm>
+		<Additional_description>
+		    <desc>Provide any supplementary information or measurements</desc>
+		</Additional_description>
+	</Feature_details>
+	
+	<Supplementary>
+		
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Misc_Artefact>
+
+<!-- 
+##     ## ########    ###    ########  ######## ##     ##                                                           
+##     ## ##         ## ##   ##     ##    ##    ##     ##                                                           
+##     ## ##        ##   ##  ##     ##    ##    ##     ##                                                           
+######### ######   ##     ## ########     ##    #########                                                           
+##     ## ##       ######### ##   ##      ##    ##     ##                                                           
+##     ## ##       ##     ## ##    ##     ##    ##     ##                                                           
+##     ## ######## ##     ## ##     ##    ##    ##     ##       -->                                                     
+
+<Discrete_Hearth_Artefact>
+	<fmt>DH{{Discrete_Hearth_Artefact_ID}}</fmt>
+	<General>
+		<Discrete_Hearth_Artefact_ID f="id autonum nocertainty"/>
+		<author/>
+		<timestamp f="noannotation"/>
+		
+		<gps/>		
+		<Device_photos t="camera">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: vocab/landform_elements.xml-->
+		</Landform_element>
+	</General>
+	
+	<Feature_details>
+		<Hearth_type>
+		    <desc>What type of hearth feature is this</desc>
+		    <!--@SOURCE: vocab/hearth_type.xml-->
+		</Hearth_type>
+		<Heating_element_types>
+		    <desc>What type of heating elements, if any, have been used</desc>
+		    <!--@SOURCE: vocab/he_types.xml-->
+		</Heating_element_types>
+		<Heating_element_frequency>
+		    <desc>Frequency of heating elements on the hearth feature</desc>
+		    <!--@SOURCE: vocab/he_frequency.xml-->
+		</Heating_element_frequency>
+		<Materials_present t="checkbox">
+		    <desc>Select all materials observed on the hearth</desc>
+		    <!--@SOURCE: vocab/hearth_materialtypes.xml-->
+		</Materials_present>
+		<Diameter_mm b="decimal">
+		    <desc>Maximum diameter of hearth</desc>
+		</Diameter_mm>
+		<Other_comments f="nocertainty noannotation">
+		    <desc>Provide any other comments here.\</desc>
+		</Other_comments>
+	</Feature_details>
+	
+	<Supplementary>
+		
+		<External_camera_ID f="nocertainty">
+		    <desc>Select </desc>
+		    <!--@SOURCE: vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_filenames t="file" f="nocertainty">
+		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
+		</External_camera_filenames>
+		<Survey_instrument_name f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+		    <!--@SOURCE: vocab/survey_instr.xml-->
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty">
+		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+		</Survey_instrument_data>
+	</Supplementary>
+</Discrete_Hearth_Artefact>
 
 </module>
 

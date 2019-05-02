@@ -57,21 +57,21 @@ def main():
         for value in googlesheet.get('values', []):
             if len(value) == 1:
                 element = etree.SubElement(vocab, "opt")
-                element.text=html.escape(value[0])
+                element.text=value[0]
             elif len(value) == 2:    
                 element = etree.SubElement(vocab, "opt")            
-                element.text=html.escape(value[0])
+                element.text=value[0]
                 desc = etree.SubElement(element, 'desc')
-                desc.text=html.escape(value[1])
+                desc.text=value[1]
             elif len(value) == 3:               
                 if value[0] != parentelementvalue:                    
                     parentelement = etree.SubElement(vocab, "opt")            
-                    parentelement.text=html.escape(value[0])
+                    parentelement.text=value[0]
                     parentelementvalue = value[0]
                 element = etree.SubElement(parentelement, "opt")            
-                element.text=html.escape(value[1])
+                element.text=value[1]
                 desc = etree.SubElement(element, 'desc')
-                desc.text=html.escape(value[2])
+                desc.text=value[2]
             else:
                 ValueError("Too many levels! Go implement some more!")
         
