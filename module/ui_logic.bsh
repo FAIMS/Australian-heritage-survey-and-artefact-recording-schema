@@ -379,8 +379,6 @@ REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Landform_element", "dropdown
 REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Dominant_vegetation_type", "dropdown");
 REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Dominant_vegetation_cover", "dropdown");
 REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Additional_environmental_notes", "input");
-REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Add_new_note", "camera");
-REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Add_new_note_Button_1", "button");
 REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Morphology_type", "dropdown");
 REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Morphology_notes", "input");
 REF_TO_TYPE.put("Surface_Exposure/Feature_details/Length_m", "input");
@@ -396,12 +394,13 @@ REF_TO_TYPE.put("Surface_Exposure/Feature_details/Heating_element_scatters", "ra
 REF_TO_TYPE.put("Surface_Exposure/Feature_details/Heating_element_types_observed", "checkbox");
 REF_TO_TYPE.put("Surface_Exposure/Feature_details/Faunal_materials_present", "checkbox");
 REF_TO_TYPE.put("Surface_Exposure/Feature_details/Subsurface_potential", "radio");
-REF_TO_TYPE.put("Surface_Exposure/Supplementary/Additional_notes", "input");
+REF_TO_TYPE.put("Surface_Exposure/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Surface_Exposure/Supplementary/Paper_notes_and_sketches", "camera");
 REF_TO_TYPE.put("Surface_Exposure/Supplementary/Paper_notes_and_sketches_Button_1", "button");
 REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Surface_Exposure/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Surface_Exposure/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_ID", "input");
@@ -451,12 +450,13 @@ REF_TO_TYPE.put("Mound/Feature_details/In_situ_hearth_count", "input");
 REF_TO_TYPE.put("Mound/Feature_details/Heating_element_scatters", "radio");
 REF_TO_TYPE.put("Mound/Feature_details/Heating_element_types_observed", "checkbox");
 REF_TO_TYPE.put("Mound/Feature_details/Faunal_materials_present", "checkbox");
-REF_TO_TYPE.put("Mound/Supplementary/Additional_notes", "input");
+REF_TO_TYPE.put("Mound/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Mound/Supplementary/Paper_notes_and_sketches", "camera");
 REF_TO_TYPE.put("Mound/Supplementary/Paper_notes_and_sketches_Button_1", "button");
 REF_TO_TYPE.put("Mound/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Mound/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Mound/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Mound/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Mound/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Mound/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Mound/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Mound/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Mound_Boundary_point/Mound_Boundary_point/Mound_ID", "input");
@@ -489,6 +489,8 @@ REF_TO_TYPE.put("Rock_Shelter/Landscape_context/Landform_element", "dropdown");
 REF_TO_TYPE.put("Rock_Shelter/Landscape_context/Dominant_vegetation_type", "dropdown");
 REF_TO_TYPE.put("Rock_Shelter/Landscape_context/Dominant_vegetation_cover", "dropdown");
 REF_TO_TYPE.put("Rock_Shelter/Landscape_context/Additional_environmental_notes", "input");
+REF_TO_TYPE.put("Rock_Shelter/Landscape_context/Morphology_type", "dropdown");
+REF_TO_TYPE.put("Rock_Shelter/Landscape_context/Morphology_notes", "input");
 REF_TO_TYPE.put("Rock_Shelter/Feature_details/Shelter_type", "dropdown");
 REF_TO_TYPE.put("Rock_Shelter/Feature_details/Orientation", "input");
 REF_TO_TYPE.put("Rock_Shelter/Feature_details/Floor_length_m", "input");
@@ -510,12 +512,13 @@ REF_TO_TYPE.put("Rock_Shelter/Feature_details/Faunal_materials_present", "checkb
 REF_TO_TYPE.put("Rock_Shelter/Feature_details/Art_panel_count", "input");
 REF_TO_TYPE.put("Rock_Shelter/Feature_details/Techniques", "checkbox");
 REF_TO_TYPE.put("Rock_Shelter/Feature_details/Subsurface_potential", "radio");
-REF_TO_TYPE.put("Rock_Shelter/Supplementary/Additional_notes", "input");
+REF_TO_TYPE.put("Rock_Shelter/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Rock_Shelter/Supplementary/Paper_notes_and_sketches", "camera");
 REF_TO_TYPE.put("Rock_Shelter/Supplementary/Paper_notes_and_sketches_Button_1", "button");
 REF_TO_TYPE.put("Rock_Shelter/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Rock_Shelter/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Rock_Shelter/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Rock_Shelter/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Rock_Shelter/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Rock_Shelter/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Rock_Shelter/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Rock_Shelter/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Rock_Shelter_ID", "input");
@@ -548,6 +551,8 @@ REF_TO_TYPE.put("Historical_Feature/Landscape_context/Landform_element", "dropdo
 REF_TO_TYPE.put("Historical_Feature/Landscape_context/Dominant_vegetation_type", "dropdown");
 REF_TO_TYPE.put("Historical_Feature/Landscape_context/Dominant_vegetation_cover", "dropdown");
 REF_TO_TYPE.put("Historical_Feature/Landscape_context/Additional_environmental_notes", "input");
+REF_TO_TYPE.put("Historical_Feature/Landscape_context/Morphology_type", "dropdown");
+REF_TO_TYPE.put("Historical_Feature/Landscape_context/Morphology_notes", "input");
 REF_TO_TYPE.put("Historical_Feature/Feature_details/Place_name", "input");
 REF_TO_TYPE.put("Historical_Feature/Feature_details/Length_m", "input");
 REF_TO_TYPE.put("Historical_Feature/Feature_details/Width_m", "input");
@@ -559,12 +564,13 @@ REF_TO_TYPE.put("Historical_Feature/Feature_details/Archaeological_features", "c
 REF_TO_TYPE.put("Historical_Feature/Feature_details/Subsurface_potential", "radio");
 REF_TO_TYPE.put("Historical_Feature/Feature_details/Archaeological_description", "input");
 REF_TO_TYPE.put("Historical_Feature/Feature_details/Age_estimate", "input");
-REF_TO_TYPE.put("Historical_Feature/Supplementary/Additional_notes", "input");
+REF_TO_TYPE.put("Historical_Feature/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Historical_Feature/Supplementary/Paper_notes_and_sketches", "camera");
 REF_TO_TYPE.put("Historical_Feature/Supplementary/Paper_notes_and_sketches_Button_1", "button");
 REF_TO_TYPE.put("Historical_Feature/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Historical_Feature/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Historical_Feature/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Historical_Feature/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Historical_Feature/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Historical_Feature/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Historical_Feature/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Historical_Feature/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Historical_Feature_ID", "input");
@@ -608,14 +614,15 @@ REF_TO_TYPE.put("Burial/Feature_details/Burial_number", "input");
 REF_TO_TYPE.put("Burial/Feature_details/Grave_markers_used", "checkbox");
 REF_TO_TYPE.put("Burial/Feature_details/Preservation", "checkbox");
 REF_TO_TYPE.put("Burial/Feature_details/Orientation", "input");
-REF_TO_TYPE.put("Burial/Feature_details/Artefacts", "dropdown");
-REF_TO_TYPE.put("Burial/Feature_details/Elements_present", "dropdown");
-REF_TO_TYPE.put("Burial/Supplementary/Additional_notes", "input");
+REF_TO_TYPE.put("Burial/Feature_details/Artefacts", "checkbox");
+REF_TO_TYPE.put("Burial/Feature_details/Elements_present", "checkbox");
+REF_TO_TYPE.put("Burial/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Burial/Supplementary/Paper_notes_and_sketches", "camera");
 REF_TO_TYPE.put("Burial/Supplementary/Paper_notes_and_sketches_Button_1", "button");
 REF_TO_TYPE.put("Burial/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Burial/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Burial/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Burial/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Burial/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Burial/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Burial/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Burial/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Burial_Boundary_point/Burial_Boundary_point/Burial_ID", "input");
@@ -653,12 +660,13 @@ REF_TO_TYPE.put("Other_Point_of_Interest/Landscape_context/Morphology_notes", "i
 REF_TO_TYPE.put("Other_Point_of_Interest/Feature_details/Type", "dropdown");
 REF_TO_TYPE.put("Other_Point_of_Interest/Feature_details/Detailed_description", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest/Feature_details/Information_source", "input");
-REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/Additional_notes", "input");
+REF_TO_TYPE.put("Other_Point_of_Interest/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/Paper_notes_and_sketches", "camera");
 REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/Paper_notes_and_sketches_Button_1", "button");
 REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Other_Point_of_Interest/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_ID", "input");
@@ -698,14 +706,13 @@ REF_TO_TYPE.put("Tree/Feature_details/Tree_Height", "dropdown");
 REF_TO_TYPE.put("Tree/Feature_details/Condition", "dropdown");
 REF_TO_TYPE.put("Tree/Feature_details/Number_of_scars", "input");
 REF_TO_TYPE.put("Tree/Feature_details/Stump_height_mm", "input");
+REF_TO_TYPE.put("Tree/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Tree/Scar_control/New_Scar", "button");
 REF_TO_TYPE.put("Tree/Scar_control/List_of_Related_Scars", "list");
-REF_TO_TYPE.put("Tree/Supplementary/Additional_notes", "input");
-REF_TO_TYPE.put("Tree/Supplementary/Paper_notes_and_sketches", "camera");
-REF_TO_TYPE.put("Tree/Supplementary/Paper_notes_and_sketches_Button_1", "button");
 REF_TO_TYPE.put("Tree/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Tree/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Tree/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Tree/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Tree/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Tree/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Tree/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Tree/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Scar/Scar/Tree_ID", "input");
@@ -718,9 +725,11 @@ REF_TO_TYPE.put("Scar/Scar/Scar_width_mm", "input");
 REF_TO_TYPE.put("Scar/Scar/Aperture_length_mm", "input");
 REF_TO_TYPE.put("Scar/Scar/Aperture_width_mm", "input");
 REF_TO_TYPE.put("Scar/Scar/Device_photos_of_scar", "input");
+REF_TO_TYPE.put("Scar/Scar/Additional_notes", "input");
 REF_TO_TYPE.put("Scar/Scar/External_camera_ID_scars", "dropdown");
-REF_TO_TYPE.put("Scar/Scar/External_camera_filenames_scars", "file");
-REF_TO_TYPE.put("Scar/Scar/External_camera_filenames_scars_Button_1", "button");
+REF_TO_TYPE.put("Scar/Scar/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Scar/Scar/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Scar/Scar/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_ID", "input");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_author", "input");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_timestamp", "input");
@@ -755,11 +764,11 @@ REF_TO_TYPE.put("Flaked_Stone_Artefact/Feature_details/Dorsal_flake_scar_maximum
 REF_TO_TYPE.put("Flaked_Stone_Artefact/Feature_details/Retouched_quadrants", "checkbox");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/Feature_details/Retouch_initiation", "dropdown");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/Feature_details/Retouch_shape", "dropdown");
-REF_TO_TYPE.put("Flaked_Stone_Artefact/Feature_details/Additional_description", "input");
-REF_TO_TYPE.put("Flaked_Stone_Artefact/Supplementary/Additional_description", "input");
+REF_TO_TYPE.put("Flaked_Stone_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Flaked_Stone_Artefact/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Flaked_Stone_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Flaked_Stone_Artefact/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Flaked_Stone_Artefact/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Flaked_Stone_Artefact/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Other_Stone_Artefact/General/Other_Stone_Artefact_ID", "input");
@@ -796,11 +805,11 @@ REF_TO_TYPE.put("Other_Stone_Artefact/Feature_details/Core_platform_2_angle", "i
 REF_TO_TYPE.put("Other_Stone_Artefact/Feature_details/Core_classification", "dropdown");
 REF_TO_TYPE.put("Other_Stone_Artefact/Feature_details/Remaining_cortical_surface", "dropdown");
 REF_TO_TYPE.put("Other_Stone_Artefact/Feature_details/Usewear", "dropdown");
-REF_TO_TYPE.put("Other_Stone_Artefact/Feature_details/Other_comments", "input");
-REF_TO_TYPE.put("Other_Stone_Artefact/Supplementary/Other_comments", "input");
+REF_TO_TYPE.put("Other_Stone_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Other_Stone_Artefact/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Other_Stone_Artefact/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Other_Stone_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Other_Stone_Artefact/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Other_Stone_Artefact/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Other_Stone_Artefact/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Other_Stone_Artefact/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Other_Stone_Artefact/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Glass_Artefact/General/Glass_Artefact_ID", "input");
@@ -841,7 +850,7 @@ REF_TO_TYPE.put("Glass_Artefact/Feature_details/Closure_type", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Applied_finish", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Trademark", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Marks_motifs_and_decoration", "input");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Other_comments", "input");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Glass_Artefact/Supplementary/External_camera_ID", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Supplementary/External_camera_filenames", "file");
 REF_TO_TYPE.put("Glass_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
@@ -876,7 +885,7 @@ REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Decorative_methods", "checkbox
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Decorative_colours", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Visible_motifs", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Decorative_pattern_name", "dropdown");
-REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Other_features", "input");
+REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_ID", "dropdown");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_filenames", "file");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
@@ -900,7 +909,7 @@ REF_TO_TYPE.put("Misc_Artefact/Feature_details/Length_mm", "input");
 REF_TO_TYPE.put("Misc_Artefact/Feature_details/Width_mm", "input");
 REF_TO_TYPE.put("Misc_Artefact/Feature_details/Thickness_mm", "input");
 REF_TO_TYPE.put("Misc_Artefact/Feature_details/Height_mm", "input");
-REF_TO_TYPE.put("Misc_Artefact/Feature_details/Additional_description", "input");
+REF_TO_TYPE.put("Misc_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_ID", "dropdown");
 REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_filenames", "file");
 REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
@@ -923,7 +932,7 @@ REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details/Heating_element_types"
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details/Heating_element_frequency", "dropdown");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details/Materials_present", "checkbox");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details/Diameter_mm", "input");
-REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details/Other_comments", "input");
+REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/External_camera_ID", "dropdown");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/External_camera_filenames", "file");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
@@ -1012,7 +1021,6 @@ DATA_REFS.add("Surface_Exposure/Landscape_context/Landform_element");
 DATA_REFS.add("Surface_Exposure/Landscape_context/Dominant_vegetation_type");
 DATA_REFS.add("Surface_Exposure/Landscape_context/Dominant_vegetation_cover");
 DATA_REFS.add("Surface_Exposure/Landscape_context/Additional_environmental_notes");
-DATA_REFS.add("Surface_Exposure/Landscape_context/Add_new_note");
 DATA_REFS.add("Surface_Exposure/Landscape_context/Morphology_type");
 DATA_REFS.add("Surface_Exposure/Landscape_context/Morphology_notes");
 DATA_REFS.add("Surface_Exposure/Feature_details/Length_m");
@@ -1028,10 +1036,11 @@ DATA_REFS.add("Surface_Exposure/Feature_details/Heating_element_scatters");
 DATA_REFS.add("Surface_Exposure/Feature_details/Heating_element_types_observed");
 DATA_REFS.add("Surface_Exposure/Feature_details/Faunal_materials_present");
 DATA_REFS.add("Surface_Exposure/Feature_details/Subsurface_potential");
-DATA_REFS.add("Surface_Exposure/Supplementary/Additional_notes");
+DATA_REFS.add("Surface_Exposure/Feature_details/Additional_notes");
 DATA_REFS.add("Surface_Exposure/Supplementary/Paper_notes_and_sketches");
 DATA_REFS.add("Surface_Exposure/Supplementary/External_camera_ID");
-DATA_REFS.add("Surface_Exposure/Supplementary/External_camera_filenames");
+DATA_REFS.add("Surface_Exposure/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Surface_Exposure/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Surface_Exposure/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Surface_Exposure/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_ID");
@@ -1076,10 +1085,11 @@ DATA_REFS.add("Mound/Feature_details/In_situ_hearth_count");
 DATA_REFS.add("Mound/Feature_details/Heating_element_scatters");
 DATA_REFS.add("Mound/Feature_details/Heating_element_types_observed");
 DATA_REFS.add("Mound/Feature_details/Faunal_materials_present");
-DATA_REFS.add("Mound/Supplementary/Additional_notes");
+DATA_REFS.add("Mound/Feature_details/Additional_notes");
 DATA_REFS.add("Mound/Supplementary/Paper_notes_and_sketches");
 DATA_REFS.add("Mound/Supplementary/External_camera_ID");
-DATA_REFS.add("Mound/Supplementary/External_camera_filenames");
+DATA_REFS.add("Mound/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Mound/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Mound/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Mound/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Mound_Boundary_point/Mound_Boundary_point/Mound_ID");
@@ -1107,6 +1117,8 @@ DATA_REFS.add("Rock_Shelter/Landscape_context/Landform_element");
 DATA_REFS.add("Rock_Shelter/Landscape_context/Dominant_vegetation_type");
 DATA_REFS.add("Rock_Shelter/Landscape_context/Dominant_vegetation_cover");
 DATA_REFS.add("Rock_Shelter/Landscape_context/Additional_environmental_notes");
+DATA_REFS.add("Rock_Shelter/Landscape_context/Morphology_type");
+DATA_REFS.add("Rock_Shelter/Landscape_context/Morphology_notes");
 DATA_REFS.add("Rock_Shelter/Feature_details/Shelter_type");
 DATA_REFS.add("Rock_Shelter/Feature_details/Orientation");
 DATA_REFS.add("Rock_Shelter/Feature_details/Floor_length_m");
@@ -1128,10 +1140,11 @@ DATA_REFS.add("Rock_Shelter/Feature_details/Faunal_materials_present");
 DATA_REFS.add("Rock_Shelter/Feature_details/Art_panel_count");
 DATA_REFS.add("Rock_Shelter/Feature_details/Techniques");
 DATA_REFS.add("Rock_Shelter/Feature_details/Subsurface_potential");
-DATA_REFS.add("Rock_Shelter/Supplementary/Additional_notes");
+DATA_REFS.add("Rock_Shelter/Feature_details/Additional_notes");
 DATA_REFS.add("Rock_Shelter/Supplementary/Paper_notes_and_sketches");
 DATA_REFS.add("Rock_Shelter/Supplementary/External_camera_ID");
-DATA_REFS.add("Rock_Shelter/Supplementary/External_camera_filenames");
+DATA_REFS.add("Rock_Shelter/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Rock_Shelter/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Rock_Shelter/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Rock_Shelter/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Rock_Shelter_ID");
@@ -1159,6 +1172,8 @@ DATA_REFS.add("Historical_Feature/Landscape_context/Landform_element");
 DATA_REFS.add("Historical_Feature/Landscape_context/Dominant_vegetation_type");
 DATA_REFS.add("Historical_Feature/Landscape_context/Dominant_vegetation_cover");
 DATA_REFS.add("Historical_Feature/Landscape_context/Additional_environmental_notes");
+DATA_REFS.add("Historical_Feature/Landscape_context/Morphology_type");
+DATA_REFS.add("Historical_Feature/Landscape_context/Morphology_notes");
 DATA_REFS.add("Historical_Feature/Feature_details/Place_name");
 DATA_REFS.add("Historical_Feature/Feature_details/Length_m");
 DATA_REFS.add("Historical_Feature/Feature_details/Width_m");
@@ -1170,10 +1185,11 @@ DATA_REFS.add("Historical_Feature/Feature_details/Archaeological_features");
 DATA_REFS.add("Historical_Feature/Feature_details/Subsurface_potential");
 DATA_REFS.add("Historical_Feature/Feature_details/Archaeological_description");
 DATA_REFS.add("Historical_Feature/Feature_details/Age_estimate");
-DATA_REFS.add("Historical_Feature/Supplementary/Additional_notes");
+DATA_REFS.add("Historical_Feature/Feature_details/Additional_notes");
 DATA_REFS.add("Historical_Feature/Supplementary/Paper_notes_and_sketches");
 DATA_REFS.add("Historical_Feature/Supplementary/External_camera_ID");
-DATA_REFS.add("Historical_Feature/Supplementary/External_camera_filenames");
+DATA_REFS.add("Historical_Feature/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Historical_Feature/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Historical_Feature/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Historical_Feature/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Historical_Feature_ID");
@@ -1214,10 +1230,11 @@ DATA_REFS.add("Burial/Feature_details/Preservation");
 DATA_REFS.add("Burial/Feature_details/Orientation");
 DATA_REFS.add("Burial/Feature_details/Artefacts");
 DATA_REFS.add("Burial/Feature_details/Elements_present");
-DATA_REFS.add("Burial/Supplementary/Additional_notes");
+DATA_REFS.add("Burial/Feature_details/Additional_notes");
 DATA_REFS.add("Burial/Supplementary/Paper_notes_and_sketches");
 DATA_REFS.add("Burial/Supplementary/External_camera_ID");
-DATA_REFS.add("Burial/Supplementary/External_camera_filenames");
+DATA_REFS.add("Burial/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Burial/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Burial/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Burial/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Burial_Boundary_point/Burial_Boundary_point/Burial_ID");
@@ -1250,10 +1267,11 @@ DATA_REFS.add("Other_Point_of_Interest/Landscape_context/Morphology_notes");
 DATA_REFS.add("Other_Point_of_Interest/Feature_details/Type");
 DATA_REFS.add("Other_Point_of_Interest/Feature_details/Detailed_description");
 DATA_REFS.add("Other_Point_of_Interest/Feature_details/Information_source");
-DATA_REFS.add("Other_Point_of_Interest/Supplementary/Additional_notes");
+DATA_REFS.add("Other_Point_of_Interest/Feature_details/Additional_notes");
 DATA_REFS.add("Other_Point_of_Interest/Supplementary/Paper_notes_and_sketches");
 DATA_REFS.add("Other_Point_of_Interest/Supplementary/External_camera_ID");
-DATA_REFS.add("Other_Point_of_Interest/Supplementary/External_camera_filenames");
+DATA_REFS.add("Other_Point_of_Interest/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Other_Point_of_Interest/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Other_Point_of_Interest/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Other_Point_of_Interest/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_ID");
@@ -1290,10 +1308,10 @@ DATA_REFS.add("Tree/Feature_details/Tree_Height");
 DATA_REFS.add("Tree/Feature_details/Condition");
 DATA_REFS.add("Tree/Feature_details/Number_of_scars");
 DATA_REFS.add("Tree/Feature_details/Stump_height_mm");
-DATA_REFS.add("Tree/Supplementary/Additional_notes");
-DATA_REFS.add("Tree/Supplementary/Paper_notes_and_sketches");
+DATA_REFS.add("Tree/Feature_details/Additional_notes");
 DATA_REFS.add("Tree/Supplementary/External_camera_ID");
-DATA_REFS.add("Tree/Supplementary/External_camera_filenames");
+DATA_REFS.add("Tree/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Tree/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Tree/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Tree/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Scar/Scar/Tree_ID");
@@ -1306,8 +1324,10 @@ DATA_REFS.add("Scar/Scar/Scar_width_mm");
 DATA_REFS.add("Scar/Scar/Aperture_length_mm");
 DATA_REFS.add("Scar/Scar/Aperture_width_mm");
 DATA_REFS.add("Scar/Scar/Device_photos_of_scar");
+DATA_REFS.add("Scar/Scar/Additional_notes");
 DATA_REFS.add("Scar/Scar/External_camera_ID_scars");
-DATA_REFS.add("Scar/Scar/External_camera_filenames_scars");
+DATA_REFS.add("Scar/Scar/External_camera_file_names_and_attachment");
+DATA_REFS.add("Scar/Scar/External_camera_image_attachment");
 DATA_REFS.add("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_ID");
 DATA_REFS.add("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_author");
 DATA_REFS.add("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_timestamp");
@@ -1340,10 +1360,10 @@ DATA_REFS.add("Flaked_Stone_Artefact/Feature_details/Dorsal_flake_scar_maximum_l
 DATA_REFS.add("Flaked_Stone_Artefact/Feature_details/Retouched_quadrants");
 DATA_REFS.add("Flaked_Stone_Artefact/Feature_details/Retouch_initiation");
 DATA_REFS.add("Flaked_Stone_Artefact/Feature_details/Retouch_shape");
-DATA_REFS.add("Flaked_Stone_Artefact/Feature_details/Additional_description");
-DATA_REFS.add("Flaked_Stone_Artefact/Supplementary/Additional_description");
+DATA_REFS.add("Flaked_Stone_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Flaked_Stone_Artefact/Supplementary/External_camera_ID");
-DATA_REFS.add("Flaked_Stone_Artefact/Supplementary/External_camera_filenames");
+DATA_REFS.add("Flaked_Stone_Artefact/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Flaked_Stone_Artefact/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Flaked_Stone_Artefact/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Flaked_Stone_Artefact/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Other_Stone_Artefact/General/Other_Stone_Artefact_ID");
@@ -1378,10 +1398,10 @@ DATA_REFS.add("Other_Stone_Artefact/Feature_details/Core_platform_2_angle");
 DATA_REFS.add("Other_Stone_Artefact/Feature_details/Core_classification");
 DATA_REFS.add("Other_Stone_Artefact/Feature_details/Remaining_cortical_surface");
 DATA_REFS.add("Other_Stone_Artefact/Feature_details/Usewear");
-DATA_REFS.add("Other_Stone_Artefact/Feature_details/Other_comments");
-DATA_REFS.add("Other_Stone_Artefact/Supplementary/Other_comments");
+DATA_REFS.add("Other_Stone_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Other_Stone_Artefact/Supplementary/External_camera_ID");
-DATA_REFS.add("Other_Stone_Artefact/Supplementary/External_camera_filenames");
+DATA_REFS.add("Other_Stone_Artefact/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Other_Stone_Artefact/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Other_Stone_Artefact/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Other_Stone_Artefact/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Glass_Artefact/General/Glass_Artefact_ID");
@@ -1420,7 +1440,7 @@ DATA_REFS.add("Glass_Artefact/Feature_details/Closure_type");
 DATA_REFS.add("Glass_Artefact/Feature_details/Applied_finish");
 DATA_REFS.add("Glass_Artefact/Feature_details/Trademark");
 DATA_REFS.add("Glass_Artefact/Feature_details/Marks_motifs_and_decoration");
-DATA_REFS.add("Glass_Artefact/Feature_details/Other_comments");
+DATA_REFS.add("Glass_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Glass_Artefact/Supplementary/External_camera_ID");
 DATA_REFS.add("Glass_Artefact/Supplementary/External_camera_filenames");
 DATA_REFS.add("Glass_Artefact/Supplementary/Survey_instrument_name");
@@ -1452,7 +1472,7 @@ DATA_REFS.add("Ceramic_Artefact/Feature_details/Decorative_methods");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Decorative_colours");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Visible_motifs");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Decorative_pattern_name");
-DATA_REFS.add("Ceramic_Artefact/Feature_details/Other_features");
+DATA_REFS.add("Ceramic_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/External_camera_ID");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/External_camera_filenames");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/Survey_instrument_name");
@@ -1473,7 +1493,7 @@ DATA_REFS.add("Misc_Artefact/Feature_details/Length_mm");
 DATA_REFS.add("Misc_Artefact/Feature_details/Width_mm");
 DATA_REFS.add("Misc_Artefact/Feature_details/Thickness_mm");
 DATA_REFS.add("Misc_Artefact/Feature_details/Height_mm");
-DATA_REFS.add("Misc_Artefact/Feature_details/Additional_description");
+DATA_REFS.add("Misc_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Misc_Artefact/Supplementary/External_camera_ID");
 DATA_REFS.add("Misc_Artefact/Supplementary/External_camera_filenames");
 DATA_REFS.add("Misc_Artefact/Supplementary/Survey_instrument_name");
@@ -1493,7 +1513,7 @@ DATA_REFS.add("Discrete_Hearth_Artefact/Feature_details/Heating_element_types");
 DATA_REFS.add("Discrete_Hearth_Artefact/Feature_details/Heating_element_frequency");
 DATA_REFS.add("Discrete_Hearth_Artefact/Feature_details/Materials_present");
 DATA_REFS.add("Discrete_Hearth_Artefact/Feature_details/Diameter_mm");
-DATA_REFS.add("Discrete_Hearth_Artefact/Feature_details/Other_comments");
+DATA_REFS.add("Discrete_Hearth_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/External_camera_ID");
 DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/External_camera_filenames");
 DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/Survey_instrument_name");
@@ -1637,9 +1657,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Feature_details/Heating_element_
 ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Feature_details/Heating_element_types_observed", "Surface Exposure Heating element types observed");
 ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Feature_details/Faunal_materials_present", "Surface Exposure Faunal materials present");
 ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Feature_details/Subsurface_potential", "Surface Exposure Subsurface potential");
-ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Supplementary/Additional_notes", "Surface Exposure Additional notes");
+ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Feature_details/Additional_notes", "Surface Exposure Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Supplementary/External_camera_ID", "Surface Exposure External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Supplementary/External_camera_filenames", "Surface Exposure External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Supplementary/Survey_instrument_name", "Surface Exposure Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Surface_Exposure/Supplementary/Survey_instrument_data", "Surface Exposure Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Mound/General/Level_of_recording", "Mound Level of recording");
@@ -1660,9 +1679,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Mound/Feature_details/In_situ_hearth_count", "Mou
 ATTRIB_NAMES_NON_STANDARD.put("Mound/Feature_details/Heating_element_scatters", "Mound Heating element scatters");
 ATTRIB_NAMES_NON_STANDARD.put("Mound/Feature_details/Heating_element_types_observed", "Mound Heating element types observed");
 ATTRIB_NAMES_NON_STANDARD.put("Mound/Feature_details/Faunal_materials_present", "Mound Faunal materials present");
-ATTRIB_NAMES_NON_STANDARD.put("Mound/Supplementary/Additional_notes", "Mound Additional notes");
+ATTRIB_NAMES_NON_STANDARD.put("Mound/Feature_details/Additional_notes", "Mound Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Mound/Supplementary/External_camera_ID", "Mound External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Mound/Supplementary/External_camera_filenames", "Mound External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Mound/Supplementary/Survey_instrument_name", "Mound Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Mound/Supplementary/Survey_instrument_data", "Mound Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/General/Level_of_recording", "Rock Shelter Level of recording");
@@ -1672,6 +1690,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Landscape_context/Landform_element",
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Landscape_context/Dominant_vegetation_type", "Rock Shelter Dominant vegetation type");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Landscape_context/Dominant_vegetation_cover", "Rock Shelter Dominant vegetation cover");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Landscape_context/Additional_environmental_notes", "Rock Shelter Additional environmental notes");
+ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Landscape_context/Morphology_type", "Rock Shelter Morphology type");
+ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Landscape_context/Morphology_notes", "Rock Shelter Morphology notes");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Feature_details/Orientation", "Rock Shelter Orientation");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Feature_details/Stone_artefact_count", "Rock Shelter Stone artefact count");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Feature_details/Stone_artefact_types", "Rock Shelter Stone artefact types");
@@ -1683,9 +1703,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Feature_details/Heating_element_scat
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Feature_details/Heating_element_types_observed", "Rock Shelter Heating element types observed");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Feature_details/Faunal_materials_present", "Rock Shelter Faunal materials present");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Feature_details/Subsurface_potential", "Rock Shelter Subsurface potential");
-ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Supplementary/Additional_notes", "Rock Shelter Additional notes");
+ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Feature_details/Additional_notes", "Rock Shelter Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Supplementary/External_camera_ID", "Rock Shelter External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Supplementary/External_camera_filenames", "Rock Shelter External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Supplementary/Survey_instrument_name", "Rock Shelter Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Rock_Shelter/Supplementary/Survey_instrument_data", "Rock Shelter Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/General/Level_of_recording", "Historical Feature Level of recording");
@@ -1695,12 +1714,13 @@ ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Landscape_context/Landform_ele
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Landscape_context/Dominant_vegetation_type", "Historical Feature Dominant vegetation type");
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Landscape_context/Dominant_vegetation_cover", "Historical Feature Dominant vegetation cover");
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Landscape_context/Additional_environmental_notes", "Historical Feature Additional environmental notes");
+ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Landscape_context/Morphology_type", "Historical Feature Morphology type");
+ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Landscape_context/Morphology_notes", "Historical Feature Morphology notes");
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Feature_details/Length_m", "Historical Feature Length m");
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Feature_details/Width_m", "Historical Feature Width m");
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Feature_details/Subsurface_potential", "Historical Feature Subsurface potential");
-ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Supplementary/Additional_notes", "Historical Feature Additional notes");
+ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Feature_details/Additional_notes", "Historical Feature Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Supplementary/External_camera_ID", "Historical Feature External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Supplementary/External_camera_filenames", "Historical Feature External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Supplementary/Survey_instrument_name", "Historical Feature Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Historical_Feature/Supplementary/Survey_instrument_data", "Historical Feature Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Burial/General/Level_of_recording", "Burial Level of recording");
@@ -1713,9 +1733,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Burial/Landscape_context/Additional_environmental
 ATTRIB_NAMES_NON_STANDARD.put("Burial/Landscape_context/Morphology_type", "Burial Morphology type");
 ATTRIB_NAMES_NON_STANDARD.put("Burial/Landscape_context/Morphology_notes", "Burial Morphology notes");
 ATTRIB_NAMES_NON_STANDARD.put("Burial/Feature_details/Orientation", "Burial Orientation");
-ATTRIB_NAMES_NON_STANDARD.put("Burial/Supplementary/Additional_notes", "Burial Additional notes");
+ATTRIB_NAMES_NON_STANDARD.put("Burial/Feature_details/Additional_notes", "Burial Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Burial/Supplementary/External_camera_ID", "Burial External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Burial/Supplementary/External_camera_filenames", "Burial External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Burial/Supplementary/Survey_instrument_name", "Burial Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Burial/Supplementary/Survey_instrument_data", "Burial Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/General/Level_of_recording", "Other Point of Interest Level of recording");
@@ -1728,9 +1747,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Landscape_context/Additio
 ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Landscape_context/Morphology_type", "Other Point of Interest Morphology type");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Landscape_context/Morphology_notes", "Other Point of Interest Morphology notes");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Feature_details/Type", "Other Point of Interest Type");
-ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Supplementary/Additional_notes", "Other Point of Interest Additional notes");
+ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Feature_details/Additional_notes", "Other Point of Interest Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Supplementary/External_camera_ID", "Other Point of Interest External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Supplementary/External_camera_filenames", "Other Point of Interest External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Supplementary/Survey_instrument_name", "Other Point of Interest Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Point_of_Interest/Supplementary/Survey_instrument_data", "Other Point of Interest Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Tree/General/Level_of_recording", "Tree Level of recording");
@@ -1742,18 +1760,16 @@ ATTRIB_NAMES_NON_STANDARD.put("Tree/Landscape_context/Dominant_vegetation_cover"
 ATTRIB_NAMES_NON_STANDARD.put("Tree/Landscape_context/Additional_environmental_notes", "Tree Additional environmental notes");
 ATTRIB_NAMES_NON_STANDARD.put("Tree/Landscape_context/Morphology_type", "Tree Morphology type");
 ATTRIB_NAMES_NON_STANDARD.put("Tree/Landscape_context/Morphology_notes", "Tree Morphology notes");
-ATTRIB_NAMES_NON_STANDARD.put("Tree/Supplementary/Additional_notes", "Tree Additional notes");
+ATTRIB_NAMES_NON_STANDARD.put("Tree/Feature_details/Additional_notes", "Tree Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Tree/Supplementary/External_camera_ID", "Tree External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Tree/Supplementary/External_camera_filenames", "Tree External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Tree/Supplementary/Survey_instrument_name", "Tree Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Tree/Supplementary/Survey_instrument_data", "Tree Survey instrument data");
+ATTRIB_NAMES_NON_STANDARD.put("Scar/Scar/Additional_notes", "Scar Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/General/Boundary_criterion", "Flaked Stone Artefact Boundary criterion");
 ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/General/Device_photos", "Flaked Stone Artefact Device photos");
 ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/General/Landform_element", "Flaked Stone Artefact Landform element");
-ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Feature_details/Additional_description", "Flaked Stone Artefact Additional description");
-ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Supplementary/Additional_description", "Flaked Stone Artefact Additional description");
+ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Feature_details/Additional_notes", "Flaked Stone Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Supplementary/External_camera_ID", "Flaked Stone Artefact External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Supplementary/External_camera_filenames", "Flaked Stone Artefact External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Supplementary/Survey_instrument_name", "Flaked Stone Artefact Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Supplementary/Survey_instrument_data", "Flaked Stone Artefact Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/General/Device_photos", "Other Stone Artefact Device photos");
@@ -1763,10 +1779,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Type", "Othe
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Length_mm", "Other Stone Artefact Length mm");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Width_mm", "Other Stone Artefact Width mm");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Thickness_mm", "Other Stone Artefact Thickness mm");
-ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Other_comments", "Other Stone Artefact Other comments");
-ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Supplementary/Other_comments", "Other Stone Artefact Other comments");
+ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Additional_notes", "Other Stone Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Supplementary/External_camera_ID", "Other Stone Artefact External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Supplementary/External_camera_filenames", "Other Stone Artefact External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Supplementary/Survey_instrument_name", "Other Stone Artefact Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Supplementary/Survey_instrument_data", "Other Stone Artefact Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/General/Device_photos", "Glass Artefact Device photos");
@@ -1776,9 +1790,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Length_mm", "Glass
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Width_mm", "Glass Artefact Width mm");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Thickness_mm", "Glass Artefact Thickness mm");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Base_diameter_mm", "Glass Artefact Base diameter mm");
-ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Other_comments", "Glass Artefact Other comments");
+ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Additional_notes", "Glass Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Supplementary/External_camera_ID", "Glass Artefact External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Supplementary/External_camera_filenames", "Glass Artefact External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Supplementary/Survey_instrument_name", "Glass Artefact Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Supplementary/Survey_instrument_data", "Glass Artefact Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/General/Device_photos", "Ceramic Artefact Device photos");
@@ -1790,8 +1803,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/Feature_details/Length_mm", "Cer
 ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/Feature_details/Width_mm", "Ceramic Artefact Width mm");
 ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/Feature_details/Thickness_mm", "Ceramic Artefact Thickness mm");
 ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/Feature_details/Base_diameter_mm", "Ceramic Artefact Base diameter mm");
+ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/Feature_details/Additional_notes", "Ceramic Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/Supplementary/External_camera_ID", "Ceramic Artefact External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/Supplementary/External_camera_filenames", "Ceramic Artefact External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/Supplementary/Survey_instrument_name", "Ceramic Artefact Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Ceramic_Artefact/Supplementary/Survey_instrument_data", "Ceramic Artefact Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/General/Device_photos", "Misc Artefact Device photos");
@@ -1800,16 +1813,14 @@ ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Type", "Misc Artefa
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Length_mm", "Misc Artefact Length mm");
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Width_mm", "Misc Artefact Width mm");
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Thickness_mm", "Misc Artefact Thickness mm");
-ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Additional_description", "Misc Artefact Additional description");
+ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Additional_notes", "Misc Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Supplementary/External_camera_ID", "Misc Artefact External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Supplementary/External_camera_filenames", "Misc Artefact External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Supplementary/Survey_instrument_name", "Misc Artefact Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Supplementary/Survey_instrument_data", "Misc Artefact Survey instrument data");
 ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/General/Device_photos", "Discrete Hearth Artefact Device photos");
 ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/General/Landform_element", "Discrete Hearth Artefact Landform element");
-ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/Feature_details/Other_comments", "Discrete Hearth Artefact Other comments");
+ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/Feature_details/Additional_notes", "Discrete Hearth Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/Supplementary/External_camera_ID", "Discrete Hearth Artefact External camera ID");
-ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/Supplementary/External_camera_filenames", "Discrete Hearth Artefact External camera filenames");
 ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/Supplementary/Survey_instrument_name", "Discrete Hearth Artefact Survey instrument name");
 ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/Supplementary/Survey_instrument_data", "Discrete Hearth Artefact Survey instrument data");
 
@@ -5007,7 +5018,6 @@ addOnEvent("Tree/Scar_control/New_Scar", "click", "onClickTreeNewScar()");
 /*                   AUDIO, CAMERA, FILE AND VIDEO BINDINGS                   */
 /******************************************************************************/
 addOnEvent("Surface_Exposure/General/Device_photos_Button_1", "click", "attachPictureTo(\"Surface_Exposure/General/Device_photos\")");
-addOnEvent("Surface_Exposure/Landscape_context/Add_new_note_Button_1", "click", "attachPictureTo(\"Surface_Exposure/Landscape_context/Add_new_note\")");
 addOnEvent("Surface_Exposure/Supplementary/Paper_notes_and_sketches_Button_1", "click", "attachPictureTo(\"Surface_Exposure/Supplementary/Paper_notes_and_sketches\")");
 addOnEvent("Mound/General/Device_photos_Button_1", "click", "attachPictureTo(\"Mound/General/Device_photos\")");
 addOnEvent("Mound/Supplementary/Paper_notes_and_sketches_Button_1", "click", "attachPictureTo(\"Mound/Supplementary/Paper_notes_and_sketches\")");
@@ -5020,23 +5030,22 @@ addOnEvent("Burial/Supplementary/Paper_notes_and_sketches_Button_1", "click", "a
 addOnEvent("Other_Point_of_Interest/General/Device_photos_Button_1", "click", "attachPictureTo(\"Other_Point_of_Interest/General/Device_photos\")");
 addOnEvent("Other_Point_of_Interest/Supplementary/Paper_notes_and_sketches_Button_1", "click", "attachPictureTo(\"Other_Point_of_Interest/Supplementary/Paper_notes_and_sketches\")");
 addOnEvent("Tree/General/Device_photos_Button_1", "click", "attachPictureTo(\"Tree/General/Device_photos\")");
-addOnEvent("Tree/Supplementary/Paper_notes_and_sketches_Button_1", "click", "attachPictureTo(\"Tree/Supplementary/Paper_notes_and_sketches\")");
 addOnEvent("Flaked_Stone_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Flaked_Stone_Artefact/General/Device_photos\")");
 addOnEvent("Other_Stone_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Other_Stone_Artefact/General/Device_photos\")");
 addOnEvent("Glass_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Glass_Artefact/General/Device_photos\")");
 addOnEvent("Ceramic_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Ceramic_Artefact/General/Device_photos\")");
 addOnEvent("Misc_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Misc_Artefact/General/Device_photos\")");
 addOnEvent("Discrete_Hearth_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Discrete_Hearth_Artefact/General/Device_photos\")");
-addOnEvent("Surface_Exposure/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Surface_Exposure/Supplementary/External_camera_filenames\")");
-addOnEvent("Mound/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Mound/Supplementary/External_camera_filenames\")");
-addOnEvent("Rock_Shelter/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Rock_Shelter/Supplementary/External_camera_filenames\")");
-addOnEvent("Historical_Feature/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Historical_Feature/Supplementary/External_camera_filenames\")");
-addOnEvent("Burial/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Burial/Supplementary/External_camera_filenames\")");
-addOnEvent("Other_Point_of_Interest/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Other_Point_of_Interest/Supplementary/External_camera_filenames\")");
-addOnEvent("Tree/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Tree/Supplementary/External_camera_filenames\")");
-addOnEvent("Scar/Scar/External_camera_filenames_scars_Button_1", "click", "attachFileTo(\"Scar/Scar/External_camera_filenames_scars\")");
-addOnEvent("Flaked_Stone_Artefact/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Flaked_Stone_Artefact/Supplementary/External_camera_filenames\")");
-addOnEvent("Other_Stone_Artefact/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Other_Stone_Artefact/Supplementary/External_camera_filenames\")");
+addOnEvent("Surface_Exposure/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Surface_Exposure/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Mound/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Mound/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Rock_Shelter/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Rock_Shelter/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Historical_Feature/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Historical_Feature/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Burial/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Burial/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Other_Point_of_Interest/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Other_Point_of_Interest/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Tree/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Tree/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Scar/Scar/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Scar/Scar/External_camera_image_attachment\")");
+addOnEvent("Flaked_Stone_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Flaked_Stone_Artefact/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Other_Stone_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Other_Stone_Artefact/Supplementary/External_camera_image_attachment\")");
 addOnEvent("Glass_Artefact/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Glass_Artefact/Supplementary/External_camera_filenames\")");
 addOnEvent("Ceramic_Artefact/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Ceramic_Artefact/Supplementary/External_camera_filenames\")");
 addOnEvent("Misc_Artefact/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Misc_Artefact/Supplementary/External_camera_filenames\")");
@@ -5872,9 +5881,8 @@ void duplicateSurfaceExposure(){
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Surface_Exposure/General/Device_photos", new ArrayList());
-  populateCameraPictureGallery("Surface_Exposure/Landscape_context/Add_new_note", new ArrayList());
   populateCameraPictureGallery("Surface_Exposure/Supplementary/Paper_notes_and_sketches", new ArrayList());
-  populateFileList("Surface_Exposure/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Surface_Exposure/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -5907,9 +5915,8 @@ void duplicateSurfaceExposure(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Surface Exposure Device photos");
-      excludeAttributes.add("Add new note");
       excludeAttributes.add("Paper notes and sketches");
-      excludeAttributes.add("Surface Exposure External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -5973,7 +5980,7 @@ void duplicateMound(){
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Mound/General/Device_photos", new ArrayList());
   populateCameraPictureGallery("Mound/Supplementary/Paper_notes_and_sketches", new ArrayList());
-  populateFileList("Mound/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Mound/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -6007,7 +6014,7 @@ void duplicateMound(){
 
       excludeAttributes.add("Mound Device photos");
       excludeAttributes.add("Paper notes and sketches");
-      excludeAttributes.add("Mound External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6071,7 +6078,7 @@ void duplicateRockShelter(){
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Rock_Shelter/General/Device_photos", new ArrayList());
   populateCameraPictureGallery("Rock_Shelter/Supplementary/Paper_notes_and_sketches", new ArrayList());
-  populateFileList("Rock_Shelter/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Rock_Shelter/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -6105,7 +6112,7 @@ void duplicateRockShelter(){
 
       excludeAttributes.add("Rock Shelter Device photos");
       excludeAttributes.add("Paper notes and sketches");
-      excludeAttributes.add("Rock Shelter External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6169,7 +6176,7 @@ void duplicateHistoricalFeature(){
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Historical_Feature/General/Device_photos", new ArrayList());
   populateCameraPictureGallery("Historical_Feature/Supplementary/Paper_notes_and_sketches", new ArrayList());
-  populateFileList("Historical_Feature/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Historical_Feature/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -6203,7 +6210,7 @@ void duplicateHistoricalFeature(){
 
       excludeAttributes.add("Historical Feature Device photos");
       excludeAttributes.add("Paper notes and sketches");
-      excludeAttributes.add("Historical Feature External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6267,7 +6274,7 @@ void duplicateBurial(){
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Burial/General/Device_photos", new ArrayList());
   populateCameraPictureGallery("Burial/Supplementary/Paper_notes_and_sketches", new ArrayList());
-  populateFileList("Burial/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Burial/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -6301,7 +6308,7 @@ void duplicateBurial(){
 
       excludeAttributes.add("Burial Device photos");
       excludeAttributes.add("Paper notes and sketches");
-      excludeAttributes.add("Burial External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6365,7 +6372,7 @@ void duplicateOtherPointofInterest(){
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Other_Point_of_Interest/General/Device_photos", new ArrayList());
   populateCameraPictureGallery("Other_Point_of_Interest/Supplementary/Paper_notes_and_sketches", new ArrayList());
-  populateFileList("Other_Point_of_Interest/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Other_Point_of_Interest/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -6399,7 +6406,7 @@ void duplicateOtherPointofInterest(){
 
       excludeAttributes.add("Other Point of Interest Device photos");
       excludeAttributes.add("Paper notes and sketches");
-      excludeAttributes.add("Other Point of Interest External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6462,8 +6469,7 @@ void duplicateTree(){
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Tree/General/Device_photos", new ArrayList());
-  populateCameraPictureGallery("Tree/Supplementary/Paper_notes_and_sketches", new ArrayList());
-  populateFileList("Tree/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Tree/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -6496,8 +6502,7 @@ void duplicateTree(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Tree Device photos");
-      excludeAttributes.add("Paper notes and sketches");
-      excludeAttributes.add("Tree External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6512,7 +6517,7 @@ void duplicateScar(){
   clearGpsInTabGroup(tabgroup);
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
-  populateFileList("Scar/Scar/External_camera_filenames_scars", new ArrayList());
+  populateFileList("Scar/Scar/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -6544,7 +6549,7 @@ void duplicateScar(){
     onFetch(result) {
       excludeAttributes = new ArrayList();
 
-      excludeAttributes.add("External camera filenames scars");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6560,7 +6565,7 @@ void duplicateFlakedStoneArtefact(){
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Flaked_Stone_Artefact/General/Device_photos", new ArrayList());
-  populateFileList("Flaked_Stone_Artefact/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Flaked_Stone_Artefact/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -6593,7 +6598,7 @@ void duplicateFlakedStoneArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Flaked Stone Artefact Device photos");
-      excludeAttributes.add("Flaked Stone Artefact External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6609,7 +6614,7 @@ void duplicateOtherStoneArtefact(){
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Other_Stone_Artefact/General/Device_photos", new ArrayList());
-  populateFileList("Other_Stone_Artefact/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Other_Stone_Artefact/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -6642,7 +6647,7 @@ void duplicateOtherStoneArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Other Stone Artefact Device photos");
-      excludeAttributes.add("Other Stone Artefact External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6691,7 +6696,7 @@ void duplicateGlassArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Glass Artefact Device photos");
-      excludeAttributes.add("Glass Artefact External camera filenames");
+      excludeAttributes.add("External camera filenames");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6740,7 +6745,7 @@ void duplicateCeramicArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Ceramic Artefact Device photos");
-      excludeAttributes.add("Ceramic Artefact External camera filenames");
+      excludeAttributes.add("External camera filenames");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6789,7 +6794,7 @@ void duplicateMiscArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Misc Artefact Device photos");
-      excludeAttributes.add("Misc Artefact External camera filenames");
+      excludeAttributes.add("External camera filenames");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -6838,7 +6843,7 @@ void duplicateDiscreteHearthArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Discrete Hearth Artefact Device photos");
-      excludeAttributes.add("Discrete Hearth Artefact External camera filenames");
+      excludeAttributes.add("External camera filenames");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }

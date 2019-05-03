@@ -123,10 +123,7 @@
 			<desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured
 			</desc>
 		</Additional_environmental_notes>
-		<Add_new_note t="camera" f="nocertainty"> 
-			<desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.
-			</desc>
-		</Add_new_note>
+		
 		<Morphology_type > 
 			<desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
 			</desc>
@@ -197,12 +194,13 @@
 			</desc>
 			<!--@SOURCE: vocab/subsurface_pot.xml-->
 		</Subsurface_potential>
-	</Feature_details>
-	<Supplementary>
 		<Additional_notes f="nocertainty noannotation"> 
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
 			</desc>
 		</Additional_notes>
+	</Feature_details>
+	<Supplementary>
+		
 		<Paper_notes_and_sketches t="camera" f="nocertainty">
 			<desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
@@ -212,10 +210,13 @@
 			<!--@SOURCE: vocab/camera_ids.xml-->
 	
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty"> 
-			<desc>Provide file names and brief captions in annotations, and upload files on server
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
-		</External_camera_filenames>
+		</External_camera_image_attachment>
 		<Survey_instrument_name f="nocertainty"> 
 			<desc>If recording coincides with instrument survey, please select appropriate instrument name.
 			</desc>
@@ -330,7 +331,7 @@
 		    <desc>Maximum height, metres</desc>
 		</Mound_height_estimate_m>
 		<Mound_surface_vegetation f="nocertainty">
-		    <desc>Describe and photograph mound surface vegetation, particularly if distinct ecosystem is associated with the mound that is different to that of the local dominant vegetation</desc>
+		    <desc>Describe mound surface vegetation, particularly if distinct ecosystem is associated with the mound that is different to that of the local dominant vegetation. If so, please take at least one device photo of mound surface vegetation</desc>
 		</Mound_surface_vegetation>
 		<Stone_artefact_count b="integer">
 		    <desc>Record a tally of stone artefacts observed on the mound surface. Use the certainty slider for estimates on large assemblages</desc>
@@ -365,11 +366,11 @@
 		    <desc>Select all faunal materials observed</desc>
 		    <!--@SOURCE: vocab/faun_mat_types.xml-->
 		</Faunal_materials_present>
-	</Feature_details>
-	<Supplementary>
 		<Additional_notes f="nocertainty noannotation">
 		    <desc>Describe any other significant features or provide additional details here</desc>
 		</Additional_notes>
+	</Feature_details>
+	<Supplementary>
 		<Paper_notes_and_sketches t="camera" f="nocertainty">
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
@@ -377,9 +378,13 @@
 		    <desc>Select </desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
 		<Survey_instrument_name>
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
@@ -406,6 +411,7 @@
 		</Comment>
 	</Mound_Boundary_point>
 </Mound_Boundary_point>
+
 <!-- 
 ########   #######   ######  ##    ##     ######  ##     ## ######## ##       
 ##     ## ##     ## ##    ## ##   ##     ##    ## ##     ## ##       ##       
@@ -457,7 +463,15 @@
 		<Additional_environmental_notes f="nocertainty noannotation">
 		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
 		</Additional_environmental_notes>
-		
+		<Morphology_type > 
+			<desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
+			</desc>
+			<!--@SOURCE: vocab/feat_morphology.xml-->
+		</Morphology_type>
+		<Morphology_notes f="nocertainty noannotation"> 
+			<desc>Record any additional notes about site morphology not captured elsewhere
+			</desc>
+		</Morphology_notes>
 		
 	</Landscape_context>
 	<Feature_details>
@@ -538,11 +552,11 @@
 		    <desc>Assess the potential for sub-surface deposits of cultural material.</desc>
 		    <!--@SOURCE: vocab/subsurface_pot.xml-->
 		</Subsurface_potential>
-	</Feature_details>
-	<Supplementary>
 		<Additional_notes f="nocertainty noannotation">
 		    <desc>Describe any other significant features or provide additional details here</desc>
 		</Additional_notes>
+	</Feature_details>
+	<Supplementary>
 		<Paper_notes_and_sketches t="camera" f="nocertainty">
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
@@ -550,9 +564,13 @@
 		    <desc>Select </desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
 		<Survey_instrument_name f="nocertainty">
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
@@ -579,6 +597,7 @@
 		</Comment>
 	</Rock_Shelter_Boundary_point>
 </Rock_Shelter_Boundary_point>
+
 <!-- 
 ##     ## ####  ######  ########  #######  ########  ####  ######     ###    ##       
 ##     ##  ##  ##    ##    ##    ##     ## ##     ##  ##  ##    ##   ## ##   ##       
@@ -631,7 +650,15 @@
 		<Additional_environmental_notes f="nocertainty noannotation">
 		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
 		</Additional_environmental_notes>
-		
+		<Morphology_type > 
+			<desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
+			</desc>
+			<!--@SOURCE: vocab/feat_morphology.xml-->
+		</Morphology_type>
+		<Morphology_notes f="nocertainty noannotation"> 
+			<desc>Record any additional notes about site morphology not captured elsewhere
+			</desc>
+		</Morphology_notes>
 		
 	</Landscape_context>
 	<Feature_details>
@@ -672,11 +699,11 @@
 		<Age_estimate f="nocertainty">
 		    <desc>Make a preliminary assessment of minimum and maximum site age, noting supporting evidence</desc>
 		</Age_estimate>
-	</Feature_details>
-	<Supplementary>
 		<Additional_notes f="nocertainty noannotation">
 		    <desc>Describe any other significant features or provide additional details here</desc>
 		</Additional_notes>
+	</Feature_details>
+	<Supplementary>
 		<Paper_notes_and_sketches t="camera" f="nocertainty">
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
@@ -684,9 +711,13 @@
 		    <desc>Select </desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
 		<Survey_instrument_name f="nocertainty">
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
@@ -713,6 +744,7 @@
 		</Comment>
 	</Historical_Feature_Boundary_point>
 </Historical_Feature_Boundary_point>
+
 <!-- 
 ########  ##     ## ########  ####    ###    ##       
 ##     ## ##     ## ##     ##  ##    ## ##   ##       
@@ -808,19 +840,20 @@
 		<Orientation b="decimal">
 		    <desc>What is the orientation (degrees, measuring from feet to head) of burials? For multiple burials, record average orientation and provide additional notes or sketches to illustrate</desc>
 		</Orientation>
-		<Artefacts>
+		<Artefacts t="checkbox">
 		    <desc>What, if any, artefacts or other cultural materials are associated with this burial</desc>
 		    <!--@SOURCE: vocab/burial_artefacts.xml-->
 		</Artefacts>
-		<Elements_present>
+		<Elements_present t="checkbox">
 		    <desc>Which skeletal elements are visible?</desc>
 		    <!--@SOURCE: vocab/burial_elements.xml-->
 		</Elements_present>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 	</Feature_details>
 	<Supplementary>
-		<Additional_notes f="nocertainty noannotation">
-		    <desc>Describe any other significant features or provide additional details here</desc>
-		</Additional_notes>
 		<Paper_notes_and_sketches t="camera" f="nocertainty">
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
@@ -828,9 +861,13 @@
 		    <desc>Select </desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
 		<Survey_instrument_name f="nocertainty">
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
@@ -929,11 +966,13 @@
 		<Information_source f="nocertainty">
 		    <desc>Record the source of the information, such as names of individuals, historical sources, and so on</desc>
 		</Information_source>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 	</Feature_details>
 	<Supplementary>
-		<Additional_notes f="nocertainty noannotation">
-		    <desc>Describe any other significant features or provide additional details here</desc>
-		</Additional_notes>
+
 		<Paper_notes_and_sketches t="camera" f="nocertainty">
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
@@ -941,9 +980,13 @@
 		    <desc>Select </desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
 		<Survey_instrument_name f="nocertainty">
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
@@ -1055,25 +1098,29 @@
 		<Stump_height_mm b="decimal">
 		    <desc>Measure the height, in millimetres, of any stumps associated with this tree</desc>
 		</Stump_height_mm>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 	</Feature_details>
 	<Scar_control>
 		<New_Scar t="button" lc="Scar"/>
 		<List_of_Related_Scars t="list" ec="Scar"/>
 	</Scar_control>
 	<Supplementary>
-		<Additional_notes f="nocertainty noannotation">
-		    <desc>Describe any other significant features or provide additional details here</desc>
-		</Additional_notes>
-		<Paper_notes_and_sketches t="camera" f="nocertainty">
-		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
-		</Paper_notes_and_sketches>
+		
+		
 		<External_camera_ID f="nocertainty">
 		    <desc>Select </desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
 		<Survey_instrument_name f="nocertainty">
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
@@ -1110,15 +1157,25 @@
 		<Device_photos_of_scar>
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos_of_scar>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 		<External_camera_ID_scars>
 		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID_scars>
-		<External_camera_filenames_scars t="file">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames_scars>
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
 	</Scar>
 </Scar>
+
+
 <!--                                                                               
 ######## ##          ###    ##    ## ########                                                                       
 ##       ##         ## ##   ##   ##  ##                                                                             
@@ -1127,6 +1184,7 @@
 ##       ##       ######### ##  ##   ##                                                                             
 ##       ##       ##     ## ##   ##  ##                                                                             
 ##       ######## ##     ## ##    ## ########   -->      
+
 
 
 <Flaked_Stone_Artefact>
@@ -1226,21 +1284,24 @@
 		    <desc>Describe retouch shape</desc>
 		    <!--@SOURCE: vocab/saflake_rtshape.xml-->
 		</Retouch_shape>
-		<Additional_description>
-		    <desc>Provide any additional comments here</desc>
-		</Additional_description>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 	</Feature_details>	
 	<Supplementary>
-		<Additional_description f="nocertainty noannotation">
-		    <desc>Provide any additional comments here</desc>
-		</Additional_description>
+		
 		<External_camera_ID f="nocertainty">
 		    <desc>Select </desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
 		<Survey_instrument_name f="nocertainty">
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
@@ -1250,6 +1311,8 @@
 		</Survey_instrument_data>
 	</Supplementary>
 </Flaked_Stone_Artefact>
+
+
 
 <!--                                                                
  #######  ######## ##     ## ######## ########      ######  ########  #######  ##    ## ########                    
@@ -1354,22 +1417,24 @@
 		    <desc>Record any evidence of impact damage observed on the artefact</desc>
 		    <!--@SOURCE: vocab/othersa_use.xml-->
 		</Usewear>
-		<Other_comments f="nocertainty noannotation">
-		    <desc>For all artefact types, describe any features or measurements obtained that can not be included in other fields on this form. For example, presence of waist on edge ground implements, deep grooves on a grindstone, </desc>
-		</Other_comments>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 	</Feature_details>
 	
-	<Supplementary>
-		<Other_comments f="nocertainty noannotation">
-		    <desc>For all artefact types, describe any features or measurements obtained that can not be included in other fields on this form. For example, presence of waist on edge ground implements, deep grooves on a grindstone, </desc>
-		</Other_comments>
+	<Supplementary>		
 		<External_camera_ID f="nocertainty">
 		    <desc>Select </desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
+		<External_camera_file_names_and_attachment>
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
 		<Survey_instrument_name f="nocertainty">
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
@@ -1497,9 +1562,10 @@
 		<Marks_motifs_and_decoration>
 		    <desc>Transcribe any text, motifs or decoration and, if possible, photograph above</desc>
 		</Marks_motifs_and_decoration>
-		<Other_comments>
-		    <desc>Provide any additional comments here</desc>
-		</Other_comments>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 	</Feature_details>
 	
 	<Supplementary>
@@ -1611,9 +1677,10 @@
 		    <desc>If known, select the decorative pattern used</desc>
 		    <!--@SOURCE: vocab/ceram_decorative.xml-->
 		</Decorative_pattern_name>
-		<Other_features f="nocertainty noannotation">
-		    <desc>Detail other features of interest, including trade marks, maker's marks, etc</desc>
-		</Other_features>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 	</Feature_details>
 	
 	<Supplementary>
@@ -1682,9 +1749,10 @@
 		<Height_mm b="decimal">
 		    <desc>Height (if applicable) -- e.g posts</desc>
 		</Height_mm>
-		<Additional_description>
-		    <desc>Provide any supplementary information or measurements</desc>
-		</Additional_description>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 	</Feature_details>
 	
 	<Supplementary>
@@ -1752,9 +1820,10 @@
 		<Diameter_mm b="decimal">
 		    <desc>Maximum diameter of hearth</desc>
 		</Diameter_mm>
-		<Other_comments f="nocertainty noannotation">
-		    <desc>Provide any other comments here.\</desc>
-		</Other_comments>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
 	</Feature_details>
 	
 	<Supplementary>
@@ -1775,6 +1844,14 @@
 		</Survey_instrument_data>
 	</Supplementary>
 </Discrete_Hearth_Artefact>
+
+
+<!--SOURCE: logic/shared.bsh-->
+<!--SOURCE: logic/gis-shared.bsh-->
+
+<!--SOURCE: logic/map.bsh-->
+<!--SOURCE: logic/map-point-association.bsh-->
+
 
 </module>
 

@@ -401,12 +401,6 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Add new note" type="file" file="true" thumbnail="true">
-      <description>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.
-			</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-    </property>
     <property name="Surface Exposure Morphology type" type="vocab">
       <description>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
 			</description>
@@ -676,8 +670,13 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Surface Exposure External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
 			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -1186,7 +1185,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Mound surface vegetation" type="measure">
-      <description>Describe and photograph mound surface vegetation, particularly if distinct ecosystem is associated with the mound that is different to that of the local dominant vegetation</description>
+      <description>Describe mound surface vegetation, particularly if distinct ecosystem is associated with the mound that is different to that of the local dominant vegetation. If so, please take at least one device photo of mound surface vegetation</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -1392,8 +1391,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Mound External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -1829,6 +1834,28 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Rock Shelter Morphology type" type="vocab">
+      <description>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
+			</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Lag_deposit}
+<description>Mostly deflated deposit of cultural material, usually found on scalds or hard-pan surfaces</description></term>
+        <term>{Eroding_surface__bank_or_cut}
+<description>Sloped surface with cultural material eroding at any rate </description></term>
+        <term>{Aggrading_surface}
+<description>Level or near-level surface with ongoing deposition</description></term>
+        <term>{Modified_land}
+<description>Feature associated with a modified land surface including ditches, depressions, mounds and embankments</description></term>
+      </lookup>
+    </property>
+    <property name="Rock Shelter Morphology notes" type="measure">
+      <description>Record any additional notes about site morphology not captured elsewhere
+			</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
     <property name="Shelter type" type="vocab">
       <description>Select the most appropriate shelter type</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
@@ -2177,8 +2204,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Rock Shelter External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -2614,6 +2647,28 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Historical Feature Morphology type" type="vocab">
+      <description>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
+			</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Lag_deposit}
+<description>Mostly deflated deposit of cultural material, usually found on scalds or hard-pan surfaces</description></term>
+        <term>{Eroding_surface__bank_or_cut}
+<description>Sloped surface with cultural material eroding at any rate </description></term>
+        <term>{Aggrading_surface}
+<description>Level or near-level surface with ongoing deposition</description></term>
+        <term>{Modified_land}
+<description>Feature associated with a modified land surface including ditches, depressions, mounds and embankments</description></term>
+      </lookup>
+    </property>
+    <property name="Historical Feature Morphology notes" type="measure">
+      <description>Record any additional notes about site morphology not captured elsewhere
+			</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
     <property name="Place name" type="measure">
       <description>List any names associated with this feature (historic, language or contemporary), if applicable </description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
@@ -2780,8 +2835,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Historical Feature External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -3417,7 +3478,8 @@
       </lookup>
     </property>
     <property name="Burial Additional notes" type="measure">
-      <description>Describe any other significant features or provide additional details here</description>
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -3439,8 +3501,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Burial External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -3924,7 +3992,8 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Other Point of Interest Additional notes" type="measure">
-      <description>Describe any other significant features or provide additional details here</description>
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -3946,8 +4015,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Other Point of Interest External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -4503,12 +4578,8 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Tree Additional notes" type="measure">
-      <description>Describe any other significant features or provide additional details here</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-    </property>
-    <property name="Paper notes and sketches" type="file" file="true" thumbnail="true">
-      <description>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</description>
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -4525,8 +4596,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Tree External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -4627,6 +4704,12 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Scar Additional notes" type="measure">
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
     <property name="External camera ID scars" type="vocab">
       <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
@@ -4640,8 +4723,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="External camera filenames scars" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -5057,13 +5146,9 @@
 <description>In plan view, the retouched margin features a combination of edge-shapes</description></term>
       </lookup>
     </property>
-    <property name="Flaked Stone Artefact Additional description" type="measure">
-      <description>Provide any additional comments here</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-    </property>
-    <property name="Flaked Stone Artefact Additional description" type="measure">
-      <description>Provide any additional comments here</description>
+    <property name="Flaked Stone Artefact Additional notes" type="measure">
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -5080,8 +5165,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Flaked Stone Artefact External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -5509,13 +5600,9 @@
 <description>Describe in annotations</description></term>
       </lookup>
     </property>
-    <property name="Other Stone Artefact Other comments" type="measure">
-      <description>For all artefact types, describe any features or measurements obtained that can not be included in other fields on this form. For example, presence of waist on edge ground implements, deep grooves on a grindstone, </description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-    </property>
-    <property name="Other Stone Artefact Other comments" type="measure">
-      <description>For all artefact types, describe any features or measurements obtained that can not be included in other fields on this form. For example, presence of waist on edge ground implements, deep grooves on a grindstone, </description>
+    <property name="Other Stone Artefact Additional notes" type="measure">
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -5532,8 +5619,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Other Stone Artefact External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -6085,8 +6178,9 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Glass Artefact Other comments" type="measure">
-      <description>Provide any additional comments here</description>
+    <property name="Glass Artefact Additional notes" type="measure">
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -6103,7 +6197,7 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Glass Artefact External camera filenames" type="file" file="true" thumbnail="true">
+    <property name="External camera filenames" type="file" file="true" thumbnail="true">
       <description>Provide file names and brief captions in annotations, and upload files on server</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -6663,8 +6757,9 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Other features" type="measure">
-      <description>Detail other features of interest, including trade marks, maker's marks, etc</description>
+    <property name="Ceramic Artefact Additional notes" type="measure">
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -6681,7 +6776,7 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Ceramic Artefact External camera filenames" type="file" file="true" thumbnail="true">
+    <property name="External camera filenames" type="file" file="true" thumbnail="true">
       <description>Provide file names and brief captions in annotations, and upload files on server</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -6924,8 +7019,9 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Misc Artefact Additional description" type="measure">
-      <description>Provide any supplementary information or measurements</description>
+    <property name="Misc Artefact Additional notes" type="measure">
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -6942,7 +7038,7 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Misc Artefact External camera filenames" type="file" file="true" thumbnail="true">
+    <property name="External camera filenames" type="file" file="true" thumbnail="true">
       <description>Provide file names and brief captions in annotations, and upload files on server</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -7212,8 +7308,9 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Discrete Hearth Artefact Other comments" type="measure">
-      <description>Provide any other comments here.\</description>
+    <property name="Discrete Hearth Artefact Additional notes" type="measure">
+      <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -7230,7 +7327,7 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Discrete Hearth Artefact External camera filenames" type="file" file="true" thumbnail="true">
+    <property name="External camera filenames" type="file" file="true" thumbnail="true">
       <description>Provide file names and brief captions in annotations, and upload files on server</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
