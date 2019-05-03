@@ -70,7 +70,7 @@
 		<Surface_Exposure_ID f="id autonum"/> 					
 		
 		<author f="nocertainty"/>								
-		<timestamp f="id nocertainty"/> 
+		<timestamp f="nocertainty"/> 
 
 		<Level_of_recording f="nocertainty"> 
 			<desc>Detail the recording approach used
@@ -235,7 +235,7 @@
 
 </Surface_Exposure>
 <Surface_Exposure_Boundary_point>
-	<fmt>SE{{Surface_Exposure_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<fmt>SE{{Surface_Exposure_ID}}-BP{{Surface_Exposure_Boundary_Point_ID}}</fmt>
 	<Surface_Exposure_Boundary_point>
 
 		<Surface_Exposure_ID f="id nocertainty" i="Surface_Exposure/General/Surface_Exposure_ID">
@@ -395,7 +395,7 @@
 	</Supplementary>		
 </Mound>
 <Mound_Boundary_point>
-	<fmt>MD{{Mound_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<fmt>MD{{Mound_ID}}-BP{{Mound_Boundary_Point_ID}}</fmt>
 	<Mound_Boundary_point>
 
 		<Mound_ID f="id nocertainty" i="Mound/General/Mound_ID">
@@ -581,7 +581,7 @@
 	</Supplementary>
 </Rock_Shelter>
 <Rock_Shelter_Boundary_point>
-	<fmt>RS{{Rock_Shelter_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<fmt>RS{{Rock_Shelter_ID}}-BP{{Rock_Shelter_Boundary_Point_ID}}</fmt>
 	<Rock_Shelter_Boundary_point>
 
 		<Rock_Shelter_ID f="id nocertainty" i="Rock_Shelter/General/Rock_Shelter_ID">
@@ -728,7 +728,7 @@
 	</Supplementary>
 </Historical_Feature>
 <Historical_Feature_Boundary_point>
-	<fmt>HF{{Historical_Feature_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<fmt>HF{{Historical_Feature_ID}}-BP{{Historical_Feature_Boundary_Point_ID}}</fmt>
 	<Historical_Feature_Boundary_point>
 
 		<Historical_Feature_ID f="id nocertainty" i="Historical_Feature/General/Historical_Feature_ID">
@@ -878,7 +878,7 @@
 	</Supplementary>
 </Burial>
 <Burial_Boundary_point>
-	<fmt>BUR{{Burial_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<fmt>BUR{{Burial_ID}}-BP{{Burial_Boundary_Point_ID}}</fmt>
 	<Burial_Boundary_point>
 
 		<Burial_ID f="id nocertainty" i="Burial/General/Burial_ID">
@@ -997,7 +997,7 @@
 	</Supplementary>
 </Other_Point_of_Interest>
 <Other_Point_of_Interest_Boundary_point>
-	<fmt>POI{{Other_Point_of_Interest_ID}}-BP{{Boundary_Point_ID}}</fmt>
+	<fmt>POI{{Other_Point_of_Interest_ID}}-BP{{Other_Point_of_Interest_Boundary_Point_ID}}</fmt>
 	<Other_Point_of_Interest_Boundary_point>
 
 		<Other_Point_of_Interest_ID f="id nocertainty" i="Other_Point_of_Interest/General/Other_Point_of_Interest_ID">
@@ -1845,13 +1845,11 @@
 	</Supplementary>
 </Discrete_Hearth_Artefact>
 
+<logic><![CDATA[
 
-<!--SOURCE: logic/shared.bsh-->
-<!--SOURCE: logic/gis-shared.bsh-->
+<!--@SOURCE: logic/gis-shared.bsh-->
 
-<!--SOURCE: logic/map.bsh-->
-<!--SOURCE: logic/map-point-association.bsh-->
-
+]]></logic>
 
 </module>
 

@@ -1,0 +1,47 @@
+
+  /********************************* CUSTOM SEARCH ******************************/
+  addOnEvent("Start/Search", "show", "populateSelectAuthor()");
+  addOnEvent("Start/Search/Select_Author", "click", "search()");
+  void populateSelectAuthor(){
+  String refSearchUsers = "Start/Search/Select_Author";
+  String getNonDeletedUsersQuery = "SELECT userid, fname || ' ' || lname "+
+                                   "  FROM user "+
+                                   " WHERE userdeleted is null "+
+                                   " UNION " +
+                                   "SELECT -1, '{All}'";
+  fetchAll(getNonDeletedUsersQuery, new FetchCallback() {
+    onFetch(result) {
+      populateDropDown(refSearchUsers, result, false);
+      search();
+    }
+  });
+  }
+  // Overrides auto-generated definition
+  void search(){
+  String refEntityList    = "Start/Search/Entity_List";
+  String refSearchTerm    = "Start/Search/Search_Term";
+  String refEntityTypes   = "Start/Search/Entity_Types";
+  String refSelectAuthor  = "Start/Search/Select_Author";
+  String type = getFieldValue(refEntityTypes);
+  String term = getFieldValue(refSearchTerm);
+  String user = getFieldValue(refSelectAuthor);
+  String searchQuery = "SELECT uuid, response "+
+                       "  FROM latestNonDeletedArchEntFormattedIdentifiers  "+
+                       " WHERE uuid in (SELECT uuid "+
+                       "                  FROM latestNonDeletedArchEntIdentifiers "+
+                       "                 WHERE measure LIKE {term}||'%'  "+
+                       "                   AND ( aenttypename = {type} OR '' = {type} ) "+
+                       " AND ( userid = {user} OR -1 = {user}) " +
+                       "                )  "+
+                       " ORDER BY substr(uuid, 7, 13) DESC "+
+                       " LIMIT ? "+
+                       "OFFSET ? ";
+  searchQuery = dbReplaceFirst(searchQuery, "{term}", term);
+  searchQuery = dbReplaceFirst(searchQuery, "{type}", type);
+  searchQuery = dbReplaceFirst(searchQuery, "{type}", type);
+  searchQuery = replaceFirst(searchQuery, "{user}", user);
+  searchQuery = replaceFirst(searchQuery, "{user}", user);
+  populateCursorList(refEntityList, searchQuery, 25);
+  refreshTabgroupCSS("Start");
+  Log.d("Module", "Search query: " + searchQuery);
+  }
