@@ -149,6 +149,10 @@ string="<input faims_attribute_name=\"Mound ID\" faims_attribute_type=\"measure\
 replacement="<input faims_attribute_name=\"Mound ID\" faims_attribute_type=\"measure\" ref=\"Mound_ID\" faims_style_class=\"moundID\">"
 perl -0777 -i.original -pe "s/$string/$replacement/igs" ui_schema.xml
 
+sed -ei "s/ mm$/ (mm)/" module/english.0.properties
+sed -ei "s/ m$/ (m)/" module/english.0.properties
+sed -ei "s/ m2$/ (m^2)/" module/english.0.properties
+
 cat << EOF >> english.0.properties
 Select_Author=Select Author
 Select_Date=Select Date

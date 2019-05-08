@@ -27,4 +27,490 @@
       </validator>
     </property>
   </ArchaeologicalElement>
+  <ArchaeologicalElement name="Surface Exposure Boundary point">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Mound">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Mound Boundary point">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Rock Shelter">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Rock Shelter Boundary point">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Historical Feature">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Historical Feature Boundary point">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Burial">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Burial Boundary point">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Other Point of Interest">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Other Point of Interest Boundary point">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Tree">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Flaked Stone Artefact">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Other Stone Artefact">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Glass Artefact">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Ceramic Artefact">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Misc Artefact">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="Discrete Hearth Artefact">
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
 </ValidationSchema>

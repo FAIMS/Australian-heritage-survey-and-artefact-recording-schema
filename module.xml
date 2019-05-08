@@ -81,8 +81,10 @@
 		<gps f="notnull nocertainty"> 
 			<desc>Record a coordinate near the site centre
 			</desc>
-		</gps>
-		
+		</gps>		
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Boundary_criterion f="nocertainty"> 
 			<desc>Select criterion used in recording boundary coordinates			
 			</desc>
@@ -244,9 +246,12 @@
 		<Surface_Exposure_Boundary_Point_ID f="id autonum nocertainty">
 		</Surface_Exposure_Boundary_Point_ID>
 		<timestamp f="nocertainty noannotation"/>
-		<gps>
+		<gps f="notnull">
 			<desc>Record boundary coordinates at 3-5 m intervals</desc>
-		</gps>
+		</gps>	
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Comment f="nocertainty noannotation">
 			<desc>Use this field to document any relevant information about the recorded point</desc>
 		</Comment>
@@ -272,7 +277,10 @@
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
 		</Level_of_recording>
-		<gps/>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
@@ -403,10 +411,11 @@
 		</Mound_ID>
 		<Mound_Boundary_Point_ID f="id autonum nocertainty">
 		</Mound_Boundary_Point_ID>
-		<timestamp f="nocertainty noannotation"/>
-		<gps>
-			<desc>Record boundary coordinates at 3-5 m intervals</desc>
-		</gps>
+		<timestamp f="nocertainty noannotation"/>		
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Comment f="nocertainty noannotation">
 			<desc>Use this field to document any relevant information about the recorded point</desc>
 		</Comment>
@@ -431,7 +440,10 @@
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
 		</Level_of_recording>
-		<gps/>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
@@ -590,9 +602,10 @@
 		<Rock_Shelter_Boundary_Point_ID f="id autonum nocertainty">
 		</Rock_Shelter_Boundary_Point_ID>
 		<timestamp f="nocertainty noannotation"/>
-		<gps>
-			<desc>Record boundary coordinates at 3-5 m intervals</desc>
-		</gps>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Comment f="nocertainty noannotation">
 			<desc>Use this field to document any relevant information about the recorded point</desc>
 		</Comment>
@@ -618,7 +631,10 @@
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
 		</Level_of_recording>
-		<gps/>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
@@ -737,9 +753,10 @@
 		<Historical_Feature_Boundary_Point_ID f="id autonum nocertainty">
 		</Historical_Feature_Boundary_Point_ID>
 		<timestamp f="nocertainty noannotation"/>
-		<gps>
-			<desc>Record boundary coordinates at 3-5 m intervals</desc>
-		</gps>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Comment f="nocertainty noannotation">
 			<desc>Use this field to document any relevant information about the recorded point</desc>
 		</Comment>
@@ -765,7 +782,10 @@
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
 		</Level_of_recording>
-		<gps/>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
@@ -887,9 +907,10 @@
 		<Burial_Boundary_Point_ID f="id autonum nocertainty">
 		</Burial_Boundary_Point_ID>
 		<timestamp f="nocertainty noannotation"/>
-		<gps>
-			<desc>Record boundary coordinates at 3-5 m intervals</desc>
-		</gps>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Comment f="nocertainty noannotation">
 			<desc>Use this field to document any relevant information about the recorded point</desc>
 		</Comment>
@@ -914,7 +935,10 @@
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
 		</Level_of_recording>
-		<gps/>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
@@ -1006,9 +1030,10 @@
 		<Other_Point_of_Interest_Boundary_Point_ID f="id autonum nocertainty">
 		</Other_Point_of_Interest_Boundary_Point_ID>
 		<timestamp f="nocertainty noannotation"/>
-		<gps>
-			<desc>Record boundary coordinates at 3-5 m intervals</desc>
-		</gps>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Comment f="nocertainty noannotation">
 			<desc>Use this field to document any relevant information about the recorded point</desc>
 		</Comment>
@@ -1033,7 +1058,10 @@
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
 		</Level_of_recording>
-		<gps/>
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
@@ -1137,6 +1165,7 @@
 		<Tree_ID f="id" i="Tree/General/Tree_ID"/>
 		<Scar_ID f="id autonum"/>
 		<timestamp/>
+		<author/>
 		<Scar_type>
 			<!--@SOURCE: vocab/scar_types.xml-->	
 		</Scar_type>
@@ -1194,8 +1223,10 @@
 		<Flaked_Stone_Artefact_ID f="id autonum nocertainty"/>
 		<author/>
 		<timestamp f="noannotation"/>		
-		<gps/>
-		    
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>    
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
@@ -1332,7 +1363,10 @@
 		<author/>
 		<timestamp f="noannotation"/>
 		
-		<gps/>		
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  	
 		<Device_photos t="camera">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
@@ -1462,7 +1496,10 @@
 		<author/>
 		<timestamp f="noannotation"/>
 		
-		<gps/>		
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  		
 		<Device_photos t="camera">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
@@ -1605,7 +1642,10 @@
 		<author/>
 		<timestamp f="noannotation"/>
 		
-		<gps/>		
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  	
 		<Device_photos t="camera">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
@@ -1720,7 +1760,10 @@
 		<author/>
 		<timestamp f="noannotation"/>
 		
-		<gps/>		
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  	
 		<Device_photos t="camera">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
@@ -1791,7 +1834,10 @@
 		<author/>
 		<timestamp f="noannotation"/>
 		
-		<gps/>		
+		<gps f="notnull"/>
+		<Find_This_in_The_Map l="Control/Map">
+	      Find This in The Map...
+	    </Find_This_in_The_Map>  		
 		<Device_photos t="camera">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
@@ -1852,6 +1898,7 @@
 <!--@SOURCE: logic/custom-search.bsh-->
 <!--@SOURCE: logic/recent-records.bsh-->
 <!--@SOURCE: logic/cascade-delete.bsh-->
+<!--@SOURCE: logic/find-in-map.bsh-->
 ]]></logic>
 
 </module>

@@ -128,6 +128,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
@@ -197,6 +198,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Comment/>
             </Surface_Exposure_Boundary_point>
           </Surface_Exposure_Boundary_point>
@@ -226,6 +228,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
@@ -297,6 +300,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Comment/>
             </Mound_Boundary_point>
           </Mound_Boundary_point>
@@ -326,6 +330,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
@@ -403,6 +408,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Comment/>
             </Rock_Shelter_Boundary_point>
           </Rock_Shelter_Boundary_point>
@@ -432,6 +438,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
@@ -499,6 +506,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Comment/>
             </Historical_Feature_Boundary_point>
           </Historical_Feature_Boundary_point>
@@ -528,6 +536,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
@@ -595,6 +604,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Comment/>
             </Burial_Boundary_point>
           </Burial_Boundary_point>
@@ -624,6 +634,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
@@ -683,6 +694,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Comment/>
             </Other_Point_of_Interest_Boundary_point>
           </Other_Point_of_Interest_Boundary_point>
@@ -712,6 +724,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
@@ -753,6 +766,7 @@
               <Tree_ID/>
               <Scar_ID/>
               <Scar_timestamp/>
+              <Scar_author/>
               <Scar_type/>
               <Scar_Height_Above_Ground_mm/>
               <Scar_length_mm/>
@@ -793,6 +807,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
@@ -856,6 +871,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Device_photos/>
               <Device_photos_Button_1/>
               <Landform_element/>
@@ -919,6 +935,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Device_photos/>
               <Device_photos_Button_1/>
               <Landform_element/>
@@ -985,6 +1002,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Device_photos/>
               <Device_photos_Button_1/>
               <Landform_element/>
@@ -1042,6 +1060,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Device_photos/>
               <Device_photos_Button_1/>
               <Landform_element/>
@@ -1088,6 +1107,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
               <Device_photos/>
               <Device_photos_Button_1/>
               <Landform_element/>
@@ -1504,6 +1524,9 @@
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
         </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
+        </trigger>
         <select1 faims_attribute_name="Surface Exposure Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
           <label>{Boundary_criterion}</label>
           <item>
@@ -1713,13 +1736,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -1728,25 +1751,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
           <label>{Comment}</label>
@@ -1777,13 +1803,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -1792,25 +1818,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select1 faims_attribute_name="Mound Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
           <label>{Boundary_criterion}</label>
@@ -2031,13 +2060,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -2046,25 +2075,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
           <label>{Comment}</label>
@@ -2095,13 +2127,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -2110,25 +2142,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select1 faims_attribute_name="Rock Shelter Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
           <label>{Boundary_criterion}</label>
@@ -2387,13 +2422,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -2402,25 +2437,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
           <label>{Comment}</label>
@@ -2451,13 +2489,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -2466,25 +2504,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select1 faims_attribute_name="Historical Feature Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
           <label>{Boundary_criterion}</label>
@@ -2677,13 +2718,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -2692,25 +2733,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
           <label>{Comment}</label>
@@ -2741,13 +2785,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -2756,25 +2800,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select1 faims_attribute_name="Burial Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
           <label>{Boundary_criterion}</label>
@@ -2983,13 +3030,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -2998,25 +3045,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
           <label>{Comment}</label>
@@ -3047,13 +3097,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -3062,25 +3112,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select1 faims_attribute_name="Other Point of Interest Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
           <label>{Boundary_criterion}</label>
@@ -3237,13 +3290,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -3252,25 +3305,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
           <label>{Comment}</label>
@@ -3301,13 +3357,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -3316,25 +3372,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select1 faims_attribute_name="Tree Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
           <label>{Boundary_criterion}</label>
@@ -3501,6 +3560,9 @@
         <input faims_attribute_name="Scar timestamp" faims_attribute_type="measure" ref="Scar_timestamp" faims_read_only="true">
           <label>{Timestamp}</label>
         </input>
+        <input faims_attribute_name="Scar author" faims_attribute_type="measure" ref="Scar_author" faims_read_only="true">
+          <label>{Author}</label>
+        </input>
         <select1 faims_attribute_name="Scar type" faims_attribute_type="vocab" ref="Scar_type">
           <label>{Scar_type}</label>
           <item>
@@ -3575,13 +3637,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -3590,25 +3652,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select1 faims_attribute_name="Flaked Stone Artefact Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
           <label>{Boundary_criterion}</label>
@@ -3799,13 +3864,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -3814,25 +3879,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Other Stone Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
           <label>{Device_photos}</label>
@@ -4011,13 +4079,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -4026,25 +4094,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Glass Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
           <label>{Device_photos}</label>
@@ -4244,13 +4315,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -4259,25 +4330,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Ceramic Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
           <label>{Device_photos}</label>
@@ -4442,13 +4516,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -4457,25 +4531,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Misc Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
           <label>{Device_photos}</label>
@@ -4571,13 +4648,13 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_read_only="true">
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
               <label>{Latitude}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_read_only="true">
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
               <label>{Longitude}</label>
             </input>
           </group>
@@ -4586,25 +4663,28 @@
           <label/>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_read_only="true">
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
               <label>{Northing}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
-            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_read_only="true">
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
               <label>{Easting}</label>
             </input>
           </group>
           <group ref="Col_3" faims_style="even">
             <label/>
-            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_read_only="true">
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
               <label>{Accuracy}</label>
             </input>
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
           <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Discrete Hearth Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
           <label>{Device_photos}</label>

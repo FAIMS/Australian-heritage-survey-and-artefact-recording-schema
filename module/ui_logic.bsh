@@ -369,6 +369,7 @@ REF_TO_TYPE.put("Surface_Exposure/General/Northing", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Easting", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Accuracy", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Surface_Exposure/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Surface_Exposure/General/Boundary_criterion", "dropdown");
 REF_TO_TYPE.put("Surface_Exposure/General/Device_photos", "camera");
 REF_TO_TYPE.put("Surface_Exposure/General/Device_photos_Button_1", "button");
@@ -412,6 +413,7 @@ REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point
 REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Easting", "input");
 REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Accuracy", "input");
 REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Comment", "input");
 REF_TO_TYPE.put("Mound/General/Mound_ID", "input");
 REF_TO_TYPE.put("Mound/General/Mound_author", "input");
@@ -423,6 +425,7 @@ REF_TO_TYPE.put("Mound/General/Northing", "input");
 REF_TO_TYPE.put("Mound/General/Easting", "input");
 REF_TO_TYPE.put("Mound/General/Accuracy", "input");
 REF_TO_TYPE.put("Mound/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Mound/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Mound/General/Boundary_criterion", "dropdown");
 REF_TO_TYPE.put("Mound/General/Device_photos", "camera");
 REF_TO_TYPE.put("Mound/General/Device_photos_Button_1", "button");
@@ -468,6 +471,7 @@ REF_TO_TYPE.put("Mound_Boundary_point/Mound_Boundary_point/Northing", "input");
 REF_TO_TYPE.put("Mound_Boundary_point/Mound_Boundary_point/Easting", "input");
 REF_TO_TYPE.put("Mound_Boundary_point/Mound_Boundary_point/Accuracy", "input");
 REF_TO_TYPE.put("Mound_Boundary_point/Mound_Boundary_point/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Mound_Boundary_point/Mound_Boundary_point/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Mound_Boundary_point/Mound_Boundary_point/Comment", "input");
 REF_TO_TYPE.put("Rock_Shelter/General/Rock_Shelter_ID", "input");
 REF_TO_TYPE.put("Rock_Shelter/General/Rock_Shelter_author", "input");
@@ -479,6 +483,7 @@ REF_TO_TYPE.put("Rock_Shelter/General/Northing", "input");
 REF_TO_TYPE.put("Rock_Shelter/General/Easting", "input");
 REF_TO_TYPE.put("Rock_Shelter/General/Accuracy", "input");
 REF_TO_TYPE.put("Rock_Shelter/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Rock_Shelter/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Rock_Shelter/General/Boundary_criterion", "dropdown");
 REF_TO_TYPE.put("Rock_Shelter/General/Device_photos", "camera");
 REF_TO_TYPE.put("Rock_Shelter/General/Device_photos_Button_1", "button");
@@ -530,6 +535,7 @@ REF_TO_TYPE.put("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Northin
 REF_TO_TYPE.put("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Easting", "input");
 REF_TO_TYPE.put("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Accuracy", "input");
 REF_TO_TYPE.put("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Comment", "input");
 REF_TO_TYPE.put("Historical_Feature/General/Historical_Feature_ID", "input");
 REF_TO_TYPE.put("Historical_Feature/General/Historical_Feature_author", "input");
@@ -541,6 +547,7 @@ REF_TO_TYPE.put("Historical_Feature/General/Northing", "input");
 REF_TO_TYPE.put("Historical_Feature/General/Easting", "input");
 REF_TO_TYPE.put("Historical_Feature/General/Accuracy", "input");
 REF_TO_TYPE.put("Historical_Feature/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Historical_Feature/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Historical_Feature/General/Boundary_criterion", "dropdown");
 REF_TO_TYPE.put("Historical_Feature/General/Device_photos", "camera");
 REF_TO_TYPE.put("Historical_Feature/General/Device_photos_Button_1", "button");
@@ -582,6 +589,7 @@ REF_TO_TYPE.put("Historical_Feature_Boundary_point/Historical_Feature_Boundary_p
 REF_TO_TYPE.put("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Easting", "input");
 REF_TO_TYPE.put("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Accuracy", "input");
 REF_TO_TYPE.put("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Comment", "input");
 REF_TO_TYPE.put("Burial/General/Burial_ID", "input");
 REF_TO_TYPE.put("Burial/General/Burial_author", "input");
@@ -593,6 +601,7 @@ REF_TO_TYPE.put("Burial/General/Northing", "input");
 REF_TO_TYPE.put("Burial/General/Easting", "input");
 REF_TO_TYPE.put("Burial/General/Accuracy", "input");
 REF_TO_TYPE.put("Burial/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Burial/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Burial/General/Boundary_criterion", "dropdown");
 REF_TO_TYPE.put("Burial/General/Device_photos", "camera");
 REF_TO_TYPE.put("Burial/General/Device_photos_Button_1", "button");
@@ -634,6 +643,7 @@ REF_TO_TYPE.put("Burial_Boundary_point/Burial_Boundary_point/Northing", "input")
 REF_TO_TYPE.put("Burial_Boundary_point/Burial_Boundary_point/Easting", "input");
 REF_TO_TYPE.put("Burial_Boundary_point/Burial_Boundary_point/Accuracy", "input");
 REF_TO_TYPE.put("Burial_Boundary_point/Burial_Boundary_point/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Burial_Boundary_point/Burial_Boundary_point/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Burial_Boundary_point/Burial_Boundary_point/Comment", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest/General/Other_Point_of_Interest_ID", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest/General/Other_Point_of_Interest_author", "input");
@@ -645,6 +655,7 @@ REF_TO_TYPE.put("Other_Point_of_Interest/General/Northing", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest/General/Easting", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest/General/Accuracy", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Other_Point_of_Interest/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Other_Point_of_Interest/General/Boundary_criterion", "dropdown");
 REF_TO_TYPE.put("Other_Point_of_Interest/General/Device_photos", "camera");
 REF_TO_TYPE.put("Other_Point_of_Interest/General/Device_photos_Button_1", "button");
@@ -678,6 +689,7 @@ REF_TO_TYPE.put("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_
 REF_TO_TYPE.put("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Easting", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Accuracy", "input");
 REF_TO_TYPE.put("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Comment", "input");
 REF_TO_TYPE.put("Tree/General/Tree_ID", "input");
 REF_TO_TYPE.put("Tree/General/Tree_author", "input");
@@ -689,6 +701,7 @@ REF_TO_TYPE.put("Tree/General/Northing", "input");
 REF_TO_TYPE.put("Tree/General/Easting", "input");
 REF_TO_TYPE.put("Tree/General/Accuracy", "input");
 REF_TO_TYPE.put("Tree/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Tree/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Tree/General/Boundary_criterion", "dropdown");
 REF_TO_TYPE.put("Tree/General/Device_photos", "camera");
 REF_TO_TYPE.put("Tree/General/Device_photos_Button_1", "button");
@@ -718,6 +731,7 @@ REF_TO_TYPE.put("Tree/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Scar/Scar/Tree_ID", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_ID", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_timestamp", "input");
+REF_TO_TYPE.put("Scar/Scar/Scar_author", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_type", "dropdown");
 REF_TO_TYPE.put("Scar/Scar/Scar_Height_Above_Ground_mm", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_length_mm", "input");
@@ -740,6 +754,7 @@ REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Northing", "input");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Easting", "input");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Accuracy", "input");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Boundary_criterion", "dropdown");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Device_photos", "camera");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Device_photos_Button_1", "button");
@@ -781,6 +796,7 @@ REF_TO_TYPE.put("Other_Stone_Artefact/General/Northing", "input");
 REF_TO_TYPE.put("Other_Stone_Artefact/General/Easting", "input");
 REF_TO_TYPE.put("Other_Stone_Artefact/General/Accuracy", "input");
 REF_TO_TYPE.put("Other_Stone_Artefact/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Other_Stone_Artefact/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Other_Stone_Artefact/General/Device_photos", "camera");
 REF_TO_TYPE.put("Other_Stone_Artefact/General/Device_photos_Button_1", "button");
 REF_TO_TYPE.put("Other_Stone_Artefact/General/Landform_element", "dropdown");
@@ -822,6 +838,7 @@ REF_TO_TYPE.put("Glass_Artefact/General/Northing", "input");
 REF_TO_TYPE.put("Glass_Artefact/General/Easting", "input");
 REF_TO_TYPE.put("Glass_Artefact/General/Accuracy", "input");
 REF_TO_TYPE.put("Glass_Artefact/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Glass_Artefact/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Glass_Artefact/General/Device_photos", "camera");
 REF_TO_TYPE.put("Glass_Artefact/General/Device_photos_Button_1", "button");
 REF_TO_TYPE.put("Glass_Artefact/General/Landform_element", "dropdown");
@@ -866,6 +883,7 @@ REF_TO_TYPE.put("Ceramic_Artefact/General/Northing", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/General/Easting", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/General/Accuracy", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Ceramic_Artefact/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Ceramic_Artefact/General/Device_photos", "camera");
 REF_TO_TYPE.put("Ceramic_Artefact/General/Device_photos_Button_1", "button");
 REF_TO_TYPE.put("Ceramic_Artefact/General/Landform_element", "dropdown");
@@ -901,6 +919,7 @@ REF_TO_TYPE.put("Misc_Artefact/General/Northing", "input");
 REF_TO_TYPE.put("Misc_Artefact/General/Easting", "input");
 REF_TO_TYPE.put("Misc_Artefact/General/Accuracy", "input");
 REF_TO_TYPE.put("Misc_Artefact/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Misc_Artefact/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Misc_Artefact/General/Device_photos", "camera");
 REF_TO_TYPE.put("Misc_Artefact/General/Device_photos_Button_1", "button");
 REF_TO_TYPE.put("Misc_Artefact/General/Landform_element", "dropdown");
@@ -925,6 +944,7 @@ REF_TO_TYPE.put("Discrete_Hearth_Artefact/General/Northing", "input");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/General/Easting", "input");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/General/Accuracy", "input");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Discrete_Hearth_Artefact/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/General/Device_photos", "camera");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/General/Device_photos_Button_1", "button");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/General/Landform_element", "dropdown");
@@ -1318,6 +1338,7 @@ DATA_REFS.add("Tree/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Scar/Scar/Tree_ID");
 DATA_REFS.add("Scar/Scar/Scar_ID");
 DATA_REFS.add("Scar/Scar/Scar_timestamp");
+DATA_REFS.add("Scar/Scar/Scar_author");
 DATA_REFS.add("Scar/Scar/Scar_type");
 DATA_REFS.add("Scar/Scar/Scar_Height_Above_Ground_mm");
 DATA_REFS.add("Scar/Scar/Scar_length_mm");
@@ -4694,6 +4715,204 @@ void validateSurfaceExposure() {
   String validationMessage = validateFields(f, "PLAINTEXT");
   showWarning("{validation_results}", validationMessage);
 }
+void validateSurfaceExposureBoundarypoint() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Latitude", "{Latitude}"));
+  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Longitude", "{Longitude}"));
+  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Northing", "{Northing}"));
+  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Easting", "{Easting}"));
+  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateMound() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Mound/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Mound/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Mound/General/Northing", "{Northing}"));
+  f.add(fieldPair("Mound/General/Easting", "{Easting}"));
+  f.add(fieldPair("Mound/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateMoundBoundarypoint() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Mound_Boundary_point/Mound_Boundary_point/Latitude", "{Latitude}"));
+  f.add(fieldPair("Mound_Boundary_point/Mound_Boundary_point/Longitude", "{Longitude}"));
+  f.add(fieldPair("Mound_Boundary_point/Mound_Boundary_point/Northing", "{Northing}"));
+  f.add(fieldPair("Mound_Boundary_point/Mound_Boundary_point/Easting", "{Easting}"));
+  f.add(fieldPair("Mound_Boundary_point/Mound_Boundary_point/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateRockShelter() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Rock_Shelter/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Rock_Shelter/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Rock_Shelter/General/Northing", "{Northing}"));
+  f.add(fieldPair("Rock_Shelter/General/Easting", "{Easting}"));
+  f.add(fieldPair("Rock_Shelter/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateRockShelterBoundarypoint() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Latitude", "{Latitude}"));
+  f.add(fieldPair("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Longitude", "{Longitude}"));
+  f.add(fieldPair("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Northing", "{Northing}"));
+  f.add(fieldPair("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Easting", "{Easting}"));
+  f.add(fieldPair("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateHistoricalFeature() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Historical_Feature/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Historical_Feature/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Historical_Feature/General/Northing", "{Northing}"));
+  f.add(fieldPair("Historical_Feature/General/Easting", "{Easting}"));
+  f.add(fieldPair("Historical_Feature/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateHistoricalFeatureBoundarypoint() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Latitude", "{Latitude}"));
+  f.add(fieldPair("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Longitude", "{Longitude}"));
+  f.add(fieldPair("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Northing", "{Northing}"));
+  f.add(fieldPair("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Easting", "{Easting}"));
+  f.add(fieldPair("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateBurial() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Burial/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Burial/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Burial/General/Northing", "{Northing}"));
+  f.add(fieldPair("Burial/General/Easting", "{Easting}"));
+  f.add(fieldPair("Burial/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateBurialBoundarypoint() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Burial_Boundary_point/Burial_Boundary_point/Latitude", "{Latitude}"));
+  f.add(fieldPair("Burial_Boundary_point/Burial_Boundary_point/Longitude", "{Longitude}"));
+  f.add(fieldPair("Burial_Boundary_point/Burial_Boundary_point/Northing", "{Northing}"));
+  f.add(fieldPair("Burial_Boundary_point/Burial_Boundary_point/Easting", "{Easting}"));
+  f.add(fieldPair("Burial_Boundary_point/Burial_Boundary_point/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateOtherPointofInterest() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Other_Point_of_Interest/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Other_Point_of_Interest/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Other_Point_of_Interest/General/Northing", "{Northing}"));
+  f.add(fieldPair("Other_Point_of_Interest/General/Easting", "{Easting}"));
+  f.add(fieldPair("Other_Point_of_Interest/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateOtherPointofInterestBoundarypoint() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Latitude", "{Latitude}"));
+  f.add(fieldPair("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Longitude", "{Longitude}"));
+  f.add(fieldPair("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Northing", "{Northing}"));
+  f.add(fieldPair("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Easting", "{Easting}"));
+  f.add(fieldPair("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateTree() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Tree/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Tree/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Tree/General/Northing", "{Northing}"));
+  f.add(fieldPair("Tree/General/Easting", "{Easting}"));
+  f.add(fieldPair("Tree/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateFlakedStoneArtefact() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Flaked_Stone_Artefact/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Flaked_Stone_Artefact/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Flaked_Stone_Artefact/General/Northing", "{Northing}"));
+  f.add(fieldPair("Flaked_Stone_Artefact/General/Easting", "{Easting}"));
+  f.add(fieldPair("Flaked_Stone_Artefact/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateOtherStoneArtefact() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Other_Stone_Artefact/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Other_Stone_Artefact/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Other_Stone_Artefact/General/Northing", "{Northing}"));
+  f.add(fieldPair("Other_Stone_Artefact/General/Easting", "{Easting}"));
+  f.add(fieldPair("Other_Stone_Artefact/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateGlassArtefact() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Glass_Artefact/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Glass_Artefact/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Glass_Artefact/General/Northing", "{Northing}"));
+  f.add(fieldPair("Glass_Artefact/General/Easting", "{Easting}"));
+  f.add(fieldPair("Glass_Artefact/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateCeramicArtefact() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Ceramic_Artefact/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Ceramic_Artefact/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Ceramic_Artefact/General/Northing", "{Northing}"));
+  f.add(fieldPair("Ceramic_Artefact/General/Easting", "{Easting}"));
+  f.add(fieldPair("Ceramic_Artefact/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateMiscArtefact() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Misc_Artefact/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Misc_Artefact/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Misc_Artefact/General/Northing", "{Northing}"));
+  f.add(fieldPair("Misc_Artefact/General/Easting", "{Easting}"));
+  f.add(fieldPair("Misc_Artefact/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
+void validateDiscreteHearthArtefact() {
+  List f = new ArrayList(); // Fields to be validated
+  f.add(fieldPair("Discrete_Hearth_Artefact/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Discrete_Hearth_Artefact/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Discrete_Hearth_Artefact/General/Northing", "{Northing}"));
+  f.add(fieldPair("Discrete_Hearth_Artefact/General/Easting", "{Easting}"));
+  f.add(fieldPair("Discrete_Hearth_Artefact/General/Accuracy", "{Accuracy}"));
+
+  String validationMessage = validateFields(f, "PLAINTEXT");
+  showWarning("{validation_results}", validationMessage);
+}
 
 
 /******************************************************************************/
@@ -4850,6 +5069,7 @@ void populateAuthorAndTimestamp(String tabgroup) {
   tabgroupToAuthor.put("Burial", "Burial/General/Burial_author");
   tabgroupToAuthor.put("Other_Point_of_Interest", "Other_Point_of_Interest/General/Other_Point_of_Interest_author");
   tabgroupToAuthor.put("Tree", "Tree/General/Tree_author");
+  tabgroupToAuthor.put("Scar", "Scar/Scar/Scar_author");
   tabgroupToAuthor.put("Flaked_Stone_Artefact", "Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_author");
   tabgroupToAuthor.put("Other_Stone_Artefact", "Other_Stone_Artefact/General/Other_Stone_Artefact_author");
   tabgroupToAuthor.put("Glass_Artefact", "Glass_Artefact/General/Glass_Artefact_author");
@@ -4893,6 +5113,82 @@ for (String tabGroup : getTabGroups()) {
 
 void onClickUserListUserList () {
   newTab("Control", true);
+}
+
+void onClickSurfaceExposureFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickSurfaceExposureBoundarypointFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickMoundFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickMoundBoundarypointFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickRockShelterFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickRockShelterBoundarypointFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickHistoricalFeatureFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickHistoricalFeatureBoundarypointFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickBurialFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickBurialBoundarypointFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickOtherPointofInterestFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickOtherPointofInterestBoundarypointFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickTreeFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickFlakedStoneArtefactFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickOtherStoneArtefactFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickGlassArtefactFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickCeramicArtefactFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickMiscArtefactFindThisinTheMap () {
+  newTab("Control/Map", true);
+}
+
+void onClickDiscreteHearthArtefactFindThisinTheMap () {
+  newTab("Control/Map", true);
 }
 
 void onClickControlNewSurfaceExposure () {
@@ -5007,6 +5303,25 @@ addOnEvent("Control/Control/New_Glass_Artefact", "click", "onClickControlNewGlas
 addOnEvent("Control/Control/New_Ceramic_Artefact", "click", "onClickControlNewCeramicArtefact()");
 addOnEvent("Control/Control/New_Misc_Artefact", "click", "onClickControlNewMiscArtefact()");
 addOnEvent("Control/Control/New_Discrete_Hearth", "click", "onClickControlNewDiscreteHearth()");
+addOnEvent("Surface_Exposure/General/Find_This_in_The_Map", "click", "onClickSurfaceExposureFindThisinTheMap()");
+addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "click", "onClickSurfaceExposureBoundarypointFindThisinTheMap()");
+addOnEvent("Mound/General/Find_This_in_The_Map", "click", "onClickMoundFindThisinTheMap()");
+addOnEvent("Mound_Boundary_point/Mound_Boundary_point/Find_This_in_The_Map", "click", "onClickMoundBoundarypointFindThisinTheMap()");
+addOnEvent("Rock_Shelter/General/Find_This_in_The_Map", "click", "onClickRockShelterFindThisinTheMap()");
+addOnEvent("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Find_This_in_The_Map", "click", "onClickRockShelterBoundarypointFindThisinTheMap()");
+addOnEvent("Historical_Feature/General/Find_This_in_The_Map", "click", "onClickHistoricalFeatureFindThisinTheMap()");
+addOnEvent("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Find_This_in_The_Map", "click", "onClickHistoricalFeatureBoundarypointFindThisinTheMap()");
+addOnEvent("Burial/General/Find_This_in_The_Map", "click", "onClickBurialFindThisinTheMap()");
+addOnEvent("Burial_Boundary_point/Burial_Boundary_point/Find_This_in_The_Map", "click", "onClickBurialBoundarypointFindThisinTheMap()");
+addOnEvent("Other_Point_of_Interest/General/Find_This_in_The_Map", "click", "onClickOtherPointofInterestFindThisinTheMap()");
+addOnEvent("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Find_This_in_The_Map", "click", "onClickOtherPointofInterestBoundarypointFindThisinTheMap()");
+addOnEvent("Tree/General/Find_This_in_The_Map", "click", "onClickTreeFindThisinTheMap()");
+addOnEvent("Flaked_Stone_Artefact/General/Find_This_in_The_Map", "click", "onClickFlakedStoneArtefactFindThisinTheMap()");
+addOnEvent("Other_Stone_Artefact/General/Find_This_in_The_Map", "click", "onClickOtherStoneArtefactFindThisinTheMap()");
+addOnEvent("Glass_Artefact/General/Find_This_in_The_Map", "click", "onClickGlassArtefactFindThisinTheMap()");
+addOnEvent("Ceramic_Artefact/General/Find_This_in_The_Map", "click", "onClickCeramicArtefactFindThisinTheMap()");
+addOnEvent("Misc_Artefact/General/Find_This_in_The_Map", "click", "onClickMiscArtefactFindThisinTheMap()");
+addOnEvent("Discrete_Hearth_Artefact/General/Find_This_in_The_Map", "click", "onClickDiscreteHearthArtefactFindThisinTheMap()");
 addOnEvent("Surface_Exposure/Boundary/New_Boundary_Point", "click", "onClickSurfaceExposureNewBoundaryPoint()");
 addOnEvent("Mound/Boundary/New_Boundary_Point", "click", "onClickMoundNewBoundaryPoint()");
 addOnEvent("Rock_Shelter/Boundary/New_Boundary_Point", "click", "onClickRockShelterNewBoundaryPoint()");
@@ -5072,7 +5387,25 @@ void addNavigationButtons(String tabgroup) {
   removeNavigationButtons();
   List tabgroupsToValidate = new ArrayList();
   tabgroupsToValidate.add("Control");
+  tabgroupsToValidate.add("Historical_Feature");
+  tabgroupsToValidate.add("Mound_Boundary_point");
+  tabgroupsToValidate.add("Other_Point_of_Interest_Boundary_point");
+  tabgroupsToValidate.add("Discrete_Hearth_Artefact");
+  tabgroupsToValidate.add("Burial");
+  tabgroupsToValidate.add("Burial_Boundary_point");
+  tabgroupsToValidate.add("Tree");
   tabgroupsToValidate.add("Surface_Exposure");
+  tabgroupsToValidate.add("Surface_Exposure_Boundary_point");
+  tabgroupsToValidate.add("Other_Stone_Artefact");
+  tabgroupsToValidate.add("Ceramic_Artefact");
+  tabgroupsToValidate.add("Glass_Artefact");
+  tabgroupsToValidate.add("Rock_Shelter");
+  tabgroupsToValidate.add("Other_Point_of_Interest");
+  tabgroupsToValidate.add("Mound");
+  tabgroupsToValidate.add("Misc_Artefact");
+  tabgroupsToValidate.add("Historical_Feature_Boundary_point");
+  tabgroupsToValidate.add("Rock_Shelter_Boundary_point");
+  tabgroupsToValidate.add("Flaked_Stone_Artefact");
   addNavigationButton("new", new ActionButtonCallback() {
     actionOnLabel() {
       "{New}";
@@ -8274,7 +8607,48 @@ void deleteChildren(String last_deleted){
   }
 }
 
-Log.w("deleteChildren", "Delete Children and cascade run.");
+addOnEvent("Burial/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Burial_Boundary_point/Burial_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Ceramic_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Discrete_Hearth_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Flaked_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Glass_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Historical_Feature/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Misc_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Mound/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Mound_Boundary_point/Mound_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Other_Point_of_Interest/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Other_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Rock_Shelter/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Surface_Exposure/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Tree/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+
+
+boolean findThisInTheMap() {
+  String EasStr = getFieldValue(CURRENTLY_DISPLAYED_TAB+"/Easting");
+  String norStr = getFieldValue(CURRENTLY_DISPLAYED_TAB+"/Northing");
+  boolean isFindable = !isNull(EasStr) && !isNull(norStr);
+  if (!isFindable) {
+    String head = "";
+    String body = "";
+    head += "Cannot Find Point in Map";
+    body += "The 'Northing' and 'Easting' fields must be filled in. Please ";
+    body += "tap the 'Take From GPS' button to do so.";
+    showWarning(head, body);
+    return false;
+  }
+  double easDub = Double.parseDouble(EasStr);
+  double norDub = Double.parseDouble(norStr);
+  setMapFocusPoint(MAP_REF, easDub, norDub);
+  return true;
+}
+
+
+
 
 /******************************************************************************/
 /*                                    INIT                                    */
