@@ -29,12 +29,12 @@ addOnEvent("Control/Map",           "show",  "refreshMap()");
 
 
 
-DATA_ENTRY_LAYER    = "Data Entry Layer";
-DATA_ENTRY_LAYER_ID = createCanvasLayer(MAP_REF, DATA_ENTRY_LAYER);
+// DATA_ENTRY_LAYER    = "Data Entry Layer";
+// DATA_ENTRY_LAYER_ID = createCanvasLayer(MAP_REF, DATA_ENTRY_LAYER);
 
 // DATA_ENTRY_IDS.put(MAP_REF, DATA_ENTRY_LAYER_ID);
 
-setSelectedLayer(MAP_REF, DATA_ENTRY_LAYER);
+// setSelectedLayer(MAP_REF, DATA_ENTRY_LAYER);
 setMapZoom(MAP_REF, 15.0f);
 
 void refreshMap() {
@@ -58,7 +58,7 @@ void addDatabaseLayer(String layerName, String tableName, String hexColourCode){
   q  = dbReplaceFirst(q, "{aenttypename}", tableName);
   Log.w("databaselayer",q);
   boolean isEntity = true;
-  GeometryStyle spt = createPointStyle(5, hexColour, 0.3f, 0.9f);
+  GeometryStyle spt = createPointStyle(5, hexColour, 0.5f, 3f);
   GeometryStyle sln = createLineStyle(5, hexColour, 0.05f, 0.3f, null);
   GeometryStyle spg = createPolygonStyle(5, hexColour, sln_);
   GeometryTextStyle stx = createTextStyle(
@@ -95,7 +95,7 @@ void addBoundaryDatabaseLayer(String layerName, String tableName, String hexColo
   q  = dbReplaceFirst(q, "{aenttypename}",  tableName);
   Log.w("boundary", q);
   boolean isEntity = true;
-  GeometryStyle spt = createPointStyle(5, hexColour, 0.1f, 0.3f);
+  GeometryStyle spt = createPointStyle(5, hexColour, 0.1f, 1f);
   GeometryStyle sln = createLineStyle(5, hexColour, 0.05f, 0.3f, null);
   GeometryStyle spg = createPolygonStyle(5, hexColour, sln_);
   GeometryTextStyle stx = createTextStyle(
@@ -116,8 +116,25 @@ void addBoundaryDatabaseLayer(String layerName, String tableName, String hexColo
       stx
   );
 }
+
+//To enable or disable the tools bar and layers bar use the following
+//
+setToolsEnabled(MAP_REF, true);
+
+// The create point, line and polygon tools trigger the tool create event when a geometry is created 
+// and the Load tool triggers a tool load event when a geometry is selected. 
+// Use the following to bind callback to those events.
+
+onToolEvent(MAP_REF, "load", "onLoad()");
+
+onLoad() {
+    id = getMapGeometryLoaded(); // uuid or relationshipid of the vector element
+    type = getMapGeometryLoadedType(); // either "entity" or "relationship"    
+    showToast("Loading: "+id);
+    loadEntityFrom(id);
+}
   
-onMapEvent(MAP_REF, "loadEntityPoint()", "");
+// onMapEvent(MAP_REF, "clickCallback()", "selectCallback()");
 addDatabaseLayer("Surface Exposure", "Surface Exposure", "#980000");
 addBoundaryDatabaseLayer("Surface Exposure Boundary Point", "Surface Exposure Boundary point", "#980000");
 addDatabaseLayer("Mound", "Mound", "#4a86e8");
@@ -140,9 +157,18 @@ addDatabaseLayer("Misc Artefact", "Misc Artefact", "#ffff00");
 
 
 
-void loadEntityPoint() {
+clickCallback() {
   point = getMapPointClicked();
-  showToast("Point Clicked" + point);
+  
+  Log.i("clickCallback", point.toString());
+}
+ 
+selectCallback() {
+  geomId = getMapGeometrySelected();
+  geom = getGeometry(MAP_REF, geomId);
+
+  Log.i("selectCallback", " "+geom.toString());
+  //clearGeometryHighlights(MAP_REF);
 }
 /****************************** GIS POINT STYLES ******************************/
 //final String MAP_REF = "Control/Map/Map";

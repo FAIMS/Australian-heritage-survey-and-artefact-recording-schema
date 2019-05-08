@@ -36,6 +36,11 @@
 		<New_Discrete_Hearth	 t="button" l="Discrete_Hearth_Artefact"/>	
  		<GPS_diagnostics t="gpsdiag"/>
 	</Control>
+	<Map f="noscroll">
+	<!--SRID: 4326-->
+		<Map t="map" f="nolabel"/>
+	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
+	</Map>
 	<Recent f="noscroll">
 		<Recent_records t="list"/>
 	</Recent>
@@ -46,11 +51,7 @@
 	<Autonumbering>
 		<autonum/>
 	</Autonumbering>
-	<Map f="noscroll">
-<!--SRID: 4326-->
-	<Map t="map" f="nolabel"/>
-	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
-	</Map>
+	
 </Control>	
 <!--
 
@@ -70,7 +71,7 @@
 		<Surface_Exposure_ID f="id autonum"/> 					
 		
 		<author f="nocertainty"/>								
-		<timestamp f="nocertainty"/> 
+		<timestamp f=" nocertainty"/> 
 
 		<Level_of_recording f="nocertainty"> 
 			<desc>Detail the recording approach used
@@ -1154,7 +1155,7 @@
 		<Aperture_width_mm>
 		    <desc>Only applicable on scars featuring an aperture into the tree hollow, for example, sugarbag scars. Measure the maximum width of the actual aperture.</desc>
 		</Aperture_width_mm>
-		<Device_photos_of_scar>
+		<Device_photos_of_scar t="camera">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos_of_scar>
 		<Additional_notes f="nocertainty noannotation"> 
@@ -1848,7 +1849,9 @@
 <logic><![CDATA[
 
 <!--@SOURCE: logic/gis-shared.bsh-->
-
+<!--@SOURCE: logic/custom-search.bsh-->
+<!--@SOURCE: logic/recent-records.bsh-->
+<!--@SOURCE: logic/cascade-delete.bsh-->
 ]]></logic>
 
 </module>

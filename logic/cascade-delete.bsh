@@ -1,0 +1,86 @@
+/* ************** Delete child entities ********************* */
+
+
+
+
+// replacing reallyDeleteRecord so we have a deleted uuid to reference
+
+String LAST_DELETED_UUID;
+
+void reallyDeleteRecord(String tabgroup) {
+  DeleteCallback callback = new DeleteCallback() {
+    onDelete(uuid) {
+      
+      populateEntityListsOfArchEnt(tabgroup);
+      executeOnEvent(tabgroup, "delete");
+    }
+
+    onError(message) {
+      showToast(message);
+    }
+  };
+  LAST_DELETED_UUID = getUuid(tabgroup);
+
+  deleteChildren(LAST_DELETED_UUID);
+  deleteArchEnt(getUuid(tabgroup), callback);
+  cancelTabGroup(tabgroup, false);
+  deleteFromRecent(LAST_DELETED_UUID);
+}
+
+
+
+// void setupCascadeDelete(){
+
+         
+//   for ( tabgroup : TAB_GROUPS_AS_LIST ){
+//     if (! isNull(tabgroup)){
+      
+//       if (! NODATA_TAB_GROUPS.contains(tabgroup)){
+//         if (! tabgroup.contains("point") && (! tabgroup.contains("Scar"))){
+//           //If the tabgroup is a saving tabgroup
+//           Log.i("deleteChildren", tabgroup);
+//           addOnEvent(tabgroup, "delete", "deleteChildren()");}
+//       }
+//     }
+//   }
+// }
+// setupCascadeDelete();
+void deleteFromRecent(String last_deleted){
+  
+  if (! isNull(last_deleted)){
+    String recentQuery  = "DELETE FROM recent " +                         
+                         " WHERE uuid = {uuid} ";
+    recentQuery     = dbReplaceFirst(recentQuery, "{uuid}", last_deleted);
+    fetchOne(recentQuery);
+  }
+}
+void deleteChildren(String last_deleted){
+  currentUUID = last_deleted;
+  if (isNull(currentUUID)){
+    Log.e("deleteChildren", "UUID NOT FOUND");
+    
+  } else {
+    Log.i("deleteChildren", "Starting delete children on "+ currentUUID);
+    String childrenQuery  = "SELECT childuuid, relationshipid "+
+                            "  FROM parentchild "+
+                            " WHERE parentuuid = {uuid} "+
+                            "   AND parentparticipatesverb = 'Parent Of' ";
+    childrenQuery     = dbReplaceFirst(childrenQuery, "{uuid}", currentUUID);
+    fetchAll(childrenQuery, new FetchCallback() {
+      onFetch(result) {
+        for (row : result){
+          Log.w("deleteChildren", "Deleting child"+row);
+          deleteArchEnt(row.get(0));
+          deleteRel(row.get(1));
+          deleteFromRecent(row.get(0));
+        }
+      }
+      
+      onError(message) {
+        showToast(message);
+      }
+    });
+  }
+}
+
+Log.w("deleteChildren", "Delete Children and cascade run.");

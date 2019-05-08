@@ -42,6 +42,17 @@
               <New_Discrete_Hearth/>
               <GPS_diagnostics/>
             </Control>
+            <Map>
+              <Map/>
+              <Colgroup_1>
+                <Col_1>
+                  <Center_Me_1/>
+                </Col_1>
+                <Col_2>
+                  <Save_Map_Settings_1/>
+                </Col_2>
+              </Colgroup_1>
+            </Map>
             <Recent>
               <Recent_records/>
             </Recent>
@@ -61,6 +72,10 @@
                 <Col_1>
                   <Select_Author/>
                 </Col_1>
+                <Col_2>
+                  <Select_Date/>
+                </Col_2>
+                
               </Colgroup_1>
               <Entity_List/>
             </Search>
@@ -86,17 +101,6 @@
               <Next_Misc_Artefact_ID/>
               <Next_Discrete_Hearth_Artefact_ID/>
             </Autonumbering>
-            <Map>
-              <Map/>
-              <Colgroup_1>
-                <Col_1>
-                  <Center_Me_1/>
-                </Col_1>
-                <Col_2>
-                  <Save_Map_Settings_1/>
-                </Col_2>
-              </Colgroup_1>
-            </Map>
           </Control>
           <Surface_Exposure>
             <General>
@@ -756,6 +760,7 @@
               <Aperture_length_mm/>
               <Aperture_width_mm/>
               <Device_photos_of_scar/>
+              <Device_photos_of_scar_Button_1/>
               <Additional_notes/>
               <External_camera_ID_scars/>
               <External_camera_file_names_and_attachment/>
@@ -1285,6 +1290,27 @@
           <label>{GPS_diagnostics}</label>
         </input>
       </group>
+      <group ref="Map" faims_scrollable="false">
+        <label>{Map}</label>
+        <input faims_map="true" ref="Map">
+          <label/>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <trigger ref="Center_Me_1">
+              <label>{Center_Me}</label>
+            </trigger>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <trigger ref="Save_Map_Settings_1">
+              <label>{Save_Map_Settings}</label>
+            </trigger>
+          </group>
+        </group>
+      </group>
       <group ref="Recent" faims_scrollable="false">
         <label>{Recent}</label>
         <select1 appearance="compact" ref="Recent_records">
@@ -1312,29 +1338,41 @@
             </trigger>
           </group>
         </group>
-        <group ref="Colgroup_1" faims_style="orientation">
-          <label/>
-          <group ref="Col_0" faims_style="even">
-            <label/>
-            <select1 ref="Entity_Types">
-              <label>{Entity_Types}</label>
-              <item>
-                <label>Options not loaded</label>
-                <value>Options not loaded</value>
-              </item>
-            </select1>
-          </group>
-          <group ref="Col_1" faims_style="even">
-            <label/>
-            <select1 ref="Select_Author">
-              <label>{Select_Author}</label>
-              <item>
-                <label>Options not loaded</label>
-                <value>Options not loaded</value>
-              </item>
-            </select1>
-          </group>
-        </group>
+         <group ref="Colgroup_1" faims_style="orientation">
+  <label/>
+  <group ref="Col_0" faims_style="even">
+    <label/>
+    <select1 ref="Entity_Types">
+      <label>{Entity_Types}</label>
+      <item>
+        <label>Options not loaded</label>
+        <value>Options not loaded</value>
+      </item>
+    </select1>
+  </group>
+  <group ref="Col_1" faims_style="even">
+    <label/>
+    <select1 ref="Select_Author">
+      <label>{Select_Author}</label>
+      <item>
+        <label>Options not loaded</label>
+        <value>Options not loaded</value>
+      </item>
+    </select1>
+  </group>
+  <group ref="Col_2" faims_style="even">
+    <label/>
+    <select1 ref="Select_Date">
+      <label>{Select_Date}</label>
+      <item>
+        <label>Options not loaded</label>
+        <value>Options not loaded</value>
+      </item>
+    </select1>
+  </group>  
+  
+</group>
+
         <select1 appearance="compact" ref="Entity_List">
           <label>{Entity_List}</label>
           <item>
@@ -1405,27 +1443,6 @@
         <input ref="Next_Discrete_Hearth_Artefact_ID" faims_style_class="required">
           <label>{Next_Discrete_Hearth_Artefact_ID}</label>
         </input>
-      </group>
-      <group ref="Map" faims_scrollable="false">
-        <label>{Map}</label>
-        <input faims_map="true" ref="Map">
-          <label/>
-        </input>
-        <group ref="Colgroup_1" faims_style="orientation">
-          <label/>
-          <group ref="Col_1" faims_style="even">
-            <label/>
-            <trigger ref="Center_Me_1">
-              <label>{Center_Me}</label>
-            </trigger>
-          </group>
-          <group ref="Col_2" faims_style="even">
-            <label/>
-            <trigger ref="Save_Map_Settings_1">
-              <label>{Save_Map_Settings}</label>
-            </trigger>
-          </group>
-        </group>
       </group>
     </group>
     <group ref="Surface_Exposure" faims_archent_type="Surface Exposure">
@@ -3506,9 +3523,16 @@
         <input faims_attribute_name="Aperture width mm" faims_attribute_type="measure" ref="Aperture_width_mm">
           <label>{Aperture_width_mm}</label>
         </input>
-        <input faims_attribute_name="Device photos of scar" faims_attribute_type="measure" ref="Device_photos_of_scar">
+        <select faims_sync="true" type="camera" faims_attribute_name="Device photos of scar" faims_attribute_type="measure" ref="Device_photos_of_scar">
           <label>{Device_photos_of_scar}</label>
-        </input>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Device_photos_of_scar_Button_1">
+          <label>{Device_photos_of_scar}</label>
+        </trigger>
         <input faims_attribute_name="Scar Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_notes}</label>
         </input>
