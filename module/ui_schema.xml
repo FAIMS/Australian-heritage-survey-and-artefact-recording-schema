@@ -34,7 +34,7 @@
               <New_Point_of_Interest/>
               <Objects/>
               <New_Tree/>
-              <New_Flake/>
+              <New_Flaked_Stone_Artefact/>
               <New_Other_Stone_Artefact/>
               <New_Glass_Artefact/>
               <New_Ceramic_Artefact/>
@@ -175,8 +175,8 @@
           </Surface_Exposure>
           <Surface_Exposure_Boundary_point>
             <Surface_Exposure_Boundary_point>
-              <Surface_Exposure_ID/>
               <Surface_Exposure_Boundary_Point_ID/>
+              <Surface_Exposure_ID/>
               <Surface_Exposure_Boundary_point_timestamp/>
               <Colgroup_1>
                 <Col_1>
@@ -452,9 +452,9 @@
               <Landform_element/>
               <Dominant_vegetation_type/>
               <Dominant_vegetation_cover/>
-              <Additional_environmental_notes/>
               <Morphology_type/>
               <Morphology_notes/>
+              <Additional_environmental_notes/>
             </Landscape_context>
             <Feature_details>
               <Place_name/>
@@ -725,7 +725,6 @@
               </Colgroup_2>
               <Take_From_GPS_1/>
               <Find_This_in_The_Map/>
-              <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
             </General>
@@ -735,8 +734,6 @@
               <Dominant_vegetation_type/>
               <Dominant_vegetation_cover/>
               <Additional_environmental_notes/>
-              <Morphology_type/>
-              <Morphology_notes/>
             </Landscape_context>
             <Feature_details>
               <Tree_type/>
@@ -753,6 +750,8 @@
               <List_of_Related_Scars/>
             </Scar_control>
             <Supplementary>
+              <Paper_notes_and_sketches/>
+              <Paper_notes_and_sketches_Button_1/>
               <External_camera_ID/>
               <External_camera_file_names_and_attachment/>
               <External_camera_image_attachment/>
@@ -765,8 +764,8 @@
             <Scar>
               <Tree_ID/>
               <Scar_ID/>
-              <Scar_timestamp/>
               <Scar_author/>
+              <Scar_timestamp/>
               <Scar_type/>
               <Scar_Height_Above_Ground_mm/>
               <Scar_length_mm/>
@@ -808,7 +807,6 @@
               </Colgroup_2>
               <Take_From_GPS_1/>
               <Find_This_in_The_Map/>
-              <Boundary_criterion/>
               <Device_photos/>
               <Device_photos_Button_1/>
               <Landform_element/>
@@ -1166,6 +1164,8 @@
       <bind nodeset="/faims/Rock_Shelter/Feature_details/Floor_length_m" type="decimal"/>
       <bind nodeset="/faims/Rock_Shelter/Feature_details/Floor_width_m" type="decimal"/>
       <bind nodeset="/faims/Rock_Shelter/Feature_details/Floor_area_m2" type="decimal"/>
+      <bind nodeset="/faims/Rock_Shelter/Feature_details/Floor_component_1_percent" type="decimal"/>
+      <bind nodeset="/faims/Rock_Shelter/Feature_details/Floor_component_2_percent" type="decimal"/>
       <bind nodeset="/faims/Rock_Shelter/Feature_details/Stone_artefact_count" type="integer"/>
       <bind nodeset="/faims/Rock_Shelter/Feature_details/Historical_artefact_count" type="integer"/>
       <bind nodeset="/faims/Rock_Shelter/Feature_details/In_situ_hearth_count" type="ingeger"/>
@@ -1178,6 +1178,11 @@
       <bind nodeset="/faims/Tree/Feature_details/Girth_mm" type="decimal"/>
       <bind nodeset="/faims/Tree/Feature_details/Number_of_scars" type="integer"/>
       <bind nodeset="/faims/Tree/Feature_details/Stump_height_mm" type="decimal"/>
+      <bind nodeset="/faims/Scar/Scar/Scar_Height_Above_Ground_mm" type="decimal"/>
+      <bind nodeset="/faims/Scar/Scar/Scar_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Scar/Scar/Scar_width_mm" type="decimal"/>
+      <bind nodeset="/faims/Scar/Scar/Aperture_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Scar/Scar/Aperture_width_mm" type="decimal"/>
       <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Weight_g" type="decimal"/>
       <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Platform_angle" type="decimal"/>
       <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Platform_width_mm" type="decimal"/>
@@ -1185,6 +1190,7 @@
       <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Maximum_length_mm" type="decimal"/>
       <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Maximum_width_mm" type="decimal"/>
       <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Maximum_thickness_mm" type="decimal"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Dorsal_flake_scar_maximum_length" type="decimal"/>
       <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Weight_g" type="decimal"/>
       <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Length_mm" type="decimal"/>
       <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Width_mm" type="decimal"/>
@@ -1288,8 +1294,8 @@
         <trigger ref="New_Tree">
           <label>{New_Tree}</label>
         </trigger>
-        <trigger ref="New_Flake">
-          <label>{New_Flake}</label>
+        <trigger ref="New_Flaked_Stone_Artefact">
+          <label>{New_Flaked_Stone_Artefact}</label>
         </trigger>
         <trigger ref="New_Other_Stone_Artefact">
           <label>{New_Other_Stone_Artefact}</label>
@@ -1469,13 +1475,13 @@
       <label>{Surface_Exposure}</label>
       <group ref="General">
         <label>{General}</label>
-        <input faims_attribute_name="Surface Exposure ID" faims_attribute_type="measure" ref="Surface_Exposure_ID">
+        <input faims_attribute_name="Surface Exposure ID" faims_attribute_type="measure" ref="Surface_Exposure_ID" faims_certainty="false">
           <label>{Surface_Exposure_ID}</label>
         </input>
-        <input faims_attribute_name="Surface Exposure author" faims_attribute_type="measure" ref="Surface_Exposure_author" faims_read_only="true" faims_certainty="false">
+        <input faims_attribute_name="Surface Exposure author" faims_attribute_type="measure" ref="Surface_Exposure_author" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Surface Exposure timestamp" faims_attribute_type="measure" ref="Surface_Exposure_timestamp" faims_read_only="true" faims_certainty="false">
+        <input faims_attribute_name="Surface Exposure timestamp" faims_attribute_type="measure" ref="Surface_Exposure_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <select1 faims_attribute_name="Surface Exposure Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
@@ -1694,7 +1700,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
@@ -1723,11 +1729,11 @@
       <label>{Surface_Exposure_Boundary_point}</label>
       <group ref="Surface_Exposure_Boundary_point">
         <label>{Surface_Exposure_Boundary_point}</label>
-        <input faims_attribute_name="Surface Exposure ID" faims_attribute_type="measure" ref="Surface_Exposure_ID" faims_certainty="false">
-          <label>{Surface_Exposure_ID}</label>
-        </input>
         <input faims_attribute_name="Surface Exposure Boundary Point ID" faims_attribute_type="measure" ref="Surface_Exposure_Boundary_Point_ID" faims_certainty="false">
           <label>{Surface_Exposure_Boundary_Point_ID}</label>
+        </input>
+        <input faims_attribute_name="Surface Exposure ID" faims_attribute_type="measure" ref="Surface_Exposure_ID" faims_certainty="false">
+          <label>{Surface_Exposure_ID}</label>
         </input>
         <input faims_attribute_name="Surface Exposure Boundary point timestamp" faims_attribute_type="measure" ref="Surface_Exposure_Boundary_point_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
@@ -1786,10 +1792,10 @@
         <input faims_attribute_name="Mound ID" faims_attribute_type="measure" ref="Mound_ID" faims_certainty="false">
           <label>{Mound_ID}</label>
         </input>
-        <input faims_attribute_name="Mound author" faims_attribute_type="measure" ref="Mound_author" faims_read_only="true">
+        <input faims_attribute_name="Mound author" faims_attribute_type="measure" ref="Mound_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Mound timestamp" faims_attribute_type="measure" ref="Mound_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Mound timestamp" faims_attribute_type="measure" ref="Mound_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <select1 faims_attribute_name="Mound Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
@@ -2011,14 +2017,14 @@
         <trigger ref="Paper_notes_and_sketches_Button_1">
           <label>{Paper_notes_and_sketches}</label>
         </trigger>
-        <select1 faims_attribute_name="Mound External camera ID" faims_attribute_type="vocab" ref="External_camera_ID">
+        <select1 faims_attribute_name="Mound External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
           <label>{External_camera_ID}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
@@ -2110,10 +2116,10 @@
         <input faims_attribute_name="Rock Shelter ID" faims_attribute_type="measure" ref="Rock_Shelter_ID" faims_certainty="false">
           <label>{Rock_Shelter_ID}</label>
         </input>
-        <input faims_attribute_name="Rock Shelter author" faims_attribute_type="measure" ref="Rock_Shelter_author" faims_read_only="true">
+        <input faims_attribute_name="Rock Shelter author" faims_attribute_type="measure" ref="Rock_Shelter_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Rock Shelter timestamp" faims_attribute_type="measure" ref="Rock_Shelter_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Rock Shelter timestamp" faims_attribute_type="measure" ref="Rock_Shelter_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <select1 faims_attribute_name="Rock Shelter Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
@@ -2242,7 +2248,7 @@
       </group>
       <group ref="Feature_details">
         <label>{Feature_details}</label>
-        <select1 faims_attribute_name="Shelter type" faims_attribute_type="vocab" ref="Shelter_type">
+        <select1 faims_attribute_name="Shelter type" faims_attribute_type="vocab" ref="Shelter_type" faims_certainty="false">
           <label>{Shelter_type}</label>
           <item>
             <label>Options not loaded</label>
@@ -2268,13 +2274,9 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Floor component 1 percent" faims_attribute_type="vocab" ref="Floor_component_1_percent" faims_certainty="false">
+        <input faims_attribute_name="Floor component 1 percent" faims_attribute_type="measure" ref="Floor_component_1_percent" faims_certainty="false">
           <label>{Floor_component_1_percent}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
+        </input>
         <select1 faims_attribute_name="Floor component 2 type" faims_attribute_type="vocab" ref="Floor_component_2_type" faims_certainty="false">
           <label>{Floor_component_2_type}</label>
           <item>
@@ -2282,13 +2284,9 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Floor component 2 percent" faims_attribute_type="vocab" ref="Floor_component_2_percent" faims_certainty="false">
+        <input faims_attribute_name="Floor component 2 percent" faims_attribute_type="measure" ref="Floor_component_2_percent" faims_certainty="false">
           <label>{Floor_component_2_percent}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
+        </input>
         <input faims_attribute_name="Rock Shelter Stone artefact count" faims_attribute_type="measure" ref="Stone_artefact_count">
           <label>{Stone_artefact_count}</label>
         </input>
@@ -2380,7 +2378,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
@@ -2472,10 +2470,10 @@
         <input faims_attribute_name="Historical Feature ID" faims_attribute_type="measure" ref="Historical_Feature_ID" faims_certainty="false">
           <label>{Historical_Feature_ID}</label>
         </input>
-        <input faims_attribute_name="Historical Feature author" faims_attribute_type="measure" ref="Historical_Feature_author" faims_read_only="true">
+        <input faims_attribute_name="Historical Feature author" faims_attribute_type="measure" ref="Historical_Feature_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Historical Feature timestamp" faims_attribute_type="measure" ref="Historical_Feature_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Historical Feature timestamp" faims_attribute_type="measure" ref="Historical_Feature_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <select1 faims_attribute_name="Historical Feature Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
@@ -2588,9 +2586,6 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Historical Feature Additional environmental notes" faims_attribute_type="measure" ref="Additional_environmental_notes" faims_annotation="false" faims_certainty="false">
-          <label>{Additional_environmental_notes}</label>
-        </input>
         <select1 faims_attribute_name="Historical Feature Morphology type" faims_attribute_type="vocab" ref="Morphology_type">
           <label>{Morphology_type}</label>
           <item>
@@ -2600,6 +2595,9 @@
         </select1>
         <input faims_attribute_name="Historical Feature Morphology notes" faims_attribute_type="measure" ref="Morphology_notes" faims_annotation="false" faims_certainty="false">
           <label>{Morphology_notes}</label>
+        </input>
+        <input faims_attribute_name="Historical Feature Additional environmental notes" faims_attribute_type="measure" ref="Additional_environmental_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_environmental_notes}</label>
         </input>
       </group>
       <group ref="Feature_details">
@@ -2676,7 +2674,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
@@ -2689,14 +2687,14 @@
         <trigger ref="External_camera_image_attachment_Button_1">
           <label>{External_camera_image_attachment}</label>
         </trigger>
-        <select1 faims_attribute_name="Historical Feature Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+        <select1 faims_attribute_name="Historical Feature Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Historical Feature Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+        <input faims_attribute_name="Historical Feature Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
           <label>{Survey_instrument_data}</label>
         </input>
       </group>
@@ -2771,7 +2769,7 @@
         <input faims_attribute_name="Burial author" faims_attribute_type="measure" ref="Burial_author" faims_read_only="true">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Burial timestamp" faims_attribute_type="measure" ref="Burial_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Burial timestamp" faims_attribute_type="measure" ref="Burial_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <select1 faims_attribute_name="Burial Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
@@ -2988,7 +2986,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
@@ -3001,14 +2999,14 @@
         <trigger ref="External_camera_image_attachment_Button_1">
           <label>{External_camera_image_attachment}</label>
         </trigger>
-        <select1 faims_attribute_name="Burial Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+        <select1 faims_attribute_name="Burial Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Burial Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+        <input faims_attribute_name="Burial Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
           <label>{Survey_instrument_data}</label>
         </input>
       </group>
@@ -3080,10 +3078,10 @@
         <input faims_attribute_name="Other Point of Interest ID" faims_attribute_type="measure" ref="Other_Point_of_Interest_ID" faims_certainty="false">
           <label>{Other_Point_of_Interest_ID}</label>
         </input>
-        <input faims_attribute_name="Other Point of Interest author" faims_attribute_type="measure" ref="Other_Point_of_Interest_author" faims_read_only="true">
+        <input faims_attribute_name="Other Point of Interest author" faims_attribute_type="measure" ref="Other_Point_of_Interest_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Other Point of Interest timestamp" faims_attribute_type="measure" ref="Other_Point_of_Interest_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Other Point of Interest timestamp" faims_attribute_type="measure" ref="Other_Point_of_Interest_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <select1 faims_attribute_name="Other Point of Interest Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
@@ -3248,7 +3246,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
@@ -3261,14 +3259,14 @@
         <trigger ref="External_camera_image_attachment_Button_1">
           <label>{External_camera_image_attachment}</label>
         </trigger>
-        <select1 faims_attribute_name="Other Point of Interest Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+        <select1 faims_attribute_name="Other Point of Interest Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Other Point of Interest Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+        <input faims_attribute_name="Other Point of Interest Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
           <label>{Survey_instrument_data}</label>
         </input>
       </group>
@@ -3340,10 +3338,10 @@
         <input faims_attribute_name="Tree ID" faims_attribute_type="measure" ref="Tree_ID" faims_certainty="false">
           <label>{Tree_ID}</label>
         </input>
-        <input faims_attribute_name="Tree author" faims_attribute_type="measure" ref="Tree_author" faims_read_only="true">
+        <input faims_attribute_name="Tree author" faims_attribute_type="measure" ref="Tree_author" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Tree timestamp" faims_attribute_type="measure" ref="Tree_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Tree timestamp" faims_attribute_type="measure" ref="Tree_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <select1 faims_attribute_name="Tree Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
@@ -3395,14 +3393,7 @@
         <trigger ref="Find_This_in_The_Map">
           <label>{Find_This_in_The_Map___}</label>
         </trigger>
-        <select1 faims_attribute_name="Tree Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
-          <label>{Boundary_criterion}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
-        <select faims_sync="true" type="camera" faims_attribute_name="Tree Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Tree Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -3446,16 +3437,6 @@
         <input faims_attribute_name="Tree Additional environmental notes" faims_attribute_type="measure" ref="Additional_environmental_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_environmental_notes}</label>
         </input>
-        <select1 faims_attribute_name="Tree Morphology type" faims_attribute_type="vocab" ref="Morphology_type">
-          <label>{Morphology_type}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
-        <input faims_attribute_name="Tree Morphology notes" faims_attribute_type="measure" ref="Morphology_notes" faims_annotation="false" faims_certainty="false">
-          <label>{Morphology_notes}</label>
-        </input>
       </group>
       <group ref="Feature_details">
         <label>{Feature_details}</label>
@@ -3473,27 +3454,27 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Girth mm" faims_attribute_type="measure" ref="Girth_mm">
+        <input faims_attribute_name="Girth mm" faims_attribute_type="measure" ref="Girth_mm" faims_annotation="false">
           <label>{Girth_mm}</label>
         </input>
-        <select1 faims_attribute_name="Tree Height" faims_attribute_type="vocab" ref="Tree_Height">
+        <select1 faims_attribute_name="Tree Height" faims_attribute_type="vocab" ref="Tree_Height" faims_certainty="false">
           <label>{Tree_Height}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Condition" faims_attribute_type="vocab" ref="Condition">
+        <select1 faims_attribute_name="Condition" faims_attribute_type="vocab" ref="Condition" faims_annotation="false" faims_certainty="false">
           <label>{Condition}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Number of scars" faims_attribute_type="measure" ref="Number_of_scars">
+        <input faims_attribute_name="Number of scars" faims_attribute_type="measure" ref="Number_of_scars" faims_annotation="false" faims_certainty="false">
           <label>{Number_of_scars}</label>
         </input>
-        <input faims_attribute_name="Stump height mm" faims_attribute_type="measure" ref="Stump_height_mm">
+        <input faims_attribute_name="Stump height mm" faims_attribute_type="measure" ref="Stump_height_mm" faims_annotation="false" faims_certainty="false">
           <label>{Stump_height_mm}</label>
         </input>
         <input faims_attribute_name="Tree Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
@@ -3515,6 +3496,16 @@
       </group>
       <group ref="Supplementary">
         <label>{Supplementary}</label>
+        <select faims_sync="true" type="camera" faims_attribute_name="Paper notes and sketches" faims_attribute_type="measure" ref="Paper_notes_and_sketches" faims_certainty="false">
+          <label>{Paper_notes_and_sketches}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Paper_notes_and_sketches_Button_1">
+          <label>{Paper_notes_and_sketches}</label>
+        </trigger>
         <select1 faims_attribute_name="Tree External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
           <label>{External_camera_ID}</label>
           <item>
@@ -3522,7 +3513,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
@@ -3551,17 +3542,17 @@
       <label>{Scar}</label>
       <group ref="Scar">
         <label>{Scar}</label>
-        <input faims_attribute_name="Tree ID" faims_attribute_type="measure" ref="Tree_ID">
+        <input faims_attribute_name="Tree ID" faims_attribute_type="measure" ref="Tree_ID" faims_certainty="false">
           <label>{Tree_ID}</label>
         </input>
-        <input faims_attribute_name="Scar ID" faims_attribute_type="measure" ref="Scar_ID">
+        <input faims_attribute_name="Scar ID" faims_attribute_type="measure" ref="Scar_ID" faims_certainty="false">
           <label>{Scar_ID}</label>
-        </input>
-        <input faims_attribute_name="Scar timestamp" faims_attribute_type="measure" ref="Scar_timestamp" faims_read_only="true">
-          <label>{Timestamp}</label>
         </input>
         <input faims_attribute_name="Scar author" faims_attribute_type="measure" ref="Scar_author" faims_read_only="true">
           <label>{Author}</label>
+        </input>
+        <input faims_attribute_name="Scar timestamp" faims_attribute_type="measure" ref="Scar_timestamp" faims_read_only="true">
+          <label>{Timestamp}</label>
         </input>
         <select1 faims_attribute_name="Scar type" faims_attribute_type="vocab" ref="Scar_type">
           <label>{Scar_type}</label>
@@ -3598,14 +3589,14 @@
         <input faims_attribute_name="Scar Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_notes}</label>
         </input>
-        <select1 faims_attribute_name="External camera ID scars" faims_attribute_type="vocab" ref="External_camera_ID_scars">
-          <label>{External_camera_ID_scars}</label>
+        <select1 faims_attribute_name="External camera ID scars" faims_attribute_type="vocab" ref="External_camera_ID_scars" faims_certainty="false">
+          <label>{External_camera_ID__scars_}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
@@ -3627,10 +3618,10 @@
         <input faims_attribute_name="Flaked Stone Artefact ID" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_ID" faims_certainty="false">
           <label>{Flaked_Stone_Artefact_ID}</label>
         </input>
-        <input faims_attribute_name="Flaked Stone Artefact author" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_author" faims_read_only="true">
+        <input faims_attribute_name="Flaked Stone Artefact author" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Flaked Stone Artefact timestamp" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Flaked Stone Artefact timestamp" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
@@ -3675,13 +3666,6 @@
         <trigger ref="Find_This_in_The_Map">
           <label>{Find_This_in_The_Map___}</label>
         </trigger>
-        <select1 faims_attribute_name="Flaked Stone Artefact Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
-          <label>{Boundary_criterion}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
         <select faims_sync="true" type="camera" faims_attribute_name="Flaked Stone Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
           <label>{Device_photos}</label>
           <item>
@@ -3713,7 +3697,7 @@
           <label>{Raw_material_colour}</label>
         </input>
         <input faims_attribute_name="Weight g" faims_attribute_type="measure" ref="Weight_g" faims_certainty="false">
-          <label>{Weight_g}</label>
+          <label>{Weight__g_}</label>
         </input>
         <select1 faims_attribute_name="Flake completeness" faims_attribute_type="vocab" ref="Flake_completeness">
           <label>{Flake_completeness}</label>
@@ -3822,7 +3806,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
@@ -3835,14 +3819,14 @@
         <trigger ref="External_camera_image_attachment_Button_1">
           <label>{External_camera_image_attachment}</label>
         </trigger>
-        <select1 faims_attribute_name="Flaked Stone Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+        <select1 faims_attribute_name="Flaked Stone Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Flaked Stone Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+        <input faims_attribute_name="Flaked Stone Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
           <label>{Survey_instrument_data}</label>
         </input>
       </group>
@@ -4037,7 +4021,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment">
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
           <label>{External_camera_file_names_and_attachment}</label>
         </input>
         <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">

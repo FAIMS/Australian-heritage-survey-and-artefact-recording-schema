@@ -219,13 +219,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -936,13 +932,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -1379,7 +1371,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Mound External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -1655,13 +1647,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -1910,20 +1898,10 @@
 <description>Solid stone, or large slabs of stone</description></term>
       </lookup>
     </property>
-    <property name="Floor component 1 percent" type="vocab">
+    <property name="Floor component 1 percent" type="measure">
       <description>Estimate the percentage of the whole floor surface area for the main floor type</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
-      <lookup>
-        <term>{1_25_}
-<description> </description></term>
-        <term>{26_50_}
-<description> </description></term>
-        <term>{51_75_}
-<description> </description></term>
-        <term>{76_100_}
-<description> </description></term>
-      </lookup>
     </property>
     <property name="Floor component 2 type" type="vocab">
       <description>Describe the secondary floor deposit type</description>
@@ -1942,20 +1920,10 @@
 <description>Solid stone, or large slabs of stone</description></term>
       </lookup>
     </property>
-    <property name="Floor component 2 percent" type="vocab">
+    <property name="Floor component 2 percent" type="measure">
       <description>Estimate the percentage of the whole floor surface area for the secondary floor type</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
-      <lookup>
-        <term>{1_25_}
-<description> </description></term>
-        <term>{26_50_}
-<description> </description></term>
-        <term>{51_75_}
-<description> </description></term>
-        <term>{76_100_}
-<description> </description></term>
-      </lookup>
     </property>
     <property name="Rock Shelter Stone artefact count" type="measure">
       <description>Record a tally of stone artefacts observed on the mound surface. Use the certainty slider for estimates on large assemblages</description>
@@ -2192,7 +2160,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Rock Shelter External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -2468,13 +2436,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -2642,11 +2606,6 @@
 <description>Less than 10%</description></term>
       </lookup>
     </property>
-    <property name="Historical Feature Additional environmental notes" type="measure">
-      <description>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-    </property>
     <property name="Historical Feature Morphology type" type="vocab">
       <description>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
 			</description>
@@ -2666,6 +2625,11 @@
     <property name="Historical Feature Morphology notes" type="measure">
       <description>Record any additional notes about site morphology not captured elsewhere
 			</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Historical Feature Additional environmental notes" type="measure">
+      <description>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -2690,7 +2654,10 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="General type" type="vocab">
-      <description>Select the general feature type. For phase 1 recording of complex features with multiple attributes, use the 'site' designation</description>
+      <description>Select the general feature type. For phase 1 recording of complex features with multiple attributes, use the 'site' designation.
+
+		    Note: Values and info are adapted from: California Office of Historic Preservation (1995) Instructions for recording historic resources. Department of the Interior, Sacramento, CA. (Accessed 5 April 2019 at http://scic.org/docs/OHP/manual95.pdf)
+		    </description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -2823,7 +2790,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Historical Feature External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -3099,13 +3066,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -3366,7 +3329,7 @@
       </lookup>
     </property>
     <property name="Age range--specific" type="measure">
-      <description>Note both minimum and maximum ages, where known. Use</description>
+      <description>Note both minimum and maximum ages, where known.</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -3489,7 +3452,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Burial External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -3765,13 +3728,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -4003,7 +3962,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Other Point of Interest External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -4152,23 +4111,6 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Tree Boundary criterion" type="vocab">
-      <description>Select criterion used in recording boundary coordinates</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-      <lookup>
-        <term>{Geomorphic_feature_extent}
-<description>Cultural deposits are exposed only across a specific geomorphic feature, with artefact density dropping significantly beyond the geomorphic feature boundary</description></term>
-        <term>{Mound_margins}
-<description>Mound margins, demarcated by a visible increase in mound height in relation to adjacent substrate</description></term>
-        <term>{Reduction_in_artefact_density}
-<description>Exposure of cultural materials is not constrained by the extent of a geomorphic feature, and thus the feature boundary reflects the real distribution of artefacts observed. Site boundary represents a significant decline in artefact numbers.</description></term>
-        <term>{Extent_of_built_feature}
-<description>Recorded boundary reflects the extent of a built feature (e.g. fenced area, structural foundations)</description></term>
-        <term>{Not_recorded}
-<description>No boundary recording was conducted due to the feature having a constrained extent (e.g. isolated artefact)</description></term>
-      </lookup>
-    </property>
     <property name="Tree Device photos" type="file" file="true" thumbnail="true">
       <description>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
@@ -4279,13 +4221,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -4458,26 +4396,6 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Tree Morphology type" type="vocab">
-      <description>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-      <lookup>
-        <term>{Lag_deposit}
-<description>Mostly deflated deposit of cultural material, usually found on scalds or hard-pan surfaces</description></term>
-        <term>{Eroding_surface__bank_or_cut}
-<description>Sloped surface with cultural material eroding at any rate </description></term>
-        <term>{Aggrading_surface}
-<description>Level or near-level surface with ongoing deposition</description></term>
-        <term>{Modified_land}
-<description>Feature associated with a modified land surface including ditches, depressions, mounds and embankments</description></term>
-      </lookup>
-    </property>
-    <property name="Tree Morphology notes" type="measure">
-      <description>Record any additional notes about site morphology not captured elsewhere</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-    </property>
     <property name="Tree type" type="vocab">
       <description>Select the most appropriate tree type</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
@@ -4583,8 +4501,13 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Paper notes and sketches" type="file" file="true" thumbnail="true">
+      <description>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
     <property name="Tree External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -4644,12 +4567,12 @@
       <formatString>-SC$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Scar timestamp" type="measure">
+    <property name="Scar author" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Scar author" type="measure">
+    <property name="Scar timestamp" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -4782,23 +4705,6 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Flaked Stone Artefact Boundary criterion" type="vocab">
-      <description>Select criterion used in recording boundary coordinates</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-      <lookup>
-        <term>{Geomorphic_feature_extent}
-<description>Cultural deposits are exposed only across a specific geomorphic feature, with artefact density dropping significantly beyond the geomorphic feature boundary</description></term>
-        <term>{Mound_margins}
-<description>Mound margins, demarcated by a visible increase in mound height in relation to adjacent substrate</description></term>
-        <term>{Reduction_in_artefact_density}
-<description>Exposure of cultural materials is not constrained by the extent of a geomorphic feature, and thus the feature boundary reflects the real distribution of artefacts observed. Site boundary represents a significant decline in artefact numbers.</description></term>
-        <term>{Extent_of_built_feature}
-<description>Recorded boundary reflects the extent of a built feature (e.g. fenced area, structural foundations)</description></term>
-        <term>{Not_recorded}
-<description>No boundary recording was conducted due to the feature having a constrained extent (e.g. isolated artefact)</description></term>
-      </lookup>
-    </property>
     <property name="Flaked Stone Artefact Device photos" type="file" file="true" thumbnail="true">
       <description>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
@@ -4832,13 +4738,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -5158,7 +5060,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Flaked Stone Artefact External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -5281,13 +5183,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -5612,7 +5510,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Other Stone Artefact External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -5735,13 +5633,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -6190,7 +6084,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Glass Artefact External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -6307,13 +6201,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -6769,7 +6659,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Ceramic Artefact External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -6886,13 +6776,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -7031,7 +6917,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Misc Artefact External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -7148,13 +7034,9 @@
 <description>Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity.</description></term></term>
         <term>{Coastal_and_estuarine_elements}
 <description> </description><term>{Beach}
-<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term></term>
-        <term>{coastal_and_estuarine_elements}
-<description> </description><term>{Beach_ridge}
+<description>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</description></term><term>{Beach_ridge}
 <description>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</description></term><term>{Berm}
-<description>(ii) flat built up by waves above a beach.</description></term></term>
-        <term>{Coastal_and_estuarine_elements}
-<description> </description><term>{Estuary}
+<description>(ii) flat built up by waves above a beach.</description></term><term>{Estuary}
 <description>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</description></term><term>{Reef_flat}
 <description>Flat built up to sea level by marine organisms.</description></term></term>
         <term>{Dune_and_swale_elements}
@@ -7320,7 +7202,7 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Discrete Hearth Artefact External camera ID" type="vocab">
-      <description>Select </description>
+      <description>Select other cameras used for photography (if applicable)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>

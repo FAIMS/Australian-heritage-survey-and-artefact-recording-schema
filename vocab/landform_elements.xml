@@ -58,16 +58,12 @@
         <opt>Beach
             <desc>Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea</desc>
         </opt>
-    </opt>
-    <opt>coastal and estuarine elements
         <opt>Beach ridge
             <desc>Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach</desc>
         </opt>
         <opt>Berm
             <desc>(ii) flat built up by waves above a beach.</desc>
         </opt>
-    </opt>
-    <opt>Coastal and estuarine elements
         <opt>Estuary
             <desc>Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream</desc>
         </opt>

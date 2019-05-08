@@ -28,7 +28,7 @@
  			<markdown># Objects</markdown>
  		</Objects>
 		<New_Tree t="button" l="Tree"/>
-		<New_Flake t="button" l="Flaked_Stone_Artefact"/>
+		<New_Flaked_Stone_Artefact t="button" l="Flaked_Stone_Artefact"/>
 		<New_Other_Stone_Artefact t="button" l="Other_Stone_Artefact"/>
 		<New_Glass_Artefact t="button" l="Glass_Artefact"/>
 		<New_Ceramic_Artefact t="button" l="Ceramic_Artefact"/>
@@ -68,10 +68,10 @@
 <Surface_Exposure>
 	<fmt>SE{{Surface_Exposure_ID}}</fmt>
 	<General>
-		<Surface_Exposure_ID f="id autonum"/> 					
+		<Surface_Exposure_ID f="id autonum nocertainty"/> 					
 		
-		<author f="nocertainty"/>								
-		<timestamp f=" nocertainty"/> 
+		<author f="nocertainty noannotation"/>								
+		<timestamp f="nocertainty noannotation"/> 
 
 		<Level_of_recording f="nocertainty"> 
 			<desc>Detail the recording approach used
@@ -213,7 +213,7 @@
 			<!--@SOURCE: vocab/camera_ids.xml-->
 	
 		</External_camera_ID>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
@@ -241,10 +241,10 @@
 	<fmt>SE{{Surface_Exposure_ID}}-BP{{Surface_Exposure_Boundary_Point_ID}}</fmt>
 	<Surface_Exposure_Boundary_point>
 
-		<Surface_Exposure_ID f="id nocertainty" i="Surface_Exposure/General/Surface_Exposure_ID">
-		</Surface_Exposure_ID>
 		<Surface_Exposure_Boundary_Point_ID f="id autonum nocertainty">
 		</Surface_Exposure_Boundary_Point_ID>
+		<Surface_Exposure_ID f="id nocertainty" i="Surface_Exposure/General/Surface_Exposure_ID">
+		</Surface_Exposure_ID>
 		<timestamp f="nocertainty noannotation"/>
 		<gps f="notnull">
 			<desc>Record boundary coordinates at 3-5 m intervals</desc>
@@ -271,8 +271,8 @@
 	<fmt>MD{{Mound_ID}}</fmt>
 	<General>
 		<Mound_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty"/>
+		<timestamp f="nocertainty noannotation"/>
 		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
@@ -383,11 +383,11 @@
 		<Paper_notes_and_sketches t="camera" f="nocertainty">
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
-		<External_camera_ID>
-		    <desc>Select </desc>
+		<External_camera_ID f="nocertainty">
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
@@ -434,8 +434,8 @@
 	<fmt>RS{{Rock_Shelter_ID}}</fmt>
 	<General>
 		<Rock_Shelter_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty"/>
+		<timestamp f="nocertainty noannotation"/>
 		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
@@ -488,7 +488,7 @@
 		
 	</Landscape_context>
 	<Feature_details>
-		<Shelter_type>
+		<Shelter_type f="nocertainty">
 		    <desc>Select the most appropriate shelter type</desc>
 		    <!--@SOURCE: vocab/shelter_types.xml-->
 		</Shelter_type>
@@ -508,18 +508,17 @@
 		    <desc>Choose the main floor deposit type</desc>
 		    <!--@SOURCE: vocab/shelter_floor.xml-->
 		</Floor_component_1_type>
-		<Floor_component_1_percent f="nocertainty">
+		<Floor_component_1_percent b="decimal" f="nocertainty">
 		    <desc>Estimate the percentage of the whole floor surface area for the main floor type</desc>
-		    <!--@SOURCE: vocab/percentages.xml-->
+
 		</Floor_component_1_percent>
 		<Floor_component_2_type f="nocertainty">
 		    <desc>Describe the secondary floor deposit type</desc>
    		    <!--@SOURCE: vocab/shelter_floor.xml-->
 
 		</Floor_component_2_type>
-		<Floor_component_2_percent f="nocertainty">
+		<Floor_component_2_percent b="decimal" f="nocertainty">
 		    <desc>Estimate the percentage of the whole floor surface area for the secondary floor type</desc>
-		    <!--@SOURCE: vocab/percentages.xml-->
 		</Floor_component_2_percent>
 		<Stone_artefact_count b="integer">
 		    <desc>Record a tally of stone artefacts observed on the mound surface. Use the certainty slider for estimates on large assemblages</desc>
@@ -574,10 +573,10 @@
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
@@ -625,8 +624,8 @@
 	<fmt>HF{{Historical_Feature_ID}}</fmt>
 	<General>
 		<Historical_Feature_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty"/>
+		<timestamp f="nocertainty noannotation"/>
 		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
@@ -664,9 +663,6 @@
 		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
 		    <!--@SOURCE: vocab/veg_struct_cov.xml-->
 		</Dominant_vegetation_cover>
-		<Additional_environmental_notes f="nocertainty noannotation">
-		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
-		</Additional_environmental_notes>
 		<Morphology_type > 
 			<desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
 			</desc>
@@ -676,6 +672,9 @@
 			<desc>Record any additional notes about site morphology not captured elsewhere
 			</desc>
 		</Morphology_notes>
+		<Additional_environmental_notes f="nocertainty noannotation">
+		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
+		</Additional_environmental_notes>
 		
 	</Landscape_context>
 	<Feature_details>
@@ -692,7 +691,10 @@
 		    <desc>If applicable, record the maximum height of this feature. Leave blank if not applicable</desc>
 		</Height_m>
 		<General_type>
-		    <desc>Select the general feature type. For phase 1 recording of complex features with multiple attributes, use the 'site' designation</desc>
+		    <desc>Select the general feature type. For phase 1 recording of complex features with multiple attributes, use the 'site' designation.
+
+		    Note: Values and info are adapted from: California Office of Historic Preservation (1995) Instructions for recording historic resources. Department of the Interior, Sacramento, CA. (Accessed 5 April 2019 at http://scic.org/docs/OHP/manual95.pdf)
+		    </desc>
 		    <!--@SOURCE: vocab/hist_gentype.xml-->
 		</General_type>
 		<Historical_activities t="checkbox">
@@ -725,21 +727,21 @@
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
 			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
 		</External_camera_image_attachment>
-		<Survey_instrument_name f="nocertainty">
+		<Survey_instrument_name>
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
 		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty">
+		<Survey_instrument_data>
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
 		</Survey_instrument_data>
 	</Supplementary>
@@ -777,7 +779,7 @@
 	<General>
 		<Burial_ID f="id autonum nocertainty"/>
 		<author/>
-		<timestamp f="noannotation"/>
+		<timestamp f="nocertainty noannotation"/>
 		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
@@ -841,7 +843,7 @@
 		    <!--@SOURCE: vocab/burial_chron.xml-->
 		</Minimum_age>
 		<Age_range--specific>
-		    <desc>Note both minimum and maximum ages, where known. Use</desc>
+		    <desc>Note both minimum and maximum ages, where known.</desc>
 		</Age_range--specific>
 		<Burial_form>
 		    <desc>What is the form of the burial?</desc>
@@ -879,21 +881,21 @@
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
 			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
 		</External_camera_image_attachment>
-		<Survey_instrument_name f="nocertainty">
+		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
 		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty">
+		<Survey_instrument_data>
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
 		</Survey_instrument_data>
 	</Supplementary>
@@ -929,8 +931,8 @@
 	<fmt>POI{{Other_Point_of_Interest_ID}}</fmt>
 	<General>
 		<Other_Point_of_Interest_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty"/>
+		<timestamp f="nocertainty noannotation"/>
 		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
@@ -1002,21 +1004,21 @@
 		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
 			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
 		</External_camera_image_attachment>
-		<Survey_instrument_name f="nocertainty">
+		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
 		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty">
+		<Survey_instrument_data >
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
 		</Survey_instrument_data>
 	</Supplementary>
@@ -1052,8 +1054,8 @@
 	<fmt>TR{{Tree_ID}}</fmt>
 	<General>
 		<Tree_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty noannotation"/>
+		<timestamp f="nocertainty noannotation"/>
 		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>
 		    <!--@SOURCE: vocab/phase.xml-->
@@ -1062,11 +1064,7 @@
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
 	    </Find_This_in_The_Map>  
-		<Boundary_criterion f="nocertainty">
-		    <desc>Select criterion used in recording boundary coordinates</desc>
-		    <!--@SOURCE: vocab/boundary_types.xml-->
-		</Boundary_criterion>
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 	</General>
@@ -1091,13 +1089,7 @@
 		<Additional_environmental_notes f="nocertainty noannotation">
 		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
 		</Additional_environmental_notes>
-		<Morphology_type>
-		    <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</desc>
-		    <!--@SOURCE: vocab/feat_morphology.xml-->
-		</Morphology_type>
-		<Morphology_notes f="nocertainty noannotation">
-		    <desc>Record any additional notes about site morphology not captured elsewhere</desc>
-		</Morphology_notes>
+		
 		
 	</Landscape_context>
 	<Feature_details>
@@ -1109,22 +1101,22 @@
 		    <desc>Select the species, if known</desc>
 		    <!--@SOURCE: vocab/tree_species.xml-->
 		</Species>
-		<Girth_mm b="decimal">
+		<Girth_mm b="decimal" f="noannotation">
 		    <desc>Girth should be measured at 'chest height' i.e. 1.3 m above ground, in milimeters.</desc>
 
 		</Girth_mm>
-		<Tree_Height>
+		<Tree_Height f="nocertainty">
 		    <desc>Choose the most appropriate size range for this tree. Select 'indeterminate' for all felled trees or those that have lost upper limbs</desc>
 		    <!--@SOURCE: vocab/tree_height.xml-->
 		</Tree_Height>
-		<Condition>
+		<Condition f="nocertainty noannotation">
 		    <desc>Assess the condition of the tree. For living trees, consider issues such as the number of dead or missing limbs, and areas of damage</desc>
 		    <!--@SOURCE: vocab/tree_condition.xml-->
 		</Condition>
-		<Number_of_scars b="integer">
+		<Number_of_scars b="integer" f="nocertainty noannotation">
 		    <desc>List the total number of scars recorded for this tree</desc>
 		</Number_of_scars>
-		<Stump_height_mm b="decimal">
+		<Stump_height_mm b="decimal" f="nocertainty noannotation">
 		    <desc>Measure the height, in millimetres, of any stumps associated with this tree</desc>
 		</Stump_height_mm>
 		<Additional_notes f="nocertainty noannotation"> 
@@ -1137,13 +1129,15 @@
 		<List_of_Related_Scars t="list" ec="Scar"/>
 	</Scar_control>
 	<Supplementary>
-		
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+			<desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
 		
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
@@ -1162,26 +1156,26 @@
 <Scar>
 	<fmt>TR{{Tree_ID}}-SC{{Scar_ID}}</fmt>
 	<Scar>
-		<Tree_ID f="id" i="Tree/General/Tree_ID"/>
-		<Scar_ID f="id autonum"/>
-		<timestamp/>
+		<Tree_ID f="id nocertainty" i="Tree/General/Tree_ID" />
+		<Scar_ID f="id autonum nocertainty"/>
 		<author/>
+		<timestamp/>
 		<Scar_type>
 			<!--@SOURCE: vocab/scar_types.xml-->	
 		</Scar_type>
-		<Scar_Height_Above_Ground_mm>
+		<Scar_Height_Above_Ground_mm b="decimal">
 		    <desc>Measure from the ground surface to the bottom of the scar, if applicable. Please note that the scar base is the lowermost area of axe damage, rather than the scar dry face</desc>
 		</Scar_Height_Above_Ground_mm>
-		<Scar_length_mm>
+		<Scar_length_mm b="decimal">
 		    <desc>Measure the maximum length of scar, i.e., between the upper- and lower-most cut marks observed</desc>
 		</Scar_length_mm>
-		<Scar_width_mm>
+		<Scar_width_mm b="decimal">
 		    <desc>Measure the maximum width of scar, i.e., between the widest lateral cut marks observed</desc>
 		</Scar_width_mm>
-		<Aperture_length_mm>
+		<Aperture_length_mm b="decimal">
 		    <desc>Only applicable on scars featuring an aperture into the tree hollow, for example, sugarbag scars. Measure the maximum length of the actual aperture.</desc>
 		</Aperture_length_mm>
-		<Aperture_width_mm>
+		<Aperture_width_mm b="decimal">
 		    <desc>Only applicable on scars featuring an aperture into the tree hollow, for example, sugarbag scars. Measure the maximum width of the actual aperture.</desc>
 		</Aperture_width_mm>
 		<Device_photos_of_scar t="camera">
@@ -1191,11 +1185,12 @@
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
 			</desc>
 		</Additional_notes>
-		<External_camera_ID_scars>
+		<External_camera_ID_scars f="nocertainty">
+			External camera ID (scars)
 		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID_scars>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
@@ -1221,16 +1216,12 @@
 	<fmt>FSA{{Flaked_Stone_Artefact_ID}}</fmt>
 	<General>
 		<Flaked_Stone_Artefact_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>		
+		<author f="nocertainty"/>
+		<timestamp f="nocertainty noannotation"/>		
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
 	    </Find_This_in_The_Map>    
-		<Boundary_criterion f="nocertainty">
-		    <desc>Select criterion used in recording boundary coordinates</desc>
-		    <!--@SOURCE: vocab/boundary_types.xml-->
-		</Boundary_criterion>
 		<Device_photos t="camera">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
@@ -1249,6 +1240,7 @@
 		    <desc>Provide a classification of the primary colour and secondary colour (e.g. Reddish-brown), or if available, provide the Munsell rock colour designation</desc>
 		</Raw_material_colour>
 		<Weight_g b="decimal" f="nocertainty">
+			Weight (g)
 		    <desc>If available, record artefact weight (e.g. for lab-based analysis)</desc>
 		</Weight_g>
 		<Flake_completeness>
@@ -1301,7 +1293,7 @@
 		    <desc>Record the initiation quadrant for dorsal scars. For example, a flake with dorsal scars initatied in Q1 and Q2 only would be recorded as 1,2</desc>
 		    <!--@SOURCE: vocab/dorsal_scar_direction.xml-->
 		</Dorsal_scar_direction>
-		<Dorsal_flake_scar_maximum_length>
+		<Dorsal_flake_scar_maximum_length b="decimal">
 		    <desc>Maximum length of the longest flake scar preserved on the dorsal surface</desc>
 		</Dorsal_flake_scar_maximum_length>
 		<Retouched_quadrants t="checkbox">
@@ -1324,21 +1316,21 @@
 	<Supplementary>
 		
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
 			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
 		</External_camera_image_attachment>
-		<Survey_instrument_name f="nocertainty">
+		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
 		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty">
+		<Survey_instrument_data >
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
 		</Survey_instrument_data>
 	</Supplementary>
@@ -1460,10 +1452,10 @@
 	
 	<Supplementary>		
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_file_names_and_attachment>
+		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
 		<External_camera_image_attachment t="file" f="nocertainty"> 
@@ -1609,7 +1601,7 @@
 	<Supplementary>
 		
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_filenames t="file" f="nocertainty">
@@ -1727,7 +1719,7 @@
 	<Supplementary>
 		
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_filenames t="file" f="nocertainty">
@@ -1802,7 +1794,7 @@
 	<Supplementary>
 		
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_filenames t="file" f="nocertainty">
@@ -1876,7 +1868,7 @@
 	<Supplementary>
 		
 		<External_camera_ID f="nocertainty">
-		    <desc>Select </desc>
+		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_filenames t="file" f="nocertainty">

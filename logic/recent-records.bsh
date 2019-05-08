@@ -17,33 +17,34 @@ void setupRecentList(){
 						"  identifier text NOT NULL "+
 				 	 	");";
 	fetchOne(recentListQuery);				 	 	
-	for ( tabgroup : TAB_GROUPS_AS_LIST ){
-		if (! isNull(tabgroup)){
-			Log.i("addToRecent", tabgroup);
-			if (! NODATA_TAB_GROUPS.contains(tabgroup)){
-				Log.i("addToRecent", "added "+tabgroup);
-				//If the tabgroup is a saving tabgroup
-				addOnEvent(tabgroup, "save", "addToRecent()");
-			}
-		}
-	}
+	// for ( tabgroup : TAB_GROUPS_AS_LIST ){
+	// 	if (! isNull(tabgroup)){
+	// 		Log.i("addToRecent", tabgroup);
+	// 		if (! NODATA_TAB_GROUPS.contains(tabgroup)){
+	// 			Log.i("addToRecent", "added "+tabgroup);
+	// 			//If the tabgroup is a saving tabgroup
+	// 			addOnEvent(tabgroup, "save", "addToRecent()");
+	// 		}
+	// 	}
+	// }
 }
 setupRecentList();
 
-void addToRecent(){
-	currentUUID = getUuid();
-	if (! isNull(currentUUID)){
-		String recentQuery 	= "REPLACE INTO recent(uuid, identifier) SELECT uuid, response " +
-		                     "  FROM latestNonDeletedArchEntFormattedIdentifiers  " +
-		                     " WHERE uuid = {uuid} ";
-		recentQuery 		= dbReplaceFirst(recentQuery, "{uuid}", currentUUID);
-		fetchOne(recentQuery);
-	}
-	//insertIntoLocalSettings	                     
-}
+// void addToRecent(){
+// 	currentUUID = getUuid();
+// 	if (! isNull(currentUUID)){
+// 		String recentQuery 	= "REPLACE INTO recent(uuid, identifier) SELECT uuid, response " +
+// 		                     "  FROM latestNonDeletedArchEntFormattedIdentifiers  " +
+// 		                     " WHERE uuid = {uuid} ";
+// 		recentQuery 		= dbReplaceFirst(recentQuery, "{uuid}", currentUUID);
+// 		fetchOne(recentQuery);
+// 	}
+// 	//insertIntoLocalSettings	                     
+// }
 
 
-addOnEvent(RECENT_TABGROUP+"/"+RECENT_TAB, "show", "populateRecent()");
+addOnEvent(RECENT_TABGROUP+"/"+RECENT_TAB, "show", "regenerateRecent()");
+
 addOnEvent(RECENT_LIST, "click", "loadEntity()");
 
 
@@ -62,10 +63,14 @@ void populateRecent(){
 
 }
                      
-addOnEvent(RECENT_TABGROUP+"/"+RECENT_TAB, "show", "regenerateRecent()");
 void regenerateRecent(){
 	String recentRegenQuery = "REPLACE INTO recent(uuid, timestamp, identifier) SELECT uuid, modifiedat, response " +
 		                      "  FROM latestNonDeletedArchEntFormattedIdentifiers JOIN createdmodifiedatby using (uuid) ";
 		                     	
-	fetchOne(recentRegenQuery);
+	fetchOne(recentRegenQuery, new FetchCallback() {
+    	onFetch(result) {
+    		populateRecent();
+      	}
+  });
 }
+
