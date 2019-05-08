@@ -1104,7 +1104,7 @@
 			</desc>
 		</Additional_notes>
 	</Feature_details>
-	<Scar_control>
+	<Scar_control f="noscroll">
 		<New_Scar t="button" lc="Scar"/>
 		<List_of_Related_Scars t="list" ec="Scar"/>
 	</Scar_control>

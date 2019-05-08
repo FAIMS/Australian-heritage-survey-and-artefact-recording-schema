@@ -3441,7 +3441,7 @@
           <label>{Additional_notes}</label>
         </input>
       </group>
-      <group ref="Scar_control">
+      <group ref="Scar_control" faims_scrollable="false">
         <label>{Scar_control}</label>
         <trigger ref="New_Scar">
           <label>{New_Scar}</label>
