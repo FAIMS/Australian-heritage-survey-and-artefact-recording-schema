@@ -1,23 +1,23 @@
 <opts>
-    <opt>WHITE
+    <opt>White
         <desc>White</desc>
     </opt>
-    <opt>BUFF
+    <opt>Buff
         <desc>Buff</desc>
     </opt>
-    <opt>BROWN
+    <opt>Brown
         <desc>Brown</desc>
     </opt>
-    <opt>GRAY
+    <opt>Gray
         <desc>Gray</desc>
     </opt>
-    <opt>RED
+    <opt>Red
         <desc>Red</desc>
     </opt>
-    <opt>BLUE
+    <opt>Blue
         <desc>Blue</desc>
     </opt>
-    <opt>BLACK
+    <opt>Black
         <desc>Black</desc>
     </opt>
 </opts>

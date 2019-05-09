@@ -307,71 +307,49 @@
 <description> </description><term>{Algae__fresh_or_brackish}
 <description>A member of the Chlorophyta, Cyanophyta Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments.</description></term><term>{Algae__marine}
 <description>A member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface- hugging layers to tall algal forests.</description></term><term>{Aquatic_higher_plants}
-<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Bare_surface}
-<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Bryophyte}
-<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term></term>
-        <term>
+<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term><term>{Seagrass__marine}
+<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
+        <term>{Chenopod_Shrub}
 <description> </description><term>{Chenopod_Shrub}
 <description>Single-stemmed or multi-stemmed, semi- succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance (e.g. Old Man Saltbush)</description></term></term>
         <term>{Ferns}
 <description> </description><term>{Ferns}
 <description>A member of the Division Pterophyta (i.e.ferns and fern allies). Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Forb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term></term>
         <term>{Grasses}
 <description> </description><term>{Grass}
 <description>Member of the family Poacea (hollow stemmed or graminoid grasses)</description></term><term>{Grass__planted_cultivated}
-<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Heath}
-<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Herb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Hummock_grass}
-<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Lichen}
-<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Mallee}
-<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Rush}
-<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term></term>
-        <term>{Acquatic__coastal_and_lacustrine}
-<description> </description><term>{Seagrass__marine}
-<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Sedge}
-<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Shrub}
-<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
-<description>Shrubs planted in rows for the production of food crops.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Surface_crusts}
-<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Tree}
-<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
-<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
-<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Tussock_grass}
+<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term><term>{Hummock_grass}
+<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term><term>{Tussock_grass}
 <description>Grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses.</description></term></term>
         <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Vine}
+<description> </description><term>{Heath}
+<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term><term>{Shrub}
+<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
+<description>Shrubs planted in rows for the production of food crops.</description></term><term>{Vine}
 <description>Climbing, twining, winding or sprawling plants usually with a woody stem</description></term></term>
+        <term>{Herbs_and_forbs}
+<description> </description><term>{Forb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term><term>{Herb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
+        <term>{Minimal_vegetation_on_exposed_substrates}
+<description> </description><term>{Bare_surface}
+<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term><term>{Surface_crusts}
+<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
+        <term>{Moss_and_lichens}
+<description> </description><term>{Bryophyte}
+<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term><term>{Lichen}
+<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
+        <term>{Rushes_and_sedges}
+<description> </description><term>{Rush}
+<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term><term>{Sedge}
+<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
         <term>{Woody_plants_and_trees}
-<description> </description><term>{Woody_plant}
+<description> </description><term>{Mallee}
+<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term><term>{Tree}
+<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
+<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
+<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term><term>{Woody_plant}
 <description>Plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs.</description></term></term>
       </lookup>
     </property>
@@ -1019,71 +997,49 @@
 <description> </description><term>{Algae__fresh_or_brackish}
 <description>A member of the Chlorophyta, Cyanophyta Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments.</description></term><term>{Algae__marine}
 <description>A member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface- hugging layers to tall algal forests.</description></term><term>{Aquatic_higher_plants}
-<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Bare_surface}
-<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Bryophyte}
-<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term></term>
-        <term>
+<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term><term>{Seagrass__marine}
+<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
+        <term>{Chenopod_Shrub}
 <description> </description><term>{Chenopod_Shrub}
 <description>Single-stemmed or multi-stemmed, semi- succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance (e.g. Old Man Saltbush)</description></term></term>
         <term>{Ferns}
 <description> </description><term>{Ferns}
 <description>A member of the Division Pterophyta (i.e.ferns and fern allies). Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Forb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term></term>
         <term>{Grasses}
 <description> </description><term>{Grass}
 <description>Member of the family Poacea (hollow stemmed or graminoid grasses)</description></term><term>{Grass__planted_cultivated}
-<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Heath}
-<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Herb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Hummock_grass}
-<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Lichen}
-<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Mallee}
-<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Rush}
-<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term></term>
-        <term>{Acquatic__coastal_and_lacustrine}
-<description> </description><term>{Seagrass__marine}
-<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Sedge}
-<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Shrub}
-<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
-<description>Shrubs planted in rows for the production of food crops.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Surface_crusts}
-<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Tree}
-<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
-<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
-<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Tussock_grass}
+<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term><term>{Hummock_grass}
+<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term><term>{Tussock_grass}
 <description>Grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses.</description></term></term>
         <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Vine}
+<description> </description><term>{Heath}
+<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term><term>{Shrub}
+<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
+<description>Shrubs planted in rows for the production of food crops.</description></term><term>{Vine}
 <description>Climbing, twining, winding or sprawling plants usually with a woody stem</description></term></term>
+        <term>{Herbs_and_forbs}
+<description> </description><term>{Forb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term><term>{Herb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
+        <term>{Minimal_vegetation_on_exposed_substrates}
+<description> </description><term>{Bare_surface}
+<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term><term>{Surface_crusts}
+<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
+        <term>{Moss_and_lichens}
+<description> </description><term>{Bryophyte}
+<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term><term>{Lichen}
+<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
+        <term>{Rushes_and_sedges}
+<description> </description><term>{Rush}
+<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term><term>{Sedge}
+<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
         <term>{Woody_plants_and_trees}
-<description> </description><term>{Woody_plant}
+<description> </description><term>{Mallee}
+<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term><term>{Tree}
+<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
+<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
+<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term><term>{Woody_plant}
 <description>Plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs.</description></term></term>
       </lookup>
     </property>
@@ -1734,71 +1690,49 @@
 <description> </description><term>{Algae__fresh_or_brackish}
 <description>A member of the Chlorophyta, Cyanophyta Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments.</description></term><term>{Algae__marine}
 <description>A member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface- hugging layers to tall algal forests.</description></term><term>{Aquatic_higher_plants}
-<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Bare_surface}
-<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Bryophyte}
-<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term></term>
-        <term>
+<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term><term>{Seagrass__marine}
+<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
+        <term>{Chenopod_Shrub}
 <description> </description><term>{Chenopod_Shrub}
 <description>Single-stemmed or multi-stemmed, semi- succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance (e.g. Old Man Saltbush)</description></term></term>
         <term>{Ferns}
 <description> </description><term>{Ferns}
 <description>A member of the Division Pterophyta (i.e.ferns and fern allies). Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Forb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term></term>
         <term>{Grasses}
 <description> </description><term>{Grass}
 <description>Member of the family Poacea (hollow stemmed or graminoid grasses)</description></term><term>{Grass__planted_cultivated}
-<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Heath}
-<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Herb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Hummock_grass}
-<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Lichen}
-<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Mallee}
-<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Rush}
-<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term></term>
-        <term>{Acquatic__coastal_and_lacustrine}
-<description> </description><term>{Seagrass__marine}
-<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Sedge}
-<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Shrub}
-<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
-<description>Shrubs planted in rows for the production of food crops.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Surface_crusts}
-<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Tree}
-<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
-<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
-<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Tussock_grass}
+<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term><term>{Hummock_grass}
+<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term><term>{Tussock_grass}
 <description>Grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses.</description></term></term>
         <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Vine}
+<description> </description><term>{Heath}
+<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term><term>{Shrub}
+<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
+<description>Shrubs planted in rows for the production of food crops.</description></term><term>{Vine}
 <description>Climbing, twining, winding or sprawling plants usually with a woody stem</description></term></term>
+        <term>{Herbs_and_forbs}
+<description> </description><term>{Forb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term><term>{Herb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
+        <term>{Minimal_vegetation_on_exposed_substrates}
+<description> </description><term>{Bare_surface}
+<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term><term>{Surface_crusts}
+<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
+        <term>{Moss_and_lichens}
+<description> </description><term>{Bryophyte}
+<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term><term>{Lichen}
+<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
+        <term>{Rushes_and_sedges}
+<description> </description><term>{Rush}
+<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term><term>{Sedge}
+<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
         <term>{Woody_plants_and_trees}
-<description> </description><term>{Woody_plant}
+<description> </description><term>{Mallee}
+<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term><term>{Tree}
+<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
+<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
+<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term><term>{Woody_plant}
 <description>Plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs.</description></term></term>
       </lookup>
     </property>
@@ -2523,71 +2457,49 @@
 <description> </description><term>{Algae__fresh_or_brackish}
 <description>A member of the Chlorophyta, Cyanophyta Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments.</description></term><term>{Algae__marine}
 <description>A member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface- hugging layers to tall algal forests.</description></term><term>{Aquatic_higher_plants}
-<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Bare_surface}
-<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Bryophyte}
-<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term></term>
-        <term>
+<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term><term>{Seagrass__marine}
+<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
+        <term>{Chenopod_Shrub}
 <description> </description><term>{Chenopod_Shrub}
 <description>Single-stemmed or multi-stemmed, semi- succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance (e.g. Old Man Saltbush)</description></term></term>
         <term>{Ferns}
 <description> </description><term>{Ferns}
 <description>A member of the Division Pterophyta (i.e.ferns and fern allies). Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Forb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term></term>
         <term>{Grasses}
 <description> </description><term>{Grass}
 <description>Member of the family Poacea (hollow stemmed or graminoid grasses)</description></term><term>{Grass__planted_cultivated}
-<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Heath}
-<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Herb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Hummock_grass}
-<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Lichen}
-<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Mallee}
-<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Rush}
-<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term></term>
-        <term>{Acquatic__coastal_and_lacustrine}
-<description> </description><term>{Seagrass__marine}
-<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Sedge}
-<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Shrub}
-<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
-<description>Shrubs planted in rows for the production of food crops.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Surface_crusts}
-<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Tree}
-<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
-<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
-<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Tussock_grass}
+<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term><term>{Hummock_grass}
+<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term><term>{Tussock_grass}
 <description>Grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses.</description></term></term>
         <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Vine}
+<description> </description><term>{Heath}
+<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term><term>{Shrub}
+<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
+<description>Shrubs planted in rows for the production of food crops.</description></term><term>{Vine}
 <description>Climbing, twining, winding or sprawling plants usually with a woody stem</description></term></term>
+        <term>{Herbs_and_forbs}
+<description> </description><term>{Forb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term><term>{Herb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
+        <term>{Minimal_vegetation_on_exposed_substrates}
+<description> </description><term>{Bare_surface}
+<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term><term>{Surface_crusts}
+<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
+        <term>{Moss_and_lichens}
+<description> </description><term>{Bryophyte}
+<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term><term>{Lichen}
+<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
+        <term>{Rushes_and_sedges}
+<description> </description><term>{Rush}
+<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term><term>{Sedge}
+<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
         <term>{Woody_plants_and_trees}
-<description> </description><term>{Woody_plant}
+<description> </description><term>{Mallee}
+<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term><term>{Tree}
+<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
+<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
+<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term><term>{Woody_plant}
 <description>Plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs.</description></term></term>
       </lookup>
     </property>
@@ -2671,8 +2583,6 @@
 <description>Evidence of modifications to the natural land surface (trenches, ditches, mounds, embankments) or natural vegetation (clearance, new plantings).</description></term>
         <term>{Site}
 <description>A focal area for historic occupation or activity, featuring a concentrated assemblage of any combination (extant or remnant) of buildings, structures, objects or landsape modification.</description></term>
-        <term>
-<description>Note: Values and info are adapted from: California Office of Historic Preservation (1995) Instructions for recording historic resources. Department of the Interior, Sacramento, CA. (Accessed 5 April 2019 at http://scic.org/docs/OHP/manual95.pdf)</description></term>
       </lookup>
     </property>
     <property name="Historical activities" type="vocab">
@@ -3153,71 +3063,49 @@
 <description> </description><term>{Algae__fresh_or_brackish}
 <description>A member of the Chlorophyta, Cyanophyta Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments.</description></term><term>{Algae__marine}
 <description>A member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface- hugging layers to tall algal forests.</description></term><term>{Aquatic_higher_plants}
-<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Bare_surface}
-<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Bryophyte}
-<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term></term>
-        <term>
+<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term><term>{Seagrass__marine}
+<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
+        <term>{Chenopod_Shrub}
 <description> </description><term>{Chenopod_Shrub}
 <description>Single-stemmed or multi-stemmed, semi- succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance (e.g. Old Man Saltbush)</description></term></term>
         <term>{Ferns}
 <description> </description><term>{Ferns}
 <description>A member of the Division Pterophyta (i.e.ferns and fern allies). Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Forb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term></term>
         <term>{Grasses}
 <description> </description><term>{Grass}
 <description>Member of the family Poacea (hollow stemmed or graminoid grasses)</description></term><term>{Grass__planted_cultivated}
-<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Heath}
-<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Herb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Hummock_grass}
-<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Lichen}
-<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Mallee}
-<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Rush}
-<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term></term>
-        <term>{Acquatic__coastal_and_lacustrine}
-<description> </description><term>{Seagrass__marine}
-<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Sedge}
-<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Shrub}
-<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
-<description>Shrubs planted in rows for the production of food crops.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Surface_crusts}
-<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Tree}
-<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
-<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
-<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Tussock_grass}
+<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term><term>{Hummock_grass}
+<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term><term>{Tussock_grass}
 <description>Grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses.</description></term></term>
         <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Vine}
+<description> </description><term>{Heath}
+<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term><term>{Shrub}
+<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
+<description>Shrubs planted in rows for the production of food crops.</description></term><term>{Vine}
 <description>Climbing, twining, winding or sprawling plants usually with a woody stem</description></term></term>
+        <term>{Herbs_and_forbs}
+<description> </description><term>{Forb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term><term>{Herb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
+        <term>{Minimal_vegetation_on_exposed_substrates}
+<description> </description><term>{Bare_surface}
+<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term><term>{Surface_crusts}
+<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
+        <term>{Moss_and_lichens}
+<description> </description><term>{Bryophyte}
+<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term><term>{Lichen}
+<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
+        <term>{Rushes_and_sedges}
+<description> </description><term>{Rush}
+<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term><term>{Sedge}
+<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
         <term>{Woody_plants_and_trees}
-<description> </description><term>{Woody_plant}
+<description> </description><term>{Mallee}
+<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term><term>{Tree}
+<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
+<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
+<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term><term>{Woody_plant}
 <description>Plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs.</description></term></term>
       </lookup>
     </property>
@@ -3270,11 +3158,11 @@
 <description> </description></term>
         <term>{Settler_colonial}
 <description> </description></term>
-        <term>{multi_cultural}
+        <term>{Multi_cultural}
 <description> </description></term>
-        <term>{unknown}
+        <term>{Unknown}
 <description> </description></term>
-        <term>{other__describe_}
+        <term>{Other__describe_}
 <description> </description></term>
       </lookup>
     </property>
@@ -3815,71 +3703,49 @@
 <description> </description><term>{Algae__fresh_or_brackish}
 <description>A member of the Chlorophyta, Cyanophyta Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments.</description></term><term>{Algae__marine}
 <description>A member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface- hugging layers to tall algal forests.</description></term><term>{Aquatic_higher_plants}
-<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Bare_surface}
-<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Bryophyte}
-<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term></term>
-        <term>
+<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term><term>{Seagrass__marine}
+<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
+        <term>{Chenopod_Shrub}
 <description> </description><term>{Chenopod_Shrub}
 <description>Single-stemmed or multi-stemmed, semi- succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance (e.g. Old Man Saltbush)</description></term></term>
         <term>{Ferns}
 <description> </description><term>{Ferns}
 <description>A member of the Division Pterophyta (i.e.ferns and fern allies). Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Forb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term></term>
         <term>{Grasses}
 <description> </description><term>{Grass}
 <description>Member of the family Poacea (hollow stemmed or graminoid grasses)</description></term><term>{Grass__planted_cultivated}
-<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Heath}
-<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Herb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Hummock_grass}
-<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Lichen}
-<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Mallee}
-<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Rush}
-<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term></term>
-        <term>{Acquatic__coastal_and_lacustrine}
-<description> </description><term>{Seagrass__marine}
-<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Sedge}
-<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Shrub}
-<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
-<description>Shrubs planted in rows for the production of food crops.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Surface_crusts}
-<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Tree}
-<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
-<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
-<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Tussock_grass}
+<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term><term>{Hummock_grass}
+<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term><term>{Tussock_grass}
 <description>Grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses.</description></term></term>
         <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Vine}
+<description> </description><term>{Heath}
+<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term><term>{Shrub}
+<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
+<description>Shrubs planted in rows for the production of food crops.</description></term><term>{Vine}
 <description>Climbing, twining, winding or sprawling plants usually with a woody stem</description></term></term>
+        <term>{Herbs_and_forbs}
+<description> </description><term>{Forb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term><term>{Herb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
+        <term>{Minimal_vegetation_on_exposed_substrates}
+<description> </description><term>{Bare_surface}
+<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term><term>{Surface_crusts}
+<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
+        <term>{Moss_and_lichens}
+<description> </description><term>{Bryophyte}
+<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term><term>{Lichen}
+<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
+        <term>{Rushes_and_sedges}
+<description> </description><term>{Rush}
+<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term><term>{Sedge}
+<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
         <term>{Woody_plants_and_trees}
-<description> </description><term>{Woody_plant}
+<description> </description><term>{Mallee}
+<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term><term>{Tree}
+<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
+<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
+<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term><term>{Woody_plant}
 <description>Plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs.</description></term></term>
       </lookup>
     </property>
@@ -4308,71 +4174,49 @@
 <description> </description><term>{Algae__fresh_or_brackish}
 <description>A member of the Chlorophyta, Cyanophyta Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments.</description></term><term>{Algae__marine}
 <description>A member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface- hugging layers to tall algal forests.</description></term><term>{Aquatic_higher_plants}
-<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Bare_surface}
-<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Bryophyte}
-<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term></term>
-        <term>
+<description>Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline.</description></term><term>{Seagrass__marine}
+<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
+        <term>{Chenopod_Shrub}
 <description> </description><term>{Chenopod_Shrub}
 <description>Single-stemmed or multi-stemmed, semi- succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance (e.g. Old Man Saltbush)</description></term></term>
         <term>{Ferns}
 <description> </description><term>{Ferns}
 <description>A member of the Division Pterophyta (i.e.ferns and fern allies). Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Forb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term></term>
         <term>{Grasses}
 <description> </description><term>{Grass}
 <description>Member of the family Poacea (hollow stemmed or graminoid grasses)</description></term><term>{Grass__planted_cultivated}
-<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Heath}
-<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term></term>
-        <term>{Herbs_and_forbs}
-<description> </description><term>{Herb}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
-<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Hummock_grass}
-<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term></term>
-        <term>{Moss_and_lichens}
-<description> </description><term>{Lichen}
-<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Mallee}
-<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Rush}
-<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term></term>
-        <term>{Acquatic__coastal_and_lacustrine}
-<description> </description><term>{Seagrass__marine}
-<description>Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides).</description></term></term>
-        <term>{Rushes_and_sedges}
-<description> </description><term>{Sedge}
-<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
-        <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Shrub}
-<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
-<description>Shrubs planted in rows for the production of food crops.</description></term></term>
-        <term>{Minimal_vegetation_on_exposed_substrates}
-<description> </description><term>{Surface_crusts}
-<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
-        <term>{Woody_plants_and_trees}
-<description> </description><term>{Tree}
-<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
-<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
-<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term></term>
-        <term>{Grasses}
-<description> </description><term>{Tussock_grass}
+<description>Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover).</description></term><term>{Hummock_grass}
+<description>Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)</description></term><term>{Tussock_grass}
 <description>Grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses.</description></term></term>
         <term>{Heath__Shrub_and_Vines}
-<description> </description><term>{Vine}
+<description> </description><term>{Heath}
+<description>Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates.</description></term><term>{Shrub}
+<description>Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub.</description></term><term>{Shrub__planted_cultivated}
+<description>Shrubs planted in rows for the production of food crops.</description></term><term>{Vine}
 <description>Climbing, twining, winding or sprawling plants usually with a woody stem</description></term></term>
+        <term>{Herbs_and_forbs}
+<description> </description><term>{Forb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'. </description></term><term>{Herb}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'. </description></term><term>{Herb__planted_cultivated}
+<description>Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes.</description></term></term>
+        <term>{Minimal_vegetation_on_exposed_substrates}
+<description> </description><term>{Bare_surface}
+<description>Soil, rock or water surfaces with less than 0.5% plant cover.</description></term><term>{Surface_crusts}
+<description>Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants.</description></term></term>
+        <term>{Moss_and_lichens}
+<description> </description><term>{Bryophyte}
+<description>A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus.</description></term><term>{Lichen}
+<description>Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves</description></term></term>
+        <term>{Rushes_and_sedges}
+<description> </description><term>{Rush}
+<description>Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera.</description></term><term>{Sedge}
+<description>Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges).</description></term></term>
         <term>{Woody_plants_and_trees}
-<description> </description><term>{Woody_plant}
+<description> </description><term>{Mallee}
+<description>Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber.</description></term><term>{Tree}
+<description>Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs.</description></term><term>{Tree__planted_cultivated}
+<description>Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry).</description></term><term>{Tree__rainforest}
+<description>No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation.</description></term><term>{Woody_plant}
 <description>Plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs.</description></term></term>
       </lookup>
     </property>
@@ -4445,7 +4289,7 @@
         <term>{Mango}
 <description>Mangifera indica</description></term>
         <term>{Other}
-<description>Please provide common, language and scientific name in annotation, where possible.</description></term>
+<description>Please provide common language and scientific name in annotation, where possible.</description></term>
       </lookup>
     </property>
     <property name="Girth mm" type="measure">
@@ -6096,8 +5940,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -6457,21 +6307,21 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{TEAWARE}
+        <term>{Teaware}
 <description>Teaware</description></term>
-        <term>{TABLEWARE}
+        <term>{Tableware}
 <description>Tableware</description></term>
-        <term>{KITCHENWARE}
+        <term>{Kitchenware}
 <description>Kitchenware</description></term>
-        <term>{FOODDRINK}
+        <term>{Fooddrink}
 <description>Food or drink storage</description></term>
-        <term>{DRINKING}
+        <term>{Drinking}
 <description>Drinking other than teaware</description></term>
-        <term>{PERSONAL}
+        <term>{Personal}
 <description>Personal or hygenic items</description></term>
-        <term>{DAIRY}
+        <term>{Dairy}
 <description>Dairy related</description></term>
-        <term>{HOUSE}
+        <term>{House}
 <description>Household general</description></term>
       </lookup>
     </property>
@@ -6505,19 +6355,19 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{WHITE}
+        <term>{White}
 <description>White</description></term>
-        <term>{BUFF}
+        <term>{Buff}
 <description>Buff</description></term>
-        <term>{BROWN}
+        <term>{Brown}
 <description>Brown</description></term>
-        <term>{GRAY}
+        <term>{Gray}
 <description>Gray</description></term>
-        <term>{RED}
+        <term>{Red}
 <description>Red</description></term>
-        <term>{BLUE}
+        <term>{Blue}
 <description>Blue</description></term>
-        <term>{BLACK}
+        <term>{Black}
 <description>Black</description></term>
       </lookup>
     </property>
@@ -6526,17 +6376,17 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{NONE}
+        <term>{None}
 <description>None unglazed</description></term>
-        <term>{SINGLE}
+        <term>{Single}
 <description>Single colour slip</description></term>
-        <term>{ROCK}
+        <term>{Rock}
 <description>Rockingham</description></term>
-        <term>{CLEAR}
+        <term>{Clear}
 <description>Clear lead or other oxide</description></term>
-        <term>{TIN}
+        <term>{Tin}
 <description>Tin</description></term>
-        <term>{SALT}
+        <term>{Salt}
 <description>Salt and single colour slip</description></term>
       </lookup>
     </property>
@@ -6671,8 +6521,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -6929,8 +6785,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -7214,8 +7076,14 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="External camera filenames" type="file" file="true" thumbnail="true">
-      <description>Provide file names and brief captions in annotations, and upload files on server</description>
+    <property name="External camera file names and attachment" type="measure">
+      <description>Provide file names and brief captions for images taken with external camera, if applicable.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="External camera image attachment" type="file" file="true" thumbnail="true">
+      <description>Upload files on server, and annotate those files with captions.
+			</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>

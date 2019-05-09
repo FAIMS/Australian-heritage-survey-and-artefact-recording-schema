@@ -21,6 +21,6 @@
         <desc>Mangifera indica</desc>
     </opt>
     <opt>Other
-        <desc>Please provide common, language and scientific name in annotation, where possible.</desc>
+        <desc>Please provide common language and scientific name in annotation, where possible.</desc>
     </opt>
 </opts>

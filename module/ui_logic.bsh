@@ -868,8 +868,9 @@ REF_TO_TYPE.put("Glass_Artefact/Feature_details/Trademark", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Marks_motifs_and_decoration", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Glass_Artefact/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Glass_Artefact/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Glass_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Glass_Artefact/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Glass_Artefact/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Glass_Artefact/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Glass_Artefact/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/General/Ceramic_Artefact_ID", "input");
@@ -904,8 +905,9 @@ REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Visible_motifs", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Decorative_pattern_name", "dropdown");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Misc_Artefact/General/Misc_Artefact_ID", "input");
@@ -929,8 +931,9 @@ REF_TO_TYPE.put("Misc_Artefact/Feature_details/Thickness_mm", "input");
 REF_TO_TYPE.put("Misc_Artefact/Feature_details/Height_mm", "input");
 REF_TO_TYPE.put("Misc_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Misc_Artefact/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Misc_Artefact/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/General/Discrete_Hearth_Artefact_ID", "input");
@@ -953,8 +956,9 @@ REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details/Materials_present", "c
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details/Diameter_mm", "input");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/External_camera_filenames", "file");
-REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/External_camera_filenames_Button_1", "button");
+REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/External_camera_image_attachment_Button_1", "button");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/Survey_instrument_data", "input");
 REF_TO_TYPE.put("User_List/User_List", "tab");
@@ -1459,7 +1463,8 @@ DATA_REFS.add("Glass_Artefact/Feature_details/Trademark");
 DATA_REFS.add("Glass_Artefact/Feature_details/Marks_motifs_and_decoration");
 DATA_REFS.add("Glass_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Glass_Artefact/Supplementary/External_camera_ID");
-DATA_REFS.add("Glass_Artefact/Supplementary/External_camera_filenames");
+DATA_REFS.add("Glass_Artefact/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Glass_Artefact/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Glass_Artefact/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Glass_Artefact/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Ceramic_Artefact/General/Ceramic_Artefact_ID");
@@ -1491,7 +1496,8 @@ DATA_REFS.add("Ceramic_Artefact/Feature_details/Visible_motifs");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Decorative_pattern_name");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/External_camera_ID");
-DATA_REFS.add("Ceramic_Artefact/Supplementary/External_camera_filenames");
+DATA_REFS.add("Ceramic_Artefact/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Ceramic_Artefact/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Misc_Artefact/General/Misc_Artefact_ID");
@@ -1512,7 +1518,8 @@ DATA_REFS.add("Misc_Artefact/Feature_details/Thickness_mm");
 DATA_REFS.add("Misc_Artefact/Feature_details/Height_mm");
 DATA_REFS.add("Misc_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Misc_Artefact/Supplementary/External_camera_ID");
-DATA_REFS.add("Misc_Artefact/Supplementary/External_camera_filenames");
+DATA_REFS.add("Misc_Artefact/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Misc_Artefact/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Misc_Artefact/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Misc_Artefact/Supplementary/Survey_instrument_data");
 DATA_REFS.add("Discrete_Hearth_Artefact/General/Discrete_Hearth_Artefact_ID");
@@ -1532,7 +1539,8 @@ DATA_REFS.add("Discrete_Hearth_Artefact/Feature_details/Materials_present");
 DATA_REFS.add("Discrete_Hearth_Artefact/Feature_details/Diameter_mm");
 DATA_REFS.add("Discrete_Hearth_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/External_camera_ID");
-DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/External_camera_filenames");
+DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/External_camera_image_attachment");
 DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/Survey_instrument_data");
 
@@ -5355,10 +5363,10 @@ addOnEvent("Tree/Supplementary/External_camera_image_attachment_Button_1", "clic
 addOnEvent("Scar/Scar/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Scar/Scar/External_camera_image_attachment\")");
 addOnEvent("Flaked_Stone_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Flaked_Stone_Artefact/Supplementary/External_camera_image_attachment\")");
 addOnEvent("Other_Stone_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Other_Stone_Artefact/Supplementary/External_camera_image_attachment\")");
-addOnEvent("Glass_Artefact/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Glass_Artefact/Supplementary/External_camera_filenames\")");
-addOnEvent("Ceramic_Artefact/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Ceramic_Artefact/Supplementary/External_camera_filenames\")");
-addOnEvent("Misc_Artefact/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Misc_Artefact/Supplementary/External_camera_filenames\")");
-addOnEvent("Discrete_Hearth_Artefact/Supplementary/External_camera_filenames_Button_1", "click", "attachFileTo(\"Discrete_Hearth_Artefact/Supplementary/External_camera_filenames\")");
+addOnEvent("Glass_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Glass_Artefact/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Ceramic_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Ceramic_Artefact/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Misc_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Misc_Artefact/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Discrete_Hearth_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Discrete_Hearth_Artefact/Supplementary/External_camera_image_attachment\")");
 
 /******************************************************************************/
 /*                 BINDINGS FOR 'VIEW ATTACHED FILES' BUTTONS                 */
@@ -6994,7 +7002,7 @@ void duplicateGlassArtefact(){
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Glass_Artefact/General/Device_photos", new ArrayList());
-  populateFileList("Glass_Artefact/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Glass_Artefact/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -7027,7 +7035,7 @@ void duplicateGlassArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Glass Artefact Device photos");
-      excludeAttributes.add("External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -7043,7 +7051,7 @@ void duplicateCeramicArtefact(){
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Ceramic_Artefact/General/Device_photos", new ArrayList());
-  populateFileList("Ceramic_Artefact/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Ceramic_Artefact/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -7076,7 +7084,7 @@ void duplicateCeramicArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Ceramic Artefact Device photos");
-      excludeAttributes.add("External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -7092,7 +7100,7 @@ void duplicateMiscArtefact(){
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Misc_Artefact/General/Device_photos", new ArrayList());
-  populateFileList("Misc_Artefact/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Misc_Artefact/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -7125,7 +7133,7 @@ void duplicateMiscArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Misc Artefact Device photos");
-      excludeAttributes.add("External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }
@@ -7141,7 +7149,7 @@ void duplicateDiscreteHearthArtefact(){
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
   populateCameraPictureGallery("Discrete_Hearth_Artefact/General/Device_photos", new ArrayList());
-  populateFileList("Discrete_Hearth_Artefact/Supplementary/External_camera_filenames", new ArrayList());
+  populateFileList("Discrete_Hearth_Artefact/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -7174,7 +7182,7 @@ void duplicateDiscreteHearthArtefact(){
       excludeAttributes = new ArrayList();
 
       excludeAttributes.add("Discrete Hearth Artefact Device photos");
-      excludeAttributes.add("External camera filenames");
+      excludeAttributes.add("External camera image attachment");
 
       duplicateTabGroup(tabgroup, null, getExtraAttributes(result), excludeAttributes, saveCallback);
     }

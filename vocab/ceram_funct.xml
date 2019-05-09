@@ -1,26 +1,26 @@
 <opts>
-    <opt>TEAWARE
+    <opt>Teaware
         <desc>Teaware</desc>
     </opt>
-    <opt>TABLEWARE
+    <opt>Tableware
         <desc>Tableware</desc>
     </opt>
-    <opt>KITCHENWARE
+    <opt>Kitchenware
         <desc>Kitchenware</desc>
     </opt>
-    <opt>FOODDRINK
+    <opt>Fooddrink
         <desc>Food or drink storage</desc>
     </opt>
-    <opt>DRINKING
+    <opt>Drinking
         <desc>Drinking other than teaware</desc>
     </opt>
-    <opt>PERSONAL
+    <opt>Personal
         <desc>Personal or hygenic items</desc>
     </opt>
-    <opt>DAIRY
+    <opt>Dairy
         <desc>Dairy related</desc>
     </opt>
-    <opt>HOUSE
+    <opt>House
         <desc>Household general</desc>
     </opt>
 </opts>

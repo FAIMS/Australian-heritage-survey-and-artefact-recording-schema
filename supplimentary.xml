@@ -1,0 +1,33 @@
+<Supplementary>
+		
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+			<desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
+		<External_camera_ID f="nocertainty"> 
+			<desc>Select other cameras used for photography (if applicable)
+			</desc>
+			<!--@SOURCE: vocab/camera_ids.xml-->
+	
+		</External_camera_ID>
+		<External_camera_file_names_and_attachment f="nocertainty">
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<external_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
+		<Survey_instrument_name f="nocertainty"> 
+			<desc>If recording coincides with instrument survey, please select appropriate instrument name.
+			</desc>
+			<!--@SOURCE: vocab/survey_instr.xml-->
+			
+		</Survey_instrument_name>
+		<Survey_instrument_data f="nocertainty"> 
+			<desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.
+			</desc>
+		</Survey_instrument_data>
+		
+
+		
+	
+	</Supplementary>

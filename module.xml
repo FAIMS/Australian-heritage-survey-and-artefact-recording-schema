@@ -285,7 +285,7 @@
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
 		</Boundary_criterion>
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 	</General>
@@ -448,7 +448,7 @@
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
 		</Boundary_criterion>
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 	</General>
@@ -638,7 +638,7 @@
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
 		</Boundary_criterion>
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 	</General>
@@ -778,7 +778,7 @@
 	<fmt>BUR{{Burial_ID}}</fmt>
 	<General>
 		<Burial_ID f="id autonum nocertainty"/>
-		<author/>
+		<author f="nocertainty"/>
 		<timestamp f="nocertainty noannotation"/>
 		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>
@@ -792,7 +792,7 @@
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
 		</Boundary_criterion>
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 	</General>
@@ -945,7 +945,7 @@
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: vocab/boundary_types.xml-->
 		</Boundary_criterion>
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 	</General>
@@ -1158,7 +1158,7 @@
 	<Scar>
 		<Tree_ID f="id nocertainty" i="Tree/General/Tree_ID" />
 		<Scar_ID f="id autonum nocertainty"/>
-		<author/>
+		<author f="nocertainty"/>
 		<timestamp/>
 		<Scar_type>
 			<!--@SOURCE: vocab/scar_types.xml-->	
@@ -1222,7 +1222,7 @@
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
 	    </Find_This_in_The_Map>    
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 		<Landform_element>
@@ -1352,14 +1352,14 @@
 	<fmt>OSA{{Other_Stone_Artefact_ID}}</fmt>
 	<General>
 		<Other_Stone_Artefact_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty"/>
+		<timestamp f="nocertainty noannotation"/>
 		
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
 	    </Find_This_in_The_Map>  	
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 		<Landform_element>
@@ -1462,11 +1462,11 @@
 			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
 		</External_camera_image_attachment>
-		<Survey_instrument_name f="nocertainty">
+		<Survey_instrument_name>
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
 		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty">
+		<Survey_instrument_data>
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
 		</Survey_instrument_data>
 	</Supplementary>
@@ -1485,14 +1485,14 @@
 	<fmt>GA{{Glass_Artefact_ID}}</fmt>
 	<General>
 		<Glass_Artefact_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty"/>
+		<timestamp f="noannotation nocertainty"/>
 		
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
 	    </Find_This_in_The_Map>  		
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 		<Landform_element>
@@ -1523,7 +1523,7 @@
 		<Group_max_fragment_length_mm b="decimal" f="nocertainty noannotation">
 		    <desc>Measure the maximum length of the largest fragment</desc>
 		</Group_max_fragment_length_mm>
-		<Group_notes>
+		<Group_notes f="nocertainty noannotation">
 		    <desc>Record any additional notes relating to the grouped fragments</desc>
 		</Group_notes>
 		<Fragment_location>
@@ -1586,10 +1586,10 @@
 		    <desc>Is finish applied</desc>
 		    <!--@SOURCE: vocab/yesno.xml-->
 		</Applied_finish>
-		<Trademark>
+		<Trademark f="nocertainty noannotation">
 		    <desc>Transcribe or photograph trademarks, noting location and details here</desc>
 		</Trademark>
-		<Marks_motifs_and_decoration>
+		<Marks_motifs_and_decoration f="nocertainty noannotation">
 		    <desc>Transcribe any text, motifs or decoration and, if possible, photograph above</desc>
 		</Marks_motifs_and_decoration>
 		<Additional_notes f="nocertainty noannotation"> 
@@ -1604,14 +1604,18 @@
 		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
-		<Survey_instrument_name f="nocertainty">
+		<External_camera_file_names_and_attachment f="nocertainty">
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
+		<Survey_instrument_name>
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
 		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty">
+		<Survey_instrument_data>
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
 		</Survey_instrument_data>
 	</Supplementary>
@@ -1631,14 +1635,14 @@
 	<fmt>CA{{Ceramic_Artefact_ID}}</fmt>
 	<General>
 		<Ceramic_Artefact_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty"/>
+		<timestamp f="noannotation nocertainty"/>
 		
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
 	    </Find_This_in_The_Map>  	
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 		<Landform_element>
@@ -1722,14 +1726,18 @@
 		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
-		<Survey_instrument_name f="nocertainty">
+		<External_camera_file_names_and_attachment f="nocertainty">
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
+		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
 		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty">
+		<Survey_instrument_data >
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
 		</Survey_instrument_data>
 	</Supplementary>
@@ -1749,14 +1757,14 @@
 	<fmt>MA{{Misc_Artefact_ID}}</fmt>
 	<General>
 		<Misc_Artefact_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty"/>
+		<timestamp f="noannotation nocertainty"/>
 		
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
 	    </Find_This_in_The_Map>  	
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 		<Landform_element>
@@ -1797,14 +1805,18 @@
 		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
-		<Survey_instrument_name f="nocertainty">
+		<External_camera_file_names_and_attachment f="nocertainty">
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
+		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
 		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty">
+		<Survey_instrument_data >
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
 		</Survey_instrument_data>
 	</Supplementary>
@@ -1823,14 +1835,14 @@
 	<fmt>DH{{Discrete_Hearth_Artefact_ID}}</fmt>
 	<General>
 		<Discrete_Hearth_Artefact_ID f="id autonum nocertainty"/>
-		<author/>
-		<timestamp f="noannotation"/>
+		<author f="nocertainty"/>
+		<timestamp f="noannotation nocertainty"/>
 		
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
 	    </Find_This_in_The_Map>  		
-		<Device_photos t="camera">
+		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 		<Landform_element>
@@ -1871,14 +1883,18 @@
 		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: vocab/camera_ids.xml-->
 		</External_camera_ID>
-		<External_camera_filenames t="file" f="nocertainty">
-		    <desc>Provide file names and brief captions in annotations, and upload files on server</desc>
-		</External_camera_filenames>
-		<Survey_instrument_name f="nocertainty">
+		<External_camera_file_names_and_attachment f="nocertainty">
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
+		<Survey_instrument_name>
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
 		    <!--@SOURCE: vocab/survey_instr.xml-->
 		</Survey_instrument_name>
-		<Survey_instrument_data f="nocertainty">
+		<Survey_instrument_data>
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
 		</Survey_instrument_data>
 	</Supplementary>

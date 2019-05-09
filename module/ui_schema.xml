@@ -969,8 +969,9 @@
             </Feature_details>
             <Supplementary>
               <External_camera_ID/>
-              <External_camera_filenames/>
-              <External_camera_filenames_Button_1/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
               <Survey_instrument_name/>
               <Survey_instrument_data/>
             </Supplementary>
@@ -1027,8 +1028,9 @@
             </Feature_details>
             <Supplementary>
               <External_camera_ID/>
-              <External_camera_filenames/>
-              <External_camera_filenames_Button_1/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
               <Survey_instrument_name/>
               <Survey_instrument_data/>
             </Supplementary>
@@ -1074,8 +1076,9 @@
             </Feature_details>
             <Supplementary>
               <External_camera_ID/>
-              <External_camera_filenames/>
-              <External_camera_filenames_Button_1/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
               <Survey_instrument_name/>
               <Survey_instrument_data/>
             </Supplementary>
@@ -1120,8 +1123,9 @@
             </Feature_details>
             <Supplementary>
               <External_camera_ID/>
-              <External_camera_filenames/>
-              <External_camera_filenames_Button_1/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
               <Survey_instrument_name/>
               <Survey_instrument_data/>
             </Supplementary>
@@ -1854,7 +1858,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_sync="true" type="camera" faims_attribute_name="Mound Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Mound Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -2178,7 +2182,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_sync="true" type="camera" faims_attribute_name="Rock Shelter Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Rock Shelter Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -2532,7 +2536,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_sync="true" type="camera" faims_attribute_name="Historical Feature Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Historical Feature Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -2766,7 +2770,7 @@
         <input faims_attribute_name="Burial ID" faims_attribute_type="measure" ref="Burial_ID" faims_certainty="false">
           <label>{Burial_ID}</label>
         </input>
-        <input faims_attribute_name="Burial author" faims_attribute_type="measure" ref="Burial_author" faims_read_only="true">
+        <input faims_attribute_name="Burial author" faims_attribute_type="measure" ref="Burial_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
         <input faims_attribute_name="Burial timestamp" faims_attribute_type="measure" ref="Burial_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
@@ -2828,7 +2832,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_sync="true" type="camera" faims_attribute_name="Burial Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Burial Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -3140,7 +3144,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_sync="true" type="camera" faims_attribute_name="Other Point of Interest Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Other Point of Interest Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -3548,7 +3552,7 @@
         <input faims_attribute_name="Scar ID" faims_attribute_type="measure" ref="Scar_ID" faims_certainty="false">
           <label>{Scar_ID}</label>
         </input>
-        <input faims_attribute_name="Scar author" faims_attribute_type="measure" ref="Scar_author" faims_read_only="true">
+        <input faims_attribute_name="Scar author" faims_attribute_type="measure" ref="Scar_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
         <input faims_attribute_name="Scar timestamp" faims_attribute_type="measure" ref="Scar_timestamp" faims_read_only="true">
@@ -3666,7 +3670,7 @@
         <trigger ref="Find_This_in_The_Map">
           <label>{Find_This_in_The_Map___}</label>
         </trigger>
-        <select faims_sync="true" type="camera" faims_attribute_name="Flaked Stone Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Flaked Stone Artefact Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -3838,10 +3842,10 @@
         <input faims_attribute_name="Other Stone Artefact ID" faims_attribute_type="measure" ref="Other_Stone_Artefact_ID" faims_certainty="false">
           <label>{Other_Stone_Artefact_ID}</label>
         </input>
-        <input faims_attribute_name="Other Stone Artefact author" faims_attribute_type="measure" ref="Other_Stone_Artefact_author" faims_read_only="true">
+        <input faims_attribute_name="Other Stone Artefact author" faims_attribute_type="measure" ref="Other_Stone_Artefact_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Other Stone Artefact timestamp" faims_attribute_type="measure" ref="Other_Stone_Artefact_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Other Stone Artefact timestamp" faims_attribute_type="measure" ref="Other_Stone_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
@@ -3886,7 +3890,7 @@
         <trigger ref="Find_This_in_The_Map">
           <label>{Find_This_in_The_Map___}</label>
         </trigger>
-        <select faims_sync="true" type="camera" faims_attribute_name="Other Stone Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Other Stone Artefact Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -4034,14 +4038,14 @@
         <trigger ref="External_camera_image_attachment_Button_1">
           <label>{External_camera_image_attachment}</label>
         </trigger>
-        <select1 faims_attribute_name="Other Stone Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+        <select1 faims_attribute_name="Other Stone Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Other Stone Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+        <input faims_attribute_name="Other Stone Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
           <label>{Survey_instrument_data}</label>
         </input>
       </group>
@@ -4053,10 +4057,10 @@
         <input faims_attribute_name="Glass Artefact ID" faims_attribute_type="measure" ref="Glass_Artefact_ID" faims_certainty="false">
           <label>{Glass_Artefact_ID}</label>
         </input>
-        <input faims_attribute_name="Glass Artefact author" faims_attribute_type="measure" ref="Glass_Artefact_author" faims_read_only="true">
+        <input faims_attribute_name="Glass Artefact author" faims_attribute_type="measure" ref="Glass_Artefact_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Glass Artefact timestamp" faims_attribute_type="measure" ref="Glass_Artefact_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Glass Artefact timestamp" faims_attribute_type="measure" ref="Glass_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
@@ -4101,7 +4105,7 @@
         <trigger ref="Find_This_in_The_Map">
           <label>{Find_This_in_The_Map___}</label>
         </trigger>
-        <select faims_sync="true" type="camera" faims_attribute_name="Glass Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Glass Artefact Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -4151,7 +4155,7 @@
         <input faims_attribute_name="Group max fragment length mm" faims_attribute_type="measure" ref="Group_max_fragment_length_mm" faims_annotation="false" faims_certainty="false">
           <label>{Group_max_fragment_length_mm}</label>
         </input>
-        <input faims_attribute_name="Group notes" faims_attribute_type="measure" ref="Group_notes">
+        <input faims_attribute_name="Group notes" faims_attribute_type="measure" ref="Group_notes" faims_annotation="false" faims_certainty="false">
           <label>{Group_notes}</label>
         </input>
         <select1 faims_attribute_name="Fragment location" faims_attribute_type="vocab" ref="Fragment_location">
@@ -4241,10 +4245,10 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Trademark" faims_attribute_type="measure" ref="Trademark">
+        <input faims_attribute_name="Trademark" faims_attribute_type="measure" ref="Trademark" faims_annotation="false" faims_certainty="false">
           <label>{Trademark}</label>
         </input>
-        <input faims_attribute_name="Marks motifs and decoration" faims_attribute_type="measure" ref="Marks_motifs_and_decoration">
+        <input faims_attribute_name="Marks motifs and decoration" faims_attribute_type="measure" ref="Marks_motifs_and_decoration" faims_annotation="false" faims_certainty="false">
           <label>{Marks_motifs_and_decoration}</label>
         </input>
         <input faims_attribute_name="Glass Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
@@ -4260,24 +4264,27 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_sync="true" type="file" faims_attribute_name="External camera filenames" faims_attribute_type="measure" ref="External_camera_filenames" faims_certainty="false">
-          <label>{External_camera_filenames}</label>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select>
-        <trigger ref="External_camera_filenames_Button_1">
-          <label>{External_camera_filenames}</label>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
         </trigger>
-        <select1 faims_attribute_name="Glass Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+        <select1 faims_attribute_name="Glass Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Glass Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+        <input faims_attribute_name="Glass Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
           <label>{Survey_instrument_data}</label>
         </input>
       </group>
@@ -4289,10 +4296,10 @@
         <input faims_attribute_name="Ceramic Artefact ID" faims_attribute_type="measure" ref="Ceramic_Artefact_ID" faims_certainty="false">
           <label>{Ceramic_Artefact_ID}</label>
         </input>
-        <input faims_attribute_name="Ceramic Artefact author" faims_attribute_type="measure" ref="Ceramic_Artefact_author" faims_read_only="true">
+        <input faims_attribute_name="Ceramic Artefact author" faims_attribute_type="measure" ref="Ceramic_Artefact_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Ceramic Artefact timestamp" faims_attribute_type="measure" ref="Ceramic_Artefact_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Ceramic Artefact timestamp" faims_attribute_type="measure" ref="Ceramic_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
@@ -4337,7 +4344,7 @@
         <trigger ref="Find_This_in_The_Map">
           <label>{Find_This_in_The_Map___}</label>
         </trigger>
-        <select faims_sync="true" type="camera" faims_attribute_name="Ceramic Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Ceramic Artefact Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -4461,24 +4468,27 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_sync="true" type="file" faims_attribute_name="External camera filenames" faims_attribute_type="measure" ref="External_camera_filenames" faims_certainty="false">
-          <label>{External_camera_filenames}</label>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select>
-        <trigger ref="External_camera_filenames_Button_1">
-          <label>{External_camera_filenames}</label>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
         </trigger>
-        <select1 faims_attribute_name="Ceramic Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+        <select1 faims_attribute_name="Ceramic Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Ceramic Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+        <input faims_attribute_name="Ceramic Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
           <label>{Survey_instrument_data}</label>
         </input>
       </group>
@@ -4490,10 +4500,10 @@
         <input faims_attribute_name="Misc Artefact ID" faims_attribute_type="measure" ref="Misc_Artefact_ID" faims_certainty="false">
           <label>{Misc_Artefact_ID}</label>
         </input>
-        <input faims_attribute_name="Misc Artefact author" faims_attribute_type="measure" ref="Misc_Artefact_author" faims_read_only="true">
+        <input faims_attribute_name="Misc Artefact author" faims_attribute_type="measure" ref="Misc_Artefact_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Misc Artefact timestamp" faims_attribute_type="measure" ref="Misc_Artefact_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Misc Artefact timestamp" faims_attribute_type="measure" ref="Misc_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
@@ -4538,7 +4548,7 @@
         <trigger ref="Find_This_in_The_Map">
           <label>{Find_This_in_The_Map___}</label>
         </trigger>
-        <select faims_sync="true" type="camera" faims_attribute_name="Misc Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Misc Artefact Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -4593,24 +4603,27 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_sync="true" type="file" faims_attribute_name="External camera filenames" faims_attribute_type="measure" ref="External_camera_filenames" faims_certainty="false">
-          <label>{External_camera_filenames}</label>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select>
-        <trigger ref="External_camera_filenames_Button_1">
-          <label>{External_camera_filenames}</label>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
         </trigger>
-        <select1 faims_attribute_name="Misc Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+        <select1 faims_attribute_name="Misc Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Misc Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+        <input faims_attribute_name="Misc Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
           <label>{Survey_instrument_data}</label>
         </input>
       </group>
@@ -4622,10 +4635,10 @@
         <input faims_attribute_name="Discrete Hearth Artefact ID" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_ID" faims_certainty="false">
           <label>{Discrete_Hearth_Artefact_ID}</label>
         </input>
-        <input faims_attribute_name="Discrete Hearth Artefact author" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_author" faims_read_only="true">
+        <input faims_attribute_name="Discrete Hearth Artefact author" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Discrete Hearth Artefact timestamp" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_timestamp" faims_read_only="true" faims_annotation="false">
+        <input faims_attribute_name="Discrete Hearth Artefact timestamp" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
@@ -4670,7 +4683,7 @@
         <trigger ref="Find_This_in_The_Map">
           <label>{Find_This_in_The_Map___}</label>
         </trigger>
-        <select faims_sync="true" type="camera" faims_attribute_name="Discrete Hearth Artefact Device photos" faims_attribute_type="measure" ref="Device_photos">
+        <select faims_sync="true" type="camera" faims_attribute_name="Discrete Hearth Artefact Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
             <label>Options not loaded</label>
@@ -4734,24 +4747,27 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_sync="true" type="file" faims_attribute_name="External camera filenames" faims_attribute_type="measure" ref="External_camera_filenames" faims_certainty="false">
-          <label>{External_camera_filenames}</label>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select>
-        <trigger ref="External_camera_filenames_Button_1">
-          <label>{External_camera_filenames}</label>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
         </trigger>
-        <select1 faims_attribute_name="Discrete Hearth Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
+        <select1 faims_attribute_name="Discrete Hearth Artefact Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Discrete Hearth Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
+        <input faims_attribute_name="Discrete Hearth Artefact Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
           <label>{Survey_instrument_data}</label>
         </input>
       </group>

@@ -152,7 +152,7 @@ perl -0777 -i.original -pe "s/$string/$replacement/igs" ui_schema.xml
 sed -i -e "s/ mm$/ (mm)/" english.0.properties
 sed -i -e "s/ m$/ (m)/" english.0.properties
 sed -i -e "s/ m2$/ (m^2)/" english.0.properties
-
+sed -i -e "s/ g$/ (g)/" english.0.properties
 cat << EOF >> english.0.properties
 Select_Author=Select Author
 Select_Date=Select Date
