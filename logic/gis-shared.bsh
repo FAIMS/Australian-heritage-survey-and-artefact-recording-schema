@@ -58,7 +58,7 @@ void addDatabaseLayer(String layerName, String tableName, String hexColourCode){
   q  = dbReplaceFirst(q, "{aenttypename}", tableName);
   Log.w("databaselayer",q);
   boolean isEntity = true;
-  GeometryStyle spt = createPointStyle(5, hexColour, 0.5f, 3f);
+  GeometryStyle spt = createPointStyle(5, hexColour, 0.5f, 2f);
   GeometryStyle sln = createLineStyle(5, hexColour, 0.05f, 0.3f, null);
   GeometryStyle spg = createPolygonStyle(5, hexColour, sln_);
   GeometryTextStyle stx = createTextStyle(
@@ -84,7 +84,7 @@ void addDatabaseLayer(String layerName, String tableName, String hexColourCode){
 void addBoundaryDatabaseLayer(String layerName, String tableName, String hexColourCode){
   int transBlk = Color.parseColor("#AA000000");
   int hexColour = Color.parseColor(hexColourCode);
-  GeometryStyle sln_ = createLineStyle(5, transBlk, 0.01f, 0.3f, null);
+  GeometryStyle sln_ = createLineStyle(5, transBlk, 0.01f, 0.1f, null);
   String q;
 
   q  = "SELECT uuid, aenttimestamp";
@@ -95,9 +95,9 @@ void addBoundaryDatabaseLayer(String layerName, String tableName, String hexColo
   q  = dbReplaceFirst(q, "{aenttypename}",  tableName);
   Log.w("boundary", q);
   boolean isEntity = true;
-  GeometryStyle spt = createPointStyle(5, hexColour, 0.1f, 1f);
-  GeometryStyle sln = createLineStyle(5, hexColour, 0.05f, 0.3f, null);
-  GeometryStyle spg = createPolygonStyle(5, hexColour, sln_);
+  GeometryStyle spt = createPointStyle(10, hexColour, 0.1f, 1f);
+  GeometryStyle sln = createLineStyle(10, hexColour, 0.05f, 0.3f, null);
+  GeometryStyle spg = createPolygonStyle(10, hexColour, sln_);
   GeometryTextStyle stx = createTextStyle(
       10,
       Color.BLACK,

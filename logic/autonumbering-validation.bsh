@@ -1,0 +1,21 @@
+/* Validates autonumbering when entering the control tab */
+
+void validateAutonumbering(){
+	startingIDs = getStartingIdRefs();
+	try{
+		for ( id : startingIDs ){
+			Log.d("validateAutonumbering", " "+isNull(id));
+	    	Log.d("validateAutonumbering", " "+Integer.parseInt(getFieldValue(id)));
+			if (isNull(id) || Integer.parseInt(getFieldValue(id)) < 1){
+				Log.e("getFieldValue(id)", getFieldValue(id));
+				showWarning("Identifier Warning", "One or more of your identifiers is blank or not a positive number!");
+
+			}
+
+		}
+	} catch (Exception e){
+		showWarning("Identifier Warning", "One or more of your identifiers is problematic!");			
+	}
+}
+
+addOnEvent("Control/Autonumbering", "leave", "validateAutonumbering()");

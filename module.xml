@@ -1886,11 +1886,15 @@
 
 <logic><![CDATA[
 
+
+
+<!--@SOURCE: logic/sync.bsh-->
 <!--@SOURCE: logic/gis-shared.bsh-->
 <!--@SOURCE: logic/custom-search.bsh-->
 <!--@SOURCE: logic/recent-records.bsh-->
 <!--@SOURCE: logic/cascade-delete.bsh-->
 <!--@SOURCE: logic/find-in-map.bsh-->
+<!--@SOURCE: logic/autonumbering-validation.bsh-->
 ]]></logic>
 
 </module>
