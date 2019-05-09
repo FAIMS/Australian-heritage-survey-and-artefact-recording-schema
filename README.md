@@ -34,3 +34,18 @@ This module is licensed under an international Creative Commons Attribution 4.0 
 ## Contact info:
 
 For more details about **Indigenous foodways in colonial Cape York Peninsula** project, please visit http://capeyorkpeninsula.org/
+
+## Screenshots
+
+<img src="Screenshots/Screenshot_20190509-170530.png"/>
+<img src="Screenshots/Screenshot_20190509-170534.png"/>
+<img src="Screenshots/Screenshot_20190509-170602.png"/>
+<img src="Screenshots/Screenshot_20190509-170957.png"/>
+<img src="Screenshots/Screenshot_20190509-171006.png"/>
+<img src="Screenshots/Screenshot_20190509-171246.png"/>
+<img src="Screenshots/Screenshot_20190509-171250.png"/>
+<img src="Screenshots/Screenshot_20190509-171303.png"/>
+<img src="Screenshots/Screenshot_20190509-171309.png"/>
+<img src="Screenshots/Screenshot_20190509-171313.png"/>
+<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-03.png"/>
+<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-12.png"/>
