@@ -30,6 +30,12 @@ This module is licensed under an international Creative Commons Attribution 4.0 
 * photo capture from device camera
 * controlled vocabularies
 * GIS integration
+    - Center map on record
+    - Load record from map
+* autonumbering validation
+* Cascading delete of child records
+* Custom Search
+* Recent records
 
 ## Contact info:
 
