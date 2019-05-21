@@ -1,7 +1,7 @@
-/******* new record button in boundary tab ****/
+/******* new record button in scar tab ****/
 
 
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/New_Boundary_Point", "click", "newBoundaryPoint()");
+addOnEvent("Scar/Scar/New_Scar", "click", "newBoundaryPoint()");
 
 void newBoundaryPoint(){
 	tabgroup = getDisplayedTabGroup();
