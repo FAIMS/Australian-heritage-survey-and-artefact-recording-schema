@@ -255,6 +255,7 @@
 <!--@SOURCE: logic/find-in-map.bsh-->
 <!--@SOURCE: logic/autonumbering-validation.bsh-->
 <!--@SOURCE: logic/new-record-in-boundary.bsh-->
+<!--@SOURCE: logic/leave-gps-verification.bsh-->
 
 ]]></logic>
 

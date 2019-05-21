@@ -4997,6 +4997,27 @@ void newBoundaryPoint(){
 
 }
 
+/****************************** Leave GPS EXTENSION **********************/
+/* Detects if user leaves GPS tab without pushing take from gps          */
+/*************************************************************************/
+
+addOnEvent("Surface_Exposure/General", "leave", "validateTabGps()");
+addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point", "leave", "validateTabGps()");
+
+void validateTabGps(){
+	current_tab = getPreviouslyDisplayedTab();
+	Log.d("validateTabGPS", current_tab);
+	Log.d("validateTabGPS", "isNull(current_tab+/Latitude)"+ isNull(current_tab+"/Latitude"));
+
+	if (!isValidField(current_tab+"/Latitude") || !isValidField(current_tab+"/Longitude")) {
+		showWarning("Missing Location!", "Make sure you add location data to this entity!");
+	}
+
+} 
+
+
+
+
 
 /******************************************************************************/
 /*                                    INIT                                    */
