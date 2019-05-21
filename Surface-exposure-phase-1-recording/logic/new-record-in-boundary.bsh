@@ -1,0 +1,20 @@
+/******* new record button in boundary tab ****/
+
+
+addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/New_Boundary_Point", "click", "newBoundaryPoint()");
+
+void newBoundaryPoint(){
+	tabgroup = getDisplayedTabGroup();
+	  if(isNull(getUuid(tabgroup))) {
+	    showAlert(
+	        "{Warning}",
+	        "{The_current_record_has_not_been_saved_yet}",
+	        fun2str("newRecord", new Object[]{tabgroup, true}),
+	        ""
+	    );
+	  } else {
+	    newRecord(tabgroup, true);
+	    showToast("{New_record_created}");
+	  }
+
+}

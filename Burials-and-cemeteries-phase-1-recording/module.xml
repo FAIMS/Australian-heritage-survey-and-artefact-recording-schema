@@ -15,7 +15,9 @@
 		Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
 		Underneath: GPS diagnostics (as specified above)
 		 -->
- 		
+ 		<Complex_Features t="webview" f="nolabel">
+ 			<markdown># Complex Features</markdown>
+ 		</Complex_Features>
  		<New_Surface_Exposure t="button" l="Surface_Exposure"/>
 		<New_Mound t="button" l="Mound"/>
 		<New_Rock_Shelter t="button" l="Rock_Shelter"/>

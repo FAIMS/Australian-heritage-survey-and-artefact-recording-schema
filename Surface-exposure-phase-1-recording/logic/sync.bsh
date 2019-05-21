@@ -1,0 +1,3 @@
+/**** Change sync default ***/
+
+setSyncEnabled(false);

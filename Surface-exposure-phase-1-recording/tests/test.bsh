@@ -1,0 +1,82 @@
+#!/usr/bin/env bsh
+
+String funName() {
+  /* Returns the name of function that called this function. For example, the
+   * following function will always return the String "foo".
+   * ```
+   * String foo() {
+   *   return funName();
+   * }
+   * ```
+   */
+  namespace = this.callstack.get(1);
+  return namespace.getInvocationLine() + ": " + namespace.getInvocationText();
+}
+
+String getStdout(Object runnable) {
+  /* Capture STDOUT's output while `runnable` runs. `runnable` can be a
+   * `java.lang.Runnable` object, or anything else which implements a `run()`
+   * method, including BeanShell scripted objects.
+   */
+
+  // Create a stream to hold the output
+  ByteArrayOutputStream baos = new ByteArrayOutputStream();
+  PrintStream ps = new PrintStream(baos);
+  // IMPORTANT: Save the old System.out!
+  PrintStream old = System.out;
+  // Tell Java to use your special stream
+  System.setOut(ps);
+  // Print some output: goes to your special stream
+  runnable.run();
+  // Put things back
+  System.out.flush();
+  System.setOut(old);
+  // Show what happened
+  return baos.toString();
+}
+
+void stdout(String s) {
+  // Alternative to `print` which allows stdout to be grabbed using `getStdout`
+  System.out.println(s);
+}
+
+void validateRefs() {
+  /* Throws an exception if there exists a global variable (e.g. in
+   * ui_logic.bsh) whose name starts with "REF_" but which doesn't refer to a
+   * GUI/Data element in the UI schema.
+   */
+  Set  ignore = new HashSet(); ignore.add("REF_TO_TYPE");
+  List vars   = Arrays.asList(super.namespace.getVariableNames());
+  List refs   = new ArrayList();
+
+  for (var : vars) {
+    if (ignore.contains(var))    continue;
+    if (!var.startsWith("REF_")) continue;
+
+    refs.add("" + eval(var));
+  }
+
+  for (ref : refs)
+    if (!isValidRef(ref))
+      throw new Exception("Ref '" + ref + "' may not refer to a UI element");
+}
+
+sourceRelative("mock.bsh");
+sourceRelative("../module/ui_logic.bsh");
+
+validateRefs();
+print("=== ALL VARIABLES STARTING WITH 'REF' CONTAIN VALID REFS ===");
+print("");
+
+try {
+  sourceRelative("tests.bsh");
+  print("=== ALL TESTS PASSED ===");
+} catch (FileNotFoundException e) {
+  print(
+      "=== NO TESTS IMPLEMENTED. TESTS SHOULD BE PLACED IN " +
+      "`tests/tests.bsh`. ==="
+  );
+} catch (Exception e) {
+  print(e);
+  print("=== ONE OR MORE TESTS FAILED ===");
+}
