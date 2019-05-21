@@ -1,4 +1,7 @@
 <opts>
+    <opt>Indeterminate
+        <desc>Core fragment with flake initiation unclear</desc>
+    </opt>
     <opt>Unidirectional core
         <desc>Flake scars originate from a single platform, and all flakes struck in the same direction</desc>
     </opt>

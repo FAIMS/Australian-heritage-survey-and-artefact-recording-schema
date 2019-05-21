@@ -1,4 +1,7 @@
 <opts>
+    <opt>Not applicable
+        <desc>No dorsal cortex present</desc>
+    </opt>
     <opt>Rounded
         <desc>Smooth cortical surface</desc>
     </opt>

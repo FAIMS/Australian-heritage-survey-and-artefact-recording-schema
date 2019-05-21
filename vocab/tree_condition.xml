@@ -1,7 +1,17 @@
 <opts>
-    <opt>Cut down</opt>
-    <opt>Dead but fallen</opt>
-    <opt>Dead and standing</opt>
-    <opt>Alive but poor condition</opt>
-    <opt>Alive but good condition</opt>
+    <opt>Cut down
+        <desc>Felled trees</desc>
+    </opt>
+    <opt>Dead but fallen
+        <desc>Naturally fallen trees</desc>
+    </opt>
+    <opt>Dead and standing
+        <desc>Standing tree but no evidence of being alive</desc>
+    </opt>
+    <opt>Alive but poor condition
+        <desc>Alive, with some evidence of growth but more than 50% dead branches or damage to the bole</desc>
+    </opt>
+    <opt>Alive but good condition
+        <desc>Alive, minimal damage or dead branches</desc>
+    </opt>
 </opts>

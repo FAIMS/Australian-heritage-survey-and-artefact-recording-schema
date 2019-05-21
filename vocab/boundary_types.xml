@@ -14,4 +14,7 @@
     <opt>Not recorded
         <desc>No boundary recording was conducted due to the feature having a constrained extent (e.g. isolated artefact)</desc>
     </opt>
+    <opt>Not applicable
+        <desc>No boundary recording was conducted. Please specify why in annotation field</desc>
+    </opt>
 </opts>

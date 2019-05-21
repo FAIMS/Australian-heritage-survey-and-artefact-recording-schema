@@ -1,4 +1,7 @@
 <opts>
+    <opt>Indeterminate
+        <desc>No elements or specimens are visible</desc>
+    </opt>
     <opt>Skull
         <desc>Any part of the skull, including mandible</desc>
     </opt>
@@ -14,7 +17,7 @@
     <opt>Legs and feet
         <desc>Any element from below the hip</desc>
     </opt>
-    <opt>Indeterminate
+    <opt>Fragmentary
         <desc>Specimens present are either incomplete or no longer in situ, and thus identifying the skeletal elements present is difficult</desc>
     </opt>
 </opts>

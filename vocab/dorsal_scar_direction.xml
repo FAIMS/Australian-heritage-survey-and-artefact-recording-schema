@@ -1,4 +1,10 @@
 <opts>
+    <opt>Not applicable
+        <desc>No dorsal scars</desc>
+    </opt>
+    <opt>Indeterminate
+        <desc>Dorsal scar initiation indeterminate</desc>
+    </opt>
     <opt>Q1</opt>
     <opt>Q2</opt>
     <opt>Q3</opt>

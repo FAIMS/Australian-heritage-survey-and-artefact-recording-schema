@@ -1,0 +1,76 @@
+/****************************** RECENT RECORDS EXTENSION **********************/
+/* Provides list of most recent entities on device  			              */
+/******************************************************************************/
+
+final String RECENT_TABGROUP = "Control";
+final String RECENT_TAB = "Control";
+final String RECENT_LIST = RECENT_TABGROUP+"/"+RECENT_TAB+"/Recent_records";
+
+//fetchOne is to run a query
+//TAB_GROUPS_AS_LIST is the set of tabgroups
+//NODATA_TAB_GROUPS 
+void setupRecentList(){
+
+	recentListQuery = 	"CREATE TABLE IF NOT EXISTS recent(" +
+						"  UUID INTEGER PRIMARY KEY, "+
+						"  TIMESTAMP timestamp DEFAULT CURRENT_TIMESTAMP, "+
+						"  identifier text NOT NULL "+
+				 	 	");";
+	fetchOne(recentListQuery);				 	 	
+	// for ( tabgroup : TAB_GROUPS_AS_LIST ){
+	// 	if (! isNull(tabgroup)){
+	// 		Log.i("addToRecent", tabgroup);
+	// 		if (! NODATA_TAB_GROUPS.contains(tabgroup)){
+	// 			Log.i("addToRecent", "added "+tabgroup);
+	// 			//If the tabgroup is a saving tabgroup
+	// 			addOnEvent(tabgroup, "save", "addToRecent()");
+	// 		}
+	// 	}
+	// }
+}
+setupRecentList();
+
+// void addToRecent(){
+// 	currentUUID = getUuid();
+// 	if (! isNull(currentUUID)){
+// 		String recentQuery 	= "REPLACE INTO recent(uuid, identifier) SELECT uuid, response " +
+// 		                     "  FROM latestNonDeletedArchEntFormattedIdentifiers  " +
+// 		                     " WHERE uuid = {uuid} ";
+// 		recentQuery 		= dbReplaceFirst(recentQuery, "{uuid}", currentUUID);
+// 		fetchOne(recentQuery);
+// 	}
+// 	//insertIntoLocalSettings	                     
+// }
+
+
+addOnEvent(RECENT_TABGROUP+"/"+RECENT_TAB, "show", "regenerateRecent()");
+
+addOnEvent(RECENT_LIST, "click", "loadEntity()");
+
+
+void populateRecent(){
+	String recentQuery = "SELECT uuid, identifier " +
+	                     "  FROM recent  " +	                     
+//	                     " WHERE aenttypename not like '%point' "+
+	                     " ORDER BY timestamp DESC "+
+	                     " LIMIT ? " +
+                       	 "OFFSET ? ";
+	
+
+	populateCursorList(RECENT_LIST, recentQuery, 15);
+  //refreshTabgroupCSS("Control");
+
+
+}
+                     
+void regenerateRecent(){
+	String recentRegenQuery = "REPLACE INTO recent(uuid, timestamp, identifier) SELECT uuid, modifiedat, response " +
+		                      "  FROM latestNonDeletedArchEntFormattedIdentifiers JOIN createdmodifiedatby using (uuid) ";
+		                     	
+	fetchOne(recentRegenQuery, new FetchCallback() {
+    	onFetch(result) {
+    		populateRecent();
+      	}
+  });
+}
+

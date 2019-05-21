@@ -7,11 +7,11 @@ addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point", "l
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();
-	Log.d("validateTabGPS", current_tab);
-	Log.d("validateTabGPS", "isNull(current_tab+/Latitude)"+ isNull(current_tab+"/Latitude"));
-
-	if (!isValidField(current_tab+"/Latitude") || !isValidField(current_tab+"/Longitude")) {
-		showWarning("Missing Location!", "Make sure you add location data to this entity!");
+	future_tab = getDisplayedTab();
+	if (current_tab != future_tab) {// the record is a new record and we can't inspect the history	
+		if (!isValidField(current_tab+"/Latitude") || !isValidField(current_tab+"/Longitude")) {
+			showWarning("Missing Location!", "Make sure you add location data to this entity!");
+		}
 	}
 
 } 

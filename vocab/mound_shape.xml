@@ -14,4 +14,7 @@
     <opt>Incipient
         <desc>Low mound, somewhat amorphous in shape</desc>
     </opt>
+    <opt>Other
+        <desc>Please describe in annotations</desc>
+    </opt>
 </opts>

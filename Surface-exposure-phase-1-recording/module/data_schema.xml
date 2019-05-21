@@ -75,6 +75,8 @@
 <description>Recorded boundary reflects the extent of a built feature (e.g. fenced area, structural foundations)</description></term>
         <term>{Not_recorded}
 <description>No boundary recording was conducted due to the feature having a constrained extent (e.g. isolated artefact)</description></term>
+        <term>{Not_applicable}
+<description>No boundary recording was conducted. Please specify why in annotation field</description></term>
       </lookup>
     </property>
     <property name="Device photos" type="file" file="true" thumbnail="true">
@@ -359,6 +361,8 @@
 <description>Level or near-level surface with ongoing deposition</description></term>
         <term>{Modified_land}
 <description>Feature associated with a modified land surface including ditches, depressions, mounds and embankments</description></term>
+        <term>{Other}
+<description>Please describe in annotations</description></term>
       </lookup>
     </property>
     <property name="Morphology notes" type="measure">
@@ -397,6 +401,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{None_observed}
+<description> </description></term>
         <term>{Flakes}
 <description> </description></term>
         <term>{Cores}
@@ -423,6 +429,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Not_applicable}
+<description>No stone artefacts observed</description></term>
         <term>{Basalt}
 <description>Fine grained igneous rock, very common, often dark in colour, no other mineral inclusions, and sometimes with caviities </description></term>
         <term>{Chalcedony}
@@ -469,6 +477,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{None_observed}
+<description> </description></term>
         <term>{Handmade_brick}
 <description> </description></term>
         <term>{Machine_made_brick}
@@ -525,6 +535,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{None_observed}
+<description> </description></term>
         <term>{Clay}
 <description> </description></term>
         <term>{Termite_mound}
@@ -543,6 +555,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{None_observed}
+<description> </description></term>
         <term>{Tegillarca_granosa}
 <description>Estuarine species, common in tropical coastal areas. Also known as Kwambuck or Cockle Shell</description></term>
         <term>{Polymesoda_erosa}
@@ -606,6 +620,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Not_applicable}
+<description> </description></term>
         <term>{Morrison_Canon}
 <description> </description></term>
         <term>{Update_list_for_each_fieldtrip}
@@ -631,6 +647,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Not_applicable}
+<description> </description></term>
         <term>{Leica_Multistation}
 <description> </description></term>
         <term>{Leica_TS09_Unit_A}

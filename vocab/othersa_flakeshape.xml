@@ -1,4 +1,7 @@
 <opts>
+    <opt>Indeterminate
+        <desc>Flake scar incomplete</desc>
+    </opt>
     <opt>Elongate
         <desc>Scar length is more than twice its width</desc>
     </opt>

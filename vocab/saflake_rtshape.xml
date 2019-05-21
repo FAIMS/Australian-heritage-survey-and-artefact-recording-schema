@@ -1,4 +1,7 @@
 <opts>
+    <opt>No retouch
+        <desc>No retouch present</desc>
+    </opt>
     <opt>Concave
         <desc>In plan view, the retouched margins is concave -- typically on a lateral margin</desc>
     </opt>

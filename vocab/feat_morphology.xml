@@ -11,4 +11,7 @@
     <opt>Modified land
         <desc>Feature associated with a modified land surface including ditches, depressions, mounds and embankments</desc>
     </opt>
+    <opt>Other
+        <desc>Please describe in annotations</desc>
+    </opt>
 </opts>

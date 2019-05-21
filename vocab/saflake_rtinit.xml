@@ -1,4 +1,7 @@
 <opts>
+    <opt>No retouch
+        <desc>No retouch present</desc>
+    </opt>
     <opt>Ventral
         <desc>Unifacial retouch initiated on the ventral surface, resulting in small flakes detaching from the dorsal surface</desc>
     </opt>

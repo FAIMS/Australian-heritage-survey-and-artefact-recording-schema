@@ -1,4 +1,7 @@
 <opts>
+    <opt>Indeterminate
+        <desc>Burial orientation not able to be determined</desc>
+    </opt>
     <opt>Disarticulated
         <desc>Disarticulated remains</desc>
     </opt>
