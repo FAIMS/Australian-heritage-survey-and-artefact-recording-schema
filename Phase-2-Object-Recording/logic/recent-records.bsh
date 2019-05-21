@@ -3,7 +3,7 @@
 /******************************************************************************/
 
 final String RECENT_TABGROUP = "Control";
-final String RECENT_TAB = "Control";
+final String RECENT_TAB = "Recent";
 final String RECENT_LIST = RECENT_TABGROUP+"/"+RECENT_TAB+"/Recent_records";
 
 //fetchOne is to run a query

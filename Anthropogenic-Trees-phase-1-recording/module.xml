@@ -28,9 +28,7 @@
 		<Map t="map" f="nolabel"/>
 	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
 	</Map>
-	<Recent f="noscroll">
-		<Recent_records t="list"/>
-	</Recent>
+	
 	<search/>
 	<!--"Select User" dropdown has been added using @POSTPROC-->
 	

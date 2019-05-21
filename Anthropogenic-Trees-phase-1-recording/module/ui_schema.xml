@@ -40,9 +40,6 @@
                 </Col_2>
               </Colgroup_1>
             </Map>
-            <Recent>
-              <Recent_records/>
-            </Recent>
             <Search>
               <Colgroup_0>
                 <Col_0>
@@ -244,16 +241,6 @@
             </trigger>
           </group>
         </group>
-      </group>
-      <group ref="Recent" faims_scrollable="false">
-        <label>{Recent}</label>
-        <select1 appearance="compact" ref="Recent_records">
-          <label>{Recent_records}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
       </group>
       <group ref="Search" faims_scrollable="false">
         <label>{Search}</label>

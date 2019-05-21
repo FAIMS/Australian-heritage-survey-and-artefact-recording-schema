@@ -1,0 +1,2189 @@
+<?xml version='1.0' encoding='utf-8'?>
+<h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:jr="http://openrosa.org/javarosa" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>FILL THIS IN</h:title>
+    <model>
+      <instance>
+        <faims id="FILL_THIS_IN">
+          <!--START: Style-->
+          <style>
+            <orientation>
+              <orientation/>
+            </orientation>
+            <even>
+              <layout_weight/>
+            </even>
+            <large>
+              <layout_weight/>
+            </large>
+          </style>
+          <!--END: Style-->
+          <User_List>
+            <User_List>
+              <User_List/>
+            </User_List>
+          </User_List>
+          <Control>
+            <Control>
+              <New_Point_of_Interest/>
+              <Objects/>
+              <New_Flaked_Stone_Artefact/>
+              <New_Other_Stone_Artefact/>
+              <New_Glass_Artefact/>
+              <New_Ceramic_Artefact/>
+              <New_Misc_Artefact/>
+              <New_Discrete_Hearth/>
+              <GPS_diagnostics/>
+            </Control>
+            <Map>
+              <Map/>
+              <Colgroup_1>
+                <Col_1>
+                  <Center_Me_1/>
+                </Col_1>
+                <Col_2>
+                  <Save_Map_Settings_1/>
+                </Col_2>
+              </Colgroup_1>
+            </Map>
+            <Recent>
+              <Recent_records/>
+            </Recent>
+            <Search>
+              <Colgroup_0>
+                <Col_0>
+                  <Search_Term/>
+                </Col_0>
+                <Col_1>
+                  <Search_Button/>
+                </Col_1>
+              </Colgroup_0>
+              <Colgroup_1>
+                <Col_0>
+                  <Entity_Types/>
+                </Col_0>
+                <Col_1>
+                  <Select_Author/>
+                </Col_1>
+                <Col_2>
+                  <Select_Date/>
+                </Col_2>
+                
+              </Colgroup_1>
+              <Entity_List/>
+            </Search>
+            <Autonumbering>
+              <Next_Other_Point_of_Interest_ID/>
+              <Next_Other_Point_of_Interest_Boundary_Point_ID/>
+              <Next_Flaked_Stone_Artefact_ID/>
+              <Next_Other_Stone_Artefact_ID/>
+              <Next_Glass_Artefact_ID/>
+              <Next_Ceramic_Artefact_ID/>
+              <Next_Misc_Artefact_ID/>
+              <Next_Discrete_Hearth_Artefact_ID/>
+            </Autonumbering>
+          </Control>
+          <Other_Point_of_Interest>
+            <General>
+              <Other_Point_of_Interest_ID/>
+              <Other_Point_of_Interest_author/>
+              <Other_Point_of_Interest_timestamp/>
+              <Level_of_recording/>
+              <Colgroup_1>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_2>
+              <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
+              <Boundary_criterion/>
+              <Device_photos/>
+              <Device_photos_Button_1/>
+            </General>
+            <Boundary>
+              <New_Boundary_Point/>
+              <List_of_Related_Boundary_Points/>
+            </Boundary>
+            <Landscape_context>
+              <Landform_pattern/>
+              <Landform_element/>
+              <Dominant_vegetation_type/>
+              <Dominant_vegetation_cover/>
+              <Additional_environmental_notes/>
+              <Morphology_type/>
+              <Morphology_notes/>
+            </Landscape_context>
+            <Feature_details>
+              <Type/>
+              <Detailed_description/>
+              <Information_source/>
+              <Additional_notes/>
+            </Feature_details>
+            <Supplementary>
+              <Paper_notes_and_sketches/>
+              <Paper_notes_and_sketches_Button_1/>
+              <External_camera_ID/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
+              <Survey_instrument_name/>
+              <Survey_instrument_data/>
+            </Supplementary>
+          </Other_Point_of_Interest>
+          <Other_Point_of_Interest_Boundary_point>
+            <Other_Point_of_Interest_Boundary_point>
+              <Other_Point_of_Interest_ID/>
+              <Other_Point_of_Interest_Boundary_Point_ID/>
+              <Other_Point_of_Interest_Boundary_point_timestamp/>
+              <Colgroup_1>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_2>
+              <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
+              <Comment/>
+              <New_Boundary_Point/>
+            </Other_Point_of_Interest_Boundary_point>
+          </Other_Point_of_Interest_Boundary_point>
+          <Flaked_Stone_Artefact>
+            <General>
+              <Flaked_Stone_Artefact_ID/>
+              <Flaked_Stone_Artefact_author/>
+              <Flaked_Stone_Artefact_timestamp/>
+              <Colgroup_1>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_2>
+              <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
+              <Device_photos/>
+              <Device_photos_Button_1/>
+              <Landform_element/>
+            </General>
+            <Feature_details>
+              <Raw_material_type/>
+              <Raw_material_colour/>
+              <Weight_g/>
+              <Flake_completeness/>
+              <Platform_surface/>
+              <Platform_angle/>
+              <Platform_width_mm/>
+              <Platform_thickness_mm/>
+              <Maximum_length_mm/>
+              <Maximum_width_mm/>
+              <Maximum_thickness_mm/>
+              <Termination_type/>
+              <Overhang_removal/>
+              <Dorsal_cortex_type/>
+              <Dorsal_cortex_amount/>
+              <Dorsal_scar_count/>
+              <Dorsal_scar_direction/>
+              <Dorsal_flake_scar_maximum_length/>
+              <Retouched_quadrants/>
+              <Retouch_initiation/>
+              <Retouch_shape/>
+              <Additional_notes/>
+            </Feature_details>
+            <Supplementary>
+              <External_camera_ID/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
+              <Survey_instrument_name/>
+              <Survey_instrument_data/>
+            </Supplementary>
+          </Flaked_Stone_Artefact>
+          <Other_Stone_Artefact>
+            <General>
+              <Other_Stone_Artefact_ID/>
+              <Other_Stone_Artefact_author/>
+              <Other_Stone_Artefact_timestamp/>
+              <Colgroup_1>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_2>
+              <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
+              <Device_photos/>
+              <Device_photos_Button_1/>
+              <Landform_element/>
+            </General>
+            <Feature_details>
+              <Raw_material_type/>
+              <Raw_material_colour/>
+              <Completeness/>
+              <Weight_g/>
+              <Type/>
+              <Length_mm/>
+              <Width_mm/>
+              <Thickness_mm/>
+              <Largest_scar_length_mm/>
+              <Core_largest_scar_shape/>
+              <Core_platform_count/>
+              <Core_platform_1_surface/>
+              <Core_platform_1_length_mm/>
+              <Core_platform_1_width_mm/>
+              <Core_platform_1_angle_mm/>
+              <Core_platform_2_surface/>
+              <Core_platform_2_length_mm/>
+              <Core_platform_2_width_mm/>
+              <Core_platform_2_angle/>
+              <Core_classification/>
+              <Remaining_cortical_surface/>
+              <Usewear/>
+              <Additional_notes/>
+            </Feature_details>
+            <Supplementary>
+              <External_camera_ID/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
+              <Survey_instrument_name/>
+              <Survey_instrument_data/>
+            </Supplementary>
+          </Other_Stone_Artefact>
+          <Glass_Artefact>
+            <General>
+              <Glass_Artefact_ID/>
+              <Glass_Artefact_author/>
+              <Glass_Artefact_timestamp/>
+              <Colgroup_1>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_2>
+              <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
+              <Device_photos/>
+              <Device_photos_Button_1/>
+              <Landform_element/>
+            </General>
+            <Feature_details>
+              <Diagnostic/>
+              <Colour/>
+              <Grouped_fragments/>
+              <Grouped_fragment_count/>
+              <Grouped_fragment_weight_g/>
+              <Group_max_fragment_length_mm/>
+              <Group_notes/>
+              <Fragment_location/>
+              <Vessel_type/>
+              <Length_mm/>
+              <Width_mm/>
+              <Thickness_mm/>
+              <Body_shape/>
+              <Number_of_mould_seams/>
+              <Mould_type/>
+              <Patination_present/>
+              <Base_diameter_mm/>
+              <Base_thickness_mm/>
+              <Pontil_mark_present/>
+              <Kickup_depth_mm/>
+              <Finish_inner_bore_diameter_mm/>
+              <Finish_type/>
+              <Closure_type/>
+              <Applied_finish/>
+              <Trademark/>
+              <Marks_motifs_and_decoration/>
+              <Additional_notes/>
+            </Feature_details>
+            <Supplementary>
+              <External_camera_ID/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
+              <Survey_instrument_name/>
+              <Survey_instrument_data/>
+            </Supplementary>
+          </Glass_Artefact>
+          <Ceramic_Artefact>
+            <General>
+              <Ceramic_Artefact_ID/>
+              <Ceramic_Artefact_author/>
+              <Ceramic_Artefact_timestamp/>
+              <Colgroup_1>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_2>
+              <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
+              <Device_photos/>
+              <Device_photos_Button_1/>
+              <Landform_element/>
+            </General>
+            <Feature_details>
+              <Diagnostic/>
+              <Type/>
+              <Element/>
+              <Form/>
+              <Completeness/>
+              <Function/>
+              <Length_mm/>
+              <Width_mm/>
+              <Thickness_mm/>
+              <Base_diameter_mm/>
+              <Rim_diameter_mm/>
+              <Paste_colour/>
+              <Glaze_type/>
+              <Decorative_methods/>
+              <Decorative_colours/>
+              <Visible_motifs/>
+              <Decorative_pattern_name/>
+              <Additional_notes/>
+            </Feature_details>
+            <Supplementary>
+              <External_camera_ID/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
+              <Survey_instrument_name/>
+              <Survey_instrument_data/>
+            </Supplementary>
+          </Ceramic_Artefact>
+          <Misc_Artefact>
+            <General>
+              <Misc_Artefact_ID/>
+              <Misc_Artefact_author/>
+              <Misc_Artefact_timestamp/>
+              <Colgroup_1>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_2>
+              <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
+              <Device_photos/>
+              <Device_photos_Button_1/>
+              <Landform_element/>
+            </General>
+            <Feature_details>
+              <Material/>
+              <Type/>
+              <Length_mm/>
+              <Width_mm/>
+              <Thickness_mm/>
+              <Height_mm/>
+              <Additional_notes/>
+            </Feature_details>
+            <Supplementary>
+              <External_camera_ID/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
+              <Survey_instrument_name/>
+              <Survey_instrument_data/>
+            </Supplementary>
+          </Misc_Artefact>
+          <Discrete_Hearth_Artefact>
+            <General>
+              <Discrete_Hearth_Artefact_ID/>
+              <Discrete_Hearth_Artefact_author/>
+              <Discrete_Hearth_Artefact_timestamp/>
+              <Colgroup_1>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_2>
+              <Take_From_GPS_1/>
+              <Find_This_in_The_Map/>
+              <Device_photos/>
+              <Device_photos_Button_1/>
+              <Landform_element/>
+            </General>
+            <Feature_details>
+              <Hearth_type/>
+              <Heating_element_types/>
+              <Heating_element_frequency/>
+              <Materials_present/>
+              <Diameter_mm/>
+              <Additional_notes/>
+            </Feature_details>
+            <Supplementary>
+              <External_camera_ID/>
+              <External_camera_file_names_and_attachment/>
+              <External_camera_image_attachment/>
+              <External_camera_image_attachment_Button_1/>
+              <Survey_instrument_name/>
+              <Survey_instrument_data/>
+            </Supplementary>
+          </Discrete_Hearth_Artefact>
+        </faims>
+      </instance>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Other_Point_of_Interest_ID" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Other_Point_of_Interest_Boundary_Point_ID" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Flaked_Stone_Artefact_ID" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Other_Stone_Artefact_ID" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Glass_Artefact_ID" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Ceramic_Artefact_ID" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Misc_Artefact_ID" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Discrete_Hearth_Artefact_ID" type="decimal"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Weight_g" type="decimal"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Platform_angle" type="decimal"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Platform_width_mm" type="decimal"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Platform_thickness_mm" type="decimal"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Maximum_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Maximum_width_mm" type="decimal"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Maximum_thickness_mm" type="decimal"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Dorsal_scar_count" type="integer"/>
+      <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Dorsal_flake_scar_maximum_length" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Weight_g" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Length_mm" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Width_mm" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Thickness_mm" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Largest_scar_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Core_platform_count" type="integer"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Core_platform_1_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Core_platform_1_width_mm" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Core_platform_1_angle_mm" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Core_platform_2_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Core_platform_2_width_mm" type="decimal"/>
+      <bind nodeset="/faims/Other_Stone_Artefact/Feature_details/Core_platform_2_angle" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Grouped_fragment_count" type="integer"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Grouped_fragment_weight_g" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Group_max_fragment_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Length_mm" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Width_mm" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Thickness_mm" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Number_of_mould_seams" type="integer"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Base_diameter_mm" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Base_thickness_mm" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Kickup_depth_mm" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Finish_inner_bore_diameter_mm" type="decimal"/>
+      <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Length_mm" type="decimal"/>
+      <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Width_mm" type="decimal"/>
+      <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Thickness_mm" type="decimal"/>
+      <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Base_diameter_mm" type="decimal"/>
+      <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Rim_diameter_mm" type="decimal"/>
+      <bind nodeset="/faims/Misc_Artefact/Feature_details/Length_mm" type="decimal"/>
+      <bind nodeset="/faims/Misc_Artefact/Feature_details/Width_mm" type="decimal"/>
+      <bind nodeset="/faims/Misc_Artefact/Feature_details/Thickness_mm" type="decimal"/>
+      <bind nodeset="/faims/Misc_Artefact/Feature_details/Height_mm" type="decimal"/>
+      <bind nodeset="/faims/Discrete_Hearth_Artefact/Feature_details/Diameter_mm" type="decimal"/>
+    </model>
+  </h:head>
+  <h:body>
+    <!--START: Style-->
+    <group ref="style">
+      <label/>
+      <group ref="orientation">
+        <label/>
+        <input ref="orientation">
+          <label>horizontal</label>
+        </input>
+      </group>
+      <group ref="even">
+        <label/>
+        <input ref="layout_weight">
+          <label>1</label>
+        </input>
+      </group>
+      <group ref="large">
+        <label/>
+        <input ref="layout_weight">
+          <label>3</label>
+        </input>
+      </group>
+    </group>
+    <!--END: Style-->
+    <group ref="User_List">
+      <label>{User_List}</label>
+      <group ref="User_List" faims_scrollable="false">
+        <label>{User_List}</label>
+        <select1 appearance="compact" ref="User_List">
+          <label/>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group ref="Control">
+      <label>{Control}</label>
+      <group ref="Control">
+        <label>{Control}</label>
+        <trigger ref="New_Point_of_Interest">
+          <label>{New_Point_of_Interest}</label>
+        </trigger>
+        <input faims_web="true" ref="Objects">
+          <label/>
+        </input>
+        <trigger ref="New_Flaked_Stone_Artefact">
+          <label>{New_Flaked_Stone_Artefact}</label>
+        </trigger>
+        <trigger ref="New_Other_Stone_Artefact">
+          <label>{New_Other_Stone_Artefact}</label>
+        </trigger>
+        <trigger ref="New_Glass_Artefact">
+          <label>{New_Glass_Artefact}</label>
+        </trigger>
+        <trigger ref="New_Ceramic_Artefact">
+          <label>{New_Ceramic_Artefact}</label>
+        </trigger>
+        <trigger ref="New_Misc_Artefact">
+          <label>{New_Misc_Artefact}</label>
+        </trigger>
+        <trigger ref="New_Discrete_Hearth">
+          <label>{New_Discrete_Hearth}</label>
+        </trigger>
+        <input faims_read_only="true" ref="GPS_diagnostics">
+          <label>{GPS_diagnostics}</label>
+        </input>
+      </group>
+      <group ref="Map" faims_scrollable="false">
+        <label>{Map}</label>
+        <input faims_map="true" ref="Map">
+          <label/>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <trigger ref="Center_Me_1">
+              <label>{Center_Me}</label>
+            </trigger>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <trigger ref="Save_Map_Settings_1">
+              <label>{Save_Map_Settings}</label>
+            </trigger>
+          </group>
+        </group>
+      </group>
+      <group ref="Recent" faims_scrollable="false">
+        <label>{Recent}</label>
+        <select1 appearance="compact" ref="Recent_records">
+          <label>{Recent_records}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Search" faims_scrollable="false">
+        <label>{Search}</label>
+        <group ref="Colgroup_0" faims_style="orientation">
+          <label/>
+          <group ref="Col_0" faims_style="even">
+            <label/>
+            <input ref="Search_Term">
+              <label>{Search_Term}</label>
+            </input>
+          </group>
+          <group ref="Col_1" faims_style="large">
+            <label/>
+            <trigger ref="Search_Button">
+              <label>{Search}</label>
+            </trigger>
+          </group>
+        </group>
+         <group ref="Colgroup_1" faims_style="orientation">
+  <label/>
+  <group ref="Col_0" faims_style="even">
+    <label/>
+    <select1 ref="Entity_Types">
+      <label>{Entity_Types}</label>
+      <item>
+        <label>Options not loaded</label>
+        <value>Options not loaded</value>
+      </item>
+    </select1>
+  </group>
+  <group ref="Col_1" faims_style="even">
+    <label/>
+    <select1 ref="Select_Author">
+      <label>{Select_Author}</label>
+      <item>
+        <label>Options not loaded</label>
+        <value>Options not loaded</value>
+      </item>
+    </select1>
+  </group>
+  <group ref="Col_2" faims_style="even">
+    <label/>
+    <select1 ref="Select_Date">
+      <label>{Select_Date}</label>
+      <item>
+        <label>Options not loaded</label>
+        <value>Options not loaded</value>
+      </item>
+    </select1>
+  </group>  
+  
+</group>
+
+        <select1 appearance="compact" ref="Entity_List">
+          <label>{Entity_List}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Autonumbering">
+        <label>{Autonumbering}</label>
+        <input ref="Next_Other_Point_of_Interest_ID" faims_style_class="required">
+          <label>{Next_Other_Point_of_Interest_ID}</label>
+        </input>
+        <input ref="Next_Other_Point_of_Interest_Boundary_Point_ID" faims_style_class="required">
+          <label>{Next_Other_Point_of_Interest_Boundary_Point_ID}</label>
+        </input>
+        <input ref="Next_Flaked_Stone_Artefact_ID" faims_style_class="required">
+          <label>{Next_Flaked_Stone_Artefact_ID}</label>
+        </input>
+        <input ref="Next_Other_Stone_Artefact_ID" faims_style_class="required">
+          <label>{Next_Other_Stone_Artefact_ID}</label>
+        </input>
+        <input ref="Next_Glass_Artefact_ID" faims_style_class="required">
+          <label>{Next_Glass_Artefact_ID}</label>
+        </input>
+        <input ref="Next_Ceramic_Artefact_ID" faims_style_class="required">
+          <label>{Next_Ceramic_Artefact_ID}</label>
+        </input>
+        <input ref="Next_Misc_Artefact_ID" faims_style_class="required">
+          <label>{Next_Misc_Artefact_ID}</label>
+        </input>
+        <input ref="Next_Discrete_Hearth_Artefact_ID" faims_style_class="required">
+          <label>{Next_Discrete_Hearth_Artefact_ID}</label>
+        </input>
+      </group>
+    </group>
+    <group ref="Other_Point_of_Interest" faims_archent_type="Other Point of Interest">
+      <label>{Other_Point_of_Interest}</label>
+      <group ref="General">
+        <label>{General}</label>
+        <input faims_attribute_name="Other Point of Interest ID" faims_attribute_type="measure" ref="Other_Point_of_Interest_ID" faims_certainty="false">
+          <label>{Other_Point_of_Interest_ID}</label>
+        </input>
+        <input faims_attribute_name="Other Point of Interest author" faims_attribute_type="measure" ref="Other_Point_of_Interest_author" faims_read_only="true" faims_certainty="false">
+          <label>{Author}</label>
+        </input>
+        <input faims_attribute_name="Other Point of Interest timestamp" faims_attribute_type="measure" ref="Other_Point_of_Interest_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+          <label>{Timestamp}</label>
+        </input>
+        <select1 faims_attribute_name="Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
+          <label>{Level_of_recording}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
+        </trigger>
+        <select1 faims_attribute_name="Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
+          <label>{Boundary_criterion}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
+          <label>{Device_photos}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Device_photos_Button_1">
+          <label>{Device_photos}</label>
+        </trigger>
+      </group>
+      <group ref="Boundary" faims_scrollable="false">
+        <label>{Boundary}</label>
+        <trigger ref="New_Boundary_Point">
+          <label>{New_Boundary_Point}</label>
+        </trigger>
+        <select1 appearance="compact" ref="List_of_Related_Boundary_Points">
+          <label>{List_of_Related_Boundary_Points}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Landscape_context">
+        <label>{Landscape_context}</label>
+        <select1 faims_attribute_name="Landform pattern" faims_attribute_type="vocab" ref="Landform_pattern">
+          <label>{Landform_pattern}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
+          <label>{Landform_element}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Dominant vegetation type" faims_attribute_type="vocab" ref="Dominant_vegetation_type">
+          <label>{Dominant_vegetation_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Dominant vegetation cover" faims_attribute_type="vocab" ref="Dominant_vegetation_cover" faims_certainty="false">
+          <label>{Dominant_vegetation_cover}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Additional environmental notes" faims_attribute_type="measure" ref="Additional_environmental_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_environmental_notes}</label>
+        </input>
+        <select1 faims_attribute_name="Morphology type" faims_attribute_type="vocab" ref="Morphology_type">
+          <label>{Morphology_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Morphology notes" faims_attribute_type="measure" ref="Morphology_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Morphology_notes}</label>
+        </input>
+      </group>
+      <group ref="Feature_details">
+        <label>{Feature_details}</label>
+        <select1 faims_attribute_name="Other Point of Interest Type" faims_attribute_type="vocab" ref="Type">
+          <label>{Type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Detailed description" faims_attribute_type="measure" ref="Detailed_description" faims_certainty="false">
+          <label>{Detailed_description}</label>
+        </input>
+        <input faims_attribute_name="Information source" faims_attribute_type="measure" ref="Information_source" faims_certainty="false">
+          <label>{Information_source}</label>
+        </input>
+        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_notes}</label>
+        </input>
+      </group>
+      <group ref="Supplementary">
+        <label>{Supplementary}</label>
+        <select faims_sync="true" type="camera" faims_attribute_name="Paper notes and sketches" faims_attribute_type="measure" ref="Paper_notes_and_sketches" faims_certainty="false">
+          <label>{Paper_notes_and_sketches}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Paper_notes_and_sketches_Button_1">
+          <label>{Paper_notes_and_sketches}</label>
+        </trigger>
+        <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
+          <label>{External_camera_ID}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
+        </trigger>
+        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
+          <label>{Survey_instrument_name}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
+          <label>{Survey_instrument_data}</label>
+        </input>
+      </group>
+    </group>
+    <group ref="Other_Point_of_Interest_Boundary_point" faims_archent_type="Other Point of Interest Boundary point">
+      <label>{Other_Point_of_Interest_Boundary_point}</label>
+      <group ref="Other_Point_of_Interest_Boundary_point">
+        <label>{Other_Point_of_Interest_Boundary_point}</label>
+        <input faims_attribute_name="Other Point of Interest ID" faims_attribute_type="measure" ref="Other_Point_of_Interest_ID" faims_certainty="false">
+          <label>{Other_Point_of_Interest_ID}</label>
+        </input>
+        <input faims_attribute_name="Other Point of Interest Boundary Point ID" faims_attribute_type="measure" ref="Other_Point_of_Interest_Boundary_Point_ID" faims_certainty="false">
+          <label>{Other_Point_of_Interest_Boundary_Point_ID}</label>
+        </input>
+        <input faims_attribute_name="Other Point of Interest Boundary point timestamp" faims_attribute_type="measure" ref="Other_Point_of_Interest_Boundary_point_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+          <label>{Timestamp}</label>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
+        </trigger>
+        <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
+          <label>{Comment}</label>
+        </input>
+        <trigger ref="New_Boundary_Point">
+          <label>{New_Boundary_Point}</label>
+        </trigger>
+      </group>
+    </group>
+    <group ref="Flaked_Stone_Artefact" faims_archent_type="Flaked Stone Artefact">
+      <label>{Flaked_Stone_Artefact}</label>
+      <group ref="General">
+        <label>{General}</label>
+        <input faims_attribute_name="Flaked Stone Artefact ID" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_ID" faims_certainty="false">
+          <label>{Flaked_Stone_Artefact_ID}</label>
+        </input>
+        <input faims_attribute_name="Flaked Stone Artefact author" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_author" faims_read_only="true" faims_certainty="false">
+          <label>{Author}</label>
+        </input>
+        <input faims_attribute_name="Flaked Stone Artefact timestamp" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+          <label>{Timestamp}</label>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
+        </trigger>
+        <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
+          <label>{Device_photos}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Device_photos_Button_1">
+          <label>{Device_photos}</label>
+        </trigger>
+        <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
+          <label>{Landform_element}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Feature_details">
+        <label>{Feature_details}</label>
+        <select1 faims_attribute_name="Raw material type" faims_attribute_type="vocab" ref="Raw_material_type">
+          <label>{Raw_material_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Raw material colour" faims_attribute_type="measure" ref="Raw_material_colour" faims_annotation="false" faims_certainty="false">
+          <label>{Raw_material_colour}</label>
+        </input>
+        <input faims_attribute_name="Weight g" faims_attribute_type="measure" ref="Weight_g" faims_certainty="false">
+          <label>{Weight__g_}</label>
+        </input>
+        <select1 faims_attribute_name="Flake completeness" faims_attribute_type="vocab" ref="Flake_completeness">
+          <label>{Flake_completeness}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Platform surface" faims_attribute_type="vocab" ref="Platform_surface">
+          <label>{Platform_surface}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Platform angle" faims_attribute_type="measure" ref="Platform_angle">
+          <label>{Platform_angle}</label>
+        </input>
+        <input faims_attribute_name="Platform width mm" faims_attribute_type="measure" ref="Platform_width_mm">
+          <label>{Platform_width_mm}</label>
+        </input>
+        <input faims_attribute_name="Platform thickness mm" faims_attribute_type="measure" ref="Platform_thickness_mm">
+          <label>{Platform_thickness_mm}</label>
+        </input>
+        <input faims_attribute_name="Maximum length mm" faims_attribute_type="measure" ref="Maximum_length_mm">
+          <label>{Maximum_length_mm}</label>
+        </input>
+        <input faims_attribute_name="Maximum width mm" faims_attribute_type="measure" ref="Maximum_width_mm">
+          <label>{Maximum_width_mm}</label>
+        </input>
+        <input faims_attribute_name="Maximum thickness mm" faims_attribute_type="measure" ref="Maximum_thickness_mm">
+          <label>{Maximum_thickness_mm}</label>
+        </input>
+        <select1 faims_attribute_name="Termination type" faims_attribute_type="vocab" ref="Termination_type">
+          <label>{Termination_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Overhang removal" faims_attribute_type="vocab" ref="Overhang_removal">
+          <label>{Overhang_removal}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Dorsal cortex type" faims_attribute_type="vocab" ref="Dorsal_cortex_type">
+          <label>{Dorsal_cortex_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Dorsal cortex amount" faims_attribute_type="vocab" ref="Dorsal_cortex_amount">
+          <label>{Dorsal_cortex_amount}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Dorsal scar count" faims_attribute_type="measure" ref="Dorsal_scar_count">
+          <label>{Dorsal_scar_count}</label>
+        </input>
+        <select faims_attribute_name="Dorsal scar direction" faims_attribute_type="vocab" ref="Dorsal_scar_direction">
+          <label>{Dorsal_scar_direction}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <input faims_attribute_name="Dorsal flake scar maximum length" faims_attribute_type="measure" ref="Dorsal_flake_scar_maximum_length">
+          <label>{Dorsal_flake_scar_maximum_length}</label>
+        </input>
+        <select faims_attribute_name="Retouched quadrants" faims_attribute_type="vocab" ref="Retouched_quadrants">
+          <label>{Retouched_quadrants}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <select1 faims_attribute_name="Retouch initiation" faims_attribute_type="vocab" ref="Retouch_initiation">
+          <label>{Retouch_initiation}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Retouch shape" faims_attribute_type="vocab" ref="Retouch_shape">
+          <label>{Retouch_shape}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_notes}</label>
+        </input>
+      </group>
+      <group ref="Supplementary">
+        <label>{Supplementary}</label>
+        <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
+          <label>{External_camera_ID}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
+        </trigger>
+        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
+          <label>{Survey_instrument_name}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
+          <label>{Survey_instrument_data}</label>
+        </input>
+      </group>
+    </group>
+    <group ref="Other_Stone_Artefact" faims_archent_type="Other Stone Artefact">
+      <label>{Other_Stone_Artefact}</label>
+      <group ref="General">
+        <label>{General}</label>
+        <input faims_attribute_name="Other Stone Artefact ID" faims_attribute_type="measure" ref="Other_Stone_Artefact_ID" faims_certainty="false">
+          <label>{Other_Stone_Artefact_ID}</label>
+        </input>
+        <input faims_attribute_name="Other Stone Artefact author" faims_attribute_type="measure" ref="Other_Stone_Artefact_author" faims_read_only="true" faims_certainty="false">
+          <label>{Author}</label>
+        </input>
+        <input faims_attribute_name="Other Stone Artefact timestamp" faims_attribute_type="measure" ref="Other_Stone_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+          <label>{Timestamp}</label>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
+        </trigger>
+        <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
+          <label>{Device_photos}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Device_photos_Button_1">
+          <label>{Device_photos}</label>
+        </trigger>
+        <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
+          <label>{Landform_element}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Feature_details">
+        <label>{Feature_details}</label>
+        <select1 faims_attribute_name="Raw material type" faims_attribute_type="vocab" ref="Raw_material_type">
+          <label>{Raw_material_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Raw material colour" faims_attribute_type="measure" ref="Raw_material_colour" faims_annotation="false" faims_certainty="false">
+          <label>{Raw_material_colour}</label>
+        </input>
+        <select1 faims_attribute_name="Other Stone Artefact Completeness" faims_attribute_type="vocab" ref="Completeness" faims_certainty="false">
+          <label>{Completeness}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Weight g" faims_attribute_type="measure" ref="Weight_g" faims_certainty="false">
+          <label>{Weight_g}</label>
+        </input>
+        <select1 faims_attribute_name="Other Stone Artefact Type" faims_attribute_type="vocab" ref="Type" faims_certainty="false">
+          <label>{Type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Other Stone Artefact Length mm" faims_attribute_type="measure" ref="Length_mm" faims_certainty="false">
+          <label>{Length_mm}</label>
+        </input>
+        <input faims_attribute_name="Other Stone Artefact Width mm" faims_attribute_type="measure" ref="Width_mm" faims_certainty="false">
+          <label>{Width_mm}</label>
+        </input>
+        <input faims_attribute_name="Other Stone Artefact Thickness mm" faims_attribute_type="measure" ref="Thickness_mm" faims_certainty="false">
+          <label>{Thickness_mm}</label>
+        </input>
+        <input faims_attribute_name="Largest scar length mm" faims_attribute_type="measure" ref="Largest_scar_length_mm">
+          <label>{Largest_scar_length_mm}</label>
+        </input>
+        <select1 faims_attribute_name="Core largest scar shape" faims_attribute_type="vocab" ref="Core_largest_scar_shape">
+          <label>{Core_largest_scar_shape}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Core platform count" faims_attribute_type="measure" ref="Core_platform_count">
+          <label>{Core_platform_count}</label>
+        </input>
+        <select1 faims_attribute_name="Core platform 1 surface" faims_attribute_type="vocab" ref="Core_platform_1_surface">
+          <label>{Core_platform_1_surface}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Core platform 1 length mm" faims_attribute_type="measure" ref="Core_platform_1_length_mm">
+          <label>{Core_platform_1_length_mm}</label>
+        </input>
+        <input faims_attribute_name="Core platform 1 width mm" faims_attribute_type="measure" ref="Core_platform_1_width_mm">
+          <label>{Core_platform_1_width_mm}</label>
+        </input>
+        <input faims_attribute_name="Core platform 1 angle mm" faims_attribute_type="measure" ref="Core_platform_1_angle_mm">
+          <label>{Core_platform_1_angle_mm}</label>
+        </input>
+        <select1 faims_attribute_name="Core platform 2 surface" faims_attribute_type="vocab" ref="Core_platform_2_surface">
+          <label>{Core_platform_2_surface}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Core platform 2 length mm" faims_attribute_type="measure" ref="Core_platform_2_length_mm">
+          <label>{Core_platform_2_length_mm}</label>
+        </input>
+        <input faims_attribute_name="Core platform 2 width mm" faims_attribute_type="measure" ref="Core_platform_2_width_mm">
+          <label>{Core_platform_2_width_mm}</label>
+        </input>
+        <input faims_attribute_name="Core platform 2 angle" faims_attribute_type="measure" ref="Core_platform_2_angle">
+          <label>{Core_platform_2_angle}</label>
+        </input>
+        <select1 faims_attribute_name="Core classification" faims_attribute_type="vocab" ref="Core_classification">
+          <label>{Core_classification}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Remaining cortical surface" faims_attribute_type="vocab" ref="Remaining_cortical_surface">
+          <label>{Remaining_cortical_surface}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Usewear" faims_attribute_type="vocab" ref="Usewear">
+          <label>{Usewear}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_notes}</label>
+        </input>
+      </group>
+      <group ref="Supplementary">
+        <label>{Supplementary}</label>
+        <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
+          <label>{External_camera_ID}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
+        </trigger>
+        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
+          <label>{Survey_instrument_name}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
+          <label>{Survey_instrument_data}</label>
+        </input>
+      </group>
+    </group>
+    <group ref="Glass_Artefact" faims_archent_type="Glass Artefact">
+      <label>{Glass_Artefact}</label>
+      <group ref="General">
+        <label>{General}</label>
+        <input faims_attribute_name="Glass Artefact ID" faims_attribute_type="measure" ref="Glass_Artefact_ID" faims_certainty="false">
+          <label>{Glass_Artefact_ID}</label>
+        </input>
+        <input faims_attribute_name="Glass Artefact author" faims_attribute_type="measure" ref="Glass_Artefact_author" faims_read_only="true" faims_certainty="false">
+          <label>{Author}</label>
+        </input>
+        <input faims_attribute_name="Glass Artefact timestamp" faims_attribute_type="measure" ref="Glass_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+          <label>{Timestamp}</label>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
+        </trigger>
+        <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
+          <label>{Device_photos}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Device_photos_Button_1">
+          <label>{Device_photos}</label>
+        </trigger>
+        <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
+          <label>{Landform_element}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Feature_details">
+        <label>{Feature_details}</label>
+        <select1 faims_attribute_name="Glass Artefact Diagnostic" faims_attribute_type="vocab" ref="Diagnostic">
+          <label>{Diagnostic}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Colour" faims_attribute_type="vocab" ref="Colour">
+          <label>{Colour}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Grouped fragments" faims_attribute_type="vocab" ref="Grouped_fragments">
+          <label>{Grouped_fragments}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Grouped fragment count" faims_attribute_type="measure" ref="Grouped_fragment_count" faims_annotation="false" faims_certainty="false">
+          <label>{Grouped_fragment_count}</label>
+        </input>
+        <input faims_attribute_name="Grouped fragment weight g" faims_attribute_type="measure" ref="Grouped_fragment_weight_g" faims_annotation="false" faims_certainty="false">
+          <label>{Grouped_fragment_weight_g}</label>
+        </input>
+        <input faims_attribute_name="Group max fragment length mm" faims_attribute_type="measure" ref="Group_max_fragment_length_mm" faims_annotation="false" faims_certainty="false">
+          <label>{Group_max_fragment_length_mm}</label>
+        </input>
+        <input faims_attribute_name="Group notes" faims_attribute_type="measure" ref="Group_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Group_notes}</label>
+        </input>
+        <select1 faims_attribute_name="Fragment location" faims_attribute_type="vocab" ref="Fragment_location">
+          <label>{Fragment_location}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Vessel type" faims_attribute_type="vocab" ref="Vessel_type">
+          <label>{Vessel_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Glass Artefact Length mm" faims_attribute_type="measure" ref="Length_mm">
+          <label>{Length_mm}</label>
+        </input>
+        <input faims_attribute_name="Glass Artefact Width mm" faims_attribute_type="measure" ref="Width_mm">
+          <label>{Width_mm}</label>
+        </input>
+        <input faims_attribute_name="Glass Artefact Thickness mm" faims_attribute_type="measure" ref="Thickness_mm">
+          <label>{Thickness_mm}</label>
+        </input>
+        <select1 faims_attribute_name="Body shape" faims_attribute_type="vocab" ref="Body_shape">
+          <label>{Body_shape}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Number of mould seams" faims_attribute_type="measure" ref="Number_of_mould_seams">
+          <label>{Number_of_mould_seams}</label>
+        </input>
+        <select1 faims_attribute_name="Mould type" faims_attribute_type="vocab" ref="Mould_type">
+          <label>{Mould_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Patination present" faims_attribute_type="vocab" ref="Patination_present">
+          <label>{Patination_present}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Glass Artefact Base diameter mm" faims_attribute_type="measure" ref="Base_diameter_mm">
+          <label>{Base_diameter_mm}</label>
+        </input>
+        <input faims_attribute_name="Base thickness mm" faims_attribute_type="measure" ref="Base_thickness_mm">
+          <label>{Base_thickness_mm}</label>
+        </input>
+        <select1 faims_attribute_name="Pontil mark present" faims_attribute_type="vocab" ref="Pontil_mark_present">
+          <label>{Pontil_mark_present}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Kickup depth mm" faims_attribute_type="measure" ref="Kickup_depth_mm">
+          <label>{Kickup_depth_mm}</label>
+        </input>
+        <input faims_attribute_name="Finish inner bore diameter mm" faims_attribute_type="measure" ref="Finish_inner_bore_diameter_mm">
+          <label>{Finish_inner_bore_diameter_mm}</label>
+        </input>
+        <select1 faims_attribute_name="Finish type" faims_attribute_type="vocab" ref="Finish_type">
+          <label>{Finish_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Closure type" faims_attribute_type="vocab" ref="Closure_type">
+          <label>{Closure_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Applied finish" faims_attribute_type="vocab" ref="Applied_finish">
+          <label>{Applied_finish}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Trademark" faims_attribute_type="measure" ref="Trademark" faims_annotation="false" faims_certainty="false">
+          <label>{Trademark}</label>
+        </input>
+        <input faims_attribute_name="Marks motifs and decoration" faims_attribute_type="measure" ref="Marks_motifs_and_decoration" faims_annotation="false" faims_certainty="false">
+          <label>{Marks_motifs_and_decoration}</label>
+        </input>
+        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_notes}</label>
+        </input>
+      </group>
+      <group ref="Supplementary">
+        <label>{Supplementary}</label>
+        <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
+          <label>{External_camera_ID}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
+        </trigger>
+        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
+          <label>{Survey_instrument_name}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
+          <label>{Survey_instrument_data}</label>
+        </input>
+      </group>
+    </group>
+    <group ref="Ceramic_Artefact" faims_archent_type="Ceramic Artefact">
+      <label>{Ceramic_Artefact}</label>
+      <group ref="General">
+        <label>{General}</label>
+        <input faims_attribute_name="Ceramic Artefact ID" faims_attribute_type="measure" ref="Ceramic_Artefact_ID" faims_certainty="false">
+          <label>{Ceramic_Artefact_ID}</label>
+        </input>
+        <input faims_attribute_name="Ceramic Artefact author" faims_attribute_type="measure" ref="Ceramic_Artefact_author" faims_read_only="true" faims_certainty="false">
+          <label>{Author}</label>
+        </input>
+        <input faims_attribute_name="Ceramic Artefact timestamp" faims_attribute_type="measure" ref="Ceramic_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+          <label>{Timestamp}</label>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
+        </trigger>
+        <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
+          <label>{Device_photos}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Device_photos_Button_1">
+          <label>{Device_photos}</label>
+        </trigger>
+        <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
+          <label>{Landform_element}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Feature_details">
+        <label>{Feature_details}</label>
+        <select1 faims_attribute_name="Ceramic Artefact Diagnostic" faims_attribute_type="vocab" ref="Diagnostic">
+          <label>{Diagnostic}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Ceramic Artefact Type" faims_attribute_type="vocab" ref="Type">
+          <label>{Type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Element" faims_attribute_type="vocab" ref="Element">
+          <label>{Element}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Form" faims_attribute_type="vocab" ref="Form">
+          <label>{Form}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Ceramic Artefact Completeness" faims_attribute_type="vocab" ref="Completeness">
+          <label>{Completeness}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Function" faims_attribute_type="vocab" ref="Function">
+          <label>{Function}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Ceramic Artefact Length mm" faims_attribute_type="measure" ref="Length_mm">
+          <label>{Length_mm}</label>
+        </input>
+        <input faims_attribute_name="Ceramic Artefact Width mm" faims_attribute_type="measure" ref="Width_mm">
+          <label>{Width_mm}</label>
+        </input>
+        <input faims_attribute_name="Ceramic Artefact Thickness mm" faims_attribute_type="measure" ref="Thickness_mm">
+          <label>{Thickness_mm}</label>
+        </input>
+        <input faims_attribute_name="Ceramic Artefact Base diameter mm" faims_attribute_type="measure" ref="Base_diameter_mm">
+          <label>{Base_diameter_mm}</label>
+        </input>
+        <input faims_attribute_name="Rim diameter mm" faims_attribute_type="measure" ref="Rim_diameter_mm">
+          <label>{Rim_diameter_mm}</label>
+        </input>
+        <select1 faims_attribute_name="Paste colour" faims_attribute_type="vocab" ref="Paste_colour">
+          <label>{Paste_colour}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Glaze type" faims_attribute_type="vocab" ref="Glaze_type">
+          <label>{Glaze_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select faims_attribute_name="Decorative methods" faims_attribute_type="vocab" ref="Decorative_methods">
+          <label>{Decorative_methods}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <input faims_attribute_name="Decorative colours" faims_attribute_type="measure" ref="Decorative_colours">
+          <label>{Decorative_colours}</label>
+        </input>
+        <input faims_attribute_name="Visible motifs" faims_attribute_type="measure" ref="Visible_motifs">
+          <label>{Visible_motifs}</label>
+        </input>
+        <select1 faims_attribute_name="Decorative pattern name" faims_attribute_type="vocab" ref="Decorative_pattern_name">
+          <label>{Decorative_pattern_name}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_notes}</label>
+        </input>
+      </group>
+      <group ref="Supplementary">
+        <label>{Supplementary}</label>
+        <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
+          <label>{External_camera_ID}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
+        </trigger>
+        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
+          <label>{Survey_instrument_name}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
+          <label>{Survey_instrument_data}</label>
+        </input>
+      </group>
+    </group>
+    <group ref="Misc_Artefact" faims_archent_type="Misc Artefact">
+      <label>{Misc_Artefact}</label>
+      <group ref="General">
+        <label>{General}</label>
+        <input faims_attribute_name="Misc Artefact ID" faims_attribute_type="measure" ref="Misc_Artefact_ID" faims_certainty="false">
+          <label>{Misc_Artefact_ID}</label>
+        </input>
+        <input faims_attribute_name="Misc Artefact author" faims_attribute_type="measure" ref="Misc_Artefact_author" faims_read_only="true" faims_certainty="false">
+          <label>{Author}</label>
+        </input>
+        <input faims_attribute_name="Misc Artefact timestamp" faims_attribute_type="measure" ref="Misc_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+          <label>{Timestamp}</label>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
+        </trigger>
+        <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
+          <label>{Device_photos}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Device_photos_Button_1">
+          <label>{Device_photos}</label>
+        </trigger>
+        <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
+          <label>{Landform_element}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Feature_details">
+        <label>{Feature_details}</label>
+        <select1 faims_attribute_name="Material" faims_attribute_type="vocab" ref="Material">
+          <label>{Material}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Misc Artefact Type" faims_attribute_type="measure" ref="Type" faims_annotation="false" faims_certainty="false">
+          <label>{Type}</label>
+        </input>
+        <input faims_attribute_name="Misc Artefact Length mm" faims_attribute_type="measure" ref="Length_mm">
+          <label>{Length_mm}</label>
+        </input>
+        <input faims_attribute_name="Misc Artefact Width mm" faims_attribute_type="measure" ref="Width_mm">
+          <label>{Width_mm}</label>
+        </input>
+        <input faims_attribute_name="Misc Artefact Thickness mm" faims_attribute_type="measure" ref="Thickness_mm">
+          <label>{Thickness_mm}</label>
+        </input>
+        <input faims_attribute_name="Height mm" faims_attribute_type="measure" ref="Height_mm">
+          <label>{Height_mm}</label>
+        </input>
+        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_notes}</label>
+        </input>
+      </group>
+      <group ref="Supplementary">
+        <label>{Supplementary}</label>
+        <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
+          <label>{External_camera_ID}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
+        </trigger>
+        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
+          <label>{Survey_instrument_name}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
+          <label>{Survey_instrument_data}</label>
+        </input>
+      </group>
+    </group>
+    <group ref="Discrete_Hearth_Artefact" faims_archent_type="Discrete Hearth Artefact">
+      <label>{Discrete_Hearth_Artefact}</label>
+      <group ref="General">
+        <label>{General}</label>
+        <input faims_attribute_name="Discrete Hearth Artefact ID" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_ID" faims_certainty="false">
+          <label>{Discrete_Hearth_Artefact_ID}</label>
+        </input>
+        <input faims_attribute_name="Discrete Hearth Artefact author" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_author" faims_read_only="true" faims_certainty="false">
+          <label>{Author}</label>
+        </input>
+        <input faims_attribute_name="Discrete Hearth Artefact timestamp" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+          <label>{Timestamp}</label>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+        <trigger ref="Find_This_in_The_Map">
+          <label>{Find_This_in_The_Map___}</label>
+        </trigger>
+        <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
+          <label>{Device_photos}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Device_photos_Button_1">
+          <label>{Device_photos}</label>
+        </trigger>
+        <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
+          <label>{Landform_element}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Feature_details">
+        <label>{Feature_details}</label>
+        <select1 faims_attribute_name="Hearth type" faims_attribute_type="vocab" ref="Hearth_type">
+          <label>{Hearth_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Heating element types" faims_attribute_type="vocab" ref="Heating_element_types">
+          <label>{Heating_element_types}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Heating element frequency" faims_attribute_type="vocab" ref="Heating_element_frequency">
+          <label>{Heating_element_frequency}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select faims_attribute_name="Materials present" faims_attribute_type="vocab" ref="Materials_present">
+          <label>{Materials_present}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <input faims_attribute_name="Diameter mm" faims_attribute_type="measure" ref="Diameter_mm">
+          <label>{Diameter_mm}</label>
+        </input>
+        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_notes}</label>
+        </input>
+      </group>
+      <group ref="Supplementary">
+        <label>{Supplementary}</label>
+        <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
+          <label>{External_camera_ID}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="External camera file names and attachment" faims_attribute_type="measure" ref="External_camera_file_names_and_attachment" faims_certainty="false">
+          <label>{External_camera_file_names_and_attachment}</label>
+        </input>
+        <select faims_sync="true" type="file" faims_attribute_name="External camera image attachment" faims_attribute_type="measure" ref="External_camera_image_attachment" faims_certainty="false">
+          <label>{External_camera_image_attachment}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="External_camera_image_attachment_Button_1">
+          <label>{External_camera_image_attachment}</label>
+        </trigger>
+        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
+          <label>{Survey_instrument_name}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
+          <label>{Survey_instrument_data}</label>
+        </input>
+      </group>
+    </group>
+  </h:body>
+</h:html>

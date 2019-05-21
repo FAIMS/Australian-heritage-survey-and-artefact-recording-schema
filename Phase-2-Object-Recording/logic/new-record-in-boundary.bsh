@@ -1,7 +1,7 @@
 /******* new record button in boundary tab ****/
 
 
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/New_Boundary_Point", "click", "newBoundaryPoint()");
+addOnEvent("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/New_Boundary_Point", "click", "newBoundaryPoint()");
 
 void newBoundaryPoint(){
 	tabgroup = getDisplayedTabGroup();

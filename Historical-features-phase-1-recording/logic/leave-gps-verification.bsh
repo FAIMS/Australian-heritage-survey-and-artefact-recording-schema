@@ -2,8 +2,8 @@
 /* Detects if user leaves GPS tab without pushing take from gps          */
 /*************************************************************************/
 
-addOnEvent("Surface_Exposure/General", "leave", "validateTabGps()");
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point", "leave", "validateTabGps()");
+addOnEvent("Historical_Feature/General", "leave", "validateTabGps()");
+addOnEvent("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point", "leave", "validateTabGps()");
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();

@@ -1,5 +1,5 @@
-// addOnEvent("Burial/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Burial_Boundary_point/Burial_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Burial/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Burial_Boundary_point/Burial_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Ceramic_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Discrete_Hearth_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Flaked_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
@@ -14,8 +14,8 @@
 // addOnEvent("Other_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Rock_Shelter/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Surface_Exposure/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+// addOnEvent("Surface_Exposure/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+// addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Tree/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 
 
