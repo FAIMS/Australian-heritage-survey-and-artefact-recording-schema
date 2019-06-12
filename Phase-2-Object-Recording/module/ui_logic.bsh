@@ -5479,7 +5479,7 @@ void incAutoNum(String destPath) {
 /******************************************************************************/
 /*                         POPULATION VIA <MARKDOWN>                          */
 /******************************************************************************/
-populateWebViewHtml("Control/Control/Objects", "pandoc: Unknown extension: smart\n");
+populateWebViewHtml("Control/Control/Objects", "<h1 id=\"objects\">Objects</h1>\n");
 
 /******************************************************************************/
 /*                POPULATION OF ENTITY AND CHILD ENTITY LISTS                 */
@@ -5637,7 +5637,9 @@ addOnEvent("Other_Point_of_Interest/Boundary/List_of_Related_Boundary_Points", "
 
 /**** Change sync default ***/
 
-setSyncEnabled(false);
+setSyncEnabled(true);
+startInternalGPS();
+
 /************************************ MAP *************************************/
 
 void initMap() {
