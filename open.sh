@@ -6,6 +6,6 @@ for dir in $(find . -mindepth 2  -name "module.xml" | cut -d'/' -f2); do
   echo $dir
   cd $dir
   generate.sh
-  ./upload_selenium.py
+  ./upload_selenium.py --replace
   cd ..
 done
