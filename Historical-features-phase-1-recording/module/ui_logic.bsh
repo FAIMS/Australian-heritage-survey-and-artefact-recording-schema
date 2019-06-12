@@ -4389,7 +4389,8 @@ addOnEvent("Historical_Feature/Boundary/List_of_Related_Boundary_Points", "click
 
 /**** Change sync default ***/
 
-setSyncEnabled(false);
+setSyncEnabled(true);
+startInternalGPS();
 /************************************ MAP *************************************/
 
 void initMap() {

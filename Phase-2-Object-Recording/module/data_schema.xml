@@ -2747,11 +2747,11 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{Wood}
+        <term>{Brass}
 <description> </description></term>
-        <term>{Brass_copper}
+        <term>{Copper}
 <description> </description></term>
-        <term>{Nickel_silver}
+        <term>{Nickel}
 <description> </description></term>
         <term>{Cast_iron}
 <description> </description></term>
@@ -2759,17 +2759,27 @@
 <description> </description></term>
         <term>{Corrugated_iron}
 <description> </description></term>
-        <term>{Other_iron}
-<description> </description></term>
-        <term>{Copper}
-<description> </description></term>
-        <term>{Brass}
-<description> </description></term>
         <term>{Lead}
 <description> </description></term>
-        <term>{Brick}
+        <term>{Other_metals}
+<description> </description></term>
+        <term>{Wood}
+<description> </description></term>
+        <term>{Plastic}
+<description> </description></term>
+        <term>{Shell}
+<description> </description></term>
+        <term>{Glass}
+<description> </description></term>
+        <term>{Stone}
+<description> </description></term>
+        <term>{Earth}
+<description> </description></term>
+        <term>{Other_organic}
 <description> </description></term>
         <term>{Concrete}
+<description> </description></term>
+        <term>{Gravel}
 <description> </description></term>
       </lookup>
     </property>

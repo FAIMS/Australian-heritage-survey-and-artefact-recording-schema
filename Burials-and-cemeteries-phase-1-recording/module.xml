@@ -15,8 +15,8 @@
 		Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
 		Underneath: GPS diagnostics (as specified above)
 		 -->
- 		
- 		
+
+
 		<New_Burial t="button" l="Burial"/>
 		<GPS_diagnostics t="gpsdiag"/>
 		<Recent_records t="list"/>
@@ -26,25 +26,25 @@
 		<Map t="map" f="nolabel"/>
 	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
 	</Map>
-	
+
 	<search/>
 	<!--"Select User" dropdown has been added using @POSTPROC-->
-	
+
 
 	<Autonumbering>
 		<autonum/>
 	</Autonumbering>
-	
-</Control>	
+
+</Control>
 
 
-<!-- 
-########  ##     ## ########  ####    ###    ##       
-##     ## ##     ## ##     ##  ##    ## ##   ##       
-##     ## ##     ## ##     ##  ##   ##   ##  ##       
-########  ##     ## ########   ##  ##     ## ##       
-##     ## ##     ## ##   ##    ##  ######### ##       
-##     ## ##     ## ##    ##   ##  ##     ## ##       
+<!--
+########  ##     ## ########  ####    ###    ##
+##     ## ##     ## ##     ##  ##    ## ##   ##
+##     ## ##     ## ##     ##  ##   ##   ##  ##
+########  ##     ## ########   ##  ##     ## ##
+##     ## ##     ## ##   ##    ##  ######### ##
+##     ## ##     ## ##    ##   ##  ##     ## ##
 ########   #######  ##     ## #### ##     ## ########  -->
 
 <Burial>
@@ -60,7 +60,7 @@
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
-	    </Find_This_in_The_Map>  
+	    </Find_This_in_The_Map>
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: ../vocab/boundary_types.xml-->
@@ -100,7 +100,7 @@
 		<Morphology_notes f="nocertainty noannotation">
 		    <desc>Record any additional notes about site morphology not captured elsewhere</desc>
 		</Morphology_notes>
-		
+
 	</Landscape_context>
 	<Feature_details>
 		<Cultural_associations>
@@ -129,7 +129,7 @@
 		    <desc>Select all grave marker types associated with this feature</desc>
 		    <!--@SOURCE: ../vocab/burial_nos.xml-->
 		</Grave_markers_used>
-		<Preservation t="checkbox">
+		<Preservation>
 		    <desc>Select all preservation conditions that apply to this feature</desc>
 		    <!--@SOURCE: ../vocab/burial_preserv.xml-->
 		</Preservation>
@@ -145,7 +145,7 @@
 		    <desc>Which skeletal elements are visible?</desc>
 		    <!--@SOURCE: ../vocab/burial_elements.xml-->
 		</Elements_present>
-		<Additional_notes f="nocertainty noannotation"> 
+		<Additional_notes f="nocertainty noannotation">
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
 			</desc>
 		</Additional_notes>
@@ -161,7 +161,7 @@
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
-		<External_camera_image_attachment t="file" f="nocertainty"> 
+		<External_camera_image_attachment t="file" f="nocertainty">
 			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
 		</External_camera_image_attachment>
@@ -186,7 +186,7 @@
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
-	    </Find_This_in_The_Map>  
+	    </Find_This_in_The_Map>
 		<Comment f="nocertainty noannotation">
 			<desc>Use this field to document any relevant information about the recorded point</desc>
 		</Comment>
@@ -216,4 +216,3 @@
 ]]></logic>
 
 </module>
-

@@ -1,3 +1,4 @@
 /**** Change sync default ***/
 
-setSyncEnabled(false);
+setSyncEnabled(true);
+startInternalGPS();

@@ -1,14 +1,19 @@
 <opts>
-    <opt>Wood</opt>
-    <opt>Brass-copper</opt>
-    <opt>Nickel silver</opt>
+    <opt>Brass</opt>
+    <opt>Copper</opt>
+    <opt>Nickel</opt>
     <opt>Cast iron</opt>
     <opt>Sheet iron</opt>
     <opt>Corrugated iron</opt>
-    <opt>Other iron</opt>
-    <opt>Copper</opt>
-    <opt>Brass</opt>
     <opt>Lead</opt>
-    <opt>Brick</opt>
+    <opt>Other metals</opt>
+    <opt>Wood</opt>
+    <opt>Plastic</opt>
+    <opt>Shell</opt>
+    <opt>Glass</opt>
+    <opt>Stone</opt>
+    <opt>Earth</opt>
+    <opt>Other organic</opt>
     <opt>Concrete</opt>
+    <opt>Gravel</opt>
 </opts>

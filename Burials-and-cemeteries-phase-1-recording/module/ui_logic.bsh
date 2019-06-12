@@ -357,7 +357,7 @@ REF_TO_TYPE.put("Burial/Feature_details/Age_range--specific", "input");
 REF_TO_TYPE.put("Burial/Feature_details/Burial_form", "dropdown");
 REF_TO_TYPE.put("Burial/Feature_details/Burial_number", "input");
 REF_TO_TYPE.put("Burial/Feature_details/Grave_markers_used", "checkbox");
-REF_TO_TYPE.put("Burial/Feature_details/Preservation", "checkbox");
+REF_TO_TYPE.put("Burial/Feature_details/Preservation", "dropdown");
 REF_TO_TYPE.put("Burial/Feature_details/Orientation_degrees", "input");
 REF_TO_TYPE.put("Burial/Feature_details/Artefacts", "checkbox");
 REF_TO_TYPE.put("Burial/Feature_details/Elements_present", "checkbox");
@@ -4391,7 +4391,8 @@ addOnEvent("Burial/Boundary/List_of_Related_Boundary_Points", "click", "loadEnti
 
 /**** Change sync default ***/
 
-setSyncEnabled(false);
+setSyncEnabled(true);
+startInternalGPS();
 /************************************ MAP *************************************/
 
 void initMap() {

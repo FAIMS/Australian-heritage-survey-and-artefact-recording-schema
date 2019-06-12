@@ -330,7 +330,6 @@ REF_TO_TYPE.put("Control/Autonumbering/Next_Rock_Shelter_Boundary_Point_ID", "in
 REF_TO_TYPE.put("Rock_Shelter/General/Rock_Shelter_ID", "input");
 REF_TO_TYPE.put("Rock_Shelter/General/Rock_Shelter_author", "input");
 REF_TO_TYPE.put("Rock_Shelter/General/Rock_Shelter_timestamp", "input");
-REF_TO_TYPE.put("Rock_Shelter/General/Level_of_recording", "dropdown");
 REF_TO_TYPE.put("Rock_Shelter/General/Latitude", "input");
 REF_TO_TYPE.put("Rock_Shelter/General/Longitude", "input");
 REF_TO_TYPE.put("Rock_Shelter/General/Northing", "input");
@@ -407,7 +406,6 @@ REF_TO_TYPE.put("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point", "tab"
 DATA_REFS.add("Rock_Shelter/General/Rock_Shelter_ID");
 DATA_REFS.add("Rock_Shelter/General/Rock_Shelter_author");
 DATA_REFS.add("Rock_Shelter/General/Rock_Shelter_timestamp");
-DATA_REFS.add("Rock_Shelter/General/Level_of_recording");
 DATA_REFS.add("Rock_Shelter/General/Latitude");
 DATA_REFS.add("Rock_Shelter/General/Longitude");
 DATA_REFS.add("Rock_Shelter/General/Northing");
@@ -4410,7 +4408,8 @@ addOnEvent("Rock_Shelter/Boundary/List_of_Related_Boundary_Points", "click", "lo
 
 /**** Change sync default ***/
 
-setSyncEnabled(false);
+setSyncEnabled(true);
+startInternalGPS();
 /************************************ MAP *************************************/
 
 void initMap() {

@@ -330,7 +330,6 @@ REF_TO_TYPE.put("Control/Autonumbering/Next_Scar_ID", "input");
 REF_TO_TYPE.put("Tree/General/Tree_ID", "input");
 REF_TO_TYPE.put("Tree/General/Tree_author", "input");
 REF_TO_TYPE.put("Tree/General/Tree_timestamp", "input");
-REF_TO_TYPE.put("Tree/General/Level_of_recording", "dropdown");
 REF_TO_TYPE.put("Tree/General/Latitude", "input");
 REF_TO_TYPE.put("Tree/General/Longitude", "input");
 REF_TO_TYPE.put("Tree/General/Northing", "input");
@@ -396,7 +395,6 @@ REF_TO_TYPE.put("Scar/Scar", "tab");
 DATA_REFS.add("Tree/General/Tree_ID");
 DATA_REFS.add("Tree/General/Tree_author");
 DATA_REFS.add("Tree/General/Tree_timestamp");
-DATA_REFS.add("Tree/General/Level_of_recording");
 DATA_REFS.add("Tree/General/Latitude");
 DATA_REFS.add("Tree/General/Longitude");
 DATA_REFS.add("Tree/General/Northing");
@@ -4374,7 +4372,8 @@ addOnEvent("Tree/Scar_control/List_of_Related_Scars", "click", "loadEntity()");
 
 /**** Change sync default ***/
 
-setSyncEnabled(false);
+setSyncEnabled(true);
+startInternalGPS();
 /************************************ MAP *************************************/
 
 void initMap() {

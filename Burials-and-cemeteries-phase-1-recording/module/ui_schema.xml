@@ -501,13 +501,13 @@
             <value>Options not loaded</value>
           </item>
         </select>
-        <select faims_attribute_name="Preservation" faims_attribute_type="vocab" ref="Preservation">
+        <select1 faims_attribute_name="Preservation" faims_attribute_type="vocab" ref="Preservation">
           <label>{Preservation}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
-        </select>
+        </select1>
         <input faims_attribute_name="Orientation degrees" faims_attribute_type="measure" ref="Orientation_degrees">
           <label>{Orientation__degrees_}</label>
         </input>
