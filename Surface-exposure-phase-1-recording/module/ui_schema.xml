@@ -73,7 +73,6 @@
               <Surface_Exposure_ID/>
               <Surface_Exposure_author/>
               <Surface_Exposure_timestamp/>
-              <Level_of_recording/>
               <Colgroup_1>
                 <Col_1>
                   <Latitude/>
@@ -340,13 +339,6 @@
         <input faims_attribute_name="Surface Exposure timestamp" faims_attribute_type="measure" ref="Surface_Exposure_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
-        <select1 faims_attribute_name="Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
-          <label>{Level_of_recording}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
           <group ref="Col_1" faims_style="even">

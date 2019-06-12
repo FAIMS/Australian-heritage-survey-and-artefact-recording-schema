@@ -15,10 +15,10 @@
 		Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
 		Underneath: GPS diagnostics (as specified above)
 		 -->
- 		
- 		
+
+
 		<New_Tree t="button" l="Tree"/>
-		
+
  		<GPS_diagnostics t="gpsdiag"/>
 		<Recent_records t="list"/>
 
@@ -28,25 +28,25 @@
 		<Map t="map" f="nolabel"/>
 	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
 	</Map>
-	
+
 	<search/>
 	<!--"Select User" dropdown has been added using @POSTPROC-->
-	
+
 
 	<Autonumbering>
 		<autonum/>
 	</Autonumbering>
-	
-</Control>	
 
-<!-- 
-######## ########  ######## ########                                                                                
-   ##    ##     ## ##       ##                                                                                      
-   ##    ##     ## ##       ##                                                                                      
-   ##    ########  ######   ######                                                                                  
-   ##    ##   ##   ##       ##                                                                                      
-   ##    ##    ##  ##       ##                                                                                      
-   ##    ##     ## ######## ########   -->   
+</Control>
+
+<!--
+######## ########  ######## ########
+   ##    ##     ## ##       ##
+   ##    ##     ## ##       ##
+   ##    ########  ######   ######
+   ##    ##   ##   ##       ##
+   ##    ##    ##  ##       ##
+   ##    ##     ## ######## ########   -->
 
 <Tree>
 	<fmt>TR{{Tree_ID}}</fmt>
@@ -54,19 +54,19 @@
 		<Tree_ID f="id autonum nocertainty"/>
 		<author f="nocertainty noannotation"/>
 		<timestamp f="nocertainty noannotation"/>
-		<Level_of_recording f="nocertainty">
-		    <desc>Detail the recording approach used</desc>
+<!--		<Level_of_recording f="nocertainty">
+		    <desc>Detail the recording approach used</desc>-->
 		    <!--@SOURCE: ../vocab/phase.xml-->
-		</Level_of_recording>
+	<!--	</Level_of_recording>-->
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
-	    </Find_This_in_The_Map>  
+	    </Find_This_in_The_Map>
 		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos>
 	</General>
-	
+
 	<Landscape_context>
 		<Landform_pattern>
 		    <desc>300m observational unit.</desc>
@@ -87,8 +87,8 @@
 		<Additional_environmental_notes f="nocertainty noannotation">
 		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
 		</Additional_environmental_notes>
-		
-		
+
+
 	</Landscape_context>
 	<Feature_details>
 		<Tree_type>
@@ -117,7 +117,7 @@
 		<Stump_height_mm b="decimal" f="nocertainty noannotation">
 		    <desc>Measure the height, in millimetres, of any stumps associated with this tree</desc>
 		</Stump_height_mm>
-		<Additional_notes f="nocertainty noannotation"> 
+		<Additional_notes f="nocertainty noannotation">
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
 			</desc>
 		</Additional_notes>
@@ -130,7 +130,7 @@
 		<Paper_notes_and_sketches t="camera" f="nocertainty">
 			<desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
 		</Paper_notes_and_sketches>
-		
+
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
 		    <!--@SOURCE: ../vocab/camera_ids.xml-->
@@ -138,7 +138,7 @@
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
-		<External_camera_image_attachment t="file" f="nocertainty"> 
+		<External_camera_image_attachment t="file" f="nocertainty">
 			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
 		</External_camera_image_attachment>
@@ -159,7 +159,7 @@
 		<author f="nocertainty"/>
 		<timestamp/>
 		<Scar_type>
-			<!--@SOURCE: ../vocab/scar_types.xml-->	
+			<!--@SOURCE: ../vocab/scar_types.xml-->
 		</Scar_type>
 		<Scar_Height_Above_Ground_mm b="decimal">
 		    <desc>Measure from the ground surface to the bottom of the scar, if applicable. Please note that the scar base is the lowermost area of axe damage, rather than the scar dry face</desc>
@@ -179,7 +179,7 @@
 		<Device_photos_of_scar t="camera">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
 		</Device_photos_of_scar>
-		<Additional_notes f="nocertainty noannotation"> 
+		<Additional_notes f="nocertainty noannotation">
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
 			</desc>
 		</Additional_notes>
@@ -191,7 +191,7 @@
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
-		<External_camera_image_attachment t="file" f="nocertainty"> 
+		<External_camera_image_attachment t="file" f="nocertainty">
 			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
 		</External_camera_image_attachment>
@@ -222,4 +222,3 @@
 ]]></logic>
 
 </module>
-

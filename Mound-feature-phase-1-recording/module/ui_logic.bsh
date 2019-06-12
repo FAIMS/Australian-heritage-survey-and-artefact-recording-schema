@@ -4397,7 +4397,8 @@ addOnEvent("Mound/Boundary/List_of_Related_Boundary_Points", "click", "loadEntit
 
 /**** Change sync default ***/
 
-setSyncEnabled(false);
+setSyncEnabled(true);
+startInternalGPS();
 /************************************ MAP *************************************/
 
 void initMap() {

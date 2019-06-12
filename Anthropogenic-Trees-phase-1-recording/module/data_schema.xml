@@ -22,17 +22,6 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Level of recording" type="vocab">
-      <description>Detail the recording approach used</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-      <lookup>
-        <term>{Phase_1}
-<description>Coarse level of recording intended to capture overall characteristics of a feature or site. Typically, this approach is used for complex features with multiple attributes that could potentially be recorded separately.</description></term>
-        <term>{Phase_2}
-<description>High resolution recording of discrete features present within a site or assemblage. For example, recording of individual buildings or structures, delineating boundaries of artefact scatters, hearths, faunal deposits or objects that together comprise a discrete feature</description></term>
-      </lookup>
-    </property>
     <property name="Latitude" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>

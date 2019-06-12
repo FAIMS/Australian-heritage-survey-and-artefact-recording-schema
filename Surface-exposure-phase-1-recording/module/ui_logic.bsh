@@ -330,7 +330,6 @@ REF_TO_TYPE.put("Control/Autonumbering/Next_Surface_Exposure_Boundary_Point_ID",
 REF_TO_TYPE.put("Surface_Exposure/General/Surface_Exposure_ID", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Surface_Exposure_author", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Surface_Exposure_timestamp", "input");
-REF_TO_TYPE.put("Surface_Exposure/General/Level_of_recording", "dropdown");
 REF_TO_TYPE.put("Surface_Exposure/General/Latitude", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Longitude", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Northing", "input");
@@ -399,7 +398,6 @@ REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point
 DATA_REFS.add("Surface_Exposure/General/Surface_Exposure_ID");
 DATA_REFS.add("Surface_Exposure/General/Surface_Exposure_author");
 DATA_REFS.add("Surface_Exposure/General/Surface_Exposure_timestamp");
-DATA_REFS.add("Surface_Exposure/General/Level_of_recording");
 DATA_REFS.add("Surface_Exposure/General/Latitude");
 DATA_REFS.add("Surface_Exposure/General/Longitude");
 DATA_REFS.add("Surface_Exposure/General/Northing");
@@ -4393,7 +4391,8 @@ addOnEvent("Surface_Exposure/Boundary/List_of_Related_Boundary_Points", "click",
 
 /**** Change sync default ***/
 
-setSyncEnabled(false);
+setSyncEnabled(true);
+startInternalGPS();
 /****************************** SEARCH EXTENSION ******************************/
 /* Implements an extension to the search page which allows users to           */
 /* constrain their searches by user.                                          */

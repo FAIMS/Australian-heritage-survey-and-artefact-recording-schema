@@ -15,8 +15,8 @@
 		Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
 		Underneath: GPS diagnostics (as specified above)
 		 -->
- 		
- 		
+
+
 		<New_Rock_Shelter t="button" l="Rock_Shelter"/>
 		<GPS_diagnostics t="gpsdiag"/>
 		<Recent_records t="list"/>
@@ -26,24 +26,24 @@
 		<Map t="map" f="nolabel"/>
 	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
 	</Map>
-	
+
 	<search/>
 	<!--"Select User" dropdown has been added using @POSTPROC-->
-	
+
 
 	<Autonumbering>
 		<autonum/>
 	</Autonumbering>
-	
-</Control>	
 
-<!-- 
-########   #######   ######  ##    ##     ######  ##     ## ######## ##       
-##     ## ##     ## ##    ## ##   ##     ##    ## ##     ## ##       ##       
-##     ## ##     ## ##       ##  ##      ##       ##     ## ##       ##       
-########  ##     ## ##       #####        ######  ######### ######   ##       
-##   ##   ##     ## ##       ##  ##            ## ##     ## ##       ##       
-##    ##  ##     ## ##    ## ##   ##     ##    ## ##     ## ##       ##       
+</Control>
+
+<!--
+########   #######   ######  ##    ##     ######  ##     ## ######## ##
+##     ## ##     ## ##    ## ##   ##     ##    ## ##     ## ##       ##
+##     ## ##     ## ##       ##  ##      ##       ##     ## ##       ##
+########  ##     ## ##       #####        ######  ######### ######   ##
+##   ##   ##     ## ##       ##  ##            ## ##     ## ##       ##
+##    ##  ##     ## ##    ## ##   ##     ##    ## ##     ## ##       ##
 ##     ##  #######   ######  ##    ##     ######  ##     ## ######## ########  -->
 <Rock_Shelter>
 	<fmt>RS{{Rock_Shelter_ID}}</fmt>
@@ -51,14 +51,14 @@
 		<Rock_Shelter_ID f="id autonum nocertainty"/>
 		<author f="nocertainty"/>
 		<timestamp f="nocertainty noannotation"/>
-		<Level_of_recording f="nocertainty">
-		    <desc>Detail the recording approach used</desc>
+	<!--	<Level_of_recording f="nocertainty">
+		    <desc>Detail the recording approach used</desc> -->
 		    <!--@SOURCE: ../vocab/phase.xml-->
-		</Level_of_recording>
+	<!--	</Level_of_recording> -->
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
-	    </Find_This_in_The_Map>  
+	    </Find_This_in_The_Map>
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
 		    <!--@SOURCE: ../vocab/boundary_types.xml-->
@@ -91,16 +91,16 @@
 		<Additional_environmental_notes f="nocertainty noannotation">
 		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
 		</Additional_environmental_notes>
-		<Morphology_type > 
+		<Morphology_type >
 			<desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
 			</desc>
 			<!--@SOURCE: ../vocab/feat_morphology.xml-->
 		</Morphology_type>
-		<Morphology_notes f="nocertainty noannotation"> 
+		<Morphology_notes f="nocertainty noannotation">
 			<desc>Record any additional notes about site morphology not captured elsewhere
 			</desc>
 		</Morphology_notes>
-		
+
 	</Landscape_context>
 	<Feature_details>
 		<Shelter_type f="nocertainty">
@@ -195,7 +195,7 @@
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
 		</External_camera_file_names_and_attachment>
-		<External_camera_image_attachment t="file" f="nocertainty"> 
+		<External_camera_image_attachment t="file" f="nocertainty">
 			<desc>Upload files on server, and annotate those files with captions.
 			</desc>
 		</External_camera_image_attachment>
@@ -220,7 +220,7 @@
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
 	      Find This in The Map...
-	    </Find_This_in_The_Map>  
+	    </Find_This_in_The_Map>
 		<Comment f="nocertainty noannotation">
 			<desc>Use this field to document any relevant information about the recorded point</desc>
 		</Comment>
@@ -249,4 +249,3 @@
 ]]></logic>
 
 </module>
-
