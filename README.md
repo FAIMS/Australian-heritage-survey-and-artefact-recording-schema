@@ -59,6 +59,7 @@ For more details about **Indigenous foodways in colonial Cape York Peninsula** p
     </p>
 <p align="left">
 <img src="Screenshots/Screenshot_20190509-171313.png" width="250"/>
-<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-03.png" width="250"/>
-<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-12.png" width="250"`/>
-</p>
+    </p>
+<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-03.png"/>
+<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-12.png"/>
+
