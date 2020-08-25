@@ -69,7 +69,7 @@
 		<timestamp f="nocertainty noannotation"/>
 		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>
-		    <!--@SOURCE: ../vocab/phase.xml-->
+		    <!--@SOURCE: ../../vocab/phase.xml-->
 		</Level_of_recording>
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
@@ -77,7 +77,7 @@
 	    </Find_This_in_The_Map>  
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
-		    <!--@SOURCE: ../vocab/boundary_types.xml-->
+		    <!--@SOURCE: ../../vocab/boundary_types.xml-->
 		</Boundary_criterion>
 		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
@@ -90,26 +90,26 @@
 	<Landscape_context>
 		<Landform_pattern>
 		    <desc>300m observational unit.</desc>
-		    <!--@SOURCE: ../vocab/landform_pattern.xml-->
+		    <!--@SOURCE: ../../vocab/landform_pattern.xml-->
 		</Landform_pattern>
 		<Landform_element>
 		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../vocab/landform_elements.xml-->
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 		<Dominant_vegetation_type>
 		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
-		    <!--@SOURCE: ../vocab/veg_struct_form.xml-->
+		    <!--@SOURCE: ../../vocab/veg_struct_form.xml-->
 		</Dominant_vegetation_type>
 		<Dominant_vegetation_cover f="nocertainty">
 		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
-		    <!--@SOURCE: ../vocab/veg_struct_cov.xml-->
+		    <!--@SOURCE: ../../vocab/veg_struct_cov.xml-->
 		</Dominant_vegetation_cover>
 		<Additional_environmental_notes f="nocertainty noannotation">
 		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
 		</Additional_environmental_notes>
 		<Morphology_type>
 		    <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</desc>
-		    <!--@SOURCE: ../vocab/feat_morphology.xml-->
+		    <!--@SOURCE: ../../vocab/feat_morphology.xml-->
 		</Morphology_type>
 		<Morphology_notes f="nocertainty noannotation">
 		    <desc>Record any additional notes about site morphology not captured elsewhere</desc>
@@ -119,7 +119,7 @@
 	<Feature_details>
 		<Type>
 		    <desc>Select the general feature type</desc>
-		    <!--@SOURCE: ../vocab/poi_type.xml-->
+		    <!--@SOURCE: ../../vocab/poi_type.xml-->
 		</Type>
 		<Detailed_description f="nocertainty">
 		    <desc>Provide a detailed description of this POI and any associated data</desc>
@@ -139,7 +139,7 @@
 		</Paper_notes_and_sketches>
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
@@ -150,7 +150,7 @@
 		</External_camera_image_attachment>
 		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../vocab/survey_instr.xml-->
+		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
 		</Survey_instrument_name>
 		<Survey_instrument_data >
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
@@ -205,14 +205,14 @@
 		</Device_photos>
 		<Landform_element>
 		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../vocab/landform_elements.xml-->
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 	</General>
 	
 	<Feature_details>
 		<Raw_material_type>
 		    <desc>Select the raw material type</desc>
-		    <!--@SOURCE: ../vocab/sa_rawmaterial.xml-->
+		    <!--@SOURCE: ../../vocab/sa_rawmaterial.xml-->
 		</Raw_material_type>
 		<Raw_material_colour f="nocertainty noannotation">
 		    <desc>Provide a classification of the primary colour and secondary colour (e.g. Reddish-brown), or if available, provide the Munsell rock colour designation</desc>
@@ -223,11 +223,11 @@
 		</Weight_g>
 		<Flake_completeness>
 		    <desc>Assess the degree of flake fragmentation</desc>
-		    <!--@SOURCE: ../vocab/saflake_completeness.xml-->
+		    <!--@SOURCE: ../../vocab/saflake_completeness.xml-->
 		</Flake_completeness>
 		<Platform_surface>
 		    <desc>Select the type of platform present</desc>
-		    <!--@SOURCE: ../vocab/saflake_platsurf.xml-->
+		    <!--@SOURCE: ../../vocab/saflake_platsurf.xml-->
 		</Platform_surface>
 		<Platform_angle b="decimal">
 		    <desc>Measure the angle between the platform and dorsal surface. Ideally, this should be recorded with a goniometer</desc>
@@ -250,41 +250,41 @@
 		</Maximum_thickness_mm>
 		<Termination_type>
 		    <desc>The shape of the distal end of the flake or distal fragment</desc>
-		    <!--@SOURCE: ../vocab/saflake_termination.xml-->
+		    <!--@SOURCE: ../../vocab/saflake_termination.xml-->
 		</Termination_type>
 		<Overhang_removal>
 		    <desc>Indicate whether there is evidence of overhang removal, typically indicated by the scars on the dorsal surface of the flake that were created before it was detached, through platform preparation</desc>
-		    <!--@SOURCE: ../vocab/overhang_removal.xml-->
+		    <!--@SOURCE: ../../vocab/overhang_removal.xml-->
 		</Overhang_removal>
 		<Dorsal_cortex_type>
 		    <desc>A general description of the texture of the cortex</desc>
-		    <!--@SOURCE: ../vocab/saflake_dorscortex.xml-->
+		    <!--@SOURCE: ../../vocab/saflake_dorscortex.xml-->
 		</Dorsal_cortex_type>
 		<Dorsal_cortex_amount>
 		    <desc>Ordinal measurement of the amount of cortext remaining on the dorsal surface</desc>
-		    <!--@SOURCE: ../vocab/percentage_amount.xml-->
+		    <!--@SOURCE: ../../vocab/percentage_amount.xml-->
 		</Dorsal_cortex_amount>
 		<Dorsal_scar_count b="integer">
 		    <desc>Count of negative flake scars on dorsal surface, including both complete and partial scars</desc>
 		</Dorsal_scar_count>
 		<Dorsal_scar_direction t="checkbox">
 		    <desc>Record the initiation quadrant for dorsal scars. For example, a flake with dorsal scars initatied in Q1 and Q2 only would be recorded as 1,2</desc>
-		    <!--@SOURCE: ../vocab/dorsal_scar_direction.xml-->
+		    <!--@SOURCE: ../../vocab/dorsal_scar_direction.xml-->
 		</Dorsal_scar_direction>
 		<Dorsal_flake_scar_maximum_length b="decimal">
 		    <desc>Maximum length of the longest flake scar preserved on the dorsal surface</desc>
 		</Dorsal_flake_scar_maximum_length>
 		<Retouched_quadrants t="checkbox">
 		    <desc>Which quadrants feature retouched margins?</desc>
-		    <!--@SOURCE: ../vocab/dorsal_scar_direction.xml-->
+		    <!--@SOURCE: ../../vocab/dorsal_scar_direction.xml-->
 		</Retouched_quadrants>
 		<Retouch_initiation>
 		    <desc>Describe retouching initiation</desc>
-		    <!--@SOURCE: ../vocab/saflake_rtinit.xml-->
+		    <!--@SOURCE: ../../vocab/saflake_rtinit.xml-->
 		</Retouch_initiation>
 		<Retouch_shape>
 		    <desc>Describe retouch shape</desc>
-		    <!--@SOURCE: ../vocab/saflake_rtshape.xml-->
+		    <!--@SOURCE: ../../vocab/saflake_rtshape.xml-->
 		</Retouch_shape>
 		<Additional_notes f="nocertainty noannotation"> 
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
@@ -295,7 +295,7 @@
 		
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
@@ -306,7 +306,7 @@
 		</External_camera_image_attachment>
 		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../vocab/survey_instr.xml-->
+		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
 		</Survey_instrument_name>
 		<Survey_instrument_data >
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
@@ -342,28 +342,28 @@
 		</Device_photos>
 		<Landform_element>
 		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../vocab/landform_elements.xml-->
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 	</General>
 	
 	<Feature_details>
 		<Raw_material_type>
 		    <desc>Select the raw material type</desc>
-		    <!--@SOURCE: ../vocab/sa_rawmaterial.xml-->
+		    <!--@SOURCE: ../../vocab/sa_rawmaterial.xml-->
 		</Raw_material_type>
 		<Raw_material_colour f="nocertainty noannotation">
 		    <desc>Provide a classification of the primary colour and secondary colour (e.g. Reddish-brown), or if available, provide the Munsell rock colour designation</desc>
 		</Raw_material_colour>
 		<Completeness f="nocertainty">
 			<desc>Estimate the proportion of the original artefact present</desc>
-			<!--@SOURCE: ../vocab/percentage_amount.xml-->
+			<!--@SOURCE: ../../vocab/percentage_amount.xml-->
 		</Completeness>
 		<Weight_g b="decimal" f="nocertainty">
 		    <desc>If available, record artefact weight (e.g. for lab-based analysis)</desc>
 		</Weight_g>
 		<Type f="nocertainty">
 		    <desc>Select artefact type</desc>
-		    <!--@SOURCE: ../vocab/othsa_types.xml-->
+		    <!--@SOURCE: ../../vocab/othsa_types.xml-->
 		</Type>
 		<Length_mm b="decimal" f="nocertainty">
 		    <desc>Maximum length of the artefact when oriented correctly</desc>
@@ -379,14 +379,14 @@
 		</Largest_scar_length_mm>
 		<Core_largest_scar_shape>
 		    <desc>Select the shape of the largest flake scar present</desc>
-		    <!--@SOURCE: ../vocab/othersa_flakeshape.xml-->
+		    <!--@SOURCE: ../../vocab/othersa_flakeshape.xml-->
 		</Core_largest_scar_shape>
 		<Core_platform_count b="integer">
 		    <desc>A simple count of the no. of platforms from which flakes were struck</desc>
 		</Core_platform_count>
 		<Core_platform_1_surface>
 		    <desc>Select the type of platform present</desc>
-		    <!--@SOURCE: ../vocab/saflake_platsurf.xml-->
+		    <!--@SOURCE: ../../vocab/saflake_platsurf.xml-->
 		</Core_platform_1_surface>
 		<Core_platform_1_length_mm b="decimal">
 		    <desc>Maximum width across the platform surface, and between the two lateral margins either side of the main flake scar. Leave blank if either lateral margin is absent (e.g. broken core)</desc>
@@ -399,7 +399,7 @@
 		</Core_platform_1_angle_mm>
 		<Core_platform_2_surface>
 		    <desc>Select the type of platform present</desc>
-		    <!--@SOURCE: ../vocab/saflake_platsurf.xml-->
+		    <!--@SOURCE: ../../vocab/saflake_platsurf.xml-->
 		</Core_platform_2_surface>
 		<Core_platform_2_length_mm b="decimal">
 		    <desc>Maximum width across the platform surface, and between the two lateral margins either side of the main flake scar. Leave blank if either lateral margin is absent (e.g. broken core)</desc>
@@ -412,15 +412,15 @@
 		</Core_platform_2_angle>
 		<Core_classification>
 		    <desc>If known, select the appropriate core type</desc>
-		    <!--@SOURCE: ../vocab/othersa_coreshape.xml-->
+		    <!--@SOURCE: ../../vocab/othersa_coreshape.xml-->
 		</Core_classification>
 		<Remaining_cortical_surface>
 		    <desc>Estimate the proportion of cortical surface remaining on the artefact</desc>
-		    <!--@SOURCE: ../vocab/percentage_amount.xml-->
+		    <!--@SOURCE: ../../vocab/percentage_amount.xml-->
 		</Remaining_cortical_surface>
 		<Usewear>
 		    <desc>Record any evidence of impact damage observed on the artefact</desc>
-		    <!--@SOURCE: ../vocab/othersa_use.xml-->
+		    <!--@SOURCE: ../../vocab/othersa_use.xml-->
 		</Usewear>
 		<Additional_notes f="nocertainty noannotation"> 
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
@@ -431,7 +431,7 @@
 	<Supplementary>		
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
@@ -442,7 +442,7 @@
 		</External_camera_image_attachment>
 		<Survey_instrument_name>
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../vocab/survey_instr.xml-->
+		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
 		</Survey_instrument_name>
 		<Survey_instrument_data>
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
@@ -475,22 +475,22 @@
 		</Device_photos>
 		<Landform_element>
 		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../vocab/landform_elements.xml-->
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 	</General>
 	
 	<Feature_details>
 		<Diagnostic>
 		    <desc>Diagnostic artefacts are those that unambiguously indicative of a single original vessel (e.g. finish, base) </desc>
-		    <!--@SOURCE: ../vocab/yesno.xml-->
+		    <!--@SOURCE: ../../vocab/yesno.xml-->
 		</Diagnostic>
 		<Colour>
 		    <desc>Select closest colour match</desc>
-		    <!--@SOURCE: ../vocab/glass_colour.xml-->
+		    <!--@SOURCE: ../../vocab/glass_colour.xml-->
 		</Colour>
 		<Grouped_fragments>
 		    <desc>Where multiple fragments resulting from breakage of the same bottle or bottle fragment are found at one location, record as a group </desc>
-		    <!--@SOURCE: ../vocab/yesno.xml-->
+		    <!--@SOURCE: ../../vocab/yesno.xml-->
 		</Grouped_fragments>
 		<Grouped_fragment_count b="integer" f="nocertainty noannotation">
 		    <desc>count of all fragments present</desc>
@@ -506,11 +506,11 @@
 		</Group_notes>
 		<Fragment_location>
 		    <desc>Record fragment location for artefact being catalogued</desc>
-		    <!--@SOURCE: ../vocab/glass_frag_loc.xml-->
+		    <!--@SOURCE: ../../vocab/glass_frag_loc.xml-->
 		</Fragment_location>
 		<Vessel_type>
 		    <desc>Select type of original vessel</desc>
-		    <!--@SOURCE: ../vocab/glass_vessel.xml-->
+		    <!--@SOURCE: ../../vocab/glass_vessel.xml-->
 		</Vessel_type>
 		<Length_mm b="decimal">
 		    <desc>Maximum fragment length, mm</desc>
@@ -523,18 +523,18 @@
 		</Thickness_mm>
 		<Body_shape>
 		    <desc>For body sherds only, record horizontal shape</desc>
-		    <!--@SOURCE: ../vocab/glass_bodysherd.xml-->
+		    <!--@SOURCE: ../../vocab/glass_bodysherd.xml-->
 		</Body_shape>
 		<Number_of_mould_seams b="integer">
 		    <desc>Count of mould seams present</desc>
 		</Number_of_mould_seams>
 		<Mould_type>
 		    <desc>Select mould type, if evident</desc>
-		    <!--@SOURCE: ../vocab/glass_mouldtype.xml-->
+		    <!--@SOURCE: ../../vocab/glass_mouldtype.xml-->
 		</Mould_type>
 		<Patination_present>
 		    <desc>Presence of white-coloured patina across sherd due exposure</desc>
-		    <!--@SOURCE: ../vocab/yesno.xml-->
+		    <!--@SOURCE: ../../vocab/yesno.xml-->
 		</Patination_present>
 		<Base_diameter_mm b="decimal">
 		    <desc>Total diameter of the base, if present</desc>
@@ -544,7 +544,7 @@
 		</Base_thickness_mm>
 		<Pontil_mark_present>
 		    <desc>Small, usually circular depression on bottle base</desc>
-		    <!--@SOURCE: ../vocab/yesno.xml-->
+		    <!--@SOURCE: ../../vocab/yesno.xml-->
 		</Pontil_mark_present>
 		<Kickup_depth_mm b="decimal">
 		    <desc>Depth of kickup on base, measured from base near centre</desc>
@@ -554,15 +554,15 @@
 		</Finish_inner_bore_diameter_mm>
 		<Finish_type>
 		    <desc>Type of finish used</desc>
-		    <!--@SOURCE: ../vocab/glass_finishtype.xml-->
+		    <!--@SOURCE: ../../vocab/glass_finishtype.xml-->
 		</Finish_type>
 		<Closure_type>
 		    <desc>Type of closure used</desc>
-		    <!--@SOURCE: ../vocab/glass_closure.xml-->
+		    <!--@SOURCE: ../../vocab/glass_closure.xml-->
 		</Closure_type>
 		<Applied_finish>
 		    <desc>Is finish applied</desc>
-		    <!--@SOURCE: ../vocab/yesno.xml-->
+		    <!--@SOURCE: ../../vocab/yesno.xml-->
 		</Applied_finish>
 		<Trademark f="nocertainty noannotation">
 		    <desc>Transcribe or photograph trademarks, noting location and details here</desc>
@@ -580,7 +580,7 @@
 		
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
@@ -591,7 +591,7 @@
 		</External_camera_image_attachment>
 		<Survey_instrument_name>
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../vocab/survey_instr.xml-->
+		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
 		</Survey_instrument_name>
 		<Survey_instrument_data>
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
@@ -625,34 +625,34 @@
 		</Device_photos>
 		<Landform_element>
 		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../vocab/landform_elements.xml-->
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 	</General>
 	
 	<Feature_details>
 		<Diagnostic>
 		    <desc>Diagnostic artefacts are those that unambiguously indicative of a single original vessel (e.g. base) </desc>
-		    <!--@SOURCE: ../vocab/yesno.xml-->
+		    <!--@SOURCE: ../../vocab/yesno.xml-->
 		</Diagnostic>
 		<Type>
 		    <desc>Select general ware type</desc>
-		    <!--@SOURCE: ../vocab/ceram_type.xml-->
+		    <!--@SOURCE: ../../vocab/ceram_type.xml-->
 		</Type>
 		<Element>
 		    <desc>Select element type</desc>
-		    <!--@SOURCE: ../vocab/ceram_element.xml-->
+		    <!--@SOURCE: ../../vocab/ceram_element.xml-->
 		</Element>
 		<Form>
 		    <desc>Select form</desc>
-		    <!--@SOURCE: ../vocab/ceram_form.xml-->
+		    <!--@SOURCE: ../../vocab/ceram_form.xml-->
 		</Form>
 		<Completeness>
 		    <desc>Estimate completeness</desc>
-		    <!--@SOURCE: ../vocab/percentage_amount.xml-->
+		    <!--@SOURCE: ../../vocab/percentage_amount.xml-->
 		</Completeness>
 		<Function>
 		    <desc>Select function, if known</desc>
-		    <!--@SOURCE: ../vocab/ceram_funct.xml-->
+		    <!--@SOURCE: ../../vocab/ceram_funct.xml-->
 		</Function>
 		<Length_mm b="decimal">
 		    <desc>Maximum fragment length, mm</desc>
@@ -671,15 +671,15 @@
 		</Rim_diameter_mm>
 		<Paste_colour>
 		    <desc>Colour of paste to create ceramic</desc>
-		    <!--@SOURCE: ../vocab/ceram_paste.xml-->
+		    <!--@SOURCE: ../../vocab/ceram_paste.xml-->
 		</Paste_colour>
 		<Glaze_type>
 		    <desc>Glaze type, if known</desc>
-		    <!--@SOURCE: ../vocab/ceram_glaze.xml-->
+		    <!--@SOURCE: ../../vocab/ceram_glaze.xml-->
 		</Glaze_type>
 		<Decorative_methods t="checkbox">
 		    <desc>Select all decorative methods that apply</desc>
-		    <!--@SOURCE: ../vocab/ceram_decorative.xml-->
+		    <!--@SOURCE: ../../vocab/ceram_decorative.xml-->
 		</Decorative_methods>
 		<Decorative_colours>
 		    <desc>Describe decorative colours used</desc>
@@ -690,7 +690,7 @@
 		</Visible_motifs>
 		<Decorative_pattern_name>
 		    <desc>If known, select the decorative pattern used</desc>
-		    <!--@SOURCE: ../vocab/ceram_decorative.xml-->
+		    <!--@SOURCE: ../../vocab/ceram_decorative.xml-->
 		</Decorative_pattern_name>
 		<Additional_notes f="nocertainty noannotation"> 
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
@@ -702,7 +702,7 @@
 		
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
@@ -713,7 +713,7 @@
 		</External_camera_image_attachment>
 		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../vocab/survey_instr.xml-->
+		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
 		</Survey_instrument_name>
 		<Survey_instrument_data >
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
@@ -747,14 +747,14 @@
 		</Device_photos>
 		<Landform_element>
 		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../vocab/landform_elements.xml-->
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 	</General>
 	
 	<Feature_details>
 		<Material>
 		    <desc>What is the artefact manufactured from</desc>
-		    <!--@SOURCE: ../vocab/misc_material.xml-->
+		    <!--@SOURCE: ../../vocab/misc_material.xml-->
 		</Material>
 		<Type f="nocertainty noannotation">
 		    <desc>What type of artefact is this, considering both its form and function</desc>
@@ -781,7 +781,7 @@
 		
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
@@ -792,7 +792,7 @@
 		</External_camera_image_attachment>
 		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../vocab/survey_instr.xml-->
+		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
 		</Survey_instrument_name>
 		<Survey_instrument_data >
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
@@ -825,26 +825,26 @@
 		</Device_photos>
 		<Landform_element>
 		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../vocab/landform_elements.xml-->
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 	</General>
 	
 	<Feature_details>
 		<Hearth_type>
 		    <desc>What type of hearth feature is this</desc>
-		    <!--@SOURCE: ../vocab/hearth_type.xml-->
+		    <!--@SOURCE: ../../vocab/hearth_type.xml-->
 		</Hearth_type>
 		<Heating_element_types>
 		    <desc>What type of heating elements, if any, have been used</desc>
-		    <!--@SOURCE: ../vocab/he_types.xml-->
+		    <!--@SOURCE: ../../vocab/he_types.xml-->
 		</Heating_element_types>
 		<Heating_element_frequency>
 		    <desc>Frequency of heating elements on the hearth feature</desc>
-		    <!--@SOURCE: ../vocab/he_frequency.xml-->
+		    <!--@SOURCE: ../../vocab/he_frequency.xml-->
 		</Heating_element_frequency>
 		<Materials_present t="checkbox">
 		    <desc>Select all materials observed on the hearth</desc>
-		    <!--@SOURCE: ../vocab/hearth_materialtypes.xml-->
+		    <!--@SOURCE: ../../vocab/hearth_materialtypes.xml-->
 		</Materials_present>
 		<Diameter_mm b="decimal">
 		    <desc>Maximum diameter of hearth</desc>
@@ -859,7 +859,7 @@
 		
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
@@ -870,7 +870,7 @@
 		</External_camera_image_attachment>
 		<Survey_instrument_name>
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../vocab/survey_instr.xml-->
+		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
 		</Survey_instrument_name>
 		<Survey_instrument_data>
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>

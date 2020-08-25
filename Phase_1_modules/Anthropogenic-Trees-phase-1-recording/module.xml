@@ -56,7 +56,7 @@
 		<timestamp f="nocertainty noannotation"/>
 <!--		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>-->
-		    <!--@SOURCE: ../vocab/phase.xml-->
+		    <!--@SOURCE: ../../vocab/phase.xml-->
 	<!--	</Level_of_recording>-->
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
@@ -70,19 +70,19 @@
 	<Landscape_context>
 		<Landform_pattern>
 		    <desc>300m observational unit.</desc>
-		    <!--@SOURCE: ../vocab/landform_pattern.xml-->
+		    <!--@SOURCE: ../../vocab/landform_pattern.xml-->
 		</Landform_pattern>
 		<Landform_element>
 		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../vocab/landform_elements.xml-->
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 		<Dominant_vegetation_type>
 		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
-		    <!--@SOURCE: ../vocab/veg_struct_form.xml-->
+		    <!--@SOURCE: ../../vocab/veg_struct_form.xml-->
 		</Dominant_vegetation_type>
 		<Dominant_vegetation_cover f="nocertainty">
 		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
-		    <!--@SOURCE: ../vocab/veg_struct_cov.xml-->
+		    <!--@SOURCE: ../../vocab/veg_struct_cov.xml-->
 		</Dominant_vegetation_cover>
 		<Additional_environmental_notes f="nocertainty noannotation">
 		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
@@ -93,11 +93,11 @@
 	<Feature_details>
 		<Tree_type>
 		    <desc>Select the most appropriate tree type</desc>
-		    <!--@SOURCE: ../vocab/tree_types.xml-->
+		    <!--@SOURCE: ../../vocab/tree_types.xml-->
 		</Tree_type>
 		<Species>
 		    <desc>Select the species, if known</desc>
-		    <!--@SOURCE: ../vocab/tree_species.xml-->
+		    <!--@SOURCE: ../../vocab/tree_species.xml-->
 		</Species>
 		<Girth_mm b="decimal" f="noannotation nocertainty">
 		    <desc>Girth should be measured at 'chest height' i.e. 1.3 m above ground, in milimeters.</desc>
@@ -105,11 +105,11 @@
 		</Girth_mm>
 		<Tree_Height f="nocertainty">
 		    <desc>Choose the most appropriate size range for this tree. Select 'indeterminate' for all felled trees or those that have lost upper limbs</desc>
-		    <!--@SOURCE: ../vocab/tree_height.xml-->
+		    <!--@SOURCE: ../../vocab/tree_height.xml-->
 		</Tree_Height>
 		<Condition f="nocertainty noannotation">
 		    <desc>Assess the condition of the tree. For living trees, consider issues such as the number of dead or missing limbs, and areas of damage</desc>
-		    <!--@SOURCE: ../vocab/tree_condition.xml-->
+		    <!--@SOURCE: ../../vocab/tree_condition.xml-->
 		</Condition>
 		<Number_of_scars b="integer" f="nocertainty noannotation">
 		    <desc>List the total number of scars recorded for this tree</desc>
@@ -133,7 +133,7 @@
 
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
@@ -144,7 +144,7 @@
 		</External_camera_image_attachment>
 		<Survey_instrument_name f="nocertainty">
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../vocab/survey_instr.xml-->
+		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
 		</Survey_instrument_name>
 		<Survey_instrument_data f="nocertainty">
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
@@ -159,7 +159,7 @@
 		<author f="nocertainty"/>
 		<timestamp/>
 		<Scar_type>
-			<!--@SOURCE: ../vocab/scar_types.xml-->
+			<!--@SOURCE: ../../vocab/scar_types.xml-->
 		</Scar_type>
 		<Scar_Height_Above_Ground_mm b="decimal">
 		    <desc>Measure from the ground surface to the bottom of the scar, if applicable. Please note that the scar base is the lowermost area of axe damage, rather than the scar dry face</desc>
@@ -186,7 +186,7 @@
 		<External_camera_ID_scars f="nocertainty">
 			External camera ID (scars)
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID_scars>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>

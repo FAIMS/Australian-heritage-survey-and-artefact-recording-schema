@@ -55,7 +55,7 @@
 		<timestamp f="nocertainty noannotation"/>
 		<Level_of_recording f="nocertainty">
 		    <desc>Detail the recording approach used</desc>
-		    <!--@SOURCE: ../vocab/phase.xml-->
+		    <!--@SOURCE: ../../vocab/phase.xml-->
 		</Level_of_recording>
 		<gps f="notnull"/>
 		<Find_This_in_The_Map l="Control/Map">
@@ -63,7 +63,7 @@
 	    </Find_This_in_The_Map>
 		<Boundary_criterion f="nocertainty">
 		    <desc>Select criterion used in recording boundary coordinates</desc>
-		    <!--@SOURCE: ../vocab/boundary_types.xml-->
+		    <!--@SOURCE: ../../vocab/boundary_types.xml-->
 		</Boundary_criterion>
 		<Device_photos t="camera" f="nocertainty">
 		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
@@ -76,26 +76,26 @@
 	<Landscape_context>
 		<Landform_pattern>
 		    <desc>300m observational unit.</desc>
-		    <!--@SOURCE: ../vocab/landform_pattern.xml-->
+		    <!--@SOURCE: ../../vocab/landform_pattern.xml-->
 		</Landform_pattern>
 		<Landform_element>
 		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../vocab/landform_elements.xml-->
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 		<Dominant_vegetation_type>
 		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
-		    <!--@SOURCE: ../vocab/veg_struct_form.xml-->
+		    <!--@SOURCE: ../../vocab/veg_struct_form.xml-->
 		</Dominant_vegetation_type>
 		<Dominant_vegetation_cover f="nocertainty">
 		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
-		    <!--@SOURCE: ../vocab/veg_struct_cov.xml-->
+		    <!--@SOURCE: ../../vocab/veg_struct_cov.xml-->
 		</Dominant_vegetation_cover>
 		<Additional_environmental_notes f="nocertainty noannotation">
 		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
 		</Additional_environmental_notes>
 		<Morphology_type>
 		    <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</desc>
-		    <!--@SOURCE: ../vocab/feat_morphology.xml-->
+		    <!--@SOURCE: ../../vocab/feat_morphology.xml-->
 		</Morphology_type>
 		<Morphology_notes f="nocertainty noannotation">
 		    <desc>Record any additional notes about site morphology not captured elsewhere</desc>
@@ -105,33 +105,33 @@
 	<Feature_details>
 		<Cultural_associations>
 		    <desc>Select cultural associations for this feature</desc>
-		    <!--@SOURCE: ../vocab/cultural_associations.xml-->
+		    <!--@SOURCE: ../../vocab/cultural_associations.xml-->
 		</Cultural_associations>
 		<Maximum_age>
 		    <desc>What is the age of the oldest burial?</desc>
-		    <!--@SOURCE: ../vocab/burial_chron.xml-->
+		    <!--@SOURCE: ../../vocab/burial_chron.xml-->
 		</Maximum_age>
 		<Minimum_age>
 		    <desc>What is the age of the youngest burial</desc>
-		    <!--@SOURCE: ../vocab/burial_chron.xml-->
+		    <!--@SOURCE: ../../vocab/burial_chron.xml-->
 		</Minimum_age>
 		<Age_range--specific>
 		    <desc>Note both minimum and maximum ages, where known.</desc>
 		</Age_range--specific>
 		<Burial_form>
 		    <desc>What is the form of the burial?</desc>
-		    <!--@SOURCE: ../vocab/burial_form.xml-->
+		    <!--@SOURCE: ../../vocab/burial_form.xml-->
 		</Burial_form>
 		<Burial_number b="integer">
 		    <desc>A count of individual burials observed</desc>
 		</Burial_number>
 		<Grave_markers_used t="checkbox">
 		    <desc>Select all grave marker types associated with this feature</desc>
-		    <!--@SOURCE: ../vocab/burial_nos.xml-->
+		    <!--@SOURCE: ../../vocab/burial_nos.xml-->
 		</Grave_markers_used>
 		<Preservation>
 		    <desc>Select all preservation conditions that apply to this feature</desc>
-		    <!--@SOURCE: ../vocab/burial_preserv.xml-->
+		    <!--@SOURCE: ../../vocab/burial_preserv.xml-->
 		</Preservation>
 		<Orientation_degrees b="decimal">
 			Orientation (degrees)
@@ -139,11 +139,11 @@
 		</Orientation_degrees>
 		<Artefacts t="checkbox">
 		    <desc>What, if any, artefacts or other cultural materials are associated with this burial</desc>
-		    <!--@SOURCE: ../vocab/burial_artefacts.xml-->
+		    <!--@SOURCE: ../../vocab/burial_artefacts.xml-->
 		</Artefacts>
 		<Elements_present t="checkbox">
 		    <desc>Which skeletal elements are visible?</desc>
-		    <!--@SOURCE: ../vocab/burial_elements.xml-->
+		    <!--@SOURCE: ../../vocab/burial_elements.xml-->
 		</Elements_present>
 		<Additional_notes f="nocertainty noannotation">
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
@@ -156,7 +156,7 @@
 		</Paper_notes_and_sketches>
 		<External_camera_ID f="nocertainty">
 		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../vocab/camera_ids.xml-->
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
 			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
@@ -167,7 +167,7 @@
 		</External_camera_image_attachment>
 		<Survey_instrument_name >
 		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../vocab/survey_instr.xml-->
+		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
 		</Survey_instrument_name>
 		<Survey_instrument_data>
 		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>

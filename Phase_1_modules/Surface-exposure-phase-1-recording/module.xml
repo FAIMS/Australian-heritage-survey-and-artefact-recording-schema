@@ -58,7 +58,7 @@
 <!--		<Level_of_recording f="nocertainty">
 			<desc>Detail the recording approach used
 			</desc> -->
-			<!--@SOURCE: ../vocab/phase.xml-->
+			<!--@SOURCE: ../../vocab/phase.xml-->
 	<!--	</Level_of_recording> -->
 		<gps f="notnull nocertainty">
 			<desc>Record a coordinate near the site centre
@@ -71,7 +71,7 @@
 			<desc>Select criterion used in recording boundary coordinates
 			</desc>
 
-			<!--@SOURCE: ../vocab/boundary_types.xml-->
+			<!--@SOURCE: ../../vocab/boundary_types.xml-->
 		</Boundary_criterion>
 		<Device_photos t="camera" f="nocertainty">
 			<desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.
@@ -86,23 +86,23 @@
 	<Landscape_context>
 		<Landform_pattern>
 			<desc>300m observational unit.</desc>
-			<!--@SOURCE: ../vocab/landform_pattern.xml-->
+			<!--@SOURCE: ../../vocab/landform_pattern.xml-->
 
 		</Landform_pattern>
 		<Landform_element>
 			<desc>30m observational unit
 			</desc>
-			<!--@SOURCE: ../vocab/landform_elements.xml-->
+			<!--@SOURCE: ../../vocab/landform_elements.xml-->
 		</Landform_element>
 		<Dominant_vegetation_type>
 			<desc>30m observational unit, uppermost vegetation stratum only
 			</desc>
-			<!--@SOURCE: ../vocab/veg_struct_form.xml-->
+			<!--@SOURCE: ../../vocab/veg_struct_form.xml-->
 		</Dominant_vegetation_type>
 		<Dominant_vegetation_cover f="nocertainty">
 			<desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only
 			</desc>
-			<!--@SOURCE: ../vocab/veg_struct_cov.xml-->
+			<!--@SOURCE: ../../vocab/veg_struct_cov.xml-->
 		</Dominant_vegetation_cover>
 		<Additional_environmental_notes f="noannotation nocertainty">
 			<desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured
@@ -112,7 +112,7 @@
 		<Morphology_type >
 			<desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
 			</desc>
-			<!--@SOURCE: ../vocab/feat_morphology.xml-->
+			<!--@SOURCE: ../../vocab/feat_morphology.xml-->
 		</Morphology_type>
 		<Morphology_notes f="nocertainty noannotation">
 			<desc>Record any additional notes about site morphology not captured elsewhere
@@ -139,12 +139,12 @@
 		<Stone_artefact_types t="checkbox">
 			<desc>Select all artefact types observed
 			</desc>
-			<!--@SOURCE: ../vocab/sart_gen_types.xml-->
+			<!--@SOURCE: ../../vocab/sart_gen_types.xml-->
 		</Stone_artefact_types>
 		<Stone_artefact_raw_materials t="checkbox">
 			<desc>Select all raw materials observed
 			</desc>
-			<!--@SOURCE: ../vocab/sa_rawmaterial.xml-->
+			<!--@SOURCE: ../../vocab/sa_rawmaterial.xml-->
 		</Stone_artefact_raw_materials>
 		<Historical_artefact_count b="integer">
 			<desc>Record a tally of historic artefacts observed on the site. Use the certainty slider for estimates on large assemblages
@@ -153,7 +153,7 @@
 		<Historical_artefact_types t="checkbox">
 			<desc>Select all artefact types observed
 			</desc>
-			<!--@SOURCE: ../vocab/hart_gen_types.xml-->
+			<!--@SOURCE: ../../vocab/hart_gen_types.xml-->
 		</Historical_artefact_types>
 		<In_situ_hearth_count b="integer">
 			<desc>Record a tally of all in situ hearths observed
@@ -162,22 +162,22 @@
 		<Heating_element_scatters t="radio">
 			<desc>Is there evidence of disturbed or remnant hearths as indicated by scatters of heating elements within the feature boundary?
 			</desc>
-			<!--@SOURCE: ../vocab/he_frequency.xml-->
+			<!--@SOURCE: ../../vocab/he_frequency.xml-->
 		</Heating_element_scatters>
 		<Heating_element_types_observed t="checkbox">
 			<desc>Select all heating element types observed
 			</desc>
-			<!--@SOURCE: ../vocab/he_types.xml-->
+			<!--@SOURCE: ../../vocab/he_types.xml-->
 		</Heating_element_types_observed>
 		<Faunal_materials_present t="checkbox">
 			<desc>Select all faunal materials observed
 			</desc>
-			<!--@SOURCE: ../vocab/faun_mat_types.xml-->
+			<!--@SOURCE: ../../vocab/faun_mat_types.xml-->
 		</Faunal_materials_present>
 		<Subsurface_potential t="radio" f="nocertainty">
 			<desc>Assess the potential for sub-surface deposits of cultural material.
 			</desc>
-			<!--@SOURCE: ../vocab/subsurface_pot.xml-->
+			<!--@SOURCE: ../../vocab/subsurface_pot.xml-->
 		</Subsurface_potential>
 		<Additional_notes f="nocertainty noannotation">
 			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
@@ -192,7 +192,7 @@
 		<External_camera_ID f="nocertainty">
 			<desc>Select other cameras used for photography (if applicable)
 			</desc>
-			<!--@SOURCE: ../vocab/camera_ids.xml-->
+			<!--@SOURCE: ../../vocab/camera_ids.xml-->
 
 		</External_camera_ID>
 		<External_camera_file_names_and_attachment f="nocertainty">
@@ -205,7 +205,7 @@
 		<Survey_instrument_name f="nocertainty">
 			<desc>If recording coincides with instrument survey, please select appropriate instrument name.
 			</desc>
-			<!--@SOURCE: ../vocab/survey_instr.xml-->
+			<!--@SOURCE: ../../vocab/survey_instr.xml-->
 
 		</Survey_instrument_name>
 		<Survey_instrument_data f="nocertainty">
