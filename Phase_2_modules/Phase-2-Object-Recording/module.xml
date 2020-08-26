@@ -16,20 +16,21 @@
     Underneath: GPS diagnostics (as specified above)
      -->
 
-     <!-- <New_Surface_Exposure t="button" l="Surface_Exposure"/>
-    <New_Mound t="button" l="Mound"/>
-    <New_Rock_Shelter t="button" l="Rock_Shelter"/>
-    <New_Historical_Feature t="button" l="Historical_Feature"/>
-    <New_Burial t="button" l="Burial"/> -->
-    <New_Point_of_Interest t="button" l="Other_Point_of_Interest"/>
-    <!-- <New_Tree t="button" l="Tree"/> -->
-    <New_Flaked_Stone_Artefact t="button" l="Flaked_Stone_Artefact"/>
-    <New_Other_Stone_Artefact t="button" l="Other_Stone_Artefact"/>
-    <New_Glass_Artefact t="button" l="Glass_Artefact"/>
-    <New_Ceramic_Artefact t="button" l="Ceramic_Artefact"/>
-    <New_Misc_Artefact t="button" l="Misc_Artefact"/>
-    <New_Discrete_Hearth   t="button" l="Discrete_Hearth_Artefact"/>
-     <GPS_diagnostics t="gpsdiag"/>
+    <New_Flaked_Stone_Artefact  t="button" c="orange" l="Flaked_Stone_Artefact"/>
+    <New_Other_Stone_Artefact   t="button" c="orange" l="Other_Stone_Artefact"/>
+    <New_Knapped_Glass_Artefact t="button" c="orange" l="Knapped_Glass_Artefact"/>
+    <New_Discrete_Hearth        t="button" c="orange" l="Discrete_Hearth_Artefact"/>
+
+    <New_Glass_Artefact   t="button" c="blue" l="Glass_Artefact"/>
+    <New_Ceramic_Artefact t="button" c="blue" l="Ceramic_Artefact"/>
+    <New_Button           t="button" c="blue" l="Button"/>
+
+    <New_Metal_Artefact         t="button" c="red" l="Metal_Artefact"/>
+    <New_Weapons_and_Ammunition t="button" c="red" l="Weapons_and_Ammunition"/>
+
+    <New_Misc_Artefact t="button" c="yellow" l="Misc_Artefact"/>
+
+    <GPS_diagnostics t="gpsdiag"/>
   </Control>
   <Map f="noscroll">
   <!--SRID: 4326-->
@@ -48,132 +49,6 @@
   </Autonumbering>
 
 </Control>
-
-<!--
-########   #######  ####                                                                                                 ##     ## ##     ##  ##
-##     ## ##     ##  ##
-########  ##     ##  ##
-##        ##     ##  ##
-##        ##     ##  ##
-##         #######  ####                                                                                                                             -->
-
-
-<Other_Point_of_Interest>
-  <fmt>POI{{Other_Point_of_Interest_ID}}</fmt>
-  <General>
-    <Other_Point_of_Interest_ID f="id autonum nocertainty"/>
-    <author f="nocertainty"/>
-    <timestamp f="nocertainty noannotation"/>
-    <Level_of_recording f="nocertainty">
-        <desc>Detail the recording approach used</desc>
-        <!--@SOURCE: ../../vocab/phase.xml-->
-    </Level_of_recording>
-    <gps f="notnull"/>
-    <Find_This_in_The_Map l="Control/Map">
-        Find This in The Map...
-      </Find_This_in_The_Map>
-    <Boundary_criterion f="nocertainty">
-        <desc>Select criterion used in recording boundary coordinates</desc>
-        <!--@SOURCE: ../../vocab/boundary_types.xml-->
-    </Boundary_criterion>
-    <Device_photos t="camera" f="nocertainty">
-        <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
-    </Device_photos>
-  </General>
-  <Boundary f="noscroll">
-    <New_Boundary_Point t="button" lc="Other_Point_of_Interest_Boundary_point"/>
-    <List_of_Related_Boundary_Points t="list" ec="Other_Point_of_Interest_Boundary_point"/>
-  </Boundary>
-  <Landscape_context>
-    <Landform_pattern>
-        <desc>300m observational unit.</desc>
-        <!--@SOURCE: ../../vocab/landform_pattern.xml-->
-    </Landform_pattern>
-    <Landform_element>
-        <desc>30m observational unit</desc>
-        <!--@SOURCE: ../../vocab/landform_elements.xml-->
-    </Landform_element>
-    <Dominant_vegetation_type>
-        <desc>30m observational unit, uppermost vegetation stratum only</desc>
-        <!--@SOURCE: ../../vocab/veg_struct_form.xml-->
-    </Dominant_vegetation_type>
-    <Dominant_vegetation_cover f="nocertainty">
-        <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
-        <!--@SOURCE: ../../vocab/veg_struct_cov.xml-->
-    </Dominant_vegetation_cover>
-    <Additional_environmental_notes f="nocertainty noannotation">
-        <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
-    </Additional_environmental_notes>
-    <Morphology_type>
-        <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</desc>
-        <!--@SOURCE: ../../vocab/feat_morphology.xml-->
-    </Morphology_type>
-    <Morphology_notes f="nocertainty noannotation">
-        <desc>Record any additional notes about site morphology not captured elsewhere</desc>
-    </Morphology_notes>
-
-  </Landscape_context>
-  <Feature_details>
-    <Type>
-        <desc>Select the general feature type</desc>
-        <!--@SOURCE: ../../vocab/poi_type.xml-->
-    </Type>
-    <Detailed_description f="nocertainty">
-        <desc>Provide a detailed description of this POI and any associated data</desc>
-    </Detailed_description>
-    <Information_source f="nocertainty">
-        <desc>Record the source of the information, such as names of individuals, historical sources, and so on</desc>
-    </Information_source>
-    <Additional_notes f="nocertainty noannotation">
-      <desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
-      </desc>
-    </Additional_notes>
-  </Feature_details>
-  <Supplementary>
-
-    <Paper_notes_and_sketches t="camera" f="nocertainty">
-        <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
-    </Paper_notes_and_sketches>
-    <External_camera_ID f="nocertainty">
-        <desc>Select other cameras used for photography (if applicable)</desc>
-        <!--@SOURCE: ../../vocab/camera_ids.xml-->
-    </External_camera_ID>
-    <External_camera_file_names_and_attachment f="nocertainty">
-      <desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
-    </External_camera_file_names_and_attachment>
-    <External_camera_image_attachment t="file" f="nocertainty">
-      <desc>Upload files on server, and annotate those files with captions.
-      </desc>
-    </External_camera_image_attachment>
-    <Survey_instrument_name >
-        <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-        <!--@SOURCE: ../../vocab/survey_instr.xml-->
-    </Survey_instrument_name>
-    <Survey_instrument_data >
-        <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
-    </Survey_instrument_data>
-  </Supplementary>
-</Other_Point_of_Interest>
-<Other_Point_of_Interest_Boundary_point>
-  <fmt>POI{{Other_Point_of_Interest_ID}}-BP{{Other_Point_of_Interest_Boundary_Point_ID}}</fmt>
-  <Other_Point_of_Interest_Boundary_point>
-
-    <Other_Point_of_Interest_ID f="id nocertainty" i="Other_Point_of_Interest/General/Other_Point_of_Interest_ID">
-    </Other_Point_of_Interest_ID>
-    <Other_Point_of_Interest_Boundary_Point_ID f="id autonum nocertainty">
-    </Other_Point_of_Interest_Boundary_Point_ID>
-    <timestamp f="nocertainty noannotation"/>
-    <gps f="notnull"/>
-    <Find_This_in_The_Map l="Control/Map">
-        Find This in The Map...
-      </Find_This_in_The_Map>
-    <Comment f="nocertainty noannotation">
-      <desc>Use this field to document any relevant information about the recorded point</desc>
-    </Comment>
-    <New_Boundary_Point t="button"/>
-
-  </Other_Point_of_Interest_Boundary_point>
-</Other_Point_of_Interest_Boundary_point>
 
 
 <!--
@@ -888,10 +763,16 @@
 <!--@SOURCE: logic/cascade-delete.bsh-->
 <!--@SOURCE: logic/find-in-map.bsh-->
 <!--@SOURCE: logic/autonumbering-validation.bsh-->
-<!--@SOURCE: logic/new-record-in-boundary.bsh-->
 <!--@SOURCE: logic/leave-gps-verification.bsh-->
 
 ]]></logic>
+
+<css><![CDATA[
+.orange { padding: 4px; margin: 4px; background-color: #f9cb9c; }
+.blue   { padding: 4px; margin: 4px; background-color: #6d9eeb; }
+.red    { padding: 4px; margin: 4px; background-color: #e06666; }
+.yellow { padding: 4px; margin: 4px; background-color: #ffd966; }
+]]></css>
 
 </module>
 
