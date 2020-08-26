@@ -1,0 +1,50 @@
+<opts>
+    <opt>Not applicable
+        <desc>No stone artefacts observed</desc>
+    </opt>
+    <opt>Basalt
+        <desc>Fine grained igneous rock, very common, often dark in colour, no other mineral inclusions, and sometimes with caviities </desc>
+    </opt>
+    <opt>Chalcedony
+        <desc>Hard, fine grained material composed of very small silica crystals, highly variable in colour. Unlike chert, chalcedony has a fibrous structure with fine intergrowths of quartz and often has a waxy lustre and is often semi-transparent or translucent</desc>
+    </opt>
+    <opt>Chert
+        <desc>Hard, fine grained material composed of very small silica crystals, highly variable in colour, and unlike chalcedony, lacks transparent or transluscent qualities</desc>
+    </opt>
+    <opt>Ironstone
+        <desc>Sedimentary rock, with substantial proportion of iron creating a reddish appearance on outer surface but internally is typically grey. Very hard material with poor flaking properties</desc>
+    </opt>
+    <opt>Mudstone
+        <desc>Very fine grained and at times quite soft sedimentary rock encompassing mudstone, siltstone and claystone. Not prone to lamination</desc>
+    </opt>
+    <opt>Quartz--clear
+        <desc>Clear, colourless and transparent or translucent material composed of silica</desc>
+    </opt>
+    <opt>Quartz--milky
+        <desc>White or milky-coloured material composed of silica, but lacks transparency of clear quartz</desc>
+    </opt>
+    <opt>Quartzite
+        <desc>Hard, non-foliated rock derived from quartz sandstone and metamorphosed, varying in colour depending on presence of other minerals, but typically white, grey, pink or red due to iron oxides. Quartz grains are cemented together to such an extent that fractures break through grain boundaries, rather than around them. Grainy or glassy appearance, but often excellent flaking properties</desc>
+    </opt>
+    <opt>Sandstone
+        <desc>A clastic sedimentary rock, typically of sand-sized mineral particles or rock fragments, often quartz and feldspar</desc>
+    </opt>
+    <opt>Shale
+        <desc>Very fine grained sedimentary rock, but unlike mudstones, is prone to lamination</desc>
+    </opt>
+    <opt>Silcrete--general
+        <desc>Hard, resistant material that can appear simiilar to quartzite but results from the dissolution of silica and its resolidification as a cement, along with other detrital materials. As a result, silcrete has a highly variable grain size but grains are usually evident and, unlike quartzite, fractures will break around grain boundaries. If confident in classification, please select specific silcrete type</desc>
+    </opt>
+    <opt>Silcrete-microcrystalline
+        <desc>Silcrete, very fine grained with almost no visible grains, and scattered quartz clasts</desc>
+    </opt>
+    <opt>Silcrete–fine grained
+        <desc>Silcrete, ,mostly fine-sand-sized grains (&amp;lt;0.25mm)</desc>
+    </opt>
+    <opt>Silcrete-medium grained
+        <desc>Silcrete, mostly medium-sand-sized quartz clasts (0.25-0.5 mm) in a siliceous matrix, with sand grains easily visible. Coarser silcrete varieties tend to have poor flaking qualities, so consider whether this material is quarztite</desc>
+    </opt>
+    <opt>Other
+        <desc>Describe in annotation</desc>
+    </opt>
+</opts>
