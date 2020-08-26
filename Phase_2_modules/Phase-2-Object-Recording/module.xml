@@ -1,4 +1,6 @@
 <!--@POSTPROC: ./postproc.sh-->
+<!--TODO: Point of interest element group-->
+<!--TODO: Can this be removed and created as a new module in the landscape survey group of modules?-->
 <module>
 <User_List f="nodata">
   <User_List f="noscroll">
