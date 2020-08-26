@@ -476,8 +476,8 @@
     <Marks_motifs_and_decoration f="nocertainty noannotation">
         <desc>Transcribe any text, motifs or decoration and, if possible, photograph above</desc>
     </Marks_motifs_and_decoration>
-    <Start_Date b="date"/>
-    <End_Date   b="date"/>
+    <Start_Date b="date" f="noannotation"/>
+    <End_Date   b="date" f="noannotation"/>
     <Conjoin_Information f="noannotation"/>
     <References f="noannotation"/>
     <Grouped_Fragments_Only t="webview">
@@ -702,6 +702,11 @@
     <Height_mm b="decimal">
         <desc>Height (if applicable) -- e.g posts</desc>
     </Height_mm>
+    <Maker_s_Marks_or_Trademarks f="noannotation">
+      Maker's marks or Trademarks
+    </Maker_s_Marks_or_Trademarks>
+    <Start_Date b="date" f="noannotation"/>
+    <End_Date   b="date" f="noannotation"/>
     <Additional_notes f="nocertainty noannotation">
       <desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
       </desc>
@@ -709,7 +714,6 @@
   </Feature_details>
 
   <Supplementary>
-
     <External_camera_ID f="nocertainty">
         <desc>Select other cameras used for photography (if applicable)</desc>
         <!--@SOURCE: ../../vocab/camera_ids.xml-->
@@ -721,13 +725,25 @@
       <desc>Upload files on server, and annotate those files with captions.
       </desc>
     </External_camera_image_attachment>
-    <Survey_instrument_name >
+    <Survey_job_name f="noannotation">
+      <desc>Provide details for survey job name containing coordinate data</desc>
+    </Survey_job_name>
+    <Survey_instrument_name>
         <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
         <!--@SOURCE: ../../vocab/survey_instr.xml-->
     </Survey_instrument_name>
-    <Survey_instrument_data >
+    <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
-    </Survey_instrument_data>
+    </Survey_instrument_point_codes>
+    <Related_Site_Name f="noannotation">
+      <desc>If this is associated with a specific site, please note site name or code here</desc>
+    </Related_Site_Name>
+    <Sample_context f="noannotation">
+      <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
+    </Sample_context>
+    <Other_contextual_details f="noannotation">
+      <desc>Please list other context details as relevant here.</desc>
+    </Other_contextual_details>
   </Supplementary>
 </Misc_Artefact>
 
