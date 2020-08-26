@@ -362,30 +362,29 @@
         <desc>Select closest colour match</desc>
         <!--@SOURCE: ../../vocab/glass_colour.xml-->
     </Colour>
+    <Completeness>
+        <desc>Info Box text ‘for single glass artefacts, record completeness in relation to the original glass vessel’</desc>
+        <!--@SOURCE: ../../vocab/glass_completeness.xml-->
+    </Completeness>
     <Grouped_fragments>
         <desc>Where multiple fragments resulting from breakage of the same bottle or bottle fragment are found at one location, record as a group </desc>
         <!--@SOURCE: ../../vocab/yesno.xml-->
     </Grouped_fragments>
-    <Grouped_fragment_count b="integer" f="nocertainty noannotation">
-        <desc>count of all fragments present</desc>
-    </Grouped_fragment_count>
-    <Grouped_fragment_weight_g b="decimal" f="nocertainty noannotation">
-        <desc>Record collective weight of all fragments if working in lab situation, or otherwise leave blank</desc>
-    </Grouped_fragment_weight_g>
-    <Group_max_fragment_length_mm b="decimal" f="nocertainty noannotation">
-        <desc>Measure the maximum length of the largest fragment</desc>
-    </Group_max_fragment_length_mm>
     <Group_notes f="nocertainty noannotation">
         <desc>Record any additional notes relating to the grouped fragments</desc>
     </Group_notes>
-    <Fragment_location>
+    <Portion_or_Component>
         <desc>Record fragment location for artefact being catalogued</desc>
         <!--@SOURCE: ../../vocab/glass_frag_loc.xml-->
-    </Fragment_location>
-    <Vessel_type>
+    </Portion_or_Component>
+    <Object_Type>
         <desc>Select type of original vessel</desc>
         <!--@SOURCE: ../../vocab/glass_vessel.xml-->
-    </Vessel_type>
+    </Object_Type>
+    <Tableware_Type t="checkbox">
+      <desc>Select all that apply</desc>
+      <!--@SOURCE: ../../vocab/glass_tableware_type.xml-->
+    </Tableware_Type>
     <Length_mm b="decimal">
         <desc>Maximum fragment length, mm</desc>
     </Length_mm>
@@ -395,10 +394,19 @@
     <Thickness_mm b="decimal">
         <desc>Maximum fragment thickness, mm</desc>
     </Thickness_mm>
-    <Body_shape>
+    <Horizontal_Shape>
         <desc>For body sherds only, record horizontal shape</desc>
         <!--@SOURCE: ../../vocab/glass_bodysherd.xml-->
-    </Body_shape>
+    </Horizontal_Shape>
+    <Probable_Contents t="checkbox">
+        <!--@SOURCE: ../../vocab/glass_probcont.xml-->
+    </Probable_Contents>
+    <Shoulder_Width_mm b="decimal">
+      Shoulder Width (mm)
+    </Shoulder_Width_mm>
+    <Complete_Height_mm b="decimal">
+      Complete Height (mm)
+    </Complete_Height_mm>
     <Number_of_mould_seams b="integer">
         <desc>Count of mould seams present</desc>
     </Number_of_mould_seams>
@@ -444,14 +452,27 @@
     <Marks_motifs_and_decoration f="nocertainty noannotation">
         <desc>Transcribe any text, motifs or decoration and, if possible, photograph above</desc>
     </Marks_motifs_and_decoration>
-    <Additional_notes f="nocertainty noannotation">
-      <desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
-      </desc>
-    </Additional_notes>
+    <Start_Date b="date"/>
+    <End_Date   b="date"/>
+    <Conjoin_Information f="noannotation"/>
+    <References f="noannotation"/>
+    <Grouped_Fragments_Only t="webview">
+      <markdown>
+## Grouped Fragments Only
+      </markdown>
+    </Grouped_Fragments_Only>
+    <Grouped_fragment_count b="integer" f="noannotation"/>
+    <Grouped_fragment_weight_g b="integer" f="noannotation"/>
+    <Group_max_fragment_length_mm b="decimal" f="noannotation"/>
+    <Group_max_fragment_width_mm b="decimal" f="noannotation"/>
+    <Group_max_fragment_thickness_mm b="decimal" f="noannotation"/>
+    <Group_min_fragment_length_mm b="decimal" f="noannotation"/>
+    <Group_min_fragment_width_mm b="decimal" f="noannotation"/>
+    <Group_min_fragment_thickness_mm b="decimal" f="noannotation"/>
+    <Grouped_fragments_additional_comments f="noannotation"/>
   </Feature_details>
 
   <Supplementary>
-
     <External_camera_ID f="nocertainty">
         <desc>Select other cameras used for photography (if applicable)</desc>
         <!--@SOURCE: ../../vocab/camera_ids.xml-->
@@ -463,13 +484,25 @@
       <desc>Upload files on server, and annotate those files with captions.
       </desc>
     </External_camera_image_attachment>
+    <Survey_job_name f="noannotation">
+      <desc>Provide details for survey job name containing coordinate data</desc>
+    </Survey_job_name>
     <Survey_instrument_name>
         <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
         <!--@SOURCE: ../../vocab/survey_instr.xml-->
     </Survey_instrument_name>
-    <Survey_instrument_data>
+    <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
-    </Survey_instrument_data>
+    </Survey_instrument_point_codes>
+    <Related_Site_Name f="noannotation">
+      <desc>If this is associated with a specific site, please note site name or code here’</desc>
+    </Related_Site_Name>
+    <Sample_context f="noannotation">
+      <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
+    </Sample_context>
+    <Other_contextual_details f="noannotation">
+      <desc>Please list other context details as relevant here.</desc>
+    </Other_contextual_details>
   </Supplementary>
 </Glass_Artefact>
 

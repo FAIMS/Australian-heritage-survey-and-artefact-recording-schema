@@ -1,0 +1,31 @@
+<opts>
+    <opt>Alcohol-beer</opt>
+    <opt>Alcohol-General
+        <desc>Unidentifed alcohol content</desc>
+    </opt>
+    <opt>Alcohol-Gin/schnapps
+        <desc>Square case bottle, with either tapered or straight sides</desc>
+    </opt>
+    <opt>Alcohol-Spritis </opt>
+    <opt>Alcohol-wine/champage </opt>
+    <opt>Castor oil</opt>
+    <opt>Condiments-General</opt>
+    <opt>Condiments-Pickles</opt>
+    <opt>Condiments-Sauce</opt>
+    <opt>Fish/meat paste</opt>
+    <opt>Ink</opt>
+    <opt>Medicine-General
+        <desc>Unidentified medicinal content</desc>
+    </opt>
+    <opt>Non alcoholic drink
+        <desc>E.g. cordial, soft drink, aerated water</desc>
+    </opt>
+    <opt>Ointment/lotion</opt>
+    <opt>Patent medicine or tonic</opt>
+    <opt>Perfume/cologne</opt>
+    <opt>Poison
+        <desc>Usually with ridged corners and possibly other embossed surface textures in cobalt blue glass, e.g. phenyl</desc>
+    </opt>
+    <opt>Prescription</opt>
+    <opt>Vinegar/salad oil</opt>
+</opts>
