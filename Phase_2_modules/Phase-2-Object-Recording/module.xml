@@ -22,9 +22,6 @@
     <New_Historical_Feature t="button" l="Historical_Feature"/>
     <New_Burial t="button" l="Burial"/> -->
     <New_Point_of_Interest t="button" l="Other_Point_of_Interest"/>
-    <Objects t="webview" f="nolabel">
-       <markdown># Objects</markdown>
-     </Objects>
     <!-- <New_Tree t="button" l="Tree"/> -->
     <New_Flaked_Stone_Artefact t="button" l="Flaked_Stone_Artefact"/>
     <New_Other_Stone_Artefact t="button" l="Other_Stone_Artefact"/>
