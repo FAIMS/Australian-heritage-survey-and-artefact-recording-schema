@@ -565,10 +565,10 @@
         <desc>Diagnostic artefacts are those that unambiguously indicative of a single original vessel (e.g. base) </desc>
         <!--@SOURCE: ../../vocab/yesno.xml-->
     </Diagnostic>
-    <Type>
-        <desc>Select general ware type</desc>
-        <!--@SOURCE: ../../vocab/ceram_type.xml-->
-    </Type>
+    <Technological_Ware_Type>
+      <desc>Select general ware type</desc>
+      <!--@SOURCE: ../../vocab/ceram_type.xml-->
+    </Technological_Ware_Type>
     <Element>
         <desc>Select element type</desc>
         <!--@SOURCE: ../../vocab/ceram_element.xml-->
@@ -619,14 +619,35 @@
         <desc>Describe motifs applied (e.g. hairline around rim, coloured and scalloped rim). Please ensure photos include motifs</desc>
 
     </Visible_motifs>
+    <Flaws>
+      <desc>Detail the presence of any observable manufacturing flaws, such as poorly applied transfer prints, trivet/stilt marks, pinholes in the glaze, grit from the kiln adhered to the surface. This is really only applicable to domestic ceramics (teawares and tablewares). Note that this does not include marks made through use (e.g. scratches or removal of overglaze decoration).</desc>
+        <!--@SOURCE: ../../vocab/ceram_flaws.xml-->
+    </Flaws>
     <Decorative_pattern_name>
         <desc>If known, select the decorative pattern used</desc>
         <!--@SOURCE: ../../vocab/ceram_decorative.xml-->
     </Decorative_pattern_name>
-    <Additional_notes f="nocertainty noannotation">
-      <desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
-      </desc>
-    </Additional_notes>
+    <Maker_s_Marks_or_Trademarks f="noannotation">
+      Maker's marks or Trademarks
+    </Maker_s_Marks_or_Trademarks>
+    <Start_Date b="date" f="noannotation"/>
+    <End_Date   b="date" f="noannotation"/>
+    <Conjoin_Information f="noannotation"/>
+    <References f="noannotation"/>
+    <Grouped_Fragments_Only t="webview">
+      <markdown>
+## Grouped Fragments Only
+      </markdown>
+    </Grouped_Fragments_Only>
+    <Grouped_fragment_count b="integer" f="noannotation"/>
+    <Grouped_fragment_weight_g b="integer" f="noannotation"/>
+    <Group_max_fragment_length_mm b="decimal" f="noannotation"/>
+    <Group_max_fragment_width_mm b="decimal" f="noannotation"/>
+    <Group_max_fragment_thickness_mm b="decimal" f="noannotation"/>
+    <Group_min_fragment_length_mm b="decimal" f="noannotation"/>
+    <Group_min_fragment_width_mm b="decimal" f="noannotation"/>
+    <Group_min_fragment_thickness_mm b="decimal" f="noannotation"/>
+    <Grouped_fragments_additional_comments f="noannotation"/>
   </Feature_details>
 
   <Supplementary>
@@ -646,9 +667,18 @@
         <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
         <!--@SOURCE: ../../vocab/survey_instr.xml-->
     </Survey_instrument_name>
-    <Survey_instrument_data >
+    <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
-    </Survey_instrument_data>
+    </Survey_instrument_point_codes>
+    <Related_Site_Name f="noannotation">
+      <desc>If this is associated with a specific site, please note site name or code here</desc>
+    </Related_Site_Name>
+    <Sample_context f="noannotation">
+      <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
+    </Sample_context>
+    <Other_contextual_details f="noannotation">
+      <desc>Please list other context details as relevant here.</desc>
+    </Other_contextual_details>
   </Supplementary>
 </Ceramic_Artefact>
 

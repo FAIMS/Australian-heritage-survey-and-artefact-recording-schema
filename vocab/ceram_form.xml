@@ -1,110 +1,13 @@
 <opts>
-    <opt>UNKNOWN
-        <desc>Unknown</desc>
-    </opt>
-    <opt>TEA
-        <desc>Tea cup</desc>
-    </opt>
-    <opt>COFFEE
-        <desc>Coffee cup</desc>
-    </opt>
-    <opt>SOUP
-        <desc>Soup</desc>
-    </opt>
-    <opt>DESSERT
-        <desc>Dessert bowl</desc>
-    </opt>
-    <opt>SLOPS
-        <desc>Slops bowl</desc>
-    </opt>
-    <opt>SAUCER
-        <desc>Saucer</desc>
-    </opt>
-    <opt>APPIE
-        <desc>Appie</desc>
-    </opt>
-    <opt>TWIFL
-        <desc>Twiffler</desc>
-    </opt>
-    <opt>LUCN_PLATE
-        <desc>Luncheon plate</desc>
-    </opt>
-    <opt>BREADBUTTER
-        <desc>Bread and butter plate</desc>
-    </opt>
-    <opt>DINNER
-        <desc>Dinner plate</desc>
-    </opt>
-    <opt>PITCHER
-        <desc>Pitcher or jug</desc>
-    </opt>
-    <opt>WASHBOWL
-        <desc>Wash bowl</desc>
-    </opt>
-    <opt>SERVING
-        <desc>Serving platter</desc>
-    </opt>
-    <opt>GRAVY
-        <desc>Gravy or sauce boat</desc>
-    </opt>
-    <opt>MILKJUG
-        <desc>MilkJug</desc>
-    </opt>
-    <opt>CREAM
-        <desc>Creamer crock</desc>
-    </opt>
-    <opt>DEMIJOHN
-        <desc>Demiijohn</desc>
-    </opt>
-    <opt>GINGER
-        <desc>Ginger beer</desc>
-    </opt>
-    <opt>STONEWARE
-        <desc>Stoneware bottle</desc>
-    </opt>
-    <opt>CHAMBER
-        <desc>Chamber pot</desc>
-    </opt>
-    <opt>TEAPOT
-        <desc>Teapot</desc>
-    </opt>
-    <opt>TUREEN
-        <desc>Tureen</desc>
-    </opt>
-    <opt>CLAYPIPE
-        <desc>Clay pipe for smoking</desc>
-    </opt>
-    <opt>CONDIMENTs
-        <desc>Condiments salt etc</desc>
-    </opt>
-    <opt>MIXING
-        <desc>Mixing bowl</desc>
-    </opt>
-    <opt>DRAINER
-        <desc>Drainer or collander</desc>
-    </opt>
-    <opt>FLOWERPOT
-        <desc>Flower pot</desc>
-    </opt>
-    <opt>CANDLE
-        <desc>Candlestick</desc>
-    </opt>
-    <opt>DOORFURN
-        <desc>Door furniture</desc>
-    </opt>
-    <opt>KNOB
-        <desc>Knob for furniture</desc>
-    </opt>
-    <opt>INSUL
-        <desc>Insulator</desc>
-    </opt>
-    <opt>JAR
-        <desc>Jar or other pot</desc>
-    </opt>
-    <opt>EGG
-        <desc>Egg cup</desc>
-    </opt>
-    <opt>LID
-        <desc>Lid</desc>
-    </opt>
+  <opt>
+    Flatware
+    <desc>Plates, saucers, platters</desc>
+  </opt>
+  <opt>
+    Hollowware
+    <desc>Bowls, cups, pitchers/jugs</desc>
+  </opt>
+  <opt>
+    Not applicable
+  </opt>
 </opts>

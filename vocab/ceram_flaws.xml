@@ -1,0 +1,26 @@
+<opts>
+  <opt>
+    Not applicable
+    <desc>If there are no flaws, or if the ceramic object is not domestic in nature, then leave blank</desc>
+  </opt>
+  <opt>
+    Poorly applied Transfer print
+    <desc>Mismatched pattern edges, unevenly applied prints, missing sections of prints</desc>
+  </opt>
+  <opt>
+    Pinholes
+    <desc>Evident in the glaze where small air bubbles have popped</desc>
+  </opt>
+  <opt>
+    Trivet/stilt marks
+    <desc>On the underside of vessels, caused by the separators between stacked items in the kiln adhering to the glaze</desc>
+  </opt>
+  <opt>
+    Grit
+    <desc>Any grit or other inclusions adhered to the surface during firing</desc>
+  </opt>
+  <opt>
+    Other
+    <desc>Use annotation to describe</desc>
+  </opt>
+</opts>
