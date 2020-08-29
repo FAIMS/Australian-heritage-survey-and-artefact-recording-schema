@@ -1,0 +1,20 @@
+<opts>
+    <opt>Cortical platform
+        <desc>Striking platform is ‘cortex’ at point of force application. Cortex here refers to the original inner and outer surface of the bottle (after Gorman, 2000, p. 261).</desc>
+    </opt>
+    <opt>Single facet platform
+        <desc>Point of force application (PFA) is located on a flake scar or broken face.</desc>
+    </opt>
+    <opt>Dihedral
+        <desc>PFA is located on the ridge between two scars.</desc>
+    </opt>
+    <opt>Multifaceted platform
+        <desc>PFA is located on a surface with multiple scars.</desc>
+    </opt>
+    <opt>Edge platform
+        <desc>Flake initiated at the very edge of the platform. A discrete platform surface is not identifiable on the flake, but a clear PFA is present.</desc>
+    </opt>
+    <opt>Collapsed/crushed platform
+        <desc>The platform shattered during impact. Platform dimensions cannot be recorded.</desc>
+    </opt>
+</opts>

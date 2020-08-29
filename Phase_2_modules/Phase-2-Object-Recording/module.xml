@@ -948,6 +948,143 @@
 </Button>
 
 
+<Knapped_Glass_Artefact>
+  <fmt>KGA{{Knapped_Glass_Artefact_ID}}</fmt>
+  <General>
+    <Knapped_Glass_Artefact_ID f="autonum nocertainty"/>
+    <author f="nocertainty"/>
+    <timestamp f="noannotation nocertainty"/>
+
+    <gps f="notnull"/>
+    <Find_This_in_The_Map l="Control/Map">
+        Find This in The Map...
+      </Find_This_in_The_Map>
+    <Device_photos t="camera" f="nocertainty">
+        <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+    </Device_photos>
+    <Landform_element>
+        <desc>30m observational unit</desc>
+        <!--@SOURCE: ../../vocab/landform_elements.xml-->
+    </Landform_element>
+  </General>
+
+  <Feature_details>
+    <Type t="dropdown">
+      <!--@SOURCE: ../../vocab/knappedglass_gentype.xml-->
+    </Type>
+    <Glass_type t="dropdown">
+      <desc>What is the type of glass?</desc>
+      <!--@SOURCE: ../../vocab/knappedglass_bottletype.xml-->
+    </Glass_type>
+    <Bottle_part t="checkbox">
+      <desc>What part of the bottle has been utilised (select all that apply)?</desc>
+      <!--@SOURCE: ../../vocab/knappedglass_bottlepart.xml-->
+    </Bottle_part>
+    <Glass_Colour t="dropdown">
+      <!--@SOURCE: ../../vocab/glass_colour.xml-->
+    </Glass_Colour>
+    <Completeness t="dropdown">
+      <!--@SOURCE: ../../vocab/stoneartefact_flake_completeness.xml-->
+    </Completeness>
+    <Max_Length_mm b="decimal"/>
+    <Max_Width_mm b="decimal"/>
+    <Max_Thickness_mm b="decimal"/>
+    <Weight_g b="decimal"/>
+    <Burned t="dropdown">
+      <desc>Note if artefact has been subject to extreme heat</desc>
+        <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Burned>
+    <Patination t="dropdown">
+      <desc>Note if artefact has been subject to patination, or chemical weathering residues on its surface</desc>
+        <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Patination>
+    <Additional_Notes/>
+    <Date_Range/>
+    <Webview_Glass_Core_Details t="webview" f="nolabel">
+      <markdown>
+    # Plain Text ‘Glass Core details (complete only for cores)’
+      </markdown>
+    </Webview_Glass_Core_Details>
+    <Scar_count b="decimal">
+      <desc>Record the total number of scars present on the core</desc>
+    </Scar_count>
+    <Largest_Scar_Length_mm b="decimal"/>
+    <Largest_Scar_Width_mm b="decimal"/>
+    <Core_Type t="dropdown">
+      <!--@SOURCE: ../../vocab/stoneartefact_coretypes.xml-->
+    </Core_Type>
+    <Original_base_diameter b="decimal">
+      <desc>estimate or measure the base diameter, where possible. Use certainly slider if appropriate)</desc>
+    </Original_base_diameter>
+    <Webview_Flake_Details t="webview">
+      <markdown>
+    # Flake details (complete only for flakes)
+      </markdown>
+    </Webview_Flake_Details>
+    <Platform_type t="dropdown">
+      <!--@SOURCE: ../../vocab/knappedglass_platform.xml-->
+    </Platform_type>
+    <Platform_depth_mm b="decimal">
+      <desc>Maximum depth of platform</desc>
+    </Platform_depth_mm>
+    <Platform_width_mm b="decimal">
+      <desc>Maximum width of platform</desc>
+    </Platform_width_mm>
+    <Distal_termination t="dropdown">
+      <!--@SOURCE: ../../vocab/stoneartefact_termination.xml-->
+    </Distal_termination>
+    <Cortex_percent t="dropdown">
+      <desc>estimate the percent of remaining cortex</desc>
+      <!--@SOURCE: ../../vocab/general_percentages.xml-->
+    </Cortex_percent>
+    <Dorsal_Scar_Count b="decimal">
+      <desc>Record the number of flake scars on the dorsal surface of complete flakes</desc>
+    </Dorsal_Scar_Count>
+    <Conjoin>
+      <desc>note details if this can be conjoined back to an original core</desc>
+    </Conjoin>
+    <Refit>
+      <desc>note details if this flake piece can be refitted to other flake pieces</desc>
+    </Refit>
+    <Edge_damage t="dropdown">
+      <desc>Evidence of crushing or flaking on an edge, whether pre- or post-depositional</desc>
+        <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Edge_damage>
+    <Abrasion t="checkbox">
+      <!--@SOURCE: ../../vocab/knappedglass_abrasion.xml-->
+    </Abrasion>
+  </Feature_details>
+
+  <Supplementary>
+    <External_camera_ID f="nocertainty">
+        <desc>Select other cameras used for photography (if applicable)</desc>
+        <!--@SOURCE: ../../vocab/camera_ids.xml-->
+    </External_camera_ID>
+    <External_camera_file_names_and_attachment f="nocertainty">
+      <desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+    </External_camera_file_names_and_attachment>
+    <External_camera_image_attachment t="file" f="nocertainty">
+      <desc>Upload files on server, and annotate those files with captions.
+      </desc>
+    </External_camera_image_attachment>
+    <Survey_instrument_name >
+        <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+        <!--@SOURCE: ../../vocab/survey_instr.xml-->
+    </Survey_instrument_name>
+    <Survey_instrument_point_codes>
+        <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+    </Survey_instrument_point_codes>
+    <Related_Site_Name f="noannotation">
+      <desc>If this is associated with a specific site, please note site name or code here</desc>
+    </Related_Site_Name>
+    <Sample_context f="noannotation">
+      <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
+    </Sample_context>
+    <Other_contextual_details f="noannotation">
+      <desc>Please list other context details as relevant here.</desc>
+    </Other_contextual_details>
+  </Supplementary>
+</Knapped_Glass_Artefact>
 
 
 <logic><![CDATA[

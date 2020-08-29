@@ -1,0 +1,17 @@
+<opts>
+    <opt>Complete
+        <desc>Ventral surface, platform, lateral margins and termination are preserved</desc>
+    </opt>
+    <opt>Proximal
+        <desc>Broken flake, termination absent with evidence of initation present (e.g. platform, bulb of percussion, bulbar scar or fissures) </desc>
+    </opt>
+    <opt>Medial
+        <desc>Broken flake, both proximal and distal margins absent (ie. termination and initiation points)</desc>
+    </opt>
+    <opt>Distal
+        <desc>Distal fragment, termination preserved but proximal margin absent (e.g. missing platform)</desc>
+    </opt>
+    <opt>Angular fragment
+        <desc>Other fragment, typically amorphous with no characteristics of flakes, cores or tools</desc>
+    </opt>
+</opts>

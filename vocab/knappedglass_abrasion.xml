@@ -1,0 +1,8 @@
+<opts>
+    <opt>Cortical surface
+        <desc>Macroscopic scratches or abrasions on cortical surfaces only.</desc>
+    </opt>
+    <opt>Both surfaces
+        <desc>Both surfaces have abrasion</desc>
+    </opt>
+</opts>

@@ -1,0 +1,17 @@
+<opts>
+    <opt>Indeterminate
+        <desc>Core fragment with flake initiation unclear</desc>
+    </opt>
+    <opt>Unidirectional core
+        <desc>Flake scars originate from a single platform, and all flakes struck in the same direction</desc>
+    </opt>
+    <opt>Bidirectional core
+        <desc>A core with two platforms, opposite each other, with flakes struck from each platform, and thus from opposite directions</desc>
+    </opt>
+    <opt>Bifacial core
+        <desc>Single platform core, but flakes struck from two core faces</desc>
+    </opt>
+    <opt>Multidirectional core
+        <desc>Two or more platforms, with no clear pattern in platform or scar orientation</desc>
+    </opt>
+</opts>
