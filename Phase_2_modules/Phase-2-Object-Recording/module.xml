@@ -866,12 +866,91 @@
   </Supplementary>
 </Discrete_Hearth_Artefact>
 
+
+<Button>
+  <fmt>B{{Button_ID}}</fmt>
+  <General>
+    <Button_ID f="autonum nocertainty"/>
+    <author f="nocertainty"/>
+    <timestamp f="noannotation nocertainty"/>
+
+    <gps f="notnull"/>
+    <Find_This_in_The_Map l="Control/Map">
+        Find This in The Map...
+      </Find_This_in_The_Map>
+    <Device_photos t="camera" f="nocertainty">
+        <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+    </Device_photos>
+    <Landform_element>
+        <desc>30m observational unit</desc>
+        <!--@SOURCE: ../../vocab/landform_elements.xml-->
+    </Landform_element>
+  </General>
+
+  <Feature_details>
+    <Material_type t="checkbox">
+      <!--@SOURCE: ../../vocab/buttons_material.xml-->
+    </Material_type>
+    <Attachment_method t="dropdown">
+      <!--@SOURCE: ../../vocab/buttons_attachment.xml-->
+    </Attachment_method>
+    <Ligne_size_mm b="decimal"/>
+    <Manufacture_method t="checkbox">
+      <!--@SOURCE: ../../vocab/buttons_manmeth.xml-->
+    </Manufacture_method>
+    <Construction t="dropdown">
+      <!--@SOURCE: ../../vocab/buttons_construct.xml-->
+    </Construction>
+    <Shank_Type t="checkbox">
+      <!--@SOURCE: ../../vocab/buttons_shanktype.xml-->
+    </Shank_Type>
+    <Sew_Through_type t="checkbox">
+      <!--@SOURCE: ../../vocab/buttons_sewthrutype.xml-->
+    </Sew_Through_type>
+    <Number_of_Eyes b="decimal"/>
+    <Motifs f="noannotation"/>
+    <Maker_s_Marks_or_Trademarks f="noannotation"/>
+    <Start_Date b="date"/>
+    <End_Date b="date"/>
+    <Additional_Notes f="noannotation"/>
+    <References f="noannotation"/>
+  </Feature_details>
+
+  <Supplementary>
+    <External_camera_ID f="nocertainty">
+        <desc>Select other cameras used for photography (if applicable)</desc>
+        <!--@SOURCE: ../../vocab/camera_ids.xml-->
+    </External_camera_ID>
+    <External_camera_file_names_and_attachment f="nocertainty">
+      <desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+    </External_camera_file_names_and_attachment>
+    <External_camera_image_attachment t="file" f="nocertainty">
+      <desc>Upload files on server, and annotate those files with captions.
+      </desc>
+    </External_camera_image_attachment>
+    <Survey_instrument_name >
+        <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+        <!--@SOURCE: ../../vocab/survey_instr.xml-->
+    </Survey_instrument_name>
+    <Survey_instrument_point_codes>
+        <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+    </Survey_instrument_point_codes>
+    <Related_Site_Name f="noannotation">
+      <desc>If this is associated with a specific site, please note site name or code here</desc>
+    </Related_Site_Name>
+    <Sample_context f="noannotation">
+      <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
+    </Sample_context>
+    <Other_contextual_details f="noannotation">
+      <desc>Please list other context details as relevant here.</desc>
+    </Other_contextual_details>
+  </Supplementary>
+</Button>
+
+
+
+
 <logic><![CDATA[
-
-
-
-
-
 <!--@SOURCE: logic/sync.bsh-->
 <!--@SOURCE: logic/gis-shared.bsh-->
 <!--@SOURCE: logic/custom-search.bsh-->
@@ -880,7 +959,6 @@
 <!--@SOURCE: logic/find-in-map.bsh-->
 <!--@SOURCE: logic/autonumbering-validation.bsh-->
 <!--@SOURCE: logic/leave-gps-verification.bsh-->
-
 ]]></logic>
 
 <css><![CDATA[

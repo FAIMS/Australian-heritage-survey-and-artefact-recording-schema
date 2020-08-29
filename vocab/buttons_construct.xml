@@ -1,0 +1,7 @@
+<opts>
+    <opt>Composite
+        <desc>More than two pieces</desc>
+    </opt>
+    <opt>One piece</opt>
+    <opt>Two piece</opt>
+</opts>
