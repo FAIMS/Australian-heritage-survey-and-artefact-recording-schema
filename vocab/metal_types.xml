@@ -1,0 +1,20 @@
+<opts>
+    <opt>Brass</opt>
+    <opt>Copper</opt>
+    <opt>Brass/Copper alloy</opt>
+    <opt>Cast iron</opt>
+    <opt>Corrugated/ripple iron (galv and non-galv)</opt>
+    <opt>Forged or wrought iron</opt>
+    <opt>Galvanised iron</opt>
+    <opt>Gold</opt>
+    <opt>Lead</opt>
+    <opt>Nickel silver (or other base metal)</opt>
+    <opt>Other iron</opt>
+    <opt>Platinum</opt>
+    <opt>Silver</opt>
+    <opt>Steel</opt>
+    <opt>Tin</opt>
+    <opt>Zinc alloy</opt>
+    <opt>Unidentified</opt>
+    <opt>Other</opt>
+</opts>

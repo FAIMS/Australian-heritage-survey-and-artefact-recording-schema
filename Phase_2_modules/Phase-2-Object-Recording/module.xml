@@ -1087,6 +1087,137 @@
 </Knapped_Glass_Artefact>
 
 
+<Metal_Artefact>
+  <fmt>MeA{{Metal_Artefact_ID}}</fmt>
+  <General>
+    <Metal_Artefact_ID f="autonum nocertainty"/>
+    <author f="nocertainty"/>
+    <timestamp f="noannotation nocertainty"/>
+
+    <gps f="notnull"/>
+    <Find_This_in_The_Map l="Control/Map">
+        Find This in The Map...
+      </Find_This_in_The_Map>
+    <Device_photos t="camera" f="nocertainty">
+        <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+    </Device_photos>
+    <Landform_element>
+        <desc>30m observational unit</desc>
+        <!--@SOURCE: ../../vocab/landform_elements.xml-->
+    </Landform_element>
+  </General>
+
+  <Feature_details>
+    <Metal_Type t="checkbox">
+      <!--@SOURCE: ../../vocab/metal_types.xml-->
+    </Metal_Type>
+    <Metal_Completeness t="dropdown">
+      <opts>
+        <opt>&gt;95% present</opt>
+        <opt>51-95% present</opt>
+        <opt>&lt;50% present</opt>
+      </opts>
+    </Metal_Completeness>
+    <Object_Type t="dropdown">
+      <!--@SOURCE: ../../vocab/metal_objecttypes.xml-->
+    </Object_Type>
+    <Length_mm b="decimal"/>
+    <Width_mm b="decimal"/>
+    <Thickness_mm b="decimal"/>
+    <Weight_g b="decimal"/>
+    <Maker_s_Marks_or_Trademarks f="noannotation">
+      Maker’s Marks or Trademarks
+    </Maker_s_Marks_or_Trademarks>
+    <Modification_or_re_use f="noannotation"/>
+    <Date_Range f="noannotation"/>
+    <Additional_Notes f="noannotation"/>
+    <References f="noannotation"/>
+    <Nails_or_structural_fasteners_only t="webview">
+      <markdown>
+    # Nails or structural fasteners only
+      </markdown>
+    </Nails_or_structural_fasteners_only>
+    <Form t="dropdown">
+      <!--@SOURCE: ../../vocab/metal_nails_form.xml-->
+    </Form>
+    <Head_shape t="dropdown">
+      <!--@SOURCE: ../../vocab/metal_nails_headshape.xml-->
+    </Head_shape>
+    <Shaft_shape t="dropdown">
+      <!--@SOURCE: ../../vocab/metal_nails_shaftshape.xml-->
+    </Shaft_shape>
+    <Manufacture_method t="dropdown">
+      <!--@SOURCE: ../../vocab/metal_nails_manufacture.xml-->
+    </Manufacture_method>
+    <Size_Class t="dropdown">
+      <!--@SOURCE: ../../vocab/metal_nails_sizeclasses.xml-->
+    </Size_Class>
+    <Features t="checkbox">
+      <!--@SOURCE: ../../vocab/metal_nails_features.xml-->
+    </Features>
+    <Buckles_only t="webview">
+      <markdown>
+    # Buckles only
+      </markdown>
+    </Buckles_only>
+    <Frame_type t="dropdown">
+      <!--@SOURCE: ../../vocab/metal_buckles_frametype.xml-->
+    </Frame_type>
+    <Frame_shape t="dropdown">
+      <!--@SOURCE: ../../vocab/metal_buckles_frameshape.xml-->
+    </Frame_shape>
+    <Pin t="dropdown">
+      <opts>
+        <opt>Part of frame</opt>
+        <opt>Separate</opt>
+      </opts>
+    </Pin>
+    <Tongue t="dropdown">
+      <opts>
+        <opt>Double</opt>
+        <opt>Single</opt>
+      </opts>
+    </Tongue>
+    <Decoration_type t="checkbox">
+      <!--@SOURCE: ../../vocab/metal_buckles_decoration_type.xml-->
+    </Decoration_type>
+    <Decorative_motifs t="checkbox">
+      <!--@SOURCE: ../../vocab/metal_buckles_decorative_motifs.xml-->
+    </Decorative_motifs>
+  </Feature_details>
+
+  <Supplementary>
+    <External_camera_ID f="nocertainty">
+        <desc>Select other cameras used for photography (if applicable)</desc>
+        <!--@SOURCE: ../../vocab/camera_ids.xml-->
+    </External_camera_ID>
+    <External_camera_file_names_and_attachment f="nocertainty">
+      <desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+    </External_camera_file_names_and_attachment>
+    <External_camera_image_attachment t="file" f="nocertainty">
+      <desc>Upload files on server, and annotate those files with captions.
+      </desc>
+    </External_camera_image_attachment>
+    <Survey_instrument_name >
+        <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+        <!--@SOURCE: ../../vocab/survey_instr.xml-->
+    </Survey_instrument_name>
+    <Survey_instrument_point_codes>
+        <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+    </Survey_instrument_point_codes>
+    <Related_Site_Name f="noannotation">
+      <desc>If this is associated with a specific site, please note site name or code here</desc>
+    </Related_Site_Name>
+    <Sample_context f="noannotation">
+      <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
+    </Sample_context>
+    <Other_contextual_details f="noannotation">
+      <desc>Please list other context details as relevant here.</desc>
+    </Other_contextual_details>
+  </Supplementary>
+</Metal_Artefact>
+
+
 <logic><![CDATA[
 <!--@SOURCE: logic/sync.bsh-->
 <!--@SOURCE: logic/gis-shared.bsh-->
