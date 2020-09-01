@@ -162,7 +162,7 @@
       </validator>
     </property>
   </ArchaeologicalElement>
-  <ArchaeologicalElement name="Button">
+  <ArchaeologicalElement name="Buttons">
     <property name="Latitude">
       <validator type="blankchecker">
         <param type="field" value="measure"/>

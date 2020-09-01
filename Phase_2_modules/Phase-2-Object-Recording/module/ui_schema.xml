@@ -31,7 +31,7 @@
               <New_Discrete_Hearth/>
               <New_Glass_Artefact/>
               <New_Ceramic_Artefact/>
-              <New_Button/>
+              <New_Buttons/>
               <New_Metal_Artefact/>
               <New_Weapons_and_Ammunition/>
               <New_Misc_Artefact/>
@@ -81,7 +81,7 @@
               <Next_Ceramic_Artefact_ID/>
               <Next_Misc_Artefact_ID/>
               <Next_Discrete_Hearth_Artefact_ID/>
-              <Next_Button_ID/>
+              <Next_Buttons_ID/>
               <Next_Knapped_Glass_Artefact_ID/>
               <Next_Metal_Artefact_ID/>
               <Next_Weapons_and_Ammunition/>
@@ -379,6 +379,7 @@
               <External_camera_file_names_and_attachment/>
               <External_camera_image_attachment/>
               <External_camera_image_attachment_Button_1/>
+              <Survey_job_name/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
               <Related_Site_Name/>
@@ -492,11 +493,11 @@
               <Other_contextual_details/>
             </Supplementary>
           </Discrete_Hearth_Artefact>
-          <Button>
+          <Buttons>
             <General>
-              <Button_ID/>
-              <Button_author/>
-              <Button_timestamp/>
+              <Buttons_ID/>
+              <Buttons_author/>
+              <Buttons_timestamp/>
               <Colgroup_1>
                 <Col_1>
                   <Latitude/>
@@ -543,13 +544,14 @@
               <External_camera_file_names_and_attachment/>
               <External_camera_image_attachment/>
               <External_camera_image_attachment_Button_1/>
+              <Survey_job_name/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
               <Related_Site_Name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
-          </Button>
+          </Buttons>
           <Knapped_Glass_Artefact>
             <General>
               <Knapped_Glass_Artefact_ID/>
@@ -593,7 +595,8 @@
               <Burned/>
               <Patination/>
               <Additional_Notes/>
-              <Date_Range/>
+              <Start_Date/>
+              <End_Date/>
               <Webview_Glass_Core_Details/>
               <Scar_count/>
               <Largest_Scar_Length_mm/>
@@ -664,7 +667,8 @@
               <Weight_g/>
               <Maker_s_Marks_or_Trademarks/>
               <Modification_or_re_use/>
-              <Date_Range/>
+              <Start_Date/>
+              <End_Date/>
               <Additional_Notes/>
               <References/>
               <Nails_or_structural_fasteners_only/>
@@ -736,7 +740,8 @@
               <Gun_part/>
               <Crown_or_head_stamps/>
               <Other_trademarks/>
-              <Date_range/>
+              <Start_Date/>
+              <End_Date/>
               <Additional_Notes/>
               <References/>
               <Projectile_details/>
@@ -770,7 +775,7 @@
       <bind nodeset="/faims/Control/Autonumbering/Next_Ceramic_Artefact_ID" type="decimal"/>
       <bind nodeset="/faims/Control/Autonumbering/Next_Misc_Artefact_ID" type="decimal"/>
       <bind nodeset="/faims/Control/Autonumbering/Next_Discrete_Hearth_Artefact_ID" type="decimal"/>
-      <bind nodeset="/faims/Control/Autonumbering/Next_Button_ID" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Buttons_ID" type="decimal"/>
       <bind nodeset="/faims/Control/Autonumbering/Next_Knapped_Glass_Artefact_ID" type="decimal"/>
       <bind nodeset="/faims/Control/Autonumbering/Next_Metal_Artefact_ID" type="decimal"/>
       <bind nodeset="/faims/Control/Autonumbering/Next_Weapons_and_Ammunition" type="decimal"/>
@@ -837,14 +842,16 @@
       <bind nodeset="/faims/Misc_Artefact/Feature_details/Start_Date" type="date"/>
       <bind nodeset="/faims/Misc_Artefact/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Discrete_Hearth_Artefact/Feature_details/Diameter_mm" type="decimal"/>
-      <bind nodeset="/faims/Button/Feature_details/Ligne_size_mm" type="decimal"/>
-      <bind nodeset="/faims/Button/Feature_details/Number_of_Eyes" type="decimal"/>
-      <bind nodeset="/faims/Button/Feature_details/Start_Date" type="date"/>
-      <bind nodeset="/faims/Button/Feature_details/End_Date" type="date"/>
+      <bind nodeset="/faims/Buttons/Feature_details/Ligne_size_mm" type="decimal"/>
+      <bind nodeset="/faims/Buttons/Feature_details/Number_of_Eyes" type="decimal"/>
+      <bind nodeset="/faims/Buttons/Feature_details/Start_Date" type="date"/>
+      <bind nodeset="/faims/Buttons/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_Length_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_Width_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Weight_g" type="decimal"/>
+      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Start_Date" type="date"/>
+      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Scar_count" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Largest_Scar_Length_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Largest_Scar_Width_mm" type="decimal"/>
@@ -856,11 +863,15 @@
       <bind nodeset="/faims/Metal_Artefact/Feature_details/Width_mm" type="decimal"/>
       <bind nodeset="/faims/Metal_Artefact/Feature_details/Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Metal_Artefact/Feature_details/Weight_g" type="decimal"/>
+      <bind nodeset="/faims/Metal_Artefact/Feature_details/Start_Date" type="date"/>
+      <bind nodeset="/faims/Metal_Artefact/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Length_mm" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Width_mm" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Weight_g" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Weight_grains_1_gram_is_15_4324_grains" type="decimal"/>
+      <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Start_Date" type="date"/>
+      <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Number_of_Grooves" type="decimal"/>
     </model>
   </h:head>
@@ -923,8 +934,8 @@
         <trigger ref="New_Ceramic_Artefact" faims_style_class="blue">
           <label>{New_Ceramic_Artefact}</label>
         </trigger>
-        <trigger ref="New_Button" faims_style_class="blue">
-          <label>{New_Button}</label>
+        <trigger ref="New_Buttons" faims_style_class="blue">
+          <label>{New_Buttons}</label>
         </trigger>
         <trigger ref="New_Metal_Artefact" faims_style_class="red">
           <label>{New_Metal_Artefact}</label>
@@ -1050,8 +1061,8 @@
         <input ref="Next_Discrete_Hearth_Artefact_ID" faims_style_class="required">
           <label>{Next_Discrete_Hearth_Artefact_ID}</label>
         </input>
-        <input ref="Next_Button_ID" faims_style_class="required">
-          <label>{Next_Button_ID}</label>
+        <input ref="Next_Buttons_ID" faims_style_class="required">
+          <label>{Next_Buttons_ID}</label>
         </input>
         <input ref="Next_Knapped_Glass_Artefact_ID" faims_style_class="required">
           <label>{Next_Knapped_Glass_Artefact_ID}</label>
@@ -1677,7 +1688,7 @@
           <label>{Shoulder_Width__mm_}</label>
         </input>
         <input faims_attribute_name="Complete Height mm" faims_attribute_type="measure" ref="Complete_Height_mm">
-          <label>{Complete_Width__mm_}</label>
+          <label>{Complete_Height__mm_}</label>
         </input>
         <input faims_attribute_name="Number of mould seams" faims_attribute_type="measure" ref="Number_of_mould_seams">
           <label>{Number_of_mould_seams}</label>
@@ -1755,7 +1766,7 @@
           <label>{References}</label>
         </input>
         <input faims_web="true" ref="Grouped_Fragments_Only">
-          <label>{Grouped_Fragments_Only}</label>
+          <label/>
         </input>
         <input faims_attribute_name="Grouped fragment count" faims_attribute_type="measure" ref="Grouped_fragment_count" faims_annotation="false">
           <label>{Grouped_fragment_count}</label>
@@ -2020,7 +2031,7 @@
           <label>{References}</label>
         </input>
         <input faims_web="true" ref="Grouped_Fragments_Only">
-          <label>{Grouped_Fragments_Only}</label>
+          <label/>
         </input>
         <input faims_attribute_name="Grouped fragment count" faims_attribute_type="measure" ref="Grouped_fragment_count" faims_annotation="false">
           <label>{Grouped_fragment_count}</label>
@@ -2072,6 +2083,9 @@
         <trigger ref="External_camera_image_attachment_Button_1">
           <label>{External_camera_image_attachment}</label>
         </trigger>
+        <input faims_attribute_name="Survey job name" faims_attribute_type="measure" ref="Survey_job_name" faims_annotation="false">
+          <label>{Survey_job_name}</label>
+        </input>
         <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
@@ -2405,17 +2419,17 @@
         </input>
       </group>
     </group>
-    <group ref="Button" faims_archent_type="Button">
-      <label>{Button}</label>
+    <group ref="Buttons" faims_archent_type="Buttons">
+      <label>{Buttons}</label>
       <group ref="General">
         <label>{General}</label>
-        <input faims_attribute_name="Button ID" faims_attribute_type="measure" ref="Button_ID" faims_certainty="false">
-          <label>{Button_ID}</label>
+        <input faims_attribute_name="Buttons ID" faims_attribute_type="measure" ref="Buttons_ID" faims_certainty="false">
+          <label>{Buttons_ID}</label>
         </input>
-        <input faims_attribute_name="Button author" faims_attribute_type="measure" ref="Button_author" faims_read_only="true" faims_certainty="false">
+        <input faims_attribute_name="Buttons author" faims_attribute_type="measure" ref="Buttons_author" faims_read_only="true" faims_certainty="false">
           <label>{Author}</label>
         </input>
-        <input faims_attribute_name="Button timestamp" faims_attribute_type="measure" ref="Button_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+        <input faims_attribute_name="Buttons timestamp" faims_attribute_type="measure" ref="Buttons_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
           <label>{Timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
@@ -2497,7 +2511,7 @@
         <input faims_attribute_name="Ligne size mm" faims_attribute_type="measure" ref="Ligne_size_mm">
           <label>{Ligne_size_mm}</label>
         </input>
-        <select faims_attribute_name="Button Manufacture method" faims_attribute_type="vocab" ref="Manufacture_method">
+        <select faims_attribute_name="Buttons Manufacture method" faims_attribute_type="vocab" ref="Manufacture_method">
           <label>{Manufacture_method}</label>
           <item>
             <label>Options not loaded</label>
@@ -2569,6 +2583,9 @@
         <trigger ref="External_camera_image_attachment_Button_1">
           <label>{External_camera_image_attachment}</label>
         </trigger>
+        <input faims_attribute_name="Survey job name" faims_attribute_type="measure" ref="Survey_job_name" faims_annotation="false">
+          <label>{Survey_job_name}</label>
+        </input>
         <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
           <item>
@@ -2579,7 +2596,7 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Button Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
+        <input faims_attribute_name="Buttons Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
           <label>{Related_Site_Name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
@@ -2729,8 +2746,11 @@
         <input faims_attribute_name="Additional Notes" faims_attribute_type="measure" ref="Additional_Notes">
           <label>{Additional_Notes}</label>
         </input>
-        <input faims_attribute_name="Date Range" faims_attribute_type="measure" ref="Date_Range">
-          <label>{Date_Range}</label>
+        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
+          <label>{Start_Date}</label>
+        </input>
+        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
+          <label>{End_Date}</label>
         </input>
         <input faims_web="true" ref="Webview_Glass_Core_Details">
           <label/>
@@ -2755,7 +2775,7 @@
           <label>{Original_base_diameter}</label>
         </input>
         <input faims_web="true" ref="Webview_Flake_Details">
-          <label>{Webview_Flake_Details}</label>
+          <label/>
         </input>
         <select1 faims_attribute_name="Platform type" faims_attribute_type="vocab" ref="Platform_type">
           <label>{Platform_type}</label>
@@ -2787,10 +2807,10 @@
         <input faims_attribute_name="Dorsal Scar Count" faims_attribute_type="measure" ref="Dorsal_Scar_Count">
           <label>{Dorsal_Scar_Count}</label>
         </input>
-        <input faims_attribute_name="Conjoin" faims_attribute_type="measure" ref="Conjoin">
+        <input faims_attribute_name="Conjoin" faims_attribute_type="measure" ref="Conjoin" faims_annotation="false">
           <label>{Conjoin}</label>
         </input>
-        <input faims_attribute_name="Refit" faims_attribute_type="measure" ref="Refit">
+        <input faims_attribute_name="Refit" faims_attribute_type="measure" ref="Refit" faims_annotation="false">
           <label>{Refit}</label>
         </input>
         <select1 faims_attribute_name="Edge damage" faims_attribute_type="vocab" ref="Edge_damage">
@@ -2965,8 +2985,11 @@
         <input faims_attribute_name="Modification or re use" faims_attribute_type="measure" ref="Modification_or_re_use" faims_annotation="false">
           <label>{Modification_or_re_use}</label>
         </input>
-        <input faims_attribute_name="Date Range" faims_attribute_type="measure" ref="Date_Range" faims_annotation="false">
-          <label>{Date_Range}</label>
+        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
+          <label>{Start_Date}</label>
+        </input>
+        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
+          <label>{End_Date}</label>
         </input>
         <input faims_attribute_name="Additional Notes" faims_attribute_type="measure" ref="Additional_Notes" faims_annotation="false">
           <label>{Additional_Notes}</label>
@@ -2975,7 +2998,7 @@
           <label>{References}</label>
         </input>
         <input faims_web="true" ref="Nails_or_structural_fasteners_only">
-          <label>{Nails_or_structural_fasteners_only}</label>
+          <label/>
         </input>
         <select1 faims_attribute_name="Metal Artefact Form" faims_attribute_type="vocab" ref="Form">
           <label>{Form}</label>
@@ -3020,7 +3043,7 @@
           </item>
         </select>
         <input faims_web="true" ref="Buckles_only">
-          <label>{Buckles_only}</label>
+          <label/>
         </input>
         <select1 faims_attribute_name="Frame type" faims_attribute_type="vocab" ref="Frame_type">
           <label>{Frame_type}</label>
@@ -3232,8 +3255,11 @@
         <input faims_attribute_name="Other trademarks" faims_attribute_type="measure" ref="Other_trademarks" faims_annotation="false">
           <label>{Other_trademarks}</label>
         </input>
-        <input faims_attribute_name="Date range" faims_attribute_type="measure" ref="Date_range" faims_annotation="false">
-          <label>{Date_range}</label>
+        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
+          <label>{Start_Date}</label>
+        </input>
+        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
+          <label>{End_Date}</label>
         </input>
         <input faims_attribute_name="Additional Notes" faims_attribute_type="measure" ref="Additional_Notes" faims_annotation="false">
           <label>{Additional_Notes}</label>
@@ -3242,7 +3268,7 @@
           <label>{References}</label>
         </input>
         <input faims_web="true" ref="Projectile_details">
-          <label>{Projectile_details}</label>
+          <label/>
         </input>
         <select1 faims_attribute_name="Projectile type" faims_attribute_type="vocab" ref="Projectile_type">
           <label>{Projectile_type}</label>
@@ -3276,7 +3302,7 @@
           <label>{Number_of_Grooves}</label>
         </input>
         <input faims_web="true" ref="Cartridge_details">
-          <label>{Cartridge_details}</label>
+          <label/>
         </input>
         <select1 faims_attribute_name="Base" faims_attribute_type="vocab" ref="Base">
           <label>{Base}</label>

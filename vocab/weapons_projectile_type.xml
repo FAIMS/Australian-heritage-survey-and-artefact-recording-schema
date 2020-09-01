@@ -1,4 +1,5 @@
 <opts>
+    <opt>Cartridge case only (fired)</opt>
     <opt>Conical projectile (bullet)</opt>
     <opt>Spherical projectile (ball, shot)</opt>
     <opt>Other</opt>

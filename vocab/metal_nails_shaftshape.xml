@@ -1,4 +1,5 @@
 <opts>
+    <opt>Round</opt>
     <opt>Two sided taper</opt>
     <opt>Four sided taper</opt>
     <opt>No taper</opt>

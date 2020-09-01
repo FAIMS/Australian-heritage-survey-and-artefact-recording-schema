@@ -1327,7 +1327,7 @@
       </lookup>
     </property>
     <property name="Probable Contents" type="vocab">
-      <description></description>
+      <description>Select all that apply</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -2261,6 +2261,11 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Survey job name" type="measure">
+      <description>Provide details for survey job name containing coordinate data</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
     <property name="Survey instrument name" type="vocab">
       <description>If recording coincides with instrument survey, please select appropriate instrument name.</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
@@ -2937,19 +2942,19 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
   </ArchaeologicalElement>
-  <ArchaeologicalElement name="Button">
+  <ArchaeologicalElement name="Buttons">
     <description></description>
-    <property name="Button ID" type="measure" isIdentifier="true">
+    <property name="Buttons ID" type="measure" isIdentifier="true">
       <description></description>
       <formatString>B$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Button author" type="measure">
+    <property name="Buttons author" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Button timestamp" type="measure">
+    <property name="Buttons timestamp" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -3095,6 +3100,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Bakelite}
+<description> </description></term>
         <term>{Bone}
 <description> </description></term>
         <term>{Ceramic}
@@ -3118,6 +3125,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Sew_through}
+<description> </description></term>
         <term>{Shanked}
 <description> </description></term>
         <term>{Unknown}
@@ -3129,11 +3138,13 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Button Manufacture method" type="vocab">
+    <property name="Buttons Manufacture method" type="vocab">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Cast}
+<description> </description></term>
         <term>{Cut}
 <description> </description></term>
         <term>{Moulded}
@@ -3270,6 +3281,11 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Survey job name" type="measure">
+      <description>Provide details for survey job name containing coordinate data</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
     <property name="Survey instrument name" type="vocab">
       <description>If recording coincides with instrument survey, please select appropriate instrument name.</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
@@ -3296,7 +3312,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Button Related Site Name" type="measure">
+    <property name="Buttons Related Site Name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -3470,6 +3486,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Glass_core}
+<description> </description></term>
         <term>{Glass_flake}
 <description> </description></term>
         <term>{Other}
@@ -3481,6 +3499,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Bottle}
+<description> </description></term>
         <term>{Insulator}
 <description> </description></term>
         <term>{Other}
@@ -3492,6 +3512,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Finish}
+<description> </description></term>
         <term>{Neck}
 <description> </description></term>
         <term>{Shoulder}
@@ -3599,7 +3621,12 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Date Range" type="measure">
+    <property name="Start Date" type="measure">
+      <description></description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="End Date" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -3735,6 +3762,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Flaked_surface}
+<description>Macroscopic scratches or abrasions visible on a flaked surface.</description></term>
         <term>{Cortical_surface}
 <description>Macroscopic scratches or abrasions on cortical surfaces only.</description></term>
         <term>{Both_surfaces}
@@ -4024,153 +4053,100 @@
       <appendCharacterString> - </appendCharacterString>
       <lookup>
         <term>{Clothing_Fasteners}
-<description>Rivet</description></term>
-        <term>{Clothing_Fasteners}
-<description>Hook or Eye</description></term>
-        <term>{Clothing_Fasteners}
-<description>Shoe grommet</description></term>
-        <term>{Clothing_Fasteners}
-<description>Stud or press stud</description></term>
-        <term>{Clothing_Fasteners}
-<description>Other fastener</description></term>
+<description> </description><term>{Buckle}
+<description> </description></term><term>{Rivet}
+<description> </description></term><term>{Hook_or_Eye}
+<description> </description></term><term>{Shoe_grommet}
+<description> </description></term><term>{Stud_or_press_stud}
+<description> </description></term><term>{Other_fastener}
+<description> </description></term></term>
         <term>{Sewing_Paraphernalia}
-<description>Needle or bodkin</description></term>
-        <term>{Sewing_Paraphernalia}
-<description>Thimble</description></term>
-        <term>{Sewing_Paraphernalia}
-<description>Pin</description></term>
-        <term>{Sewing_Paraphernalia}
-<description>Other sewing</description></term>
+<description> </description><term>{Needle_or_bodkin}
+<description> </description></term><term>{Thimble}
+<description> </description></term><term>{Pin}
+<description> </description></term><term>{Other_sewing}
+<description> </description></term></term>
         <term>{Construction_fastener}
-<description>Bracket</description></term>
-        <term>{Construction_fastener}
-<description>Spike</description></term>
-        <term>{Construction_fastener}
-<description>Nail</description></term>
-        <term>{Construction_fastener}
-<description>Screw</description></term>
-        <term>{Construction_fastener}
-<description>Bolt</description></term>
-        <term>{Construction_fastener}
-<description>Tack</description></term>
-        <term>{Construction_fastener}
-<description>Strapping</description></term>
-        <term>{Construction_fastener}
-<description>Wire</description></term>
-        <term>{Construction_fastener}
-<description>Washer</description></term>
-        <term>{Construction_fastener}
-<description>Other construction</description></term>
+<description> </description><term>{Bracket}
+<description> </description></term><term>{Spike}
+<description> </description></term><term>{Nail}
+<description> </description></term><term>{Screw}
+<description> </description></term><term>{Bolt}
+<description> </description></term><term>{Tack}
+<description> </description></term><term>{Strapping}
+<description> </description></term><term>{Wire}
+<description> </description></term><term>{Washer}
+<description> </description></term><term>{Other_construction}
+<description> </description></term></term>
         <term>{Jewellery}
-<description>Bracelet</description></term>
-        <term>{Jewellery}
-<description>Necklace</description></term>
-        <term>{Jewellery}
-<description>Brooch</description></term>
-        <term>{Jewellery}
-<description>Ring</description></term>
-        <term>{Jewellery}
-<description>Cufflink</description></term>
-        <term>{Jewellery}
-<description>Watch</description></term>
-        <term>{Jewellery}
-<description>Other jewellery</description></term>
+<description> </description><term>{Bracelet}
+<description> </description></term><term>{Necklace}
+<description> </description></term><term>{Brooch}
+<description> </description></term><term>{Ring}
+<description> </description></term><term>{Cufflink}
+<description> </description></term><term>{Watch}
+<description> </description></term><term>{Other_jewellery}
+<description> </description></term></term>
         <term>{Building}
-<description>Door knob</description></term>
-        <term>{Building}
-<description>Door plate</description></term>
-        <term>{Building}
-<description>Door hinge</description></term>
-        <term>{Building}
-<description>Door lock or lock plate</description></term>
-        <term>{Building}
-<description>Vent</description></term>
-        <term>{Building}
-<description>Window handle</description></term>
-        <term>{Building}
-<description>Window hinge</description></term>
-        <term>{Building}
-<description>Window catch</description></term>
-        <term>{Building}
-<description>Pipe or pipe fitting</description></term>
+<description> </description><term>{Door_knob}
+<description> </description></term><term>{Door_plate}
+<description> </description></term><term>{Door_hinge}
+<description> </description></term><term>{Door_lock_or_lock_plate}
+<description> </description></term><term>{Vent}
+<description> </description></term><term>{Window_handle}
+<description> </description></term><term>{Window_hinge}
+<description> </description></term><term>{Window_catch}
+<description> </description></term><term>{Pipe_or_pipe_fitting}
+<description> </description></term></term>
         <term>{Furniture}
-<description>Knob</description></term>
-        <term>{Furniture}
-<description>Tack or rivet</description></term>
-        <term>{Furniture}
-<description>Hinge</description></term>
-        <term>{Furniture}
-<description>Key</description></term>
-        <term>{Furniture}
-<description>Lock or lock plate</description></term>
+<description> </description><term>{Knob}
+<description> </description></term><term>{Tack_or_rivet}
+<description> </description></term><term>{Hinge}
+<description> </description></term><term>{Key}
+<description> </description></term><term>{Lock_or_lock_plate}
+<description> </description></term></term>
         <term>{Cutlery}
-<description>Fork</description></term>
-        <term>{Cutlery}
-<description>Knife</description></term>
-        <term>{Cutlery}
-<description>Spoon</description></term>
+<description> </description><term>{Fork}
+<description> </description></term><term>{Knife}
+<description> </description></term><term>{Spoon}
+<description> </description></term></term>
         <term>{Accessories_and_containers}
-<description>Clock, watch or components</description></term>
-        <term>{Accessories_and_containers}
-<description>Document fastener</description></term>
-        <term>{Accessories_and_containers}
-<description>Other container</description></term>
-        <term>{Accessories_and_containers}
-<description>Tobacco tin</description></term>
-        <term>{Accessories_and_containers}
-<description>Coin or token</description></term>
-        <term>{Accessories_and_containers}
-<description>Food can or tin</description></term>
-        <term>{Accessories_and_containers}
-<description>Plate, cup or bowl</description></term>
-        <term>{Accessories_and_containers}
-<description>Wax vestas box</description></term>
-        <term>{Accessories_and_containers}
-<description>Cooking pot, pan or components</description></term>
-        <term>{Accessories_and_containers}
-<description>Lamp or components</description></term>
-        <term>{Accessories_and_containers}
-<description>Stove or components</description></term>
-        <term>{Accessories_and_containers}
-<description>Other accessories or containers</description></term>
+<description> </description><term>{Clock__watch_or_components}
+<description> </description></term><term>{Document_fastener}
+<description> </description></term><term>{Other_container}
+<description> </description></term><term>{Tobacco_tin}
+<description> </description></term><term>{Coin_or_token}
+<description> </description></term><term>{Food_can_or_tin}
+<description> </description></term><term>{Plate__cup_or_bowl}
+<description> </description></term><term>{Wax_vestas_box}
+<description> </description></term><term>{Cooking_pot__pan_or_components}
+<description> </description></term><term>{Lamp_or_components}
+<description> </description></term><term>{Stove_or_components}
+<description> </description></term><term>{Other_accessories_or_containers}
+<description> </description></term></term>
         <term>{Saddlery_and_horses}
-<description>Bit</description></term>
-        <term>{Saddlery_and_horses}
-<description>Bridle component</description></term>
-        <term>{Saddlery_and_horses}
-<description>Horseshoe</description></term>
-        <term>{Saddlery_and_horses}
-<description>Buckle</description></term>
-        <term>{Saddlery_and_horses}
-<description>Horseshoe nail</description></term>
-        <term>{Saddlery_and_horses}
-<description>Rivet or other fixture</description></term>
-        <term>{Saddlery_and_horses}
-<description>Hames or collar</description></term>
-        <term>{Saddlery_and_horses}
-<description>Other harness</description></term>
-        <term>{Saddlery_and_horses}
-<description>Saddle crest or plate</description></term>
-        <term>{Saddlery_and_horses}
-<description>Stirrup components</description></term>
-        <term>{Saddlery_and_horses}
-<description>Other saddle components</description></term>
-        <term>{Saddlery_and_horses}
-<description>Spurs</description></term>
-        <term>{Saddlery_and_horses}
-<description>Other saddlery</description></term>
+<description> </description><term>{Bit}
+<description> </description></term><term>{Bridle_component}
+<description> </description></term><term>{Horseshoe}
+<description> </description></term><term>{Buckle}
+<description> </description></term><term>{Horseshoe_nail}
+<description> </description></term><term>{Rivet_or_other_fixture}
+<description> </description></term><term>{Hames_or_collar}
+<description> </description></term><term>{Other_harness}
+<description> </description></term><term>{Saddle_crest_or_plate}
+<description> </description></term><term>{Stirrup_components}
+<description> </description></term><term>{Other_saddle_components}
+<description> </description></term><term>{Spurs}
+<description> </description></term><term>{Other_saddlery}
+<description> </description></term></term>
         <term>{Tools_and_implements}
-<description>Axe head</description></term>
-        <term>{Tools_and_implements}
-<description>Hammer head</description></term>
-        <term>{Tools_and_implements}
-<description>Utilised metal piece</description></term>
-        <term>{Tools_and_implements}
-<description>File</description></term>
-        <term>{Tools_and_implements}
-<description>Hoe or mattock</description></term>
-        <term>{Tools_and_implements}
-<description>Other tools or implements</description></term>
+<description> </description><term>{Axe_head}
+<description> </description></term><term>{Hammer_head}
+<description> </description></term><term>{Utilised_metal_piece}
+<description> </description></term><term>{File}
+<description> </description></term><term>{Hoe_or_mattock}
+<description> </description></term><term>{Other_tools_or_implements}
+<description> </description></term></term>
         <term>{Other}
 <description> </description></term>
       </lookup>
@@ -4205,7 +4181,12 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Date Range" type="measure">
+    <property name="Start Date" type="measure">
+      <description></description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="End Date" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -4225,6 +4206,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Bolt}
+<description> </description></term>
         <term>{Ewbanks}
 <description> </description></term>
         <term>{Rivet}
@@ -4260,6 +4243,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Clasp}
+<description> </description></term>
         <term>{Horseshoe__bevelled_and_tapered_}
 <description> </description></term>
         <term>{Facetted}
@@ -4285,6 +4270,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Round}
+<description> </description></term>
         <term>{Two_sided_taper}
 <description> </description></term>
         <term>{Four_sided_taper}
@@ -4302,6 +4289,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Cut__rectangular_cross_section_}
+<description> </description></term>
         <term>{Wrought__hand_forged_}
 <description> </description></term>
         <term>{Wire__round_or_square_cross_section_}
@@ -4317,6 +4306,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Tack___10mm_}
+<description> </description></term>
         <term>{Nail__10_99_mm_}
 <description> </description></term>
         <term>{Spike___100_mm_long_and__10mm_thick_}
@@ -4332,6 +4323,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Burrs_on_diagonal_faces_of_shaft}
+<description> </description></term>
         <term>{Cross_hatching_on_head}
 <description> </description></term>
         <term>{Burrs_on_same_face_of_shaft}
@@ -4355,6 +4348,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Double}
+<description> </description></term>
         <term>{Single}
 <description> </description></term>
       </lookup>
@@ -4364,6 +4359,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{D_shape}
+<description> </description></term>
         <term>{Square}
 <description> </description></term>
         <term>{Trapezoid}
@@ -4403,6 +4400,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Cast_or_moulded}
+<description> </description></term>
         <term>{Filigree}
 <description> </description></term>
         <term>{Stamped}
@@ -4422,6 +4421,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Beaded}
+<description> </description></term>
         <term>{Lettering}
 <description> </description></term>
         <term>{Ribbed}
@@ -4664,6 +4665,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Cleaning_tool}
+<description> </description></term>
         <term>{Gun_flint}
 <description> </description></term>
         <term>{Gun_manufacturing_tool}
@@ -4704,6 +4707,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Brass}
+<description> </description></term>
         <term>{Lead}
 <description> </description></term>
         <term>{Copper}
@@ -4746,6 +4751,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Barrel_band}
+<description> </description></term>
         <term>{Butt_or_stock}
 <description> </description></term>
         <term>{Barrel_or_muzzle}
@@ -4768,7 +4775,12 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Date range" type="measure">
+    <property name="Start Date" type="measure">
+      <description></description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="End Date" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -4788,6 +4800,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
+        <term>{Cartridge_case_only__fired_}
+<description> </description></term>
         <term>{Conical_projectile__bullet_}
 <description> </description></term>
         <term>{Spherical_projectile__ball__shot_}

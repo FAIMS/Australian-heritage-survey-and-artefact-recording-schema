@@ -1,225 +1,110 @@
 <opts>
-    <opt>Clothing Fasteners
-        <desc>Rivet</desc>
-    </opt>
-    <opt>Clothing Fasteners
-        <desc>Hook or Eye</desc>
-    </opt>
-    <opt>Clothing Fasteners
-        <desc>Shoe grommet</desc>
-    </opt>
-    <opt>Clothing Fasteners
-        <desc>Stud or press stud</desc>
-    </opt>
-    <opt>Clothing Fasteners
-        <desc>Other fastener</desc>
-    </opt>
-    <opt>Sewing Paraphernalia
-        <desc>Needle or bodkin</desc>
-    </opt>
-    <opt>Sewing Paraphernalia
-        <desc>Thimble</desc>
-    </opt>
-    <opt>Sewing Paraphernalia
-        <desc>Pin</desc>
-    </opt>
-    <opt>Sewing Paraphernalia
-        <desc>Other sewing</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Bracket</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Spike</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Nail</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Screw</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Bolt</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Tack</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Strapping</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Wire</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Washer</desc>
-    </opt>
-    <opt>Construction fastener
-        <desc>Other construction</desc>
-    </opt>
-    <opt>Jewellery
-        <desc>Bracelet</desc>
-    </opt>
-    <opt>Jewellery
-        <desc>Necklace</desc>
-    </opt>
-    <opt>Jewellery
-        <desc>Brooch</desc>
-    </opt>
-    <opt>Jewellery
-        <desc>Ring</desc>
-    </opt>
-    <opt>Jewellery
-        <desc>Cufflink</desc>
-    </opt>
-    <opt>Jewellery
-        <desc>Watch</desc>
-    </opt>
-    <opt>Jewellery
-        <desc>Other jewellery</desc>
-    </opt>
-    <opt>Building
-        <desc>Door knob</desc>
-    </opt>
-    <opt>Building
-        <desc>Door plate</desc>
-    </opt>
-    <opt>Building
-        <desc>Door hinge</desc>
-    </opt>
-    <opt>Building
-        <desc>Door lock or lock plate</desc>
-    </opt>
-    <opt>Building
-        <desc>Vent</desc>
-    </opt>
-    <opt>Building
-        <desc>Window handle</desc>
-    </opt>
-    <opt>Building
-        <desc>Window hinge</desc>
-    </opt>
-    <opt>Building
-        <desc>Window catch</desc>
-    </opt>
-    <opt>Building
-        <desc>Pipe or pipe fitting</desc>
-    </opt>
-    <opt>Furniture
-        <desc>Knob</desc>
-    </opt>
-    <opt>Furniture
-        <desc>Tack or rivet</desc>
-    </opt>
-    <opt>Furniture
-        <desc>Hinge</desc>
-    </opt>
-    <opt>Furniture
-        <desc>Key</desc>
-    </opt>
-    <opt>Furniture
-        <desc>Lock or lock plate</desc>
-    </opt>
-    <opt>Cutlery
-        <desc>Fork</desc>
-    </opt>
-    <opt>Cutlery
-        <desc>Knife</desc>
-    </opt>
-    <opt>Cutlery
-        <desc>Spoon</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Clock, watch or components</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Document fastener</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Other container</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Tobacco tin</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Coin or token</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Food can or tin</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Plate, cup or bowl</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Wax vestas box</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Cooking pot, pan or components</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Lamp or components</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Stove or components</desc>
-    </opt>
-    <opt>Accessories and containers
-        <desc>Other accessories or containers</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Bit</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Bridle component</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Horseshoe</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Buckle</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Horseshoe nail</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Rivet or other fixture</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Hames or collar</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Other harness</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Saddle crest or plate</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Stirrup components</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Other saddle components</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Spurs</desc>
-    </opt>
-    <opt>Saddlery and horses
-        <desc>Other saddlery</desc>
-    </opt>
-    <opt>Tools and implements
-        <desc>Axe head</desc>
-    </opt>
-    <opt>Tools and implements
-        <desc>Hammer head</desc>
-    </opt>
-    <opt>Tools and implements
-        <desc>Utilised metal piece</desc>
-    </opt>
-    <opt>Tools and implements
-        <desc>File</desc>
-    </opt>
-    <opt>Tools and implements
-        <desc>Hoe or mattock</desc>
-    </opt>
-    <opt>Tools and implements
-        <desc>Other tools or implements</desc>
-    </opt>
-    <opt>Other </opt>
+  <opt>
+    Clothing Fasteners
+    <opt>Buckle</opt>
+    <opt>Rivet</opt>
+    <opt>Hook or Eye</opt>
+    <opt>Shoe grommet</opt>
+    <opt>Stud or press stud</opt>
+    <opt>Other fastener</opt>
+  </opt>
+  <opt>
+    Sewing Paraphernalia
+    <opt>Needle or bodkin</opt>
+    <opt>Thimble</opt>
+    <opt>Pin</opt>
+    <opt>Other sewing</opt>
+  </opt>
+  <opt>
+    Construction fastener
+    <opt>Bracket</opt>
+    <opt>Spike</opt>
+    <opt>Nail</opt>
+    <opt>Screw</opt>
+    <opt>Bolt</opt>
+    <opt>Tack</opt>
+    <opt>Strapping</opt>
+    <opt>Wire</opt>
+    <opt>Washer</opt>
+    <opt>Other construction</opt>
+  </opt>
+  <opt>
+    Jewellery
+    <opt>Bracelet</opt>
+    <opt>Necklace</opt>
+    <opt>Brooch</opt>
+    <opt>Ring</opt>
+    <opt>Cufflink</opt>
+    <opt>Watch</opt>
+    <opt>Other jewellery</opt>
+  </opt>
+  <opt>
+    Building
+    <opt>Door knob</opt>
+    <opt>Door plate</opt>
+    <opt>Door hinge</opt>
+    <opt>Door lock or lock plate</opt>
+    <opt>Vent</opt>
+    <opt>Window handle</opt>
+    <opt>Window hinge</opt>
+    <opt>Window catch</opt>
+    <opt>Pipe or pipe fitting</opt>
+  </opt>
+  <opt>
+    Furniture
+    <opt>Knob</opt>
+    <opt>Tack or rivet</opt>
+    <opt>Hinge</opt>
+    <opt>Key</opt>
+    <opt>Lock or lock plate</opt>
+  </opt>
+  <opt>
+    Cutlery
+    <opt>Fork</opt>
+    <opt>Knife</opt>
+    <opt>Spoon</opt>
+  </opt>
+  <opt>
+    Accessories and containers
+    <opt>Clock, watch or components</opt>
+    <opt>Document fastener</opt>
+    <opt>Other container</opt>
+    <opt>Tobacco tin</opt>
+    <opt>Coin or token</opt>
+    <opt>Food can or tin</opt>
+    <opt>Plate, cup or bowl</opt>
+    <opt>Wax vestas box</opt>
+    <opt>Cooking pot, pan or components</opt>
+    <opt>Lamp or components</opt>
+    <opt>Stove or components</opt>
+    <opt>Other accessories or containers</opt>
+  </opt>
+  <opt>
+    Saddlery and horses
+    <opt>Bit</opt>
+    <opt>Bridle component</opt>
+    <opt>Horseshoe</opt>
+    <opt>Buckle</opt>
+    <opt>Horseshoe nail</opt>
+    <opt>Rivet or other fixture</opt>
+    <opt>Hames or collar</opt>
+    <opt>Other harness</opt>
+    <opt>Saddle crest or plate</opt>
+    <opt>Stirrup components</opt>
+    <opt>Other saddle components</opt>
+    <opt>Spurs</opt>
+    <opt>Other saddlery</opt>
+  </opt>
+  <opt>
+    Tools and implements
+    <opt>Axe head</opt>
+    <opt>Hammer head</opt>
+    <opt>Utilised metal piece</opt>
+    <opt>File</opt>
+    <opt>Hoe or mattock</opt>
+    <opt>Other tools or implements</opt>
+  </opt>
+  <opt>
+    Other
+  </opt>
 </opts>

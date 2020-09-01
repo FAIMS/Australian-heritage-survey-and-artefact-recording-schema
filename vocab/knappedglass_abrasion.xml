@@ -1,4 +1,7 @@
 <opts>
+    <opt>Flaked surface
+      <desc>Macroscopic scratches or abrasions visible on a flaked surface.</desc>
+    </opt>
     <opt>Cortical surface
         <desc>Macroscopic scratches or abrasions on cortical surfaces only.</desc>
     </opt>

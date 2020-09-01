@@ -1,4 +1,5 @@
 <opts>
+    <opt>Cut (rectangular cross section)</opt>
     <opt>Wrought (hand forged)</opt>
     <opt>Wire (round or square cross section)</opt>
     <opt>Unidentifiable</opt>

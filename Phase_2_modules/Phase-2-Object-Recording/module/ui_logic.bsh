@@ -321,7 +321,7 @@ REF_TO_TYPE.put("Control/Control/New_Knapped_Glass_Artefact", "button");
 REF_TO_TYPE.put("Control/Control/New_Discrete_Hearth", "button");
 REF_TO_TYPE.put("Control/Control/New_Glass_Artefact", "button");
 REF_TO_TYPE.put("Control/Control/New_Ceramic_Artefact", "button");
-REF_TO_TYPE.put("Control/Control/New_Button", "button");
+REF_TO_TYPE.put("Control/Control/New_Buttons", "button");
 REF_TO_TYPE.put("Control/Control/New_Metal_Artefact", "button");
 REF_TO_TYPE.put("Control/Control/New_Weapons_and_Ammunition", "button");
 REF_TO_TYPE.put("Control/Control/New_Misc_Artefact", "button");
@@ -340,7 +340,7 @@ REF_TO_TYPE.put("Control/Autonumbering/Next_Glass_Artefact_ID", "input");
 REF_TO_TYPE.put("Control/Autonumbering/Next_Ceramic_Artefact_ID", "input");
 REF_TO_TYPE.put("Control/Autonumbering/Next_Misc_Artefact_ID", "input");
 REF_TO_TYPE.put("Control/Autonumbering/Next_Discrete_Hearth_Artefact_ID", "input");
-REF_TO_TYPE.put("Control/Autonumbering/Next_Button_ID", "input");
+REF_TO_TYPE.put("Control/Autonumbering/Next_Buttons_ID", "input");
 REF_TO_TYPE.put("Control/Autonumbering/Next_Knapped_Glass_Artefact_ID", "input");
 REF_TO_TYPE.put("Control/Autonumbering/Next_Metal_Artefact_ID", "input");
 REF_TO_TYPE.put("Control/Autonumbering/Next_Weapons_and_Ammunition", "input");
@@ -550,6 +550,7 @@ REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_ID", "dropdown")
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_file_names_and_attachment", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_image_attachment", "file");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/External_camera_image_attachment_Button_1", "button");
+REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/Survey_job_name", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/Survey_instrument_name", "dropdown");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/Survey_instrument_point_codes", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Supplementary/Related_Site_Name", "input");
@@ -617,42 +618,43 @@ REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/Survey_instrument_point_
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/Related_Site_Name", "input");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/Sample_context", "input");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary/Other_contextual_details", "input");
-REF_TO_TYPE.put("Button/General/Button_ID", "input");
-REF_TO_TYPE.put("Button/General/Button_author", "input");
-REF_TO_TYPE.put("Button/General/Button_timestamp", "input");
-REF_TO_TYPE.put("Button/General/Latitude", "input");
-REF_TO_TYPE.put("Button/General/Longitude", "input");
-REF_TO_TYPE.put("Button/General/Northing", "input");
-REF_TO_TYPE.put("Button/General/Easting", "input");
-REF_TO_TYPE.put("Button/General/Accuracy", "input");
-REF_TO_TYPE.put("Button/General/Take_From_GPS_1", "button");
-REF_TO_TYPE.put("Button/General/Find_This_in_The_Map", "button");
-REF_TO_TYPE.put("Button/General/Device_photos", "camera");
-REF_TO_TYPE.put("Button/General/Device_photos_Button_1", "button");
-REF_TO_TYPE.put("Button/General/Landform_element", "dropdown");
-REF_TO_TYPE.put("Button/Feature_details/Material_type", "checkbox");
-REF_TO_TYPE.put("Button/Feature_details/Attachment_method", "dropdown");
-REF_TO_TYPE.put("Button/Feature_details/Ligne_size_mm", "input");
-REF_TO_TYPE.put("Button/Feature_details/Manufacture_method", "checkbox");
-REF_TO_TYPE.put("Button/Feature_details/Construction", "dropdown");
-REF_TO_TYPE.put("Button/Feature_details/Shank_Type", "checkbox");
-REF_TO_TYPE.put("Button/Feature_details/Sew_Through_type", "checkbox");
-REF_TO_TYPE.put("Button/Feature_details/Number_of_Eyes", "input");
-REF_TO_TYPE.put("Button/Feature_details/Motifs", "input");
-REF_TO_TYPE.put("Button/Feature_details/Maker_s_Marks_or_Trademarks", "input");
-REF_TO_TYPE.put("Button/Feature_details/Start_Date", "input");
-REF_TO_TYPE.put("Button/Feature_details/End_Date", "input");
-REF_TO_TYPE.put("Button/Feature_details/Additional_Notes", "input");
-REF_TO_TYPE.put("Button/Feature_details/References", "input");
-REF_TO_TYPE.put("Button/Supplementary/External_camera_ID", "dropdown");
-REF_TO_TYPE.put("Button/Supplementary/External_camera_file_names_and_attachment", "input");
-REF_TO_TYPE.put("Button/Supplementary/External_camera_image_attachment", "file");
-REF_TO_TYPE.put("Button/Supplementary/External_camera_image_attachment_Button_1", "button");
-REF_TO_TYPE.put("Button/Supplementary/Survey_instrument_name", "dropdown");
-REF_TO_TYPE.put("Button/Supplementary/Survey_instrument_point_codes", "input");
-REF_TO_TYPE.put("Button/Supplementary/Related_Site_Name", "input");
-REF_TO_TYPE.put("Button/Supplementary/Sample_context", "input");
-REF_TO_TYPE.put("Button/Supplementary/Other_contextual_details", "input");
+REF_TO_TYPE.put("Buttons/General/Buttons_ID", "input");
+REF_TO_TYPE.put("Buttons/General/Buttons_author", "input");
+REF_TO_TYPE.put("Buttons/General/Buttons_timestamp", "input");
+REF_TO_TYPE.put("Buttons/General/Latitude", "input");
+REF_TO_TYPE.put("Buttons/General/Longitude", "input");
+REF_TO_TYPE.put("Buttons/General/Northing", "input");
+REF_TO_TYPE.put("Buttons/General/Easting", "input");
+REF_TO_TYPE.put("Buttons/General/Accuracy", "input");
+REF_TO_TYPE.put("Buttons/General/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Buttons/General/Find_This_in_The_Map", "button");
+REF_TO_TYPE.put("Buttons/General/Device_photos", "camera");
+REF_TO_TYPE.put("Buttons/General/Device_photos_Button_1", "button");
+REF_TO_TYPE.put("Buttons/General/Landform_element", "dropdown");
+REF_TO_TYPE.put("Buttons/Feature_details/Material_type", "checkbox");
+REF_TO_TYPE.put("Buttons/Feature_details/Attachment_method", "dropdown");
+REF_TO_TYPE.put("Buttons/Feature_details/Ligne_size_mm", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/Manufacture_method", "checkbox");
+REF_TO_TYPE.put("Buttons/Feature_details/Construction", "dropdown");
+REF_TO_TYPE.put("Buttons/Feature_details/Shank_Type", "checkbox");
+REF_TO_TYPE.put("Buttons/Feature_details/Sew_Through_type", "checkbox");
+REF_TO_TYPE.put("Buttons/Feature_details/Number_of_Eyes", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/Motifs", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/Maker_s_Marks_or_Trademarks", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/Start_Date", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/End_Date", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/Additional_Notes", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/References", "input");
+REF_TO_TYPE.put("Buttons/Supplementary/External_camera_ID", "dropdown");
+REF_TO_TYPE.put("Buttons/Supplementary/External_camera_file_names_and_attachment", "input");
+REF_TO_TYPE.put("Buttons/Supplementary/External_camera_image_attachment", "file");
+REF_TO_TYPE.put("Buttons/Supplementary/External_camera_image_attachment_Button_1", "button");
+REF_TO_TYPE.put("Buttons/Supplementary/Survey_job_name", "input");
+REF_TO_TYPE.put("Buttons/Supplementary/Survey_instrument_name", "dropdown");
+REF_TO_TYPE.put("Buttons/Supplementary/Survey_instrument_point_codes", "input");
+REF_TO_TYPE.put("Buttons/Supplementary/Related_Site_Name", "input");
+REF_TO_TYPE.put("Buttons/Supplementary/Sample_context", "input");
+REF_TO_TYPE.put("Buttons/Supplementary/Other_contextual_details", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_ID", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_author", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_timestamp", "input");
@@ -678,7 +680,8 @@ REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Weight_g", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Burned", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Patination", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Additional_Notes", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Date_Range", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Start_Date", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/End_Date", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Webview_Glass_Core_Details", "webview");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Scar_count", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Largest_Scar_Length_mm", "input");
@@ -727,7 +730,8 @@ REF_TO_TYPE.put("Metal_Artefact/Feature_details/Thickness_mm", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Weight_g", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Maker_s_Marks_or_Trademarks", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Modification_or_re_use", "input");
-REF_TO_TYPE.put("Metal_Artefact/Feature_details/Date_Range", "input");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/Start_Date", "input");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/End_Date", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Additional_Notes", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/References", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Nails_or_structural_fasteners_only", "webview");
@@ -777,7 +781,8 @@ REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Weight_grains_1_gram_is_
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Gun_part", "dropdown");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Crown_or_head_stamps", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Other_trademarks", "input");
-REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Date_range", "input");
+REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Start_Date", "input");
+REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/End_Date", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Additional_Notes", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/References", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Projectile_details", "webview");
@@ -823,9 +828,9 @@ REF_TO_TYPE.put("Misc_Artefact/Supplementary", "tab");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/General", "tab");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Feature_details", "tab");
 REF_TO_TYPE.put("Discrete_Hearth_Artefact/Supplementary", "tab");
-REF_TO_TYPE.put("Button/General", "tab");
-REF_TO_TYPE.put("Button/Feature_details", "tab");
-REF_TO_TYPE.put("Button/Supplementary", "tab");
+REF_TO_TYPE.put("Buttons/General", "tab");
+REF_TO_TYPE.put("Buttons/Feature_details", "tab");
+REF_TO_TYPE.put("Buttons/Supplementary", "tab");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/General", "tab");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details", "tab");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Supplementary", "tab");
@@ -1024,6 +1029,7 @@ DATA_REFS.add("Ceramic_Artefact/Feature_details/Grouped_fragments_additional_com
 DATA_REFS.add("Ceramic_Artefact/Supplementary/External_camera_ID");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/External_camera_file_names_and_attachment");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/External_camera_image_attachment");
+DATA_REFS.add("Ceramic_Artefact/Supplementary/Survey_job_name");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/Survey_instrument_name");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/Survey_instrument_point_codes");
 DATA_REFS.add("Ceramic_Artefact/Supplementary/Related_Site_Name");
@@ -1083,38 +1089,39 @@ DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/Survey_instrument_point_co
 DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/Related_Site_Name");
 DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/Sample_context");
 DATA_REFS.add("Discrete_Hearth_Artefact/Supplementary/Other_contextual_details");
-DATA_REFS.add("Button/General/Button_ID");
-DATA_REFS.add("Button/General/Button_author");
-DATA_REFS.add("Button/General/Button_timestamp");
-DATA_REFS.add("Button/General/Latitude");
-DATA_REFS.add("Button/General/Longitude");
-DATA_REFS.add("Button/General/Northing");
-DATA_REFS.add("Button/General/Easting");
-DATA_REFS.add("Button/General/Accuracy");
-DATA_REFS.add("Button/General/Device_photos");
-DATA_REFS.add("Button/General/Landform_element");
-DATA_REFS.add("Button/Feature_details/Material_type");
-DATA_REFS.add("Button/Feature_details/Attachment_method");
-DATA_REFS.add("Button/Feature_details/Ligne_size_mm");
-DATA_REFS.add("Button/Feature_details/Manufacture_method");
-DATA_REFS.add("Button/Feature_details/Construction");
-DATA_REFS.add("Button/Feature_details/Shank_Type");
-DATA_REFS.add("Button/Feature_details/Sew_Through_type");
-DATA_REFS.add("Button/Feature_details/Number_of_Eyes");
-DATA_REFS.add("Button/Feature_details/Motifs");
-DATA_REFS.add("Button/Feature_details/Maker_s_Marks_or_Trademarks");
-DATA_REFS.add("Button/Feature_details/Start_Date");
-DATA_REFS.add("Button/Feature_details/End_Date");
-DATA_REFS.add("Button/Feature_details/Additional_Notes");
-DATA_REFS.add("Button/Feature_details/References");
-DATA_REFS.add("Button/Supplementary/External_camera_ID");
-DATA_REFS.add("Button/Supplementary/External_camera_file_names_and_attachment");
-DATA_REFS.add("Button/Supplementary/External_camera_image_attachment");
-DATA_REFS.add("Button/Supplementary/Survey_instrument_name");
-DATA_REFS.add("Button/Supplementary/Survey_instrument_point_codes");
-DATA_REFS.add("Button/Supplementary/Related_Site_Name");
-DATA_REFS.add("Button/Supplementary/Sample_context");
-DATA_REFS.add("Button/Supplementary/Other_contextual_details");
+DATA_REFS.add("Buttons/General/Buttons_ID");
+DATA_REFS.add("Buttons/General/Buttons_author");
+DATA_REFS.add("Buttons/General/Buttons_timestamp");
+DATA_REFS.add("Buttons/General/Latitude");
+DATA_REFS.add("Buttons/General/Longitude");
+DATA_REFS.add("Buttons/General/Northing");
+DATA_REFS.add("Buttons/General/Easting");
+DATA_REFS.add("Buttons/General/Accuracy");
+DATA_REFS.add("Buttons/General/Device_photos");
+DATA_REFS.add("Buttons/General/Landform_element");
+DATA_REFS.add("Buttons/Feature_details/Material_type");
+DATA_REFS.add("Buttons/Feature_details/Attachment_method");
+DATA_REFS.add("Buttons/Feature_details/Ligne_size_mm");
+DATA_REFS.add("Buttons/Feature_details/Manufacture_method");
+DATA_REFS.add("Buttons/Feature_details/Construction");
+DATA_REFS.add("Buttons/Feature_details/Shank_Type");
+DATA_REFS.add("Buttons/Feature_details/Sew_Through_type");
+DATA_REFS.add("Buttons/Feature_details/Number_of_Eyes");
+DATA_REFS.add("Buttons/Feature_details/Motifs");
+DATA_REFS.add("Buttons/Feature_details/Maker_s_Marks_or_Trademarks");
+DATA_REFS.add("Buttons/Feature_details/Start_Date");
+DATA_REFS.add("Buttons/Feature_details/End_Date");
+DATA_REFS.add("Buttons/Feature_details/Additional_Notes");
+DATA_REFS.add("Buttons/Feature_details/References");
+DATA_REFS.add("Buttons/Supplementary/External_camera_ID");
+DATA_REFS.add("Buttons/Supplementary/External_camera_file_names_and_attachment");
+DATA_REFS.add("Buttons/Supplementary/External_camera_image_attachment");
+DATA_REFS.add("Buttons/Supplementary/Survey_job_name");
+DATA_REFS.add("Buttons/Supplementary/Survey_instrument_name");
+DATA_REFS.add("Buttons/Supplementary/Survey_instrument_point_codes");
+DATA_REFS.add("Buttons/Supplementary/Related_Site_Name");
+DATA_REFS.add("Buttons/Supplementary/Sample_context");
+DATA_REFS.add("Buttons/Supplementary/Other_contextual_details");
 DATA_REFS.add("Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_ID");
 DATA_REFS.add("Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_author");
 DATA_REFS.add("Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_timestamp");
@@ -1137,7 +1144,8 @@ DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Weight_g");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Burned");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Patination");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Additional_Notes");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Date_Range");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Start_Date");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/End_Date");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Scar_count");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Largest_Scar_Length_mm");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Largest_Scar_Width_mm");
@@ -1180,7 +1188,8 @@ DATA_REFS.add("Metal_Artefact/Feature_details/Thickness_mm");
 DATA_REFS.add("Metal_Artefact/Feature_details/Weight_g");
 DATA_REFS.add("Metal_Artefact/Feature_details/Maker_s_Marks_or_Trademarks");
 DATA_REFS.add("Metal_Artefact/Feature_details/Modification_or_re_use");
-DATA_REFS.add("Metal_Artefact/Feature_details/Date_Range");
+DATA_REFS.add("Metal_Artefact/Feature_details/Start_Date");
+DATA_REFS.add("Metal_Artefact/Feature_details/End_Date");
 DATA_REFS.add("Metal_Artefact/Feature_details/Additional_Notes");
 DATA_REFS.add("Metal_Artefact/Feature_details/References");
 DATA_REFS.add("Metal_Artefact/Feature_details/Form");
@@ -1224,7 +1233,8 @@ DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Weight_grains_1_gram_is_15
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Gun_part");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Crown_or_head_stamps");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Other_trademarks");
-DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Date_range");
+DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Start_Date");
+DATA_REFS.add("Weapons_and_Ammunition/Feature_details/End_Date");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Additional_Notes");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/References");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Projectile_type");
@@ -1256,9 +1266,10 @@ HIER_REFS.add("Glass_Artefact/General/Landform_element");
 HIER_REFS.add("Ceramic_Artefact/General/Landform_element");
 HIER_REFS.add("Misc_Artefact/General/Landform_element");
 HIER_REFS.add("Discrete_Hearth_Artefact/General/Landform_element");
-HIER_REFS.add("Button/General/Landform_element");
+HIER_REFS.add("Buttons/General/Landform_element");
 HIER_REFS.add("Knapped_Glass_Artefact/General/Landform_element");
 HIER_REFS.add("Metal_Artefact/General/Landform_element");
+HIER_REFS.add("Metal_Artefact/Feature_details/Object_Type");
 HIER_REFS.add("Weapons_and_Ammunition/General/Landform_element");
 
 TAB_GROUPS_AS_LIST.add("User_List");
@@ -1269,7 +1280,7 @@ TAB_GROUPS_AS_LIST.add("Glass_Artefact");
 TAB_GROUPS_AS_LIST.add("Ceramic_Artefact");
 TAB_GROUPS_AS_LIST.add("Misc_Artefact");
 TAB_GROUPS_AS_LIST.add("Discrete_Hearth_Artefact");
-TAB_GROUPS_AS_LIST.add("Button");
+TAB_GROUPS_AS_LIST.add("Buttons");
 TAB_GROUPS_AS_LIST.add("Knapped_Glass_Artefact");
 TAB_GROUPS_AS_LIST.add("Metal_Artefact");
 TAB_GROUPS_AS_LIST.add("Weapons_and_Ammunition");
@@ -1298,9 +1309,9 @@ TABS_AS_LIST.add("Misc_Artefact/Supplementary");
 TABS_AS_LIST.add("Discrete_Hearth_Artefact/General");
 TABS_AS_LIST.add("Discrete_Hearth_Artefact/Feature_details");
 TABS_AS_LIST.add("Discrete_Hearth_Artefact/Supplementary");
-TABS_AS_LIST.add("Button/General");
-TABS_AS_LIST.add("Button/Feature_details");
-TABS_AS_LIST.add("Button/Supplementary");
+TABS_AS_LIST.add("Buttons/General");
+TABS_AS_LIST.add("Buttons/Feature_details");
+TABS_AS_LIST.add("Buttons/Supplementary");
 TABS_AS_LIST.add("Knapped_Glass_Artefact/General");
 TABS_AS_LIST.add("Knapped_Glass_Artefact/Feature_details");
 TABS_AS_LIST.add("Knapped_Glass_Artefact/Supplementary");
@@ -1346,8 +1357,8 @@ ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Width_mm", "Misc Ar
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Thickness_mm", "Misc Artefact Thickness mm");
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Supplementary/Related_Site_Name", "Misc Artefact Related Site Name");
 ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/Supplementary/Related_Site_Name", "Discrete Hearth Artefact Related Site Name");
-ATTRIB_NAMES_NON_STANDARD.put("Button/Feature_details/Manufacture_method", "Button Manufacture method");
-ATTRIB_NAMES_NON_STANDARD.put("Button/Supplementary/Related_Site_Name", "Button Related Site Name");
+ATTRIB_NAMES_NON_STANDARD.put("Buttons/Feature_details/Manufacture_method", "Buttons Manufacture method");
+ATTRIB_NAMES_NON_STANDARD.put("Buttons/Supplementary/Related_Site_Name", "Buttons Related Site Name");
 ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Type", "Knapped Glass Artefact Type");
 ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Completeness", "Knapped Glass Artefact Completeness");
 ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Weight_g", "Knapped Glass Artefact Weight g");
@@ -1485,7 +1496,7 @@ List getStartingIdRefs() {
   l.add("Control/Autonumbering/Next_Ceramic_Artefact_ID");
   l.add("Control/Autonumbering/Next_Misc_Artefact_ID");
   l.add("Control/Autonumbering/Next_Discrete_Hearth_Artefact_ID");
-  l.add("Control/Autonumbering/Next_Button_ID");
+  l.add("Control/Autonumbering/Next_Buttons_ID");
   l.add("Control/Autonumbering/Next_Knapped_Glass_Artefact_ID");
   l.add("Control/Autonumbering/Next_Metal_Artefact_ID");
   l.add("Control/Autonumbering/Next_Weapons_and_Ammunition");
@@ -2578,7 +2589,7 @@ void timedPopulateCursorList(String ref, String q, int limit) {
 
 void setUpTypeHierarchy() {
   //- 
-  //  - Button
+  //  - Buttons
   //  - Ceramic Artefact
   //  - Discrete Hearth Artefact
   //  - Flaked Stone Artefact
@@ -2590,7 +2601,7 @@ void setUpTypeHierarchy() {
   //  - Weapons and Ammunition
 
   n0 = Tree("", 1);
-  n1 = Tree("Button", 1);
+  n1 = Tree("Buttons", 1);
   n2 = Tree("Ceramic Artefact", 1);
   n3 = Tree("Discrete Hearth Artefact", 1);
   n4 = Tree("Flaked Stone Artefact", 1);
@@ -4160,7 +4171,7 @@ void validateControl() {
   f.add(fieldPair("Control/Autonumbering/Next_Ceramic_Artefact_ID", "{Next_Ceramic_Artefact_ID}"));
   f.add(fieldPair("Control/Autonumbering/Next_Misc_Artefact_ID", "{Next_Misc_Artefact_ID}"));
   f.add(fieldPair("Control/Autonumbering/Next_Discrete_Hearth_Artefact_ID", "{Next_Discrete_Hearth_Artefact_ID}"));
-  f.add(fieldPair("Control/Autonumbering/Next_Button_ID", "{Next_Button_ID}"));
+  f.add(fieldPair("Control/Autonumbering/Next_Buttons_ID", "{Next_Buttons_ID}"));
   f.add(fieldPair("Control/Autonumbering/Next_Knapped_Glass_Artefact_ID", "{Next_Knapped_Glass_Artefact_ID}"));
   f.add(fieldPair("Control/Autonumbering/Next_Metal_Artefact_ID", "{Next_Metal_Artefact_ID}"));
   f.add(fieldPair("Control/Autonumbering/Next_Weapons_and_Ammunition", "{Next_Weapons_and_Ammunition}"));
@@ -4234,13 +4245,13 @@ void validateDiscreteHearthArtefact() {
   String validationMessage = validateFields(f, "PLAINTEXT");
   showWarning("{validation_results}", validationMessage);
 }
-void validateButton() {
+void validateButtons() {
   List f = new ArrayList(); // Fields to be validated
-  f.add(fieldPair("Button/General/Latitude", "{Latitude}"));
-  f.add(fieldPair("Button/General/Longitude", "{Longitude}"));
-  f.add(fieldPair("Button/General/Northing", "{Northing}"));
-  f.add(fieldPair("Button/General/Easting", "{Easting}"));
-  f.add(fieldPair("Button/General/Accuracy", "{Accuracy}"));
+  f.add(fieldPair("Buttons/General/Latitude", "{Latitude}"));
+  f.add(fieldPair("Buttons/General/Longitude", "{Longitude}"));
+  f.add(fieldPair("Buttons/General/Northing", "{Northing}"));
+  f.add(fieldPair("Buttons/General/Easting", "{Easting}"));
+  f.add(fieldPair("Buttons/General/Accuracy", "{Accuracy}"));
 
   String validationMessage = validateFields(f, "PLAINTEXT");
   showWarning("{validation_results}", validationMessage);
@@ -4433,7 +4444,7 @@ void populateAuthorAndTimestamp(String tabgroup) {
   tabgroupToAuthor.put("Ceramic_Artefact", "Ceramic_Artefact/General/Ceramic_Artefact_author");
   tabgroupToAuthor.put("Misc_Artefact", "Misc_Artefact/General/Misc_Artefact_author");
   tabgroupToAuthor.put("Discrete_Hearth_Artefact", "Discrete_Hearth_Artefact/General/Discrete_Hearth_Artefact_author");
-  tabgroupToAuthor.put("Button", "Button/General/Button_author");
+  tabgroupToAuthor.put("Buttons", "Buttons/General/Buttons_author");
   tabgroupToAuthor.put("Knapped_Glass_Artefact", "Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_author");
   tabgroupToAuthor.put("Metal_Artefact", "Metal_Artefact/General/Metal_Artefact_author");
   tabgroupToAuthor.put("Weapons_and_Ammunition", "Weapons_and_Ammunition/General/Weapons_and_Ammunition_author");
@@ -4443,7 +4454,7 @@ void populateAuthorAndTimestamp(String tabgroup) {
   tabgroupToTimestamp.put("Ceramic_Artefact", "Ceramic_Artefact/General/Ceramic_Artefact_timestamp");
   tabgroupToTimestamp.put("Misc_Artefact", "Misc_Artefact/General/Misc_Artefact_timestamp");
   tabgroupToTimestamp.put("Discrete_Hearth_Artefact", "Discrete_Hearth_Artefact/General/Discrete_Hearth_Artefact_timestamp");
-  tabgroupToTimestamp.put("Button", "Button/General/Button_timestamp");
+  tabgroupToTimestamp.put("Buttons", "Buttons/General/Buttons_timestamp");
   tabgroupToTimestamp.put("Knapped_Glass_Artefact", "Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_timestamp");
   tabgroupToTimestamp.put("Metal_Artefact", "Metal_Artefact/General/Metal_Artefact_timestamp");
   tabgroupToTimestamp.put("Weapons_and_Ammunition", "Weapons_and_Ammunition/General/Weapons_and_Ammunition_timestamp");
@@ -4490,7 +4501,7 @@ void onClickDiscreteHearthArtefactFindThisinTheMap () {
   newTab("Control/Map", true);
 }
 
-void onClickButtonFindThisinTheMap () {
+void onClickButtonsFindThisinTheMap () {
   newTab("Control/Map", true);
 }
 
@@ -4536,9 +4547,9 @@ void onClickControlNewCeramicArtefact () {
   newCeramicArtefact();
 }
 
-void onClickControlNewButton () {
+void onClickControlNewButtons () {
   parentTabgroup__ = "Control";
-  newButton();
+  newButtons();
 }
 
 void onClickControlNewMetalArtefact () {
@@ -4570,7 +4581,7 @@ addOnEvent("Control/Control/New_Knapped_Glass_Artefact", "click", "onClickContro
 addOnEvent("Control/Control/New_Discrete_Hearth", "click", "onClickControlNewDiscreteHearth()");
 addOnEvent("Control/Control/New_Glass_Artefact", "click", "onClickControlNewGlassArtefact()");
 addOnEvent("Control/Control/New_Ceramic_Artefact", "click", "onClickControlNewCeramicArtefact()");
-addOnEvent("Control/Control/New_Button", "click", "onClickControlNewButton()");
+addOnEvent("Control/Control/New_Buttons", "click", "onClickControlNewButtons()");
 addOnEvent("Control/Control/New_Metal_Artefact", "click", "onClickControlNewMetalArtefact()");
 addOnEvent("Control/Control/New_Weapons_and_Ammunition", "click", "onClickControlNewWeaponsandAmmunition()");
 addOnEvent("Control/Control/New_Misc_Artefact", "click", "onClickControlNewMiscArtefact()");
@@ -4580,7 +4591,7 @@ addOnEvent("Glass_Artefact/General/Find_This_in_The_Map", "click", "onClickGlass
 addOnEvent("Ceramic_Artefact/General/Find_This_in_The_Map", "click", "onClickCeramicArtefactFindThisinTheMap()");
 addOnEvent("Misc_Artefact/General/Find_This_in_The_Map", "click", "onClickMiscArtefactFindThisinTheMap()");
 addOnEvent("Discrete_Hearth_Artefact/General/Find_This_in_The_Map", "click", "onClickDiscreteHearthArtefactFindThisinTheMap()");
-addOnEvent("Button/General/Find_This_in_The_Map", "click", "onClickButtonFindThisinTheMap()");
+addOnEvent("Buttons/General/Find_This_in_The_Map", "click", "onClickButtonsFindThisinTheMap()");
 addOnEvent("Knapped_Glass_Artefact/General/Find_This_in_The_Map", "click", "onClickKnappedGlassArtefactFindThisinTheMap()");
 addOnEvent("Metal_Artefact/General/Find_This_in_The_Map", "click", "onClickMetalArtefactFindThisinTheMap()");
 addOnEvent("Weapons_and_Ammunition/General/Find_This_in_The_Map", "click", "onClickWeaponsandAmmunitionFindThisinTheMap()");
@@ -4594,7 +4605,7 @@ addOnEvent("Glass_Artefact/General/Device_photos_Button_1", "click", "attachPict
 addOnEvent("Ceramic_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Ceramic_Artefact/General/Device_photos\")");
 addOnEvent("Misc_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Misc_Artefact/General/Device_photos\")");
 addOnEvent("Discrete_Hearth_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Discrete_Hearth_Artefact/General/Device_photos\")");
-addOnEvent("Button/General/Device_photos_Button_1", "click", "attachPictureTo(\"Button/General/Device_photos\")");
+addOnEvent("Buttons/General/Device_photos_Button_1", "click", "attachPictureTo(\"Buttons/General/Device_photos\")");
 addOnEvent("Knapped_Glass_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Knapped_Glass_Artefact/General/Device_photos\")");
 addOnEvent("Metal_Artefact/General/Device_photos_Button_1", "click", "attachPictureTo(\"Metal_Artefact/General/Device_photos\")");
 addOnEvent("Weapons_and_Ammunition/General/Device_photos_Button_1", "click", "attachPictureTo(\"Weapons_and_Ammunition/General/Device_photos\")");
@@ -4604,7 +4615,7 @@ addOnEvent("Glass_Artefact/Supplementary/External_camera_image_attachment_Button
 addOnEvent("Ceramic_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Ceramic_Artefact/Supplementary/External_camera_image_attachment\")");
 addOnEvent("Misc_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Misc_Artefact/Supplementary/External_camera_image_attachment\")");
 addOnEvent("Discrete_Hearth_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Discrete_Hearth_Artefact/Supplementary/External_camera_image_attachment\")");
-addOnEvent("Button/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Button/Supplementary/External_camera_image_attachment\")");
+addOnEvent("Buttons/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Buttons/Supplementary/External_camera_image_attachment\")");
 addOnEvent("Knapped_Glass_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Knapped_Glass_Artefact/Supplementary/External_camera_image_attachment\")");
 addOnEvent("Metal_Artefact/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Metal_Artefact/Supplementary/External_camera_image_attachment\")");
 addOnEvent("Weapons_and_Ammunition/Supplementary/External_camera_image_attachment_Button_1", "click", "attachFileTo(\"Weapons_and_Ammunition/Supplementary/External_camera_image_attachment\")");
@@ -4631,9 +4642,9 @@ void addNavigationButtons(String tabgroup) {
   tabgroupsToValidate.add("Ceramic_Artefact");
   tabgroupsToValidate.add("Discrete_Hearth_Artefact");
   tabgroupsToValidate.add("Knapped_Glass_Artefact");
-  tabgroupsToValidate.add("Button");
   tabgroupsToValidate.add("Other_Stone_Artefact");
   tabgroupsToValidate.add("Weapons_and_Ammunition");
+  tabgroupsToValidate.add("Buttons");
   tabgroupsToValidate.add("Metal_Artefact");
   tabgroupsToValidate.add("Flaked_Stone_Artefact");
   tabgroupsToValidate.add("Glass_Artefact");
@@ -5089,14 +5100,14 @@ void newDiscreteHearthArtefact (){
   newDiscreteHearthArtefact(null);
 }
 
-void newButton(String parent){
-  String tabgroup = "Button";
+void newButtons(String parent){
+  String tabgroup = "Buttons";
   if (!isNull(parent)) {
     triggerAutoSave();
     parentTabgroup   = parent;
     parentTabgroup__ = parent;
   }
-  if (isNull("Control/Autonumbering/Next_Button_ID")) {
+  if (isNull("Control/Autonumbering/Next_Buttons_ID")) {
     showWarning("{Alert}", "{A_next_ID_has_not_been_entered_please_provide_one}");
     return;
   }
@@ -5105,13 +5116,13 @@ void newButton(String parent){
   newTabGroup(tabgroup);
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
-  incAutoNum("Button/General/Button_ID");
+  incAutoNum("Buttons/General/Buttons_ID");
 
   executeOnEvent(tabgroup, "create");
 }
 
-void newButton (){
-  newButton(null);
+void newButtons (){
+  newButtons(null);
 }
 
 void newKnappedGlassArtefact(String parent){
@@ -5482,17 +5493,17 @@ void duplicateDiscreteHearthArtefact(){
     }
   });
 }
-void duplicateButton(){
-  String tabgroup = "Button";
+void duplicateButtons(){
+  String tabgroup = "Buttons";
   String uuidOld = getUuid(tabgroup);
   setUuid(tabgroup, "");
   disableAutoSave(tabgroup);
-  incAutoNum("Button/General/Button_ID");
+  incAutoNum("Buttons/General/Buttons_ID");
   clearGpsInTabGroup(tabgroup);
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
-  populateCameraPictureGallery("Button/General/Device_photos", new ArrayList());
-  populateFileList("Button/Supplementary/External_camera_image_attachment", new ArrayList());
+  populateCameraPictureGallery("Buttons/General/Device_photos", new ArrayList());
+  populateFileList("Buttons/Supplementary/External_camera_image_attachment", new ArrayList());
   executeOnEvent(tabgroup, "copy");
 
   saveCallback = new SaveCallback() {
@@ -5684,7 +5695,7 @@ addOnEvent("Glass_Artefact", "save", "populateEntityListsOfArchEnt(\"Glass_Artef
 addOnEvent("Ceramic_Artefact", "save", "populateEntityListsOfArchEnt(\"Ceramic_Artefact\")");
 addOnEvent("Misc_Artefact", "save", "populateEntityListsOfArchEnt(\"Misc_Artefact\")");
 addOnEvent("Discrete_Hearth_Artefact", "save", "populateEntityListsOfArchEnt(\"Discrete_Hearth_Artefact\")");
-addOnEvent("Button", "save", "populateEntityListsOfArchEnt(\"Button\")");
+addOnEvent("Buttons", "save", "populateEntityListsOfArchEnt(\"Buttons\")");
 addOnEvent("Knapped_Glass_Artefact", "save", "populateEntityListsOfArchEnt(\"Knapped_Glass_Artefact\")");
 addOnEvent("Metal_Artefact", "save", "populateEntityListsOfArchEnt(\"Metal_Artefact\")");
 addOnEvent("Weapons_and_Ammunition", "save", "populateEntityListsOfArchEnt(\"Weapons_and_Ammunition\")");
@@ -5701,7 +5712,7 @@ addOnEvent("Glass_Artefact", "show", "removeNavigationButtons()");
 addOnEvent("Ceramic_Artefact", "show", "removeNavigationButtons()");
 addOnEvent("Misc_Artefact", "show", "removeNavigationButtons()");
 addOnEvent("Discrete_Hearth_Artefact", "show", "removeNavigationButtons()");
-addOnEvent("Button", "show", "removeNavigationButtons()");
+addOnEvent("Buttons", "show", "removeNavigationButtons()");
 addOnEvent("Knapped_Glass_Artefact", "show", "removeNavigationButtons()");
 addOnEvent("Metal_Artefact", "show", "removeNavigationButtons()");
 addOnEvent("Weapons_and_Ammunition", "show", "removeNavigationButtons()");
@@ -5711,7 +5722,7 @@ addOnEvent("Glass_Artefact", "show", "addNavigationButtons(\"Glass_Artefact\")")
 addOnEvent("Ceramic_Artefact", "show", "addNavigationButtons(\"Ceramic_Artefact\")");
 addOnEvent("Misc_Artefact", "show", "addNavigationButtons(\"Misc_Artefact\")");
 addOnEvent("Discrete_Hearth_Artefact", "show", "addNavigationButtons(\"Discrete_Hearth_Artefact\")");
-addOnEvent("Button", "show", "addNavigationButtons(\"Button\")");
+addOnEvent("Buttons", "show", "addNavigationButtons(\"Buttons\")");
 addOnEvent("Knapped_Glass_Artefact", "show", "addNavigationButtons(\"Knapped_Glass_Artefact\")");
 addOnEvent("Metal_Artefact", "show", "addNavigationButtons(\"Metal_Artefact\")");
 addOnEvent("Weapons_and_Ammunition", "show", "addNavigationButtons(\"Weapons_and_Ammunition\")");
@@ -5733,7 +5744,7 @@ entityTypes.add(new NameValuePair("{Glass_Artefact}", "Glass Artefact"));
 entityTypes.add(new NameValuePair("{Ceramic_Artefact}", "Ceramic Artefact"));
 entityTypes.add(new NameValuePair("{Misc_Artefact}", "Misc Artefact"));
 entityTypes.add(new NameValuePair("{Discrete_Hearth_Artefact}", "Discrete Hearth Artefact"));
-entityTypes.add(new NameValuePair("{Button}", "Button"));
+entityTypes.add(new NameValuePair("{Buttons}", "Buttons"));
 entityTypes.add(new NameValuePair("{Knapped_Glass_Artefact}", "Knapped Glass Artefact"));
 entityTypes.add(new NameValuePair("{Metal_Artefact}", "Metal Artefact"));
 entityTypes.add(new NameValuePair("{Weapons_and_Ammunition}", "Weapons and Ammunition"));
@@ -5861,8 +5872,8 @@ void loadDiscreteHearthArtefactFrom(String uuid) {
   executeOnEvent(tabgroup, "prefetch");
   showTabGroup(tabgroup, uuid, cb);
 }
-void loadButtonFrom(String uuid) {
-  String tabgroup = "Button";
+void loadButtonsFrom(String uuid) {
+  String tabgroup = "Buttons";
   setUuid(tabgroup, uuid);
   if (isNull(uuid)) return;
 
@@ -5931,7 +5942,7 @@ addOnEvent("Glass_Artefact/General/Take_From_GPS_1", "click", "takePoint(\"Glass
 addOnEvent("Ceramic_Artefact/General/Take_From_GPS_1", "click", "takePoint(\"Ceramic_Artefact\")");
 addOnEvent("Misc_Artefact/General/Take_From_GPS_1", "click", "takePoint(\"Misc_Artefact\")");
 addOnEvent("Discrete_Hearth_Artefact/General/Take_From_GPS_1", "click", "takePoint(\"Discrete_Hearth_Artefact\")");
-addOnEvent("Button/General/Take_From_GPS_1", "click", "takePoint(\"Button\")");
+addOnEvent("Buttons/General/Take_From_GPS_1", "click", "takePoint(\"Buttons\")");
 addOnEvent("Knapped_Glass_Artefact/General/Take_From_GPS_1", "click", "takePoint(\"Knapped_Glass_Artefact\")");
 addOnEvent("Metal_Artefact/General/Take_From_GPS_1", "click", "takePoint(\"Metal_Artefact\")");
 addOnEvent("Weapons_and_Ammunition/General/Take_From_GPS_1", "click", "takePoint(\"Weapons_and_Ammunition\")");
@@ -5944,7 +5955,7 @@ Map getTakeFromGpsMappings() {
   tabgroupToTabRef.put("Ceramic_Artefact", "Ceramic_Artefact/General");
   tabgroupToTabRef.put("Misc_Artefact", "Misc_Artefact/General");
   tabgroupToTabRef.put("Discrete_Hearth_Artefact", "Discrete_Hearth_Artefact/General");
-  tabgroupToTabRef.put("Button", "Button/General");
+  tabgroupToTabRef.put("Buttons", "Buttons/General");
   tabgroupToTabRef.put("Knapped_Glass_Artefact", "Knapped_Glass_Artefact/General");
   tabgroupToTabRef.put("Metal_Artefact", "Metal_Artefact/General");
   tabgroupToTabRef.put("Weapons_and_Ammunition", "Weapons_and_Ammunition/General");
@@ -6091,7 +6102,7 @@ AUTONUM_DEST_TO_SOURCE.put("Glass_Artefact/General/Glass_Artefact_ID", "Control/
 AUTONUM_DEST_TO_SOURCE.put("Ceramic_Artefact/General/Ceramic_Artefact_ID", "Control/Autonumbering/Next_Ceramic_Artefact_ID");
 AUTONUM_DEST_TO_SOURCE.put("Misc_Artefact/General/Misc_Artefact_ID", "Control/Autonumbering/Next_Misc_Artefact_ID");
 AUTONUM_DEST_TO_SOURCE.put("Discrete_Hearth_Artefact/General/Discrete_Hearth_Artefact_ID", "Control/Autonumbering/Next_Discrete_Hearth_Artefact_ID");
-AUTONUM_DEST_TO_SOURCE.put("Button/General/Button_ID", "Control/Autonumbering/Next_Button_ID");
+AUTONUM_DEST_TO_SOURCE.put("Buttons/General/Buttons_ID", "Control/Autonumbering/Next_Buttons_ID");
 AUTONUM_DEST_TO_SOURCE.put("Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_ID", "Control/Autonumbering/Next_Knapped_Glass_Artefact_ID");
 AUTONUM_DEST_TO_SOURCE.put("Metal_Artefact/General/Metal_Artefact_ID", "Control/Autonumbering/Next_Metal_Artefact_ID");
 AUTONUM_DEST_TO_SOURCE.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition", "Control/Autonumbering/Next_Weapons_and_Ammunition");
@@ -6168,12 +6179,12 @@ void incAutoNum(String destPath) {
 /******************************************************************************/
 populateWebViewHtml("Glass_Artefact/Feature_details/Grouped_Fragments_Only", "<h2 id=\"grouped-fragments-only\">Grouped Fragments Only</h2>\n");
 populateWebViewHtml("Ceramic_Artefact/Feature_details/Grouped_Fragments_Only", "<h2 id=\"grouped-fragments-only\">Grouped Fragments Only</h2>\n");
-populateWebViewHtml("Knapped_Glass_Artefact/Feature_details/Webview_Glass_Core_Details", "<h1 id=\"plain-text-glass-core-details-complete-only-for-cores\">Plain Text ‘Glass Core details (complete only for cores)’</h1>\n");
-populateWebViewHtml("Knapped_Glass_Artefact/Feature_details/Webview_Flake_Details", "<h1 id=\"flake-details-complete-only-for-flakes\">Flake details (complete only for flakes)</h1>\n");
-populateWebViewHtml("Metal_Artefact/Feature_details/Nails_or_structural_fasteners_only", "<h1 id=\"nails-or-structural-fasteners-only\">Nails or structural fasteners only</h1>\n");
+populateWebViewHtml("Knapped_Glass_Artefact/Feature_details/Webview_Glass_Core_Details", "<h2 id=\"glass-core-details-complete-only-for-cores\">Glass Core details (complete only for cores)</h2>\n");
+populateWebViewHtml("Knapped_Glass_Artefact/Feature_details/Webview_Flake_Details", "<h2 id=\"flake-details-complete-only-for-flakes\">Flake details (complete only for flakes)</h2>\n");
+populateWebViewHtml("Metal_Artefact/Feature_details/Nails_or_structural_fasteners_only", "<h2 id=\"nails-or-structural-fasteners-only\">Nails or structural fasteners only</h2>\n");
 populateWebViewHtml("Metal_Artefact/Feature_details/Buckles_only", "<h1 id=\"buckles-only\">Buckles only</h1>\n");
-populateWebViewHtml("Weapons_and_Ammunition/Feature_details/Projectile_details", "<h1 id=\"projectile-details\">Projectile details</h1>\n");
-populateWebViewHtml("Weapons_and_Ammunition/Feature_details/Cartridge_details", "<h1 id=\"cartridge-details\">Cartridge details</h1>\n");
+populateWebViewHtml("Weapons_and_Ammunition/Feature_details/Projectile_details", "<h2 id=\"projectile-details\">Projectile details</h2>\n");
+populateWebViewHtml("Weapons_and_Ammunition/Feature_details/Cartridge_details", "<h2 id=\"cartridge-details\">Cartridge details</h2>\n");
 
 /******************************************************************************/
 /*                POPULATION OF ENTITY AND CHILD ENTITY LISTS                 */

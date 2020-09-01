@@ -1,4 +1,5 @@
 <opts>
+    <opt>Burrs on diagonal faces of shaft</opt>
     <opt>Cross hatching on head</opt>
     <opt>Burrs on same face of shaft</opt>
     <opt>Diagonal brackets under head</opt>

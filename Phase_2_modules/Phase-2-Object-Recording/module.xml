@@ -25,7 +25,7 @@
 
     <New_Glass_Artefact   t="button" c="blue" l="Glass_Artefact"/>
     <New_Ceramic_Artefact t="button" c="blue" l="Ceramic_Artefact"/>
-    <New_Button           t="button" c="blue" l="Button"/>
+    <New_Buttons          t="button" c="blue" l="Buttons"/>
 
     <New_Metal_Artefact         t="button" c="red" l="Metal_Artefact"/>
     <New_Weapons_and_Ammunition t="button" c="red" l="Weapons_and_Ammunition"/>
@@ -423,7 +423,8 @@
         <!--@SOURCE: ../../vocab/glass_bodysherd.xml-->
     </Horizontal_Shape>
     <Probable_Contents t="checkbox">
-        <!--@SOURCE: ../../vocab/glass_probcont.xml-->
+      <desc>Select all that apply</desc>
+      <!--@SOURCE: ../../vocab/glass_probcont.xml-->
     </Probable_Contents>
     <Shoulder_Width_mm b="decimal">
       Shoulder Width (mm)
@@ -480,7 +481,7 @@
     <End_Date   b="date" f="noannotation"/>
     <Conjoin_Information f="noannotation"/>
     <References f="noannotation"/>
-    <Grouped_Fragments_Only t="webview">
+    <Grouped_Fragments_Only t="webview" f="nolabel">
       <markdown>
 ## Grouped Fragments Only
       </markdown>
@@ -634,7 +635,7 @@
     <End_Date   b="date" f="noannotation"/>
     <Conjoin_Information f="noannotation"/>
     <References f="noannotation"/>
-    <Grouped_Fragments_Only t="webview">
+    <Grouped_Fragments_Only t="webview" f="nolabel">
       <markdown>
 ## Grouped Fragments Only
       </markdown>
@@ -663,6 +664,9 @@
       <desc>Upload files on server, and annotate those files with captions.
       </desc>
     </External_camera_image_attachment>
+    <Survey_job_name f="noannotation">
+      <desc>Provide details for survey job name containing coordinate data</desc>
+    </Survey_job_name>
     <Survey_instrument_name >
         <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
         <!--@SOURCE: ../../vocab/survey_instr.xml-->
@@ -867,10 +871,10 @@
 </Discrete_Hearth_Artefact>
 
 
-<Button>
-  <fmt>B{{Button_ID}}</fmt>
+<Buttons>
+  <fmt>B{{Buttons_ID}}</fmt>
   <General>
-    <Button_ID f="autonum nocertainty"/>
+    <Buttons_ID f="autonum nocertainty"/>
     <author f="nocertainty"/>
     <timestamp f="noannotation nocertainty"/>
 
@@ -928,6 +932,9 @@
       <desc>Upload files on server, and annotate those files with captions.
       </desc>
     </External_camera_image_attachment>
+    <Survey_job_name f="noannotation">
+      <desc>Provide details for survey job name containing coordinate data</desc>
+    </Survey_job_name>
     <Survey_instrument_name >
         <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
         <!--@SOURCE: ../../vocab/survey_instr.xml-->
@@ -945,7 +952,7 @@
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
   </Supplementary>
-</Button>
+</Buttons>
 
 
 <Knapped_Glass_Artefact>
@@ -999,10 +1006,11 @@
         <!--@SOURCE: ../../vocab/yesno.xml-->
     </Patination>
     <Additional_Notes/>
-    <Date_Range/>
+    <Start_Date b="date" f="noannotation"/>
+    <End_Date   b="date" f="noannotation"/>
     <Webview_Glass_Core_Details t="webview" f="nolabel">
       <markdown>
-    # Plain Text ‘Glass Core details (complete only for cores)’
+## Glass Core details (complete only for cores)
       </markdown>
     </Webview_Glass_Core_Details>
     <Scar_count b="decimal">
@@ -1016,9 +1024,9 @@
     <Original_base_diameter b="decimal">
       <desc>estimate or measure the base diameter, where possible. Use certainly slider if appropriate)</desc>
     </Original_base_diameter>
-    <Webview_Flake_Details t="webview">
+    <Webview_Flake_Details t="webview" f="nolabel">
       <markdown>
-    # Flake details (complete only for flakes)
+## Flake details (complete only for flakes)
       </markdown>
     </Webview_Flake_Details>
     <Platform_type t="dropdown">
@@ -1040,10 +1048,10 @@
     <Dorsal_Scar_Count b="decimal">
       <desc>Record the number of flake scars on the dorsal surface of complete flakes</desc>
     </Dorsal_Scar_Count>
-    <Conjoin>
+    <Conjoin f="noannotation">
       <desc>note details if this can be conjoined back to an original core</desc>
     </Conjoin>
-    <Refit>
+    <Refit f="noannotation">
       <desc>note details if this flake piece can be refitted to other flake pieces</desc>
     </Refit>
     <Edge_damage t="dropdown">
@@ -1129,12 +1137,13 @@
       Maker’s Marks or Trademarks
     </Maker_s_Marks_or_Trademarks>
     <Modification_or_re_use f="noannotation"/>
-    <Date_Range f="noannotation"/>
+    <Start_Date b="date" f="noannotation"/>
+    <End_Date   b="date" f="noannotation"/>
     <Additional_Notes f="noannotation"/>
     <References f="noannotation"/>
-    <Nails_or_structural_fasteners_only t="webview">
+    <Nails_or_structural_fasteners_only t="webview" f="nolabel">
       <markdown>
-    # Nails or structural fasteners only
+## Nails or structural fasteners only
       </markdown>
     </Nails_or_structural_fasteners_only>
     <Form t="dropdown">
@@ -1155,9 +1164,9 @@
     <Features t="checkbox">
       <!--@SOURCE: ../../vocab/metal_nails_features.xml-->
     </Features>
-    <Buckles_only t="webview">
+    <Buckles_only t="webview" f="nolabel">
       <markdown>
-    # Buckles only
+# Buckles only
       </markdown>
     </Buckles_only>
     <Frame_type t="dropdown">
@@ -1265,12 +1274,13 @@
     </Gun_part>
     <Crown_or_head_stamps f="noannotation"/>
     <Other_trademarks f="noannotation"/>
-    <Date_range f="noannotation"/>
+    <Start_Date b="date" f="noannotation"/>
+    <End_Date   b="date" f="noannotation"/>
     <Additional_Notes f="noannotation"/>
     <References f="noannotation"/>
-    <Projectile_details t="webview">
+    <Projectile_details t="webview" f="nolabel">
       <markdown>
-# Projectile details
+## Projectile details
       </markdown>
     </Projectile_details>
     <Projectile_type t="dropdown">
@@ -1302,9 +1312,9 @@
       </opts>
     </Mould_seams_sprue_marks>
     <Number_of_Grooves b="decimal"/>
-    <Cartridge_details t="webview">
+    <Cartridge_details t="webview" f="nolabel">
       <markdown>
-# Cartridge details
+## Cartridge details
       </markdown>
     </Cartridge_details>
     <Base t="dropdown">
