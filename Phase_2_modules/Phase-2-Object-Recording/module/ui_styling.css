@@ -4,6 +4,12 @@
 .required-label {
   color: red;
 }
+
+.orange { padding: 4px; margin: 4px; background-color: #f9cb9c; }
+.blue   { padding: 4px; margin: 4px; background-color: #6d9eeb; }
+.red    { padding: 4px; margin: 4px; background-color: #e06666; }
+.yellow { padding: 4px; margin: 4px; background-color: #ffd966; }
+
 .moundID {
   color: #B2B2B2;
 }
