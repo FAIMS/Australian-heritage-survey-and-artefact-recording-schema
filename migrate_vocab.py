@@ -12,7 +12,7 @@ import vkbeautify
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 
-SPREADSHEetree_ID = '1Qk9V33adnHjXs8HM8wIFL13UMKhKihYWTduIe7csays'
+SPREADSHEetree_ID = '17bjIdDS0iIxL22A5Q8MgZXTHQX6jFCna_-I3Z7IVw-Y'
 
 def main():
     creds = None
@@ -38,8 +38,8 @@ def main():
 
     #
     
-    shutil.rmtree('vocab', ignore_errors=True)
-    os.mkdir('vocab')
+    # shutil.rmtree('vocab', ignore_errors=True)
+    # os.mkdir('vocab')
 
     
     sheet_metadata = service.spreadsheets().get(spreadsheetId=SPREADSHEetree_ID).execute()
@@ -47,6 +47,7 @@ def main():
     for sheet in sheets:
         title = sheet.get('properties').get('title')
         filename = sheet.get('properties').get('title').lower().replace(' ', '_')
+        filename = filename.replace('/', '_')
         print(title, filename)
 
         googlesheet = service.spreadsheets().values().get(spreadsheetId=SPREADSHEetree_ID, range="{}!A2:C".format(title)).execute()
@@ -82,4 +83,4 @@ def main():
         
 
 if __name__ == '__main__':
-    main()        
+    main()
