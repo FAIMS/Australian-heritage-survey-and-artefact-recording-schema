@@ -1218,6 +1218,149 @@
 </Metal_Artefact>
 
 
+
+<Weapons_and_Ammunition>
+  <fmt>WA{{Weapons_and_Ammunition}}</fmt>
+  <General>
+    <Weapons_and_Ammunition f="autonum nocertainty"/>
+    <author f="nocertainty"/>
+    <timestamp f="noannotation nocertainty"/>
+
+    <gps f="notnull"/>
+    <Find_This_in_The_Map l="Control/Map">
+        Find This in The Map...
+      </Find_This_in_The_Map>
+    <Device_photos t="camera" f="nocertainty">
+        <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+    </Device_photos>
+    <Landform_element>
+        <desc>30m observational unit</desc>
+        <!--@SOURCE: ../../vocab/landform_elements.xml-->
+    </Landform_element>
+  </General>
+
+  <Feature_details>
+    <Object t="dropdown">
+      <!--@SOURCE: ../../vocab/weapons_object.xml-->
+    </Object>
+    <Completeness t="dropdown">
+      <opts>
+        <opt>&gt;95% present</opt>
+        <opt>51-95% present</opt>
+        <opt>&lt;50% present</opt>
+      </opts>
+    </Completeness>
+    <Material t="checkbox">
+      <!--@SOURCE: ../../vocab/weapons_material.xml-->
+    </Material>
+    <Length_mm b="decimal"/>
+    <Width_mm b="decimal"/>
+    <Thickness_mm b="decimal"/>
+    <Weight_g b="decimal"/>
+    <Weight_grains_1_gram_is_15_4324_grains b="decimal">
+      Weight (grains 1 gram is 15.4324 grains)
+    </Weight_grains_1_gram_is_15_4324_grains>
+    <Gun_part t="dropdown">
+      <!--@SOURCE: ../../vocab/weapons_gunpart.xml-->
+    </Gun_part>
+    <Crown_or_head_stamps f="noannotation"/>
+    <Other_trademarks f="noannotation"/>
+    <Date_range f="noannotation"/>
+    <Additional_Notes f="noannotation"/>
+    <References f="noannotation"/>
+    <Projectile_details t="webview">
+      <markdown>
+# Projectile details
+      </markdown>
+    </Projectile_details>
+    <Projectile_type t="dropdown">
+      <!--@SOURCE: ../../vocab/weapons_projectile_type.xml-->
+    </Projectile_type>
+    <Deformation t="dropdown">
+      <opts>
+        <opt>Yes</opt>
+        <opt>No</opt>
+        <opt>Not applicable</opt>
+        <opt>unknown</opt>
+      </opts>
+    </Deformation>
+    <Rifling_Grooves t="dropdown">
+      <opts>
+        <opt>Yes</opt>
+        <opt>No</opt>
+        <opt>Not applicable</opt>
+        <opt>unknown</opt>
+      </opts>
+    </Rifling_Grooves>
+    <Mould_seams_sprue_marks t="dropdown">
+      Mould seams (sprue marks)
+      <opts>
+        <opt>Yes</opt>
+        <opt>No</opt>
+        <opt>Not applicable</opt>
+        <opt>unknown</opt>
+      </opts>
+    </Mould_seams_sprue_marks>
+    <Number_of_Grooves b="decimal"/>
+    <Cartridge_details t="webview">
+      <markdown>
+# Cartridge details
+      </markdown>
+    </Cartridge_details>
+    <Base t="dropdown">
+      <opts>
+        <opt>Flat</opt>
+        <opt>hollow</opt>
+      </opts>
+    </Base>
+    <Body t="dropdown">
+      <opts>
+        <opt>Bottle necked</opt>
+        <opt>Straight walled</opt>
+      </opts>
+    </Body>
+    <Firing_mechanism t="dropdown">
+      <opts>
+        <opt>Centre fire</opt>
+        <opt>Pin fire</opt>
+        <opt>Rim Fire</opt>
+      </opts>
+    </Firing_mechanism>
+  </Feature_details>
+
+  <Supplementary>
+    <External_camera_ID f="nocertainty">
+        <desc>Select other cameras used for photography (if applicable)</desc>
+        <!--@SOURCE: ../../vocab/camera_ids.xml-->
+    </External_camera_ID>
+    <External_camera_file_names_and_attachment f="nocertainty">
+      <desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+    </External_camera_file_names_and_attachment>
+    <External_camera_image_attachment t="file" f="nocertainty">
+      <desc>Upload files on server, and annotate those files with captions.
+      </desc>
+    </External_camera_image_attachment>
+    <Survey_instrument_name >
+        <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+        <!--@SOURCE: ../../vocab/survey_instr.xml-->
+    </Survey_instrument_name>
+    <Survey_instrument_point_codes>
+        <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+    </Survey_instrument_point_codes>
+    <Related_Site_Name f="noannotation">
+      <desc>If this is associated with a specific site, please note site name or code here</desc>
+    </Related_Site_Name>
+    <Sample_context f="noannotation">
+      <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
+    </Sample_context>
+    <Other_contextual_details f="noannotation">
+      <desc>Please list other context details as relevant here.</desc>
+    </Other_contextual_details>
+  </Supplementary>
+</Weapons_and_Ammunition>
+
+
+
 <logic><![CDATA[
 <!--@SOURCE: logic/sync.bsh-->
 <!--@SOURCE: logic/gis-shared.bsh-->
