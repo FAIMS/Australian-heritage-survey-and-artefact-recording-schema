@@ -84,7 +84,7 @@
               <Next_Buttons_ID/>
               <Next_Knapped_Glass_Artefact_ID/>
               <Next_Metal_Artefact_ID/>
-              <Next_Weapons_and_Ammunition/>
+              <Next_Weapons_and_Ammunition_ID/>
             </Autonumbering>
           </Control>
           <Flaked_Stone_Artefact>
@@ -258,16 +258,16 @@
               <Completeness/>
               <Grouped_fragments/>
               <Group_notes/>
-              <Portion_or_Component/>
-              <Object_Type/>
-              <Tableware_Type/>
+              <Portion_or_component/>
+              <Object_type/>
+              <Tableware_type/>
               <Length_mm/>
               <Width_mm/>
               <Thickness_mm/>
-              <Horizontal_Shape/>
-              <Probable_Contents/>
-              <Shoulder_Width_mm/>
-              <Complete_Height_mm/>
+              <Horizontal_shape/>
+              <Probable_contents/>
+              <Shoulder_width_mm/>
+              <Complete_height_mm/>
               <Number_of_mould_seams/>
               <Mould_type/>
               <Patination_present/>
@@ -281,11 +281,11 @@
               <Applied_finish/>
               <Trademark/>
               <Marks_motifs_and_decoration/>
-              <Start_Date/>
-              <End_Date/>
-              <Conjoin_Information/>
+              <Start_date/>
+              <End_date/>
+              <Conjoin_information/>
               <References/>
-              <Grouped_Fragments_Only/>
+              <Grouped_fragments_only/>
               <Grouped_fragment_count/>
               <Grouped_fragment_weight_g/>
               <Group_max_fragment_length_mm/>
@@ -341,7 +341,7 @@
             </General>
             <Feature_details>
               <Diagnostic/>
-              <Technological_Ware_Type/>
+              <Technological_ware_type/>
               <Element/>
               <Form/>
               <Completeness/>
@@ -358,12 +358,12 @@
               <Visible_motifs/>
               <Flaws/>
               <Decorative_pattern_name/>
-              <Maker_s_Marks_or_Trademarks/>
-              <Start_Date/>
-              <End_Date/>
-              <Conjoin_Information/>
+              <Maker_s_marks_or_trademarks/>
+              <Start_date/>
+              <End_date/>
+              <Conjoin_information/>
               <References/>
-              <Grouped_Fragments_Only/>
+              <Grouped_fragments_only/>
               <Grouped_fragment_count/>
               <Grouped_fragment_weight_g/>
               <Group_max_fragment_length_mm/>
@@ -424,9 +424,9 @@
               <Width_mm/>
               <Thickness_mm/>
               <Height_mm/>
-              <Maker_s_Marks_or_Trademarks/>
-              <Start_Date/>
-              <End_Date/>
+              <Maker_s_marks_or_trademarks/>
+              <Start_date/>
+              <End_date/>
               <Additional_notes/>
             </Feature_details>
             <Supplementary>
@@ -529,14 +529,14 @@
               <Ligne_size_mm/>
               <Manufacture_method/>
               <Construction/>
-              <Shank_Type/>
-              <Sew_Through_type/>
-              <Number_of_Eyes/>
+              <Shank_type/>
+              <Sew_through_type/>
+              <Number_of_eyes/>
               <Motifs/>
-              <Maker_s_Marks_or_Trademarks/>
-              <Start_Date/>
-              <End_Date/>
-              <Additional_Notes/>
+              <Maker_s_marks_or_trademarks/>
+              <Start_date/>
+              <End_date/>
+              <Additional_notes/>
               <References/>
             </Feature_details>
             <Supplementary>
@@ -586,30 +586,30 @@
               <Type/>
               <Glass_type/>
               <Bottle_part/>
-              <Glass_Colour/>
+              <Glass_colour/>
               <Completeness/>
-              <Max_Length_mm/>
-              <Max_Width_mm/>
-              <Max_Thickness_mm/>
+              <Max_length_mm/>
+              <Max_width_mm/>
+              <Max_thickness_mm/>
               <Weight_g/>
               <Burned/>
               <Patination/>
-              <Additional_Notes/>
-              <Start_Date/>
-              <End_Date/>
-              <Webview_Glass_Core_Details/>
+              <Additional_notes/>
+              <Start_date/>
+              <End_date/>
+              <Webview_glass_core_details/>
               <Scar_count/>
-              <Largest_Scar_Length_mm/>
-              <Largest_Scar_Width_mm/>
-              <Core_Type/>
+              <Largest_scar_length_mm/>
+              <Largest_scar_width_mm/>
+              <Core_type/>
               <Original_base_diameter/>
-              <Webview_Flake_Details/>
+              <Webview_flake_details/>
               <Platform_type/>
               <Platform_depth_mm/>
               <Platform_width_mm/>
               <Distal_termination/>
               <Cortex_percent/>
-              <Dorsal_Scar_Count/>
+              <Dorsal_scar_count/>
               <Conjoin/>
               <Refit/>
               <Edge_damage/>
@@ -658,25 +658,25 @@
               <Landform_element/>
             </General>
             <Feature_details>
-              <Metal_Type/>
-              <Metal_Completeness/>
-              <Object_Type/>
+              <Metal_type/>
+              <Metal_completeness/>
+              <Object_type/>
               <Length_mm/>
               <Width_mm/>
               <Thickness_mm/>
               <Weight_g/>
-              <Maker_s_Marks_or_Trademarks/>
+              <Maker_s_marks_or_trademarks/>
               <Modification_or_re_use/>
-              <Start_Date/>
-              <End_Date/>
-              <Additional_Notes/>
+              <Start_date/>
+              <End_date/>
+              <Additional_notes/>
               <References/>
               <Nails_or_structural_fasteners_only/>
               <Form/>
               <Head_shape/>
               <Shaft_shape/>
               <Manufacture_method/>
-              <Size_Class/>
+              <Size_class/>
               <Features/>
               <Buckles_only/>
               <Frame_type/>
@@ -700,7 +700,7 @@
           </Metal_Artefact>
           <Weapons_and_Ammunition>
             <General>
-              <Weapons_and_Ammunition/>
+              <Weapons_and_Ammunition_ID/>
               <Weapons_and_Ammunition_author/>
               <Weapons_and_Ammunition_timestamp/>
               <Colgroup_1>
@@ -740,16 +740,16 @@
               <Gun_part/>
               <Crown_or_head_stamps/>
               <Other_trademarks/>
-              <Start_Date/>
-              <End_Date/>
-              <Additional_Notes/>
+              <Start_date/>
+              <End_date/>
+              <Additional_notes/>
               <References/>
               <Projectile_details/>
               <Projectile_type/>
               <Deformation/>
-              <Rifling_Grooves/>
+              <Rifling_grooves/>
               <Mould_seams_sprue_marks/>
-              <Number_of_Grooves/>
+              <Number_of_grooves/>
               <Cartridge_details/>
               <Base/>
               <Body/>
@@ -778,7 +778,7 @@
       <bind nodeset="/faims/Control/Autonumbering/Next_Buttons_ID" type="decimal"/>
       <bind nodeset="/faims/Control/Autonumbering/Next_Knapped_Glass_Artefact_ID" type="decimal"/>
       <bind nodeset="/faims/Control/Autonumbering/Next_Metal_Artefact_ID" type="decimal"/>
-      <bind nodeset="/faims/Control/Autonumbering/Next_Weapons_and_Ammunition" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Weapons_and_Ammunition_ID" type="decimal"/>
       <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Weight_g" type="decimal"/>
       <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Platform_angle" type="decimal"/>
       <bind nodeset="/faims/Flaked_Stone_Artefact/Feature_details/Platform_width_mm" type="decimal"/>
@@ -803,8 +803,8 @@
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Length_mm" type="decimal"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Width_mm" type="decimal"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Thickness_mm" type="decimal"/>
-      <bind nodeset="/faims/Glass_Artefact/Feature_details/Shoulder_Width_mm" type="decimal"/>
-      <bind nodeset="/faims/Glass_Artefact/Feature_details/Complete_Height_mm" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Shoulder_width_mm" type="decimal"/>
+      <bind nodeset="/faims/Glass_Artefact/Feature_details/Complete_height_mm" type="decimal"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Number_of_mould_seams" type="integer"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Base_diameter_mm" type="decimal"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Base_thickness_mm" type="decimal"/>
@@ -837,18 +837,18 @@
       <bind nodeset="/faims/Misc_Artefact/Feature_details/Height_mm" type="decimal"/>
       <bind nodeset="/faims/Discrete_Hearth_Artefact/Feature_details/Diameter_mm" type="decimal"/>
       <bind nodeset="/faims/Buttons/Feature_details/Ligne_size_mm" type="decimal"/>
-      <bind nodeset="/faims/Buttons/Feature_details/Number_of_Eyes" type="decimal"/>
-      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_Length_mm" type="decimal"/>
-      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_Width_mm" type="decimal"/>
-      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_Thickness_mm" type="decimal"/>
+      <bind nodeset="/faims/Buttons/Feature_details/Number_of_eyes" type="decimal"/>
+      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_width_mm" type="decimal"/>
+      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Weight_g" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Scar_count" type="decimal"/>
-      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Largest_Scar_Length_mm" type="decimal"/>
-      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Largest_Scar_Width_mm" type="decimal"/>
+      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Largest_scar_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Largest_scar_width_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Original_base_diameter" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Platform_depth_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Platform_width_mm" type="decimal"/>
-      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Dorsal_Scar_Count" type="decimal"/>
+      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Dorsal_scar_count" type="decimal"/>
       <bind nodeset="/faims/Metal_Artefact/Feature_details/Length_mm" type="decimal"/>
       <bind nodeset="/faims/Metal_Artefact/Feature_details/Width_mm" type="decimal"/>
       <bind nodeset="/faims/Metal_Artefact/Feature_details/Thickness_mm" type="decimal"/>
@@ -858,7 +858,7 @@
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Weight_g" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Weight_grains_1_gram_is_15_4324_grains" type="decimal"/>
-      <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Number_of_Grooves" type="decimal"/>
+      <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Number_of_grooves" type="decimal"/>
     </model>
   </h:head>
   <h:body>
@@ -1056,8 +1056,8 @@
         <input ref="Next_Metal_Artefact_ID" faims_style_class="required">
           <label>{Next_Metal_Artefact_ID}</label>
         </input>
-        <input ref="Next_Weapons_and_Ammunition" faims_style_class="required">
-          <label>{Next_Weapons_and_Ammunition}</label>
+        <input ref="Next_Weapons_and_Ammunition_ID" faims_style_class="required">
+          <label>{Next_Weapons_and_Ammunition_ID}</label>
         </input>
       </group>
     </group>
@@ -1209,7 +1209,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Dorsal scar count" faims_attribute_type="measure" ref="Dorsal_scar_count">
+        <input faims_attribute_name="Flaked Stone Artefact Dorsal scar count" faims_attribute_type="measure" ref="Dorsal_scar_count">
           <label>{Dorsal_scar_count}</label>
         </input>
         <select faims_attribute_name="Dorsal scar direction" faims_attribute_type="vocab" ref="Dorsal_scar_direction">
@@ -1243,7 +1243,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+        <input faims_attribute_name="Flaked Stone Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_notes}</label>
         </input>
       </group>
@@ -1404,7 +1404,7 @@
         <input faims_attribute_name="Other Stone Artefact Thickness mm" faims_attribute_type="measure" ref="Thickness_mm" faims_certainty="false">
           <label>{Thickness_mm}</label>
         </input>
-        <input faims_attribute_name="Largest scar length mm" faims_attribute_type="measure" ref="Largest_scar_length_mm">
+        <input faims_attribute_name="Other Stone Artefact Largest scar length mm" faims_attribute_type="measure" ref="Largest_scar_length_mm">
           <label>{Largest_scar_length_mm}</label>
         </input>
         <select1 faims_attribute_name="Core largest scar shape" faims_attribute_type="vocab" ref="Core_largest_scar_shape">
@@ -1470,7 +1470,7 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+        <input faims_attribute_name="Other Stone Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_notes}</label>
         </input>
       </group>
@@ -1626,22 +1626,22 @@
         <input faims_attribute_name="Group notes" faims_attribute_type="measure" ref="Group_notes" faims_annotation="false" faims_certainty="false">
           <label>{Group_notes}</label>
         </input>
-        <select1 faims_attribute_name="Portion or Component" faims_attribute_type="vocab" ref="Portion_or_Component">
-          <label>{Portion_or_Component}</label>
+        <select1 faims_attribute_name="Portion or component" faims_attribute_type="vocab" ref="Portion_or_component">
+          <label>{Portion_or_component}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Glass Artefact Object Type" faims_attribute_type="vocab" ref="Object_Type">
-          <label>{Object_Type}</label>
+        <select1 faims_attribute_name="Glass Artefact Object type" faims_attribute_type="vocab" ref="Object_type">
+          <label>{Object_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_attribute_name="Tableware Type" faims_attribute_type="vocab" ref="Tableware_Type">
-          <label>{Tableware_Type}</label>
+        <select faims_attribute_name="Tableware type" faims_attribute_type="vocab" ref="Tableware_type">
+          <label>{Tableware_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -1656,25 +1656,25 @@
         <input faims_attribute_name="Glass Artefact Thickness mm" faims_attribute_type="measure" ref="Thickness_mm">
           <label>{Thickness_mm}</label>
         </input>
-        <select1 faims_attribute_name="Horizontal Shape" faims_attribute_type="vocab" ref="Horizontal_Shape">
-          <label>{Horizontal_Shape}</label>
+        <select1 faims_attribute_name="Horizontal shape" faims_attribute_type="vocab" ref="Horizontal_shape">
+          <label>{Horizontal_shape}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_attribute_name="Probable Contents" faims_attribute_type="vocab" ref="Probable_Contents">
-          <label>{Probable_Contents}</label>
+        <select faims_attribute_name="Probable contents" faims_attribute_type="vocab" ref="Probable_contents">
+          <label>{Probable_contents}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select>
-        <input faims_attribute_name="Shoulder Width mm" faims_attribute_type="measure" ref="Shoulder_Width_mm">
-          <label>{Shoulder_Width_mm}</label>
+        <input faims_attribute_name="Shoulder width mm" faims_attribute_type="measure" ref="Shoulder_width_mm">
+          <label>{Shoulder_width_mm}</label>
         </input>
-        <input faims_attribute_name="Complete Height mm" faims_attribute_type="measure" ref="Complete_Height_mm">
-          <label>{Complete_Height_mm}</label>
+        <input faims_attribute_name="Complete height mm" faims_attribute_type="measure" ref="Complete_height_mm">
+          <label>{Complete_height_mm}</label>
         </input>
         <input faims_attribute_name="Number of mould seams" faims_attribute_type="measure" ref="Number_of_mould_seams">
           <label>{Number_of_mould_seams}</label>
@@ -1739,19 +1739,19 @@
         <input faims_attribute_name="Marks motifs and decoration" faims_attribute_type="measure" ref="Marks_motifs_and_decoration" faims_annotation="false" faims_certainty="false">
           <label>{Marks_motifs_and_decoration}</label>
         </input>
-        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
-          <label>{Start_Date}</label>
+        <input faims_attribute_name="Start date" faims_attribute_type="measure" ref="Start_date" faims_annotation="false">
+          <label>{Start_date}</label>
         </input>
-        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
-          <label>{End_Date}</label>
+        <input faims_attribute_name="End date" faims_attribute_type="measure" ref="End_date" faims_annotation="false">
+          <label>{End_date}</label>
         </input>
-        <input faims_attribute_name="Conjoin Information" faims_attribute_type="measure" ref="Conjoin_Information" faims_annotation="false">
-          <label>{Conjoin_Information}</label>
+        <input faims_attribute_name="Conjoin information" faims_attribute_type="measure" ref="Conjoin_information" faims_annotation="false">
+          <label>{Conjoin_information}</label>
         </input>
         <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
           <label>{References}</label>
         </input>
-        <input faims_web="true" ref="Grouped_Fragments_Only">
+        <input faims_web="true" ref="Grouped_fragments_only">
           <label/>
         </input>
         <input faims_attribute_name="Grouped fragment count" faims_attribute_type="measure" ref="Grouped_fragment_count" faims_annotation="false">
@@ -1910,8 +1910,8 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Technological Ware Type" faims_attribute_type="vocab" ref="Technological_Ware_Type">
-          <label>{Technological_Ware_Type}</label>
+        <select1 faims_attribute_name="Technological ware type" faims_attribute_type="vocab" ref="Technological_ware_type">
+          <label>{Technological_ware_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -2001,22 +2001,22 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Maker s Marks or Trademarks" faims_attribute_type="measure" ref="Maker_s_Marks_or_Trademarks" faims_annotation="false">
-          <label>{Maker_s_Marks_or_Trademarks}</label>
+        <input faims_attribute_name="Maker s marks or trademarks" faims_attribute_type="measure" ref="Maker_s_marks_or_trademarks" faims_annotation="false">
+          <label>{Maker_s_marks_or_trademarks}</label>
         </input>
-        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
-          <label>{Start_Date}</label>
+        <input faims_attribute_name="Start date" faims_attribute_type="measure" ref="Start_date" faims_annotation="false">
+          <label>{Start_date}</label>
         </input>
-        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
-          <label>{End_Date}</label>
+        <input faims_attribute_name="End date" faims_attribute_type="measure" ref="End_date" faims_annotation="false">
+          <label>{End_date}</label>
         </input>
-        <input faims_attribute_name="Conjoin Information" faims_attribute_type="measure" ref="Conjoin_Information" faims_annotation="false">
-          <label>{Conjoin_Information}</label>
+        <input faims_attribute_name="Conjoin information" faims_attribute_type="measure" ref="Conjoin_information" faims_annotation="false">
+          <label>{Conjoin_information}</label>
         </input>
         <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
           <label>{References}</label>
         </input>
-        <input faims_web="true" ref="Grouped_Fragments_Only">
+        <input faims_web="true" ref="Grouped_fragments_only">
           <label/>
         </input>
         <input faims_attribute_name="Grouped fragment count" faims_attribute_type="measure" ref="Grouped_fragment_count" faims_annotation="false">
@@ -2190,16 +2190,16 @@
         <input faims_attribute_name="Height mm" faims_attribute_type="measure" ref="Height_mm">
           <label>{Height_mm}</label>
         </input>
-        <input faims_attribute_name="Maker s Marks or Trademarks" faims_attribute_type="measure" ref="Maker_s_Marks_or_Trademarks" faims_annotation="false">
-          <label>{Maker_s_Marks_or_Trademarks}</label>
+        <input faims_attribute_name="Maker s marks or trademarks" faims_attribute_type="measure" ref="Maker_s_marks_or_trademarks" faims_annotation="false">
+          <label>{Maker_s_marks_or_trademarks}</label>
         </input>
-        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
-          <label>{Start_Date}</label>
+        <input faims_attribute_name="Start date" faims_attribute_type="measure" ref="Start_date" faims_annotation="false">
+          <label>{Start_date}</label>
         </input>
-        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
-          <label>{End_Date}</label>
+        <input faims_attribute_name="End date" faims_attribute_type="measure" ref="End_date" faims_annotation="false">
+          <label>{End_date}</label>
         </input>
-        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+        <input faims_attribute_name="Misc Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_notes}</label>
         </input>
       </group>
@@ -2355,7 +2355,7 @@
         <input faims_attribute_name="Diameter mm" faims_attribute_type="measure" ref="Diameter_mm">
           <label>{Diameter_mm}</label>
         </input>
-        <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+        <input faims_attribute_name="Discrete Hearth Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_notes}</label>
         </input>
       </group>
@@ -2511,37 +2511,37 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_attribute_name="Shank Type" faims_attribute_type="vocab" ref="Shank_Type">
-          <label>{Shank_Type}</label>
+        <select faims_attribute_name="Shank type" faims_attribute_type="vocab" ref="Shank_type">
+          <label>{Shank_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select>
-        <select faims_attribute_name="Sew Through type" faims_attribute_type="vocab" ref="Sew_Through_type">
-          <label>{Sew_Through_type}</label>
+        <select faims_attribute_name="Sew through type" faims_attribute_type="vocab" ref="Sew_through_type">
+          <label>{Sew_through_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select>
-        <input faims_attribute_name="Number of Eyes" faims_attribute_type="measure" ref="Number_of_Eyes">
-          <label>{Number_of_Eyes}</label>
+        <input faims_attribute_name="Number of eyes" faims_attribute_type="measure" ref="Number_of_eyes">
+          <label>{Number_of_eyes}</label>
         </input>
         <input faims_attribute_name="Motifs" faims_attribute_type="measure" ref="Motifs" faims_annotation="false">
           <label>{Motifs}</label>
         </input>
-        <input faims_attribute_name="Maker s Marks or Trademarks" faims_attribute_type="measure" ref="Maker_s_Marks_or_Trademarks" faims_annotation="false">
-          <label>{Maker_s_Marks_or_Trademarks}</label>
+        <input faims_attribute_name="Maker s marks or trademarks" faims_attribute_type="measure" ref="Maker_s_marks_or_trademarks" faims_annotation="false">
+          <label>{Maker_s_marks_or_trademarks}</label>
         </input>
-        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
-          <label>{Start_Date}</label>
+        <input faims_attribute_name="Start date" faims_attribute_type="measure" ref="Start_date" faims_annotation="false">
+          <label>{Start_date}</label>
         </input>
-        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
-          <label>{End_Date}</label>
+        <input faims_attribute_name="End date" faims_attribute_type="measure" ref="End_date" faims_annotation="false">
+          <label>{End_date}</label>
         </input>
-        <input faims_attribute_name="Additional Notes" faims_attribute_type="measure" ref="Additional_Notes" faims_annotation="false">
-          <label>{Additional_Notes}</label>
+        <input faims_attribute_name="Buttons Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false">
+          <label>{Additional_notes}</label>
         </input>
         <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
           <label>{References}</label>
@@ -2689,8 +2689,8 @@
             <value>Options not loaded</value>
           </item>
         </select>
-        <select1 faims_attribute_name="Glass Colour" faims_attribute_type="vocab" ref="Glass_Colour">
-          <label>{Glass_Colour}</label>
+        <select1 faims_attribute_name="Glass colour" faims_attribute_type="vocab" ref="Glass_colour">
+          <label>{Glass_colour}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -2703,14 +2703,14 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Max Length mm" faims_attribute_type="measure" ref="Max_Length_mm">
-          <label>{Max_Length_mm}</label>
+        <input faims_attribute_name="Max length mm" faims_attribute_type="measure" ref="Max_length_mm">
+          <label>{Max_length_mm}</label>
         </input>
-        <input faims_attribute_name="Max Width mm" faims_attribute_type="measure" ref="Max_Width_mm">
-          <label>{Max_Width_mm}</label>
+        <input faims_attribute_name="Max width mm" faims_attribute_type="measure" ref="Max_width_mm">
+          <label>{Max_width_mm}</label>
         </input>
-        <input faims_attribute_name="Max Thickness mm" faims_attribute_type="measure" ref="Max_Thickness_mm">
-          <label>{Max_Thickness_mm}</label>
+        <input faims_attribute_name="Max thickness mm" faims_attribute_type="measure" ref="Max_thickness_mm">
+          <label>{Max_thickness_mm}</label>
         </input>
         <input faims_attribute_name="Knapped Glass Artefact Weight g" faims_attribute_type="measure" ref="Weight_g">
           <label>{Weight_g}</label>
@@ -2729,29 +2729,29 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Additional Notes" faims_attribute_type="measure" ref="Additional_Notes">
-          <label>{Additional_Notes}</label>
+        <input faims_attribute_name="Knapped Glass Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes">
+          <label>{Additional_notes}</label>
         </input>
-        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
-          <label>{Start_Date}</label>
+        <input faims_attribute_name="Start date" faims_attribute_type="measure" ref="Start_date" faims_annotation="false">
+          <label>{Start_date}</label>
         </input>
-        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
-          <label>{End_Date}</label>
+        <input faims_attribute_name="End date" faims_attribute_type="measure" ref="End_date" faims_annotation="false">
+          <label>{End_date}</label>
         </input>
-        <input faims_web="true" ref="Webview_Glass_Core_Details">
+        <input faims_web="true" ref="Webview_glass_core_details">
           <label/>
         </input>
         <input faims_attribute_name="Scar count" faims_attribute_type="measure" ref="Scar_count">
           <label>{Scar_count}</label>
         </input>
-        <input faims_attribute_name="Largest Scar Length mm" faims_attribute_type="measure" ref="Largest_Scar_Length_mm">
-          <label>{Largest_Scar_Length_mm}</label>
+        <input faims_attribute_name="Knapped Glass Artefact Largest scar length mm" faims_attribute_type="measure" ref="Largest_scar_length_mm">
+          <label>{Largest_scar_length_mm}</label>
         </input>
-        <input faims_attribute_name="Largest Scar Width mm" faims_attribute_type="measure" ref="Largest_Scar_Width_mm">
-          <label>{Largest_Scar_Width_mm}</label>
+        <input faims_attribute_name="Largest scar width mm" faims_attribute_type="measure" ref="Largest_scar_width_mm">
+          <label>{Largest_scar_width_mm}</label>
         </input>
-        <select1 faims_attribute_name="Core Type" faims_attribute_type="vocab" ref="Core_Type">
-          <label>{Core_Type}</label>
+        <select1 faims_attribute_name="Core type" faims_attribute_type="vocab" ref="Core_type">
+          <label>{Core_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -2760,7 +2760,7 @@
         <input faims_attribute_name="Original base diameter" faims_attribute_type="measure" ref="Original_base_diameter">
           <label>{Original_base_diameter}</label>
         </input>
-        <input faims_web="true" ref="Webview_Flake_Details">
+        <input faims_web="true" ref="Webview_flake_details">
           <label/>
         </input>
         <select1 faims_attribute_name="Platform type" faims_attribute_type="vocab" ref="Platform_type">
@@ -2790,8 +2790,8 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Dorsal Scar Count" faims_attribute_type="measure" ref="Dorsal_Scar_Count">
-          <label>{Dorsal_Scar_Count}</label>
+        <input faims_attribute_name="Knapped Glass Artefact Dorsal scar count" faims_attribute_type="measure" ref="Dorsal_scar_count">
+          <label>{Dorsal_scar_count}</label>
         </input>
         <input faims_attribute_name="Conjoin" faims_attribute_type="measure" ref="Conjoin" faims_annotation="false">
           <label>{Conjoin}</label>
@@ -2932,22 +2932,22 @@
       </group>
       <group ref="Feature_details">
         <label>{Feature_details}</label>
-        <select faims_attribute_name="Metal Type" faims_attribute_type="vocab" ref="Metal_Type">
-          <label>{Metal_Type}</label>
+        <select faims_attribute_name="Metal type" faims_attribute_type="vocab" ref="Metal_type">
+          <label>{Metal_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select>
-        <select1 faims_attribute_name="Metal Completeness" faims_attribute_type="vocab" ref="Metal_Completeness">
-          <label>{Metal_Completeness}</label>
+        <select1 faims_attribute_name="Metal completeness" faims_attribute_type="vocab" ref="Metal_completeness">
+          <label>{Metal_completeness}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Metal Artefact Object Type" faims_attribute_type="vocab" ref="Object_Type">
-          <label>{Object_Type}</label>
+        <select1 faims_attribute_name="Metal Artefact Object type" faims_attribute_type="vocab" ref="Object_type">
+          <label>{Object_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -2965,20 +2965,20 @@
         <input faims_attribute_name="Metal Artefact Weight g" faims_attribute_type="measure" ref="Weight_g">
           <label>{Weight_g}</label>
         </input>
-        <input faims_attribute_name="Maker s Marks or Trademarks" faims_attribute_type="measure" ref="Maker_s_Marks_or_Trademarks" faims_annotation="false">
-          <label>{Maker_s_Marks_or_Trademarks}</label>
+        <input faims_attribute_name="Maker s marks or trademarks" faims_attribute_type="measure" ref="Maker_s_marks_or_trademarks" faims_annotation="false">
+          <label>{Maker_s_marks_or_trademarks}</label>
         </input>
         <input faims_attribute_name="Modification or re use" faims_attribute_type="measure" ref="Modification_or_re_use" faims_annotation="false">
           <label>{Modification_or_re_use}</label>
         </input>
-        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
-          <label>{Start_Date}</label>
+        <input faims_attribute_name="Start date" faims_attribute_type="measure" ref="Start_date" faims_annotation="false">
+          <label>{Start_date}</label>
         </input>
-        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
-          <label>{End_Date}</label>
+        <input faims_attribute_name="End date" faims_attribute_type="measure" ref="End_date" faims_annotation="false">
+          <label>{End_date}</label>
         </input>
-        <input faims_attribute_name="Additional Notes" faims_attribute_type="measure" ref="Additional_Notes" faims_annotation="false">
-          <label>{Additional_Notes}</label>
+        <input faims_attribute_name="Metal Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false">
+          <label>{Additional_notes}</label>
         </input>
         <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
           <label>{References}</label>
@@ -3014,8 +3014,8 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Size Class" faims_attribute_type="vocab" ref="Size_Class">
-          <label>{Size_Class}</label>
+        <select1 faims_attribute_name="Size class" faims_attribute_type="vocab" ref="Size_class">
+          <label>{Size_class}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -3121,8 +3121,8 @@
       <label>{Weapons_and_Ammunition}</label>
       <group ref="General">
         <label>{General}</label>
-        <input faims_attribute_name="Weapons and Ammunition" faims_attribute_type="measure" ref="Weapons_and_Ammunition" faims_certainty="false">
-          <label>{Weapons_and_Ammunition}</label>
+        <input faims_attribute_name="Weapons and Ammunition ID" faims_attribute_type="measure" ref="Weapons_and_Ammunition_ID" faims_certainty="false">
+          <label>{Weapons_and_Ammunition_ID}</label>
         </input>
         <input faims_attribute_name="Weapons and Ammunition author" faims_attribute_type="measure" ref="Weapons_and_Ammunition_author" faims_read_only="true" faims_certainty="false">
           <label>{Weapons_and_Ammunition_author}</label>
@@ -3241,14 +3241,14 @@
         <input faims_attribute_name="Other trademarks" faims_attribute_type="measure" ref="Other_trademarks" faims_annotation="false">
           <label>{Other_trademarks}</label>
         </input>
-        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
-          <label>{Start_Date}</label>
+        <input faims_attribute_name="Start date" faims_attribute_type="measure" ref="Start_date" faims_annotation="false">
+          <label>{Start_date}</label>
         </input>
-        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
-          <label>{End_Date}</label>
+        <input faims_attribute_name="End date" faims_attribute_type="measure" ref="End_date" faims_annotation="false">
+          <label>{End_date}</label>
         </input>
-        <input faims_attribute_name="Additional Notes" faims_attribute_type="measure" ref="Additional_Notes" faims_annotation="false">
-          <label>{Additional_Notes}</label>
+        <input faims_attribute_name="Weapons and Ammunition Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false">
+          <label>{Additional_notes}</label>
         </input>
         <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
           <label>{References}</label>
@@ -3270,8 +3270,8 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Rifling Grooves" faims_attribute_type="vocab" ref="Rifling_Grooves">
-          <label>{Rifling_Grooves}</label>
+        <select1 faims_attribute_name="Rifling grooves" faims_attribute_type="vocab" ref="Rifling_grooves">
+          <label>{Rifling_grooves}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -3284,8 +3284,8 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Number of Grooves" faims_attribute_type="measure" ref="Number_of_Grooves">
-          <label>{Number_of_Grooves}</label>
+        <input faims_attribute_name="Number of grooves" faims_attribute_type="measure" ref="Number_of_grooves">
+          <label>{Number_of_grooves}</label>
         </input>
         <input faims_web="true" ref="Cartridge_details">
           <label/>

@@ -346,7 +346,7 @@ REF_TO_TYPE.put("Control/Autonumbering/Next_Discrete_Hearth_Artefact_ID", "input
 REF_TO_TYPE.put("Control/Autonumbering/Next_Buttons_ID", "input");
 REF_TO_TYPE.put("Control/Autonumbering/Next_Knapped_Glass_Artefact_ID", "input");
 REF_TO_TYPE.put("Control/Autonumbering/Next_Metal_Artefact_ID", "input");
-REF_TO_TYPE.put("Control/Autonumbering/Next_Weapons_and_Ammunition", "input");
+REF_TO_TYPE.put("Control/Autonumbering/Next_Weapons_and_Ammunition_ID", "input");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_ID", "input");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_author", "input");
 REF_TO_TYPE.put("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_timestamp", "input");
@@ -456,16 +456,16 @@ REF_TO_TYPE.put("Glass_Artefact/Feature_details/Colour", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Completeness", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Grouped_fragments", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Group_notes", "input");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Portion_or_Component", "dropdown");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Object_Type", "dropdown");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Tableware_Type", "checkbox");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Portion_or_component", "dropdown");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Object_type", "dropdown");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Tableware_type", "checkbox");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Length_mm", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Width_mm", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Thickness_mm", "input");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Horizontal_Shape", "dropdown");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Probable_Contents", "checkbox");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Shoulder_Width_mm", "input");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Complete_Height_mm", "input");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Horizontal_shape", "dropdown");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Probable_contents", "checkbox");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Shoulder_width_mm", "input");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Complete_height_mm", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Number_of_mould_seams", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Mould_type", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Patination_present", "dropdown");
@@ -479,11 +479,11 @@ REF_TO_TYPE.put("Glass_Artefact/Feature_details/Closure_type", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Applied_finish", "dropdown");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Trademark", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Marks_motifs_and_decoration", "input");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Start_Date", "input");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/End_Date", "input");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Conjoin_Information", "input");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Start_date", "input");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/End_date", "input");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Conjoin_information", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/References", "input");
-REF_TO_TYPE.put("Glass_Artefact/Feature_details/Grouped_Fragments_Only", "webview");
+REF_TO_TYPE.put("Glass_Artefact/Feature_details/Grouped_fragments_only", "webview");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Grouped_fragment_count", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Grouped_fragment_weight_g", "input");
 REF_TO_TYPE.put("Glass_Artefact/Feature_details/Group_max_fragment_length_mm", "input");
@@ -517,7 +517,7 @@ REF_TO_TYPE.put("Ceramic_Artefact/General/Device_photos", "camera");
 REF_TO_TYPE.put("Ceramic_Artefact/General/Device_photos_Button_1", "button");
 REF_TO_TYPE.put("Ceramic_Artefact/General/Landform_element", "dropdown");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Diagnostic", "dropdown");
-REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Technological_Ware_Type", "dropdown");
+REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Technological_ware_type", "dropdown");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Element", "dropdown");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Form", "dropdown");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Completeness", "dropdown");
@@ -534,12 +534,12 @@ REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Decorative_colours", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Visible_motifs", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Flaws", "dropdown");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Decorative_pattern_name", "dropdown");
-REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Maker_s_Marks_or_Trademarks", "input");
-REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Start_Date", "input");
-REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/End_Date", "input");
-REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Conjoin_Information", "input");
+REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Maker_s_marks_or_trademarks", "input");
+REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Start_date", "input");
+REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/End_date", "input");
+REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Conjoin_information", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/References", "input");
-REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Grouped_Fragments_Only", "webview");
+REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Grouped_fragments_only", "webview");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Grouped_fragment_count", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Grouped_fragment_weight_g", "input");
 REF_TO_TYPE.put("Ceramic_Artefact/Feature_details/Group_max_fragment_length_mm", "input");
@@ -578,9 +578,9 @@ REF_TO_TYPE.put("Misc_Artefact/Feature_details/Length_mm", "input");
 REF_TO_TYPE.put("Misc_Artefact/Feature_details/Width_mm", "input");
 REF_TO_TYPE.put("Misc_Artefact/Feature_details/Thickness_mm", "input");
 REF_TO_TYPE.put("Misc_Artefact/Feature_details/Height_mm", "input");
-REF_TO_TYPE.put("Misc_Artefact/Feature_details/Maker_s_Marks_or_Trademarks", "input");
-REF_TO_TYPE.put("Misc_Artefact/Feature_details/Start_Date", "input");
-REF_TO_TYPE.put("Misc_Artefact/Feature_details/End_Date", "input");
+REF_TO_TYPE.put("Misc_Artefact/Feature_details/Maker_s_marks_or_trademarks", "input");
+REF_TO_TYPE.put("Misc_Artefact/Feature_details/Start_date", "input");
+REF_TO_TYPE.put("Misc_Artefact/Feature_details/End_date", "input");
 REF_TO_TYPE.put("Misc_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_ID", "dropdown");
 REF_TO_TYPE.put("Misc_Artefact/Supplementary/External_camera_file_names_and_attachment", "input");
@@ -639,14 +639,14 @@ REF_TO_TYPE.put("Buttons/Feature_details/Attachment_method", "dropdown");
 REF_TO_TYPE.put("Buttons/Feature_details/Ligne_size_mm", "input");
 REF_TO_TYPE.put("Buttons/Feature_details/Manufacture_method", "checkbox");
 REF_TO_TYPE.put("Buttons/Feature_details/Construction", "dropdown");
-REF_TO_TYPE.put("Buttons/Feature_details/Shank_Type", "checkbox");
-REF_TO_TYPE.put("Buttons/Feature_details/Sew_Through_type", "checkbox");
-REF_TO_TYPE.put("Buttons/Feature_details/Number_of_Eyes", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/Shank_type", "checkbox");
+REF_TO_TYPE.put("Buttons/Feature_details/Sew_through_type", "checkbox");
+REF_TO_TYPE.put("Buttons/Feature_details/Number_of_eyes", "input");
 REF_TO_TYPE.put("Buttons/Feature_details/Motifs", "input");
-REF_TO_TYPE.put("Buttons/Feature_details/Maker_s_Marks_or_Trademarks", "input");
-REF_TO_TYPE.put("Buttons/Feature_details/Start_Date", "input");
-REF_TO_TYPE.put("Buttons/Feature_details/End_Date", "input");
-REF_TO_TYPE.put("Buttons/Feature_details/Additional_Notes", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/Maker_s_marks_or_trademarks", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/Start_date", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/End_date", "input");
+REF_TO_TYPE.put("Buttons/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Buttons/Feature_details/References", "input");
 REF_TO_TYPE.put("Buttons/Supplementary/External_camera_ID", "dropdown");
 REF_TO_TYPE.put("Buttons/Supplementary/External_camera_file_names_and_attachment", "input");
@@ -674,30 +674,30 @@ REF_TO_TYPE.put("Knapped_Glass_Artefact/General/Landform_element", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Type", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Glass_type", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Bottle_part", "checkbox");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Glass_Colour", "dropdown");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Glass_colour", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Completeness", "dropdown");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Max_Length_mm", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Max_Width_mm", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Max_Thickness_mm", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Max_length_mm", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Max_width_mm", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Max_thickness_mm", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Weight_g", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Burned", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Patination", "dropdown");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Additional_Notes", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Start_Date", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/End_Date", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Webview_Glass_Core_Details", "webview");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Additional_notes", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Start_date", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/End_date", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Webview_glass_core_details", "webview");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Scar_count", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Largest_Scar_Length_mm", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Largest_Scar_Width_mm", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Core_Type", "dropdown");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Largest_scar_length_mm", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Largest_scar_width_mm", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Core_type", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Original_base_diameter", "input");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Webview_Flake_Details", "webview");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Webview_flake_details", "webview");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Platform_type", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Platform_depth_mm", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Platform_width_mm", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Distal_termination", "dropdown");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Cortex_percent", "dropdown");
-REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Dorsal_Scar_Count", "input");
+REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Dorsal_scar_count", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Conjoin", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Refit", "input");
 REF_TO_TYPE.put("Knapped_Glass_Artefact/Feature_details/Edge_damage", "dropdown");
@@ -724,25 +724,25 @@ REF_TO_TYPE.put("Metal_Artefact/General/Find_This_in_The_Map", "button");
 REF_TO_TYPE.put("Metal_Artefact/General/Device_photos", "camera");
 REF_TO_TYPE.put("Metal_Artefact/General/Device_photos_Button_1", "button");
 REF_TO_TYPE.put("Metal_Artefact/General/Landform_element", "dropdown");
-REF_TO_TYPE.put("Metal_Artefact/Feature_details/Metal_Type", "checkbox");
-REF_TO_TYPE.put("Metal_Artefact/Feature_details/Metal_Completeness", "dropdown");
-REF_TO_TYPE.put("Metal_Artefact/Feature_details/Object_Type", "dropdown");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/Metal_type", "checkbox");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/Metal_completeness", "dropdown");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/Object_type", "dropdown");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Length_mm", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Width_mm", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Thickness_mm", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Weight_g", "input");
-REF_TO_TYPE.put("Metal_Artefact/Feature_details/Maker_s_Marks_or_Trademarks", "input");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/Maker_s_marks_or_trademarks", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Modification_or_re_use", "input");
-REF_TO_TYPE.put("Metal_Artefact/Feature_details/Start_Date", "input");
-REF_TO_TYPE.put("Metal_Artefact/Feature_details/End_Date", "input");
-REF_TO_TYPE.put("Metal_Artefact/Feature_details/Additional_Notes", "input");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/Start_date", "input");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/End_date", "input");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/References", "input");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Nails_or_structural_fasteners_only", "webview");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Form", "dropdown");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Head_shape", "dropdown");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Shaft_shape", "dropdown");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Manufacture_method", "dropdown");
-REF_TO_TYPE.put("Metal_Artefact/Feature_details/Size_Class", "dropdown");
+REF_TO_TYPE.put("Metal_Artefact/Feature_details/Size_class", "dropdown");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Features", "checkbox");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Buckles_only", "webview");
 REF_TO_TYPE.put("Metal_Artefact/Feature_details/Frame_type", "dropdown");
@@ -760,7 +760,7 @@ REF_TO_TYPE.put("Metal_Artefact/Supplementary/Survey_instrument_point_codes", "i
 REF_TO_TYPE.put("Metal_Artefact/Supplementary/Related_site_name", "input");
 REF_TO_TYPE.put("Metal_Artefact/Supplementary/Sample_context", "input");
 REF_TO_TYPE.put("Metal_Artefact/Supplementary/Other_contextual_details", "input");
-REF_TO_TYPE.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition", "input");
+REF_TO_TYPE.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition_ID", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition_author", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition_timestamp", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/General/Latitude", "input");
@@ -784,16 +784,16 @@ REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Weight_grains_1_gram_is_
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Gun_part", "dropdown");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Crown_or_head_stamps", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Other_trademarks", "input");
-REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Start_Date", "input");
-REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/End_Date", "input");
-REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Additional_Notes", "input");
+REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Start_date", "input");
+REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/End_date", "input");
+REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Additional_notes", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/References", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Projectile_details", "webview");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Projectile_type", "dropdown");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Deformation", "dropdown");
-REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Rifling_Grooves", "dropdown");
+REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Rifling_grooves", "dropdown");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Mould_seams_sprue_marks", "dropdown");
-REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Number_of_Grooves", "input");
+REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Number_of_grooves", "input");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Cartridge_details", "webview");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Base", "dropdown");
 REF_TO_TYPE.put("Weapons_and_Ammunition/Feature_details/Body", "dropdown");
@@ -942,16 +942,16 @@ DATA_REFS.add("Glass_Artefact/Feature_details/Colour");
 DATA_REFS.add("Glass_Artefact/Feature_details/Completeness");
 DATA_REFS.add("Glass_Artefact/Feature_details/Grouped_fragments");
 DATA_REFS.add("Glass_Artefact/Feature_details/Group_notes");
-DATA_REFS.add("Glass_Artefact/Feature_details/Portion_or_Component");
-DATA_REFS.add("Glass_Artefact/Feature_details/Object_Type");
-DATA_REFS.add("Glass_Artefact/Feature_details/Tableware_Type");
+DATA_REFS.add("Glass_Artefact/Feature_details/Portion_or_component");
+DATA_REFS.add("Glass_Artefact/Feature_details/Object_type");
+DATA_REFS.add("Glass_Artefact/Feature_details/Tableware_type");
 DATA_REFS.add("Glass_Artefact/Feature_details/Length_mm");
 DATA_REFS.add("Glass_Artefact/Feature_details/Width_mm");
 DATA_REFS.add("Glass_Artefact/Feature_details/Thickness_mm");
-DATA_REFS.add("Glass_Artefact/Feature_details/Horizontal_Shape");
-DATA_REFS.add("Glass_Artefact/Feature_details/Probable_Contents");
-DATA_REFS.add("Glass_Artefact/Feature_details/Shoulder_Width_mm");
-DATA_REFS.add("Glass_Artefact/Feature_details/Complete_Height_mm");
+DATA_REFS.add("Glass_Artefact/Feature_details/Horizontal_shape");
+DATA_REFS.add("Glass_Artefact/Feature_details/Probable_contents");
+DATA_REFS.add("Glass_Artefact/Feature_details/Shoulder_width_mm");
+DATA_REFS.add("Glass_Artefact/Feature_details/Complete_height_mm");
 DATA_REFS.add("Glass_Artefact/Feature_details/Number_of_mould_seams");
 DATA_REFS.add("Glass_Artefact/Feature_details/Mould_type");
 DATA_REFS.add("Glass_Artefact/Feature_details/Patination_present");
@@ -965,9 +965,9 @@ DATA_REFS.add("Glass_Artefact/Feature_details/Closure_type");
 DATA_REFS.add("Glass_Artefact/Feature_details/Applied_finish");
 DATA_REFS.add("Glass_Artefact/Feature_details/Trademark");
 DATA_REFS.add("Glass_Artefact/Feature_details/Marks_motifs_and_decoration");
-DATA_REFS.add("Glass_Artefact/Feature_details/Start_Date");
-DATA_REFS.add("Glass_Artefact/Feature_details/End_Date");
-DATA_REFS.add("Glass_Artefact/Feature_details/Conjoin_Information");
+DATA_REFS.add("Glass_Artefact/Feature_details/Start_date");
+DATA_REFS.add("Glass_Artefact/Feature_details/End_date");
+DATA_REFS.add("Glass_Artefact/Feature_details/Conjoin_information");
 DATA_REFS.add("Glass_Artefact/Feature_details/References");
 DATA_REFS.add("Glass_Artefact/Feature_details/Grouped_fragment_count");
 DATA_REFS.add("Glass_Artefact/Feature_details/Grouped_fragment_weight_g");
@@ -998,7 +998,7 @@ DATA_REFS.add("Ceramic_Artefact/General/Accuracy");
 DATA_REFS.add("Ceramic_Artefact/General/Device_photos");
 DATA_REFS.add("Ceramic_Artefact/General/Landform_element");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Diagnostic");
-DATA_REFS.add("Ceramic_Artefact/Feature_details/Technological_Ware_Type");
+DATA_REFS.add("Ceramic_Artefact/Feature_details/Technological_ware_type");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Element");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Form");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Completeness");
@@ -1015,10 +1015,10 @@ DATA_REFS.add("Ceramic_Artefact/Feature_details/Decorative_colours");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Visible_motifs");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Flaws");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Decorative_pattern_name");
-DATA_REFS.add("Ceramic_Artefact/Feature_details/Maker_s_Marks_or_Trademarks");
-DATA_REFS.add("Ceramic_Artefact/Feature_details/Start_Date");
-DATA_REFS.add("Ceramic_Artefact/Feature_details/End_Date");
-DATA_REFS.add("Ceramic_Artefact/Feature_details/Conjoin_Information");
+DATA_REFS.add("Ceramic_Artefact/Feature_details/Maker_s_marks_or_trademarks");
+DATA_REFS.add("Ceramic_Artefact/Feature_details/Start_date");
+DATA_REFS.add("Ceramic_Artefact/Feature_details/End_date");
+DATA_REFS.add("Ceramic_Artefact/Feature_details/Conjoin_information");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/References");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Grouped_fragment_count");
 DATA_REFS.add("Ceramic_Artefact/Feature_details/Grouped_fragment_weight_g");
@@ -1054,9 +1054,9 @@ DATA_REFS.add("Misc_Artefact/Feature_details/Length_mm");
 DATA_REFS.add("Misc_Artefact/Feature_details/Width_mm");
 DATA_REFS.add("Misc_Artefact/Feature_details/Thickness_mm");
 DATA_REFS.add("Misc_Artefact/Feature_details/Height_mm");
-DATA_REFS.add("Misc_Artefact/Feature_details/Maker_s_Marks_or_Trademarks");
-DATA_REFS.add("Misc_Artefact/Feature_details/Start_Date");
-DATA_REFS.add("Misc_Artefact/Feature_details/End_Date");
+DATA_REFS.add("Misc_Artefact/Feature_details/Maker_s_marks_or_trademarks");
+DATA_REFS.add("Misc_Artefact/Feature_details/Start_date");
+DATA_REFS.add("Misc_Artefact/Feature_details/End_date");
 DATA_REFS.add("Misc_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Misc_Artefact/Supplementary/External_camera_ID");
 DATA_REFS.add("Misc_Artefact/Supplementary/External_camera_file_names_and_attachment");
@@ -1107,14 +1107,14 @@ DATA_REFS.add("Buttons/Feature_details/Attachment_method");
 DATA_REFS.add("Buttons/Feature_details/Ligne_size_mm");
 DATA_REFS.add("Buttons/Feature_details/Manufacture_method");
 DATA_REFS.add("Buttons/Feature_details/Construction");
-DATA_REFS.add("Buttons/Feature_details/Shank_Type");
-DATA_REFS.add("Buttons/Feature_details/Sew_Through_type");
-DATA_REFS.add("Buttons/Feature_details/Number_of_Eyes");
+DATA_REFS.add("Buttons/Feature_details/Shank_type");
+DATA_REFS.add("Buttons/Feature_details/Sew_through_type");
+DATA_REFS.add("Buttons/Feature_details/Number_of_eyes");
 DATA_REFS.add("Buttons/Feature_details/Motifs");
-DATA_REFS.add("Buttons/Feature_details/Maker_s_Marks_or_Trademarks");
-DATA_REFS.add("Buttons/Feature_details/Start_Date");
-DATA_REFS.add("Buttons/Feature_details/End_Date");
-DATA_REFS.add("Buttons/Feature_details/Additional_Notes");
+DATA_REFS.add("Buttons/Feature_details/Maker_s_marks_or_trademarks");
+DATA_REFS.add("Buttons/Feature_details/Start_date");
+DATA_REFS.add("Buttons/Feature_details/End_date");
+DATA_REFS.add("Buttons/Feature_details/Additional_notes");
 DATA_REFS.add("Buttons/Feature_details/References");
 DATA_REFS.add("Buttons/Supplementary/External_camera_ID");
 DATA_REFS.add("Buttons/Supplementary/External_camera_file_names_and_attachment");
@@ -1138,28 +1138,28 @@ DATA_REFS.add("Knapped_Glass_Artefact/General/Landform_element");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Type");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Glass_type");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Bottle_part");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Glass_Colour");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Glass_colour");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Completeness");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Max_Length_mm");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Max_Width_mm");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Max_Thickness_mm");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Max_length_mm");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Max_width_mm");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Max_thickness_mm");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Weight_g");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Burned");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Patination");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Additional_Notes");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Start_Date");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/End_Date");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Additional_notes");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Start_date");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/End_date");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Scar_count");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Largest_Scar_Length_mm");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Largest_Scar_Width_mm");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Core_Type");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Largest_scar_length_mm");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Largest_scar_width_mm");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Core_type");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Original_base_diameter");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Platform_type");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Platform_depth_mm");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Platform_width_mm");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Distal_termination");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Cortex_percent");
-DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Dorsal_Scar_Count");
+DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Dorsal_scar_count");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Conjoin");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Refit");
 DATA_REFS.add("Knapped_Glass_Artefact/Feature_details/Edge_damage");
@@ -1182,24 +1182,24 @@ DATA_REFS.add("Metal_Artefact/General/Easting");
 DATA_REFS.add("Metal_Artefact/General/Accuracy");
 DATA_REFS.add("Metal_Artefact/General/Device_photos");
 DATA_REFS.add("Metal_Artefact/General/Landform_element");
-DATA_REFS.add("Metal_Artefact/Feature_details/Metal_Type");
-DATA_REFS.add("Metal_Artefact/Feature_details/Metal_Completeness");
-DATA_REFS.add("Metal_Artefact/Feature_details/Object_Type");
+DATA_REFS.add("Metal_Artefact/Feature_details/Metal_type");
+DATA_REFS.add("Metal_Artefact/Feature_details/Metal_completeness");
+DATA_REFS.add("Metal_Artefact/Feature_details/Object_type");
 DATA_REFS.add("Metal_Artefact/Feature_details/Length_mm");
 DATA_REFS.add("Metal_Artefact/Feature_details/Width_mm");
 DATA_REFS.add("Metal_Artefact/Feature_details/Thickness_mm");
 DATA_REFS.add("Metal_Artefact/Feature_details/Weight_g");
-DATA_REFS.add("Metal_Artefact/Feature_details/Maker_s_Marks_or_Trademarks");
+DATA_REFS.add("Metal_Artefact/Feature_details/Maker_s_marks_or_trademarks");
 DATA_REFS.add("Metal_Artefact/Feature_details/Modification_or_re_use");
-DATA_REFS.add("Metal_Artefact/Feature_details/Start_Date");
-DATA_REFS.add("Metal_Artefact/Feature_details/End_Date");
-DATA_REFS.add("Metal_Artefact/Feature_details/Additional_Notes");
+DATA_REFS.add("Metal_Artefact/Feature_details/Start_date");
+DATA_REFS.add("Metal_Artefact/Feature_details/End_date");
+DATA_REFS.add("Metal_Artefact/Feature_details/Additional_notes");
 DATA_REFS.add("Metal_Artefact/Feature_details/References");
 DATA_REFS.add("Metal_Artefact/Feature_details/Form");
 DATA_REFS.add("Metal_Artefact/Feature_details/Head_shape");
 DATA_REFS.add("Metal_Artefact/Feature_details/Shaft_shape");
 DATA_REFS.add("Metal_Artefact/Feature_details/Manufacture_method");
-DATA_REFS.add("Metal_Artefact/Feature_details/Size_Class");
+DATA_REFS.add("Metal_Artefact/Feature_details/Size_class");
 DATA_REFS.add("Metal_Artefact/Feature_details/Features");
 DATA_REFS.add("Metal_Artefact/Feature_details/Frame_type");
 DATA_REFS.add("Metal_Artefact/Feature_details/Frame_shape");
@@ -1215,7 +1215,7 @@ DATA_REFS.add("Metal_Artefact/Supplementary/Survey_instrument_point_codes");
 DATA_REFS.add("Metal_Artefact/Supplementary/Related_site_name");
 DATA_REFS.add("Metal_Artefact/Supplementary/Sample_context");
 DATA_REFS.add("Metal_Artefact/Supplementary/Other_contextual_details");
-DATA_REFS.add("Weapons_and_Ammunition/General/Weapons_and_Ammunition");
+DATA_REFS.add("Weapons_and_Ammunition/General/Weapons_and_Ammunition_ID");
 DATA_REFS.add("Weapons_and_Ammunition/General/Weapons_and_Ammunition_author");
 DATA_REFS.add("Weapons_and_Ammunition/General/Weapons_and_Ammunition_timestamp");
 DATA_REFS.add("Weapons_and_Ammunition/General/Latitude");
@@ -1236,15 +1236,15 @@ DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Weight_grains_1_gram_is_15
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Gun_part");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Crown_or_head_stamps");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Other_trademarks");
-DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Start_Date");
-DATA_REFS.add("Weapons_and_Ammunition/Feature_details/End_Date");
-DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Additional_Notes");
+DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Start_date");
+DATA_REFS.add("Weapons_and_Ammunition/Feature_details/End_date");
+DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Additional_notes");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/References");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Projectile_type");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Deformation");
-DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Rifling_Grooves");
+DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Rifling_grooves");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Mould_seams_sprue_marks");
-DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Number_of_Grooves");
+DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Number_of_grooves");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Base");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Body");
 DATA_REFS.add("Weapons_and_Ammunition/Feature_details/Firing_mechanism");
@@ -1272,7 +1272,7 @@ HIER_REFS.add("Discrete_Hearth_Artefact/General/Landform_element");
 HIER_REFS.add("Buttons/General/Landform_element");
 HIER_REFS.add("Knapped_Glass_Artefact/General/Landform_element");
 HIER_REFS.add("Metal_Artefact/General/Landform_element");
-HIER_REFS.add("Metal_Artefact/Feature_details/Object_Type");
+HIER_REFS.add("Metal_Artefact/Feature_details/Object_type");
 HIER_REFS.add("Weapons_and_Ammunition/General/Landform_element");
 
 TAB_GROUPS_AS_LIST.add("User_List");
@@ -1328,6 +1328,8 @@ TABS_AS_LIST.add("Weapons_and_Ammunition/Supplementary");
 ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Feature_details/Raw_material_type", "Flaked Stone Artefact Raw material type");
 ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Feature_details/Weight_g", "Flaked Stone Artefact Weight g");
 ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Feature_details/Platform_width_mm", "Flaked Stone Artefact Platform width mm");
+ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Feature_details/Dorsal_scar_count", "Flaked Stone Artefact Dorsal scar count");
+ATTRIB_NAMES_NON_STANDARD.put("Flaked_Stone_Artefact/Feature_details/Additional_notes", "Flaked Stone Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Raw_material_type", "Other Stone Artefact Raw material type");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Completeness", "Other Stone Artefact Completeness");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Weight_g", "Other Stone Artefact Weight g");
@@ -1335,9 +1337,11 @@ ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Type", "Othe
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Length_mm", "Other Stone Artefact Length mm");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Width_mm", "Other Stone Artefact Width mm");
 ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Thickness_mm", "Other Stone Artefact Thickness mm");
+ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Largest_scar_length_mm", "Other Stone Artefact Largest scar length mm");
+ATTRIB_NAMES_NON_STANDARD.put("Other_Stone_Artefact/Feature_details/Additional_notes", "Other Stone Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Diagnostic", "Glass Artefact Diagnostic");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Completeness", "Glass Artefact Completeness");
-ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Object_Type", "Glass Artefact Object Type");
+ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Object_type", "Glass Artefact Object type");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Length_mm", "Glass Artefact Length mm");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Width_mm", "Glass Artefact Width mm");
 ATTRIB_NAMES_NON_STANDARD.put("Glass_Artefact/Feature_details/Thickness_mm", "Glass Artefact Thickness mm");
@@ -1354,16 +1358,23 @@ ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Type", "Misc Artefa
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Length_mm", "Misc Artefact Length mm");
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Width_mm", "Misc Artefact Width mm");
 ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Thickness_mm", "Misc Artefact Thickness mm");
+ATTRIB_NAMES_NON_STANDARD.put("Misc_Artefact/Feature_details/Additional_notes", "Misc Artefact Additional notes");
+ATTRIB_NAMES_NON_STANDARD.put("Discrete_Hearth_Artefact/Feature_details/Additional_notes", "Discrete Hearth Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Buttons/Feature_details/Manufacture_method", "Buttons Manufacture method");
+ATTRIB_NAMES_NON_STANDARD.put("Buttons/Feature_details/Additional_notes", "Buttons Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Type", "Knapped Glass Artefact Type");
 ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Completeness", "Knapped Glass Artefact Completeness");
 ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Weight_g", "Knapped Glass Artefact Weight g");
+ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Additional_notes", "Knapped Glass Artefact Additional notes");
+ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Largest_scar_length_mm", "Knapped Glass Artefact Largest scar length mm");
 ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Platform_width_mm", "Knapped Glass Artefact Platform width mm");
-ATTRIB_NAMES_NON_STANDARD.put("Metal_Artefact/Feature_details/Object_Type", "Metal Artefact Object Type");
+ATTRIB_NAMES_NON_STANDARD.put("Knapped_Glass_Artefact/Feature_details/Dorsal_scar_count", "Knapped Glass Artefact Dorsal scar count");
+ATTRIB_NAMES_NON_STANDARD.put("Metal_Artefact/Feature_details/Object_type", "Metal Artefact Object type");
 ATTRIB_NAMES_NON_STANDARD.put("Metal_Artefact/Feature_details/Length_mm", "Metal Artefact Length mm");
 ATTRIB_NAMES_NON_STANDARD.put("Metal_Artefact/Feature_details/Width_mm", "Metal Artefact Width mm");
 ATTRIB_NAMES_NON_STANDARD.put("Metal_Artefact/Feature_details/Thickness_mm", "Metal Artefact Thickness mm");
 ATTRIB_NAMES_NON_STANDARD.put("Metal_Artefact/Feature_details/Weight_g", "Metal Artefact Weight g");
+ATTRIB_NAMES_NON_STANDARD.put("Metal_Artefact/Feature_details/Additional_notes", "Metal Artefact Additional notes");
 ATTRIB_NAMES_NON_STANDARD.put("Metal_Artefact/Feature_details/Form", "Metal Artefact Form");
 ATTRIB_NAMES_NON_STANDARD.put("Metal_Artefact/Feature_details/Manufacture_method", "Metal Artefact Manufacture method");
 ATTRIB_NAMES_NON_STANDARD.put("Weapons_and_Ammunition/Feature_details/Completeness", "Weapons and Ammunition Completeness");
@@ -1372,6 +1383,7 @@ ATTRIB_NAMES_NON_STANDARD.put("Weapons_and_Ammunition/Feature_details/Length_mm"
 ATTRIB_NAMES_NON_STANDARD.put("Weapons_and_Ammunition/Feature_details/Width_mm", "Weapons and Ammunition Width mm");
 ATTRIB_NAMES_NON_STANDARD.put("Weapons_and_Ammunition/Feature_details/Thickness_mm", "Weapons and Ammunition Thickness mm");
 ATTRIB_NAMES_NON_STANDARD.put("Weapons_and_Ammunition/Feature_details/Weight_g", "Weapons and Ammunition Weight g");
+ATTRIB_NAMES_NON_STANDARD.put("Weapons_and_Ammunition/Feature_details/Additional_notes", "Weapons and Ammunition Additional notes");
 
 REF_TO_FLAG_STRING.put("User_List/User_List/User_List", "nolabel user");
 REF_TO_FLAG_STRING.put("Control/Control/Flaked_Stone_Artefact", "");
@@ -1402,7 +1414,7 @@ REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Discrete_Hearth_Artefact_ID",
 REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Buttons_ID", "notnull");
 REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Knapped_Glass_Artefact_ID", "notnull");
 REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Metal_Artefact_ID", "notnull");
-REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Weapons_and_Ammunition", "notnull");
+REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Weapons_and_Ammunition_ID", "notnull");
 REF_TO_FLAG_STRING.put("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_ID", "autonum id nocertainty");
 REF_TO_FLAG_STRING.put("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_author", "readonly nocertainty");
 REF_TO_FLAG_STRING.put("Flaked_Stone_Artefact/General/Flaked_Stone_Artefact_timestamp", "readonly noannotation nocertainty");
@@ -1512,16 +1524,16 @@ REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Colour", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Completeness", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Grouped_fragments", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Group_notes", "noannotation nocertainty");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Portion_or_Component", "");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Object_Type", "");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Tableware_Type", "");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Portion_or_component", "");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Object_type", "");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Tableware_type", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Length_mm", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Width_mm", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Thickness_mm", "");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Horizontal_Shape", "");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Probable_Contents", "");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Shoulder_Width_mm", "");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Complete_Height_mm", "");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Horizontal_shape", "");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Probable_contents", "");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Shoulder_width_mm", "");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Complete_height_mm", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Number_of_mould_seams", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Mould_type", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Patination_present", "");
@@ -1535,11 +1547,11 @@ REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Closure_type", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Applied_finish", "");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Trademark", "noannotation nocertainty");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Marks_motifs_and_decoration", "noannotation nocertainty");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Start_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/End_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Conjoin_Information", "noannotation");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Start_date", "noannotation");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/End_date", "noannotation");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Conjoin_information", "noannotation");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/References", "noannotation");
-REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Grouped_Fragments_Only", "nolabel");
+REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Grouped_fragments_only", "nolabel");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Grouped_fragment_count", "noannotation");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Grouped_fragment_weight_g", "noannotation");
 REF_TO_FLAG_STRING.put("Glass_Artefact/Feature_details/Group_max_fragment_length_mm", "noannotation");
@@ -1573,7 +1585,7 @@ REF_TO_FLAG_STRING.put("Ceramic_Artefact/General/Device_photos", "nocertainty");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/General/Device_photos_Button_1", "");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/General/Landform_element", "");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Diagnostic", "");
-REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Technological_Ware_Type", "");
+REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Technological_ware_type", "");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Element", "");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Form", "");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Completeness", "");
@@ -1590,12 +1602,12 @@ REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Decorative_colours", ""
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Visible_motifs", "");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Flaws", "");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Decorative_pattern_name", "");
-REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Maker_s_Marks_or_Trademarks", "noannotation");
-REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Start_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/End_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Conjoin_Information", "noannotation");
+REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Maker_s_marks_or_trademarks", "noannotation");
+REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Start_date", "noannotation");
+REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/End_date", "noannotation");
+REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Conjoin_information", "noannotation");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/References", "noannotation");
-REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Grouped_Fragments_Only", "nolabel");
+REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Grouped_fragments_only", "nolabel");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Grouped_fragment_count", "noannotation");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Grouped_fragment_weight_g", "noannotation");
 REF_TO_FLAG_STRING.put("Ceramic_Artefact/Feature_details/Group_max_fragment_length_mm", "noannotation");
@@ -1634,9 +1646,9 @@ REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/Length_mm", "");
 REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/Width_mm", "");
 REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/Thickness_mm", "");
 REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/Height_mm", "");
-REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/Maker_s_Marks_or_Trademarks", "noannotation");
-REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/Start_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/End_Date", "noannotation");
+REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/Maker_s_marks_or_trademarks", "noannotation");
+REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/Start_date", "noannotation");
+REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/End_date", "noannotation");
 REF_TO_FLAG_STRING.put("Misc_Artefact/Feature_details/Additional_notes", "noannotation nocertainty");
 REF_TO_FLAG_STRING.put("Misc_Artefact/Supplementary/External_camera_ID", "nocertainty");
 REF_TO_FLAG_STRING.put("Misc_Artefact/Supplementary/External_camera_file_names_and_attachment", "nocertainty");
@@ -1695,14 +1707,14 @@ REF_TO_FLAG_STRING.put("Buttons/Feature_details/Attachment_method", "");
 REF_TO_FLAG_STRING.put("Buttons/Feature_details/Ligne_size_mm", "");
 REF_TO_FLAG_STRING.put("Buttons/Feature_details/Manufacture_method", "");
 REF_TO_FLAG_STRING.put("Buttons/Feature_details/Construction", "");
-REF_TO_FLAG_STRING.put("Buttons/Feature_details/Shank_Type", "");
-REF_TO_FLAG_STRING.put("Buttons/Feature_details/Sew_Through_type", "");
-REF_TO_FLAG_STRING.put("Buttons/Feature_details/Number_of_Eyes", "");
+REF_TO_FLAG_STRING.put("Buttons/Feature_details/Shank_type", "");
+REF_TO_FLAG_STRING.put("Buttons/Feature_details/Sew_through_type", "");
+REF_TO_FLAG_STRING.put("Buttons/Feature_details/Number_of_eyes", "");
 REF_TO_FLAG_STRING.put("Buttons/Feature_details/Motifs", "noannotation");
-REF_TO_FLAG_STRING.put("Buttons/Feature_details/Maker_s_Marks_or_Trademarks", "noannotation");
-REF_TO_FLAG_STRING.put("Buttons/Feature_details/Start_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Buttons/Feature_details/End_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Buttons/Feature_details/Additional_Notes", "noannotation");
+REF_TO_FLAG_STRING.put("Buttons/Feature_details/Maker_s_marks_or_trademarks", "noannotation");
+REF_TO_FLAG_STRING.put("Buttons/Feature_details/Start_date", "noannotation");
+REF_TO_FLAG_STRING.put("Buttons/Feature_details/End_date", "noannotation");
+REF_TO_FLAG_STRING.put("Buttons/Feature_details/Additional_notes", "noannotation");
 REF_TO_FLAG_STRING.put("Buttons/Feature_details/References", "noannotation");
 REF_TO_FLAG_STRING.put("Buttons/Supplementary/External_camera_ID", "nocertainty");
 REF_TO_FLAG_STRING.put("Buttons/Supplementary/External_camera_file_names_and_attachment", "nocertainty");
@@ -1730,30 +1742,30 @@ REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/General/Landform_element", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Type", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Glass_type", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Bottle_part", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Glass_Colour", "");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Glass_colour", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Completeness", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Max_Length_mm", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Max_Width_mm", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Max_Thickness_mm", "");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Max_length_mm", "");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Max_width_mm", "");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Max_thickness_mm", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Weight_g", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Burned", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Patination", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Additional_Notes", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Start_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/End_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Webview_Glass_Core_Details", "nolabel");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Additional_notes", "");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Start_date", "noannotation");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/End_date", "noannotation");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Webview_glass_core_details", "nolabel");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Scar_count", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Largest_Scar_Length_mm", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Largest_Scar_Width_mm", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Core_Type", "");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Largest_scar_length_mm", "");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Largest_scar_width_mm", "");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Core_type", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Original_base_diameter", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Webview_Flake_Details", "nolabel");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Webview_flake_details", "nolabel");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Platform_type", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Platform_depth_mm", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Platform_width_mm", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Distal_termination", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Cortex_percent", "");
-REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Dorsal_Scar_Count", "");
+REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Dorsal_scar_count", "");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Conjoin", "noannotation");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Refit", "noannotation");
 REF_TO_FLAG_STRING.put("Knapped_Glass_Artefact/Feature_details/Edge_damage", "");
@@ -1780,25 +1792,25 @@ REF_TO_FLAG_STRING.put("Metal_Artefact/General/Find_This_in_The_Map", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/General/Device_photos", "nocertainty");
 REF_TO_FLAG_STRING.put("Metal_Artefact/General/Device_photos_Button_1", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/General/Landform_element", "");
-REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Metal_Type", "");
-REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Metal_Completeness", "");
-REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Object_Type", "");
+REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Metal_type", "");
+REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Metal_completeness", "");
+REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Object_type", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Length_mm", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Width_mm", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Thickness_mm", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Weight_g", "");
-REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Maker_s_Marks_or_Trademarks", "noannotation");
+REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Maker_s_marks_or_trademarks", "noannotation");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Modification_or_re_use", "noannotation");
-REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Start_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/End_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Additional_Notes", "noannotation");
+REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Start_date", "noannotation");
+REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/End_date", "noannotation");
+REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Additional_notes", "noannotation");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/References", "noannotation");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Nails_or_structural_fasteners_only", "nolabel");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Form", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Head_shape", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Shaft_shape", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Manufacture_method", "");
-REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Size_Class", "");
+REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Size_class", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Features", "");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Buckles_only", "nolabel");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Feature_details/Frame_type", "");
@@ -1816,7 +1828,7 @@ REF_TO_FLAG_STRING.put("Metal_Artefact/Supplementary/Survey_instrument_point_cod
 REF_TO_FLAG_STRING.put("Metal_Artefact/Supplementary/Related_site_name", "noannotation");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Supplementary/Sample_context", "noannotation");
 REF_TO_FLAG_STRING.put("Metal_Artefact/Supplementary/Other_contextual_details", "noannotation");
-REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition", "autonum nocertainty id");
+REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition_ID", "autonum nocertainty id");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition_author", "readonly nocertainty");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition_timestamp", "readonly noannotation nocertainty");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/General/Latitude", "readonly notnull");
@@ -1840,16 +1852,16 @@ REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Weight_grains_1_g
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Gun_part", "");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Crown_or_head_stamps", "noannotation");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Other_trademarks", "noannotation");
-REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Start_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/End_Date", "noannotation");
-REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Additional_Notes", "noannotation");
+REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Start_date", "noannotation");
+REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/End_date", "noannotation");
+REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Additional_notes", "noannotation");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/References", "noannotation");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Projectile_details", "nolabel");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Projectile_type", "");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Deformation", "");
-REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Rifling_Grooves", "");
+REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Rifling_grooves", "");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Mould_seams_sprue_marks", "");
-REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Number_of_Grooves", "");
+REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Number_of_grooves", "");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Cartridge_details", "nolabel");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Base", "");
 REF_TO_FLAG_STRING.put("Weapons_and_Ammunition/Feature_details/Body", "");
@@ -2031,7 +2043,7 @@ List getStartingIdRefs() {
   l.add("Control/Autonumbering/Next_Buttons_ID");
   l.add("Control/Autonumbering/Next_Knapped_Glass_Artefact_ID");
   l.add("Control/Autonumbering/Next_Metal_Artefact_ID");
-  l.add("Control/Autonumbering/Next_Weapons_and_Ammunition");
+  l.add("Control/Autonumbering/Next_Weapons_and_Ammunition_ID");
   return l;
 }
 
@@ -5691,7 +5703,7 @@ void newWeaponsandAmmunition(String parent){
     parentTabgroup   = parent;
     parentTabgroup__ = parent;
   }
-  if (isNull("Control/Autonumbering/Next_Weapons_and_Ammunition")) {
+  if (isNull("Control/Autonumbering/Next_Weapons_and_Ammunition_ID")) {
     showWarning("{Alert}", "{A_next_ID_has_not_been_entered_please_provide_one}");
     return;
   }
@@ -5700,7 +5712,7 @@ void newWeaponsandAmmunition(String parent){
   newTabGroup(tabgroup);
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
-  incAutoNum("Weapons_and_Ammunition/General/Weapons_and_Ammunition");
+  incAutoNum("Weapons_and_Ammunition/General/Weapons_and_Ammunition_ID");
 
   executeOnEvent(tabgroup, "create");
 }
@@ -6154,7 +6166,7 @@ void duplicateWeaponsandAmmunition(){
   String uuidOld = getUuid(tabgroup);
   setUuid(tabgroup, "");
   disableAutoSave(tabgroup);
-  incAutoNum("Weapons_and_Ammunition/General/Weapons_and_Ammunition");
+  incAutoNum("Weapons_and_Ammunition/General/Weapons_and_Ammunition_ID");
   clearGpsInTabGroup(tabgroup);
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
@@ -6614,7 +6626,7 @@ AUTONUM_DEST_TO_SOURCE.put("Discrete_Hearth_Artefact/General/Discrete_Hearth_Art
 AUTONUM_DEST_TO_SOURCE.put("Buttons/General/Buttons_ID", "Control/Autonumbering/Next_Buttons_ID");
 AUTONUM_DEST_TO_SOURCE.put("Knapped_Glass_Artefact/General/Knapped_Glass_Artefact_ID", "Control/Autonumbering/Next_Knapped_Glass_Artefact_ID");
 AUTONUM_DEST_TO_SOURCE.put("Metal_Artefact/General/Metal_Artefact_ID", "Control/Autonumbering/Next_Metal_Artefact_ID");
-AUTONUM_DEST_TO_SOURCE.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition", "Control/Autonumbering/Next_Weapons_and_Ammunition");
+AUTONUM_DEST_TO_SOURCE.put("Weapons_and_Ammunition/General/Weapons_and_Ammunition_ID", "Control/Autonumbering/Next_Weapons_and_Ammunition_ID");
 
 /*
  * If value of field specified by `ref` is null, sets the field to `defaultVal`,
@@ -6686,10 +6698,10 @@ void incAutoNum(String destPath) {
 /******************************************************************************/
 /*                         POPULATION VIA <MARKDOWN>                          */
 /******************************************************************************/
-populateWebViewHtml("Glass_Artefact/Feature_details/Grouped_Fragments_Only", "<h2 id=\"grouped-fragments-only\">Grouped Fragments Only</h2>\n");
-populateWebViewHtml("Ceramic_Artefact/Feature_details/Grouped_Fragments_Only", "<h2 id=\"grouped-fragments-only\">Grouped Fragments Only</h2>\n");
-populateWebViewHtml("Knapped_Glass_Artefact/Feature_details/Webview_Glass_Core_Details", "<h2 id=\"glass-core-details-complete-only-for-cores\">Glass Core details (complete only for cores)</h2>\n");
-populateWebViewHtml("Knapped_Glass_Artefact/Feature_details/Webview_Flake_Details", "<h2 id=\"flake-details-complete-only-for-flakes\">Flake details (complete only for flakes)</h2>\n");
+populateWebViewHtml("Glass_Artefact/Feature_details/Grouped_fragments_only", "<h2 id=\"grouped-fragments-only\">Grouped Fragments Only</h2>\n");
+populateWebViewHtml("Ceramic_Artefact/Feature_details/Grouped_fragments_only", "<h2 id=\"grouped-fragments-only\">Grouped Fragments Only</h2>\n");
+populateWebViewHtml("Knapped_Glass_Artefact/Feature_details/Webview_glass_core_details", "<h2 id=\"glass-core-details-complete-only-for-cores\">Glass Core details (complete only for cores)</h2>\n");
+populateWebViewHtml("Knapped_Glass_Artefact/Feature_details/Webview_flake_details", "<h2 id=\"flake-details-complete-only-for-flakes\">Flake details (complete only for flakes)</h2>\n");
 populateWebViewHtml("Metal_Artefact/Feature_details/Nails_or_structural_fasteners_only", "<h2 id=\"nails-or-structural-fasteners-only\">Nails or structural fasteners only</h2>\n");
 populateWebViewHtml("Metal_Artefact/Feature_details/Buckles_only", "<h1 id=\"buckles-only\">Buckles only</h1>\n");
 populateWebViewHtml("Weapons_and_Ammunition/Feature_details/Projectile_details", "<h2 id=\"projectile-details\">Projectile details</h2>\n");
@@ -6843,8 +6855,10 @@ for (m : ENTITY_MENUS) {
 
 setSyncEnabled(true);
 startInternalGPS();
-
 /************************************ MAP *************************************/
+
+final List REFS_FIND_THIS_IN_THE_MAP =
+  getRefsMatching("*/Find_This_in_The_Map");
 
 void initMap() {
 
@@ -6991,16 +7005,31 @@ onLoad() {
 // addBoundaryDatabaseLayer("Historical Feature Boundary Point", "Historical Feature Boundary point", "#ff9900"); //lowercase P is critical. 
 // addDatabaseLayer("Burial", "Burial", "#ff0000");
 // addBoundaryDatabaseLayer("Burial Boundary Point", "Burial Boundary point", "#ff0000"); //lowercase P is critical. 
-addDatabaseLayer("POI", "Other Point of Interest", "#ff00ff");
-addBoundaryDatabaseLayer("Other Point of Interest Boundary Point", "Other Point of Interest Boundary point", "#ff00ff"); //lowercase P is critical. 
-// addDatabaseLayer("Tree", "Tree", "#00ff00");
-addDatabaseLayer("Flaked Stone Artefact", "Flaked Stone Artefact", "#000000");
-addDatabaseLayer("Other Stone Artefact", "Other Stone Artefact", "#000000");
-addDatabaseLayer("Discrete Hearth Artefact", "Discrete Hearth Artefact", "#000000");
-addDatabaseLayer("Glass Artefact", "Glass Artefact", "#ffff00");
-addDatabaseLayer("Ceramic Artefact", "Ceramic Artefact", "#ffff00");
-addDatabaseLayer("Misc Artefact", "Misc Artefact", "#ffff00");
 
+
+
+
+
+
+
+
+
+final List COLOURS = new ArrayList();
+
+COLOURS.add("#000000");
+COLOURS.add("#00ff00");
+COLOURS.add("#00ffff");
+COLOURS.add("#ff00ff");
+COLOURS.add("#ffff00");
+COLOURS.add("#ffffff");
+
+for (int i = 0; i < REFS_FIND_THIS_IN_THE_MAP.size(); i++) {
+  addDatabaseLayer(
+      getArchEntType(REFS_FIND_THIS_IN_THE_MAP.get(i)),
+      getArchEntType(REFS_FIND_THIS_IN_THE_MAP.get(i)),
+      COLOURS.get(i % COLOURS.size())
+  );
+}
 
 
 clickCallback() {
@@ -7104,25 +7133,6 @@ selectCallback() {
 /* Implements an extension to the search page which allows users to           */
 /* constrain their searches by user.                                          */
 /******************************************************************************/
-entityTypes = new ArrayList();
-entityTypes.add(new NameValuePair("{All}", ""));
-// entityTypes.add(new NameValuePair("{Surface_Exposure}", "Surface Exposure"));
-// entityTypes.add(new NameValuePair("{Tree}", "Tree"));
-// entityTypes.add(new NameValuePair("{Scar}", "Scar"));
-entityTypes.add(new NameValuePair("{Ceramic_Artefact}", "Ceramic Artefact"));
-entityTypes.add(new NameValuePair("{Discrete_Hearth_Artefact}", "Discrete Hearth Artefact"));
-entityTypes.add(new NameValuePair("{Flaked_Stone_Artefact}", "Flaked Stone Artefact"));
-entityTypes.add(new NameValuePair("{Glass_Artefact}", "Glass Artefact"));
-entityTypes.add(new NameValuePair("{Misc_Artefact}", "Misc Artefact"));
-entityTypes.add(new NameValuePair("{Other_Stone_Artefact}", "Other Stone Artefact"));
-// entityTypes.add(new NameValuePair("{Burial_Boundary_point}", "Burial Boundary point"));
-// entityTypes.add(new NameValuePair("{Historical_Feature_Boundary_point}", "Historical Feature Boundary point"));
-// entityTypes.add(new NameValuePair("{Mound_Boundary_point}", "Mound Boundary point"));
-// entityTypes.add(new NameValuePair("{Rock_Shelter_Boundary_point}", "Rock Shelter Boundary point"));
-// entityTypes.add(new NameValuePair("{Surface_Exposure_Boundary_point}", "Surface Exposure Boundary point"));
-
-
-
 populateDropDown("Control/Search/Entity_Types", entityTypes);
 
 delOnEvent("Control/Search", "show", "search()");
@@ -7363,24 +7373,8 @@ void deleteChildren(String last_deleted){
   }
 }
 
-// addOnEvent("Burial/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Burial_Boundary_point/Burial_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Ceramic_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Discrete_Hearth_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Flaked_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Glass_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Historical_Feature/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Misc_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Mound/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Mound_Boundary_point/Mound_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Other_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Rock_Shelter/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Surface_Exposure/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
-// addOnEvent("Tree/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-
+for (String ref : getRefsMatching("*/Find_This_in_The_Map"))
+  addOnEvent(ref, "click", "findThisInTheMap()");
 
 boolean findThisInTheMap() {
   String EasStr = getFieldValue(CURRENTLY_DISPLAYED_TAB+"/Easting");
@@ -7427,13 +7421,8 @@ addOnEvent("Control/Autonumbering", "leave", "validateAutonumbering()");
 /* Detects if user leaves GPS tab without pushing take from gps          */
 /*************************************************************************/
 
-addOnEvent("Flaked_Stone_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Other_Stone_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Glass_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Ceramic_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Misc_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Discrete_Hearth_Artefact/General", "leave", "validateTabGps()");
-
+for (String ref : getRefsMatching("*/General/Find_This_in_The_Map"))
+  addOnEvent(getTabRef(ref), "leave", "validateTabGps()");
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();
@@ -7445,8 +7434,6 @@ void validateTabGps(){
 	}
 
 } 
-
-
 
 
 /******************************************************************************/

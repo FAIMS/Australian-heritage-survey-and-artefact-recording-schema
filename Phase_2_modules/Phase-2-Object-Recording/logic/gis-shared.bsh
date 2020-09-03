@@ -1,5 +1,8 @@
 /************************************ MAP *************************************/
 
+final List REFS_FIND_THIS_IN_THE_MAP =
+  getRefsMatching("*/Find_This_in_The_Map");
+
 void initMap() {
 
   setMapZoom(MAP_REF, 15.0f);
@@ -145,16 +148,31 @@ onLoad() {
 // addBoundaryDatabaseLayer("Historical Feature Boundary Point", "Historical Feature Boundary point", "#ff9900"); //lowercase P is critical. 
 // addDatabaseLayer("Burial", "Burial", "#ff0000");
 // addBoundaryDatabaseLayer("Burial Boundary Point", "Burial Boundary point", "#ff0000"); //lowercase P is critical. 
-addDatabaseLayer("POI", "Other Point of Interest", "#ff00ff");
-addBoundaryDatabaseLayer("Other Point of Interest Boundary Point", "Other Point of Interest Boundary point", "#ff00ff"); //lowercase P is critical. 
-// addDatabaseLayer("Tree", "Tree", "#00ff00");
-addDatabaseLayer("Flaked Stone Artefact", "Flaked Stone Artefact", "#000000");
-addDatabaseLayer("Other Stone Artefact", "Other Stone Artefact", "#000000");
-addDatabaseLayer("Discrete Hearth Artefact", "Discrete Hearth Artefact", "#000000");
-addDatabaseLayer("Glass Artefact", "Glass Artefact", "#ffff00");
-addDatabaseLayer("Ceramic Artefact", "Ceramic Artefact", "#ffff00");
-addDatabaseLayer("Misc Artefact", "Misc Artefact", "#ffff00");
 
+
+
+
+
+
+
+
+
+final List COLOURS = new ArrayList();
+
+COLOURS.add("#000000");
+COLOURS.add("#00ff00");
+COLOURS.add("#00ffff");
+COLOURS.add("#ff00ff");
+COLOURS.add("#ffff00");
+COLOURS.add("#ffffff");
+
+for (int i = 0; i < REFS_FIND_THIS_IN_THE_MAP.size(); i++) {
+  addDatabaseLayer(
+      getArchEntType(REFS_FIND_THIS_IN_THE_MAP.get(i)),
+      getArchEntType(REFS_FIND_THIS_IN_THE_MAP.get(i)),
+      COLOURS.get(i % COLOURS.size())
+  );
+}
 
 
 clickCallback() {

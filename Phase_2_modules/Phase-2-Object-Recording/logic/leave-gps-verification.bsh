@@ -2,13 +2,8 @@
 /* Detects if user leaves GPS tab without pushing take from gps          */
 /*************************************************************************/
 
-addOnEvent("Flaked_Stone_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Other_Stone_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Glass_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Ceramic_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Misc_Artefact/General", "leave", "validateTabGps()");
-addOnEvent("Discrete_Hearth_Artefact/General", "leave", "validateTabGps()");
-
+for (String ref : getRefsMatching("*/General/Find_This_in_The_Map"))
+  addOnEvent(getTabRef(ref), "leave", "validateTabGps()");
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();
@@ -20,5 +15,3 @@ void validateTabGps(){
 	}
 
 } 
-
-

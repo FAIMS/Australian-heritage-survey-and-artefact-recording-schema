@@ -397,18 +397,18 @@
     <Group_notes f="nocertainty noannotation">
         <desc>Record any additional notes relating to the grouped fragments</desc>
     </Group_notes>
-    <Portion_or_Component>
+    <Portion_or_component>
         <desc>Record fragment location for artefact being catalogued</desc>
         <!--@SOURCE: ../../vocab/glass_frag_loc.xml-->
-    </Portion_or_Component>
-    <Object_Type>
+    </Portion_or_component>
+    <Object_type>
         <desc>Select type of original vessel</desc>
         <!--@SOURCE: ../../vocab/glass_vessel.xml-->
-    </Object_Type>
-    <Tableware_Type t="checkbox">
+    </Object_type>
+    <Tableware_type t="checkbox">
       <desc>Select all that apply</desc>
       <!--@SOURCE: ../../vocab/glass_tableware_type.xml-->
-    </Tableware_Type>
+    </Tableware_type>
     <Length_mm b="decimal">
         <desc>Maximum fragment length, mm</desc>
     </Length_mm>
@@ -418,20 +418,20 @@
     <Thickness_mm b="decimal">
         <desc>Maximum fragment thickness, mm</desc>
     </Thickness_mm>
-    <Horizontal_Shape>
+    <Horizontal_shape>
         <desc>For body sherds only, record horizontal shape</desc>
         <!--@SOURCE: ../../vocab/glass_bodysherd.xml-->
-    </Horizontal_Shape>
-    <Probable_Contents t="checkbox">
+    </Horizontal_shape>
+    <Probable_contents t="checkbox">
       <desc>Select all that apply</desc>
       <!--@SOURCE: ../../vocab/glass_probcont.xml-->
-    </Probable_Contents>
-    <Shoulder_Width_mm b="decimal">
+    </Probable_contents>
+    <Shoulder_width_mm b="decimal">
       Shoulder Width (mm)
-    </Shoulder_Width_mm>
-    <Complete_Height_mm b="decimal">
+    </Shoulder_width_mm>
+    <Complete_height_mm b="decimal">
       Complete Height (mm)
-    </Complete_Height_mm>
+    </Complete_height_mm>
     <Number_of_mould_seams b="integer">
         <desc>Count of mould seams present</desc>
     </Number_of_mould_seams>
@@ -477,15 +477,15 @@
     <Marks_motifs_and_decoration f="nocertainty noannotation">
         <desc>Transcribe any text, motifs or decoration and, if possible, photograph above</desc>
     </Marks_motifs_and_decoration>
-    <Start_Date f="noannotation"/>
-    <End_Date   f="noannotation"/>
-    <Conjoin_Information f="noannotation"/>
+    <Start_date f="noannotation"/>
+    <End_date   f="noannotation"/>
+    <Conjoin_information f="noannotation"/>
     <References f="noannotation"/>
-    <Grouped_Fragments_Only t="webview" f="nolabel">
+    <Grouped_fragments_only t="webview" f="nolabel">
       <markdown>
 ## Grouped Fragments Only
       </markdown>
-    </Grouped_Fragments_Only>
+    </Grouped_fragments_only>
     <Grouped_fragment_count b="integer" f="noannotation"/>
     <Grouped_fragment_weight_g b="integer" f="noannotation"/>
     <Group_max_fragment_length_mm b="decimal" f="noannotation"/>
@@ -566,10 +566,10 @@
         <desc>Diagnostic artefacts are those that unambiguously indicative of a single original vessel (e.g. base) </desc>
         <!--@SOURCE: ../../vocab/yesno.xml-->
     </Diagnostic>
-    <Technological_Ware_Type>
+    <Technological_ware_type>
       <desc>Select general ware type</desc>
       <!--@SOURCE: ../../vocab/ceram_type.xml-->
-    </Technological_Ware_Type>
+    </Technological_ware_type>
     <Element>
         <desc>Select element type</desc>
         <!--@SOURCE: ../../vocab/ceram_element.xml-->
@@ -628,18 +628,18 @@
         <desc>If known, select the decorative pattern used</desc>
         <!--@SOURCE: ../../vocab/ceram_decorative.xml-->
     </Decorative_pattern_name>
-    <Maker_s_Marks_or_Trademarks f="noannotation">
+    <Maker_s_marks_or_trademarks f="noannotation">
       Maker's marks or Trademarks
-    </Maker_s_Marks_or_Trademarks>
-    <Start_Date f="noannotation"/>
-    <End_Date   f="noannotation"/>
-    <Conjoin_Information f="noannotation"/>
+    </Maker_s_marks_or_trademarks>
+    <Start_date f="noannotation"/>
+    <End_date   f="noannotation"/>
+    <Conjoin_information f="noannotation"/>
     <References f="noannotation"/>
-    <Grouped_Fragments_Only t="webview" f="nolabel">
+    <Grouped_fragments_only t="webview" f="nolabel">
       <markdown>
 ## Grouped Fragments Only
       </markdown>
-    </Grouped_Fragments_Only>
+    </Grouped_fragments_only>
     <Grouped_fragment_count b="integer" f="noannotation"/>
     <Grouped_fragment_weight_g b="integer" f="noannotation"/>
     <Group_max_fragment_length_mm b="decimal" f="noannotation"/>
@@ -736,11 +736,11 @@
     <Height_mm b="decimal">
         <desc>Height (if applicable) -- e.g posts</desc>
     </Height_mm>
-    <Maker_s_Marks_or_Trademarks f="noannotation">
+    <Maker_s_marks_or_trademarks f="noannotation">
       Maker's marks or Trademarks
-    </Maker_s_Marks_or_Trademarks>
-    <Start_Date f="noannotation"/>
-    <End_Date   f="noannotation"/>
+    </Maker_s_marks_or_trademarks>
+    <Start_date f="noannotation"/>
+    <End_date   f="noannotation"/>
     <Additional_notes f="nocertainty noannotation">
       <desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
       </desc>
@@ -905,18 +905,20 @@
     <Construction t="dropdown">
       <!--@SOURCE: ../../vocab/buttons_construct.xml-->
     </Construction>
-    <Shank_Type t="checkbox">
+    <Shank_type t="checkbox">
       <!--@SOURCE: ../../vocab/buttons_shanktype.xml-->
-    </Shank_Type>
-    <Sew_Through_type t="checkbox">
+    </Shank_type>
+    <Sew_through_type t="checkbox">
       <!--@SOURCE: ../../vocab/buttons_sewthrutype.xml-->
-    </Sew_Through_type>
-    <Number_of_Eyes b="decimal"/>
+    </Sew_through_type>
+    <Number_of_eyes b="decimal"/>
     <Motifs f="noannotation"/>
-    <Maker_s_Marks_or_Trademarks f="noannotation"/>
-    <Start_Date f="noannotation"/>
-    <End_Date   f="noannotation"/>
-    <Additional_Notes f="noannotation"/>
+    <Maker_s_marks_or_trademarks f="noannotation">
+      Maker's marks or Trademarks
+    </Maker_s_marks_or_trademarks>
+    <Start_date f="noannotation"/>
+    <End_date   f="noannotation"/>
+    <Additional_notes f="noannotation"/>
     <References f="noannotation"/>
   </Feature_details>
 
@@ -987,15 +989,15 @@
       <desc>What part of the bottle has been utilised (select all that apply)?</desc>
       <!--@SOURCE: ../../vocab/knappedglass_bottlepart.xml-->
     </Bottle_part>
-    <Glass_Colour t="dropdown">
+    <Glass_colour t="dropdown">
       <!--@SOURCE: ../../vocab/glass_colour.xml-->
-    </Glass_Colour>
+    </Glass_colour>
     <Completeness t="dropdown">
       <!--@SOURCE: ../../vocab/stoneartefact_flake_completeness.xml-->
     </Completeness>
-    <Max_Length_mm b="decimal"/>
-    <Max_Width_mm b="decimal"/>
-    <Max_Thickness_mm b="decimal"/>
+    <Max_length_mm b="decimal"/>
+    <Max_width_mm b="decimal"/>
+    <Max_thickness_mm b="decimal"/>
     <Weight_g b="decimal"/>
     <Burned t="dropdown">
       <desc>Note if artefact has been subject to extreme heat</desc>
@@ -1005,30 +1007,30 @@
       <desc>Note if artefact has been subject to patination, or chemical weathering residues on its surface</desc>
         <!--@SOURCE: ../../vocab/yesno.xml-->
     </Patination>
-    <Additional_Notes/>
-    <Start_Date f="noannotation"/>
-    <End_Date   f="noannotation"/>
-    <Webview_Glass_Core_Details t="webview" f="nolabel">
+    <Additional_notes/>
+    <Start_date f="noannotation"/>
+    <End_date   f="noannotation"/>
+    <Webview_glass_core_details t="webview" f="nolabel">
       <markdown>
 ## Glass Core details (complete only for cores)
       </markdown>
-    </Webview_Glass_Core_Details>
+    </Webview_glass_core_details>
     <Scar_count b="decimal">
       <desc>Record the total number of scars present on the core</desc>
     </Scar_count>
-    <Largest_Scar_Length_mm b="decimal"/>
-    <Largest_Scar_Width_mm b="decimal"/>
-    <Core_Type t="dropdown">
+    <Largest_scar_length_mm b="decimal"/>
+    <Largest_scar_width_mm b="decimal"/>
+    <Core_type t="dropdown">
       <!--@SOURCE: ../../vocab/stoneartefact_coretypes.xml-->
-    </Core_Type>
+    </Core_type>
     <Original_base_diameter b="decimal">
       <desc>Estimate or measure the base diameter, where possible. Use certainly slider if appropriate)</desc>
     </Original_base_diameter>
-    <Webview_Flake_Details t="webview" f="nolabel">
+    <Webview_flake_details t="webview" f="nolabel">
       <markdown>
 ## Flake details (complete only for flakes)
       </markdown>
-    </Webview_Flake_Details>
+    </Webview_flake_details>
     <Platform_type t="dropdown">
       <!--@SOURCE: ../../vocab/knappedglass_platform.xml-->
     </Platform_type>
@@ -1045,9 +1047,9 @@
       <desc>Estimate the percent of remaining cortex</desc>
       <!--@SOURCE: ../../vocab/general_percentages.xml-->
     </Cortex_percent>
-    <Dorsal_Scar_Count b="decimal">
+    <Dorsal_scar_count b="decimal">
       <desc>Record the number of flake scars on the dorsal surface of complete flakes</desc>
-    </Dorsal_Scar_Count>
+    </Dorsal_scar_count>
     <Conjoin f="noannotation">
       <desc>Note details if this can be conjoined back to an original core</desc>
     </Conjoin>
@@ -1116,32 +1118,32 @@
   </General>
 
   <Feature_details>
-    <Metal_Type t="checkbox">
+    <Metal_type t="checkbox">
       <!--@SOURCE: ../../vocab/metal_types.xml-->
-    </Metal_Type>
-    <Metal_Completeness t="dropdown">
+    </Metal_type>
+    <Metal_completeness t="dropdown">
       <opts>
         <opt>&gt;95% present</opt>
         <opt>51-95% present</opt>
         <opt>&lt;50% present</opt>
       </opts>
-    </Metal_Completeness>
-    <Object_Type t="dropdown">
+    </Metal_completeness>
+    <Object_type t="dropdown">
       <!--@SOURCE: ../../vocab/metal_objecttypes.xml-->
-    </Object_Type>
+    </Object_type>
     <Length_mm b="decimal"/>
     <Width_mm b="decimal"/>
     <Thickness_mm b="decimal"/>
     <Weight_g b="decimal"/>
-    <Maker_s_Marks_or_Trademarks f="noannotation">
-      Maker’s Marks or Trademarks
-    </Maker_s_Marks_or_Trademarks>
+    <Maker_s_marks_or_trademarks f="noannotation">
+      Maker's marks or Trademarks
+    </Maker_s_marks_or_trademarks>
     <Modification_or_re_use f="noannotation">
       Modification or re-use
     </Modification_or_re_use>
-    <Start_Date f="noannotation"/>
-    <End_Date   f="noannotation"/>
-    <Additional_Notes f="noannotation"/>
+    <Start_date f="noannotation"/>
+    <End_date   f="noannotation"/>
+    <Additional_notes f="noannotation"/>
     <References f="noannotation"/>
     <Nails_or_structural_fasteners_only t="webview" f="nolabel">
       <markdown>
@@ -1160,9 +1162,9 @@
     <Manufacture_method t="dropdown">
       <!--@SOURCE: ../../vocab/metal_nails_manufacture.xml-->
     </Manufacture_method>
-    <Size_Class t="dropdown">
+    <Size_class t="dropdown">
       <!--@SOURCE: ../../vocab/metal_nails_sizeclasses.xml-->
-    </Size_Class>
+    </Size_class>
     <Features t="checkbox">
       <!--@SOURCE: ../../vocab/metal_nails_features.xml-->
     </Features>
@@ -1231,9 +1233,9 @@
 
 
 <Weapons_and_Ammunition>
-  <fmt>WA{{Weapons_and_Ammunition}}</fmt>
+  <fmt>WA{{Weapons_and_Ammunition_ID}}</fmt>
   <General>
-    <Weapons_and_Ammunition f="autonum nocertainty"/>
+    <Weapons_and_Ammunition_ID f="autonum nocertainty"/>
     <author f="nocertainty"/>
     <timestamp f="noannotation nocertainty"/>
 
@@ -1276,9 +1278,9 @@
     </Gun_part>
     <Crown_or_head_stamps f="noannotation"/>
     <Other_trademarks f="noannotation"/>
-    <Start_Date f="noannotation"/>
-    <End_Date   f="noannotation"/>
-    <Additional_Notes f="noannotation"/>
+    <Start_date f="noannotation"/>
+    <End_date   f="noannotation"/>
+    <Additional_notes f="noannotation"/>
     <References f="noannotation"/>
     <Projectile_details t="webview" f="nolabel">
       <markdown>
@@ -1296,14 +1298,14 @@
         <opt>Unknown</opt>
       </opts>
     </Deformation>
-    <Rifling_Grooves t="dropdown">
+    <Rifling_grooves t="dropdown">
       <opts>
         <opt>Yes</opt>
         <opt>No</opt>
         <opt>Not applicable</opt>
         <opt>Unknown</opt>
       </opts>
-    </Rifling_Grooves>
+    </Rifling_grooves>
     <Mould_seams_sprue_marks t="dropdown">
       Mould seams (sprue marks)
       <opts>
@@ -1313,7 +1315,7 @@
         <opt>Unknown</opt>
       </opts>
     </Mould_seams_sprue_marks>
-    <Number_of_Grooves b="decimal"/>
+    <Number_of_grooves b="decimal"/>
     <Cartridge_details t="webview" f="nolabel">
       <markdown>
 ## Cartridge details
