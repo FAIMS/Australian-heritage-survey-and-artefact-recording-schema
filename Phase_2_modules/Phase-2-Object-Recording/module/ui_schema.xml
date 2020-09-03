@@ -25,16 +25,16 @@
           </User_List>
           <Control>
             <Control>
-              <New_Flaked_Stone_Artefact/>
-              <New_Other_Stone_Artefact/>
-              <New_Knapped_Glass_Artefact/>
-              <New_Discrete_Hearth/>
-              <New_Glass_Artefact/>
-              <New_Ceramic_Artefact/>
-              <New_Buttons/>
-              <New_Metal_Artefact/>
-              <New_Weapons_and_Ammunition/>
-              <New_Misc_Artefact/>
+              <Flaked_Stone_Artefact/>
+              <Other_Stone_Artefact/>
+              <Knapped_Glass_Artefact/>
+              <Discrete_Hearth/>
+              <Glass_Artefact/>
+              <Ceramic_Artefact/>
+              <Buttons/>
+              <Metal_Artefact/>
+              <Weapons_and_Ammunition/>
+              <Misc_Artefact/>
               <GPS_diagnostics/>
             </Control>
             <Map>
@@ -149,7 +149,7 @@
               <Survey_job_name/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -217,7 +217,7 @@
               <Survey_job_name/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -304,7 +304,7 @@
               <Survey_job_name/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -382,7 +382,7 @@
               <Survey_job_name/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -437,7 +437,7 @@
               <Survey_job_name/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -488,7 +488,7 @@
               <Survey_job_name/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -547,7 +547,7 @@
               <Survey_job_name/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -622,7 +622,7 @@
               <External_camera_image_attachment_Button_1/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -693,7 +693,7 @@
               <External_camera_image_attachment_Button_1/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -762,7 +762,7 @@
               <External_camera_image_attachment_Button_1/>
               <Survey_instrument_name/>
               <Survey_instrument_point_codes/>
-              <Related_Site_Name/>
+              <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
             </Supplementary>
@@ -810,8 +810,6 @@
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Base_thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Kickup_depth_mm" type="decimal"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Finish_inner_bore_diameter_mm" type="decimal"/>
-      <bind nodeset="/faims/Glass_Artefact/Feature_details/Start_Date" type="date"/>
-      <bind nodeset="/faims/Glass_Artefact/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Grouped_fragment_count" type="integer"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Grouped_fragment_weight_g" type="integer"/>
       <bind nodeset="/faims/Glass_Artefact/Feature_details/Group_max_fragment_length_mm" type="decimal"/>
@@ -825,8 +823,6 @@
       <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Base_diameter_mm" type="decimal"/>
       <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Rim_diameter_mm" type="decimal"/>
-      <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Start_Date" type="date"/>
-      <bind nodeset="/faims/Ceramic_Artefact/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Grouped_fragment_count" type="integer"/>
       <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Grouped_fragment_weight_g" type="integer"/>
       <bind nodeset="/faims/Ceramic_Artefact/Feature_details/Group_max_fragment_length_mm" type="decimal"/>
@@ -839,19 +835,13 @@
       <bind nodeset="/faims/Misc_Artefact/Feature_details/Width_mm" type="decimal"/>
       <bind nodeset="/faims/Misc_Artefact/Feature_details/Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Misc_Artefact/Feature_details/Height_mm" type="decimal"/>
-      <bind nodeset="/faims/Misc_Artefact/Feature_details/Start_Date" type="date"/>
-      <bind nodeset="/faims/Misc_Artefact/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Discrete_Hearth_Artefact/Feature_details/Diameter_mm" type="decimal"/>
       <bind nodeset="/faims/Buttons/Feature_details/Ligne_size_mm" type="decimal"/>
       <bind nodeset="/faims/Buttons/Feature_details/Number_of_Eyes" type="decimal"/>
-      <bind nodeset="/faims/Buttons/Feature_details/Start_Date" type="date"/>
-      <bind nodeset="/faims/Buttons/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_Length_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_Width_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Weight_g" type="decimal"/>
-      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Start_Date" type="date"/>
-      <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Scar_count" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Largest_Scar_Length_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Largest_Scar_Width_mm" type="decimal"/>
@@ -863,15 +853,11 @@
       <bind nodeset="/faims/Metal_Artefact/Feature_details/Width_mm" type="decimal"/>
       <bind nodeset="/faims/Metal_Artefact/Feature_details/Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Metal_Artefact/Feature_details/Weight_g" type="decimal"/>
-      <bind nodeset="/faims/Metal_Artefact/Feature_details/Start_Date" type="date"/>
-      <bind nodeset="/faims/Metal_Artefact/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Length_mm" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Width_mm" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Weight_g" type="decimal"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Weight_grains_1_gram_is_15_4324_grains" type="decimal"/>
-      <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Start_Date" type="date"/>
-      <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/End_Date" type="date"/>
       <bind nodeset="/faims/Weapons_and_Ammunition/Feature_details/Number_of_Grooves" type="decimal"/>
     </model>
   </h:head>
@@ -916,35 +902,35 @@
       <label>{Control}</label>
       <group ref="Control">
         <label>{Control}</label>
-        <trigger ref="New_Flaked_Stone_Artefact" faims_style_class="orange">
-          <label>{New_Flaked_Stone_Artefact}</label>
+        <trigger ref="Flaked_Stone_Artefact" faims_style_class="orange">
+          <label>{Flaked_Stone_Artefact}</label>
         </trigger>
-        <trigger ref="New_Other_Stone_Artefact" faims_style_class="orange">
-          <label>{New_Other_Stone_Artefact}</label>
+        <trigger ref="Other_Stone_Artefact" faims_style_class="orange">
+          <label>{Other_Stone_Artefact}</label>
         </trigger>
-        <trigger ref="New_Knapped_Glass_Artefact" faims_style_class="orange">
-          <label>{New_Knapped_Glass_Artefact}</label>
+        <trigger ref="Knapped_Glass_Artefact" faims_style_class="orange">
+          <label>{Knapped_Glass_Artefact}</label>
         </trigger>
-        <trigger ref="New_Discrete_Hearth" faims_style_class="orange">
-          <label>{New_Discrete_Hearth}</label>
+        <trigger ref="Discrete_Hearth" faims_style_class="orange">
+          <label>{Discrete_Hearth}</label>
         </trigger>
-        <trigger ref="New_Glass_Artefact" faims_style_class="blue">
-          <label>{New_Glass_Artefact}</label>
+        <trigger ref="Glass_Artefact" faims_style_class="blue">
+          <label>{Glass_Artefact}</label>
         </trigger>
-        <trigger ref="New_Ceramic_Artefact" faims_style_class="blue">
-          <label>{New_Ceramic_Artefact}</label>
+        <trigger ref="Ceramic_Artefact" faims_style_class="blue">
+          <label>{Ceramic_Artefact}</label>
         </trigger>
-        <trigger ref="New_Buttons" faims_style_class="blue">
-          <label>{New_Buttons}</label>
+        <trigger ref="Buttons" faims_style_class="blue">
+          <label>{Buttons}</label>
         </trigger>
-        <trigger ref="New_Metal_Artefact" faims_style_class="red">
-          <label>{New_Metal_Artefact}</label>
+        <trigger ref="Metal_Artefact" faims_style_class="red">
+          <label>{Metal_Artefact}</label>
         </trigger>
-        <trigger ref="New_Weapons_and_Ammunition" faims_style_class="red">
-          <label>{New_Weapons_and_Ammunition}</label>
+        <trigger ref="Weapons_and_Ammunition" faims_style_class="red">
+          <label>{Weapons_and_Ammunition}</label>
         </trigger>
-        <trigger ref="New_Misc_Artefact" faims_style_class="yellow">
-          <label>{New_Misc_Artefact}</label>
+        <trigger ref="Misc_Artefact" faims_style_class="yellow">
+          <label>{Misc_Artefact}</label>
         </trigger>
         <input faims_read_only="true" ref="GPS_diagnostics">
           <label>{GPS_diagnostics}</label>
@@ -960,13 +946,13 @@
           <group ref="Col_1" faims_style="even">
             <label/>
             <trigger ref="Center_Me_1">
-              <label>{Center_Me}</label>
+              <label>{Center_Me_1}</label>
             </trigger>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
             <trigger ref="Save_Map_Settings_1">
-              <label>{Save_Map_Settings}</label>
+              <label>{Save_Map_Settings_1}</label>
             </trigger>
           </group>
         </group>
@@ -994,7 +980,7 @@
           <group ref="Col_1" faims_style="large">
             <label/>
             <trigger ref="Search_Button">
-              <label>{Search}</label>
+              <label>{Search_Button}</label>
             </trigger>
           </group>
         </group>
@@ -1083,10 +1069,10 @@
           <label>{Flaked_Stone_Artefact_ID}</label>
         </input>
         <input faims_attribute_name="Flaked Stone Artefact author" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Flaked_Stone_Artefact_author}</label>
         </input>
         <input faims_attribute_name="Flaked Stone Artefact timestamp" faims_attribute_type="measure" ref="Flaked_Stone_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Flaked_Stone_Artefact_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -1125,10 +1111,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -1138,7 +1124,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -1161,7 +1147,7 @@
           <label>{Raw_material_colour}</label>
         </input>
         <input faims_attribute_name="Flaked Stone Artefact Weight g" faims_attribute_type="measure" ref="Weight_g" faims_certainty="false">
-          <label>{Weight__g_}</label>
+          <label>{Weight_g}</label>
         </input>
         <select1 faims_attribute_name="Flake completeness" faims_attribute_type="vocab" ref="Flake_completeness">
           <label>{Flake_completeness}</label>
@@ -1281,7 +1267,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <input faims_attribute_name="Survey job name" faims_attribute_type="measure" ref="Survey_job_name" faims_annotation="false">
           <label>{Survey_job_name}</label>
@@ -1296,8 +1282,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Flaked Stone Artefact Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>
@@ -1315,10 +1301,10 @@
           <label>{Other_Stone_Artefact_ID}</label>
         </input>
         <input faims_attribute_name="Other Stone Artefact author" faims_attribute_type="measure" ref="Other_Stone_Artefact_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Other_Stone_Artefact_author}</label>
         </input>
         <input faims_attribute_name="Other Stone Artefact timestamp" faims_attribute_type="measure" ref="Other_Stone_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Other_Stone_Artefact_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -1357,10 +1343,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -1370,7 +1356,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -1508,7 +1494,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <input faims_attribute_name="Survey job name" faims_attribute_type="measure" ref="Survey_job_name" faims_annotation="false">
           <label>{Survey_job_name}</label>
@@ -1523,8 +1509,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Other Stone Artefact Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>
@@ -1542,10 +1528,10 @@
           <label>{Glass_Artefact_ID}</label>
         </input>
         <input faims_attribute_name="Glass Artefact author" faims_attribute_type="measure" ref="Glass_Artefact_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Glass_Artefact_author}</label>
         </input>
         <input faims_attribute_name="Glass Artefact timestamp" faims_attribute_type="measure" ref="Glass_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Glass_Artefact_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -1584,10 +1570,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -1597,7 +1583,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -1685,10 +1671,10 @@
           </item>
         </select>
         <input faims_attribute_name="Shoulder Width mm" faims_attribute_type="measure" ref="Shoulder_Width_mm">
-          <label>{Shoulder_Width__mm_}</label>
+          <label>{Shoulder_Width_mm}</label>
         </input>
         <input faims_attribute_name="Complete Height mm" faims_attribute_type="measure" ref="Complete_Height_mm">
-          <label>{Complete_Height__mm_}</label>
+          <label>{Complete_Height_mm}</label>
         </input>
         <input faims_attribute_name="Number of mould seams" faims_attribute_type="measure" ref="Number_of_mould_seams">
           <label>{Number_of_mould_seams}</label>
@@ -1816,7 +1802,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <input faims_attribute_name="Survey job name" faims_attribute_type="measure" ref="Survey_job_name" faims_annotation="false">
           <label>{Survey_job_name}</label>
@@ -1831,8 +1817,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Glass Artefact Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>
@@ -1850,10 +1836,10 @@
           <label>{Ceramic_Artefact_ID}</label>
         </input>
         <input faims_attribute_name="Ceramic Artefact author" faims_attribute_type="measure" ref="Ceramic_Artefact_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Ceramic_Artefact_author}</label>
         </input>
         <input faims_attribute_name="Ceramic Artefact timestamp" faims_attribute_type="measure" ref="Ceramic_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Ceramic_Artefact_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -1892,10 +1878,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -1905,7 +1891,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -2016,7 +2002,7 @@
           </item>
         </select1>
         <input faims_attribute_name="Maker s Marks or Trademarks" faims_attribute_type="measure" ref="Maker_s_Marks_or_Trademarks" faims_annotation="false">
-          <label>{Maker_s_marks_or_Trademarks}</label>
+          <label>{Maker_s_Marks_or_Trademarks}</label>
         </input>
         <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
           <label>{Start_Date}</label>
@@ -2081,7 +2067,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <input faims_attribute_name="Survey job name" faims_attribute_type="measure" ref="Survey_job_name" faims_annotation="false">
           <label>{Survey_job_name}</label>
@@ -2096,8 +2082,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Ceramic Artefact Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>
@@ -2115,10 +2101,10 @@
           <label>{Misc_Artefact_ID}</label>
         </input>
         <input faims_attribute_name="Misc Artefact author" faims_attribute_type="measure" ref="Misc_Artefact_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Misc_Artefact_author}</label>
         </input>
         <input faims_attribute_name="Misc Artefact timestamp" faims_attribute_type="measure" ref="Misc_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Misc_Artefact_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -2157,10 +2143,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -2170,7 +2156,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -2205,7 +2191,7 @@
           <label>{Height_mm}</label>
         </input>
         <input faims_attribute_name="Maker s Marks or Trademarks" faims_attribute_type="measure" ref="Maker_s_Marks_or_Trademarks" faims_annotation="false">
-          <label>{Maker_s_marks_or_Trademarks}</label>
+          <label>{Maker_s_Marks_or_Trademarks}</label>
         </input>
         <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
           <label>{Start_Date}</label>
@@ -2237,7 +2223,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <input faims_attribute_name="Survey job name" faims_attribute_type="measure" ref="Survey_job_name" faims_annotation="false">
           <label>{Survey_job_name}</label>
@@ -2252,8 +2238,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Misc Artefact Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>
@@ -2271,10 +2257,10 @@
           <label>{Discrete_Hearth_Artefact_ID}</label>
         </input>
         <input faims_attribute_name="Discrete Hearth Artefact author" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Discrete_Hearth_Artefact_author}</label>
         </input>
         <input faims_attribute_name="Discrete Hearth Artefact timestamp" faims_attribute_type="measure" ref="Discrete_Hearth_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Discrete_Hearth_Artefact_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -2313,10 +2299,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -2326,7 +2312,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -2393,7 +2379,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <input faims_attribute_name="Survey job name" faims_attribute_type="measure" ref="Survey_job_name" faims_annotation="false">
           <label>{Survey_job_name}</label>
@@ -2408,8 +2394,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Discrete Hearth Artefact Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>
@@ -2427,10 +2413,10 @@
           <label>{Buttons_ID}</label>
         </input>
         <input faims_attribute_name="Buttons author" faims_attribute_type="measure" ref="Buttons_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Buttons_author}</label>
         </input>
         <input faims_attribute_name="Buttons timestamp" faims_attribute_type="measure" ref="Buttons_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Buttons_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -2469,10 +2455,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -2482,7 +2468,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -2548,10 +2534,10 @@
         <input faims_attribute_name="Maker s Marks or Trademarks" faims_attribute_type="measure" ref="Maker_s_Marks_or_Trademarks" faims_annotation="false">
           <label>{Maker_s_Marks_or_Trademarks}</label>
         </input>
-        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date">
+        <input faims_attribute_name="Start Date" faims_attribute_type="measure" ref="Start_Date" faims_annotation="false">
           <label>{Start_Date}</label>
         </input>
-        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date">
+        <input faims_attribute_name="End Date" faims_attribute_type="measure" ref="End_Date" faims_annotation="false">
           <label>{End_Date}</label>
         </input>
         <input faims_attribute_name="Additional Notes" faims_attribute_type="measure" ref="Additional_Notes" faims_annotation="false">
@@ -2581,7 +2567,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <input faims_attribute_name="Survey job name" faims_attribute_type="measure" ref="Survey_job_name" faims_annotation="false">
           <label>{Survey_job_name}</label>
@@ -2596,8 +2582,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Buttons Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>
@@ -2615,10 +2601,10 @@
           <label>{Knapped_Glass_Artefact_ID}</label>
         </input>
         <input faims_attribute_name="Knapped Glass Artefact author" faims_attribute_type="measure" ref="Knapped_Glass_Artefact_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Knapped_Glass_Artefact_author}</label>
         </input>
         <input faims_attribute_name="Knapped Glass Artefact timestamp" faims_attribute_type="measure" ref="Knapped_Glass_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Knapped_Glass_Artefact_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -2657,10 +2643,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -2670,7 +2656,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -2848,7 +2834,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
@@ -2860,8 +2846,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Knapped Glass Artefact Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>
@@ -2879,10 +2865,10 @@
           <label>{Metal_Artefact_ID}</label>
         </input>
         <input faims_attribute_name="Metal Artefact author" faims_attribute_type="measure" ref="Metal_Artefact_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Metal_Artefact_author}</label>
         </input>
         <input faims_attribute_name="Metal Artefact timestamp" faims_attribute_type="measure" ref="Metal_Artefact_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Metal_Artefact_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -2921,10 +2907,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -2934,7 +2920,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -3108,7 +3094,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
@@ -3120,8 +3106,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Metal Artefact Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>
@@ -3139,10 +3125,10 @@
           <label>{Weapons_and_Ammunition}</label>
         </input>
         <input faims_attribute_name="Weapons and Ammunition author" faims_attribute_type="measure" ref="Weapons_and_Ammunition_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Weapons_and_Ammunition_author}</label>
         </input>
         <input faims_attribute_name="Weapons and Ammunition timestamp" faims_attribute_type="measure" ref="Weapons_and_Ammunition_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Weapons_and_Ammunition_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -3181,10 +3167,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
         <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+          <label>{Find_This_in_The_Map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -3194,7 +3180,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Landform element" faims_attribute_type="vocab" ref="Landform_element">
           <label>{Landform_element}</label>
@@ -3240,7 +3226,7 @@
           <label>{Weight_g}</label>
         </input>
         <input faims_attribute_name="Weight grains 1 gram is 15 4324 grains" faims_attribute_type="measure" ref="Weight_grains_1_gram_is_15_4324_grains">
-          <label>{Weight__grains_1_gram_is_15_4324_grains_}</label>
+          <label>{Weight_grains_1_gram_is_15_4324_grains}</label>
         </input>
         <select1 faims_attribute_name="Gun part" faims_attribute_type="vocab" ref="Gun_part">
           <label>{Gun_part}</label>
@@ -3292,7 +3278,7 @@
           </item>
         </select1>
         <select1 faims_attribute_name="Mould seams sprue marks" faims_attribute_type="vocab" ref="Mould_seams_sprue_marks">
-          <label>{Mould_seams__sprue_marks_}</label>
+          <label>{Mould_seams_sprue_marks}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -3346,7 +3332,7 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
           <label>{Survey_instrument_name}</label>
@@ -3358,8 +3344,8 @@
         <input faims_attribute_name="Survey instrument point codes" faims_attribute_type="measure" ref="Survey_instrument_point_codes">
           <label>{Survey_instrument_point_codes}</label>
         </input>
-        <input faims_attribute_name="Weapons and Ammunition Related Site Name" faims_attribute_type="measure" ref="Related_Site_Name" faims_annotation="false">
-          <label>{Related_Site_Name}</label>
+        <input faims_attribute_name="Related site name" faims_attribute_type="measure" ref="Related_site_name" faims_annotation="false">
+          <label>{Related_site_name}</label>
         </input>
         <input faims_attribute_name="Sample context" faims_attribute_type="measure" ref="Sample_context" faims_annotation="false">
           <label>{Sample_context}</label>

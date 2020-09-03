@@ -18,19 +18,19 @@
     Underneath: GPS diagnostics (as specified above)
      -->
 
-    <New_Flaked_Stone_Artefact  t="button" c="orange" l="Flaked_Stone_Artefact"/>
-    <New_Other_Stone_Artefact   t="button" c="orange" l="Other_Stone_Artefact"/>
-    <New_Knapped_Glass_Artefact t="button" c="orange" l="Knapped_Glass_Artefact"/>
-    <New_Discrete_Hearth        t="button" c="orange" l="Discrete_Hearth_Artefact"/>
+    <Flaked_Stone_Artefact  t="button" c="orange" l="Flaked_Stone_Artefact"/>
+    <Other_Stone_Artefact   t="button" c="orange" l="Other_Stone_Artefact"/>
+    <Knapped_Glass_Artefact t="button" c="orange" l="Knapped_Glass_Artefact"/>
+    <Discrete_Hearth        t="button" c="orange" l="Discrete_Hearth_Artefact"/>
 
-    <New_Glass_Artefact   t="button" c="blue" l="Glass_Artefact"/>
-    <New_Ceramic_Artefact t="button" c="blue" l="Ceramic_Artefact"/>
-    <New_Buttons          t="button" c="blue" l="Buttons"/>
+    <Glass_Artefact   t="button" c="blue" l="Glass_Artefact"/>
+    <Ceramic_Artefact t="button" c="blue" l="Ceramic_Artefact"/>
+    <Buttons          t="button" c="blue" l="Buttons"/>
 
-    <New_Metal_Artefact         t="button" c="red" l="Metal_Artefact"/>
-    <New_Weapons_and_Ammunition t="button" c="red" l="Weapons_and_Ammunition"/>
+    <Metal_Artefact         t="button" c="red" l="Metal_Artefact"/>
+    <Weapons_and_Ammunition t="button" c="red" l="Weapons_and_Ammunition"/>
 
-    <New_Misc_Artefact t="button" c="yellow" l="Misc_Artefact"/>
+    <Misc_Artefact t="button" c="yellow" l="Misc_Artefact"/>
 
     <GPS_diagnostics t="gpsdiag"/>
   </Control>
@@ -188,9 +188,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
+    <Related_site_name f="noannotation">
       <desc>If this is associated with a specific site, please note site name or code here</desc>
-    </Related_Site_Name>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>
@@ -336,9 +336,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
+    <Related_site_name f="noannotation">
       <desc>If this is associated with a specific site, please note site name or code here</desc>
-    </Related_Site_Name>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>
@@ -387,7 +387,7 @@
         <!--@SOURCE: ../../vocab/glass_colour.xml-->
     </Colour>
     <Completeness>
-        <desc>Info Box text ‘for single glass artefacts, record completeness in relation to the original glass vessel’</desc>
+        <desc>For single glass artefacts, record completeness in relation to the original glass vessel</desc>
         <!--@SOURCE: ../../vocab/glass_completeness.xml-->
     </Completeness>
     <Grouped_fragments>
@@ -477,8 +477,8 @@
     <Marks_motifs_and_decoration f="nocertainty noannotation">
         <desc>Transcribe any text, motifs or decoration and, if possible, photograph above</desc>
     </Marks_motifs_and_decoration>
-    <Start_Date b="date" f="noannotation"/>
-    <End_Date   b="date" f="noannotation"/>
+    <Start_Date f="noannotation"/>
+    <End_Date   f="noannotation"/>
     <Conjoin_Information f="noannotation"/>
     <References f="noannotation"/>
     <Grouped_Fragments_Only t="webview" f="nolabel">
@@ -519,9 +519,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
-      <desc>If this is associated with a specific site, please note site name or code here’</desc>
-    </Related_Site_Name>
+    <Related_site_name f="noannotation">
+      <desc>If this is associated with a specific site, please note site name or code here</desc>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>
@@ -631,8 +631,8 @@
     <Maker_s_Marks_or_Trademarks f="noannotation">
       Maker's marks or Trademarks
     </Maker_s_Marks_or_Trademarks>
-    <Start_Date b="date" f="noannotation"/>
-    <End_Date   b="date" f="noannotation"/>
+    <Start_Date f="noannotation"/>
+    <End_Date   f="noannotation"/>
     <Conjoin_Information f="noannotation"/>
     <References f="noannotation"/>
     <Grouped_Fragments_Only t="webview" f="nolabel">
@@ -674,9 +674,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
+    <Related_site_name f="noannotation">
       <desc>If this is associated with a specific site, please note site name or code here</desc>
-    </Related_Site_Name>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>
@@ -739,8 +739,8 @@
     <Maker_s_Marks_or_Trademarks f="noannotation">
       Maker's marks or Trademarks
     </Maker_s_Marks_or_Trademarks>
-    <Start_Date b="date" f="noannotation"/>
-    <End_Date   b="date" f="noannotation"/>
+    <Start_Date f="noannotation"/>
+    <End_Date   f="noannotation"/>
     <Additional_notes f="nocertainty noannotation">
       <desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
       </desc>
@@ -769,9 +769,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
+    <Related_site_name f="noannotation">
       <desc>If this is associated with a specific site, please note site name or code here</desc>
-    </Related_Site_Name>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>
@@ -858,9 +858,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
+    <Related_site_name f="noannotation">
       <desc>If this is associated with a specific site, please note site name or code here</desc>
-    </Related_Site_Name>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>
@@ -914,8 +914,8 @@
     <Number_of_Eyes b="decimal"/>
     <Motifs f="noannotation"/>
     <Maker_s_Marks_or_Trademarks f="noannotation"/>
-    <Start_Date b="date"/>
-    <End_Date b="date"/>
+    <Start_Date f="noannotation"/>
+    <End_Date   f="noannotation"/>
     <Additional_Notes f="noannotation"/>
     <References f="noannotation"/>
   </Feature_details>
@@ -942,9 +942,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
+    <Related_site_name f="noannotation">
       <desc>If this is associated with a specific site, please note site name or code here</desc>
-    </Related_Site_Name>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>
@@ -1006,8 +1006,8 @@
         <!--@SOURCE: ../../vocab/yesno.xml-->
     </Patination>
     <Additional_Notes/>
-    <Start_Date b="date" f="noannotation"/>
-    <End_Date   b="date" f="noannotation"/>
+    <Start_Date f="noannotation"/>
+    <End_Date   f="noannotation"/>
     <Webview_Glass_Core_Details t="webview" f="nolabel">
       <markdown>
 ## Glass Core details (complete only for cores)
@@ -1022,7 +1022,7 @@
       <!--@SOURCE: ../../vocab/stoneartefact_coretypes.xml-->
     </Core_Type>
     <Original_base_diameter b="decimal">
-      <desc>estimate or measure the base diameter, where possible. Use certainly slider if appropriate)</desc>
+      <desc>Estimate or measure the base diameter, where possible. Use certainly slider if appropriate)</desc>
     </Original_base_diameter>
     <Webview_Flake_Details t="webview" f="nolabel">
       <markdown>
@@ -1042,17 +1042,17 @@
       <!--@SOURCE: ../../vocab/stoneartefact_termination.xml-->
     </Distal_termination>
     <Cortex_percent t="dropdown">
-      <desc>estimate the percent of remaining cortex</desc>
+      <desc>Estimate the percent of remaining cortex</desc>
       <!--@SOURCE: ../../vocab/general_percentages.xml-->
     </Cortex_percent>
     <Dorsal_Scar_Count b="decimal">
       <desc>Record the number of flake scars on the dorsal surface of complete flakes</desc>
     </Dorsal_Scar_Count>
     <Conjoin f="noannotation">
-      <desc>note details if this can be conjoined back to an original core</desc>
+      <desc>Note details if this can be conjoined back to an original core</desc>
     </Conjoin>
     <Refit f="noannotation">
-      <desc>note details if this flake piece can be refitted to other flake pieces</desc>
+      <desc>Note details if this flake piece can be refitted to other flake pieces</desc>
     </Refit>
     <Edge_damage t="dropdown">
       <desc>Evidence of crushing or flaking on an edge, whether pre- or post-depositional</desc>
@@ -1082,9 +1082,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
+    <Related_site_name f="noannotation">
       <desc>If this is associated with a specific site, please note site name or code here</desc>
-    </Related_Site_Name>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>
@@ -1136,9 +1136,11 @@
     <Maker_s_Marks_or_Trademarks f="noannotation">
       Maker’s Marks or Trademarks
     </Maker_s_Marks_or_Trademarks>
-    <Modification_or_re_use f="noannotation"/>
-    <Start_Date b="date" f="noannotation"/>
-    <End_Date   b="date" f="noannotation"/>
+    <Modification_or_re_use f="noannotation">
+      Modification or re-use
+    </Modification_or_re_use>
+    <Start_Date f="noannotation"/>
+    <End_Date   f="noannotation"/>
     <Additional_Notes f="noannotation"/>
     <References f="noannotation"/>
     <Nails_or_structural_fasteners_only t="webview" f="nolabel">
@@ -1214,9 +1216,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
+    <Related_site_name f="noannotation">
       <desc>If this is associated with a specific site, please note site name or code here</desc>
-    </Related_Site_Name>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>
@@ -1267,15 +1269,15 @@
     <Thickness_mm b="decimal"/>
     <Weight_g b="decimal"/>
     <Weight_grains_1_gram_is_15_4324_grains b="decimal">
-      Weight (grains 1 gram is 15.4324 grains)
+      Weight (grains, 1 gram is 15.4324 grains)
     </Weight_grains_1_gram_is_15_4324_grains>
     <Gun_part t="dropdown">
       <!--@SOURCE: ../../vocab/weapons_gunpart.xml-->
     </Gun_part>
     <Crown_or_head_stamps f="noannotation"/>
     <Other_trademarks f="noannotation"/>
-    <Start_Date b="date" f="noannotation"/>
-    <End_Date   b="date" f="noannotation"/>
+    <Start_Date f="noannotation"/>
+    <End_Date   f="noannotation"/>
     <Additional_Notes f="noannotation"/>
     <References f="noannotation"/>
     <Projectile_details t="webview" f="nolabel">
@@ -1291,7 +1293,7 @@
         <opt>Yes</opt>
         <opt>No</opt>
         <opt>Not applicable</opt>
-        <opt>unknown</opt>
+        <opt>Unknown</opt>
       </opts>
     </Deformation>
     <Rifling_Grooves t="dropdown">
@@ -1299,7 +1301,7 @@
         <opt>Yes</opt>
         <opt>No</opt>
         <opt>Not applicable</opt>
-        <opt>unknown</opt>
+        <opt>Unknown</opt>
       </opts>
     </Rifling_Grooves>
     <Mould_seams_sprue_marks t="dropdown">
@@ -1308,7 +1310,7 @@
         <opt>Yes</opt>
         <opt>No</opt>
         <opt>Not applicable</opt>
-        <opt>unknown</opt>
+        <opt>Unknown</opt>
       </opts>
     </Mould_seams_sprue_marks>
     <Number_of_Grooves b="decimal"/>
@@ -1320,7 +1322,7 @@
     <Base t="dropdown">
       <opts>
         <opt>Flat</opt>
-        <opt>hollow</opt>
+        <opt>Hollow</opt>
       </opts>
     </Base>
     <Body t="dropdown">
@@ -1357,9 +1359,9 @@
     <Survey_instrument_point_codes>
         <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
     </Survey_instrument_point_codes>
-    <Related_Site_Name f="noannotation">
+    <Related_site_name f="noannotation">
       <desc>If this is associated with a specific site, please note site name or code here</desc>
-    </Related_Site_Name>
+    </Related_site_name>
     <Sample_context f="noannotation">
       <desc>If this is associated with a specific test pit or surface sampling program, please note details here, including trench, context and/or unit code, as appropriate.</desc>
     </Sample_context>

@@ -469,7 +469,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Flaked Stone Artefact Related Site Name" type="measure">
+    <property name="Related site name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -945,7 +945,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Other Stone Artefact Related Site Name" type="measure">
+    <property name="Related site name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -1157,7 +1157,7 @@
       </lookup>
     </property>
     <property name="Glass Artefact Completeness" type="vocab">
-      <description>Info Box text ‘for single glass artefacts, record completeness in relation to the original glass vessel’</description>
+      <description>For single glass artefacts, record completeness in relation to the original glass vessel</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -1670,8 +1670,8 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Glass Artefact Related Site Name" type="measure">
-      <description>If this is associated with a specific site, please note site name or code here’</description>
+    <property name="Related site name" type="measure">
+      <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -2292,7 +2292,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Ceramic Artefact Related Site Name" type="measure">
+    <property name="Related site name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -2607,7 +2607,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Misc Artefact Related Site Name" type="measure">
+    <property name="Related site name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -2926,7 +2926,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Discrete Hearth Artefact Related Site Name" type="measure">
+    <property name="Related site name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -3312,7 +3312,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Buttons Related Site Name" type="measure">
+    <property name="Related site name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -3664,7 +3664,7 @@
       </lookup>
     </property>
     <property name="Original base diameter" type="measure">
-      <description>estimate or measure the base diameter, where possible. Use certainly slider if appropriate)</description>
+      <description>Estimate or measure the base diameter, where possible. Use certainly slider if appropriate)</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -3717,7 +3717,7 @@
       </lookup>
     </property>
     <property name="Cortex percent" type="vocab">
-      <description>estimate the percent of remaining cortex</description>
+      <description>Estimate the percent of remaining cortex</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
@@ -3737,12 +3737,12 @@
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Conjoin" type="measure">
-      <description>note details if this can be conjoined back to an original core</description>
+      <description>Note details if this can be conjoined back to an original core</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Refit" type="measure">
-      <description>note details if this flake piece can be refitted to other flake pieces</description>
+      <description>Note details if this flake piece can be refitted to other flake pieces</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -3822,7 +3822,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Knapped Glass Artefact Related Site Name" type="measure">
+    <property name="Related site name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -4491,7 +4491,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Metal Artefact Related Site Name" type="measure">
+    <property name="Related site name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -4821,7 +4821,7 @@
 <description> </description></term>
         <term>{Not_applicable}
 <description> </description></term>
-        <term>{unknown}
+        <term>{Unknown}
 <description> </description></term>
       </lookup>
     </property>
@@ -4836,7 +4836,7 @@
 <description> </description></term>
         <term>{Not_applicable}
 <description> </description></term>
-        <term>{unknown}
+        <term>{Unknown}
 <description> </description></term>
       </lookup>
     </property>
@@ -4851,7 +4851,7 @@
 <description> </description></term>
         <term>{Not_applicable}
 <description> </description></term>
-        <term>{unknown}
+        <term>{Unknown}
 <description> </description></term>
       </lookup>
     </property>
@@ -4867,7 +4867,7 @@
       <lookup>
         <term>{Flat}
 <description> </description></term>
-        <term>{hollow}
+        <term>{Hollow}
 <description> </description></term>
       </lookup>
     </property>
@@ -4947,7 +4947,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Weapons and Ammunition Related Site Name" type="measure">
+    <property name="Related site name" type="measure">
       <description>If this is associated with a specific site, please note site name or code here</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
