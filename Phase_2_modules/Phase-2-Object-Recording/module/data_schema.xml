@@ -4,7 +4,7 @@
     <description></description>
     <property name="Flaked Stone Artefact ID" type="measure" isIdentifier="true">
       <description></description>
-      <formatString>FSA$2</formatString>
+      <formatString>FLSA$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Flaked Stone Artefact author" type="measure">
@@ -965,7 +965,7 @@
     <description></description>
     <property name="Glass Artefact ID" type="measure" isIdentifier="true">
       <description></description>
-      <formatString>GA$2</formatString>
+      <formatString>GL$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Glass Artefact author" type="measure">
@@ -1690,7 +1690,7 @@
     <description></description>
     <property name="Ceramic Artefact ID" type="measure" isIdentifier="true">
       <description></description>
-      <formatString>CA$2</formatString>
+      <formatString>CER$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Ceramic Artefact author" type="measure">
@@ -2312,7 +2312,7 @@
     <description></description>
     <property name="Misc Artefact ID" type="measure" isIdentifier="true">
       <description></description>
-      <formatString>MA$2</formatString>
+      <formatString>MISC$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Misc Artefact author" type="measure">
@@ -2946,7 +2946,7 @@
     <description></description>
     <property name="Buttons ID" type="measure" isIdentifier="true">
       <description></description>
-      <formatString>B$2</formatString>
+      <formatString>BT$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Buttons author" type="measure">
@@ -3332,7 +3332,7 @@
     <description></description>
     <property name="Knapped Glass Artefact ID" type="measure" isIdentifier="true">
       <description></description>
-      <formatString>KGA$2</formatString>
+      <formatString>KGL$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Knapped Glass Artefact author" type="measure">
@@ -3842,7 +3842,7 @@
     <description></description>
     <property name="Metal Artefact ID" type="measure" isIdentifier="true">
       <description></description>
-      <formatString>MeA$2</formatString>
+      <formatString>MET$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
     <property name="Metal Artefact author" type="measure">

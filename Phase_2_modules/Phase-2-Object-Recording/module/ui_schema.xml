@@ -902,34 +902,34 @@
       <label>{Control}</label>
       <group ref="Control">
         <label>{Control}</label>
-        <trigger ref="Flaked_Stone_Artefact" faims_style_class="orange">
+        <trigger ref="Flaked_Stone_Artefact" faims_style_class="Flaked_Stone_Artefact">
           <label>{Flaked_Stone_Artefact}</label>
         </trigger>
-        <trigger ref="Other_Stone_Artefact" faims_style_class="orange">
+        <trigger ref="Other_Stone_Artefact" faims_style_class="Other_Stone_Artefact">
           <label>{Other_Stone_Artefact}</label>
         </trigger>
-        <trigger ref="Knapped_Glass_Artefact" faims_style_class="orange">
+        <trigger ref="Knapped_Glass_Artefact" faims_style_class="Knapped_Glass_Artefact">
           <label>{Knapped_Glass_Artefact}</label>
         </trigger>
-        <trigger ref="Discrete_Hearth" faims_style_class="orange">
+        <trigger ref="Discrete_Hearth" faims_style_class="Discrete_Hearth_Artefact">
           <label>{Discrete_Hearth}</label>
         </trigger>
-        <trigger ref="Glass_Artefact" faims_style_class="blue">
+        <trigger ref="Glass_Artefact" faims_style_class="Glass_Artefact">
           <label>{Glass_Artefact}</label>
         </trigger>
-        <trigger ref="Ceramic_Artefact" faims_style_class="blue">
+        <trigger ref="Ceramic_Artefact" faims_style_class="Ceramic_Artefact">
           <label>{Ceramic_Artefact}</label>
         </trigger>
-        <trigger ref="Buttons" faims_style_class="blue">
+        <trigger ref="Buttons" faims_style_class="Buttons">
           <label>{Buttons}</label>
         </trigger>
-        <trigger ref="Metal_Artefact" faims_style_class="red">
+        <trigger ref="Metal_Artefact" faims_style_class="Metal_Artefact">
           <label>{Metal_Artefact}</label>
         </trigger>
-        <trigger ref="Weapons_and_Ammunition" faims_style_class="red">
+        <trigger ref="Weapons_and_Ammunition" faims_style_class="Weapons_and_Ammunition">
           <label>{Weapons_and_Ammunition}</label>
         </trigger>
-        <trigger ref="Misc_Artefact" faims_style_class="yellow">
+        <trigger ref="Misc_Artefact" faims_style_class="Misc_Artefact">
           <label>{Misc_Artefact}</label>
         </trigger>
         <input faims_read_only="true" ref="GPS_diagnostics">

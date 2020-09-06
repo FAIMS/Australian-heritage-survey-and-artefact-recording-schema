@@ -5,10 +5,17 @@
   color: red;
 }
 
-.orange { padding: 4px; margin: 4px; background-color: #f9cb9c; }
-.blue   { padding: 4px; margin: 4px; background-color: #6d9eeb; }
-.red    { padding: 4px; margin: 4px; background-color: #e06666; }
-.yellow { padding: 4px; margin: 4px; background-color: #ffd966; }
+.Flaked_Stone_Artefact    { padding: 4px; margin: 4px; background-color: #808A28; }
+.Other_Stone_Artefact     { padding: 4px; margin: 4px; background-color: #358A28; }
+.Knapped_Glass_Artefact   { padding: 4px; margin: 4px; background-color: #8A285E; }
+.Discrete_Hearth_Artefact { padding: 4px; margin: 4px; background-color: #8A4C28; }
+.Glass_Artefact           { padding: 4px; margin: 4px; background-color: #28868A; }
+.Ceramic_Artefact         { padding: 4px; margin: 4px; background-color: #2F47A1; }
+.Buttons                  { padding: 4px; margin: 4px; background-color: #8A2883; }
+.Metal_Artefact           { padding: 4px; margin: 4px; background-color: #8A283A; }
+.Weapons_and_Ammunition   { padding: 4px; margin: 4px; background-color: #FE8C4A; }
+.Misc_Artefact            { padding: 4px; margin: 4px; background-color: #35B89A; }
+
 
 .moundID {
   color: #B2B2B2;

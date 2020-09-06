@@ -7016,12 +7016,16 @@ onLoad() {
 
 final List COLOURS = new ArrayList();
 
-COLOURS.add("#000000");
-COLOURS.add("#00ff00");
-COLOURS.add("#00ffff");
-COLOURS.add("#ff00ff");
-COLOURS.add("#ffff00");
-COLOURS.add("#ffffff");
+COLOURS.add("#808A28");
+COLOURS.add("#358A28");
+COLOURS.add("#28868A");
+COLOURS.add("#2F47A1");
+COLOURS.add("#35B89A");
+COLOURS.add("#8A4C28");
+COLOURS.add("#8A2883");
+COLOURS.add("#8A285E");
+COLOURS.add("#8A283A");
+COLOURS.add("#FE8C4A");
 
 for (int i = 0; i < REFS_FIND_THIS_IN_THE_MAP.size(); i++) {
   addDatabaseLayer(

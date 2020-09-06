@@ -18,19 +18,19 @@
     Underneath: GPS diagnostics (as specified above)
      -->
 
-    <Flaked_Stone_Artefact  t="button" c="orange" l="Flaked_Stone_Artefact"/>
-    <Other_Stone_Artefact   t="button" c="orange" l="Other_Stone_Artefact"/>
-    <Knapped_Glass_Artefact t="button" c="orange" l="Knapped_Glass_Artefact"/>
-    <Discrete_Hearth        t="button" c="orange" l="Discrete_Hearth_Artefact"/>
+    <Flaked_Stone_Artefact  t="button" c="Flaked_Stone_Artefact"    l="Flaked_Stone_Artefact"/>
+    <Other_Stone_Artefact   t="button" c="Other_Stone_Artefact"     l="Other_Stone_Artefact"/>
+    <Knapped_Glass_Artefact t="button" c="Knapped_Glass_Artefact"   l="Knapped_Glass_Artefact"/>
+    <Discrete_Hearth        t="button" c="Discrete_Hearth_Artefact" l="Discrete_Hearth_Artefact"/>
 
-    <Glass_Artefact   t="button" c="blue" l="Glass_Artefact"/>
-    <Ceramic_Artefact t="button" c="blue" l="Ceramic_Artefact"/>
-    <Buttons          t="button" c="blue" l="Buttons"/>
+    <Glass_Artefact   t="button" c="Glass_Artefact"   l="Glass_Artefact"/>
+    <Ceramic_Artefact t="button" c="Ceramic_Artefact" l="Ceramic_Artefact"/>
+    <Buttons          t="button" c="Buttons"          l="Buttons"/>
 
-    <Metal_Artefact         t="button" c="red" l="Metal_Artefact"/>
-    <Weapons_and_Ammunition t="button" c="red" l="Weapons_and_Ammunition"/>
+    <Metal_Artefact         t="button" c="Metal_Artefact"         l="Metal_Artefact"/>
+    <Weapons_and_Ammunition t="button" c="Weapons_and_Ammunition" l="Weapons_and_Ammunition"/>
 
-    <Misc_Artefact t="button" c="yellow" l="Misc_Artefact"/>
+    <Misc_Artefact t="button" c="Misc_Artefact" l="Misc_Artefact"/>
 
     <GPS_diagnostics t="gpsdiag"/>
   </Control>
@@ -65,7 +65,7 @@
 
 
 <Flaked_Stone_Artefact>
-  <fmt>FSA{{Flaked_Stone_Artefact_ID}}</fmt>
+  <fmt>FLSA{{Flaked_Stone_Artefact_ID}}</fmt>
   <General>
     <Flaked_Stone_Artefact_ID f="id autonum nocertainty"/>
     <author f="nocertainty"/>
@@ -358,7 +358,7 @@
  ######   ######## ##     ##  ######   ######  #######  -->
 
 <Glass_Artefact>
-  <fmt>GA{{Glass_Artefact_ID}}</fmt>
+  <fmt>GL{{Glass_Artefact_ID}}</fmt>
   <General>
     <Glass_Artefact_ID f="id autonum nocertainty"/>
     <author f="nocertainty"/>
@@ -542,7 +542,7 @@
  ######  ######## ##     ## ##     ## ##     ## ####  ######  #######   -->
 
 <Ceramic_Artefact>
-  <fmt>CA{{Ceramic_Artefact_ID}}</fmt>
+  <fmt>CER{{Ceramic_Artefact_ID}}</fmt>
   <General>
     <Ceramic_Artefact_ID f="id autonum nocertainty"/>
     <author f="nocertainty"/>
@@ -697,7 +697,7 @@
  -->
 
 <Misc_Artefact>
-  <fmt>MA{{Misc_Artefact_ID}}</fmt>
+  <fmt>MISC{{Misc_Artefact_ID}}</fmt>
   <General>
     <Misc_Artefact_ID f="id autonum nocertainty"/>
     <author f="nocertainty"/>
@@ -872,7 +872,7 @@
 
 
 <Buttons>
-  <fmt>B{{Buttons_ID}}</fmt>
+  <fmt>BT{{Buttons_ID}}</fmt>
   <General>
     <Buttons_ID f="autonum nocertainty"/>
     <author f="nocertainty"/>
@@ -958,7 +958,7 @@
 
 
 <Knapped_Glass_Artefact>
-  <fmt>KGA{{Knapped_Glass_Artefact_ID}}</fmt>
+  <fmt>KGL{{Knapped_Glass_Artefact_ID}}</fmt>
   <General>
     <Knapped_Glass_Artefact_ID f="autonum nocertainty"/>
     <author f="nocertainty"/>
@@ -1098,7 +1098,7 @@
 
 
 <Metal_Artefact>
-  <fmt>MeA{{Metal_Artefact_ID}}</fmt>
+  <fmt>MET{{Metal_Artefact_ID}}</fmt>
   <General>
     <Metal_Artefact_ID f="autonum nocertainty"/>
     <author f="nocertainty"/>
@@ -1387,10 +1387,17 @@
 ]]></logic>
 
 <css><![CDATA[
-.orange { padding: 4px; margin: 4px; background-color: #f9cb9c; }
-.blue   { padding: 4px; margin: 4px; background-color: #6d9eeb; }
-.red    { padding: 4px; margin: 4px; background-color: #e06666; }
-.yellow { padding: 4px; margin: 4px; background-color: #ffd966; }
+.Flaked_Stone_Artefact    { padding: 4px; margin: 4px; background-color: #808A28; }
+.Other_Stone_Artefact     { padding: 4px; margin: 4px; background-color: #358A28; }
+.Knapped_Glass_Artefact   { padding: 4px; margin: 4px; background-color: #8A285E; }
+.Discrete_Hearth_Artefact { padding: 4px; margin: 4px; background-color: #8A4C28; }
+.Glass_Artefact           { padding: 4px; margin: 4px; background-color: #28868A; }
+.Ceramic_Artefact         { padding: 4px; margin: 4px; background-color: #2F47A1; }
+.Buttons                  { padding: 4px; margin: 4px; background-color: #8A2883; }
+.Metal_Artefact           { padding: 4px; margin: 4px; background-color: #8A283A; }
+.Weapons_and_Ammunition   { padding: 4px; margin: 4px; background-color: #FE8C4A; }
+.Misc_Artefact            { padding: 4px; margin: 4px; background-color: #35B89A; }
+
 ]]></css>
 
 </module>
