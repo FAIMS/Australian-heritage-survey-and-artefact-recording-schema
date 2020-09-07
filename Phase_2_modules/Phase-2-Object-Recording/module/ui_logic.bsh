@@ -1,5 +1,5 @@
 /*
- * GENERATED WITH FAIMS-TOOLS, SHA1: 4338da25c1e0ab384a34f1da434cd9e8c3613d1a
+ * GENERATED WITH FAIMS-TOOLS, SHA1: 0464ffa4896c3c209cd6552656235739c87ceee7
  */
 import android.util.Log;
 import android.os.Build.MODEL;
@@ -321,7 +321,7 @@ REF_TO_TYPE.put("User_List/User_List/User_List", "list");
 REF_TO_TYPE.put("Control/Control/Flaked_Stone_Artefact", "button");
 REF_TO_TYPE.put("Control/Control/Other_Stone_Artefact", "button");
 REF_TO_TYPE.put("Control/Control/Knapped_Glass_Artefact", "button");
-REF_TO_TYPE.put("Control/Control/Discrete_Hearth", "button");
+REF_TO_TYPE.put("Control/Control/Discrete_Hearth_Feature", "button");
 REF_TO_TYPE.put("Control/Control/Glass_Artefact", "button");
 REF_TO_TYPE.put("Control/Control/Ceramic_Artefact", "button");
 REF_TO_TYPE.put("Control/Control/Buttons", "button");
@@ -1389,7 +1389,7 @@ REF_TO_FLAG_STRING.put("User_List/User_List/User_List", "nolabel user");
 REF_TO_FLAG_STRING.put("Control/Control/Flaked_Stone_Artefact", "");
 REF_TO_FLAG_STRING.put("Control/Control/Other_Stone_Artefact", "");
 REF_TO_FLAG_STRING.put("Control/Control/Knapped_Glass_Artefact", "");
-REF_TO_FLAG_STRING.put("Control/Control/Discrete_Hearth", "");
+REF_TO_FLAG_STRING.put("Control/Control/Discrete_Hearth_Feature", "");
 REF_TO_FLAG_STRING.put("Control/Control/Glass_Artefact", "");
 REF_TO_FLAG_STRING.put("Control/Control/Ceramic_Artefact", "");
 REF_TO_FLAG_STRING.put("Control/Control/Buttons", "");
@@ -5009,7 +5009,7 @@ void onClickControlKnappedGlassArtefact () {
   newKnappedGlassArtefact();
 }
 
-void onClickControlDiscreteHearth () {
+void onClickControlDiscreteHearthFeature () {
   parentTabgroup__ = "Control";
   newDiscreteHearthArtefact();
 }
@@ -5055,7 +5055,7 @@ addOnEvent("User_List/User_List/User_List", "click", "onClickUserListUserList()"
 addOnEvent("Control/Control/Flaked_Stone_Artefact", "click", "onClickControlFlakedStoneArtefact()");
 addOnEvent("Control/Control/Other_Stone_Artefact", "click", "onClickControlOtherStoneArtefact()");
 addOnEvent("Control/Control/Knapped_Glass_Artefact", "click", "onClickControlKnappedGlassArtefact()");
-addOnEvent("Control/Control/Discrete_Hearth", "click", "onClickControlDiscreteHearth()");
+addOnEvent("Control/Control/Discrete_Hearth_Feature", "click", "onClickControlDiscreteHearthFeature()");
 addOnEvent("Control/Control/Glass_Artefact", "click", "onClickControlGlassArtefact()");
 addOnEvent("Control/Control/Ceramic_Artefact", "click", "onClickControlCeramicArtefact()");
 addOnEvent("Control/Control/Buttons", "click", "onClickControlButtons()");
@@ -6259,15 +6259,15 @@ addOnEvent("Control/Search/Search_Term"   , "click" , "clearSearch()");
 addOnEvent("Control/Search/Entity_Types"  , "click" , "search()");
 entityTypes = new ArrayList();
 entityTypes.add(new NameValuePair("{All}", ""));
-entityTypes.add(new NameValuePair("{Flaked_Stone_Artefact}", "Flaked Stone Artefact"));
-entityTypes.add(new NameValuePair("{Other_Stone_Artefact}", "Other Stone Artefact"));
-entityTypes.add(new NameValuePair("{Glass_Artefact}", "Glass Artefact"));
-entityTypes.add(new NameValuePair("{Ceramic_Artefact}", "Ceramic Artefact"));
-entityTypes.add(new NameValuePair("{Misc_Artefact}", "Misc Artefact"));
-entityTypes.add(new NameValuePair("{Discrete_Hearth_Artefact}", "Discrete Hearth Artefact"));
 entityTypes.add(new NameValuePair("{Buttons}", "Buttons"));
+entityTypes.add(new NameValuePair("{Ceramic_Artefact}", "Ceramic Artefact"));
+entityTypes.add(new NameValuePair("{Discrete_Hearth_Artefact}", "Discrete Hearth Artefact"));
+entityTypes.add(new NameValuePair("{Flaked_Stone_Artefact}", "Flaked Stone Artefact"));
+entityTypes.add(new NameValuePair("{Glass_Artefact}", "Glass Artefact"));
 entityTypes.add(new NameValuePair("{Knapped_Glass_Artefact}", "Knapped Glass Artefact"));
 entityTypes.add(new NameValuePair("{Metal_Artefact}", "Metal Artefact"));
+entityTypes.add(new NameValuePair("{Misc_Artefact}", "Misc Artefact"));
+entityTypes.add(new NameValuePair("{Other_Stone_Artefact}", "Other Stone Artefact"));
 entityTypes.add(new NameValuePair("{Weapons_and_Ammunition}", "Weapons and Ammunition"));
 populateDropDown("Control/Search/Entity_Types", entityTypes);
 

@@ -28,7 +28,7 @@
               <Flaked_Stone_Artefact/>
               <Other_Stone_Artefact/>
               <Knapped_Glass_Artefact/>
-              <Discrete_Hearth/>
+              <Discrete_Hearth_Feature/>
               <Glass_Artefact/>
               <Ceramic_Artefact/>
               <Buttons/>
@@ -911,8 +911,8 @@
         <trigger ref="Knapped_Glass_Artefact" faims_style_class="Knapped_Glass_Artefact">
           <label>{Knapped_Glass_Artefact}</label>
         </trigger>
-        <trigger ref="Discrete_Hearth" faims_style_class="Discrete_Hearth_Artefact">
-          <label>{Discrete_Hearth}</label>
+        <trigger ref="Discrete_Hearth_Feature" faims_style_class="Discrete_Hearth_Artefact">
+          <label>{Discrete_Hearth_Feature}</label>
         </trigger>
         <trigger ref="Glass_Artefact" faims_style_class="Glass_Artefact">
           <label>{Glass_Artefact}</label>

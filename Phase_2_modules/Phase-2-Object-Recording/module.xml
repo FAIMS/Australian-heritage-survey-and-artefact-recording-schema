@@ -18,10 +18,10 @@
     Underneath: GPS diagnostics (as specified above)
      -->
 
-    <Flaked_Stone_Artefact  t="button" c="Flaked_Stone_Artefact"    l="Flaked_Stone_Artefact"/>
-    <Other_Stone_Artefact   t="button" c="Other_Stone_Artefact"     l="Other_Stone_Artefact"/>
-    <Knapped_Glass_Artefact t="button" c="Knapped_Glass_Artefact"   l="Knapped_Glass_Artefact"/>
-    <Discrete_Hearth        t="button" c="Discrete_Hearth_Artefact" l="Discrete_Hearth_Artefact"/>
+    <Flaked_Stone_Artefact   t="button" c="Flaked_Stone_Artefact"    l="Flaked_Stone_Artefact"/>
+    <Other_Stone_Artefact    t="button" c="Other_Stone_Artefact"     l="Other_Stone_Artefact"/>
+    <Knapped_Glass_Artefact  t="button" c="Knapped_Glass_Artefact"   l="Knapped_Glass_Artefact"/>
+    <Discrete_Hearth_Feature t="button" c="Discrete_Hearth_Artefact" l="Discrete_Hearth_Artefact"/>
 
     <Glass_Artefact   t="button" c="Glass_Artefact"   l="Glass_Artefact"/>
     <Ceramic_Artefact t="button" c="Ceramic_Artefact" l="Ceramic_Artefact"/>
