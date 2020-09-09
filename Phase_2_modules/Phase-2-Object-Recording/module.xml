@@ -480,7 +480,7 @@
     <Start_date f="noannotation"/>
     <End_date   f="noannotation"/>
     <Conjoin_information f="noannotation"/>
-    <References f="noannotation"/>
+    <Sources f="noannotation"/>
     <Grouped_fragments_only t="webview" f="nolabel">
       <markdown>
 ## Grouped Fragments Only
@@ -634,7 +634,7 @@
     <Start_date f="noannotation"/>
     <End_date   f="noannotation"/>
     <Conjoin_information f="noannotation"/>
-    <References f="noannotation"/>
+    <Sources f="noannotation"/>
     <Grouped_fragments_only t="webview" f="nolabel">
       <markdown>
 ## Grouped Fragments Only
@@ -919,7 +919,7 @@
     <Start_date f="noannotation"/>
     <End_date   f="noannotation"/>
     <Additional_notes f="noannotation"/>
-    <References f="noannotation"/>
+    <Sources f="noannotation"/>
   </Feature_details>
 
   <Supplementary>
@@ -1144,7 +1144,7 @@
     <Start_date f="noannotation"/>
     <End_date   f="noannotation"/>
     <Additional_notes f="noannotation"/>
-    <References f="noannotation"/>
+    <Sources f="noannotation"/>
     <Nails_or_structural_fasteners_only t="webview" f="nolabel">
       <markdown>
 ## Nails or structural fasteners only
@@ -1281,7 +1281,7 @@
     <Start_date f="noannotation"/>
     <End_date   f="noannotation"/>
     <Additional_notes f="noannotation"/>
-    <References f="noannotation"/>
+    <Sources f="noannotation"/>
     <Projectile_details t="webview" f="nolabel">
       <markdown>
 ## Projectile details

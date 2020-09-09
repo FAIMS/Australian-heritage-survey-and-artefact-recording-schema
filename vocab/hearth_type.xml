@@ -6,7 +6,7 @@
     <opt>Bounded
         <desc>An open fire, built directly on ground surface, but with stones or other materials placed around edge of hearth</desc>
     </opt>
-    <opt>PIt
+    <opt>Pit
         <desc>A fire built in a pit, but lacking evidence of the use of heat retainers</desc>
     </opt>
     <opt>Earth oven

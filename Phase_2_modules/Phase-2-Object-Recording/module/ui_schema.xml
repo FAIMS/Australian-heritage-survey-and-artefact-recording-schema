@@ -284,7 +284,7 @@
               <Start_date/>
               <End_date/>
               <Conjoin_information/>
-              <References/>
+              <Sources/>
               <Grouped_fragments_only/>
               <Grouped_fragment_count/>
               <Grouped_fragment_weight_g/>
@@ -362,7 +362,7 @@
               <Start_date/>
               <End_date/>
               <Conjoin_information/>
-              <References/>
+              <Sources/>
               <Grouped_fragments_only/>
               <Grouped_fragment_count/>
               <Grouped_fragment_weight_g/>
@@ -537,7 +537,7 @@
               <Start_date/>
               <End_date/>
               <Additional_notes/>
-              <References/>
+              <Sources/>
             </Feature_details>
             <Supplementary>
               <External_camera_ID/>
@@ -670,7 +670,7 @@
               <Start_date/>
               <End_date/>
               <Additional_notes/>
-              <References/>
+              <Sources/>
               <Nails_or_structural_fasteners_only/>
               <Form/>
               <Head_shape/>
@@ -743,7 +743,7 @@
               <Start_date/>
               <End_date/>
               <Additional_notes/>
-              <References/>
+              <Sources/>
               <Projectile_details/>
               <Projectile_type/>
               <Deformation/>
@@ -1748,8 +1748,8 @@
         <input faims_attribute_name="Conjoin information" faims_attribute_type="measure" ref="Conjoin_information" faims_annotation="false">
           <label>{Conjoin_information}</label>
         </input>
-        <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
-          <label>{References}</label>
+        <input faims_attribute_name="Sources" faims_attribute_type="measure" ref="Sources" faims_annotation="false">
+          <label>{Sources}</label>
         </input>
         <input faims_web="true" ref="Grouped_fragments_only">
           <label/>
@@ -2013,8 +2013,8 @@
         <input faims_attribute_name="Conjoin information" faims_attribute_type="measure" ref="Conjoin_information" faims_annotation="false">
           <label>{Conjoin_information}</label>
         </input>
-        <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
-          <label>{References}</label>
+        <input faims_attribute_name="Sources" faims_attribute_type="measure" ref="Sources" faims_annotation="false">
+          <label>{Sources}</label>
         </input>
         <input faims_web="true" ref="Grouped_fragments_only">
           <label/>
@@ -2543,8 +2543,8 @@
         <input faims_attribute_name="Buttons Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false">
           <label>{Additional_notes}</label>
         </input>
-        <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
-          <label>{References}</label>
+        <input faims_attribute_name="Sources" faims_attribute_type="measure" ref="Sources" faims_annotation="false">
+          <label>{Sources}</label>
         </input>
       </group>
       <group ref="Supplementary">
@@ -2980,8 +2980,8 @@
         <input faims_attribute_name="Metal Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false">
           <label>{Additional_notes}</label>
         </input>
-        <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
-          <label>{References}</label>
+        <input faims_attribute_name="Sources" faims_attribute_type="measure" ref="Sources" faims_annotation="false">
+          <label>{Sources}</label>
         </input>
         <input faims_web="true" ref="Nails_or_structural_fasteners_only">
           <label/>
@@ -3250,8 +3250,8 @@
         <input faims_attribute_name="Weapons and Ammunition Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false">
           <label>{Additional_notes}</label>
         </input>
-        <input faims_attribute_name="References" faims_attribute_type="measure" ref="References" faims_annotation="false">
-          <label>{References}</label>
+        <input faims_attribute_name="Sources" faims_attribute_type="measure" ref="Sources" faims_annotation="false">
+          <label>{Sources}</label>
         </input>
         <input faims_web="true" ref="Projectile_details">
           <label/>
