@@ -1,7 +1,7 @@
 /******* new record button in scar tab ****/
 
 
-addOnEvent("Scar/Scar/New_Scar", "click", "newBoundaryPoint()");
+addOnEvent("Scar/Scar/New_scar", "click", "newBoundaryPoint()");
 
 void newBoundaryPoint(){
 	tabgroup = getDisplayedTabGroup();

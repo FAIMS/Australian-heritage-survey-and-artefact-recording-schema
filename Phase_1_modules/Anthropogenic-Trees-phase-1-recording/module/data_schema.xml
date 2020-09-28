@@ -325,6 +325,8 @@
 <description>Primary scar is associated with extraction of sugarbag, or wild honey</description></term>
         <term>{Combination}
 <description>A tree with multiple scar-types</description></term>
+        <term>{Blazed_Tree}
+<description>Blaze mark</description></term>
         <term>{AxeMarks}
 <description>Axe marks not associated with other scar types</description></term>
         <term>{Toeholds}
@@ -333,8 +335,8 @@
 <description>Other markings that have involved removal of bark or wood, but reason unclear</description></term>
         <term>{Guama}
 <description>Small area of bark removed for manufacture of planer</description></term>
-        <term>{Survey}
-<description>Any mark associated with land surveying activity</description></term>
+        <term>{Survey_blaze}
+<description>Blaze mark with letters, numbers and other symbols</description></term>
         <term>{Other}
 <description>Other tree types not listed here</description></term>
       </lookup>
@@ -367,7 +369,7 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Tree Height" type="vocab">
+    <property name="Tree height" type="vocab">
       <description>Choose the most appropriate size range for this tree. Select 'indeterminate' for all felled trees or those that have lost upper limbs</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -382,7 +384,7 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Condition" type="vocab">
+    <property name="Tree condition" type="vocab">
       <description>Assess the condition of the tree. For living trees, consider issues such as the number of dead or missing limbs, and areas of damage</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -409,9 +411,44 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Sources of damage" type="vocab">
+      <description></description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Fire}
+<description> </description></term>
+        <term>{Rot__decay_or_weathering}
+<description> </description></term>
+        <term>{Erosion}
+<description> </description></term>
+        <term>{Insects_and_termites}
+<description> </description></term>
+        <term>{Animals__burrowing}
+<description> </description></term>
+        <term>{Animals__stock_movement}
+<description> </description></term>
+        <term>{Animals__abrasion}
+<description> </description></term>
+        <term>{Ringbarking}
+<description> </description></term>
+        <term>{Land_clearance}
+<description> </description></term>
+        <term>{Vehicle_damage}
+<description> </description></term>
+        <term>{Ground_disturbance}
+<description> </description></term>
+        <term>{Recent_graffiti}
+<description> </description></term>
+        <term>{Litter_and_rubbish}
+<description> </description></term>
+        <term>{Other}
+<description> </description></term>
+      </lookup>
+    </property>
     <property name="Additional notes" type="measure">
       <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
-			</description>
+      </description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -442,33 +479,23 @@
     </property>
     <property name="External camera image attachment" type="file" file="true" thumbnail="true">
       <description>Upload files on server, and annotate those files with captions.
-			</description>
+      </description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Survey instrument name" type="vocab">
-      <description>If recording coincides with instrument survey, please select appropriate instrument name.</description>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{Not_applicable}
+        <term>{Yes}
 <description> </description></term>
-        <term>{Leica_Multistation}
-<description> </description></term>
-        <term>{Leica_TS09_Unit_A}
-<description> </description></term>
-        <term>{Leica_TS09_Unit_B}
-<description> </description></term>
-        <term>{RTK_Rover_B}
-<description> </description></term>
-        <term>{RTK_Rover_B}
-<description> </description></term>
-        <term>{Reach_RS2}
+        <term>{No}
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Survey instrument data" type="measure">
-      <description>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</description>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -522,8 +549,34 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Scar Height Above Ground mm" type="measure">
+    <property name="Axe marks present" type="vocab">
+      <description></description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Axe mark count" type="measure">
+      <description></description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Maximum axe mark length mm" type="measure">
+      <description></description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Scar height above ground mm" type="measure">
       <description>Measure from the ground surface to the bottom of the scar, if applicable. Please note that the scar base is the lowermost area of axe damage, rather than the scar dry face</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Scar orientation degrees" type="measure">
+      <description>What is the approximate compass bearing of the scar</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -554,7 +607,7 @@
     </property>
     <property name="Additional notes" type="measure">
       <description>Additional notes about the feature or associated artefacts not recorded elsewhere.
-			</description>
+      </description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -580,7 +633,7 @@
     </property>
     <property name="External camera image attachment" type="file" file="true" thumbnail="true">
       <description>Upload files on server, and annotate those files with captions.
-			</description>
+      </description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>

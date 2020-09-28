@@ -1,17 +1,18 @@
 /*
- * GENERATED WITH FAIMS-TOOLS, SHA1: d0634cb0d5faf3ee4139b0e307faf507cdd6e447
+ * GENERATED WITH FAIMS-TOOLS, SHA1: 0464ffa4896c3c209cd6552656235739c87ceee7
  */
 import android.util.Log;
 import android.os.Build.MODEL;
 import java.util.concurrent.atomic.AtomicInteger;
 import android.database.DatabaseUtils;
+import java.util.concurrent.Callable;
 
 // Beanshell won't let me write "\0".
 final String SEP = Character.toString ((char) 0);
 
 final String MSG_LOADING = "Loading...";
 
-final String USER_MENU_PATH = "User_List/User_List/User_List";
+final String USER_MENU_PATH = "User_List/User_list/User_list";
 userMenuPath = USER_MENU_PATH; // Depricated. Use `USER_MENU_PATH` instead
 
 final long SESS_START_TIME = System.currentTimeMillis();
@@ -311,11 +312,13 @@ HashMap ATTRIB_NAMES_NON_STANDARD         = new HashMap();
 List    NODATA_TAB_GROUPS                 = new ArrayList();
 List    NOAUTOSAVE_TAB_GROUPS             = new ArrayList();
 HashSet NOAUTOSAVE_TAB_GROUPS_AS_HASH_SET = null;
+HashMap REF_TO_FLAG_STRING                = new HashMap();
+
 NODATA_TAB_GROUPS.add("User_List");
 NODATA_TAB_GROUPS.add("Control");
 
-REF_TO_TYPE.put("User_List/User_List/User_List", "list");
-REF_TO_TYPE.put("Control/Control/New_Tree", "button");
+REF_TO_TYPE.put("User_List/User_list/User_list", "list");
+REF_TO_TYPE.put("Control/Control/New_tree", "button");
 REF_TO_TYPE.put("Control/Control/GPS_diagnostics", "gpsdiag");
 REF_TO_TYPE.put("Control/Control/Recent_records", "list");
 REF_TO_TYPE.put("Control/Map/Map", "map");
@@ -336,7 +339,7 @@ REF_TO_TYPE.put("Tree/General/Northing", "input");
 REF_TO_TYPE.put("Tree/General/Easting", "input");
 REF_TO_TYPE.put("Tree/General/Accuracy", "input");
 REF_TO_TYPE.put("Tree/General/Take_From_GPS_1", "button");
-REF_TO_TYPE.put("Tree/General/Find_This_in_The_Map", "button");
+REF_TO_TYPE.put("Tree/General/Find_this_in_the_map", "button");
 REF_TO_TYPE.put("Tree/General/Device_photos", "camera");
 REF_TO_TYPE.put("Tree/General/Device_photos_Button_1", "button");
 REF_TO_TYPE.put("Tree/Landscape_context/Landform_pattern", "dropdown");
@@ -347,27 +350,32 @@ REF_TO_TYPE.put("Tree/Landscape_context/Additional_environmental_notes", "input"
 REF_TO_TYPE.put("Tree/Feature_details/Tree_type", "dropdown");
 REF_TO_TYPE.put("Tree/Feature_details/Species", "dropdown");
 REF_TO_TYPE.put("Tree/Feature_details/Girth_mm", "input");
-REF_TO_TYPE.put("Tree/Feature_details/Tree_Height", "dropdown");
-REF_TO_TYPE.put("Tree/Feature_details/Condition", "dropdown");
+REF_TO_TYPE.put("Tree/Feature_details/Tree_height", "dropdown");
+REF_TO_TYPE.put("Tree/Feature_details/Tree_condition", "dropdown");
 REF_TO_TYPE.put("Tree/Feature_details/Number_of_scars", "input");
 REF_TO_TYPE.put("Tree/Feature_details/Stump_height_mm", "input");
+REF_TO_TYPE.put("Tree/Feature_details/Sources_of_damage", "checkbox");
 REF_TO_TYPE.put("Tree/Feature_details/Additional_notes", "input");
-REF_TO_TYPE.put("Tree/Scar_control/New_Scar", "button");
-REF_TO_TYPE.put("Tree/Scar_control/List_of_Related_Scars", "list");
+REF_TO_TYPE.put("Tree/Scar/New_scar", "button");
+REF_TO_TYPE.put("Tree/Scar/List_of_related_scars", "list");
 REF_TO_TYPE.put("Tree/Supplementary/Paper_notes_and_sketches", "camera");
 REF_TO_TYPE.put("Tree/Supplementary/Paper_notes_and_sketches_Button_1", "button");
 REF_TO_TYPE.put("Tree/Supplementary/External_camera_ID", "dropdown");
 REF_TO_TYPE.put("Tree/Supplementary/External_camera_file_names_and_attachment", "input");
 REF_TO_TYPE.put("Tree/Supplementary/External_camera_image_attachment", "file");
 REF_TO_TYPE.put("Tree/Supplementary/External_camera_image_attachment_Button_1", "button");
-REF_TO_TYPE.put("Tree/Supplementary/Survey_instrument_name", "dropdown");
-REF_TO_TYPE.put("Tree/Supplementary/Survey_instrument_data", "input");
+REF_TO_TYPE.put("Tree/Supplementary/Additional_edits_or_uploads_required", "dropdown");
+REF_TO_TYPE.put("Tree/Supplementary/Editing_notes", "input");
 REF_TO_TYPE.put("Scar/Scar/Tree_ID", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_ID", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_author", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_timestamp", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_type", "dropdown");
-REF_TO_TYPE.put("Scar/Scar/Scar_Height_Above_Ground_mm", "input");
+REF_TO_TYPE.put("Scar/Scar/Axe_marks_present", "radio");
+REF_TO_TYPE.put("Scar/Scar/Axe_mark_count", "input");
+REF_TO_TYPE.put("Scar/Scar/Maximum_axe_mark_length_mm", "input");
+REF_TO_TYPE.put("Scar/Scar/Scar_height_above_ground_mm", "input");
+REF_TO_TYPE.put("Scar/Scar/Scar_orientation_degrees", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_length_mm", "input");
 REF_TO_TYPE.put("Scar/Scar/Scar_width_mm", "input");
 REF_TO_TYPE.put("Scar/Scar/Aperture_length_mm", "input");
@@ -379,8 +387,8 @@ REF_TO_TYPE.put("Scar/Scar/External_camera_ID_scars", "dropdown");
 REF_TO_TYPE.put("Scar/Scar/External_camera_file_names_and_attachment", "input");
 REF_TO_TYPE.put("Scar/Scar/External_camera_image_attachment", "file");
 REF_TO_TYPE.put("Scar/Scar/External_camera_image_attachment_Button_1", "button");
-REF_TO_TYPE.put("Scar/Scar/New_Scar", "button");
-REF_TO_TYPE.put("User_List/User_List", "tab");
+REF_TO_TYPE.put("Scar/Scar/New_scar", "button");
+REF_TO_TYPE.put("User_List/User_list", "tab");
 REF_TO_TYPE.put("Control/Control", "tab");
 REF_TO_TYPE.put("Control/Map", "tab");
 REF_TO_TYPE.put("Control/Search", "tab");
@@ -388,7 +396,7 @@ REF_TO_TYPE.put("Control/Autonumbering", "tab");
 REF_TO_TYPE.put("Tree/General", "tab");
 REF_TO_TYPE.put("Tree/Landscape_context", "tab");
 REF_TO_TYPE.put("Tree/Feature_details", "tab");
-REF_TO_TYPE.put("Tree/Scar_control", "tab");
+REF_TO_TYPE.put("Tree/Scar", "tab");
 REF_TO_TYPE.put("Tree/Supplementary", "tab");
 REF_TO_TYPE.put("Scar/Scar", "tab");
 
@@ -409,23 +417,28 @@ DATA_REFS.add("Tree/Landscape_context/Additional_environmental_notes");
 DATA_REFS.add("Tree/Feature_details/Tree_type");
 DATA_REFS.add("Tree/Feature_details/Species");
 DATA_REFS.add("Tree/Feature_details/Girth_mm");
-DATA_REFS.add("Tree/Feature_details/Tree_Height");
-DATA_REFS.add("Tree/Feature_details/Condition");
+DATA_REFS.add("Tree/Feature_details/Tree_height");
+DATA_REFS.add("Tree/Feature_details/Tree_condition");
 DATA_REFS.add("Tree/Feature_details/Number_of_scars");
 DATA_REFS.add("Tree/Feature_details/Stump_height_mm");
+DATA_REFS.add("Tree/Feature_details/Sources_of_damage");
 DATA_REFS.add("Tree/Feature_details/Additional_notes");
 DATA_REFS.add("Tree/Supplementary/Paper_notes_and_sketches");
 DATA_REFS.add("Tree/Supplementary/External_camera_ID");
 DATA_REFS.add("Tree/Supplementary/External_camera_file_names_and_attachment");
 DATA_REFS.add("Tree/Supplementary/External_camera_image_attachment");
-DATA_REFS.add("Tree/Supplementary/Survey_instrument_name");
-DATA_REFS.add("Tree/Supplementary/Survey_instrument_data");
+DATA_REFS.add("Tree/Supplementary/Additional_edits_or_uploads_required");
+DATA_REFS.add("Tree/Supplementary/Editing_notes");
 DATA_REFS.add("Scar/Scar/Tree_ID");
 DATA_REFS.add("Scar/Scar/Scar_ID");
 DATA_REFS.add("Scar/Scar/Scar_author");
 DATA_REFS.add("Scar/Scar/Scar_timestamp");
 DATA_REFS.add("Scar/Scar/Scar_type");
-DATA_REFS.add("Scar/Scar/Scar_Height_Above_Ground_mm");
+DATA_REFS.add("Scar/Scar/Axe_marks_present");
+DATA_REFS.add("Scar/Scar/Axe_mark_count");
+DATA_REFS.add("Scar/Scar/Maximum_axe_mark_length_mm");
+DATA_REFS.add("Scar/Scar/Scar_height_above_ground_mm");
+DATA_REFS.add("Scar/Scar/Scar_orientation_degrees");
 DATA_REFS.add("Scar/Scar/Scar_length_mm");
 DATA_REFS.add("Scar/Scar/Scar_width_mm");
 DATA_REFS.add("Scar/Scar/Aperture_length_mm");
@@ -450,7 +463,7 @@ TAB_GROUPS_AS_LIST.add("Control");
 TAB_GROUPS_AS_LIST.add("Tree");
 TAB_GROUPS_AS_LIST.add("Scar");
 
-TABS_AS_LIST.add("User_List/User_List");
+TABS_AS_LIST.add("User_List/User_list");
 TABS_AS_LIST.add("Control/Control");
 TABS_AS_LIST.add("Control/Map");
 TABS_AS_LIST.add("Control/Search");
@@ -458,11 +471,98 @@ TABS_AS_LIST.add("Control/Autonumbering");
 TABS_AS_LIST.add("Tree/General");
 TABS_AS_LIST.add("Tree/Landscape_context");
 TABS_AS_LIST.add("Tree/Feature_details");
-TABS_AS_LIST.add("Tree/Scar_control");
+TABS_AS_LIST.add("Tree/Scar");
 TABS_AS_LIST.add("Tree/Supplementary");
 TABS_AS_LIST.add("Scar/Scar");
 
 
+
+REF_TO_FLAG_STRING.put("User_List/User_list/User_list", "nolabel user");
+REF_TO_FLAG_STRING.put("Control/Control/New_tree", "");
+REF_TO_FLAG_STRING.put("Control/Control/GPS_diagnostics", "");
+REF_TO_FLAG_STRING.put("Control/Control/Recent_records", "");
+REF_TO_FLAG_STRING.put("Control/Map/Map", "nolabel");
+REF_TO_FLAG_STRING.put("Control/Map/Center_Me_1", "");
+REF_TO_FLAG_STRING.put("Control/Map/Save_Map_Settings_1", "");
+REF_TO_FLAG_STRING.put("Control/Search/Search_Term", "");
+REF_TO_FLAG_STRING.put("Control/Search/Search_Button", "");
+REF_TO_FLAG_STRING.put("Control/Search/Entity_Types", "");
+REF_TO_FLAG_STRING.put("Control/Search/Entity_List", "");
+REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Tree_ID", "notnull");
+REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Scar_ID", "notnull");
+REF_TO_FLAG_STRING.put("Tree/General/Tree_ID", "autonum nocertainty id");
+REF_TO_FLAG_STRING.put("Tree/General/Tree_author", "readonly noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Tree/General/Tree_timestamp", "readonly noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Tree/General/Latitude", "readonly notnull");
+REF_TO_FLAG_STRING.put("Tree/General/Longitude", "readonly notnull");
+REF_TO_FLAG_STRING.put("Tree/General/Northing", "readonly notnull");
+REF_TO_FLAG_STRING.put("Tree/General/Easting", "readonly notnull");
+REF_TO_FLAG_STRING.put("Tree/General/Accuracy", "readonly notnull");
+REF_TO_FLAG_STRING.put("Tree/General/Take_From_GPS_1", "");
+REF_TO_FLAG_STRING.put("Tree/General/Find_this_in_the_map", "");
+REF_TO_FLAG_STRING.put("Tree/General/Device_photos", "nocertainty");
+REF_TO_FLAG_STRING.put("Tree/General/Device_photos_Button_1", "");
+REF_TO_FLAG_STRING.put("Tree/Landscape_context/Landform_pattern", "");
+REF_TO_FLAG_STRING.put("Tree/Landscape_context/Landform_element", "");
+REF_TO_FLAG_STRING.put("Tree/Landscape_context/Dominant_vegetation_type", "");
+REF_TO_FLAG_STRING.put("Tree/Landscape_context/Dominant_vegetation_cover", "nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Landscape_context/Additional_environmental_notes", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Feature_details/Tree_type", "");
+REF_TO_FLAG_STRING.put("Tree/Feature_details/Species", "");
+REF_TO_FLAG_STRING.put("Tree/Feature_details/Girth_mm", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Feature_details/Tree_height", "nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Feature_details/Tree_condition", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Feature_details/Number_of_scars", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Feature_details/Stump_height_mm", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Feature_details/Sources_of_damage", "nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Feature_details/Additional_notes", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Scar/New_scar", "");
+REF_TO_FLAG_STRING.put("Tree/Scar/List_of_related_scars", "");
+REF_TO_FLAG_STRING.put("Tree/Supplementary/Paper_notes_and_sketches", "nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Supplementary/Paper_notes_and_sketches_Button_1", "");
+REF_TO_FLAG_STRING.put("Tree/Supplementary/External_camera_ID", "nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Supplementary/External_camera_file_names_and_attachment", "nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Supplementary/External_camera_image_attachment", "nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Supplementary/External_camera_image_attachment_Button_1", "");
+REF_TO_FLAG_STRING.put("Tree/Supplementary/Additional_edits_or_uploads_required", "nocertainty");
+REF_TO_FLAG_STRING.put("Tree/Supplementary/Editing_notes", "nocertainty");
+REF_TO_FLAG_STRING.put("Scar/Scar/Tree_ID", "nocertainty id");
+REF_TO_FLAG_STRING.put("Scar/Scar/Scar_ID", "autonum nocertainty id");
+REF_TO_FLAG_STRING.put("Scar/Scar/Scar_author", "readonly nocertainty");
+REF_TO_FLAG_STRING.put("Scar/Scar/Scar_timestamp", "readonly");
+REF_TO_FLAG_STRING.put("Scar/Scar/Scar_type", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/Axe_marks_present", "nocertainty");
+REF_TO_FLAG_STRING.put("Scar/Scar/Axe_mark_count", "noannotation");
+REF_TO_FLAG_STRING.put("Scar/Scar/Maximum_axe_mark_length_mm", "noannotation");
+REF_TO_FLAG_STRING.put("Scar/Scar/Scar_height_above_ground_mm", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/Scar_orientation_degrees", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/Scar_length_mm", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/Scar_width_mm", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/Aperture_length_mm", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/Aperture_width_mm", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/Device_photos_of_scar", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/Device_photos_of_scar_Button_1", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/Additional_notes", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Scar/Scar/External_camera_ID_scars", "nocertainty");
+REF_TO_FLAG_STRING.put("Scar/Scar/External_camera_file_names_and_attachment", "nocertainty");
+REF_TO_FLAG_STRING.put("Scar/Scar/External_camera_image_attachment", "nocertainty");
+REF_TO_FLAG_STRING.put("Scar/Scar/External_camera_image_attachment_Button_1", "");
+REF_TO_FLAG_STRING.put("Scar/Scar/New_scar", "");
+REF_TO_FLAG_STRING.put("User_List/User_list", "noscroll");
+REF_TO_FLAG_STRING.put("Control/Control", "noscroll");
+REF_TO_FLAG_STRING.put("Control/Map", "noscroll");
+REF_TO_FLAG_STRING.put("Control/Search", "nodata noscroll");
+REF_TO_FLAG_STRING.put("Control/Autonumbering", "");
+REF_TO_FLAG_STRING.put("Tree/General", "");
+REF_TO_FLAG_STRING.put("Tree/Landscape_context", "");
+REF_TO_FLAG_STRING.put("Tree/Feature_details", "");
+REF_TO_FLAG_STRING.put("Tree/Scar", "noscroll");
+REF_TO_FLAG_STRING.put("Tree/Supplementary", "");
+REF_TO_FLAG_STRING.put("Scar/Scar", "");
+REF_TO_FLAG_STRING.put("User_List", "nodata");
+REF_TO_FLAG_STRING.put("Control", "nodata");
+REF_TO_FLAG_STRING.put("Tree", "");
+REF_TO_FLAG_STRING.put("Scar", "");
 
 String getType(String ref) {
   String type = REF_TO_TYPE.get(ref);
@@ -735,6 +835,10 @@ String getArch16nKey(String ref) {
   else                     return "{" + lastRefPart + "}";
 }
 
+String getArch16nVal(String ref) {
+  return arch16nSubstituteValues(getArch16nKey(ref));
+}
+
 String guessArch16nVal(String ref) {
   return guessArch16nValFromRef(ref);
 }
@@ -764,7 +868,7 @@ String guessArch16nValFromKey(String key) {
  */
 String arch16nSubstituteValues(String unSubbed) {
   if (isInUnitTestTime())
-    return "";
+    return unSubbed;
 
   List entries = new ArrayList();
   entries.add(new NameValuePair(unSubbed, ""));
@@ -2701,15 +2805,23 @@ boolean populateMenu(
   return true;
 }
 
+boolean populateMenu(String ref, List entries, boolean hasNull) {
+  return populateMenu(null, ref, "", entries, hasNull);
+}
+
 boolean populateMenu(String ref, List entries) {
   return populateMenu(null, ref, "", entries, true);
 }
 
-void populateMenu(String ref, String entry) {
+void populateMenu(String ref, String entry, boolean hasNull) {
   List entries  = new ArrayList();
   entries.add(new NameValuePair(entry, ""));
 
-  populateMenu(ref, entries);
+  populateMenu(ref, entries, hasNull);
+}
+
+void populateMenu(String ref, String entry) {
+  populateMenu(ref, entry, false);
 }
 
 /******************************************************************************/
@@ -3212,24 +3324,29 @@ String validateFields(List fields, String format) {
   return out;
 }
 
-void validateControl() {
+List getRefsToValidateByTabGroup(String tabGroup) {
   List f = new ArrayList(); // Fields to be validated
-  f.add(fieldPair("Control/Autonumbering/Next_Tree_ID", "{Next_Tree_ID}"));
-  f.add(fieldPair("Control/Autonumbering/Next_Scar_ID", "{Next_Scar_ID}"));
+  for (String ref : getRefsMatching(tabGroup + "/*"))
+    if (REF_TO_FLAG_STRING.get(ref).contains("notnull"))
+      f.add(fieldPair(ref, getArch16nKey(ref)));
+  return f;
+}
 
-  String validationMessage = validateFields(f, "PLAINTEXT");
+String getValidationMessage(String tabGroup, String format) {
+  List f = getRefsToValidateByTabGroup(tabGroup);
+  return validateFields(f, format);
+}
+
+void validateTabGroup(String tabGroup) {
+  String validationMessage = getValidationMessage(tabGroup, "PLAINTEXT");
   showWarning("{validation_results}", validationMessage);
 }
-void validateTree() {
-  List f = new ArrayList(); // Fields to be validated
-  f.add(fieldPair("Tree/General/Latitude", "{Latitude}"));
-  f.add(fieldPair("Tree/General/Longitude", "{Longitude}"));
-  f.add(fieldPair("Tree/General/Northing", "{Northing}"));
-  f.add(fieldPair("Tree/General/Easting", "{Easting}"));
-  f.add(fieldPair("Tree/General/Accuracy", "{Accuracy}"));
 
-  String validationMessage = validateFields(f, "PLAINTEXT");
-  showWarning("{validation_results}", validationMessage);
+void validateControl() {
+  validateTabGroup("Control");
+}
+void validateTree() {
+  validateTabGroup("Tree");
 }
 
 
@@ -3399,15 +3516,15 @@ for (String tabGroup : getTabGroups()) {
   addOnEvent(tabGroup, "show", funStr);
 }
 
-void onClickUserListUserList () {
+void onClickUserListUserlist () {
   newTab("Control", true);
 }
 
-void onClickTreeFindThisinTheMap () {
+void onClickTreeFindthisinthemap () {
   newTab("Control/Map", true);
 }
 
-void onClickControlNewTree () {
+void onClickControlNewtree () {
   parentTabgroup__ = "Control";
   newTree();
 }
@@ -3418,13 +3535,18 @@ void onClickControlNewTree () {
 
 
 
-void onClickTreeNewScar () {
+void onClickTreeNewscar () {
+  triggerAutoSave();
+  if (getUuid("Tree") == null) {
+    showToast("{You_must_save_this_tabgroup_first}");
+    return;
+  }
   newScar("Tree");
 }
-addOnEvent("User_List/User_List/User_List", "click", "onClickUserListUserList()");
-addOnEvent("Control/Control/New_Tree", "click", "onClickControlNewTree()");
-addOnEvent("Tree/General/Find_This_in_The_Map", "click", "onClickTreeFindThisinTheMap()");
-addOnEvent("Tree/Scar_control/New_Scar", "click", "onClickTreeNewScar()");
+addOnEvent("User_List/User_list/User_list", "click", "onClickUserListUserlist()");
+addOnEvent("Control/Control/New_tree", "click", "onClickControlNewtree()");
+addOnEvent("Tree/General/Find_this_in_the_map", "click", "onClickTreeFindthisinthemap()");
+addOnEvent("Tree/Scar/New_scar", "click", "onClickTreeNewscar()");
 
 /******************************************************************************/
 /*                   AUDIO, CAMERA, FILE AND VIDEO BINDINGS                   */
@@ -3522,6 +3644,12 @@ void saveEntitiesToRel(String type, String entity1, String entity2, String callb
   saveEntitiesToHierRel(type, entity1, entity2, e1verb, e2verb, callback);
 }
 
+void saveEntitiesToRel(String type, String entity1, String entity2, Callable callback) {
+  String e1verb = null;
+  String e2verb = null;
+  saveEntitiesToHierRel(type, entity1, entity2, e1verb, e2verb, callback);
+}
+
 /** Saves two entity id's as a hierachical relation with some callback executed. **/
 void saveEntitiesToHierRel(String type, String entity1, String entity2, String e1verb, String e2verb, String callback) {
   if (isNull(entity1) || isNull(entity2)) return;
@@ -3530,6 +3658,44 @@ void saveEntitiesToHierRel(String type, String entity1, String entity2, String e
     onSaveAssociation(entity_id, rel_id) {
       if(!isNull(callback)) {
          execute(callback);
+      }
+    }
+    onError(message) {
+      Log.e("saveEntitiesToHierRel", message);
+      showToast(message);
+    }
+  };
+
+  SaveCallback addMoreToRel = new SaveCallback() {
+    onSaveAssociation(entity_id, rel_id) {
+      addReln(entity2, rel_id, e2verb, execCallback);
+    }
+    onError(message) {
+      Log.e("saveEntitiesToHierRel", message);
+      showToast(message);
+    }
+  };
+
+  SaveCallback addToRel = new SaveCallback() {
+    onSave(rel_id, newRecord) {
+      addReln(entity1, rel_id, e1verb, addMoreToRel);
+    }
+    onError(message) {
+      Log.e("saveEntitiesToHierRel", message);
+      showToast(message);
+    }
+  };
+
+  saveRel(null, type, null, null, addToRel);
+}
+
+void saveEntitiesToHierRel(String type, String entity1, String entity2, String e1verb, String e2verb, Callable callback) {
+  if (isNull(entity1) || isNull(entity2)) return;
+
+  SaveCallback execCallback = new SaveCallback() {
+    onSaveAssociation(entity_id, rel_id) {
+      if(callback == null) {
+         callback.call();
       }
     }
     onError(message) {
@@ -3930,8 +4096,8 @@ addOnEvent("Control/Search/Search_Term"   , "click" , "clearSearch()");
 addOnEvent("Control/Search/Entity_Types"  , "click" , "search()");
 entityTypes = new ArrayList();
 entityTypes.add(new NameValuePair("{All}", ""));
-entityTypes.add(new NameValuePair("{Tree}", "Tree"));
 entityTypes.add(new NameValuePair("{Scar}", "Scar"));
+entityTypes.add(new NameValuePair("{Tree}", "Tree"));
 populateDropDown("Control/Search/Entity_Types", entityTypes);
 
 void clearSearch(){
@@ -4341,7 +4507,7 @@ String getEntityMenuPopulationFunction(String[] menuDescriptor) {
 
 ENTITY_MENUS = new ArrayList();
 ENTITY_MENUS.add(new String[] {
-    "Tree/Scar_control/List_of_Related_Scars",
+    "Tree/Scar/List_of_related_scars",
     "getUuid(\"Tree\")",
     "Scar",
     "Tree - Scar"
@@ -4361,7 +4527,7 @@ for (m : ENTITY_MENUS) {
   addOnEvent(ref, evt, cmd);
 }
 
-addOnEvent("Tree/Scar_control/List_of_Related_Scars", "click", "loadEntity()");
+addOnEvent("Tree/Scar/List_of_related_scars", "click", "loadEntity()");
 /******************************************************************************/
 /*                             HANDWRITTEN LOGIC                              */
 /******************************************************************************/
@@ -4912,7 +5078,7 @@ void deleteChildren(String last_deleted){
 // addOnEvent("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Surface_Exposure/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Tree/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Tree/General/Find_this_in_the_map", "click", "findThisInTheMap()");
 
 
 boolean findThisInTheMap() {
@@ -4959,7 +5125,7 @@ addOnEvent("Control/Autonumbering", "leave", "validateAutonumbering()");
 /******* new record button in scar tab ****/
 
 
-addOnEvent("Scar/Scar/New_Scar", "click", "newBoundaryPoint()");
+addOnEvent("Scar/Scar/New_scar", "click", "newBoundaryPoint()");
 
 void newBoundaryPoint(){
 	tabgroup = getDisplayedTabGroup();

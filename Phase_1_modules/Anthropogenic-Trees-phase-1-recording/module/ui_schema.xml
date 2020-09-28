@@ -19,13 +19,13 @@
           </style>
           <!--END: Style-->
           <User_List>
-            <User_List>
-              <User_List/>
-            </User_List>
+            <User_list>
+              <User_list/>
+            </User_list>
           </User_List>
           <Control>
             <Control>
-              <New_Tree/>
+              <New_tree/>
               <GPS_diagnostics/>
               <Recent_records/>
             </Control>
@@ -93,7 +93,7 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
-              <Find_This_in_The_Map/>
+              <Find_this_in_the_map/>
               <Device_photos/>
               <Device_photos_Button_1/>
             </General>
@@ -108,16 +108,17 @@
               <Tree_type/>
               <Species/>
               <Girth_mm/>
-              <Tree_Height/>
-              <Condition/>
+              <Tree_height/>
+              <Tree_condition/>
               <Number_of_scars/>
               <Stump_height_mm/>
+              <Sources_of_damage/>
               <Additional_notes/>
             </Feature_details>
-            <Scar_control>
-              <New_Scar/>
-              <List_of_Related_Scars/>
-            </Scar_control>
+            <Scar>
+              <New_scar/>
+              <List_of_related_scars/>
+            </Scar>
             <Supplementary>
               <Paper_notes_and_sketches/>
               <Paper_notes_and_sketches_Button_1/>
@@ -125,8 +126,8 @@
               <External_camera_file_names_and_attachment/>
               <External_camera_image_attachment/>
               <External_camera_image_attachment_Button_1/>
-              <Survey_instrument_name/>
-              <Survey_instrument_data/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Tree>
           <Scar>
@@ -136,7 +137,11 @@
               <Scar_author/>
               <Scar_timestamp/>
               <Scar_type/>
-              <Scar_Height_Above_Ground_mm/>
+              <Axe_marks_present/>
+              <Axe_mark_count/>
+              <Maximum_axe_mark_length_mm/>
+              <Scar_height_above_ground_mm/>
+              <Scar_orientation_degrees/>
               <Scar_length_mm/>
               <Scar_width_mm/>
               <Aperture_length_mm/>
@@ -148,7 +153,7 @@
               <External_camera_file_names_and_attachment/>
               <External_camera_image_attachment/>
               <External_camera_image_attachment_Button_1/>
-              <New_Scar/>
+              <New_scar/>
             </Scar>
           </Scar>
         </faims>
@@ -158,7 +163,10 @@
       <bind nodeset="/faims/Tree/Feature_details/Girth_mm" type="decimal"/>
       <bind nodeset="/faims/Tree/Feature_details/Number_of_scars" type="integer"/>
       <bind nodeset="/faims/Tree/Feature_details/Stump_height_mm" type="decimal"/>
-      <bind nodeset="/faims/Scar/Scar/Scar_Height_Above_Ground_mm" type="decimal"/>
+      <bind nodeset="/faims/Scar/Scar/Axe_mark_count" type="integer"/>
+      <bind nodeset="/faims/Scar/Scar/Maximum_axe_mark_length_mm" type="decimal"/>
+      <bind nodeset="/faims/Scar/Scar/Scar_height_above_ground_mm" type="decimal"/>
+      <bind nodeset="/faims/Scar/Scar/Scar_orientation_degrees" type="decimal"/>
       <bind nodeset="/faims/Scar/Scar/Scar_length_mm" type="decimal"/>
       <bind nodeset="/faims/Scar/Scar/Scar_width_mm" type="decimal"/>
       <bind nodeset="/faims/Scar/Scar/Aperture_length_mm" type="decimal"/>
@@ -191,9 +199,9 @@
     <!--END: Style-->
     <group ref="User_List">
       <label>{User_List}</label>
-      <group ref="User_List" faims_scrollable="false">
-        <label>{User_List}</label>
-        <select1 appearance="compact" ref="User_List">
+      <group ref="User_list" faims_scrollable="false">
+        <label>{User_list}</label>
+        <select1 appearance="compact" ref="User_list">
           <label/>
           <item>
             <label>Options not loaded</label>
@@ -206,8 +214,8 @@
       <label>{Control}</label>
       <group ref="Control" faims_scrollable="false">
         <label>{Control}</label>
-        <trigger ref="New_Tree">
-          <label>{New_Tree}</label>
+        <trigger ref="New_tree">
+          <label>{New_tree}</label>
         </trigger>
         <input faims_read_only="true" ref="GPS_diagnostics">
           <label>{GPS_diagnostics}</label>
@@ -230,13 +238,13 @@
           <group ref="Col_1" faims_style="even">
             <label/>
             <trigger ref="Center_Me_1">
-              <label>{Center_Me}</label>
+              <label>{Center_Me_1}</label>
             </trigger>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
             <trigger ref="Save_Map_Settings_1">
-              <label>{Save_Map_Settings}</label>
+              <label>{Save_Map_Settings_1}</label>
             </trigger>
           </group>
         </group>
@@ -254,7 +262,7 @@
           <group ref="Col_1" faims_style="large">
             <label/>
             <trigger ref="Search_Button">
-              <label>{Search}</label>
+              <label>{Search_Button}</label>
             </trigger>
           </group>
         </group>
@@ -319,10 +327,10 @@
           <label>{Tree_ID}</label>
         </input>
         <input faims_attribute_name="Tree author" faims_attribute_type="measure" ref="Tree_author" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Tree_author}</label>
         </input>
         <input faims_attribute_name="Tree timestamp" faims_attribute_type="measure" ref="Tree_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Tree_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -361,10 +369,10 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
-        <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+        <trigger ref="Find_this_in_the_map">
+          <label>{Find_this_in_the_map}</label>
         </trigger>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
@@ -374,7 +382,7 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
       </group>
       <group ref="Landscape_context">
@@ -430,15 +438,15 @@
         <input faims_attribute_name="Girth mm" faims_attribute_type="measure" ref="Girth_mm" faims_annotation="false" faims_certainty="false">
           <label>{Girth_mm}</label>
         </input>
-        <select1 faims_attribute_name="Tree Height" faims_attribute_type="vocab" ref="Tree_Height" faims_certainty="false">
-          <label>{Tree_Height}</label>
+        <select1 faims_attribute_name="Tree height" faims_attribute_type="vocab" ref="Tree_height" faims_certainty="false">
+          <label>{Tree_height}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Condition" faims_attribute_type="vocab" ref="Condition" faims_annotation="false" faims_certainty="false">
-          <label>{Condition}</label>
+        <select1 faims_attribute_name="Tree condition" faims_attribute_type="vocab" ref="Tree_condition" faims_annotation="false" faims_certainty="false">
+          <label>{Tree_condition}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -450,17 +458,24 @@
         <input faims_attribute_name="Stump height mm" faims_attribute_type="measure" ref="Stump_height_mm" faims_annotation="false" faims_certainty="false">
           <label>{Stump_height_mm}</label>
         </input>
+        <select faims_attribute_name="Sources of damage" faims_attribute_type="vocab" ref="Sources_of_damage" faims_certainty="false">
+          <label>{Sources_of_damage}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
         <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_notes}</label>
         </input>
       </group>
-      <group ref="Scar_control" faims_scrollable="false">
-        <label>{Scar_control}</label>
-        <trigger ref="New_Scar">
-          <label>{New_Scar}</label>
+      <group ref="Scar" faims_scrollable="false">
+        <label>{Scar}</label>
+        <trigger ref="New_scar">
+          <label>{New_scar}</label>
         </trigger>
-        <select1 appearance="compact" ref="List_of_Related_Scars">
-          <label>{List_of_Related_Scars}</label>
+        <select1 appearance="compact" ref="List_of_related_scars">
+          <label>{List_of_related_scars}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -477,7 +492,7 @@
           </item>
         </select>
         <trigger ref="Paper_notes_and_sketches_Button_1">
-          <label>{Paper_notes_and_sketches}</label>
+          <label>{Paper_notes_and_sketches_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
           <label>{External_camera_ID}</label>
@@ -497,17 +512,17 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
-        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name" faims_certainty="false">
-          <label>{Survey_instrument_name}</label>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data" faims_certainty="false">
-          <label>{Survey_instrument_data}</label>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
         </input>
       </group>
     </group>
@@ -522,10 +537,10 @@
           <label>{Scar_ID}</label>
         </input>
         <input faims_attribute_name="Scar author" faims_attribute_type="measure" ref="Scar_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Scar_author}</label>
         </input>
         <input faims_attribute_name="Scar timestamp" faims_attribute_type="measure" ref="Scar_timestamp" faims_read_only="true">
-          <label>{Timestamp}</label>
+          <label>{Scar_timestamp}</label>
         </input>
         <select1 faims_attribute_name="Scar type" faims_attribute_type="vocab" ref="Scar_type">
           <label>{Scar_type}</label>
@@ -534,8 +549,24 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Scar Height Above Ground mm" faims_attribute_type="measure" ref="Scar_Height_Above_Ground_mm">
-          <label>{Scar_Height_Above_Ground_mm}</label>
+        <select1 appearance="full" faims_attribute_name="Axe marks present" faims_attribute_type="vocab" ref="Axe_marks_present" faims_certainty="false">
+          <label>{Axe_marks_present}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Axe mark count" faims_attribute_type="measure" ref="Axe_mark_count" faims_annotation="false">
+          <label>{Axe_mark_count}</label>
+        </input>
+        <input faims_attribute_name="Maximum axe mark length mm" faims_attribute_type="measure" ref="Maximum_axe_mark_length_mm" faims_annotation="false">
+          <label>{Maximum_axe_mark_length_mm}</label>
+        </input>
+        <input faims_attribute_name="Scar height above ground mm" faims_attribute_type="measure" ref="Scar_height_above_ground_mm">
+          <label>{Scar_height_above_ground_mm}</label>
+        </input>
+        <input faims_attribute_name="Scar orientation degrees" faims_attribute_type="measure" ref="Scar_orientation_degrees">
+          <label>{Scar_orientation_degrees}</label>
         </input>
         <input faims_attribute_name="Scar length mm" faims_attribute_type="measure" ref="Scar_length_mm">
           <label>{Scar_length_mm}</label>
@@ -557,13 +588,13 @@
           </item>
         </select>
         <trigger ref="Device_photos_of_scar_Button_1">
-          <label>{Device_photos_of_scar}</label>
+          <label>{Device_photos_of_scar_Button_1}</label>
         </trigger>
         <input faims_attribute_name="Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
           <label>{Additional_notes}</label>
         </input>
         <select1 faims_attribute_name="External camera ID scars" faims_attribute_type="vocab" ref="External_camera_ID_scars" faims_certainty="false">
-          <label>{External_camera_ID__scars_}</label>
+          <label>{External_camera_ID_scars}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -580,10 +611,10 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
-        <trigger ref="New_Scar">
-          <label>{New_Scar}</label>
+        <trigger ref="New_scar">
+          <label>{New_scar}</label>
         </trigger>
       </group>
     </group>

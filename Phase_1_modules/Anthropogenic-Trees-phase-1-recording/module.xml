@@ -1,9 +1,9 @@
 <!--@POSTPROC: ./postproc.sh-->
 <module>
 <User_List f="nodata">
-  <User_List f="noscroll">
-    <User_List t="list" f="nolabel user" l="Control"/>
-  </User_List>
+  <User_list f="noscroll">
+    <User_list t="list" f="nolabel user" l="Control"/>
+  </User_list>
 <!--   <Manual>
     <Manual t="webview" f="nolabel"/>
   </Manual> -->
@@ -17,7 +17,7 @@
      -->
 
 
-    <New_Tree t="button" l="Tree"/>
+    <New_tree t="button" l="Tree"/>
 
      <GPS_diagnostics t="gpsdiag"/>
     <Recent_records t="list"/>
@@ -54,14 +54,10 @@
     <Tree_ID f="autonum nocertainty"/>
     <author f="nocertainty noannotation"/>
     <timestamp f="nocertainty noannotation"/>
-<!--    <Level_of_recording f="nocertainty">
-        <desc>Detail the recording approach used</desc>-->
-        <!--@SOURCE: ../../vocab/phase.xml-->
-  <!--  </Level_of_recording>-->
     <gps f="notnull"/>
-    <Find_This_in_The_Map l="Control/Map">
-        Find This in The Map...
-      </Find_This_in_The_Map>
+    <Find_this_in_the_map l="Control/Map">
+        Find this in the map...
+      </Find_this_in_the_map>
     <Device_photos t="camera" f="nocertainty">
         <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
     </Device_photos>
@@ -103,29 +99,32 @@
         <desc>Girth should be measured at 'chest height' i.e. 1.3 m above ground, in milimeters.</desc>
 
     </Girth_mm>
-    <Tree_Height f="nocertainty">
+    <Tree_height f="nocertainty">
         <desc>Choose the most appropriate size range for this tree. Select 'indeterminate' for all felled trees or those that have lost upper limbs</desc>
         <!--@SOURCE: ../../vocab/tree_height.xml-->
-    </Tree_Height>
-    <Condition f="nocertainty noannotation">
+    </Tree_height>
+    <Tree_condition f="nocertainty noannotation">
         <desc>Assess the condition of the tree. For living trees, consider issues such as the number of dead or missing limbs, and areas of damage</desc>
         <!--@SOURCE: ../../vocab/tree_condition.xml-->
-    </Condition>
+    </Tree_condition>
     <Number_of_scars b="integer" f="nocertainty noannotation">
         <desc>List the total number of scars recorded for this tree</desc>
     </Number_of_scars>
     <Stump_height_mm b="decimal" f="nocertainty noannotation">
         <desc>Measure the height, in millimetres, of any stumps associated with this tree</desc>
     </Stump_height_mm>
+    <Sources_of_damage t="checkbox" f="nocertainty">
+        <!--@SOURCE: ../../vocab/manage_damage.xml-->
+    </Sources_of_damage>
     <Additional_notes f="nocertainty noannotation">
       <desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
       </desc>
     </Additional_notes>
   </Feature_details>
-  <Scar_control f="noscroll">
-    <New_Scar t="button" lc="Scar"/>
-    <List_of_Related_Scars t="list" ec="Scar"/>
-  </Scar_control>
+  <Scar f="noscroll">
+    <New_scar t="button" lc="Scar"/>
+    <List_of_related_scars t="list" ec="Scar"/>
+  </Scar>
   <Supplementary>
     <Paper_notes_and_sketches t="camera" f="nocertainty">
       <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
@@ -142,15 +141,17 @@
       <desc>Upload files on server, and annotate those files with captions.
       </desc>
     </External_camera_image_attachment>
-    <Survey_instrument_name f="nocertainty">
-        <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-        <!--@SOURCE: ../../vocab/survey_instr.xml-->
-    </Survey_instrument_name>
-    <Survey_instrument_data f="nocertainty">
-        <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
-    </Survey_instrument_data>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Tree>
+
 <Scar>
   <fmt>TR{{Tree_ID}}-SC{{Scar_ID}}</fmt>
   <Scar>
@@ -161,9 +162,20 @@
     <Scar_type>
       <!--@SOURCE: ../../vocab/scar_types.xml-->
     </Scar_type>
-    <Scar_Height_Above_Ground_mm b="decimal">
+    <Axe_marks_present t="radio" f="nocertainty">
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Axe_marks_present>
+    <Axe_mark_count b="integer" f="noannotation"/>
+    <Maximum_axe_mark_length_mm b="decimal" f="noannotation">
+      Maximum axe mark length (mm)
+    </Maximum_axe_mark_length_mm>
+    <Scar_height_above_ground_mm b="decimal">
         <desc>Measure from the ground surface to the bottom of the scar, if applicable. Please note that the scar base is the lowermost area of axe damage, rather than the scar dry face</desc>
-    </Scar_Height_Above_Ground_mm>
+    </Scar_height_above_ground_mm>
+    <Scar_orientation_degrees b="decimal">
+      Scar orientation (degrees)
+      <desc>What is the approximate compass bearing of the scar</desc>
+    </Scar_orientation_degrees>
     <Scar_length_mm b="decimal">
         <desc>Measure the maximum length of scar, i.e., between the upper- and lower-most cut marks observed</desc>
     </Scar_length_mm>
@@ -195,7 +207,7 @@
       <desc>Upload files on server, and annotate those files with captions.
       </desc>
     </External_camera_image_attachment>
-    <New_Scar t="button"/>
+    <New_scar t="button"/>
 
   </Scar>
 </Scar>

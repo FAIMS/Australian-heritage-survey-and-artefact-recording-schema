@@ -1,0 +1,16 @@
+<opts>
+  <opt>Fire</opt>
+  <opt>Rot, decay or weathering</opt>
+  <opt>Erosion</opt>
+  <opt>Insects and termites</opt>
+  <opt>Animals, burrowing</opt>
+  <opt>Animals, stock movement</opt>
+  <opt>Animals, abrasion</opt>
+  <opt>Ringbarking</opt>
+  <opt>Land clearance</opt>
+  <opt>Vehicle damage</opt>
+  <opt>Ground disturbance</opt>
+  <opt>Recent graffiti</opt>
+  <opt>Litter and rubbish</opt>
+  <opt>Other</opt>
+</opts>
