@@ -51,7 +51,7 @@
 <Tree>
 	<fmt>TR{{Tree_ID}}</fmt>
 	<General>
-		<Tree_ID f="id autonum nocertainty"/>
+		<Tree_ID f="autonum nocertainty"/>
 		<author f="nocertainty noannotation"/>
 		<timestamp f="nocertainty noannotation"/>
 <!--		<Level_of_recording f="nocertainty">
@@ -154,8 +154,8 @@
 <Scar>
 	<fmt>TR{{Tree_ID}}-SC{{Scar_ID}}</fmt>
 	<Scar>
-		<Tree_ID f="id nocertainty" i="Tree/General/Tree_ID" />
-		<Scar_ID f="id autonum nocertainty"/>
+		<Tree_ID f="nocertainty" i="Tree/General/Tree_ID" />
+		<Scar_ID f="autonum nocertainty"/>
 		<author f="nocertainty"/>
 		<timestamp/>
 		<Scar_type>
