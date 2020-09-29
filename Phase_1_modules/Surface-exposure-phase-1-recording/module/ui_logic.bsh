@@ -1,17 +1,18 @@
 /*
- * GENERATED WITH FAIMS-TOOLS, SHA1: d0634cb0d5faf3ee4139b0e307faf507cdd6e447
+ * GENERATED WITH FAIMS-TOOLS, SHA1: 0464ffa4896c3c209cd6552656235739c87ceee7
  */
 import android.util.Log;
 import android.os.Build.MODEL;
 import java.util.concurrent.atomic.AtomicInteger;
 import android.database.DatabaseUtils;
+import java.util.concurrent.Callable;
 
 // Beanshell won't let me write "\0".
 final String SEP = Character.toString ((char) 0);
 
 final String MSG_LOADING = "Loading...";
 
-final String USER_MENU_PATH = "User_List/User_List/User_List";
+final String USER_MENU_PATH = "User_List/User_list/User_list";
 userMenuPath = USER_MENU_PATH; // Depricated. Use `USER_MENU_PATH` instead
 
 final long SESS_START_TIME = System.currentTimeMillis();
@@ -311,11 +312,13 @@ HashMap ATTRIB_NAMES_NON_STANDARD         = new HashMap();
 List    NODATA_TAB_GROUPS                 = new ArrayList();
 List    NOAUTOSAVE_TAB_GROUPS             = new ArrayList();
 HashSet NOAUTOSAVE_TAB_GROUPS_AS_HASH_SET = null;
+HashMap REF_TO_FLAG_STRING                = new HashMap();
+
 NODATA_TAB_GROUPS.add("User_List");
 NODATA_TAB_GROUPS.add("Control");
 
-REF_TO_TYPE.put("User_List/User_List/User_List", "list");
-REF_TO_TYPE.put("Control/Control/New_Surface_Exposure", "button");
+REF_TO_TYPE.put("User_List/User_list/User_list", "list");
+REF_TO_TYPE.put("Control/Control/New_surface_exposure", "button");
 REF_TO_TYPE.put("Control/Control/GPS_diagnostics", "gpsdiag");
 REF_TO_TYPE.put("Control/Control/Recent_records", "list");
 REF_TO_TYPE.put("Control/Map/Map", "map");
@@ -326,7 +329,7 @@ REF_TO_TYPE.put("Control/Search/Search_Button", "button");
 REF_TO_TYPE.put("Control/Search/Entity_Types", "dropdown");
 REF_TO_TYPE.put("Control/Search/Entity_List", "list");
 REF_TO_TYPE.put("Control/Autonumbering/Next_Surface_Exposure_ID", "input");
-REF_TO_TYPE.put("Control/Autonumbering/Next_Surface_Exposure_Boundary_Point_ID", "input");
+REF_TO_TYPE.put("Control/Autonumbering/Next_Surface_Exposure_Coordinate_ID", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Surface_Exposure_ID", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Surface_Exposure_author", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Surface_Exposure_timestamp", "input");
@@ -336,12 +339,15 @@ REF_TO_TYPE.put("Surface_Exposure/General/Northing", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Easting", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Accuracy", "input");
 REF_TO_TYPE.put("Surface_Exposure/General/Take_From_GPS_1", "button");
-REF_TO_TYPE.put("Surface_Exposure/General/Find_This_in_The_Map", "button");
-REF_TO_TYPE.put("Surface_Exposure/General/Boundary_criterion", "dropdown");
+REF_TO_TYPE.put("Surface_Exposure/General/Find_this_in_the_map", "button");
 REF_TO_TYPE.put("Surface_Exposure/General/Device_photos", "camera");
 REF_TO_TYPE.put("Surface_Exposure/General/Device_photos_Button_1", "button");
-REF_TO_TYPE.put("Surface_Exposure/Boundary/New_Boundary_Point", "button");
-REF_TO_TYPE.put("Surface_Exposure/Boundary/List_of_Related_Boundary_Points", "list");
+REF_TO_TYPE.put("Surface_Exposure/Geometry/Guide", "webview");
+REF_TO_TYPE.put("Surface_Exposure/Geometry/Site_boundary_criterion", "dropdown");
+REF_TO_TYPE.put("Surface_Exposure/Geometry/Geometry_type", "dropdown");
+REF_TO_TYPE.put("Surface_Exposure/Geometry/Geometry_additional_comments", "input");
+REF_TO_TYPE.put("Surface_Exposure/Geometry/Record_coordinate", "button");
+REF_TO_TYPE.put("Surface_Exposure/Geometry/List_of_related_coordinates", "dropdown");
 REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Landform_pattern", "dropdown");
 REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Landform_element", "dropdown");
 REF_TO_TYPE.put("Surface_Exposure/Landscape_context/Dominant_vegetation_type", "dropdown");
@@ -369,31 +375,31 @@ REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_ID", "dropdown")
 REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_file_names_and_attachment", "input");
 REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_image_attachment", "file");
 REF_TO_TYPE.put("Surface_Exposure/Supplementary/External_camera_image_attachment_Button_1", "button");
-REF_TO_TYPE.put("Surface_Exposure/Supplementary/Survey_instrument_name", "dropdown");
-REF_TO_TYPE.put("Surface_Exposure/Supplementary/Survey_instrument_data", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_Point_ID", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_ID", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point_timestamp", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Latitude", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Longitude", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Northing", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Easting", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Accuracy", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Take_From_GPS_1", "button");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "button");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Comment", "input");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/New_Boundary_Point", "button");
-REF_TO_TYPE.put("User_List/User_List", "tab");
+REF_TO_TYPE.put("Surface_Exposure/Supplementary/Additional_edits_or_uploads_required", "dropdown");
+REF_TO_TYPE.put("Surface_Exposure/Supplementary/Editing_notes", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Surface_Exposure_ID", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Surface_Exposure_Coordinate_ID", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Comment", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Coordinate_timestamp", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Latitude", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Longitude", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Northing", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Easting", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Accuracy", "input");
+REF_TO_TYPE.put("Coordinate/Coordinate/Take_From_GPS_1", "button");
+REF_TO_TYPE.put("Coordinate/Coordinate/Find_this_in_the_map", "button");
+REF_TO_TYPE.put("Coordinate/Coordinate/New_coordinate", "button");
+REF_TO_TYPE.put("User_List/User_list", "tab");
 REF_TO_TYPE.put("Control/Control", "tab");
 REF_TO_TYPE.put("Control/Map", "tab");
 REF_TO_TYPE.put("Control/Search", "tab");
 REF_TO_TYPE.put("Control/Autonumbering", "tab");
 REF_TO_TYPE.put("Surface_Exposure/General", "tab");
-REF_TO_TYPE.put("Surface_Exposure/Boundary", "tab");
+REF_TO_TYPE.put("Surface_Exposure/Geometry", "tab");
 REF_TO_TYPE.put("Surface_Exposure/Landscape_context", "tab");
 REF_TO_TYPE.put("Surface_Exposure/Feature_details", "tab");
 REF_TO_TYPE.put("Surface_Exposure/Supplementary", "tab");
-REF_TO_TYPE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point", "tab");
+REF_TO_TYPE.put("Coordinate/Coordinate", "tab");
 
 DATA_REFS.add("Surface_Exposure/General/Surface_Exposure_ID");
 DATA_REFS.add("Surface_Exposure/General/Surface_Exposure_author");
@@ -403,8 +409,10 @@ DATA_REFS.add("Surface_Exposure/General/Longitude");
 DATA_REFS.add("Surface_Exposure/General/Northing");
 DATA_REFS.add("Surface_Exposure/General/Easting");
 DATA_REFS.add("Surface_Exposure/General/Accuracy");
-DATA_REFS.add("Surface_Exposure/General/Boundary_criterion");
 DATA_REFS.add("Surface_Exposure/General/Device_photos");
+DATA_REFS.add("Surface_Exposure/Geometry/Site_boundary_criterion");
+DATA_REFS.add("Surface_Exposure/Geometry/Geometry_type");
+DATA_REFS.add("Surface_Exposure/Geometry/Geometry_additional_comments");
 DATA_REFS.add("Surface_Exposure/Landscape_context/Landform_pattern");
 DATA_REFS.add("Surface_Exposure/Landscape_context/Landform_element");
 DATA_REFS.add("Surface_Exposure/Landscape_context/Dominant_vegetation_type");
@@ -430,17 +438,17 @@ DATA_REFS.add("Surface_Exposure/Supplementary/Paper_notes_and_sketches");
 DATA_REFS.add("Surface_Exposure/Supplementary/External_camera_ID");
 DATA_REFS.add("Surface_Exposure/Supplementary/External_camera_file_names_and_attachment");
 DATA_REFS.add("Surface_Exposure/Supplementary/External_camera_image_attachment");
-DATA_REFS.add("Surface_Exposure/Supplementary/Survey_instrument_name");
-DATA_REFS.add("Surface_Exposure/Supplementary/Survey_instrument_data");
-DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_Point_ID");
-DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_ID");
-DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point_timestamp");
-DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Latitude");
-DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Longitude");
-DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Northing");
-DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Easting");
-DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Accuracy");
-DATA_REFS.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Comment");
+DATA_REFS.add("Surface_Exposure/Supplementary/Additional_edits_or_uploads_required");
+DATA_REFS.add("Surface_Exposure/Supplementary/Editing_notes");
+DATA_REFS.add("Coordinate/Coordinate/Surface_Exposure_ID");
+DATA_REFS.add("Coordinate/Coordinate/Surface_Exposure_Coordinate_ID");
+DATA_REFS.add("Coordinate/Coordinate/Comment");
+DATA_REFS.add("Coordinate/Coordinate/Coordinate_timestamp");
+DATA_REFS.add("Coordinate/Coordinate/Latitude");
+DATA_REFS.add("Coordinate/Coordinate/Longitude");
+DATA_REFS.add("Coordinate/Coordinate/Northing");
+DATA_REFS.add("Coordinate/Coordinate/Easting");
+DATA_REFS.add("Coordinate/Coordinate/Accuracy");
 
 
 
@@ -454,21 +462,109 @@ HIER_REFS.add("Surface_Exposure/Landscape_context/Dominant_vegetation_type");
 TAB_GROUPS_AS_LIST.add("User_List");
 TAB_GROUPS_AS_LIST.add("Control");
 TAB_GROUPS_AS_LIST.add("Surface_Exposure");
-TAB_GROUPS_AS_LIST.add("Surface_Exposure_Boundary_point");
+TAB_GROUPS_AS_LIST.add("Coordinate");
 
-TABS_AS_LIST.add("User_List/User_List");
+TABS_AS_LIST.add("User_List/User_list");
 TABS_AS_LIST.add("Control/Control");
 TABS_AS_LIST.add("Control/Map");
 TABS_AS_LIST.add("Control/Search");
 TABS_AS_LIST.add("Control/Autonumbering");
 TABS_AS_LIST.add("Surface_Exposure/General");
-TABS_AS_LIST.add("Surface_Exposure/Boundary");
+TABS_AS_LIST.add("Surface_Exposure/Geometry");
 TABS_AS_LIST.add("Surface_Exposure/Landscape_context");
 TABS_AS_LIST.add("Surface_Exposure/Feature_details");
 TABS_AS_LIST.add("Surface_Exposure/Supplementary");
-TABS_AS_LIST.add("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point");
+TABS_AS_LIST.add("Coordinate/Coordinate");
 
 
+
+REF_TO_FLAG_STRING.put("User_List/User_list/User_list", "nolabel user");
+REF_TO_FLAG_STRING.put("Control/Control/New_surface_exposure", "");
+REF_TO_FLAG_STRING.put("Control/Control/GPS_diagnostics", "");
+REF_TO_FLAG_STRING.put("Control/Control/Recent_records", "");
+REF_TO_FLAG_STRING.put("Control/Map/Map", "nolabel");
+REF_TO_FLAG_STRING.put("Control/Map/Center_Me_1", "");
+REF_TO_FLAG_STRING.put("Control/Map/Save_Map_Settings_1", "");
+REF_TO_FLAG_STRING.put("Control/Search/Search_Term", "");
+REF_TO_FLAG_STRING.put("Control/Search/Search_Button", "");
+REF_TO_FLAG_STRING.put("Control/Search/Entity_Types", "");
+REF_TO_FLAG_STRING.put("Control/Search/Entity_List", "");
+REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Surface_Exposure_ID", "notnull");
+REF_TO_FLAG_STRING.put("Control/Autonumbering/Next_Surface_Exposure_Coordinate_ID", "notnull");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Surface_Exposure_ID", "autonum nocertainty id");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Surface_Exposure_author", "readonly noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Surface_Exposure_timestamp", "readonly noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Latitude", "readonly notnull");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Longitude", "readonly notnull");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Northing", "readonly notnull");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Easting", "readonly notnull");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Accuracy", "readonly notnull");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Take_From_GPS_1", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Find_this_in_the_map", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Device_photos", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General/Device_photos_Button_1", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Geometry/Guide", "nolabel");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Geometry/Site_boundary_criterion", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Geometry/Geometry_type", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Geometry/Geometry_additional_comments", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Geometry/Record_coordinate", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Geometry/List_of_related_coordinates", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Landscape_context/Landform_pattern", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Landscape_context/Landform_element", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Landscape_context/Dominant_vegetation_type", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Landscape_context/Dominant_vegetation_cover", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Landscape_context/Additional_environmental_notes", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Landscape_context/Morphology_type", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Landscape_context/Morphology_notes", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Length_m", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Width_m", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Other_measurement", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Stone_artefact_count", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Stone_artefact_types", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Stone_artefact_raw_materials", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Historical_artefact_count", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Historical_artefact_types", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/In_situ_hearth_count", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Heating_element_scatters", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Heating_element_types_observed", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Faunal_materials_present", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Subsurface_potential", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details/Additional_notes", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Supplementary/Paper_notes_and_sketches", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Supplementary/Paper_notes_and_sketches_Button_1", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Supplementary/External_camera_ID", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Supplementary/External_camera_file_names_and_attachment", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Supplementary/External_camera_image_attachment", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Supplementary/External_camera_image_attachment_Button_1", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Supplementary/Additional_edits_or_uploads_required", "nocertainty");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Supplementary/Editing_notes", "nocertainty");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Surface_Exposure_ID", "nocertainty id");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Surface_Exposure_Coordinate_ID", "autonum nocertainty id");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Comment", "noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Coordinate_timestamp", "readonly noannotation nocertainty");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Latitude", "readonly notnull");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Longitude", "readonly notnull");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Northing", "readonly notnull");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Easting", "readonly notnull");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Accuracy", "readonly notnull");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Take_From_GPS_1", "");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/Find_this_in_the_map", "");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate/New_coordinate", "");
+REF_TO_FLAG_STRING.put("User_List/User_list", "noscroll");
+REF_TO_FLAG_STRING.put("Control/Control", "noscroll");
+REF_TO_FLAG_STRING.put("Control/Map", "noscroll");
+REF_TO_FLAG_STRING.put("Control/Search", "nodata noscroll");
+REF_TO_FLAG_STRING.put("Control/Autonumbering", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/General", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Geometry", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Landscape_context", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Feature_details", "");
+REF_TO_FLAG_STRING.put("Surface_Exposure/Supplementary", "");
+REF_TO_FLAG_STRING.put("Coordinate/Coordinate", "");
+REF_TO_FLAG_STRING.put("User_List", "nodata");
+REF_TO_FLAG_STRING.put("Control", "nodata");
+REF_TO_FLAG_STRING.put("Surface_Exposure", "");
+REF_TO_FLAG_STRING.put("Coordinate", "");
 
 String getType(String ref) {
   String type = REF_TO_TYPE.get(ref);
@@ -581,7 +677,7 @@ HashSet getTabsAsHashSet() {
 List getStartingIdRefs() {
   List l = new ArrayList();
   l.add("Control/Autonumbering/Next_Surface_Exposure_ID");
-  l.add("Control/Autonumbering/Next_Surface_Exposure_Boundary_Point_ID");
+  l.add("Control/Autonumbering/Next_Surface_Exposure_Coordinate_ID");
   return l;
 }
 
@@ -741,6 +837,10 @@ String getArch16nKey(String ref) {
   else                     return "{" + lastRefPart + "}";
 }
 
+String getArch16nVal(String ref) {
+  return arch16nSubstituteValues(getArch16nKey(ref));
+}
+
 String guessArch16nVal(String ref) {
   return guessArch16nValFromRef(ref);
 }
@@ -770,7 +870,7 @@ String guessArch16nValFromKey(String key) {
  */
 String arch16nSubstituteValues(String unSubbed) {
   if (isInUnitTestTime())
-    return "";
+    return unSubbed;
 
   List entries = new ArrayList();
   entries.add(new NameValuePair(unSubbed, ""));
@@ -1668,11 +1768,11 @@ void timedPopulateCursorList(String ref, String q, int limit) {
 void setUpTypeHierarchy() {
   //- 
   //  - Surface Exposure
-  //    - Surface Exposure Boundary point
+  //    - Coordinate
 
   n0 = Tree("", 1);
   n1 = Tree("Surface Exposure", 1);
-  n2 = Tree("Surface Exposure Boundary point", 1);
+  n2 = Tree("Coordinate", 1);
 
   n0.addChild(n1);
 
@@ -2488,7 +2588,7 @@ void inheritFieldValue(String src, String dst) {
   inheritFieldValue(src, dst, true);
 }
 
-inheritFieldValue("Surface_Exposure/General/Surface_Exposure_ID", "Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_ID", true);
+inheritFieldValue("Surface_Exposure/General/Surface_Exposure_ID", "Coordinate/Coordinate/Surface_Exposure_ID", true);
 
 /******************************************************************************/
 /*                            NEW TAB REDIRECTION                             */
@@ -2707,15 +2807,23 @@ boolean populateMenu(
   return true;
 }
 
+boolean populateMenu(String ref, List entries, boolean hasNull) {
+  return populateMenu(null, ref, "", entries, hasNull);
+}
+
 boolean populateMenu(String ref, List entries) {
   return populateMenu(null, ref, "", entries, true);
 }
 
-void populateMenu(String ref, String entry) {
+void populateMenu(String ref, String entry, boolean hasNull) {
   List entries  = new ArrayList();
   entries.add(new NameValuePair(entry, ""));
 
-  populateMenu(ref, entries);
+  populateMenu(ref, entries, hasNull);
+}
+
+void populateMenu(String ref, String entry) {
+  populateMenu(ref, entry, false);
 }
 
 /******************************************************************************/
@@ -3218,35 +3326,32 @@ String validateFields(List fields, String format) {
   return out;
 }
 
-void validateControl() {
+List getRefsToValidateByTabGroup(String tabGroup) {
   List f = new ArrayList(); // Fields to be validated
-  f.add(fieldPair("Control/Autonumbering/Next_Surface_Exposure_ID", "{Next_Surface_Exposure_ID}"));
-  f.add(fieldPair("Control/Autonumbering/Next_Surface_Exposure_Boundary_Point_ID", "{Next_Surface_Exposure_Boundary_Point_ID}"));
+  for (String ref : getRefsMatching(tabGroup + "/*"))
+    if (REF_TO_FLAG_STRING.get(ref).contains("notnull"))
+      f.add(fieldPair(ref, getArch16nKey(ref)));
+  return f;
+}
 
-  String validationMessage = validateFields(f, "PLAINTEXT");
+String getValidationMessage(String tabGroup, String format) {
+  List f = getRefsToValidateByTabGroup(tabGroup);
+  return validateFields(f, format);
+}
+
+void validateTabGroup(String tabGroup) {
+  String validationMessage = getValidationMessage(tabGroup, "PLAINTEXT");
   showWarning("{validation_results}", validationMessage);
+}
+
+void validateControl() {
+  validateTabGroup("Control");
 }
 void validateSurfaceExposure() {
-  List f = new ArrayList(); // Fields to be validated
-  f.add(fieldPair("Surface_Exposure/General/Latitude", "{Latitude}"));
-  f.add(fieldPair("Surface_Exposure/General/Longitude", "{Longitude}"));
-  f.add(fieldPair("Surface_Exposure/General/Northing", "{Northing}"));
-  f.add(fieldPair("Surface_Exposure/General/Easting", "{Easting}"));
-  f.add(fieldPair("Surface_Exposure/General/Accuracy", "{Accuracy}"));
-
-  String validationMessage = validateFields(f, "PLAINTEXT");
-  showWarning("{validation_results}", validationMessage);
+  validateTabGroup("Surface_Exposure");
 }
-void validateSurfaceExposureBoundarypoint() {
-  List f = new ArrayList(); // Fields to be validated
-  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Latitude", "{Latitude}"));
-  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Longitude", "{Longitude}"));
-  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Northing", "{Northing}"));
-  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Easting", "{Easting}"));
-  f.add(fieldPair("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Accuracy", "{Accuracy}"));
-
-  String validationMessage = validateFields(f, "PLAINTEXT");
-  showWarning("{validation_results}", validationMessage);
+void validateCoordinate() {
+  validateTabGroup("Coordinate");
 }
 
 
@@ -3399,7 +3504,7 @@ void populateAuthorAndTimestamp(String tabgroup) {
   Map tabgroupToTimestamp = new HashMap();
   tabgroupToAuthor.put("Surface_Exposure", "Surface_Exposure/General/Surface_Exposure_author");
   tabgroupToTimestamp.put("Surface_Exposure", "Surface_Exposure/General/Surface_Exposure_timestamp");
-  tabgroupToTimestamp.put("Surface_Exposure_Boundary_point", "Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point_timestamp");
+  tabgroupToTimestamp.put("Coordinate", "Coordinate/Coordinate/Coordinate_timestamp");
   String authorPath    = tabgroupToAuthor.get(tabgroup);
   String timestampPath = tabgroupToTimestamp.get(tabgroup);
 
@@ -3415,19 +3520,19 @@ for (String tabGroup : getTabGroups()) {
   addOnEvent(tabGroup, "show", funStr);
 }
 
-void onClickUserListUserList () {
+void onClickUserListUserlist () {
   newTab("Control", true);
 }
 
-void onClickSurfaceExposureFindThisinTheMap () {
+void onClickSurfaceExposureFindthisinthemap () {
   newTab("Control/Map", true);
 }
 
-void onClickSurfaceExposureBoundarypointFindThisinTheMap () {
+void onClickCoordinateFindthisinthemap () {
   newTab("Control/Map", true);
 }
 
-void onClickControlNewSurfaceExposure () {
+void onClickControlNewsurfaceexposure () {
   parentTabgroup__ = "Control";
   newSurfaceExposure();
 }
@@ -3438,14 +3543,19 @@ void onClickControlNewSurfaceExposure () {
 
 
 
-void onClickSurfaceExposureNewBoundaryPoint () {
-  newSurfaceExposureBoundarypoint("Surface_Exposure");
+void onClickSurfaceExposureRecordcoordinate () {
+  triggerAutoSave();
+  if (getUuid("Surface_Exposure") == null) {
+    showToast("{You_must_save_this_tabgroup_first}");
+    return;
+  }
+  newCoordinate("Surface_Exposure");
 }
-addOnEvent("User_List/User_List/User_List", "click", "onClickUserListUserList()");
-addOnEvent("Control/Control/New_Surface_Exposure", "click", "onClickControlNewSurfaceExposure()");
-addOnEvent("Surface_Exposure/General/Find_This_in_The_Map", "click", "onClickSurfaceExposureFindThisinTheMap()");
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "click", "onClickSurfaceExposureBoundarypointFindThisinTheMap()");
-addOnEvent("Surface_Exposure/Boundary/New_Boundary_Point", "click", "onClickSurfaceExposureNewBoundaryPoint()");
+addOnEvent("User_List/User_list/User_list", "click", "onClickUserListUserlist()");
+addOnEvent("Control/Control/New_surface_exposure", "click", "onClickControlNewsurfaceexposure()");
+addOnEvent("Surface_Exposure/General/Find_this_in_the_map", "click", "onClickSurfaceExposureFindthisinthemap()");
+addOnEvent("Coordinate/Coordinate/Find_this_in_the_map", "click", "onClickCoordinateFindthisinthemap()");
+addOnEvent("Surface_Exposure/Geometry/Record_coordinate", "click", "onClickSurfaceExposureRecordcoordinate()");
 
 /******************************************************************************/
 /*                   AUDIO, CAMERA, FILE AND VIDEO BINDINGS                   */
@@ -3473,8 +3583,8 @@ void addNavigationButtons(String tabgroup) {
   removeNavigationButtons();
   List tabgroupsToValidate = new ArrayList();
   tabgroupsToValidate.add("Control");
+  tabgroupsToValidate.add("Coordinate");
   tabgroupsToValidate.add("Surface_Exposure");
-  tabgroupsToValidate.add("Surface_Exposure_Boundary_point");
   addNavigationButton("new", new ActionButtonCallback() {
     actionOnLabel() {
       "{New}";
@@ -3542,6 +3652,12 @@ void saveEntitiesToRel(String type, String entity1, String entity2, String callb
   saveEntitiesToHierRel(type, entity1, entity2, e1verb, e2verb, callback);
 }
 
+void saveEntitiesToRel(String type, String entity1, String entity2, Callable callback) {
+  String e1verb = null;
+  String e2verb = null;
+  saveEntitiesToHierRel(type, entity1, entity2, e1verb, e2verb, callback);
+}
+
 /** Saves two entity id's as a hierachical relation with some callback executed. **/
 void saveEntitiesToHierRel(String type, String entity1, String entity2, String e1verb, String e2verb, String callback) {
   if (isNull(entity1) || isNull(entity2)) return;
@@ -3550,6 +3666,44 @@ void saveEntitiesToHierRel(String type, String entity1, String entity2, String e
     onSaveAssociation(entity_id, rel_id) {
       if(!isNull(callback)) {
          execute(callback);
+      }
+    }
+    onError(message) {
+      Log.e("saveEntitiesToHierRel", message);
+      showToast(message);
+    }
+  };
+
+  SaveCallback addMoreToRel = new SaveCallback() {
+    onSaveAssociation(entity_id, rel_id) {
+      addReln(entity2, rel_id, e2verb, execCallback);
+    }
+    onError(message) {
+      Log.e("saveEntitiesToHierRel", message);
+      showToast(message);
+    }
+  };
+
+  SaveCallback addToRel = new SaveCallback() {
+    onSave(rel_id, newRecord) {
+      addReln(entity1, rel_id, e1verb, addMoreToRel);
+    }
+    onError(message) {
+      Log.e("saveEntitiesToHierRel", message);
+      showToast(message);
+    }
+  };
+
+  saveRel(null, type, null, null, addToRel);
+}
+
+void saveEntitiesToHierRel(String type, String entity1, String entity2, String e1verb, String e2verb, Callable callback) {
+  if (isNull(entity1) || isNull(entity2)) return;
+
+  SaveCallback execCallback = new SaveCallback() {
+    onSaveAssociation(entity_id, rel_id) {
+      if(callback == null) {
+         callback.call();
       }
     }
     onError(message) {
@@ -3801,14 +3955,14 @@ void newSurfaceExposure (){
   newSurfaceExposure(null);
 }
 
-void newSurfaceExposureBoundarypoint(String parent){
-  String tabgroup = "Surface_Exposure_Boundary_point";
+void newCoordinate(String parent){
+  String tabgroup = "Coordinate";
   if (!isNull(parent)) {
     triggerAutoSave();
     parentTabgroup   = parent;
     parentTabgroup__ = parent;
   }
-  if (isNull("Control/Autonumbering/Next_Surface_Exposure_Boundary_Point_ID")) {
+  if (isNull("Control/Autonumbering/Next_Surface_Exposure_Coordinate_ID")) {
     showWarning("{Alert}", "{A_next_ID_has_not_been_entered_please_provide_one}");
     return;
   }
@@ -3817,13 +3971,13 @@ void newSurfaceExposureBoundarypoint(String parent){
   newTabGroup(tabgroup);
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
-  incAutoNum("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_Point_ID");
+  incAutoNum("Coordinate/Coordinate/Surface_Exposure_Coordinate_ID");
 
   executeOnEvent(tabgroup, "create");
 }
 
-void newSurfaceExposureBoundarypoint (){
-  newSurfaceExposureBoundarypoint(null);
+void newCoordinate (){
+  newCoordinate(null);
 }
 void duplicateSurfaceExposure(){
   String tabgroup = "Surface_Exposure";
@@ -3876,12 +4030,12 @@ void duplicateSurfaceExposure(){
     }
   });
 }
-void duplicateSurfaceExposureBoundarypoint(){
-  String tabgroup = "Surface_Exposure_Boundary_point";
+void duplicateCoordinate(){
+  String tabgroup = "Coordinate";
   String uuidOld = getUuid(tabgroup);
   setUuid(tabgroup, "");
   disableAutoSave(tabgroup);
-  incAutoNum("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_Point_ID");
+  incAutoNum("Coordinate/Coordinate/Surface_Exposure_Coordinate_ID");
   clearGpsInTabGroup(tabgroup);
   populateAuthorAndTimestamp(tabgroup);
   populateEntityListsInTabGroup(tabgroup);
@@ -3924,7 +4078,7 @@ void duplicateSurfaceExposureBoundarypoint(){
   });
 }
 addOnEvent("Surface_Exposure", "save", "populateEntityListsOfArchEnt(\"Surface_Exposure\")");
-addOnEvent("Surface_Exposure_Boundary_point", "save", "populateEntityListsOfArchEnt(\"Surface_Exposure_Boundary_point\")");
+addOnEvent("Coordinate", "save", "populateEntityListsOfArchEnt(\"Coordinate\")");
 
 void doNotDelete(){
   showToast("{Delete_Cancelled}");
@@ -3933,9 +4087,9 @@ void doNotDelete(){
 addOnEvent("User_List", "show", "removeNavigationButtons()");
 addOnEvent("Control", "show", "removeNavigationButtons()");
 addOnEvent("Surface_Exposure", "show", "removeNavigationButtons()");
-addOnEvent("Surface_Exposure_Boundary_point", "show", "removeNavigationButtons()");
+addOnEvent("Coordinate", "show", "removeNavigationButtons()");
 addOnEvent("Surface_Exposure", "show", "addNavigationButtons(\"Surface_Exposure\")");
-addOnEvent("Surface_Exposure_Boundary_point", "show", "addNavigationButtons(\"Surface_Exposure_Boundary_point\")");
+addOnEvent("Coordinate", "show", "addNavigationButtons(\"Coordinate\")");
 
 /******************************************************************************/
 /*                                   SEARCH                                   */
@@ -3948,8 +4102,8 @@ addOnEvent("Control/Search/Search_Term"   , "click" , "clearSearch()");
 addOnEvent("Control/Search/Entity_Types"  , "click" , "search()");
 entityTypes = new ArrayList();
 entityTypes.add(new NameValuePair("{All}", ""));
+entityTypes.add(new NameValuePair("{Coordinate}", "Coordinate"));
 entityTypes.add(new NameValuePair("{Surface_Exposure}", "Surface Exposure"));
-entityTypes.add(new NameValuePair("{Surface_Exposure_Boundary_point}", "Surface Exposure Boundary point"));
 populateDropDown("Control/Search/Entity_Types", entityTypes);
 
 void clearSearch(){
@@ -3999,8 +4153,8 @@ void loadSurfaceExposureFrom(String uuid) {
   executeOnEvent(tabgroup, "prefetch");
   showTabGroup(tabgroup, uuid, cb);
 }
-void loadSurfaceExposureBoundarypointFrom(String uuid) {
-  String tabgroup = "Surface_Exposure_Boundary_point";
+void loadCoordinateFrom(String uuid) {
+  String tabgroup = "Coordinate";
   setUuid(tabgroup, uuid);
   if (isNull(uuid)) return;
 
@@ -4019,12 +4173,12 @@ void loadSurfaceExposureBoundarypointFrom(String uuid) {
 /*                          TAKE FROM GPS BUTTON(S)                           */
 /******************************************************************************/
 addOnEvent("Surface_Exposure/General/Take_From_GPS_1", "click", "takePoint(\"Surface_Exposure\")");
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Take_From_GPS_1", "click", "takePoint(\"Surface_Exposure_Boundary_point\")");
+addOnEvent("Coordinate/Coordinate/Take_From_GPS_1", "click", "takePoint(\"Coordinate\")");
 
 Map getTakeFromGpsMappings() {
   Map tabgroupToTabRef = new HashMap();
   tabgroupToTabRef.put("Surface_Exposure", "Surface_Exposure/General");
-  tabgroupToTabRef.put("Surface_Exposure_Boundary_point", "Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point");
+  tabgroupToTabRef.put("Coordinate", "Coordinate/Coordinate");
   return tabgroupToTabRef;
 }
 
@@ -4163,7 +4317,7 @@ void loadEntityFromScannedQrCode() {
 /******************************************************************************/
 Map AUTONUM_DEST_TO_SOURCE = new HashMap();
 AUTONUM_DEST_TO_SOURCE.put("Surface_Exposure/General/Surface_Exposure_ID", "Control/Autonumbering/Next_Surface_Exposure_ID");
-AUTONUM_DEST_TO_SOURCE.put("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_Point_ID", "Control/Autonumbering/Next_Surface_Exposure_Boundary_Point_ID");
+AUTONUM_DEST_TO_SOURCE.put("Coordinate/Coordinate/Surface_Exposure_Coordinate_ID", "Control/Autonumbering/Next_Surface_Exposure_Coordinate_ID");
 
 /*
  * If value of field specified by `ref` is null, sets the field to `defaultVal`,
@@ -4235,7 +4389,7 @@ void incAutoNum(String destPath) {
 /******************************************************************************/
 /*                         POPULATION VIA <MARKDOWN>                          */
 /******************************************************************************/
-
+populateWebViewHtml("Surface_Exposure/Geometry/Guide", "<p>Describe the geometry of the feature being recorded. If helpful, record a series of coordinates to accompany this. Note that it is generally not useful to record coordinates at an interval less than the GPS error margin. Temporary coordinates can be collected here and cross-referenced to those taken with a more precise instrument. Use the ‘comments’ field for each geometry point to record point identification numbers, if relevant. Instrument and job details can be noted on the ‘Supplementary’ tab.</p>\n");
 
 /******************************************************************************/
 /*                POPULATION OF ENTITY AND CHILD ENTITY LISTS                 */
@@ -4361,10 +4515,10 @@ String getEntityMenuPopulationFunction(String[] menuDescriptor) {
 
 ENTITY_MENUS = new ArrayList();
 ENTITY_MENUS.add(new String[] {
-    "Surface_Exposure/Boundary/List_of_Related_Boundary_Points",
+    "Surface_Exposure/Geometry/List_of_related_coordinates",
     "getUuid(\"Surface_Exposure\")",
-    "Surface Exposure Boundary point",
-    "Surface Exposure - Surface Exposure Boundary point"
+    "Coordinate",
+    "Surface Exposure - Coordinate"
 });
 for (m : ENTITY_MENUS) {
   String functionCall = getEntityMenuPopulationFunction(m);
@@ -4381,7 +4535,7 @@ for (m : ENTITY_MENUS) {
   addOnEvent(ref, evt, cmd);
 }
 
-addOnEvent("Surface_Exposure/Boundary/List_of_Related_Boundary_Points", "click", "loadEntity()");
+addOnEvent("Surface_Exposure/Geometry/List_of_related_coordinates", "click", "loadEntity(true)");
 /******************************************************************************/
 /*                             HANDWRITTEN LOGIC                              */
 /******************************************************************************/
@@ -4397,28 +4551,6 @@ startInternalGPS();
 /* Implements an extension to the search page which allows users to           */
 /* constrain their searches by user.                                          */
 /******************************************************************************/
-entityTypes = new ArrayList();
-entityTypes.add(new NameValuePair("{All}", ""));
-entityTypes.add(new NameValuePair("{Surface_Exposure}", "Surface Exposure"));
-// entityTypes.add(new NameValuePair("{Tree}", "Tree"));
-// entityTypes.add(new NameValuePair("{Scar}", "Scar"));
-// entityTypes.add(new NameValuePair("{Ceramic_Artefact}", "Ceramic Artefact"));
-// entityTypes.add(new NameValuePair("{Discrete_Hearth_Artefact}", "Discrete Hearth Artefact"));
-// entityTypes.add(new NameValuePair("{Flaked_Stone_Artefact}", "Flaked Stone Artefact"));
-// entityTypes.add(new NameValuePair("{Glass_Artefact}", "Glass Artefact"));
-// entityTypes.add(new NameValuePair("{Misc_Artefact}", "Misc Artefact"));
-// entityTypes.add(new NameValuePair("{Other_Stone_Artefact}", "Other Stone Artefact"));
-// entityTypes.add(new NameValuePair("{Burial_Boundary_point}", "Burial Boundary point"));
-// entityTypes.add(new NameValuePair("{Historical_Feature_Boundary_point}", "Historical Feature Boundary point"));
-// entityTypes.add(new NameValuePair("{Mound_Boundary_point}", "Mound Boundary point"));
-// entityTypes.add(new NameValuePair("{Other_Point_of_Interest_Boundary_point}", "Other Point of Interest Boundary point"));
-// entityTypes.add(new NameValuePair("{Rock_Shelter_Boundary_point}", "Rock Shelter Boundary point"));
-entityTypes.add(new NameValuePair("{Surface_Exposure_Boundary_point}", "Surface Exposure Boundary point"));
-
-
-
-populateDropDown("Control/Search/Entity_Types", entityTypes);
-
 delOnEvent("Control/Search", "show", "search()");
 addOnEvent("Control/Search", "show", "populateSelectUser()");
 addOnEvent("Control/Search", "show", "populateDate()");
@@ -4795,7 +4927,7 @@ onLoad() {
   
 // onMapEvent(MAP_REF, "clickCallback()", "selectCallback()");
 addDatabaseLayer("Surface Exposure", "Surface Exposure", "#980000");
-addBoundaryDatabaseLayer("Surface Exposure Boundary Point", "Surface Exposure Boundary point", "#980000");
+addBoundaryDatabaseLayer("Coordinate", "Coordinate", "#980000");
 // addDatabaseLayer("Mound", "Mound", "#4a86e8");
 // addBoundaryDatabaseLayer("Mound Boundary Point", "Mound Boundary point", "#4a86e8"); //lowercase P is critical. 
 // addDatabaseLayer("Rock Shelter", "Rock Shelter", "#b7b7b7");
@@ -4929,8 +5061,8 @@ selectCallback() {
 // addOnEvent("Other_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Rock_Shelter/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Surface_Exposure/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Surface_Exposure/General/Find_this_in_the_map", "click", "findThisInTheMap()");
+addOnEvent("Coordinate/Coordinate/Find_this_in_the_map", "click", "findThisInTheMap()");
 // addOnEvent("Tree/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 
 
@@ -4978,7 +5110,7 @@ addOnEvent("Control/Autonumbering", "leave", "validateAutonumbering()");
 /******* new record button in boundary tab ****/
 
 
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/New_Boundary_Point", "click", "newBoundaryPoint()");
+addOnEvent("Coordinate/Coordinate/New_coordinate", "click", "newBoundaryPoint()");
 
 void newBoundaryPoint(){
 	tabgroup = getDisplayedTabGroup();
@@ -5001,7 +5133,7 @@ void newBoundaryPoint(){
 /*************************************************************************/
 
 addOnEvent("Surface_Exposure/General", "leave", "validateTabGps()");
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point", "leave", "validateTabGps()");
+addOnEvent("Coordinate/Coordinate", "leave", "validateTabGps()");
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();

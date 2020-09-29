@@ -136,7 +136,7 @@ onLoad() {
   
 // onMapEvent(MAP_REF, "clickCallback()", "selectCallback()");
 addDatabaseLayer("Surface Exposure", "Surface Exposure", "#980000");
-addBoundaryDatabaseLayer("Surface Exposure Boundary Point", "Surface Exposure Boundary point", "#980000");
+addBoundaryDatabaseLayer("Coordinate", "Coordinate", "#980000");
 // addDatabaseLayer("Mound", "Mound", "#4a86e8");
 // addBoundaryDatabaseLayer("Mound Boundary Point", "Mound Boundary point", "#4a86e8"); //lowercase P is critical. 
 // addDatabaseLayer("Rock Shelter", "Rock Shelter", "#b7b7b7");

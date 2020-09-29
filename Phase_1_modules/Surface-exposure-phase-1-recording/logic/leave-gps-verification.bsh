@@ -3,7 +3,7 @@
 /*************************************************************************/
 
 addOnEvent("Surface_Exposure/General", "leave", "validateTabGps()");
-addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point", "leave", "validateTabGps()");
+addOnEvent("Coordinate/Coordinate", "leave", "validateTabGps()");
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();
