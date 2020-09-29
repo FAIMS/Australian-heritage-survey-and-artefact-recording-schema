@@ -144,7 +144,7 @@ onLoad() {
 // addDatabaseLayer("Historical Feature", "Historical Feature", "#ff9900");
 // addBoundaryDatabaseLayer("Historical Feature Boundary Point", "Historical Feature Boundary point", "#ff9900"); //lowercase P is critical. 
 addDatabaseLayer("Burial", "Burial", "#ff0000");
-addBoundaryDatabaseLayer("Burial Boundary Point", "Burial Boundary point", "#ff0000"); //lowercase P is critical. 
+addBoundaryDatabaseLayer("Coordinate", "Coordinate", "#ff0000");
 // addDatabaseLayer("POI", "Other Point of Interest", "#ff00ff");
 // addBoundaryDatabaseLayer("Other Point of Interest Boundary Point", "Other Point of Interest Boundary point", "#ff00ff"); //lowercase P is critical. 
 // addDatabaseLayer("Tree", "Tree", "#00ff00");

@@ -3,7 +3,7 @@
 /*************************************************************************/
 
 addOnEvent("Burial/General", "leave", "validateTabGps()");
-addOnEvent("Burial_Boundary_point/Burial_Boundary_point", "leave", "validateTabGps()");
+addOnEvent("Coordinate/Coordinate", "leave", "validateTabGps()");
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();

@@ -1,0 +1,14 @@
+<opts>
+  <opt>
+    Polygon
+    <desc>A simple polygon of consecutive boundary points around the feature in question</desc>
+  </opt>
+  <opt>
+    Line
+    <desc>A linestring comprised of a series of points that represent a linear feature, such as a fence line. </desc>
+  </opt>
+  <opt>
+    Multi-point
+    <desc>A collection of multiple single points that represent a feature. For example, multiple similar posts comprising a structure, or multiple artefacts.</desc>
+  </opt>
+</opts>

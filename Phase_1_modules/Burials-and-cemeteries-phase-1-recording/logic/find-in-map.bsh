@@ -1,5 +1,5 @@
-addOnEvent("Burial/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Burial_Boundary_point/Burial_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Burial/General/Find_this_in_the_map", "click", "findThisInTheMap()");
+addOnEvent("Coordinate/Coordinate/Find_this_in_the_map", "click", "findThisInTheMap()");
 // addOnEvent("Ceramic_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Discrete_Hearth_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Flaked_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");

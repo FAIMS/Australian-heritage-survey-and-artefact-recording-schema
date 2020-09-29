@@ -174,7 +174,7 @@
     </Scar_height_above_ground_mm>
     <Scar_orientation_degrees b="decimal">
       Scar orientation (degrees)
-      <desc>What is the approximate compass bearing of the scar</desc>
+      <desc>What is the approximate compass bearing of the scar?</desc>
     </Scar_orientation_degrees>
     <Scar_length_mm b="decimal">
         <desc>Measure the maximum length of scar, i.e., between the upper- and lower-most cut marks observed</desc>
