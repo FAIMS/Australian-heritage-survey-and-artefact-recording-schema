@@ -1,5 +1,3 @@
-#!/usr/bin/env bsh
-
 String funName() {
   /* Returns the name of function that called this function. For example, the
    * following function will always return the String "foo".
@@ -45,9 +43,12 @@ void validateRefs() {
    * ui_logic.bsh) whose name starts with "REF_" but which doesn't refer to a
    * GUI/Data element in the UI schema.
    */
-  Set  ignore = new HashSet(); ignore.add("REF_TO_TYPE");
+  Set  ignore = new HashSet();
   List vars   = Arrays.asList(super.namespace.getVariableNames());
   List refs   = new ArrayList();
+
+  ignore.add("REF_TO_FLAG_STRING");
+  ignore.add("REF_TO_TYPE");
 
   for (var : vars) {
     if (ignore.contains(var))    continue;
@@ -61,8 +62,9 @@ void validateRefs() {
       throw new Exception("Ref '" + ref + "' may not refer to a UI element");
 }
 
-sourceRelative("mock.bsh");
+sourceRelative("mock/mock.bsh");
 sourceRelative("../module/ui_logic.bsh");
+sourceRelative("mock/mock-overrides.bsh");
 
 validateRefs();
 print("=== ALL VARIABLES STARTING WITH 'REF' CONTAIN VALID REFS ===");

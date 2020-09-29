@@ -19,13 +19,13 @@
           </style>
           <!--END: Style-->
           <User_List>
-            <User_List>
-              <User_List/>
-            </User_List>
+            <User_list>
+              <User_list/>
+            </User_list>
           </User_List>
           <Control>
             <Control>
-              <New_Historical_Feature/>
+              <New_historical_feature/>
               <GPS_diagnostics/>
               <Recent_records/>
             </Control>
@@ -65,7 +65,7 @@
             </Search>
             <Autonumbering>
               <Next_Historical_Feature_ID/>
-              <Next_Historical_Feature_Boundary_Point_ID/>
+              <Next_Historical_Feature_Coordinate_ID/>
             </Autonumbering>
           </Control>
           <Historical_Feature>
@@ -73,7 +73,6 @@
               <Historical_Feature_ID/>
               <Historical_Feature_author/>
               <Historical_Feature_timestamp/>
-              <Level_of_recording/>
               <Colgroup_1>
                 <Col_1>
                   <Latitude/>
@@ -94,15 +93,18 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
-              <Find_This_in_The_Map/>
-              <Boundary_criterion/>
+              <Find_this_in_the_map/>
               <Device_photos/>
               <Device_photos_Button_1/>
             </General>
-            <Boundary>
-              <New_Boundary_Point/>
-              <List_of_Related_Boundary_Points/>
-            </Boundary>
+            <Geometry>
+              <Guide/>
+              <Site_boundary_criterion/>
+              <Geometry_type/>
+              <Geometry_additional_comments/>
+              <Record_coordinate/>
+              <List_of_related_coordinates/>
+            </Geometry>
             <Landscape_context>
               <Landform_pattern/>
               <Landform_element/>
@@ -133,15 +135,16 @@
               <External_camera_file_names_and_attachment/>
               <External_camera_image_attachment/>
               <External_camera_image_attachment_Button_1/>
-              <Survey_instrument_name/>
-              <Survey_instrument_data/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Historical_Feature>
-          <Historical_Feature_Boundary_point>
-            <Historical_Feature_Boundary_point>
+          <Coordinate>
+            <Coordinate>
               <Historical_Feature_ID/>
-              <Historical_Feature_Boundary_Point_ID/>
-              <Historical_Feature_Boundary_point_timestamp/>
+              <Historical_Feature_Coordinate_ID/>
+              <Comment/>
+              <Coordinate_timestamp/>
               <Colgroup_1>
                 <Col_1>
                   <Latitude/>
@@ -162,15 +165,14 @@
                 </Col_3>
               </Colgroup_2>
               <Take_From_GPS_1/>
-              <Find_This_in_The_Map/>
-              <Comment/>
-              <New_Boundary_Point/>
-            </Historical_Feature_Boundary_point>
-          </Historical_Feature_Boundary_point>
+              <Find_this_in_the_map/>
+              <New_coordinate/>
+            </Coordinate>
+          </Coordinate>
         </faims>
       </instance>
       <bind nodeset="/faims/Control/Autonumbering/Next_Historical_Feature_ID" type="decimal"/>
-      <bind nodeset="/faims/Control/Autonumbering/Next_Historical_Feature_Boundary_Point_ID" type="decimal"/>
+      <bind nodeset="/faims/Control/Autonumbering/Next_Historical_Feature_Coordinate_ID" type="decimal"/>
       <bind nodeset="/faims/Historical_Feature/Feature_details/Length_m" type="decimal"/>
       <bind nodeset="/faims/Historical_Feature/Feature_details/Width_m" type="decimal"/>
       <bind nodeset="/faims/Historical_Feature/Feature_details/Height_m" type="decimal"/>
@@ -202,9 +204,9 @@
     <!--END: Style-->
     <group ref="User_List">
       <label>{User_List}</label>
-      <group ref="User_List" faims_scrollable="false">
-        <label>{User_List}</label>
-        <select1 appearance="compact" ref="User_List">
+      <group ref="User_list" faims_scrollable="false">
+        <label>{User_list}</label>
+        <select1 appearance="compact" ref="User_list">
           <label/>
           <item>
             <label>Options not loaded</label>
@@ -217,8 +219,8 @@
       <label>{Control}</label>
       <group ref="Control" faims_scrollable="false">
         <label>{Control}</label>
-        <trigger ref="New_Historical_Feature">
-          <label>{New_Historical_Feature}</label>
+        <trigger ref="New_historical_feature">
+          <label>{New_historical_feature}</label>
         </trigger>
         <input faims_read_only="true" ref="GPS_diagnostics">
           <label>{GPS_diagnostics}</label>
@@ -241,13 +243,13 @@
           <group ref="Col_1" faims_style="even">
             <label/>
             <trigger ref="Center_Me_1">
-              <label>{Center_Me}</label>
+              <label>{Center_Me_1}</label>
             </trigger>
           </group>
           <group ref="Col_2" faims_style="even">
             <label/>
             <trigger ref="Save_Map_Settings_1">
-              <label>{Save_Map_Settings}</label>
+              <label>{Save_Map_Settings_1}</label>
             </trigger>
           </group>
         </group>
@@ -265,7 +267,7 @@
           <group ref="Col_1" faims_style="large">
             <label/>
             <trigger ref="Search_Button">
-              <label>{Search}</label>
+              <label>{Search_Button}</label>
             </trigger>
           </group>
         </group>
@@ -317,8 +319,8 @@
         <input ref="Next_Historical_Feature_ID" faims_style_class="required">
           <label>{Next_Historical_Feature_ID}</label>
         </input>
-        <input ref="Next_Historical_Feature_Boundary_Point_ID" faims_style_class="required">
-          <label>{Next_Historical_Feature_Boundary_Point_ID}</label>
+        <input ref="Next_Historical_Feature_Coordinate_ID" faims_style_class="required">
+          <label>{Next_Historical_Feature_Coordinate_ID}</label>
         </input>
       </group>
     </group>
@@ -330,18 +332,11 @@
           <label>{Historical_Feature_ID}</label>
         </input>
         <input faims_attribute_name="Historical Feature author" faims_attribute_type="measure" ref="Historical_Feature_author" faims_read_only="true" faims_certainty="false">
-          <label>{Author}</label>
+          <label>{Historical_Feature_author}</label>
         </input>
         <input faims_attribute_name="Historical Feature timestamp" faims_attribute_type="measure" ref="Historical_Feature_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+          <label>{Historical_Feature_timestamp}</label>
         </input>
-        <select1 faims_attribute_name="Level of recording" faims_attribute_type="vocab" ref="Level_of_recording" faims_certainty="false">
-          <label>{Level_of_recording}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
           <group ref="Col_1" faims_style="even">
@@ -379,18 +374,11 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
-        <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+        <trigger ref="Find_this_in_the_map">
+          <label>{Find_this_in_the_map}</label>
         </trigger>
-        <select1 faims_attribute_name="Boundary criterion" faims_attribute_type="vocab" ref="Boundary_criterion" faims_certainty="false">
-          <label>{Boundary_criterion}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select1>
         <select faims_sync="true" type="camera" faims_attribute_name="Device photos" faims_attribute_type="measure" ref="Device_photos" faims_certainty="false">
           <label>{Device_photos}</label>
           <item>
@@ -399,16 +387,36 @@
           </item>
         </select>
         <trigger ref="Device_photos_Button_1">
-          <label>{Device_photos}</label>
+          <label>{Device_photos_Button_1}</label>
         </trigger>
       </group>
-      <group ref="Boundary" faims_scrollable="false">
-        <label>{Boundary}</label>
-        <trigger ref="New_Boundary_Point">
-          <label>{New_Boundary_Point}</label>
+      <group ref="Geometry">
+        <label>{Geometry}</label>
+        <input faims_web="true" ref="Guide">
+          <label/>
+        </input>
+        <select1 faims_attribute_name="Site boundary criterion" faims_attribute_type="vocab" ref="Site_boundary_criterion" faims_certainty="false">
+          <label>{Site_boundary_criterion}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Geometry type" faims_attribute_type="vocab" ref="Geometry_type" faims_certainty="false">
+          <label>{Geometry_type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Geometry additional comments" faims_attribute_type="measure" ref="Geometry_additional_comments" faims_annotation="false" faims_certainty="false">
+          <label>{Geometry_additional_comments}</label>
+        </input>
+        <trigger ref="Record_coordinate">
+          <label>{Record_coordinate}</label>
         </trigger>
-        <select1 appearance="compact" ref="List_of_Related_Boundary_Points">
-          <label>{List_of_Related_Boundary_Points}</label>
+        <select1 ref="List_of_related_coordinates">
+          <label>{List_of_related_coordinates}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
@@ -524,7 +532,7 @@
           </item>
         </select>
         <trigger ref="Paper_notes_and_sketches_Button_1">
-          <label>{Paper_notes_and_sketches}</label>
+          <label>{Paper_notes_and_sketches_Button_1}</label>
         </trigger>
         <select1 faims_attribute_name="External camera ID" faims_attribute_type="vocab" ref="External_camera_ID" faims_certainty="false">
           <label>{External_camera_ID}</label>
@@ -544,32 +552,35 @@
           </item>
         </select>
         <trigger ref="External_camera_image_attachment_Button_1">
-          <label>{External_camera_image_attachment}</label>
+          <label>{External_camera_image_attachment_Button_1}</label>
         </trigger>
-        <select1 faims_attribute_name="Survey instrument name" faims_attribute_type="vocab" ref="Survey_instrument_name">
-          <label>{Survey_instrument_name}</label>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Survey instrument data" faims_attribute_type="measure" ref="Survey_instrument_data">
-          <label>{Survey_instrument_data}</label>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
         </input>
       </group>
     </group>
-    <group ref="Historical_Feature_Boundary_point" faims_archent_type="Historical Feature Boundary point">
-      <label>{Historical_Feature_Boundary_point}</label>
-      <group ref="Historical_Feature_Boundary_point">
-        <label>{Historical_Feature_Boundary_point}</label>
+    <group ref="Coordinate" faims_archent_type="Coordinate">
+      <label>{Coordinate}</label>
+      <group ref="Coordinate">
+        <label>{Coordinate}</label>
         <input faims_attribute_name="Historical Feature ID" faims_attribute_type="measure" ref="Historical_Feature_ID" faims_certainty="false">
           <label>{Historical_Feature_ID}</label>
         </input>
-        <input faims_attribute_name="Historical Feature Boundary Point ID" faims_attribute_type="measure" ref="Historical_Feature_Boundary_Point_ID" faims_certainty="false">
-          <label>{Historical_Feature_Boundary_Point_ID}</label>
+        <input faims_attribute_name="Historical Feature Coordinate ID" faims_attribute_type="measure" ref="Historical_Feature_Coordinate_ID" faims_certainty="false">
+          <label>{Historical_Feature_Coordinate_ID}</label>
         </input>
-        <input faims_attribute_name="Historical Feature Boundary point timestamp" faims_attribute_type="measure" ref="Historical_Feature_Boundary_point_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
-          <label>{Timestamp}</label>
+        <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
+          <label>{Comment}</label>
+        </input>
+        <input faims_attribute_name="Coordinate timestamp" faims_attribute_type="measure" ref="Coordinate_timestamp" faims_read_only="true" faims_annotation="false" faims_certainty="false">
+          <label>{Coordinate_timestamp}</label>
         </input>
         <group ref="Colgroup_1" faims_style="orientation">
           <label/>
@@ -608,16 +619,13 @@
           </group>
         </group>
         <trigger ref="Take_From_GPS_1">
-          <label>{Take_From_GPS}</label>
+          <label>{Take_From_GPS_1}</label>
         </trigger>
-        <trigger ref="Find_This_in_The_Map">
-          <label>{Find_This_in_The_Map___}</label>
+        <trigger ref="Find_this_in_the_map">
+          <label>{Find_this_in_the_map}</label>
         </trigger>
-        <input faims_attribute_name="Comment" faims_attribute_type="measure" ref="Comment" faims_annotation="false" faims_certainty="false">
-          <label>{Comment}</label>
-        </input>
-        <trigger ref="New_Boundary_Point">
-          <label>{New_Boundary_Point}</label>
+        <trigger ref="New_coordinate">
+          <label>{New_coordinate}</label>
         </trigger>
       </group>
     </group>

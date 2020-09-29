@@ -1,9 +1,9 @@
 <!--@POSTPROC: ./postproc.sh-->
 <module>
 <User_List f="nodata">
-  <User_List f="noscroll">
-    <User_List t="list" f="nolabel user" l="Control"/>
-  </User_List>
+  <User_list f="noscroll">
+    <User_list t="list" f="nolabel user" l="Control"/>
+  </User_list>
 <!--   <Manual>
     <Manual t="webview" f="nolabel"/>
   </Manual> -->
@@ -17,7 +17,7 @@
     Underneath: GPS diagnostics (as specified above)
      -->
 
-    <New_Historical_Feature t="button" l="Historical_Feature"/>
+    <New_historical_feature t="button" l="Historical_Feature"/>
     <GPS_diagnostics t="gpsdiag"/>
     <Recent_records t="list"/>
   </Control>
@@ -52,26 +52,31 @@
     <Historical_Feature_ID f="autonum nocertainty"/>
     <author f="nocertainty"/>
     <timestamp f="nocertainty noannotation"/>
-    <Level_of_recording f="nocertainty">
-        <desc>Detail the recording approach used</desc>
-        <!--@SOURCE: ../../vocab/phase.xml-->
-    </Level_of_recording>
     <gps f="notnull"/>
-    <Find_This_in_The_Map l="Control/Map">
-        Find This in The Map...
-      </Find_This_in_The_Map>  
-    <Boundary_criterion f="nocertainty">
-        <desc>Select criterion used in recording boundary coordinates</desc>
-        <!--@SOURCE: ../../vocab/boundary_types.xml-->
-    </Boundary_criterion>
+    <Find_this_in_the_map l="Control/Map">
+        Find this in the map...
+      </Find_this_in_the_map>  
     <Device_photos t="camera" f="nocertainty">
         <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
     </Device_photos>
   </General>
-  <Boundary f="noscroll">
-    <New_Boundary_Point t="button" lc="Historical_Feature_Boundary_point"/>
-    <List_of_Related_Boundary_Points t="list" ec="Historical_Feature_Boundary_point"/>
-  </Boundary>
+  <Geometry>
+    <Guide t="webview" f="nolabel">
+      <markdown>
+  Describe the geometry of the feature being recorded. If helpful, record a series of coordinates to accompany this. Note that it is generally not useful to record coordinates at an interval less than the GPS error margin. Temporary coordinates can be collected here and cross-referenced to those taken with a more precise instrument. Use the ‘comments’ field for each geometry point to record point identification numbers, if relevant. Instrument and job details can be noted on the ‘Supplementary’ tab.
+      </markdown>
+    </Guide>
+    <Site_boundary_criterion f="nocertainty">
+        <desc>Select criterion used in recording boundary coordinates</desc>
+        <!--@SOURCE: ../../vocab/boundary_types.xml-->
+    </Site_boundary_criterion>
+    <Geometry_type t="dropdown" f="nocertainty">
+        <!--@SOURCE: ../../vocab/geometry.xml-->
+    </Geometry_type>
+    <Geometry_additional_comments f="noannotation nocertainty"/>
+    <Record_coordinate t="button" lc="Coordinate"/>
+    <List_of_related_coordinates t="dropdown" ec="Coordinate"/>
+  </Geometry>
   <Landscape_context>
     <Landform_pattern>
         <desc>300m observational unit.</desc>
@@ -163,32 +168,33 @@
       <desc>Upload files on server, and annotate those files with captions.
       </desc>
     </External_camera_image_attachment>
-    <Survey_instrument_name>
-        <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-        <!--@SOURCE: ../../vocab/survey_instr.xml-->
-    </Survey_instrument_name>
-    <Survey_instrument_data>
-        <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
-    </Survey_instrument_data>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Historical_Feature>
 
-<Historical_Feature_Boundary_point>
-  <fmt>HF{{Historical_Feature_ID}}-BP{{Historical_Feature_Boundary_Point_ID}}</fmt>
-  <Historical_Feature_Boundary_point>
+<Coordinate>
+  <fmt>HF{{Historical_Feature_ID}}-BP{{Historical_Feature_Coordinate_ID}}</fmt>
+  <Coordinate>
     <Historical_Feature_ID f="nocertainty" i="Historical_Feature/General/Historical_Feature_ID"/>
-    <Historical_Feature_Boundary_Point_ID f="autonum nocertainty"/>
-    <timestamp f="nocertainty noannotation"/>
-    <gps f="notnull"/>
-    <Find_This_in_The_Map l="Control/Map">
-        Find This in The Map...
-      </Find_This_in_The_Map>  
+    <Historical_Feature_Coordinate_ID f="autonum nocertainty"/>
     <Comment f="nocertainty noannotation">
       <desc>Use this field to document any relevant information about the recorded point</desc>
     </Comment>
-    <New_Boundary_Point t="button"/>
-  </Historical_Feature_Boundary_point>
-</Historical_Feature_Boundary_point>
+    <timestamp f="nocertainty noannotation"/>
+    <gps f="notnull"/>
+    <Find_this_in_the_map l="Control/Map">
+      Find this in the map...
+    </Find_this_in_the_map>  
+    <New_coordinate t="button"/>
+  </Coordinate>
+</Coordinate>
 
 
 <logic><![CDATA[

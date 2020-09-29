@@ -3,7 +3,7 @@
 /*************************************************************************/
 
 addOnEvent("Historical_Feature/General", "leave", "validateTabGps()");
-addOnEvent("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point", "leave", "validateTabGps()");
+addOnEvent("Coordinate/Coordinate", "leave", "validateTabGps()");
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();
