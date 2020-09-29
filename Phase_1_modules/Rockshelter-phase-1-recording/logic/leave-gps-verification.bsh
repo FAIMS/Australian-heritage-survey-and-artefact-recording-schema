@@ -3,7 +3,7 @@
 /*************************************************************************/
 
 addOnEvent("Rock_Shelter/General", "leave", "validateTabGps()");
-addOnEvent("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point", "leave", "validateTabGps()");
+addOnEvent("Coordinate/Coordinate", "leave", "validateTabGps()");
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();

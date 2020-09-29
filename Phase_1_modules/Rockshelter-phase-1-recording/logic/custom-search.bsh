@@ -2,28 +2,6 @@
 /* Implements an extension to the search page which allows users to           */
 /* constrain their searches by user.                                          */
 /******************************************************************************/
-entityTypes = new ArrayList();
-entityTypes.add(new NameValuePair("{All}", ""));
-// entityTypes.add(new NameValuePair("{Surface_Exposure}", "Surface Exposure"));
-entityTypes.add(new NameValuePair("{Rock_Shelter}", "Rock Shelter"));
-// entityTypes.add(new NameValuePair("{Scar}", "Scar"));
-// entityTypes.add(new NameValuePair("{Ceramic_Artefact}", "Ceramic Artefact"));
-// entityTypes.add(new NameValuePair("{Discrete_Hearth_Artefact}", "Discrete Hearth Artefact"));
-// entityTypes.add(new NameValuePair("{Flaked_Stone_Artefact}", "Flaked Stone Artefact"));
-// entityTypes.add(new NameValuePair("{Glass_Artefact}", "Glass Artefact"));
-// entityTypes.add(new NameValuePair("{Misc_Artefact}", "Misc Artefact"));
-// entityTypes.add(new NameValuePair("{Other_Stone_Artefact}", "Other Stone Artefact"));
-// entityTypes.add(new NameValuePair("{Burial_Boundary_point}", "Burial Boundary point"));
-// entityTypes.add(new NameValuePair("{Historical_Feature_Boundary_point}", "Historical Feature Boundary point"));
-// entityTypes.add(new NameValuePair("{Mound_Boundary_point}", "Mound Boundary point"));
-// entityTypes.add(new NameValuePair("{Other_Point_of_Interest_Boundary_point}", "Other Point of Interest Boundary point"));
-entityTypes.add(new NameValuePair("{Rock_Shelter_Boundary_point}", "Rock Shelter Boundary point"));
-// entityTypes.add(new NameValuePair("{Surface_Exposure_Boundary_point}", "Surface Exposure Boundary point"));
-
-
-
-populateDropDown("Control/Search/Entity_Types", entityTypes);
-
 delOnEvent("Control/Search", "show", "search()");
 addOnEvent("Control/Search", "show", "populateSelectUser()");
 addOnEvent("Control/Search", "show", "populateDate()");

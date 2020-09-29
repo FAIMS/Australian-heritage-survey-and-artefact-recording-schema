@@ -12,8 +12,8 @@
 // addOnEvent("Other_Point_of_Interest/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Other_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Rock_Shelter/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Rock_Shelter/General/Find_this_in_the_map", "click", "findThisInTheMap()");
+addOnEvent("Coordinate/Coordinate/Find_this_in_the_map", "click", "findThisInTheMap()");
 // addOnEvent("Surface_Exposure/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Surface_Exposure_Boundary_point/Surface_Exposure_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Tree/General/Find_This_in_The_Map", "click", "findThisInTheMap()");

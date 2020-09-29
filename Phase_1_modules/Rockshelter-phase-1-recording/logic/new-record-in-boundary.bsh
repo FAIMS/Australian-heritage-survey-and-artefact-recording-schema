@@ -1,7 +1,7 @@
 /******* new record button in boundary tab ****/
 
 
-addOnEvent("Rock_Shelter_Boundary_point/Rock_Shelter_Boundary_point/New_Boundary_Point", "click", "newBoundaryPoint()");
+addOnEvent("Coordinate/Coordinate/New_coordinate", "click", "newBoundaryPoint()");
 
 void newBoundaryPoint(){
 	tabgroup = getDisplayedTabGroup();
