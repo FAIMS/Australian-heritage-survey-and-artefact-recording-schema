@@ -10,31 +10,32 @@
 </User_List>
 
 <Control f="nodata">
-	<Control f="noscroll">
-		<!-- 'Create new [dropdown of entity types (SE, mound, etc.)]' ['Create' button] → opens Element Group (SE, mound, etc.) 'Add' screen.
-		Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
-		Underneath: GPS diagnostics (as specified above)
-		 -->
 
-		<New_Historical_Feature t="button" l="Historical_Feature"/>
-		<GPS_diagnostics t="gpsdiag"/>
-		<Recent_records t="list"/>
-	</Control>
-	<Map f="noscroll">
-	<!--SRID: 4326-->
-		<Map t="map" f="nolabel"/>
-	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
-	</Map>
-	
-	<search/>
-	<!--"Select User" dropdown has been added using @POSTPROC-->
-	
+<Control f="noscroll">
+    <!-- 'Create new [dropdown of entity types (SE, mound, etc.)]' ['Create' button] → opens Element Group (SE, mound, etc.) 'Add' screen.
+    Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
+    Underneath: GPS diagnostics (as specified above)
+     -->
 
-	<Autonumbering>
-		<autonum/>
-	</Autonumbering>
-	
-</Control>	
+    <New_Historical_Feature t="button" l="Historical_Feature"/>
+    <GPS_diagnostics t="gpsdiag"/>
+    <Recent_records t="list"/>
+  </Control>
+  <Map f="noscroll">
+  <!--SRID: 4326-->
+    <Map t="map" f="nolabel"/>
+  <!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
+  </Map>
+  
+  <search/>
+  <!--"Select User" dropdown has been added using @POSTPROC-->
+  
+
+  <Autonumbering>
+    <autonum/>
+  </Autonumbering>
+  
+</Control>  
 
 <!-- 
 ##     ## ####  ######  ########  #######  ########  ####  ######     ###    ##       
@@ -46,150 +47,147 @@
 ##     ## ####  ######     ##     #######  ##     ## ####  ######  ##     ## ########  -->
 
 <Historical_Feature>
-	<fmt>HF{{Historical_Feature_ID}}</fmt>
-	<General>
-		<Historical_Feature_ID f="id autonum nocertainty"/>
-		<author f="nocertainty"/>
-		<timestamp f="nocertainty noannotation"/>
-		<Level_of_recording f="nocertainty">
-		    <desc>Detail the recording approach used</desc>
-		    <!--@SOURCE: ../../vocab/phase.xml-->
-		</Level_of_recording>
-		<gps f="notnull"/>
-		<Find_This_in_The_Map l="Control/Map">
-	      Find This in The Map...
-	    </Find_This_in_The_Map>  
-		<Boundary_criterion f="nocertainty">
-		    <desc>Select criterion used in recording boundary coordinates</desc>
-		    <!--@SOURCE: ../../vocab/boundary_types.xml-->
-		</Boundary_criterion>
-		<Device_photos t="camera" f="nocertainty">
-		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
-		</Device_photos>
-	</General>
-	<Boundary f="noscroll">
-		<New_Boundary_Point t="button" lc="Historical_Feature_Boundary_point"/>
-		<List_of_Related_Boundary_Points t="list" ec="Historical_Feature_Boundary_point"/>
-	</Boundary>
-	<Landscape_context>
-		<Landform_pattern>
-		    <desc>300m observational unit.</desc>
-		    <!--@SOURCE: ../../vocab/landform_pattern.xml-->
-		</Landform_pattern>
-		<Landform_element>
-		    <desc>30m observational unit</desc>
-		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
-		</Landform_element>
-		<Dominant_vegetation_type>
-		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
-		    <!--@SOURCE: ../../vocab/veg_struct_form.xml-->
-		</Dominant_vegetation_type>
-		<Dominant_vegetation_cover f="nocertainty">
-		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
-		    <!--@SOURCE: ../../vocab/veg_struct_cov.xml-->
-		</Dominant_vegetation_cover>
-		<Morphology_type > 
-			<desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
-			</desc>
-			<!--@SOURCE: ../../vocab/feat_morphology.xml-->
-		</Morphology_type>
-		<Morphology_notes f="nocertainty noannotation"> 
-			<desc>Record any additional notes about site morphology not captured elsewhere
-			</desc>
-		</Morphology_notes>
-		<Additional_environmental_notes f="nocertainty noannotation">
-		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
-		</Additional_environmental_notes>
-		
-	</Landscape_context>
-	<Feature_details>
-		<Place_name f="nocertainty">
-		    <desc>List any names associated with this feature (historic, language or contemporary), if applicable </desc>
-		</Place_name>
-		<Length_m b="decimal">
-		    <desc>Record the maximum length of this feature</desc>
-		</Length_m>
-		<Width_m b="decimal">
-		    <desc>Record the maximum width of this feature</desc>
-		</Width_m>
-		<Height_m b="decimal">
-		    <desc>If applicable, record the maximum height of this feature. Leave blank if not applicable</desc>
-		</Height_m>
-		<General_type>
-		    <desc>Select the general feature type. For phase 1 recording of complex features with multiple attributes, use the 'site' designation.
+  <fmt>HF{{Historical_Feature_ID}}</fmt>
+  <General>
+    <Historical_Feature_ID f="autonum nocertainty"/>
+    <author f="nocertainty"/>
+    <timestamp f="nocertainty noannotation"/>
+    <Level_of_recording f="nocertainty">
+        <desc>Detail the recording approach used</desc>
+        <!--@SOURCE: ../../vocab/phase.xml-->
+    </Level_of_recording>
+    <gps f="notnull"/>
+    <Find_This_in_The_Map l="Control/Map">
+        Find This in The Map...
+      </Find_This_in_The_Map>  
+    <Boundary_criterion f="nocertainty">
+        <desc>Select criterion used in recording boundary coordinates</desc>
+        <!--@SOURCE: ../../vocab/boundary_types.xml-->
+    </Boundary_criterion>
+    <Device_photos t="camera" f="nocertainty">
+        <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+    </Device_photos>
+  </General>
+  <Boundary f="noscroll">
+    <New_Boundary_Point t="button" lc="Historical_Feature_Boundary_point"/>
+    <List_of_Related_Boundary_Points t="list" ec="Historical_Feature_Boundary_point"/>
+  </Boundary>
+  <Landscape_context>
+    <Landform_pattern>
+        <desc>300m observational unit.</desc>
+        <!--@SOURCE: ../../vocab/landform_pattern.xml-->
+    </Landform_pattern>
+    <Landform_element>
+        <desc>30m observational unit</desc>
+        <!--@SOURCE: ../../vocab/landform_elements.xml-->
+    </Landform_element>
+    <Dominant_vegetation_type>
+        <desc>30m observational unit, uppermost vegetation stratum only</desc>
+        <!--@SOURCE: ../../vocab/veg_struct_form.xml-->
+    </Dominant_vegetation_type>
+    <Dominant_vegetation_cover f="nocertainty">
+        <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
+        <!--@SOURCE: ../../vocab/veg_struct_cov.xml-->
+    </Dominant_vegetation_cover>
+    <Morphology_type > 
+      <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure
+      </desc>
+      <!--@SOURCE: ../../vocab/feat_morphology.xml-->
+    </Morphology_type>
+    <Morphology_notes f="nocertainty noannotation"> 
+      <desc>Record any additional notes about site morphology not captured elsewhere
+      </desc>
+    </Morphology_notes>
+    <Additional_environmental_notes f="nocertainty noannotation">
+        <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
+    </Additional_environmental_notes>
+    
+  </Landscape_context>
+  <Feature_details>
+    <Place_name f="nocertainty">
+        <desc>List any names associated with this feature (historic, language or contemporary), if applicable </desc>
+    </Place_name>
+    <Length_m b="decimal">
+        <desc>Record the maximum length of this feature</desc>
+    </Length_m>
+    <Width_m b="decimal">
+        <desc>Record the maximum width of this feature</desc>
+    </Width_m>
+    <Height_m b="decimal">
+        <desc>If applicable, record the maximum height of this feature. Leave blank if not applicable</desc>
+    </Height_m>
+    <General_type>
+        <desc>Select the general feature type. For phase 1 recording of complex features with multiple attributes, use the 'site' designation.
 
-		    Note: Values and info are adapted from: California Office of Historic Preservation (1995) Instructions for recording historic resources. Department of the Interior, Sacramento, CA. (Accessed 5 April 2019 at http://scic.org/docs/OHP/manual95.pdf)
-		    </desc>
-		    <!--@SOURCE: ../../vocab/hist_gentype.xml-->
-		</General_type>
-		<Historical_activities t="checkbox">
-		    <desc>What activity types appear to be associated with this feature</desc>
-		    <!--@SOURCE: ../../vocab/hist_activities.xml-->
-		</Historical_activities>
-		<Historical_activities_description>
-		    <desc>Provide a narrative description of activities that appear to have been conducted at this site or feature.</desc>
-		</Historical_activities_description>
-		<Archaeological_features t="checkbox">
-		    <desc>Select all archaeological features present</desc>
-		    <!--@SOURCE: ../../vocab/hist_arch_char.xml-->
-		</Archaeological_features>
-		<Subsurface_potential t="radio" f="nocertainty">
-		    <desc>Assess the potential for sub-surface deposits of cultural material.</desc>
-		    <!--@SOURCE: ../../vocab/subsurface_pot.xml-->
-		</Subsurface_potential>
-		<Archaeological_description f="nocertainty">
-		    <desc>Provide a narrative description of the physical layout of the site or feature, as well as formation processes and potential for sub-surface deposits</desc>
-		</Archaeological_description>
-		<Age_estimate f="nocertainty">
-		    <desc>Make a preliminary assessment of minimum and maximum site age, noting supporting evidence</desc>
-		</Age_estimate>
-		<Additional_notes f="nocertainty noannotation">
-		    <desc>Describe any other significant features or provide additional details here</desc>
-		</Additional_notes>
-	</Feature_details>
-	<Supplementary>
-		<Paper_notes_and_sketches t="camera" f="nocertainty">
-		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
-		</Paper_notes_and_sketches>
-		<External_camera_ID f="nocertainty">
-		    <desc>Select other cameras used for photography (if applicable)</desc>
-		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
-		</External_camera_ID>
-		<External_camera_file_names_and_attachment f="nocertainty">
-			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
-		</External_camera_file_names_and_attachment>
-		<External_camera_image_attachment t="file" f="nocertainty"> 
-			<desc>Upload files on server, and annotate those files with captions.
-			</desc>
-		</External_camera_image_attachment>
-		<Survey_instrument_name>
-		    <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
-		    <!--@SOURCE: ../../vocab/survey_instr.xml-->
-		</Survey_instrument_name>
-		<Survey_instrument_data>
-		    <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
-		</Survey_instrument_data>
-	</Supplementary>
+        Note: Values and info are adapted from: California Office of Historic Preservation (1995) Instructions for recording historic resources. Department of the Interior, Sacramento, CA. (Accessed 5 April 2019 at http://scic.org/docs/OHP/manual95.pdf)
+        </desc>
+        <!--@SOURCE: ../../vocab/hist_gentype.xml-->
+    </General_type>
+    <Historical_activities t="checkbox">
+        <desc>What activity types appear to be associated with this feature</desc>
+        <!--@SOURCE: ../../vocab/hist_activities.xml-->
+    </Historical_activities>
+    <Historical_activities_description>
+        <desc>Provide a narrative description of activities that appear to have been conducted at this site or feature.</desc>
+    </Historical_activities_description>
+    <Archaeological_features t="checkbox">
+        <desc>Select all archaeological features present</desc>
+        <!--@SOURCE: ../../vocab/hist_arch_char.xml-->
+    </Archaeological_features>
+    <Subsurface_potential t="radio" f="nocertainty">
+        <desc>Assess the potential for sub-surface deposits of cultural material.</desc>
+        <!--@SOURCE: ../../vocab/subsurface_pot.xml-->
+    </Subsurface_potential>
+    <Archaeological_description f="nocertainty">
+        <desc>Provide a narrative description of the physical layout of the site or feature, as well as formation processes and potential for sub-surface deposits</desc>
+    </Archaeological_description>
+    <Age_estimate f="nocertainty">
+        <desc>Make a preliminary assessment of minimum and maximum site age, noting supporting evidence</desc>
+    </Age_estimate>
+    <Additional_notes f="nocertainty noannotation">
+        <desc>Describe any other significant features or provide additional details here</desc>
+    </Additional_notes>
+  </Feature_details>
+  <Supplementary>
+    <Paper_notes_and_sketches t="camera" f="nocertainty">
+        <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+    </Paper_notes_and_sketches>
+    <External_camera_ID f="nocertainty">
+        <desc>Select other cameras used for photography (if applicable)</desc>
+        <!--@SOURCE: ../../vocab/camera_ids.xml-->
+    </External_camera_ID>
+    <External_camera_file_names_and_attachment f="nocertainty">
+      <desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+    </External_camera_file_names_and_attachment>
+    <External_camera_image_attachment t="file" f="nocertainty"> 
+      <desc>Upload files on server, and annotate those files with captions.
+      </desc>
+    </External_camera_image_attachment>
+    <Survey_instrument_name>
+        <desc>If recording coincides with instrument survey, please select appropriate instrument name.</desc>
+        <!--@SOURCE: ../../vocab/survey_instr.xml-->
+    </Survey_instrument_name>
+    <Survey_instrument_data>
+        <desc>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</desc>
+    </Survey_instrument_data>
+  </Supplementary>
 </Historical_Feature>
+
 <Historical_Feature_Boundary_point>
-	<fmt>HF{{Historical_Feature_ID}}-BP{{Historical_Feature_Boundary_Point_ID}}</fmt>
-	<Historical_Feature_Boundary_point>
-
-		<Historical_Feature_ID f="id nocertainty" i="Historical_Feature/General/Historical_Feature_ID">
-		</Historical_Feature_ID>
-		<Historical_Feature_Boundary_Point_ID f="id autonum nocertainty">
-		</Historical_Feature_Boundary_Point_ID>
-		<timestamp f="nocertainty noannotation"/>
-		<gps f="notnull"/>
-		<Find_This_in_The_Map l="Control/Map">
-	      Find This in The Map...
-	    </Find_This_in_The_Map>  
-		<Comment f="nocertainty noannotation">
-			<desc>Use this field to document any relevant information about the recorded point</desc>
-		</Comment>
-		<New_Boundary_Point t="button"/>
-
-	</Historical_Feature_Boundary_point>
+  <fmt>HF{{Historical_Feature_ID}}-BP{{Historical_Feature_Boundary_Point_ID}}</fmt>
+  <Historical_Feature_Boundary_point>
+    <Historical_Feature_ID f="nocertainty" i="Historical_Feature/General/Historical_Feature_ID"/>
+    <Historical_Feature_Boundary_Point_ID f="autonum nocertainty"/>
+    <timestamp f="nocertainty noannotation"/>
+    <gps f="notnull"/>
+    <Find_This_in_The_Map l="Control/Map">
+        Find This in The Map...
+      </Find_This_in_The_Map>  
+    <Comment f="nocertainty noannotation">
+      <desc>Use this field to document any relevant information about the recorded point</desc>
+    </Comment>
+    <New_Boundary_Point t="button"/>
+  </Historical_Feature_Boundary_point>
 </Historical_Feature_Boundary_point>
 
 
