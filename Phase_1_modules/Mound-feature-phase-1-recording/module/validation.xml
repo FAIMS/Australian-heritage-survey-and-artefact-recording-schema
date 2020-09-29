@@ -27,7 +27,7 @@
       </validator>
     </property>
   </ArchaeologicalElement>
-  <ArchaeologicalElement name="Mound Boundary point">
+  <ArchaeologicalElement name="Coordinate">
     <property name="Latitude">
       <validator type="blankchecker">
         <param type="field" value="measure"/>

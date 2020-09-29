@@ -3,7 +3,7 @@
 /*************************************************************************/
 
 addOnEvent("Mound/General", "leave", "validateTabGps()");
-addOnEvent("Mound_Boundary_point/Mound_Boundary_point", "leave", "validateTabGps()");
+addOnEvent("Coordinate/Coordinate", "leave", "validateTabGps()");
 
 void validateTabGps(){
 	current_tab = getPreviouslyDisplayedTab();

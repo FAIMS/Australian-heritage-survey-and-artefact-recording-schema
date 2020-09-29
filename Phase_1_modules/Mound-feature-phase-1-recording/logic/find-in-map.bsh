@@ -7,8 +7,8 @@
 // addOnEvent("Historical_Feature/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Historical_Feature_Boundary_point/Historical_Feature_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Misc_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Mound/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
-addOnEvent("Mound_Boundary_point/Mound_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
+addOnEvent("Mound/General/Find_this_in_the_map", "click", "findThisInTheMap()");
+addOnEvent("Coordinate/Coordinate/Find_this_in_the_map", "click", "findThisInTheMap()");
 // addOnEvent("Other_Point_of_Interest/General/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Other_Point_of_Interest_Boundary_point/Other_Point_of_Interest_Boundary_point/Find_This_in_The_Map", "click", "findThisInTheMap()");
 // addOnEvent("Other_Stone_Artefact/General/Find_This_in_The_Map", "click", "findThisInTheMap()");

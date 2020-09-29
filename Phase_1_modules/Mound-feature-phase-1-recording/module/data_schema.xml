@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <dataSchema>
-  <RelationshipElement name="Mound - Mound Boundary point" type="hierarchical">
+  <RelationshipElement name="Mound - Coordinate" type="hierarchical">
     <description>A 1-to-n relationship between the parent and its children, respectively.</description>
     <parent>Parent Of</parent>
     <child>Child Of</child>
@@ -21,17 +21,6 @@
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
-    </property>
-    <property name="Level of recording" type="vocab">
-      <description>Detail the recording approach used</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-      <lookup>
-        <term>{Phase_1}
-<description>Coarse level of recording intended to capture overall characteristics of a feature or site. Typically, this approach is used for complex features with multiple attributes that could potentially be recorded separately.</description></term>
-        <term>{Phase_2}
-<description>High resolution recording of discrete features present within a site or assemblage. For example, recording of individual buildings or structures, delineating boundaries of artefact scatters, hearths, faunal deposits or objects that together comprise a discrete feature</description></term>
-      </lookup>
     </property>
     <property name="Latitude" type="measure">
       <description></description>
@@ -58,7 +47,12 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Boundary criterion" type="vocab">
+    <property name="Device photos" type="file" file="true" thumbnail="true">
+      <description>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Site boundary criterion" type="vocab">
       <description>Select criterion used in recording boundary coordinates</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -77,8 +71,21 @@
 <description>No boundary recording was conducted. Please specify why in annotation field</description></term>
       </lookup>
     </property>
-    <property name="Device photos" type="file" file="true" thumbnail="true">
-      <description>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</description>
+    <property name="Geometry type" type="vocab">
+      <description></description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Polygon}
+<description>A simple polygon of consecutive boundary points around the feature in question</description></term>
+        <term>{Line}
+<description>A linestring comprised of a series of points that represent a linear feature, such as a fence line. </description></term>
+        <term>{Multi_point}
+<description>A collection of multiple single points that represent a feature. For example, multiple similar posts comprising a structure, or multiple artefacts.</description></term>
+      </lookup>
+    </property>
+    <property name="Geometry additional comments" type="measure">
+      <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -458,13 +465,11 @@
         <term>{Not_applicable}
 <description>No stone artefacts observed</description></term>
         <term>{Basalt}
-<description>Fine grained igneous rock, very common, often dark in colour, no other mineral inclusions, and sometimes with caviities </description></term>
+<description>Fine grained igneous rock, very common, often dark in colour, no other mineral inclusions, and sometimes with caviities</description></term>
         <term>{Chalcedony}
 <description>Hard, fine grained material composed of very small silica crystals, highly variable in colour. Unlike chert, chalcedony has a fibrous structure with fine intergrowths of quartz and often has a waxy lustre and is often semi-transparent or translucent</description></term>
         <term>{Chert}
 <description>Hard, fine grained material composed of very small silica crystals, highly variable in colour, and unlike chalcedony, lacks transparent or transluscent qualities</description></term>
-        <term>{Glass}
-<description>Manufactured glass used as a raw material. </description></term>
         <term>{Ironstone}
 <description>Sedimentary rock, with substantial proportion of iron creating a reddish appearance on outer surface but internally is typically grey. Very hard material with poor flaking properties</description></term>
         <term>{Mudstone}
@@ -484,7 +489,7 @@
         <term>{Silcrete_microcrystalline}
 <description>Silcrete, very fine grained with almost no visible grains, and scattered quartz clasts</description></term>
         <term>{Silcrete_fine_grained}
-<description>Silcrete, ,mostly fine-sand-sized grains (&amp;lt;0.25mm)</description></term>
+<description>Silcrete, ,mostly fine-sand-sized grains (&lt;0.25mm)</description></term>
         <term>{Silcrete_medium_grained}
 <description>Silcrete, mostly medium-sand-sized quartz clasts (0.25-0.5 mm) in a siliceous matrix, with sand grains easily visible. Coarser silcrete varieties tend to have poor flaking qualities, so consider whether this material is quarztite</description></term>
         <term>{Other}
@@ -643,46 +648,41 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Survey instrument name" type="vocab">
-      <description>If recording coincides with instrument survey, please select appropriate instrument name.</description>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{Not_applicable}
+        <term>{Yes}
 <description> </description></term>
-        <term>{Leica_Multistation}
-<description> </description></term>
-        <term>{Leica_TS09_Unit_A}
-<description> </description></term>
-        <term>{Leica_TS09_Unit_B}
-<description> </description></term>
-        <term>{RTK_Rover_B}
-<description> </description></term>
-        <term>{RTK_Rover_B}
-<description> </description></term>
-        <term>{Reach_RS2}
+        <term>{No}
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Survey instrument data" type="measure">
-      <description>If recording coincides with instrument survey, please detail job name logged to instrument and associated point IDs or range of IDs associated with this feature.</description>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
   </ArchaeologicalElement>
-  <ArchaeologicalElement name="Mound Boundary point">
+  <ArchaeologicalElement name="Coordinate">
     <description></description>
     <property name="Mound ID" type="measure" isIdentifier="true">
       <description></description>
       <formatString>MD$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Mound Boundary Point ID" type="measure" isIdentifier="true">
+    <property name="Mound Coordinate ID" type="measure" isIdentifier="true">
       <description></description>
       <formatString>-BP$2</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Mound Boundary point timestamp" type="measure">
+    <property name="Comment" type="measure">
+      <description>Use this field to document any relevant information about the recorded point</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Coordinate timestamp" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -709,11 +709,6 @@
     </property>
     <property name="Accuracy" type="measure">
       <description></description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-    </property>
-    <property name="Comment" type="measure">
-      <description>Use this field to document any relevant information about the recorded point</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
