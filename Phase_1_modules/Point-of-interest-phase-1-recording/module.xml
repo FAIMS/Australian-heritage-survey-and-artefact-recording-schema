@@ -1,0 +1,132 @@
+<!--@POSTPROC: ./postproc.sh-->
+<module>
+<User_List f="nodata">
+  <User_list f="noscroll">
+    <User_list t="list" f="nolabel user" l="Control"/>
+  </User_list>
+<!--   <Manual>
+    <Manual t="webview" f="nolabel"/>
+  </Manual> -->
+</User_List>
+
+<Control f="nodata">
+	<Control f="noscroll">
+		<!-- 'Create new [dropdown of entity types (SE, mound, etc.)]' ['Create' button] → opens Element Group (SE, mound, etc.) 'Add' screen.
+		Underneath: list of five last features recorded (should be five rows NOT hidden scrolling)
+		Underneath: GPS diagnostics (as specified above)
+		 -->
+ 		<New_point_of_interest t="button" l="Point_of_Interest"/>
+ 		<GPS_diagnostics t="gpsdiag"/>
+		<Recent_records t="list"/>
+	</Control>
+	<Map f="noscroll">
+	<!--SRID: 4326-->
+		<Map t="map" f="nolabel"/>
+	<!--<Create_Record l="..."/>      Added via @POSTPROC, but in columns-->
+	</Map>
+	<search/>
+	<!--"Select User" dropdown has been added using @POSTPROC-->
+	<Autonumbering>
+		<autonum/>
+	</Autonumbering>
+</Control>
+
+<Point_of_Interest>
+	<fmt>POI{{Point_of_Interest_ID}}</fmt>
+	<General>
+		<Point_of_Interest_ID f="autonum nocertainty"/>
+		<author f="nocertainty"/>
+		<timestamp f="nocertainty noannotation"/>
+		<gps f="notnull"/>
+		<Find_this_in_the_map l="Control/Map">
+	      Find this in the map...
+	    </Find_this_in_the_map>  
+		<Device_photos t="camera" f="nocertainty">
+		    <desc>Please take one or more overview shots, and if relevant, additional detailed shots of prominent features. If using a DSLR, enter relevant details below and ensure these are uploaded at days end.</desc>
+		</Device_photos>
+	</General>
+	<Landscape_context>
+		<Landform_pattern>
+		    <desc>300m observational unit.</desc>
+		    <!--@SOURCE: ../../vocab/landform_pattern.xml-->
+		</Landform_pattern>
+		<Landform_element>
+		    <desc>30m observational unit</desc>
+		    <!--@SOURCE: ../../vocab/landform_elements.xml-->
+		</Landform_element>
+		<Dominant_vegetation_type>
+		    <desc>30m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: ../../vocab/veg_struct_form.xml-->
+		</Dominant_vegetation_type>
+		<Dominant_vegetation_cover f="nocertainty">
+		    <desc>Vegetation cover, 30 m observational unit, uppermost vegetation stratum only</desc>
+		    <!--@SOURCE: ../../vocab/veg_struct_cov.xml-->
+		</Dominant_vegetation_cover>
+		<Additional_environmental_notes f="nocertainty noannotation">
+		    <desc>Additional notes about landscape, vegetation, geomorphology of significance and not already captured</desc>
+		</Additional_environmental_notes>
+		<Morphology_type>
+		    <desc>Consider the geomorphological context of the site and select most appropriate response. Use notes below for additional description or if unsure</desc>
+		    <!--@SOURCE: ../../vocab/feat_morphology.xml-->
+		</Morphology_type>
+		<Morphology_notes f="nocertainty noannotation">
+		    <desc>Record any additional notes about site morphology not captured elsewhere</desc>
+		</Morphology_notes>
+		
+	</Landscape_context>
+	<Feature_details>
+		<Type>
+		    <desc>Select the general feature type</desc>
+		    <!--@SOURCE: ../../vocab/poi_type.xml-->
+		</Type>
+		<Detailed_description f="nocertainty">
+		    <desc>Provide a detailed description of this POI and any associated data</desc>
+		</Detailed_description>
+		<Information_source f="nocertainty">
+		    <desc>Record the source of the information, such as names of individuals, historical sources, and so on</desc>
+		</Information_source>
+		<Additional_notes f="nocertainty noannotation"> 
+			<desc>Additional notes about the feature or associated artefacts not recorded elsewhere.
+			</desc>
+		</Additional_notes>
+	</Feature_details>
+	<Supplementary>
+		<Paper_notes_and_sketches t="camera" f="nocertainty">
+		    <desc>Photograph or otherwise upload any hard copy notes, sketches or plans associated with this feature. Ensure north arrow, approximate scale and a key are included. Use annotation for additional comments.</desc>
+		</Paper_notes_and_sketches>
+		<External_camera_ID f="nocertainty">
+		    <desc>Select other cameras used for photography (if applicable)</desc>
+		    <!--@SOURCE: ../../vocab/camera_ids.xml-->
+		</External_camera_ID>
+		<External_camera_file_names_and_attachment f="nocertainty">
+			<desc>Provide file names and brief captions for images taken with external camera, if applicable.</desc>
+		</External_camera_file_names_and_attachment>
+		<External_camera_image_attachment t="file" f="nocertainty"> 
+			<desc>Upload files on server, and annotate those files with captions.
+			</desc>
+		</External_camera_image_attachment>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
+	</Supplementary>
+</Point_of_Interest>
+
+<logic><![CDATA[
+
+<!--@SOURCE: logic/sync.bsh-->
+<!--@SOURCE: logic/custom-search.bsh-->
+<!--@SOURCE: logic/recent-records.bsh-->
+<!--@SOURCE: logic/cascade-delete.bsh-->
+<!--@SOURCE: logic/gis-shared.bsh-->
+<!--@SOURCE: logic/find-in-map.bsh-->
+<!--@SOURCE: logic/autonumbering-validation.bsh-->
+<!--@SOURCE: logic/leave-gps-verification.bsh-->
+
+]]></logic>
+
+</module>

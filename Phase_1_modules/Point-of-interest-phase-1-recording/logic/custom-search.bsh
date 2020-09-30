@@ -1,0 +1,76 @@
+/****************************** SEARCH EXTENSION ******************************/
+/* Implements an extension to the search page which allows users to           */
+/* constrain their searches by user.                                          */
+/******************************************************************************/
+delOnEvent("Control/Search", "show", "search()");
+addOnEvent("Control/Search", "show", "populateSelectUser()");
+addOnEvent("Control/Search", "show", "populateDate()");
+addOnEvent("Control/Search/Select_Author", "click", "search()");
+addOnEvent("Control/Search/Select_Date", "click", "search()");
+void populateDate(){
+  String refSearchDate = "Control/Search/Select_Date";
+  String getDatesQuery = "SELECT distinct strftime('%Y-%m-%d', createdat) as value,strftime('%Y-%m-%d', createdat) "+
+                         "  FROM createdModifiedAtBy "+
+                         " UNION "+
+                         "SELECT '-1', '{All}'"+
+                         " ORDER BY value";
+  fetchAll(getDatesQuery, new FetchCallback() {
+    onFetch(result) {
+      populateDropDown(refSearchDate, result, false);
+      // search();
+    }
+  });                        
+}
+
+void populateSelectUser(){
+  String refSearchUsers = "Control/Search/Select_Author";
+  String getNonDeletedUsersQuery = "SELECT userid, fname || ' ' || lname "+
+                                   "  FROM user "+
+                                   " WHERE userdeleted is null "+
+                                   " UNION " +
+                                   "SELECT -1, '{All}'";
+
+  fetchAll(getNonDeletedUsersQuery, new FetchCallback() {
+    onFetch(result) {
+      populateDropDown(refSearchUsers, result, false);
+      search();
+    }
+  });
+}
+
+
+// Overrides auto-generated definition
+void search(){
+  String tabgroup = "Control";
+  String refEntityList  = tabgroup + "/Search/Entity_List";
+  String refSearchTerm  = tabgroup + "/Search/Search_Term";
+  String refSelectUser  = tabgroup + "/Search/Select_Author";
+  String refSelectDate  = tabgroup + "/Search/Select_Date";
+
+  String term = getFieldValue(refSearchTerm);
+  String user = getFieldValue(refSelectUser);
+  String date = getFieldValue(refSelectDate);
+
+  if (isNull(user)) return;
+  String searchQuery = "SELECT uuid, response " +
+                       "  FROM latestNonDeletedArchEntFormattedIdentifiers  " +
+                       " WHERE uuid in (SELECT uuid " +
+                       "                  FROM latestNonDeletedArchEntIdentifiers " +
+                       "                 WHERE measure LIKE '{term}%'  " +
+                       "                   AND ( userid = {user} OR -1 = {user}) " +
+                       "                   AND ( strftime('%Y-%m-%d', aenttimestamp) = '{date}' OR '-1' = '{date}') " +
+                       "                ) " +
+                       " ORDER BY response " +
+                       " LIMIT ? " +
+                       "OFFSET ? ";
+  searchQuery = replaceFirst(searchQuery, "{term}", term);
+  searchQuery = replaceFirst(searchQuery, "{user}", user);
+  searchQuery = replaceFirst(searchQuery, "{user}", user);
+  searchQuery = replaceFirst(searchQuery, "{date}", date);
+  searchQuery = replaceFirst(searchQuery, "{date}", date);
+
+  populateCursorList(refEntityList, searchQuery, 25);
+  refreshTabgroupCSS(tabgroup);
+
+  Log.d("Module", "Search query: " + searchQuery);
+}
