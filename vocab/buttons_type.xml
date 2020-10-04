@@ -1,4 +1,6 @@
 <opts>
+  <opt>
+    Shanked
     <opt>Alpha</opt>
     <opt>Birdcage</opt>
     <opt>Box</opt>
@@ -13,4 +15,13 @@
     <opt>Sanders</opt>
     <opt>Self-shanked </opt>
     <opt>Other</opt>
+  </opt>
+  <opt>
+    Sew-through
+    <opt>Linen (blank)</opt>
+    <opt>Linen (eyeletted)</opt>
+    <opt>Standard</opt>
+    <opt>Thread/Dorset thread</opt>
+    <opt>Other</opt>
+  </opt>
 </opts>

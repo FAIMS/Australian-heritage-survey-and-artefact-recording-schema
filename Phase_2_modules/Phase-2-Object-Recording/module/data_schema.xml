@@ -484,6 +484,22 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
   </ArchaeologicalElement>
   <ArchaeologicalElement name="Other Stone Artefact">
     <description></description>
@@ -960,6 +976,22 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
   </ArchaeologicalElement>
   <ArchaeologicalElement name="Glass Artefact">
     <description></description>
@@ -1180,11 +1212,6 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Group notes" type="measure">
-      <description>Record any additional notes relating to the grouped fragments</description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-    </property>
     <property name="Portion or component" type="vocab">
       <description>Record fragment location for artefact being catalogued</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
@@ -1367,6 +1394,8 @@
 <description>Usually with ridged corners and possibly other embossed surface textures in cobalt blue glass, e.g. phenyl</description></term>
         <term>{Prescription}
 <description> </description></term>
+        <term>{Spirits}
+<description> </description></term>
         <term>{Vinegar_salad_oil}
 <description> </description></term>
       </lookup>
@@ -1434,14 +1463,30 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
-    <property name="Pontil mark present" type="vocab">
+    <property name="Technological base marks" type="vocab">
       <description>Small, usually circular depression on bottle base</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{Yes}
+        <term>{Lettering}
 <description> </description></term>
-        <term>{No}
+        <term>{Snap_pontil}
+<description> </description></term>
+        <term>{Iron_pontil}
+<description> </description></term>
+        <term>{Sand_pontil}
+<description> </description></term>
+        <term>{Shaped_push_up___Metal_cone}
+<description> </description></term>
+        <term>{Shaped_push_up___Metal_cone_with_base_plate}
+<description> </description></term>
+        <term>{Shaped_push_up___Wooden_cone}
+<description> </description></term>
+        <term>{Suction_scar}
+<description> </description></term>
+        <term>{Valve_mark}
+<description> </description></term>
+        <term>{Other}
 <description> </description></term>
       </lookup>
     </property>
@@ -1497,6 +1542,8 @@
         <term>{Flanged}
 <description> </description></term>
         <term>{Applied}
+<description> </description></term>
+        <term>{Other}
 <description> </description></term>
       </lookup>
     </property>
@@ -1685,6 +1732,22 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
   </ArchaeologicalElement>
   <ArchaeologicalElement name="Ceramic Artefact">
     <description></description>
@@ -1855,28 +1918,24 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{Earthenware}
-<description>Earthenware is a soft, easily scratched, porous (sticks to tongue) unvitrified ceramic</description></term>
-        <term>{Creamware}
-<description>Earthenware creamware</description></term>
-        <term>{Pearlware}
-<description>Earthenware pearlware</description></term>
-        <term>{Refined}
-<description>Earthenware refined</description></term>
-        <term>{White_granite_or_ironstone}
-<description>Earthenware white granite or ironstone</description></term>
-        <term>{Terracotta}
-<description>Earthenware unrefined terracotta or redware</description></term>
-        <term>{Yellow_earthenware}
-<description>Earthenware unrefined yellowware</description></term>
-        <term>{Porcelaine}
-<description>Highly vitrified, very hard and resistant to stratching, non-porous, and transluscent under light--typically shades of white</description></term>
-        <term>{Hard_paste}
-<description>Hard paste porcelain</description></term>
-        <term>{Soft_paste}
-<description>Soft paste porcelain</description></term>
+        <term>{Coarse__unrefined__earthenware}
+<description> </description><term>{Terracotta_redware}
+<description> </description></term><term>{Yellowware}
+<description> </description></term></term>
+        <term>{Refined_earthenware}
+<description> </description><term>{Creamware}
+<description> </description></term><term>{Pearlware}
+<description> </description></term><term>{whiteware}
+<description> </description></term><term>{White_granite_ironstone}
+<description> </description></term></term>
+        <term>{Porcelain}
+<description> </description><term>{Soft_paste}
+<description> </description></term><term>{Hard_paste}
+<description> </description></term></term>
+        <term>{Porcellaneous}
+<description> </description></term>
         <term>{Stoneware}
-<description>Vitreous or semi-vitreous ceramic, non-porous, and resistant to scratching</description></term>
+<description> </description></term>
       </lookup>
     </property>
     <property name="Element" type="vocab">
@@ -1927,7 +1986,7 @@
 <description>Plates, saucers, platters</description></term>
         <term>{Hollowware}
 <description>Bowls, cups, pitchers/jugs</description></term>
-        <term>{Not_applicable}
+        <term>{Other}
 <description> </description></term>
       </lookup>
     </property>
@@ -1957,16 +2016,26 @@
 <description>Tableware</description></term>
         <term>{Kitchenware}
 <description>Kitchenware</description></term>
-        <term>{Fooddrink}
+        <term>{Food_drink_storage}
 <description>Food or drink storage</description></term>
-        <term>{Drinking}
-<description>Drinking other than teaware</description></term>
         <term>{Personal}
 <description>Personal or hygenic items</description></term>
         <term>{Dairy}
 <description>Dairy related</description></term>
         <term>{House}
 <description>Household general</description></term>
+        <term>{Sanitary_hygiene}
+<description> </description></term>
+        <term>{Cosmetic_ointment}
+<description> </description></term>
+        <term>{Toy}
+<description> </description></term>
+        <term>{Telegraph_electrical}
+<description> </description></term>
+        <term>{Smoking}
+<description> </description></term>
+        <term>{Mining_assaying}
+<description> </description></term>
       </lookup>
     </property>
     <property name="Ceramic Artefact Length mm" type="measure">
@@ -2022,8 +2091,8 @@
       <lookup>
         <term>{None}
 <description>None unglazed</description></term>
-        <term>{Single}
-<description>Single colour slip</description></term>
+        <term>{Single_coloured_slip}
+<description> </description></term>
         <term>{Rock}
 <description>Rockingham</description></term>
         <term>{Clear}
@@ -2049,15 +2118,9 @@
 <description> </description></term>
         <term>{Moulded___rim__e_g__scalloped_}
 <description> </description></term>
-        <term>{Transfer_printing_only}
+        <term>{Transfer_printing}
 <description> </description></term>
-        <term>{Handpainting_only}
-<description> </description></term>
-        <term>{Handpainted_and_moulded}
-<description> </description></term>
-        <term>{Transfer_printing_w___hand_painting}
-<description> </description></term>
-        <term>{Transfer_printing_with_moulding}
+        <term>{Handpainting}
 <description> </description></term>
         <term>{Flow_transfer_print}
 <description> </description></term>
@@ -2078,8 +2141,6 @@
         <term>{Lustre}
 <description> </description></term>
         <term>{Embossed}
-<description> </description></term>
-        <term>{Moulded_with_single_colour_slip}
 <description> </description></term>
         <term>{N_A}
 <description> </description></term>
@@ -2100,8 +2161,6 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{Not_applicable}
-<description>If there are no flaws, or if the ceramic object is not domestic in nature, then leave blank</description></term>
         <term>{Poorly_applied_Transfer_print}
 <description>Mismatched pattern edges, unevenly applied prints, missing sections of prints</description></term>
         <term>{Pinholes}
@@ -2110,6 +2169,8 @@
 <description>On the underside of vessels, caused by the separators between stacked items in the kiln adhering to the glaze</description></term>
         <term>{Grit}
 <description>Any grit or other inclusions adhered to the surface during firing</description></term>
+        <term>{Poorly_applied_hand_painting}
+<description> </description></term>
         <term>{Other}
 <description>Use annotation to describe</description></term>
       </lookup>
@@ -2119,49 +2180,19 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{Unmodified_undecorated__i_e__none_}
+        <term>{Asiatic_Pheasant}
 <description> </description></term>
-        <term>{Annular__thick_and_thin_rings_on_body_and_rim_}
+        <term>{Rhine}
 <description> </description></term>
-        <term>{Edge_banded__thin_rings_on_rim_only_}
+        <term>{Willow}
 <description> </description></term>
-        <term>{Moulded___relief}
+        <term>{Cable}
 <description> </description></term>
-        <term>{Moulded___rim__e_g__scalloped_}
+        <term>{Gem}
 <description> </description></term>
-        <term>{Transfer_printing_only}
+        <term>{Fibre}
 <description> </description></term>
-        <term>{Handpainting_only}
-<description> </description></term>
-        <term>{Handpainted_and_moulded}
-<description> </description></term>
-        <term>{Transfer_printing_w___hand_painting}
-<description> </description></term>
-        <term>{Transfer_printing_with_moulding}
-<description> </description></term>
-        <term>{Flow_transfer_print}
-<description> </description></term>
-        <term>{Sprigged}
-<description> </description></term>
-        <term>{Decal}
-<description> </description></term>
-        <term>{Mocha}
-<description> </description></term>
-        <term>{Gilt_tea_leaf}
-<description> </description></term>
-        <term>{Slip__single_coloured_glaze_}
-<description> </description></term>
-        <term>{Spongeware}
-<description> </description></term>
-        <term>{Cut_sponge_print__stamped_}
-<description> </description></term>
-        <term>{Lustre}
-<description> </description></term>
-        <term>{Embossed}
-<description> </description></term>
-        <term>{Moulded_with_single_colour_slip}
-<description> </description></term>
-        <term>{N_A}
+        <term>{Abbey}
 <description> </description></term>
       </lookup>
     </property>
@@ -2304,6 +2335,22 @@
     </property>
     <property name="Other contextual details" type="measure">
       <description>Please list other context details as relevant here.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -2622,6 +2669,22 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
   </ArchaeologicalElement>
   <ArchaeologicalElement name="Discrete Hearth Artefact">
     <description></description>
@@ -2858,7 +2921,7 @@
 <description>Any other material present</description></term>
       </lookup>
     </property>
-    <property name="Diameter mm" type="measure">
+    <property name="Discrete Hearth Artefact Diameter mm" type="measure">
       <description>Maximum diameter of hearth</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -2938,6 +3001,22 @@
     </property>
     <property name="Other contextual details" type="measure">
       <description>Please list other context details as relevant here.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -3133,7 +3212,7 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Ligne size mm" type="measure">
+    <property name="Buttons Diameter mm" type="measure">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
@@ -3168,56 +3247,34 @@
 <description> </description></term>
       </lookup>
     </property>
-    <property name="Shank type" type="vocab">
+    <property name="Buttons type" type="vocab">
       <description></description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
       <lookup>
-        <term>{Alpha}
-<description> </description></term>
-        <term>{Birdcage}
-<description> </description></term>
-        <term>{Box}
-<description> </description></term>
-        <term>{Cloth_shank}
-<description> </description></term>
-        <term>{Cone}
-<description> </description></term>
-        <term>{Cut_end_wedge}
-<description> </description></term>
-        <term>{Drilled_eye}
-<description> </description></term>
-        <term>{Loop}
-<description> </description></term>
-        <term>{Omega}
-<description> </description></term>
-        <term>{Pin}
-<description> </description></term>
-        <term>{Rosette}
-<description> </description></term>
-        <term>{Sanders}
-<description> </description></term>
-        <term>{Self_shanked}
-<description> </description></term>
-        <term>{Other}
-<description> </description></term>
-      </lookup>
-    </property>
-    <property name="Sew through type" type="vocab">
-      <description></description>
-      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
-      <appendCharacterString> - </appendCharacterString>
-      <lookup>
-        <term>{Linen__blank_}
-<description> </description></term>
-        <term>{Linen__eyeletted_}
-<description> </description></term>
-        <term>{Standard}
-<description> </description></term>
-        <term>{Thread_Dorset_thread}
-<description> </description></term>
-        <term>{Other}
-<description> </description></term>
+        <term>{Shanked}
+<description> </description><term>{Alpha}
+<description> </description></term><term>{Birdcage}
+<description> </description></term><term>{Box}
+<description> </description></term><term>{Cloth_shank}
+<description> </description></term><term>{Cone}
+<description> </description></term><term>{Cut_end_wedge}
+<description> </description></term><term>{Drilled_eye}
+<description> </description></term><term>{Loop}
+<description> </description></term><term>{Omega}
+<description> </description></term><term>{Pin}
+<description> </description></term><term>{Rosette}
+<description> </description></term><term>{Sanders}
+<description> </description></term><term>{Self_shanked}
+<description> </description></term><term>{Other}
+<description> </description></term></term>
+        <term>{Sew_through}
+<description> </description><term>{Linen__blank_}
+<description> </description></term><term>{Linen__eyeletted_}
+<description> </description></term><term>{Standard}
+<description> </description></term><term>{Thread_Dorset_thread}
+<description> </description></term><term>{Other}
+<description> </description></term></term>
       </lookup>
     </property>
     <property name="Number of eyes" type="measure">
@@ -3324,6 +3381,22 @@
     </property>
     <property name="Other contextual details" type="measure">
       <description>Please list other context details as relevant here.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -3837,6 +3910,22 @@
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
   </ArchaeologicalElement>
   <ArchaeologicalElement name="Metal Artefact">
     <description></description>
@@ -4054,8 +4143,9 @@
       <lookup>
         <term>{Clothing_Fasteners}
 <description> </description><term>{Buckle}
-<description> </description></term><term>{Rivet}
+<description> </description></term><term>{Collar_stud}
 <description> </description></term><term>{Hook_or_Eye}
+<description> </description></term><term>{Rivet}
 <description> </description></term><term>{Shoe_grommet}
 <description> </description></term><term>{Stud_or_press_stud}
 <description> </description></term><term>{Other_fastener}
@@ -4080,11 +4170,11 @@
 <description> </description></term></term>
         <term>{Jewellery}
 <description> </description><term>{Bracelet}
-<description> </description></term><term>{Necklace}
 <description> </description></term><term>{Brooch}
-<description> </description></term><term>{Ring}
 <description> </description></term><term>{Cufflink}
-<description> </description></term><term>{Watch}
+<description> </description></term><term>{Hatpin}
+<description> </description></term><term>{Necklace}
+<description> </description></term><term>{Ring}
 <description> </description></term><term>{Other_jewellery}
 <description> </description></term></term>
         <term>{Building}
@@ -4110,19 +4200,29 @@
 <description> </description></term><term>{Knife}
 <description> </description></term><term>{Spoon}
 <description> </description></term></term>
-        <term>{Accessories_and_containers}
+        <term>{Accessories}
 <description> </description><term>{Clock__watch_or_components}
-<description> </description></term><term>{Document_fastener}
-<description> </description></term><term>{Other_container}
-<description> </description></term><term>{Tobacco_tin}
 <description> </description></term><term>{Coin_or_token}
-<description> </description></term><term>{Food_can_or_tin}
-<description> </description></term><term>{Plate__cup_or_bowl}
-<description> </description></term><term>{Wax_vestas_box}
 <description> </description></term><term>{Cooking_pot__pan_or_components}
+<description> </description></term><term>{Document_fastener}
 <description> </description></term><term>{Lamp_or_components}
+<description> </description></term><term>{Musical_instrument}
+<description> </description></term><term>{Plate__cup_or_bowl}
+<description> </description></term><term>{Scissors}
 <description> </description></term><term>{Stove_or_components}
-<description> </description></term><term>{Other_accessories_or_containers}
+<description> </description></term><term>{Other_accessories}
+<description> </description></term></term>
+        <term>{Containers}
+<description> </description><term>{Food_can_or_tin}
+<description> </description></term><term>{Tobacco_tin}
+<description> </description></term><term>{Wax_vestas_box}
+<description> </description></term><term>{Other_containers}
+<description> </description></term></term>
+        <term>{Personal}
+<description> </description><term>{Pocket_knife}
+<description> </description></term><term>{Purse}
+<description> </description></term><term>{Razor}
+<description> </description></term><term>{Other_personal}
 <description> </description></term></term>
         <term>{Saddlery_and_horses}
 <description> </description><term>{Bit}
@@ -4503,6 +4603,22 @@
     </property>
     <property name="Other contextual details" type="measure">
       <description>Please list other context details as relevant here.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>
@@ -4959,6 +5075,22 @@
     </property>
     <property name="Other contextual details" type="measure">
       <description>Please list other context details as relevant here.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+    </property>
+    <property name="Additional edits or uploads required" type="vocab">
+      <description>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</description>
+      <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
+      <appendCharacterString> - </appendCharacterString>
+      <lookup>
+        <term>{Yes}
+<description> </description></term>
+        <term>{No}
+<description> </description></term>
+      </lookup>
+    </property>
+    <property name="Editing notes" type="measure">
+      <description>Describe in brief editing work required</description>
       <formatString>{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}</formatString>
       <appendCharacterString> - </appendCharacterString>
     </property>

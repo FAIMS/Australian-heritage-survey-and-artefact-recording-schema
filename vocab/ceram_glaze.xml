@@ -2,9 +2,7 @@
     <opt>None
         <desc>None unglazed</desc>
     </opt>
-    <opt>Single
-        <desc>Single colour slip</desc>
-    </opt>
+    <opt>Single coloured slip</opt>
     <opt>Rock
         <desc>Rockingham</desc>
     </opt>

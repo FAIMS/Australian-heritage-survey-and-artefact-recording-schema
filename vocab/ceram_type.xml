@@ -1,35 +1,21 @@
 <opts>
-    <opt>Earthenware
-        <desc>Earthenware is a soft, easily scratched, porous (sticks to tongue) unvitrified ceramic</desc>
-    </opt>
-    <opt>Creamware
-        <desc>Earthenware creamware</desc>
-    </opt>
-    <opt>Pearlware
-        <desc>Earthenware pearlware</desc>
-    </opt>
-    <opt>Refined
-        <desc>Earthenware refined</desc>
-    </opt>
-    <opt>White granite or ironstone
-        <desc>Earthenware white granite or ironstone</desc>
-    </opt>
-    <opt>Terracotta
-        <desc>Earthenware unrefined terracotta or redware</desc>
-    </opt>
-    <opt>Yellow earthenware
-        <desc>Earthenware unrefined yellowware</desc>
-    </opt>
-    <opt>Porcelaine
-        <desc>Highly vitrified, very hard and resistant to stratching, non-porous, and transluscent under light--typically shades of white</desc>
-    </opt>
-    <opt>Hard paste
-        <desc>Hard paste porcelain</desc>
-    </opt>
-    <opt>Soft paste
-        <desc>Soft paste porcelain</desc>
-    </opt>
-    <opt>Stoneware
-        <desc>Vitreous or semi-vitreous ceramic, non-porous, and resistant to scratching</desc>
-    </opt>
+  <opt>
+    Coarse (unrefined) earthenware
+    <opt>Terracotta/redware</opt>
+    <opt>Yellowware</opt>
+  </opt>
+  <opt>
+    Refined earthenware
+    <opt>Creamware</opt>
+    <opt>Pearlware</opt>
+    <opt>whiteware</opt>
+    <opt>White granite/ironstone</opt>
+  </opt>
+  <opt>
+    Porcelain
+    <opt>Soft paste</opt>
+    <opt>Hard paste</opt>
+  </opt>
+  <opt>Porcellaneous</opt>
+  <opt>Stoneware</opt>
 </opts>

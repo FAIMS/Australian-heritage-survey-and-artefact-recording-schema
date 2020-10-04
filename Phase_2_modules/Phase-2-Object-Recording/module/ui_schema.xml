@@ -152,6 +152,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Flaked_Stone_Artefact>
           <Other_Stone_Artefact>
@@ -220,6 +222,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Other_Stone_Artefact>
           <Glass_Artefact>
@@ -257,7 +261,6 @@
               <Colour/>
               <Completeness/>
               <Grouped_fragments/>
-              <Group_notes/>
               <Portion_or_component/>
               <Object_type/>
               <Tableware_type/>
@@ -273,7 +276,7 @@
               <Patination_present/>
               <Base_diameter_mm/>
               <Base_thickness_mm/>
-              <Pontil_mark_present/>
+              <Technological_base_marks/>
               <Kickup_depth_mm/>
               <Finish_inner_bore_diameter_mm/>
               <Finish_type/>
@@ -307,6 +310,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Glass_Artefact>
           <Ceramic_Artefact>
@@ -385,6 +390,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Ceramic_Artefact>
           <Misc_Artefact>
@@ -440,6 +447,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Misc_Artefact>
           <Discrete_Hearth_Artefact>
@@ -491,6 +500,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Discrete_Hearth_Artefact>
           <Buttons>
@@ -526,11 +537,10 @@
             <Feature_details>
               <Material_type/>
               <Attachment_method/>
-              <Ligne_size_mm/>
+              <Diameter_mm/>
               <Manufacture_method/>
               <Construction/>
-              <Shank_type/>
-              <Sew_through_type/>
+              <Buttons_type/>
               <Number_of_eyes/>
               <Motifs/>
               <Maker_s_marks_or_trademarks/>
@@ -550,6 +560,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Buttons>
           <Knapped_Glass_Artefact>
@@ -625,6 +637,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Knapped_Glass_Artefact>
           <Metal_Artefact>
@@ -696,6 +710,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Metal_Artefact>
           <Weapons_and_Ammunition>
@@ -765,6 +781,8 @@
               <Related_site_name/>
               <Sample_context/>
               <Other_contextual_details/>
+              <Additional_edits_or_uploads_required/>
+              <Editing_notes/>
             </Supplementary>
           </Weapons_and_Ammunition>
         </faims>
@@ -836,7 +854,7 @@
       <bind nodeset="/faims/Misc_Artefact/Feature_details/Thickness_mm" type="decimal"/>
       <bind nodeset="/faims/Misc_Artefact/Feature_details/Height_mm" type="decimal"/>
       <bind nodeset="/faims/Discrete_Hearth_Artefact/Feature_details/Diameter_mm" type="decimal"/>
-      <bind nodeset="/faims/Buttons/Feature_details/Ligne_size_mm" type="decimal"/>
+      <bind nodeset="/faims/Buttons/Feature_details/Diameter_mm" type="decimal"/>
       <bind nodeset="/faims/Buttons/Feature_details/Number_of_eyes" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_length_mm" type="decimal"/>
       <bind nodeset="/faims/Knapped_Glass_Artefact/Feature_details/Max_width_mm" type="decimal"/>
@@ -1291,6 +1309,16 @@
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
         </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
+        </input>
       </group>
     </group>
     <group ref="Other_Stone_Artefact" faims_archent_type="Other Stone Artefact">
@@ -1518,6 +1546,16 @@
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
         </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
+        </input>
       </group>
     </group>
     <group ref="Glass_Artefact" faims_archent_type="Glass Artefact">
@@ -1623,9 +1661,6 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Group notes" faims_attribute_type="measure" ref="Group_notes" faims_annotation="false" faims_certainty="false">
-          <label>{Group_notes}</label>
-        </input>
         <select1 faims_attribute_name="Portion or component" faims_attribute_type="vocab" ref="Portion_or_component">
           <label>{Portion_or_component}</label>
           <item>
@@ -1663,13 +1698,13 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_attribute_name="Probable contents" faims_attribute_type="vocab" ref="Probable_contents">
+        <select1 faims_attribute_name="Probable contents" faims_attribute_type="vocab" ref="Probable_contents">
           <label>{Probable_contents}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
-        </select>
+        </select1>
         <input faims_attribute_name="Shoulder width mm" faims_attribute_type="measure" ref="Shoulder_width_mm">
           <label>{Shoulder_width_mm}</label>
         </input>
@@ -1699,13 +1734,13 @@
         <input faims_attribute_name="Base thickness mm" faims_attribute_type="measure" ref="Base_thickness_mm">
           <label>{Base_thickness_mm}</label>
         </input>
-        <select1 faims_attribute_name="Pontil mark present" faims_attribute_type="vocab" ref="Pontil_mark_present">
-          <label>{Pontil_mark_present}</label>
+        <select faims_attribute_name="Technological base marks" faims_attribute_type="vocab" ref="Technological_base_marks">
+          <label>{Technological_base_marks}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
-        </select1>
+        </select>
         <input faims_attribute_name="Kickup depth mm" faims_attribute_type="measure" ref="Kickup_depth_mm">
           <label>{Kickup_depth_mm}</label>
         </input>
@@ -1825,6 +1860,16 @@
         </input>
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
+        </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
         </input>
       </group>
     </group>
@@ -1967,13 +2012,13 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select1 faims_attribute_name="Glaze type" faims_attribute_type="vocab" ref="Glaze_type">
+        <select faims_attribute_name="Glaze type" faims_attribute_type="vocab" ref="Glaze_type">
           <label>{Glaze_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
-        </select1>
+        </select>
         <select faims_attribute_name="Decorative methods" faims_attribute_type="vocab" ref="Decorative_methods">
           <label>{Decorative_methods}</label>
           <item>
@@ -1987,13 +2032,13 @@
         <input faims_attribute_name="Visible motifs" faims_attribute_type="measure" ref="Visible_motifs">
           <label>{Visible_motifs}</label>
         </input>
-        <select1 faims_attribute_name="Flaws" faims_attribute_type="vocab" ref="Flaws">
+        <select faims_attribute_name="Flaws" faims_attribute_type="vocab" ref="Flaws">
           <label>{Flaws}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
-        </select1>
+        </select>
         <select1 faims_attribute_name="Decorative pattern name" faims_attribute_type="vocab" ref="Decorative_pattern_name">
           <label>{Decorative_pattern_name}</label>
           <item>
@@ -2090,6 +2135,16 @@
         </input>
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
+        </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
         </input>
       </group>
     </group>
@@ -2247,6 +2302,16 @@
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
         </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
+        </input>
       </group>
     </group>
     <group ref="Discrete_Hearth_Artefact" faims_archent_type="Discrete Hearth Artefact">
@@ -2352,7 +2417,7 @@
             <value>Options not loaded</value>
           </item>
         </select>
-        <input faims_attribute_name="Diameter mm" faims_attribute_type="measure" ref="Diameter_mm">
+        <input faims_attribute_name="Discrete Hearth Artefact Diameter mm" faims_attribute_type="measure" ref="Diameter_mm">
           <label>{Diameter_mm}</label>
         </input>
         <input faims_attribute_name="Discrete Hearth Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
@@ -2402,6 +2467,16 @@
         </input>
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
+        </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
         </input>
       </group>
     </group>
@@ -2494,8 +2569,8 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <input faims_attribute_name="Ligne size mm" faims_attribute_type="measure" ref="Ligne_size_mm">
-          <label>{Ligne_size_mm}</label>
+        <input faims_attribute_name="Buttons Diameter mm" faims_attribute_type="measure" ref="Diameter_mm">
+          <label>{Diameter_mm}</label>
         </input>
         <select faims_attribute_name="Buttons Manufacture method" faims_attribute_type="vocab" ref="Manufacture_method">
           <label>{Manufacture_method}</label>
@@ -2511,20 +2586,13 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_attribute_name="Shank type" faims_attribute_type="vocab" ref="Shank_type">
-          <label>{Shank_type}</label>
+        <select1 faims_attribute_name="Buttons type" faims_attribute_type="vocab" ref="Buttons_type">
+          <label>{Buttons_type}</label>
           <item>
             <label>Options not loaded</label>
             <value>Options not loaded</value>
           </item>
-        </select>
-        <select faims_attribute_name="Sew through type" faims_attribute_type="vocab" ref="Sew_through_type">
-          <label>{Sew_through_type}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select>
+        </select1>
         <input faims_attribute_name="Number of eyes" faims_attribute_type="measure" ref="Number_of_eyes">
           <label>{Number_of_eyes}</label>
         </input>
@@ -2590,6 +2658,16 @@
         </input>
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
+        </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
         </input>
       </group>
     </group>
@@ -2855,6 +2933,16 @@
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
         </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
+        </input>
       </group>
     </group>
     <group ref="Metal_Artefact" faims_archent_type="Metal Artefact">
@@ -3115,6 +3203,16 @@
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
         </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
+        </input>
       </group>
     </group>
     <group ref="Weapons_and_Ammunition" faims_archent_type="Weapons and Ammunition">
@@ -3352,6 +3450,16 @@
         </input>
         <input faims_attribute_name="Other contextual details" faims_attribute_type="measure" ref="Other_contextual_details" faims_annotation="false">
           <label>{Other_contextual_details}</label>
+        </input>
+        <select1 faims_attribute_name="Additional edits or uploads required" faims_attribute_type="vocab" ref="Additional_edits_or_uploads_required" faims_certainty="false">
+          <label>{Additional_edits_or_uploads_required}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Editing notes" faims_attribute_type="measure" ref="Editing_notes" faims_certainty="false">
+          <label>{Editing_notes}</label>
         </input>
       </group>
     </group>
