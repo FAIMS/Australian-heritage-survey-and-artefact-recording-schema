@@ -263,7 +263,6 @@
               <Grouped_fragments/>
               <Portion_or_component/>
               <Object_type/>
-              <Tableware_type/>
               <Length_mm/>
               <Width_mm/>
               <Thickness_mm/>
@@ -1675,13 +1674,6 @@
             <value>Options not loaded</value>
           </item>
         </select1>
-        <select faims_attribute_name="Tableware type" faims_attribute_type="vocab" ref="Tableware_type">
-          <label>{Tableware_type}</label>
-          <item>
-            <label>Options not loaded</label>
-            <value>Options not loaded</value>
-          </item>
-        </select>
         <input faims_attribute_name="Glass Artefact Length mm" faims_attribute_type="measure" ref="Length_mm">
           <label>{Length_mm}</label>
         </input>

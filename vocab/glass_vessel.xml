@@ -4,6 +4,10 @@
     </opt>
     <opt>Tableware
         <desc>Glass plates, saucers, cups or other such tableware items</desc>
+        <opt>Cut glass</opt>
+        <opt>Plain moulded</opt>
+        <opt>Pressed glass</opt>
+        <opt>Other</opt>
     </opt>
     <opt>Stemware
         <desc>Glass artefacts with stems, such as wine glasses</desc>

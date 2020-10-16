@@ -416,10 +416,6 @@
         <desc>Select type of original vessel</desc>
         <!--@SOURCE: ../../vocab/glass_vessel.xml-->
     </Object_type>
-    <Tableware_type t="checkbox">
-      <desc>Select all that apply</desc>
-      <!--@SOURCE: ../../vocab/glass_tableware_type.xml-->
-    </Tableware_type>
     <Length_mm b="decimal">
         <desc>Maximum fragment length, mm</desc>
     </Length_mm>
