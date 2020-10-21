@@ -4,11 +4,8 @@
     <opt>Edge banded (thin rings on rim only)</opt>
     <opt>Moulded - relief</opt>
     <opt>Moulded - rim (e.g. scalloped)</opt>
-    <opt>Transfer printing only</opt>
-    <opt>Handpainting only</opt>
-    <opt>Handpainted and moulded</opt>
-    <opt>Transfer printing w/- hand painting</opt>
-    <opt>Transfer printing with moulding</opt>
+    <opt>Transfer printing</opt>
+    <opt>Handpainting</opt>
     <opt>Flow transfer print</opt>
     <opt>Sprigged</opt>
     <opt>Decal</opt>
@@ -19,6 +16,5 @@
     <opt>Cut sponge print (stamped)</opt>
     <opt>Lustre</opt>
     <opt>Embossed</opt>
-    <opt>Moulded with single colour slip</opt>
     <opt>N/A</opt>
 </opts>

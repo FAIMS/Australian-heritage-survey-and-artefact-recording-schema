@@ -195,6 +195,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Flaked_Stone_Artefact>
 
@@ -343,6 +351,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Other_Stone_Artefact>
 
@@ -392,9 +408,6 @@
         <desc>Where multiple fragments resulting from breakage of the same bottle or bottle fragment are found at one location, record as a group </desc>
         <!--@SOURCE: ../../vocab/yesno.xml-->
     </Grouped_fragments>
-    <Group_notes f="nocertainty noannotation">
-        <desc>Record any additional notes relating to the grouped fragments</desc>
-    </Group_notes>
     <Portion_or_component>
         <desc>Record fragment location for artefact being catalogued</desc>
         <!--@SOURCE: ../../vocab/glass_frag_loc.xml-->
@@ -403,10 +416,6 @@
         <desc>Select type of original vessel</desc>
         <!--@SOURCE: ../../vocab/glass_vessel.xml-->
     </Object_type>
-    <Tableware_type t="checkbox">
-      <desc>Select all that apply</desc>
-      <!--@SOURCE: ../../vocab/glass_tableware_type.xml-->
-    </Tableware_type>
     <Length_mm b="decimal">
         <desc>Maximum fragment length, mm</desc>
     </Length_mm>
@@ -420,7 +429,7 @@
         <desc>For body sherds only, record horizontal shape</desc>
         <!--@SOURCE: ../../vocab/glass_bodysherd.xml-->
     </Horizontal_shape>
-    <Probable_contents t="checkbox">
+    <Probable_contents>
       <desc>Select all that apply</desc>
       <!--@SOURCE: ../../vocab/glass_probcont.xml-->
     </Probable_contents>
@@ -447,10 +456,10 @@
     <Base_thickness_mm b="decimal">
         <desc>thickness of base, if present</desc>
     </Base_thickness_mm>
-    <Pontil_mark_present>
-        <desc>Small, usually circular depression on bottle base</desc>
-        <!--@SOURCE: ../../vocab/yesno.xml-->
-    </Pontil_mark_present>
+    <Technological_base_marks t="checkbox">
+      <desc>Small, usually circular depression on bottle base</desc>
+      <!--@SOURCE: ../../vocab/tech_base_marks.xml-->
+    </Technological_base_marks>
     <Kickup_depth_mm b="decimal">
         <desc>Depth of kickup on base, measured from base near centre</desc>
     </Kickup_depth_mm>
@@ -526,6 +535,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Glass_Artefact>
 
@@ -603,7 +620,7 @@
         <desc>Colour of paste to create ceramic</desc>
         <!--@SOURCE: ../../vocab/ceram_paste.xml-->
     </Paste_colour>
-    <Glaze_type>
+    <Glaze_type t="checkbox">
         <desc>Glaze type, if known</desc>
         <!--@SOURCE: ../../vocab/ceram_glaze.xml-->
     </Glaze_type>
@@ -618,13 +635,13 @@
         <desc>Describe motifs applied (e.g. hairline around rim, coloured and scalloped rim). Please ensure photos include motifs</desc>
 
     </Visible_motifs>
-    <Flaws>
+    <Flaws t="checkbox">
       <desc>Detail the presence of any observable manufacturing flaws, such as poorly applied transfer prints, trivet/stilt marks, pinholes in the glaze, grit from the kiln adhered to the surface. This is really only applicable to domestic ceramics (teawares and tablewares). Note that this does not include marks made through use (e.g. scratches or removal of overglaze decoration).</desc>
         <!--@SOURCE: ../../vocab/ceram_flaws.xml-->
     </Flaws>
     <Decorative_pattern_name>
         <desc>If known, select the decorative pattern used</desc>
-        <!--@SOURCE: ../../vocab/ceram_decorative.xml-->
+        <!--@SOURCE: ../../vocab/ceram_decorative_patterns.xml-->
     </Decorative_pattern_name>
     <Maker_s_marks_or_trademarks f="noannotation">
       Maker's marks or Trademarks
@@ -681,6 +698,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Ceramic_Artefact>
 
@@ -776,6 +801,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Misc_Artefact>
 
@@ -865,6 +898,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Discrete_Hearth_Artefact>
 
@@ -896,19 +937,16 @@
     <Attachment_method t="dropdown">
       <!--@SOURCE: ../../vocab/buttons_attachment.xml-->
     </Attachment_method>
-    <Ligne_size_mm b="decimal"/>
+    <Diameter_mm b="decimal"/>
     <Manufacture_method t="checkbox">
       <!--@SOURCE: ../../vocab/buttons_manmeth.xml-->
     </Manufacture_method>
     <Construction t="dropdown">
       <!--@SOURCE: ../../vocab/buttons_construct.xml-->
     </Construction>
-    <Shank_type t="checkbox">
-      <!--@SOURCE: ../../vocab/buttons_shanktype.xml-->
-    </Shank_type>
-    <Sew_through_type t="checkbox">
-      <!--@SOURCE: ../../vocab/buttons_sewthrutype.xml-->
-    </Sew_through_type>
+    <Buttons_type>
+      <!--@SOURCE: ../../vocab/buttons_type.xml-->
+    </Buttons_type>
     <Number_of_eyes b="decimal"/>
     <Motifs f="noannotation"/>
     <Maker_s_marks_or_trademarks f="noannotation">
@@ -951,6 +989,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Buttons>
 
@@ -1091,6 +1137,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Knapped_Glass_Artefact>
 
@@ -1225,6 +1279,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Metal_Artefact>
 
@@ -1368,6 +1430,14 @@
     <Other_contextual_details f="noannotation">
       <desc>Please list other context details as relevant here.</desc>
     </Other_contextual_details>
+    <Additional_edits_or_uploads_required t="dropdown" f="nocertainty">
+      Additional edits or uploads required?
+      <desc>If you know that there is missing data such as camera photographs or other issues to be rectified, please indicate.</desc>
+      <!--@SOURCE: ../../vocab/yesno.xml-->
+    </Additional_edits_or_uploads_required>
+    <Editing_notes f="nocertainty">
+      <desc>Describe in brief editing work required</desc>
+    </Editing_notes>
   </Supplementary>
 </Weapons_and_Ammunition>
 

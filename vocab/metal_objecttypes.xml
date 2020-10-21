@@ -2,8 +2,9 @@
   <opt>
     Clothing Fasteners
     <opt>Buckle</opt>
-    <opt>Rivet</opt>
+    <opt>Collar stud</opt>
     <opt>Hook or Eye</opt>
+    <opt>Rivet</opt>
     <opt>Shoe grommet</opt>
     <opt>Stud or press stud</opt>
     <opt>Other fastener</opt>
@@ -31,11 +32,11 @@
   <opt>
     Jewellery
     <opt>Bracelet</opt>
-    <opt>Necklace</opt>
     <opt>Brooch</opt>
-    <opt>Ring</opt>
     <opt>Cufflink</opt>
-    <opt>Watch</opt>
+    <opt>Hatpin</opt>
+    <opt>Necklace</opt>
+    <opt>Ring</opt>
     <opt>Other jewellery</opt>
   </opt>
   <opt>
@@ -65,19 +66,31 @@
     <opt>Spoon</opt>
   </opt>
   <opt>
-    Accessories and containers
+    Accessories
     <opt>Clock, watch or components</opt>
-    <opt>Document fastener</opt>
-    <opt>Other container</opt>
-    <opt>Tobacco tin</opt>
     <opt>Coin or token</opt>
-    <opt>Food can or tin</opt>
-    <opt>Plate, cup or bowl</opt>
-    <opt>Wax vestas box</opt>
     <opt>Cooking pot, pan or components</opt>
+    <opt>Document fastener</opt>
     <opt>Lamp or components</opt>
+    <opt>Musical instrument</opt>
+    <opt>Plate, cup or bowl</opt>
+    <opt>Scissors</opt>
     <opt>Stove or components</opt>
-    <opt>Other accessories or containers</opt>
+    <opt>Other accessories</opt>
+  </opt>
+  <opt>
+    Containers
+    <opt>Food can or tin</opt>
+    <opt>Tobacco tin</opt>
+    <opt>Wax vestas box</opt>
+    <opt>Other containers</opt>
+  </opt>
+  <opt>
+    Personal
+    <opt>Pocket knife</opt>
+    <opt>Purse</opt>
+    <opt>Razor</opt>
+    <opt>Other personal</opt>
   </opt>
   <opt>
     Saddlery and horses
