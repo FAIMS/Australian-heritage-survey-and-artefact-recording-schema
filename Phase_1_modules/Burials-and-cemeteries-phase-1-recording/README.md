@@ -1,4 +1,3 @@
-
 # Phase 1 Module: Burials and cemeteries
 
 _This module represents a digital workflow recording Burials and Cemeteries in the colonial Cape York, Australia_
@@ -20,13 +19,8 @@ _In 2020 module got updated to better correspond with in-field requirements of t
 <img src="screenshots/Screenshot_20201022-112153.png" width="250"/>
     </p>
 <p align="left">
-<img src="screenshots/Screenshot_20201022-103306.png" width="250"/>
-<img src="screenshots/Screenshot_20201022-103644.png" width="250"/>
-<img src="screenshots/Screenshot_20201022-103700.png" width="250"/>
-    </p>
-<p align="left">
 <img src="screenshots/Screenshot_20201022-112240.png" width="250"/>
 <img src="screenshots/Screenshot_20201022-112247.png" width="250"/>
 <img src="screenshots/Screenshot_20201022-112310.png" width="250"/>
-    </p>
+</p>
 
