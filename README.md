@@ -1,13 +1,11 @@
 # About this project:
 This set of digital recording modules was created for the **Indigenous foodways in colonial Cape York Peninsula** project, based at Flinders University. The modules have been designed for landscape survey in Cape York Peninsula in Australia. 
 
-### Indigenous foodways in colonial Cape York Peninsula: 
+## Indigenous foodways in colonial Cape York Peninsula: 
 This project aims to trace historical Indigenous foodways in colonial Cape York Peninsula, Queensland, through a program of collaborative community-based archaeological and anthropological research. Food was a key medium for cultural exchanges between Indigenous peoples and settler-colonists. The analysis of foodways is known to provide unparalleled insights on daily life, as well as the development of both cultural values and social relationships. This has received limited attention in archaeological investigations in Australia. Results will provide greater insight into the history behind our current society.
 
-
 ## Authorship:
-This module was developed by Mick Morrison [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-3971-7829)(Flinders University), Shawn Ross [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6492-9025)(Macquarie University), Brian Ballsun-Stanton [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4932-7912) (Macquarie), Ana Stevanovic (Macquarie), Christian Nassif-Haynes (Macquarie) and Petra Hermankova [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6349-0540) (Aarhus University).
-
+This module was developed by Mick Morrison [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-3971-7829) (Flinders University), Shawn Ross [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6492-9025) (Macquarie University), Brian Ballsun-Stanton [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4932-7912) (Macquarie), Ana Stevanovic (Macquarie), Christian Nassif-Haynes (Macquarie) and Petra Hermankova [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6349-0540) (Aarhus University).
 
 ## Funding:
 Development of this module was funded by the **Australian Research Council** Linkage Project Grant LP170100050: Indigenous foodways in colonial Cape York Peninsula. 
@@ -66,7 +64,7 @@ For more details about **Indigenous foodways in colonial Cape York Peninsula** p
 	* Miscellaneous Artefact
 
 
-
+[Insert photo from the field: FAIMS in action]
 
 
 
