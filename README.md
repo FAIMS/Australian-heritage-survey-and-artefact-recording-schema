@@ -1,33 +1,29 @@
-# About this Module
-
-*THIS README IS UNDER DEVELOPMENT*
-
-This module was created for the **Indigenous foodways in colonial Cape York Peninsula** project, based at Flinders University. This module has been designed for landscape survey. 
+# About this Project
+This set of digital recording modules was created for the **Indigenous foodways in colonial Cape York Peninsula** project, based at Flinders University. The modules have been designed for landscape survey in Cape York Peninsula in Australia. 
 
 ### Indigenous foodways in colonial Cape York Peninsula. 
-
 This project aims to trace historical Indigenous foodways in colonial Cape York Peninsula, Queensland, through a program of collaborative community-based archaeological and anthropological research. Food was a key medium for cultural exchanges between Indigenous peoples and settler-colonists. The analysis of foodways is known to provide unparalleled insights on daily life, as well as the development of both cultural values and social relationships. This has received limited attention in archaeological investigations in Australia. Results will provide greater insight into the history behind our current society.
 
 
 ## Authorship
-
-This module was developed by Mick Morrison (Flinders), Shawn Ross (Macquarie), Brian Ballsun-Stanton (Macquarie), and Ana Stevanovic (Macquarie).
+This module was developed by Mick Morrison (Flinders University), Shawn Ross (Macquarie University), Brian Ballsun-Stanton (Macquarie), Ana Stevanovic (Macquarie), Christian Nassif-Haynes (Macquarie) and Petra Hermankova (Aarhus University).
 
 ## Funding
-
 Development of this module was funded by the **Australian Research Council** Linkage Project Grant LP170100050: Indigenous foodways in colonial Cape York Peninsula. 
 
 ## Date of release
-July 2019
+July 2019, October 2020
 
 ## FAIMS Mobile Version
 FAIMS **v2.6** (Android 7+)
 
 ## Licence:
-This module is licensed under an international Creative Commons Attribution 4.0 Licence (**CC BY 4.0**).
+All the modules are licensed under an international Creative Commons Attribution 4.0 Licence (**CC BY 4.0**).
 
+## Contact info:
+For more details about **Indigenous foodways in colonial Cape York Peninsula** project, please visit http://capeyorkpeninsula.org/
 
-## This module contains the following FAIMS features: 
+## All modules contains the following FAIMS features: 
 * attribute-level timestamps
 * photo capture from device camera
 * controlled vocabularies
@@ -39,29 +35,43 @@ This module is licensed under an international Creative Commons Attribution 4.0 
 * Custom Search
 * Recent records
 
-## Contact info:
 
-For more details about **Indigenous foodways in colonial Cape York Peninsula** project, please visit http://capeyorkpeninsula.org/
+---
 
-## Screenshots
-<p align="left">
-<img src="Screenshots/Screenshot_20190509-170530.png" width="250"/>
-<img src="Screenshots/Screenshot_20190509-170534.png" width="250"/>
-<img src="Screenshots/Screenshot_20190509-170602.png" width="250"/>
-    </p>
-<p align="left">
-<img src="Screenshots/Screenshot_20190509-170957.png" width="250"/>
-<img src="Screenshots/Screenshot_20190509-171006.png" width="250"/>
-<img src="Screenshots/Screenshot_20190509-171246.png" width="250"/>
-    </p>
-<p align="left">
-<img src="Screenshots/Screenshot_20190509-171250.png" width="250"/>
-<img src="Screenshots/Screenshot_20190509-171303.png" width="250"/>
-<img src="Screenshots/Screenshot_20190509-171309.png" width="250"/>
-    </p>
-<p align="left">
-<img src="Screenshots/Screenshot_20190509-171313.png" width="250"/>
-    </p>
-<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-03.png"/>
-<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-12.png"/>
+## Do you wnat to know ore about indovidual modules?
+
+1. **Phase 1 Modules:** 
+	_Phase 1 Modules represent seven digital workflows for recording distinct archaeological features in the field:_
+	* [Burials and cemeteries](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_1_modules/Burials-and-cemeteries-phase-1-recording)
+	* [Historic trees](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_1_modules/Historic-trees-phase-1-recording)
+	* [Historical features](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_1_modules/Historical-features-phase-1-recording)
+	* [Mound](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_1_modules/Mound-feature-phase-1-recording)
+	* [Point of interest](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_1_modules/Point-of-interest-phase-1-recording)
+	* [Rockshelter](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_1_modules/Rockshelter-phase-1-recording)
+	* [Surface exposure](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_1_modules/Surface-exposure-phase-1-recording)
+
+
+2. **[Phase 2 Module](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_2_modules/Phase-2-Object-Recording)**
+	_Phase 2 Module reprensts a camplex workflow, combining ditigal recording of the following material evidence in the field:_
+	* Flaked Stone Artefact
+	* Other Stone Artefact
+	* Knapped Glass Artefact
+	* Discrete Hearth Feature
+	* Glass Artefact
+	* Ceramic Artefact
+	* Buttons
+	* Metal Artefact
+	* Weapons and Ammunition
+	* Miscellaneous Artefact
+
+
+
+
+
+
+
+
+
+
+
 
