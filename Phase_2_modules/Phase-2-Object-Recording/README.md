@@ -2,16 +2,17 @@
 # Phase 2 Module
 
 _[Phase 2 Module](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_2_modules/Phase-2-Object-Recording) represents a complex workflow, combining digital recording of the following archaeological objects in the field:_
-	* Flaked Stone Artefact
-	* Other Stone Artefact
-	* Knapped Glass Artefact
-	* Discrete Hearth Feature
-	* Glass Artefact
-	* Ceramic Artefact
-	* Buttons
-	* Metal Artefact
-	* Weapons and Ammunition
-	* Miscellaneous Artefact
+
+* Flaked Stone Artefact
+* Other Stone Artefact
+* Knapped Glass Artefact
+* Discrete Hearth Feature
+* Glass Artefact
+* Ceramic Artefact
+* Buttons
+* Metal Artefact
+* Weapons and Ammunition
+* Miscellaneous Artefact
 
 ## Contact info:
 For more details about **Indigenous foodways in colonial Cape York Peninsula** project, please visit http://capeyorkpeninsula.org/.
