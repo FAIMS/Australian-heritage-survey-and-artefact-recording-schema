@@ -18,6 +18,8 @@ For more details about **Indigenous foodways in colonial Cape York Peninsula** p
 
 
 ## Screenshots of the 2019 version
+
+_In 2019 the module was created ready to be used in the field at Cape York_
 <p align="left">
 <img src="screenshots/Screenshot_20190509-170530.png" width="250"/>
 <img src="screenshots/Screenshot_20190509-170534.png" width="250"/>
@@ -35,6 +37,8 @@ For more details about **Indigenous foodways in colonial Cape York Peninsula** p
     </p>
 
 ## Screenshots of the 2020 version
+
+_In 2020 module got updated to better correspond with in-field requirements of the team (after getting feedback from an extensive first season)_
 <p align="left">
 <img src="screenshots/Screenshot_20201022-103121.png" width="250"/>
 <img src="screenshots/Screenshot_20201022-103141.png" width="250"/>
@@ -61,7 +65,6 @@ For more details about **Indigenous foodways in colonial Cape York Peninsula** p
 
 _Dr Brian Ballsun-Stanton testing at Macquarie University (2019)_
 <p align="left">
-<img src="screenshots/Screenshot_20190509-171313.png" width="250"/>
-    </p>
-<img src="screenshots/Screenshot%20from%202019-05-09%2016-09-03.png"/>
-<img src="screenshots/Screenshot%20from%202019-05-09%2016-09-12.png"/>
+<img src="screenshots/Screenshot%20from%202019-05-09%2016-09-03.png" width="750"/>
+<img src="screenshots/Screenshot%20from%202019-05-09%2016-09-12.png" width="750"/>
+</p>

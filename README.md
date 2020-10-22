@@ -6,7 +6,8 @@ This project aims to trace historical Indigenous foodways in colonial Cape York 
 
 
 ## Authorship:
-This module was developed by Mick Morrison (Flinders University), Shawn Ross (Macquarie University), Brian Ballsun-Stanton (Macquarie), Ana Stevanovic (Macquarie), Christian Nassif-Haynes (Macquarie) and Petra Hermankova (Aarhus University).
+This module was developed by Mick Morrison [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-3971-7829)(Flinders University), Shawn Ross [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6492-9025)(Macquarie University), Brian Ballsun-Stanton [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4932-7912) (Macquarie), Ana Stevanovic (Macquarie), Christian Nassif-Haynes (Macquarie) and Petra Hermankova [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6349-0540) (Aarhus University).
+
 
 ## Funding:
 Development of this module was funded by the **Australian Research Council** Linkage Project Grant LP170100050: Indigenous foodways in colonial Cape York Peninsula. 
