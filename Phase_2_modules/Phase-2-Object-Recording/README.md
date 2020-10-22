@@ -1,6 +1,7 @@
 
 # Phase 2 Module
-	_[Phase 2 Module](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_2_modules/Phase-2-Object-Recording) reprensts a camplex workflow, combining ditigal recording of the following material evidence in the field:_
+
+_[Phase 2 Module](https://github.com/FAIMS/Indigenous-foodways-landscape-survey/tree/master/Phase_2_modules/Phase-2-Object-Recording) represents a complex workflow, combining digital recording of the following archaeological objects in the field:_
 	* Flaked Stone Artefact
 	* Other Stone Artefact
 	* Knapped Glass Artefact
@@ -12,9 +13,8 @@
 	* Weapons and Ammunition
 	* Miscellaneous Artefact
 
-
 ## Contact info:
-For more details about **Indigenous foodways in colonial Cape York Peninsula** project, please visit http://capeyorkpeninsula.org/
+For more details about **Indigenous foodways in colonial Cape York Peninsula** project, please visit http://capeyorkpeninsula.org/.
 
 
 ## Screenshots of the 2019 version
@@ -57,9 +57,11 @@ For more details about **Indigenous foodways in colonial Cape York Peninsula** p
     </p>
 
 
-### Screenshots from the module testing at Macquarie University (2019):   
+### Screenshots from the module testing:   
+
+_Dr Brian Ballsun-Stanton testing at Macquarie University (2019)_
 <p align="left">
-<img src="Screenshots/Screenshot_20190509-171313.png" width="250"/>
+<img src="screenshots/Screenshot_20190509-171313.png" width="250"/>
     </p>
-<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-03.png"/>
-<img src="Screenshots/Screenshot%20from%202019-05-09%2016-09-12.png"/>
+<img src="screenshots/Screenshot%20from%202019-05-09%2016-09-03.png"/>
+<img src="screenshots/Screenshot%20from%202019-05-09%2016-09-12.png"/>
