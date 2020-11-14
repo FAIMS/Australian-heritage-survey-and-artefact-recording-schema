@@ -488,6 +488,7 @@
     <End_date   f="noannotation"/>
     <Conjoin_information f="noannotation"/>
     <Sources f="noannotation"/>
+    <Additional_notes f="nocertainty noannotation"/>
     <Grouped_fragments_only t="webview" f="nolabel">
       <markdown>
 ## Grouped Fragments Only
@@ -650,6 +651,7 @@
     <End_date   f="noannotation"/>
     <Conjoin_information f="noannotation"/>
     <Sources f="noannotation"/>
+    <Additional_notes f="nocertainty noannotation"/>
     <Grouped_fragments_only t="webview" f="nolabel">
       <markdown>
 ## Grouped Fragments Only

@@ -287,6 +287,7 @@
               <End_date/>
               <Conjoin_information/>
               <Sources/>
+              <Additional_notes/>
               <Grouped_fragments_only/>
               <Grouped_fragment_count/>
               <Grouped_fragment_weight_g/>
@@ -367,6 +368,7 @@
               <End_date/>
               <Conjoin_information/>
               <Sources/>
+              <Additional_notes/>
               <Grouped_fragments_only/>
               <Grouped_fragment_count/>
               <Grouped_fragment_weight_g/>
@@ -1778,6 +1780,9 @@
         <input faims_attribute_name="Sources" faims_attribute_type="measure" ref="Sources" faims_annotation="false">
           <label>{Sources}</label>
         </input>
+        <input faims_attribute_name="Glass Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_notes}</label>
+        </input>
         <input faims_web="true" ref="Grouped_fragments_only">
           <label/>
         </input>
@@ -2052,6 +2057,9 @@
         </input>
         <input faims_attribute_name="Sources" faims_attribute_type="measure" ref="Sources" faims_annotation="false">
           <label>{Sources}</label>
+        </input>
+        <input faims_attribute_name="Ceramic Artefact Additional notes" faims_attribute_type="measure" ref="Additional_notes" faims_annotation="false" faims_certainty="false">
+          <label>{Additional_notes}</label>
         </input>
         <input faims_web="true" ref="Grouped_fragments_only">
           <label/>
