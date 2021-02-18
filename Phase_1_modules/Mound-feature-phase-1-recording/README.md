@@ -1,9 +1,6 @@
 # Phase 1 Module: Mounds
 
-_This module represents a digital workflow recording mounds in the colonial Cape York, Australia_
-
-## Contact info:
-For more details about **Indigenous foodways in colonial Cape York Peninsula** project, please visit http://capeyorkpeninsula.org/.
+_This module represents a digital workflow for recording a variety of archaeological mound features in Australia. Typical feature-types recorded with this module include shell and earth mounds created by Aboriginal people__
 
 ## Screenshots of the 2020 version:
 
