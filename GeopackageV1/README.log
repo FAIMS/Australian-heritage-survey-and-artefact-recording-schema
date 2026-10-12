@@ -1,0 +1,28 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.30)  12 OCT 2026 16:53
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**README.md
+(./README.md
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+./README.md:1: You can't use `macro parameter character #' in vertical mode.
+l.1 #
+      Australian Heritage Survey & Artefact Recording (GeoPackage V0.2)
+? 
+./README.md:1: Emergency stop.
+l.1 
+    
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 15 strings out of 467525
+ 341 string characters out of 5418982
+ 433756 words of memory out of 5000000
+ 29024 multiletter control sequences out of 15000+600000
+ 627721 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 12i,0n,13p,108b,8s stack positions out of 10000i,1000n,20000p,200000b,200000s
+./README.md:1:  ==> Fatal error occurred, no output PDF file produced!

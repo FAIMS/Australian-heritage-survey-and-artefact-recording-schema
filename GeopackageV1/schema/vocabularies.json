@@ -1,0 +1,5968 @@
+{
+  "boundary_types": {
+    "name": "boundary_types",
+    "title": "Boundary Types",
+    "options": [
+      {
+        "value": "Geomorphic feature extent",
+        "parent": null,
+        "desc": "Cultural deposits are exposed only across a specific geomorphic feature, with artefact density dropping significantly beyond the geomorphic feature boundary"
+      },
+      {
+        "value": "Mound margins",
+        "parent": null,
+        "desc": "Mound margins, demarcated by a visible increase in mound height in relation to adjacent substrate"
+      },
+      {
+        "value": "Reduction in artefact density",
+        "parent": null,
+        "desc": "Exposure of cultural materials is not constrained by the extent of a geomorphic feature, and thus the feature boundary reflects the real distribution of artefacts observed. Site boundary represents a significant decline in artefact numbers."
+      },
+      {
+        "value": "Extent of built feature",
+        "parent": null,
+        "desc": "Recorded boundary reflects the extent of a built feature (e.g. fenced area, structural foundations)"
+      },
+      {
+        "value": "Not recorded",
+        "parent": null,
+        "desc": "No boundary recording was conducted due to the feature having a constrained extent (e.g. isolated artefact)"
+      },
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": "No boundary recording was conducted. Please specify why in annotation field"
+      }
+    ]
+  },
+  "burial_artefacts": {
+    "name": "burial_artefacts",
+    "title": "Burial Artefacts",
+    "options": [
+      {
+        "value": "None present",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Glass",
+        "parent": null,
+        "desc": "Glass items or sherds"
+      },
+      {
+        "value": "Ceramic",
+        "parent": null,
+        "desc": "Ceramic items or sherds"
+      },
+      {
+        "value": "Metal",
+        "parent": null,
+        "desc": "Metal items or fragments"
+      },
+      {
+        "value": "Stone artefacts",
+        "parent": null,
+        "desc": "Stone flakes, cores, grindstones, pounders, etc"
+      },
+      {
+        "value": "Stone manuports",
+        "parent": null,
+        "desc": "Stones, with no evidence of utilisation or use, and not part of a stone border (e.g. placing a stone on grave)"
+      },
+      {
+        "value": "Faunal materials",
+        "parent": null,
+        "desc": "Shells, animal teeth, egg shells, etc"
+      },
+      {
+        "value": "Ochre",
+        "parent": null,
+        "desc": "Ochre observed"
+      }
+    ]
+  },
+  "burial_chron": {
+    "name": "burial_chron",
+    "title": "Burial Chron",
+    "options": [
+      {
+        "value": "Pre-colonial",
+        "parent": null,
+        "desc": "Feature is associated with pre-colonial lifeways"
+      },
+      {
+        "value": "Early settler-colonial",
+        "parent": null,
+        "desc": "Specific age indeterminate, but burial form and setting is consistent with the pre-1900 period"
+      },
+      {
+        "value": "Pre-war",
+        "parent": null,
+        "desc": "Specific age indeterminate, but burial form and setting is consistent with the period 1900-1939"
+      },
+      {
+        "value": "Post-war",
+        "parent": null,
+        "desc": "Specific age indeterminate, but burial form and setting is consistent with a post-1939 age"
+      },
+      {
+        "value": "Early 19th C",
+        "parent": null,
+        "desc": "Grave markers in range 1800-1850"
+      },
+      {
+        "value": "Late 19th C",
+        "parent": null,
+        "desc": "Grave markers in range 1851-1900"
+      },
+      {
+        "value": "Early 20th C",
+        "parent": null,
+        "desc": "Grave markers in range 1901-1950"
+      },
+      {
+        "value": "Late 20th C",
+        "parent": null,
+        "desc": "Grave markers post-date 1951"
+      },
+      {
+        "value": "Indeterminate settler-colonial",
+        "parent": null,
+        "desc": "Settler colonial burials as indicated by burial form and setting, or associated material culture, but specific age is unknown"
+      }
+    ]
+  },
+  "burial_elements": {
+    "name": "burial_elements",
+    "title": "Burial Elements",
+    "options": [
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": "No elements or specimens are visible"
+      },
+      {
+        "value": "Skull",
+        "parent": null,
+        "desc": "Any part of the skull, including mandible"
+      },
+      {
+        "value": "Chest and back",
+        "parent": null,
+        "desc": "Any element from the thorax, e.g. ribs, sternum, spine"
+      },
+      {
+        "value": "Pelvic",
+        "parent": null,
+        "desc": "Any element from the pelvic area"
+      },
+      {
+        "value": "Arms and shoulders",
+        "parent": null,
+        "desc": "Any element from the arm or shoulder, including hands, fingers, humerus"
+      },
+      {
+        "value": "Legs and feet",
+        "parent": null,
+        "desc": "Any element from below the hip"
+      },
+      {
+        "value": "Fragmentary",
+        "parent": null,
+        "desc": "Specimens present are either incomplete or no longer in situ, and thus identifying the skeletal elements present is difficult"
+      }
+    ]
+  },
+  "burial_form": {
+    "name": "burial_form",
+    "title": "Burial Form",
+    "options": [
+      {
+        "value": "Landscape",
+        "parent": null,
+        "desc": "One or more burials with no observed evidence of landscape modification or built structures. Typically associated with Indigenous pre-colonial burials"
+      },
+      {
+        "value": "Isolated",
+        "parent": null,
+        "desc": "Isolated burial/s, outside of a formal cemetary, and typically associated with a short-term endeavour or one off event"
+      },
+      {
+        "value": "Formal cemetery",
+        "parent": null,
+        "desc": "Formal burial area, typically associated with a small township, church or centrally administered body (e.g. council), with multiple burials"
+      },
+      {
+        "value": "Discrete burials",
+        "parent": null,
+        "desc": "Use for phase 2 recording of individual burial plots only."
+      }
+    ]
+  },
+  "burial_nos": {
+    "name": "burial_nos",
+    "title": "Burial Nos",
+    "options": [
+      {
+        "value": "None present",
+        "parent": null,
+        "desc": "No markers present, typically associated with Indigenous burials that are exposed at the ground surface"
+      },
+      {
+        "value": "Stone cairn",
+        "parent": null,
+        "desc": "Stone placed to create a cairn or small heap over the burial"
+      },
+      {
+        "value": "Stone lined",
+        "parent": null,
+        "desc": "Stone used to mark the boundary of the burial area"
+      },
+      {
+        "value": "Wooden marker",
+        "parent": null,
+        "desc": "Simple wooden marker, not in the form of a cross, and used to mark the burial"
+      },
+      {
+        "value": "Wooden cross",
+        "parent": null,
+        "desc": "Wooden cross placed on burial"
+      },
+      {
+        "value": "Wooden fence",
+        "parent": null,
+        "desc": "Wooden fence placed around burial area"
+      },
+      {
+        "value": "Concreted",
+        "parent": null,
+        "desc": "Concrete used to demarcate the burial, either by creating a border or cover (partial or full)"
+      },
+      {
+        "value": "Headstone",
+        "parent": null,
+        "desc": "Manufactured headstone, typically with engraved or applied script"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Other markers used, please describe in annotations"
+      }
+    ]
+  },
+  "burial_posit": {
+    "name": "burial_posit",
+    "title": "Burial Posit",
+    "options": [
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": "Burial orientation not able to be determined"
+      },
+      {
+        "value": "Disarticulated",
+        "parent": null,
+        "desc": "Disarticulated remains"
+      },
+      {
+        "value": "Buried",
+        "parent": null,
+        "desc": "No skeletal remains observable"
+      },
+      {
+        "value": "Ext_FD",
+        "parent": null,
+        "desc": "Extended, face down"
+      },
+      {
+        "value": "Ext_FU",
+        "parent": null,
+        "desc": "Extended, face up"
+      },
+      {
+        "value": "Flex_UP",
+        "parent": null,
+        "desc": "Flexed, upright position (head up)"
+      },
+      {
+        "value": "Flex_SIDE",
+        "parent": null,
+        "desc": "Flexed, on side"
+      },
+      {
+        "value": "Tree",
+        "parent": null,
+        "desc": "Tree burial, bundle"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Other burial types"
+      }
+    ]
+  },
+  "burial_preserv": {
+    "name": "burial_preserv",
+    "title": "Burial Preserv",
+    "options": [
+      {
+        "value": "Not exposed",
+        "parent": null,
+        "desc": "Burial that is not exposed, with location only indicated by a grave marker"
+      },
+      {
+        "value": "Partially exposed",
+        "parent": null,
+        "desc": "Less than 50% of the burial is exposed at the ground surface, with the remainder likely to be insitu but fully buried"
+      },
+      {
+        "value": "Exposed but insitu",
+        "parent": null,
+        "desc": "The burial is mostly exposed, but remains insitu, with major skeletal elements present"
+      },
+      {
+        "value": "Disturbed",
+        "parent": null,
+        "desc": "The burial is mostly exposed, and less than 50% of major skeletal elements are present"
+      },
+      {
+        "value": "Remnant",
+        "parent": null,
+        "desc": "Highly degraded burial, with only minor remnants (&lt;10%) of skeletal materials present"
+      }
+    ]
+  },
+  "buttons_attachment": {
+    "name": "buttons_attachment",
+    "title": "Buttons Attachment",
+    "options": [
+      {
+        "value": "Sew through",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shanked",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Unknown",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "buttons_construct": {
+    "name": "buttons_construct",
+    "title": "Buttons Construct",
+    "options": [
+      {
+        "value": "Composite",
+        "parent": null,
+        "desc": "More than two pieces"
+      },
+      {
+        "value": "One piece",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Two piece",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "buttons_manmeth": {
+    "name": "buttons_manmeth",
+    "title": "Buttons Manmeth",
+    "options": [
+      {
+        "value": "Cast",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Cut",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Moulded",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Stamped",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "buttons_material": {
+    "name": "buttons_material",
+    "title": "Buttons Material",
+    "options": [
+      {
+        "value": "Bakelite",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Bone",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ceramic",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Glass",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Horn",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Metal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Plastic",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shell",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "buttons_type": {
+    "name": "buttons_type",
+    "title": "Buttons Type",
+    "options": [
+      {
+        "value": "Alpha",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Birdcage",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Box",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Cloth shank",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Cone",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Cut end/wedge",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Drilled eye",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Loop",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Omega",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Pin",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Rosette",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Sanders",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Self-shanked",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": "Shanked",
+        "desc": ""
+      },
+      {
+        "value": "Linen (blank)",
+        "parent": "Sew-through",
+        "desc": ""
+      },
+      {
+        "value": "Linen (eyeletted)",
+        "parent": "Sew-through",
+        "desc": ""
+      },
+      {
+        "value": "Standard",
+        "parent": "Sew-through",
+        "desc": ""
+      },
+      {
+        "value": "Thread/Dorset thread",
+        "parent": "Sew-through",
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": "Sew-through",
+        "desc": ""
+      }
+    ]
+  },
+  "camera_ids": {
+    "name": "camera_ids",
+    "title": "Camera Ids",
+    "options": [
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Morrison Canon",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Update list for each fieldtrip",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "ceram_decorative": {
+    "name": "ceram_decorative",
+    "title": "Ceram Decorative",
+    "options": [
+      {
+        "value": "Unmodified/undecorated (i.e. none)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Annular (thick and thin rings on body and rim)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Edge banded (thin rings on rim only)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Moulded - relief",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Moulded - rim (e.g. scalloped)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Transfer printing",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Handpainting",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Flow transfer print",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Sprigged",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Decal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Mocha",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gilt/tea leaf",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Slip (single coloured glaze)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Spongeware",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Cut sponge print (stamped)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Lustre",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Embossed",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "N/A",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "ceram_decorative_patterns": {
+    "name": "ceram_decorative_patterns",
+    "title": "Ceram Decorative Patterns",
+    "options": [
+      {
+        "value": "Asiatic Pheasant",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rhine",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Willow",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Cable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gem",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Fibre",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Abbey",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "ceram_element": {
+    "name": "ceram_element",
+    "title": "Ceram Element",
+    "options": [
+      {
+        "value": "RIM",
+        "parent": null,
+        "desc": "Rim or marley only"
+      },
+      {
+        "value": "BODY",
+        "parent": null,
+        "desc": "Body sherd or side"
+      },
+      {
+        "value": "BASE",
+        "parent": null,
+        "desc": "Base or footing only"
+      },
+      {
+        "value": "BODYBase",
+        "parent": null,
+        "desc": "Body and base"
+      },
+      {
+        "value": "BODYRim",
+        "parent": null,
+        "desc": "Body and rim"
+      },
+      {
+        "value": "HANDLE",
+        "parent": null,
+        "desc": "Handle"
+      },
+      {
+        "value": "LID",
+        "parent": null,
+        "desc": "Lid"
+      },
+      {
+        "value": "NECK",
+        "parent": null,
+        "desc": "Neck only"
+      },
+      {
+        "value": "NECKfin",
+        "parent": null,
+        "desc": "Neck and finish"
+      },
+      {
+        "value": "FINISH",
+        "parent": null,
+        "desc": "Finish only"
+      },
+      {
+        "value": "SHOULDNECK",
+        "parent": null,
+        "desc": "Shoulder and neck"
+      },
+      {
+        "value": "FIN_SHOUL_NCK",
+        "parent": null,
+        "desc": "Finish shoulder and neck"
+      },
+      {
+        "value": "SHOULDER",
+        "parent": null,
+        "desc": "Shoulder only"
+      },
+      {
+        "value": "PIPEBOWL",
+        "parent": null,
+        "desc": "Pipe bowl"
+      },
+      {
+        "value": "PIPESTEM",
+        "parent": null,
+        "desc": "Pipe stem"
+      },
+      {
+        "value": "OTHER",
+        "parent": null,
+        "desc": "Other please describe"
+      }
+    ]
+  },
+  "ceram_flaws": {
+    "name": "ceram_flaws",
+    "title": "Ceram Flaws",
+    "options": [
+      {
+        "value": "Poorly applied Transfer print",
+        "parent": null,
+        "desc": "Mismatched pattern edges, unevenly applied prints, missing sections of prints"
+      },
+      {
+        "value": "Pinholes",
+        "parent": null,
+        "desc": "Evident in the glaze where small air bubbles have popped"
+      },
+      {
+        "value": "Trivet/stilt marks",
+        "parent": null,
+        "desc": "On the underside of vessels, caused by the separators between stacked items in the kiln adhering to the glaze"
+      },
+      {
+        "value": "Grit",
+        "parent": null,
+        "desc": "Any grit or other inclusions adhered to the surface during firing"
+      },
+      {
+        "value": "Poorly applied hand painting",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Use annotation to describe"
+      }
+    ]
+  },
+  "ceram_form": {
+    "name": "ceram_form",
+    "title": "Ceram Form",
+    "options": [
+      {
+        "value": "Flatware",
+        "parent": null,
+        "desc": "Plates, saucers, platters"
+      },
+      {
+        "value": "Hollowware",
+        "parent": null,
+        "desc": "Bowls, cups, pitchers/jugs"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "ceram_funct": {
+    "name": "ceram_funct",
+    "title": "Ceram Funct",
+    "options": [
+      {
+        "value": "Teaware",
+        "parent": null,
+        "desc": "Teaware"
+      },
+      {
+        "value": "Tableware",
+        "parent": null,
+        "desc": "Tableware"
+      },
+      {
+        "value": "Kitchenware",
+        "parent": null,
+        "desc": "Kitchenware"
+      },
+      {
+        "value": "Food/drink storage",
+        "parent": null,
+        "desc": "Food or drink storage"
+      },
+      {
+        "value": "Personal",
+        "parent": null,
+        "desc": "Personal or hygenic items"
+      },
+      {
+        "value": "Dairy",
+        "parent": null,
+        "desc": "Dairy related"
+      },
+      {
+        "value": "House",
+        "parent": null,
+        "desc": "Household general"
+      },
+      {
+        "value": "Sanitary/hygiene",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Cosmetic/ointment",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Toy",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Telegraph/electrical",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Smoking",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Mining/assaying",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "ceram_glaze": {
+    "name": "ceram_glaze",
+    "title": "Ceram Glaze",
+    "options": [
+      {
+        "value": "None",
+        "parent": null,
+        "desc": "None unglazed"
+      },
+      {
+        "value": "Single coloured slip",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rock",
+        "parent": null,
+        "desc": "Rockingham"
+      },
+      {
+        "value": "Clear",
+        "parent": null,
+        "desc": "Clear lead or other oxide"
+      },
+      {
+        "value": "Tin",
+        "parent": null,
+        "desc": "Tin"
+      },
+      {
+        "value": "Salt",
+        "parent": null,
+        "desc": "Salt and single colour slip"
+      }
+    ]
+  },
+  "ceram_paste": {
+    "name": "ceram_paste",
+    "title": "Ceram Paste",
+    "options": [
+      {
+        "value": "White",
+        "parent": null,
+        "desc": "White"
+      },
+      {
+        "value": "Buff",
+        "parent": null,
+        "desc": "Buff"
+      },
+      {
+        "value": "Brown",
+        "parent": null,
+        "desc": "Brown"
+      },
+      {
+        "value": "Gray",
+        "parent": null,
+        "desc": "Gray"
+      },
+      {
+        "value": "Red",
+        "parent": null,
+        "desc": "Red"
+      },
+      {
+        "value": "Blue",
+        "parent": null,
+        "desc": "Blue"
+      },
+      {
+        "value": "Black",
+        "parent": null,
+        "desc": "Black"
+      }
+    ]
+  },
+  "ceram_pattern": {
+    "name": "ceram_pattern",
+    "title": "Ceram Pattern",
+    "options": [
+      {
+        "value": "Willow",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rhine",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Albion",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Fibre",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Dulcamara",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Alhambra",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Asiatic Pheasant",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gem",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Tea leaf or variant",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Edge Banded",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Vine and Tendril",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "ceram_type": {
+    "name": "ceram_type",
+    "title": "Ceram Type",
+    "options": [
+      {
+        "value": "Terracotta/redware",
+        "parent": "Coarse (unrefined) earthenware",
+        "desc": ""
+      },
+      {
+        "value": "Yellowware",
+        "parent": "Coarse (unrefined) earthenware",
+        "desc": ""
+      },
+      {
+        "value": "Creamware",
+        "parent": "Refined earthenware",
+        "desc": ""
+      },
+      {
+        "value": "Pearlware",
+        "parent": "Refined earthenware",
+        "desc": ""
+      },
+      {
+        "value": "whiteware",
+        "parent": "Refined earthenware",
+        "desc": ""
+      },
+      {
+        "value": "White granite/ironstone",
+        "parent": "Refined earthenware",
+        "desc": ""
+      },
+      {
+        "value": "Soft paste",
+        "parent": "Porcelain",
+        "desc": ""
+      },
+      {
+        "value": "Hard paste",
+        "parent": "Porcelain",
+        "desc": ""
+      },
+      {
+        "value": "Porcellaneous",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Stoneware",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "cultural_associations": {
+    "name": "cultural_associations",
+    "title": "Cultural Associations",
+    "options": [
+      {
+        "value": "Indigenous",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Settler-colonial",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Multi-cultural",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Unknown",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other (describe)",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "dorsal_scar_direction": {
+    "name": "dorsal_scar_direction",
+    "title": "Dorsal Scar Direction",
+    "options": [
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": "No dorsal scars"
+      },
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": "Dorsal scar initiation indeterminate"
+      },
+      {
+        "value": "Q1",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Q2",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Q3",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Q4",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "faun_mat_types": {
+    "name": "faun_mat_types",
+    "title": "Faun Mat Types",
+    "options": [
+      {
+        "value": "None observed",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Tegillarca granosa",
+        "parent": null,
+        "desc": "Estuarine species, common in tropical coastal areas. Also known as Kwambuck or Cockle Shell"
+      },
+      {
+        "value": "Polymesoda erosa",
+        "parent": null,
+        "desc": "Estuarine species, found in mangrove ecosystems. Also known as mudshell"
+      },
+      {
+        "value": "Telescopium telescopium",
+        "parent": null,
+        "desc": "Tropical estuarine species, common on intertidal flats"
+      },
+      {
+        "value": "Volema cochlidium",
+        "parent": null,
+        "desc": "Tropical estuarine species, common on intertidal flats"
+      },
+      {
+        "value": "Other invertebrates",
+        "parent": null,
+        "desc": "Use for all other marine shellfish species, please photograph and describe representative specimens"
+      },
+      {
+        "value": "Velesunio ambiguus",
+        "parent": null,
+        "desc": "Freshwater species, found in many inland river systems"
+      },
+      {
+        "value": "Alathyria spp.",
+        "parent": null,
+        "desc": "Freshwater species, common in Murray-Darling and other inland river systems. Similar form to Velesunio, but more compact"
+      },
+      {
+        "value": "Freshwater molluscs-other",
+        "parent": null,
+        "desc": "Other freshwater species, photograph and describe representative specimens"
+      },
+      {
+        "value": "Fish bone",
+        "parent": null,
+        "desc": "Any fish bones, including otoliths"
+      },
+      {
+        "value": "Dugong bone",
+        "parent": null,
+        "desc": "Robust marine mammal, distinctive anatomy. Rare on archaeological sites"
+      },
+      {
+        "value": "Turtle bone or shell",
+        "parent": null,
+        "desc": "Marine turtle bone or shell, restricted to northern and eastern Australia. Rare on archaeological sites"
+      },
+      {
+        "value": "Other vertebrate fauna",
+        "parent": null,
+        "desc": "Other vertebrate fauna, photograph and describe representative specimens"
+      },
+      {
+        "value": "Introduced fauna",
+        "parent": null,
+        "desc": "For exotic species such as cattle, sheep, pig or goat"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Please describe with annotation"
+      }
+    ]
+  },
+  "feat_morphology": {
+    "name": "feat_morphology",
+    "title": "Feat Morphology",
+    "options": [
+      {
+        "value": "Lag deposit",
+        "parent": null,
+        "desc": "Mostly deflated deposit of cultural material, usually found on scalds or hard-pan surfaces"
+      },
+      {
+        "value": "Eroding surface, bank or cut",
+        "parent": null,
+        "desc": "Sloped surface with cultural material eroding at any rate"
+      },
+      {
+        "value": "Aggrading surface",
+        "parent": null,
+        "desc": "Level or near-level surface with ongoing deposition"
+      },
+      {
+        "value": "Modified land",
+        "parent": null,
+        "desc": "Feature associated with a modified land surface including ditches, depressions, mounds and embankments"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Please describe in annotations"
+      }
+    ]
+  },
+  "general_percentages": {
+    "name": "general_percentages",
+    "title": "General Percentages",
+    "options": [
+      {
+        "value": "1-25%",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "26-50%",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "51-75%",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "76-100%",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "geometry": {
+    "name": "geometry",
+    "title": "Geometry",
+    "options": [
+      {
+        "value": "Polygon",
+        "parent": null,
+        "desc": "A simple polygon of consecutive boundary points around the feature in question"
+      },
+      {
+        "value": "Line",
+        "parent": null,
+        "desc": "A linestring comprised of a series of points that represent a linear feature, such as a fence line."
+      },
+      {
+        "value": "Multi-point",
+        "parent": null,
+        "desc": "A collection of multiple single points that represent a feature. For example, multiple similar posts comprising a structure, or multiple artefacts."
+      }
+    ]
+  },
+  "glass_bodysherd": {
+    "name": "glass_bodysherd",
+    "title": "Glass Bodysherd",
+    "options": [
+      {
+        "value": "Unknown",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Triangular Chamfered",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rhomboid",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Hexagonal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Symmetrical Octagonal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Flat Octagonal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Dodecahedron",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Round",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Round Flattened",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Round Ribbed",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Round Fluted",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Oval",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ovoid",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Flattened Oval",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Kidney",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "SQUARE",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Square Rounded",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Square Diamond",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Square Chamfered",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Square Concave Chamfered",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rectangular",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Square Flared",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Square Chamfered",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Square Rounded",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Square recessed",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "glass_closure": {
+    "name": "glass_closure",
+    "title": "Glass Closure",
+    "options": [
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Cork",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Codds and variants",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Lamont",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gledhill",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Swing",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Wooden peg and rubber",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ground glass stopper",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Screw cap/lid",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "glass_colour": {
+    "name": "glass_colour",
+    "title": "Glass Colour",
+    "options": [
+      {
+        "value": "Colourless",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Aqua with tint",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Amethyst solarised",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Honey solarised",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Dark green or black",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Brown or amber",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Olive green",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Emerald green",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Cobalt blue",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Sapphire",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Pink or rose",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Milk or white",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "glass_completeness": {
+    "name": "glass_completeness",
+    "title": "Glass Completeness",
+    "options": [
+      {
+        "value": "Complete (>95% present)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Large Fragment  (51-95% present)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Small Fragment (<50% present)",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "glass_finishtype": {
+    "name": "glass_finishtype",
+    "title": "Glass Finishtype",
+    "options": [
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": "Item type has no finish"
+      },
+      {
+        "value": "External screw thread",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Internal screw thread",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Unfinished",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Blob top",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Single collar ring seal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Single collar",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Double collar",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Crown seal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Club sauce",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Prescription lip",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Flared lip",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Two-part",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "one-part",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Three-part",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Straight finish folded-in lip",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Flanged",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Applied",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "glass_frag_loc": {
+    "name": "glass_frag_loc",
+    "title": "Glass Frag Loc",
+    "options": [
+      {
+        "value": "Finish or seal only",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Neck with finish or seal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Neck only",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shoulder only",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shoulder with neck",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Body sherd",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Body with base",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Body with shoulder",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Base only",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Stopper",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "OtherFrag",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "glass_mouldtype": {
+    "name": "glass_mouldtype",
+    "title": "Glass Mouldtype",
+    "options": [
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "2 pc full length",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "2 pc full length continuous",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "2 pc shoulder",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "2 pc vertical, separate base",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Dip mould",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ricketts mould",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Turn or paste mould (no seams visible)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "3 pc mould",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "4 pc mould",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "glass_probcont": {
+    "name": "glass_probcont",
+    "title": "Glass Probcont",
+    "options": [
+      {
+        "value": "Alcohol-beer",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Alcohol-General",
+        "parent": null,
+        "desc": "Unidentifed alcohol content"
+      },
+      {
+        "value": "Alcohol-Gin/schnapps",
+        "parent": null,
+        "desc": "Square case bottle, with either tapered or straight sides"
+      },
+      {
+        "value": "Alcohol-Spritis",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Alcohol-wine/champage",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Castor oil",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Condiments-General",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Condiments-Pickles",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Condiments-Sauce",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Fish/meat paste",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ink",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Medicine-General",
+        "parent": null,
+        "desc": "Unidentified medicinal content"
+      },
+      {
+        "value": "Non alcoholic drink",
+        "parent": null,
+        "desc": "E.g. cordial, soft drink, aerated water"
+      },
+      {
+        "value": "Ointment/lotion",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Patent medicine or tonic",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Perfume/cologne",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Poison",
+        "parent": null,
+        "desc": "Usually with ridged corners and possibly other embossed surface textures in cobalt blue glass, e.g. phenyl"
+      },
+      {
+        "value": "Prescription",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Spirits",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Vinegar/salad oil",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "glass_vessel": {
+    "name": "glass_vessel",
+    "title": "Glass Vessel",
+    "options": [
+      {
+        "value": "Bottle",
+        "parent": null,
+        "desc": "Any bottle type"
+      },
+      {
+        "value": "Cut glass",
+        "parent": "Tableware",
+        "desc": ""
+      },
+      {
+        "value": "Plain moulded",
+        "parent": "Tableware",
+        "desc": ""
+      },
+      {
+        "value": "Pressed glass",
+        "parent": "Tableware",
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": "Tableware",
+        "desc": ""
+      },
+      {
+        "value": "Stemware",
+        "parent": null,
+        "desc": "Glass artefacts with stems, such as wine glasses"
+      },
+      {
+        "value": "Condiments",
+        "parent": null,
+        "desc": "Artefacts used for storing salt, spices, sauces, etc"
+      },
+      {
+        "value": "Tumbler",
+        "parent": null,
+        "desc": "Tumbler or shot glass"
+      },
+      {
+        "value": "Lamp",
+        "parent": null,
+        "desc": "Lamp glass"
+      },
+      {
+        "value": "Window",
+        "parent": null,
+        "desc": "Window glass"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Other please describe"
+      }
+    ]
+  },
+  "hart_gen_types": {
+    "name": "hart_gen_types",
+    "title": "Hart Gen Types",
+    "options": [
+      {
+        "value": "None observed",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Handmade brick",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Machine made brick",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ceramic sherds",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Complete ceramic vessels",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Glass sherds",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Complete glass vessels",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Concrete",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Metal fragments",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Metal objects",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Wire",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Wood",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Stone",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "he_frequency": {
+    "name": "he_frequency",
+    "title": "He Frequency",
+    "options": [
+      {
+        "value": "None",
+        "parent": null,
+        "desc": "No heating elements were observed"
+      },
+      {
+        "value": "Rare",
+        "parent": null,
+        "desc": "Heating elements are distributed across less than 30% of the feature"
+      },
+      {
+        "value": "Moderate",
+        "parent": null,
+        "desc": "Heating elements are distributed across 30\u201370% of the feature"
+      },
+      {
+        "value": "Frequent",
+        "parent": null,
+        "desc": "Heating elements are distributed across more than 70% of the feature"
+      }
+    ]
+  },
+  "he_types": {
+    "name": "he_types",
+    "title": "He Types",
+    "options": [
+      {
+        "value": "None observed",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Clay",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Termite mound",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Stone",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shell conglomerate",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "hearth_materialtypes": {
+    "name": "hearth_materialtypes",
+    "title": "Hearth Materialtypes",
+    "options": [
+      {
+        "value": "Charcoal",
+        "parent": null,
+        "desc": "Fragments of charcoal larger than 10 mm in diameter occur"
+      },
+      {
+        "value": "Ashy sediment",
+        "parent": null,
+        "desc": "Sediment composed of any combination of detrital charcoal, ash, darkened sediment"
+      },
+      {
+        "value": "Shellfish",
+        "parent": null,
+        "desc": "Any shellfish remains"
+      },
+      {
+        "value": "Other fauna",
+        "parent": null,
+        "desc": "Any other kind of faunal remains (e.g. otoliths, teeth)"
+      },
+      {
+        "value": "Metal",
+        "parent": null,
+        "desc": "Metal artefacts or fragments"
+      },
+      {
+        "value": "Glass",
+        "parent": null,
+        "desc": "Any glass items"
+      },
+      {
+        "value": "Ceramic",
+        "parent": null,
+        "desc": "Any ceramic items"
+      },
+      {
+        "value": "Brick",
+        "parent": null,
+        "desc": "Any brick"
+      },
+      {
+        "value": "Stone flakes",
+        "parent": null,
+        "desc": "Flake pieces"
+      },
+      {
+        "value": "Stone cores",
+        "parent": null,
+        "desc": "Stone cores"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Any other material present"
+      }
+    ]
+  },
+  "hearth_type": {
+    "name": "hearth_type",
+    "title": "Hearth Type",
+    "options": [
+      {
+        "value": "None observed",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Open",
+        "parent": null,
+        "desc": "An open fire, built directly on ground surface, not demarcated with stones, and lacking heat retainers"
+      },
+      {
+        "value": "Bounded",
+        "parent": null,
+        "desc": "An open fire, built directly on ground surface, but with stones or other materials placed around edge of hearth"
+      },
+      {
+        "value": "Pit",
+        "parent": null,
+        "desc": "A fire built in a pit, but lacking evidence of the use of heat retainers"
+      },
+      {
+        "value": "Earth oven",
+        "parent": null,
+        "desc": "A fire built in a pit, with heat retainers evident indicating its use as an earth oven"
+      },
+      {
+        "value": "Enclosed",
+        "parent": null,
+        "desc": "A fire built in an enclosed setting, for example, within a brick, stone or metal enclosure"
+      }
+    ]
+  },
+  "hist_activities": {
+    "name": "hist_activities",
+    "title": "Hist Activities",
+    "options": [
+      {
+        "value": "Stock",
+        "parent": null,
+        "desc": "Stuctures associated with management of stock (yards, shelters)"
+      },
+      {
+        "value": "Gardening and agriculture",
+        "parent": null,
+        "desc": "Areas or structures associated with growing plants for food or ornamental reasons (nursery, household garden, orchard)"
+      },
+      {
+        "value": "Residential dwelling",
+        "parent": null,
+        "desc": "Building used primarily as a residence for people"
+      },
+      {
+        "value": "Residential outbuildings",
+        "parent": null,
+        "desc": "Ancilliary structures used mostly by people and associated with a residential dwelling, but that are not used as a residence (e.g. outhouses, external kitchen)"
+      },
+      {
+        "value": "Industrial",
+        "parent": null,
+        "desc": "Industrial facilities associated with manufacturing or production, regardless of scale or commercial intent (mining, milling timber, brick making, lime kiln)"
+      },
+      {
+        "value": "Commercial",
+        "parent": null,
+        "desc": "Features directly associated with commercial activities (e.g. store, hotel, bank)"
+      },
+      {
+        "value": "Communications",
+        "parent": null,
+        "desc": "Features directly associated with communication (telegraph station or line, radio tower)"
+      },
+      {
+        "value": "Transport",
+        "parent": null,
+        "desc": "Features constructed to aid transportation of people or goods (e.g. weir, bridge, landing, loading ramp, railway siding)"
+      },
+      {
+        "value": "Water management",
+        "parent": null,
+        "desc": "Features associated with storage or movement of water (e.g. tanks, weirs)"
+      },
+      {
+        "value": "Religious",
+        "parent": null,
+        "desc": "Features associated with religious worshop and associated actiivites (e.g. church)"
+      },
+      {
+        "value": "Memorials",
+        "parent": null,
+        "desc": "Features marking significant events or activities, but not associated with a burial (e.g. historic monument)"
+      },
+      {
+        "value": "Burials",
+        "parent": null,
+        "desc": "Single or multiple burials."
+      },
+      {
+        "value": "Defensive",
+        "parent": null,
+        "desc": "Military installations"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "other please describe"
+      }
+    ]
+  },
+  "hist_arch_char": {
+    "name": "hist_arch_char",
+    "title": "Hist Arch Char",
+    "options": [
+      {
+        "value": "Foundations",
+        "parent": null,
+        "desc": "Features used as footings for structures, such as linear features made from wood, brick, stone or compacted sediment, or raised/levelled features providing a demarcated floor (e.g. raised earthen floor, concrete pad)"
+      },
+      {
+        "value": "Standing structure",
+        "parent": null,
+        "desc": "Any historic structure that is still standing, more than 50% intact, and whose original form and fabric is easily discerned"
+      },
+      {
+        "value": "Walls or posts",
+        "parent": null,
+        "desc": "Any historic wall or remnants thereof, both collapsed or standing, including associated gates, posts or entrances"
+      },
+      {
+        "value": "Fences",
+        "parent": null,
+        "desc": "Any historic fence, collapsed or standing, including associated gates, posts or entrances"
+      },
+      {
+        "value": "Landscaping",
+        "parent": null,
+        "desc": "Modification of the original land surface for any purpose"
+      },
+      {
+        "value": "Plantings",
+        "parent": null,
+        "desc": "Areas used for planting of edible or ornamental species (orchards, gardens)"
+      },
+      {
+        "value": "Rubble",
+        "parent": null,
+        "desc": "Assemblage of construction material (e.g. brick, stone, wood, concrete) associated with a collapsed structure or building"
+      },
+      {
+        "value": "Discard area",
+        "parent": null,
+        "desc": "Areas or features used for intentional discard of refuse (privy pits, incinerators, rubbish areas)"
+      },
+      {
+        "value": "Well",
+        "parent": null,
+        "desc": "Intentionally constructed feature, typically lined, and used for retrieving water"
+      },
+      {
+        "value": "Water management",
+        "parent": null,
+        "desc": "Features associated with capture, movement or storage of water (weir, pipeline, canals, tank)"
+      },
+      {
+        "value": "Roads and tracks",
+        "parent": null,
+        "desc": "Features, typically linear, associated with transportation of people, stock or goods (e.g. historic track, pathway, raised road)"
+      },
+      {
+        "value": "Mining",
+        "parent": null,
+        "desc": "Features assocaited with mining activities (stamp head, davit trench, associated structures and buildings)"
+      },
+      {
+        "value": "Machinery",
+        "parent": null,
+        "desc": "Objects or structures that are mechanical in nature (e.g. abandoned vehicle, wrecked plane, mining equipment)"
+      },
+      {
+        "value": "Burials",
+        "parent": null,
+        "desc": "Evidence of burials (single or multiple)"
+      },
+      {
+        "value": "Wharf or landing",
+        "parent": null,
+        "desc": "Features used for landing, loading and unloading vessels. Can be built structures or modified landscape"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Use annotation field to describe"
+      }
+    ]
+  },
+  "hist_gentype": {
+    "name": "hist_gentype",
+    "title": "Hist Gentype",
+    "options": [
+      {
+        "value": "Building",
+        "parent": null,
+        "desc": "A building (remant or extant) created principally to shelter any form of human activity"
+      },
+      {
+        "value": "Structure",
+        "parent": null,
+        "desc": "Immovable functional constructions made for purposes other than creating human shelter (e.g. stock yards, animal shelters, mine shafts, stamp battery)"
+      },
+      {
+        "value": "Object",
+        "parent": null,
+        "desc": "Moveable, small scale, simply constructed items that typically are manufactured for a specific purpose (e.g. ship's tank, fuel drum, cornish boiler, plane wreck, abandoned vehicle)"
+      },
+      {
+        "value": "Landscape modification",
+        "parent": null,
+        "desc": "Evidence of modifications to the natural land surface (trenches, ditches, mounds, embankments) or natural vegetation (clearance, new plantings)."
+      },
+      {
+        "value": "Site",
+        "parent": null,
+        "desc": "A focal area for historic occupation or activity, featuring a concentrated assemblage of any combination (extant or remnant) of buildings, structures, objects or landsape modification."
+      }
+    ]
+  },
+  "knappedglass_abrasion": {
+    "name": "knappedglass_abrasion",
+    "title": "Knappedglass Abrasion",
+    "options": [
+      {
+        "value": "Flaked surface",
+        "parent": null,
+        "desc": "Macroscopic scratches or abrasions visible on a flaked surface."
+      },
+      {
+        "value": "Cortical surface",
+        "parent": null,
+        "desc": "Macroscopic scratches or abrasions on cortical surfaces only."
+      },
+      {
+        "value": "Both surfaces",
+        "parent": null,
+        "desc": "Both surfaces have abrasion"
+      }
+    ]
+  },
+  "knappedglass_bottlepart": {
+    "name": "knappedglass_bottlepart",
+    "title": "Knappedglass Bottlepart",
+    "options": [
+      {
+        "value": "Finish",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Neck",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shoulder",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Body",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Heel",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Base",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "knappedglass_bottletype": {
+    "name": "knappedglass_bottletype",
+    "title": "Knappedglass Bottletype",
+    "options": [
+      {
+        "value": "Bottle",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Insulator",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "knappedglass_gentype": {
+    "name": "knappedglass_gentype",
+    "title": "Knappedglass Gentype",
+    "options": [
+      {
+        "value": "Glass core",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Glass flake",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "knappedglass_platform": {
+    "name": "knappedglass_platform",
+    "title": "Knappedglass Platform",
+    "options": [
+      {
+        "value": "Cortical platform",
+        "parent": null,
+        "desc": "Striking platform is \u2018cortex\u2019 at point of force application. Cortex here refers to the original inner and outer surface of the bottle (after Gorman, 2000, p. 261)."
+      },
+      {
+        "value": "Single facet platform",
+        "parent": null,
+        "desc": "Point of force application (PFA) is located on a flake scar or broken face."
+      },
+      {
+        "value": "Dihedral",
+        "parent": null,
+        "desc": "PFA is located on the ridge between two scars."
+      },
+      {
+        "value": "Multifaceted platform",
+        "parent": null,
+        "desc": "PFA is located on a surface with multiple scars."
+      },
+      {
+        "value": "Edge platform",
+        "parent": null,
+        "desc": "Flake initiated at the very edge of the platform. A discrete platform surface is not identifiable on the flake, but a clear PFA is present."
+      },
+      {
+        "value": "Collapsed/crushed platform",
+        "parent": null,
+        "desc": "The platform shattered during impact. Platform dimensions cannot be recorded."
+      }
+    ]
+  },
+  "landform_elements": {
+    "name": "landform_elements",
+    "title": "Landform Elements",
+    "options": [
+      {
+        "value": "Berm-human",
+        "parent": "Anthropogenic elements",
+        "desc": "(i) short, very gently inclined to level minimal mid-slope in an embankment or cut face, eroded or aggraded by human activity."
+      },
+      {
+        "value": "Cut face",
+        "parent": "Anthropogenic elements",
+        "desc": "Slope eroded by human activity"
+      },
+      {
+        "value": "Cut over surface",
+        "parent": "Anthropogenic elements",
+        "desc": "Flat eroded by human activity"
+      },
+      {
+        "value": "Dam",
+        "parent": "Anthropogenic elements",
+        "desc": "Ridge built up by human activity so as to close a depression"
+      },
+      {
+        "value": "Embankment",
+        "parent": "Anthropogenic elements",
+        "desc": "Ridge or slop built up by human activity"
+      },
+      {
+        "value": "Fill-top",
+        "parent": "Anthropogenic elements",
+        "desc": "Flat aggraded by human activity"
+      },
+      {
+        "value": "Mound",
+        "parent": "Anthropogenic elements",
+        "desc": "Hillock built up by human activity"
+      },
+      {
+        "value": "Pit",
+        "parent": "Anthropogenic elements",
+        "desc": "Closed depression excavated by human activity."
+      },
+      {
+        "value": "Trench",
+        "parent": "Anthropogenic elements",
+        "desc": "Open depression excavated by human activity"
+      },
+      {
+        "value": "Breakaway",
+        "parent": "Cliff and scarp elements",
+        "desc": "Steep maximal mid-slope or upper slope, generally comprising both a very short scarp (free face) that is often bare rockland, and a stony scarp-footslope (debris slope); often standing above a pediment."
+      },
+      {
+        "value": "Cliff",
+        "parent": "Cliff and scarp elements",
+        "desc": "Very wide, cliffed (greater than 72\u00b0) maximal slope usually eroded by gravitational fall as a result of erosion of the base by various agencies; sometimes built up by marine organisms (cf. Scarp)."
+      },
+      {
+        "value": "Cliff-footslope",
+        "parent": "Cliff and scarp elements",
+        "desc": "Slope situated below a cliff, with its contours generally parallel to the line of the cliff, eroded by sheet wash or water-aided mass movement, and aggraded locally by collapsed material from above"
+      },
+      {
+        "value": "Landslide",
+        "parent": "Cliff and scarp elements",
+        "desc": "Moderately inclined to very steep slope, eroded in the upper part and aggraded in the lower part by water-aided mass movement, characterised by irregular hummocks."
+      },
+      {
+        "value": "Scarp",
+        "parent": "Cliff and scarp elements",
+        "desc": "Very wide, steep to precipitous maximal slope eroded by gravity, water-aided mass movement or sheet flow (cf. Cliff)."
+      },
+      {
+        "value": "Scarp-footslope",
+        "parent": "Cliff and scarp elements",
+        "desc": "Waning or minimal slope situated below a scarp, with its contours generally parallel to the line of the scarp."
+      },
+      {
+        "value": "Summit surface",
+        "parent": "Cliff and scarp elements",
+        "desc": "Very wide, level to gently inclined crest with abrupt margins, commonly eroded by water-aided mass movement or sheet wash."
+      },
+      {
+        "value": "Talus",
+        "parent": "Cliff and scarp elements",
+        "desc": "Moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity."
+      },
+      {
+        "value": "Beach",
+        "parent": "Coastal and estuarine elements",
+        "desc": "Short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea"
+      },
+      {
+        "value": "Beach ridge",
+        "parent": "Coastal and estuarine elements",
+        "desc": "Very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach"
+      },
+      {
+        "value": "Berm",
+        "parent": "Coastal and estuarine elements",
+        "desc": "(ii) flat built up by waves above a beach."
+      },
+      {
+        "value": "Estuary",
+        "parent": "Coastal and estuarine elements",
+        "desc": "Stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream"
+      },
+      {
+        "value": "Reef flat",
+        "parent": "Coastal and estuarine elements",
+        "desc": "Flat built up to sea level by marine organisms."
+      },
+      {
+        "value": "Barchan dune",
+        "parent": "Dune and swale elements",
+        "desc": "A crescent-shaped dune with tips extending leeward (downwind), making this side concave and the windward (upwind) side convex. Barchan dunes tend to be arranged in chains extending in the dominant wind direction."
+      },
+      {
+        "value": "Dune",
+        "parent": "Dune and swale elements",
+        "desc": "Moderately inclined to very steep ridge or hillock built up by the wind. This element may comprise dunecrest and duneslope."
+      },
+      {
+        "value": "Dunecrest",
+        "parent": "Dune and swale elements",
+        "desc": "Crest built up or eroded by the wind (see Dune)"
+      },
+      {
+        "value": "Duneslope",
+        "parent": "Dune and swale elements",
+        "desc": "Slope built up or eroded by the wind (see Dune)"
+      },
+      {
+        "value": "Foredune",
+        "parent": "Dune and swale elements",
+        "desc": "Very long, nearly straight, moderately inclined to very steep ridge built up by the wind from material from an adjacent beach."
+      },
+      {
+        "value": "Hummocky",
+        "parent": "Dune and swale elements",
+        "desc": "Weakly oriented dune. Very gently to moderately inclined rises or hillocks built up or eroded by wind and lacking distinct orientation or regular pattern"
+      },
+      {
+        "value": "Linear or longitudinal dune",
+        "parent": "Dune and swale elements",
+        "desc": "Seif. Large, sharp-crested, elongated, longitudinal (linear) dune or chain of sand dunes, oriented parallel, rather than transverse (perpendicular), to the prevailing wind. (Not to be confused with the trailing arms of parabolic dunes.)"
+      },
+      {
+        "value": "Lunette",
+        "parent": "Dune and swale elements",
+        "desc": "Elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave- modified slope towards the playa and a gentle outer slope."
+      },
+      {
+        "value": "Parabolic dune",
+        "parent": "Dune and swale elements",
+        "desc": "Sand dune with a long, scoop-shaped form, convex in the downwind direction so that its horns point upwind, whose ground plan approximates the form of a parabola. The dunes left behind can be referred to as trailing arms. Where many such dunes have traversed an area, these can give the appearance of linear dunes."
+      },
+      {
+        "value": "Swale",
+        "parent": "Dune and swale elements",
+        "desc": "(i) linear, level-floored open depression excavated by wind, or left relict between ridges built up by wind or waves, or built up to a lesser height than them. (ii) long, curved open or closed depression left relict between scrolls built up by channelled stream flow."
+      },
+      {
+        "value": "Alcove",
+        "parent": "Eroded, depressed or deflated elements",
+        "desc": "Moderately inclined to very steep, short open depression with concave cross-section, eroded by collapse, landslides, creep or surface wash."
+      },
+      {
+        "value": "Crater",
+        "parent": "Eroded, depressed or deflated elements",
+        "desc": "Steep to precipitous closed depression excavated by explosions due to volcanism, human action, or impact of an extraterrestrial object"
+      },
+      {
+        "value": "Deflation basin",
+        "parent": "Eroded, depressed or deflated elements",
+        "desc": "Basin excavated by wind erosion which removes loose material, commonly above a resistant or wet layer."
+      },
+      {
+        "value": "Drainage depression",
+        "parent": "Eroded, depressed or deflated elements",
+        "desc": "Level to gently inclined, long, narrow, shallow open depression with smoothly concave cross-section, rising to moderately inclined side slopes, eroded or aggraded by sheet wash."
+      },
+      {
+        "value": "Playa",
+        "parent": "Eroded, depressed or deflated elements",
+        "desc": "Large, shallow, level-floored closed depression, intermittently water-filled, but mainly dry due to evaporation, bounded as a rule by flats aggraded by sheet flow and channelled stream flow."
+      },
+      {
+        "value": "Solution doline",
+        "parent": "Eroded, depressed or deflated elements",
+        "desc": "Steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by dissolution of the surface or underlying bedrock."
+      },
+      {
+        "value": "Blow-out",
+        "parent": "Eroded, excavated and dissolved elements",
+        "desc": "Usually small, open or closed depression excavated by the wind"
+      },
+      {
+        "value": "Tidal creek",
+        "parent": "Estuarine and tidal elements",
+        "desc": "Intermittently water-filled open depression in parts eroded, excavated, built up and aggraded by channelled tide-water flow; type of stream channel characterised by a rapid increase in width downstream."
+      },
+      {
+        "value": "Intertidal flat",
+        "parent": "Estuarine and tidal elements",
+        "desc": "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated; a supratidal flat (STF) is seldom inundated"
+      },
+      {
+        "value": "Supratidal flat",
+        "parent": "Estuarine and tidal elements",
+        "desc": "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated; a supratidal flat (STF) is seldom inundated"
+      },
+      {
+        "value": "Lagoon",
+        "parent": "Fresh water elements",
+        "desc": "Closed depression filled with water that is typically salt or brackish, bounded at least in part by forms aggraded or built up by waves or reef-building organisms."
+      },
+      {
+        "value": "Lake",
+        "parent": "Fresh water elements",
+        "desc": "Large, water-filled closed depression."
+      },
+      {
+        "value": "Swamp",
+        "parent": "Fresh water elements",
+        "desc": "almost level, closed or almost closed depression with a seasonal or permanent watertable at or above the surface, commonly aggraded by overbank stream flow and sometimes biological (peat) accumulation"
+      },
+      {
+        "value": "Bench",
+        "parent": "Hill and rise elements",
+        "desc": "Short, gently or very gently inclined minimal mid-slope element eroded or aggraded by any agent."
+      },
+      {
+        "value": "Footslope",
+        "parent": "Hill and rise elements",
+        "desc": "Moderately to very gently inclined waning lower slope resulting from aggradation or erosion by sheet flow, earth flow or creep (cf. Pediment)."
+      },
+      {
+        "value": "Hillcrest",
+        "parent": "Hill and rise elements",
+        "desc": "Very gently inclined to steep crest, smoothly convex, eroded mainly by creep and sheet wash. A typical element of mountains, hills, low hills and rises"
+      },
+      {
+        "value": "Hillslope",
+        "parent": "Hill and rise elements",
+        "desc": "Gently inclined to precipitous slope, commonly simple and maximal, eroded by sheet wash, creep or water-aided mass movement. A typical element of mountains, hills, low hills and rises"
+      },
+      {
+        "value": "Pediment",
+        "parent": "Hill and rise elements",
+        "desc": "Large, gently inclined to level (&lt;1%) waning lower slope, with slope lines inclined in a single direction, or somewhat convergent or divergent, eroded or sometimes slightly aggraded by sheet flow (cf. Footslope). It is underlain by bedrock."
+      },
+      {
+        "value": "Residual rise",
+        "parent": "Hill and rise elements",
+        "desc": "Hillock of very low to extremely low relief (&lt;30 m) and very gentle to steep slopes. This term is used to refer to an isolated rise surrounded by other landforms."
+      },
+      {
+        "value": "Risecrest",
+        "parent": "Hill and rise elements",
+        "desc": "Crest of hillock of very low to extremely low relief (&lt;30 m)"
+      },
+      {
+        "value": "Riseslope",
+        "parent": "Hill and rise elements",
+        "desc": "Slope of hillock of very low to extremely low relief (&lt;30 m)."
+      },
+      {
+        "value": "Tumulus",
+        "parent": "Hill and rise elements",
+        "desc": "Hillock heaved up by volcanism. In other settings, built up by human activity at a burial site."
+      },
+      {
+        "value": "Gully",
+        "parent": "Plain and gully elements",
+        "desc": "Open depression with short, precipitous walls and moderately inclined to very gently inclined floor or small stream channel, eroded by channelled stream flow and consequent collapse and water-aided mass movement."
+      },
+      {
+        "value": "Valley flat",
+        "parent": "Plain and gully elements",
+        "desc": "Small, gently inclined to level flat, aggraded or sometimes eroded by channelled or overbank stream flow, typically enclosed by hillslopes; a miniature alluvial plain landform pattern"
+      },
+      {
+        "value": "Rock flat",
+        "parent": "Rock and scald elements",
+        "desc": "Flat of bare consolidated rock, ususally eroded by sheet wash"
+      },
+      {
+        "value": "Rock platform",
+        "parent": "Rock and scald elements",
+        "desc": "Flot of consolidated rock eroded by waves"
+      },
+      {
+        "value": "Scald",
+        "parent": "Rock and scald elements",
+        "desc": "Flat, bare of vegetation, from which soil has been eroded or excavated by surface wash or wind."
+      },
+      {
+        "value": "Tor",
+        "parent": "Rock and scald elements",
+        "desc": "Steep to precipitous hillock, typically convex, with a surface mainly of bare rock, either coherent or comprising subangular to rounded, large boulders (exhumed core-stones, also themselves called tors) separated by open fissures; eroded by sheet wash or water-aided mass movement."
+      },
+      {
+        "value": "Backplain",
+        "parent": "Stream and floodplain elements",
+        "desc": "Large flat resulting from aggradation by overbank stream flow at some distance from the stream channel and in some cases biological (peat) accumulation; often characterised by a high watertable and the presence of swamps or lakes; part of a covered plain landform pattern."
+      },
+      {
+        "value": "Bank",
+        "parent": "Stream and floodplain elements",
+        "desc": "Stream bank. Very short, very wide slope, moderately inclined to precipitous, forming the marginal upper parts of a stream channel and resulting from erosion or aggradation by channelled stream flow"
+      },
+      {
+        "value": "Bar",
+        "parent": "Stream and floodplain elements",
+        "desc": "Stream bar. Elongated, gently to moderately inclined, low ridge built up by channelled stream flow; part of a stream bed."
+      },
+      {
+        "value": "Channel bench",
+        "parent": "Stream and floodplain elements",
+        "desc": "Flat at the margin of a stream channel aggraded and partly eroded by overbank and channelled stream flow; an incipient flood plain. Channel benches have been referred to as 'low terraces', but the term 'terrace' should be restricted to landform patterns above the influence of active stream flow."
+      },
+      {
+        "value": "Fan",
+        "parent": "Stream and floodplain elements",
+        "desc": "Large, gently inclined to level element with radial slope lines inclined away from a point, resulting from aggradation, or occasionally from erosion, by channelled, often braided, stream flow, or possibly by sheet flow."
+      },
+      {
+        "value": "Flood-out",
+        "parent": "Stream and floodplain elements",
+        "desc": "Flat inclined radially away from a point on the margin or at the end of a stream channel, aggraded by overbank stream flow, or by channelled stream flow associated with channels developed within the overbank flow; part of a covered plain landform pattern."
+      },
+      {
+        "value": "Levee",
+        "parent": "Stream and floodplain elements",
+        "desc": "Very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by overbank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use Embankment. See also Prior stream."
+      },
+      {
+        "value": "Ox-bow",
+        "parent": "Stream and floodplain elements",
+        "desc": "Long, curved, commonly water-filled closed depression eroded by channelled stream flow but closed as a result of aggradation by channelled or overbank stream flow during the formation of a meander plain landform pattern. The floor of an ox-bow may be more or less aggraded by overbank stream flow, wind, and biological (peat) accumulation."
+      },
+      {
+        "value": "Prior stream",
+        "parent": "Stream and floodplain elements",
+        "desc": "Long, generally sinuous, low ridge built up from materials originally deposited by stream flow along the line of a former stream channel. The landform element may include a depression marking the old stream bed, and relict levees."
+      },
+      {
+        "value": "Scroll",
+        "parent": "Stream and floodplain elements",
+        "desc": "Long, curved, very low ridge built up by channelled stream flow and left relict by channel migration. Part of a meander plain landform pattern."
+      },
+      {
+        "value": "Scroll plain",
+        "parent": "Stream and floodplain elements",
+        "desc": "Large flat resulting from aggradation by channelled stream flow as a stream migrates from side to side; the dominant element of a meander plain landform pattern. This landform element may include occurrences of scroll, swale and ox-bow."
+      },
+      {
+        "value": "Stream bed",
+        "parent": "Stream and floodplain elements",
+        "desc": "linear, generally sinuous open depression forming the bottom of a stream channel, eroded and locally excavated, aggraded or built up by channelled stream flow. Parts that are built up include bars."
+      },
+      {
+        "value": "Stream channel",
+        "parent": "Stream and floodplain elements",
+        "desc": "Linear, generally sinuous open depression, in parts eroded, excavated, built up and aggraded by channelled stream flow. This element comprises stream bed and banks."
+      },
+      {
+        "value": "Terrace flat",
+        "parent": "Stream and floodplain elements",
+        "desc": "Small flat aggraded or eroded by channelled or overbank stream flow, standing above a scarp and no longer frequently inundated; a former valley flat or part of a former flood plain."
+      },
+      {
+        "value": "Terrace plain",
+        "parent": "Stream and floodplain elements",
+        "desc": "Large or very large flat aggraded by channelled or overbank stream flow, standing above a scarp and no longer frequently inundated; part of a former flood plain."
+      }
+    ]
+  },
+  "landform_pattern": {
+    "name": "landform_pattern",
+    "title": "Landform Pattern",
+    "options": [
+      {
+        "value": "Alluvial fan",
+        "parent": null,
+        "desc": "Level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. Typical elements: stream bed, bar, plain. Compare with Sheet-flood fan and Pediment"
+      },
+      {
+        "value": "Alluvial plain",
+        "parent": null,
+        "desc": "Level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these processes. Typical elements: stream channel (stream bed and bank), plain (dominant). Common elements: bar, scroll, levee, backplain, swamp. Occasional elements: ox-bow, flood-out, lake. Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land."
+      },
+      {
+        "value": "Anastomotic plain",
+        "parent": null,
+        "desc": "Flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by overbank and channelled stream flow. Typical elements: stream channel (stream bed and bank), levee, backplain (dominant). Common element: swamp. Compare with other types under Alluvial plain and Flood plain."
+      },
+      {
+        "value": "Badlands",
+        "parent": null,
+        "desc": "Landform pattern of low to extremely low relief (less than 90 m) and steep to precipitous slopes, typically with numerous fixed, erosional stream channels which form a non-directional, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow. Typical elements: ridge (dominant), stream bed or gully. Occasional elements: summit surface, hillcrest, hillslope, talus. Compare with Mountains, Hills, Low hills, Rises and Plain"
+      },
+      {
+        "value": "Bar plain",
+        "parent": null,
+        "desc": "Flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. Typical elements: stream bed, bar (dominant). Compare with other types under Alluvial plain and Flood plain."
+      },
+      {
+        "value": "Beach ridge plain",
+        "parent": null,
+        "desc": "Level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict, parallel beach ridges. Typical elements: beach ridge (co-dominant), swale (co-dominant). Common elements: beach, foredune, tidal creek. Compare with Chenier plain."
+      },
+      {
+        "value": "Chenier plain",
+        "parent": null,
+        "desc": "Level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel, linear ridges built up by waves, separated by, and built over, flats (mud flats) aggraded by tides or overbank stream flow. Typical elements: beach ridge (co-dominant), flat (co-dominant). Common elements: tidal flat, swamp, beach, foredune, tidal creek. Compare with Beach ridge plain."
+      },
+      {
+        "value": "Covered plain",
+        "parent": null,
+        "desc": "Flood plain with slowly migrating, deep alluvial channels, usually widely spaced and forming a unidirectional, integrated non-tributary network. There is frequently active aggradation by overbank stream flow. Typical elements: stream channel (stream bed and bank), levee, backplain (dominant). Common element: swamp. Compare with other types under Alluvial plain and Flood plain."
+      },
+      {
+        "value": "Delta",
+        "parent": null,
+        "desc": "Flood plain projecting into a sea or lake, with slowly migrating, deep alluvial channels, usually moderately spaced, typically forming a divergent, integrated distributary network. This landform is aggraded by frequently active overbank and channelled stream flow that is modified by tides. Typical elements: stream channel (stream bed and bank), levee, backplain (co-dominant), swamp (co-\u00b7dominant), lagoon (co-dominant). Common elements: beach ridge, swale, beach, estuary, tidal creek. Compare with other types under Alluvial plain, Flood plain and Chenier plain."
+      },
+      {
+        "value": "Dunefield",
+        "parent": null,
+        "desc": "Level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind. Typical elements: dune or dunecrest, duneslope, swale, blow-out, risecrest, residual rise, riseslope. Common elements: hummocky dune, barchan dune, parabolic dune, linear dune. Included types of landform pattern are: longitudinal dunefield, parabolic dunefield"
+      },
+      {
+        "value": "Escarpment",
+        "parent": null,
+        "desc": "Steep to precipitous landform pattern forming a linearly extensive, straight or sinuous, inclined surface, which separates terrains at different altitudes; a plateau is commonly above the escarpment. Relief within the landform pattern may be high (hilly) or low (planar). The upper margin is often marked by an included cliff or scarp. Typical elements: hillcrest, hillslope, cliff\u00ad footslope. Common elements: cliff, scarp, scarp-footslope, talus, footslope, alcove. Occasional element: stream bed."
+      },
+      {
+        "value": "Flood plain",
+        "parent": null,
+        "desc": "Alluvial plain characterised by frequently active erosion and aggradation by channelled or overbank stream flow. Unless otherwise specified, 'frequently active' is to mean that flow has an Average Recurrence Interval of 50 years or less. Typical elements: stream channel (stream bed and bank), plain (dominant). Common elements: bar, scroll, levee, backplain, swamp. Occasional elements: ox-bow, flood-out, scroll. Included types of landform pattern are: bar plain, meander plain, covered plain, anastomotic plain. Related relict landform patterns are: stagnant alluvial plain, terrace, terraced land (partly relict)."
+      },
+      {
+        "value": "Hills",
+        "parent": null,
+        "desc": "Landform pattern of high relief (90-300 m) with gently inclined to precipitous slopes. Fixed, shallow, erosional stream channels, closely to very widely spaced, form a non-directional or convergent, integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides. Typical elements: hillcrest, hillslope (dominant), drainage depression, stream bed. Common elements: footslope, alcove, valley flat, gully. Occasional elements: tor, summit surface, scarp, landslide, talus, bench, terrace, doline. Compare with Mountains, Low hills, Rises and Plain."
+      },
+      {
+        "value": "Karst",
+        "parent": null,
+        "desc": "Landform pattern of unspecified relief and slope (for specification use the terms in Table 5, e.g. 'Karst rolling hills') typically with fixed, deep, erosional stream channels forming a non-directional, disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, the products being removed through underground channels. Typical elements: hillcrest, hillslope (dominant), doline. Common elements: summit surface, valley flat, plain, alcove, drainage depression, stream channel, scarp, footslope, landslide. Occasional element: talus."
+      },
+      {
+        "value": "Lacustrine plain",
+        "parent": null,
+        "desc": "Level landform pattern with extremely low relief formerly occupied by a lake but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The pattern is usually bounded by wave-formed features such as cliffs, rock platforms, beaches, berms and lunettes. These may be included or excluded. Typical element: plain. Common elements: beach, cliff. Occasional elements: rock platform, berm. Compare with Playa plain."
+      },
+      {
+        "value": "Longitudinal dunefield",
+        "parent": null,
+        "desc": "Dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other. Typical elements: dune or dunecrest, duneslope, swale, blow-out. Compare with Parabolic dunefield."
+      },
+      {
+        "value": "Low hills",
+        "parent": null,
+        "desc": "Landform pattern of low relief (30-90 m) and gentle to very steep slopes, typically with fixed, erosional stream channels, closely to very widely spaced, which form a non-directional or convergent, integrated tributary pattern. There is continuously active sheet flow, creep, and channelled stream flow. Typical elements: hillcrest, hillslope (dominant), drainage depression, stream bed. Common elements: footslope, alcove, valley flat, gully. Occasional elements: tor, summit surface, landslide, doline. Compare with Mountains, Hills, Rises and Plain."
+      },
+      {
+        "value": "Made land",
+        "parent": null,
+        "desc": "Landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency. Typical elements: fill-top (dominant), cut-over surface, cut face, embankment, berm, trench. Common elements: mound, pit, dam"
+      },
+      {
+        "value": "Marine plain",
+        "parent": null,
+        "desc": "Plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind. Typical element: plain. Occasional elements: dune, stream channel."
+      },
+      {
+        "value": "Meander plain",
+        "parent": null,
+        "desc": "Plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind. Typical element: plain. Occasional elements: dune, stream channel"
+      },
+      {
+        "value": "Mountains",
+        "parent": null,
+        "desc": "Landform pattern of very high relief (greater than 300 m) with moderate to precipitous slopes and fixed, erosional stream channels that are closely to very widely spaced and form a non-directional or diverging, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep, and channelled stream flow. Typical elements: hillcrest, hillslope (dominant), stream bed. Common elements: talus, landslide, alcove, valley flat, scarp. Occasional elements: cirque, footslope. Compare with Hills, Low hills, Rises and Plain"
+      },
+      {
+        "value": "Parabolic dunefield",
+        "parent": null,
+        "desc": "Dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield. Typical elements: dune or dunecrest, duneslope, swale, blow-out. Compare with Longitudinal dunefield."
+      },
+      {
+        "value": "Pediment",
+        "parent": null,
+        "desc": "Gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes. Typical elements: pediment, plain, stream bed. Compare with Sheet-flood fan and Alluvial fan"
+      },
+      {
+        "value": "Pediplain",
+        "parent": null,
+        "desc": "Level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.) Typical element: plain."
+      },
+      {
+        "value": "Peneplain",
+        "parent": null,
+        "desc": "Level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. Typical element: plain."
+      },
+      {
+        "value": "Plain",
+        "parent": null,
+        "desc": "Level to undulating or, rarely, rolling landform pattern of extremely low relief (less than 9 m). Compare with Mountains, Hills, Low hills and Rises."
+      },
+      {
+        "value": "Plateau",
+        "parent": null,
+        "desc": "Level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff landform element may be included or excluded; a bounding escarpment would be an adjacent landform pattern. Typical elements: plain, summit surface, cliff. Common elements: hillcrest, hillslope, drainage depression, rock flat, scarp. Occasional element: stream channel."
+      },
+      {
+        "value": "Playa plain",
+        "parent": null,
+        "desc": "Level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena. Typical elements: playa, lunette, plain. Compare with Lacustrine plain."
+      },
+      {
+        "value": "Rises",
+        "parent": null,
+        "desc": "Landform pattern of very low relief (9-30 m) and very gentle to steep slopes. The fixed, erosional stream channels are closely to very widely spaced and form a non-directional to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to barely active creep and sheet flow. Typical elements: hillcrest, hillslope (dominant), footslope, drainage depression, riseslope. Common elements: valley flat, stream channel. Occasional elements: gully, fan, tor. Compare with Mountains, Hills, Low hills and Plain."
+      },
+      {
+        "value": "Sand plain",
+        "parent": null,
+        "desc": "Level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action. Typical element: plain. Occasional elements: dune, playa, lunette."
+      },
+      {
+        "value": "Sheet-flood fan",
+        "parent": null,
+        "desc": "Level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion. Typical elements: plain, stream bed. Compare with Alluvial fan and Pediment."
+      },
+      {
+        "value": "Stagnant alluvial plain",
+        "parent": null,
+        "desc": "Alluvial plain on which erosion and aggradation by channelled and overbank stream flow is barely active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action. Typical elements: stream channel (stream bed and bank), plain (dominant). Common elements: bar, scroll, levee, backplain, swamp. Occasional elements: ox-bow, flood-out, lake. Compare with Flood plain and Terrace."
+      },
+      {
+        "value": "Terrace (alluvial)",
+        "parent": null,
+        "desc": "Former flood plain on which erosion and aggradation by channelled and overbank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land. Typical elements: terrace plain (dominant), scarp, channel bench. Occasional elements: stream channel, scroll, levee."
+      },
+      {
+        "value": "Terraced land (alluvial)",
+        "parent": null,
+        "desc": "Landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9-90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank. Typical elements: terrace plains, terrace flats, scarps, scroll plain, stream channel. Occasional elements: stream channel, scroll, levee."
+      },
+      {
+        "value": "Tidal flat",
+        "parent": null,
+        "desc": "Level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides. Typical elements: plain (dominant), intertidal flat, supratidal flat, stream channel. Occasional elements: lagoon, dune, beach ridge, beach."
+      }
+    ]
+  },
+  "manage_damage": {
+    "name": "manage_damage",
+    "title": "Manage Damage",
+    "options": [
+      {
+        "value": "Fire",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rot, decay or weathering",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Erosion",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Insects and termites",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Animals, burrowing",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Animals, stock movement",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Animals, abrasion",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ringbarking",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Land clearance",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Vehicle damage",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ground disturbance",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Recent graffiti",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Litter and rubbish",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_buckles_decoration_type": {
+    "name": "metal_buckles_decoration_type",
+    "title": "Metal Buckles Decoration Type",
+    "options": [
+      {
+        "value": "Cast or moulded",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Filigree",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Stamped",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Enamelled",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Jewel or inlay",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Engraved",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_buckles_decorative_motifs": {
+    "name": "metal_buckles_decorative_motifs",
+    "title": "Metal Buckles Decorative Motifs",
+    "options": [
+      {
+        "value": "Beaded",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Lettering",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ribbed",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Foliate",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Military",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Scrolls",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Geometric",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_buckles_frameshape": {
+    "name": "metal_buckles_frameshape",
+    "title": "Metal Buckles Frameshape",
+    "options": [
+      {
+        "value": "D-shape",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Square",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Trapezoid",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Circular",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rectangular",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_buckles_frametype": {
+    "name": "metal_buckles_frametype",
+    "title": "Metal Buckles Frametype",
+    "options": [
+      {
+        "value": "Double",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Single",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_nails_features": {
+    "name": "metal_nails_features",
+    "title": "Metal Nails Features",
+    "options": [
+      {
+        "value": "Burrs on diagonal faces of shaft",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Cross hatching on head",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Burrs on same face of shaft",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Diagonal brackets under head",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Perpendicular brackets under head",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Clasp 'pinch' under head",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Grip marks on neck under head",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shear striations",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_nails_form": {
+    "name": "metal_nails_form",
+    "title": "Metal Nails Form",
+    "options": [
+      {
+        "value": "Bolt",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ewbanks",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rivet",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Spike",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Brad",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Horseshoe",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Roofing nail",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Lead head",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Standard nail",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Clout",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Screw",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Tack",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Unidentifiable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_nails_headshape": {
+    "name": "metal_nails_headshape",
+    "title": "Metal Nails Headshape",
+    "options": [
+      {
+        "value": "Clasp",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Horseshoe (bevelled and tapered)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Facetted",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Jolt",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Flat",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "L-Shaped",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rhomboid",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rose or rosette",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Unidentifiable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_nails_manufacture": {
+    "name": "metal_nails_manufacture",
+    "title": "Metal Nails Manufacture",
+    "options": [
+      {
+        "value": "Cut (rectangular cross section)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Wrought (hand forged)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Wire (round or square cross section)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Unidentifiable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_nails_shaftshape": {
+    "name": "metal_nails_shaftshape",
+    "title": "Metal Nails Shaftshape",
+    "options": [
+      {
+        "value": "Round",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Two sided taper",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Four sided taper",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "No taper",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Unidentifiable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_nails_sizeclasses": {
+    "name": "metal_nails_sizeclasses",
+    "title": "Metal Nails Sizeclasses",
+    "options": [
+      {
+        "value": "Tack (<10mm)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Nail (10-99 mm)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Spike (>100 mm long and >10mm thick)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Unidentifiable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_objecttypes": {
+    "name": "metal_objecttypes",
+    "title": "Metal Objecttypes",
+    "options": [
+      {
+        "value": "Buckle",
+        "parent": "Clothing Fasteners",
+        "desc": ""
+      },
+      {
+        "value": "Collar stud",
+        "parent": "Clothing Fasteners",
+        "desc": ""
+      },
+      {
+        "value": "Hook or Eye",
+        "parent": "Clothing Fasteners",
+        "desc": ""
+      },
+      {
+        "value": "Rivet",
+        "parent": "Clothing Fasteners",
+        "desc": ""
+      },
+      {
+        "value": "Shoe grommet",
+        "parent": "Clothing Fasteners",
+        "desc": ""
+      },
+      {
+        "value": "Stud or press stud",
+        "parent": "Clothing Fasteners",
+        "desc": ""
+      },
+      {
+        "value": "Other fastener",
+        "parent": "Clothing Fasteners",
+        "desc": ""
+      },
+      {
+        "value": "Needle or bodkin",
+        "parent": "Sewing Paraphernalia",
+        "desc": ""
+      },
+      {
+        "value": "Thimble",
+        "parent": "Sewing Paraphernalia",
+        "desc": ""
+      },
+      {
+        "value": "Pin",
+        "parent": "Sewing Paraphernalia",
+        "desc": ""
+      },
+      {
+        "value": "Other sewing",
+        "parent": "Sewing Paraphernalia",
+        "desc": ""
+      },
+      {
+        "value": "Bracket",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Spike",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Nail",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Screw",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Bolt",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Tack",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Strapping",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Wire",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Washer",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Other construction",
+        "parent": "Construction fastener",
+        "desc": ""
+      },
+      {
+        "value": "Bracelet",
+        "parent": "Jewellery",
+        "desc": ""
+      },
+      {
+        "value": "Brooch",
+        "parent": "Jewellery",
+        "desc": ""
+      },
+      {
+        "value": "Cufflink",
+        "parent": "Jewellery",
+        "desc": ""
+      },
+      {
+        "value": "Hatpin",
+        "parent": "Jewellery",
+        "desc": ""
+      },
+      {
+        "value": "Necklace",
+        "parent": "Jewellery",
+        "desc": ""
+      },
+      {
+        "value": "Ring",
+        "parent": "Jewellery",
+        "desc": ""
+      },
+      {
+        "value": "Other jewellery",
+        "parent": "Jewellery",
+        "desc": ""
+      },
+      {
+        "value": "Door knob",
+        "parent": "Building",
+        "desc": ""
+      },
+      {
+        "value": "Door plate",
+        "parent": "Building",
+        "desc": ""
+      },
+      {
+        "value": "Door hinge",
+        "parent": "Building",
+        "desc": ""
+      },
+      {
+        "value": "Door lock or lock plate",
+        "parent": "Building",
+        "desc": ""
+      },
+      {
+        "value": "Vent",
+        "parent": "Building",
+        "desc": ""
+      },
+      {
+        "value": "Window handle",
+        "parent": "Building",
+        "desc": ""
+      },
+      {
+        "value": "Window hinge",
+        "parent": "Building",
+        "desc": ""
+      },
+      {
+        "value": "Window catch",
+        "parent": "Building",
+        "desc": ""
+      },
+      {
+        "value": "Pipe or pipe fitting",
+        "parent": "Building",
+        "desc": ""
+      },
+      {
+        "value": "Knob",
+        "parent": "Furniture",
+        "desc": ""
+      },
+      {
+        "value": "Tack or rivet",
+        "parent": "Furniture",
+        "desc": ""
+      },
+      {
+        "value": "Hinge",
+        "parent": "Furniture",
+        "desc": ""
+      },
+      {
+        "value": "Key",
+        "parent": "Furniture",
+        "desc": ""
+      },
+      {
+        "value": "Lock or lock plate",
+        "parent": "Furniture",
+        "desc": ""
+      },
+      {
+        "value": "Fork",
+        "parent": "Cutlery",
+        "desc": ""
+      },
+      {
+        "value": "Knife",
+        "parent": "Cutlery",
+        "desc": ""
+      },
+      {
+        "value": "Spoon",
+        "parent": "Cutlery",
+        "desc": ""
+      },
+      {
+        "value": "Clock, watch or components",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Coin or token",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Cooking pot, pan or components",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Document fastener",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Lamp or components",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Musical instrument",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Plate, cup or bowl",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Scissors",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Stove or components",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Other accessories",
+        "parent": "Accessories",
+        "desc": ""
+      },
+      {
+        "value": "Food can or tin",
+        "parent": "Containers",
+        "desc": ""
+      },
+      {
+        "value": "Tobacco tin",
+        "parent": "Containers",
+        "desc": ""
+      },
+      {
+        "value": "Wax vestas box",
+        "parent": "Containers",
+        "desc": ""
+      },
+      {
+        "value": "Other containers",
+        "parent": "Containers",
+        "desc": ""
+      },
+      {
+        "value": "Pocket knife",
+        "parent": "Personal",
+        "desc": ""
+      },
+      {
+        "value": "Purse",
+        "parent": "Personal",
+        "desc": ""
+      },
+      {
+        "value": "Razor",
+        "parent": "Personal",
+        "desc": ""
+      },
+      {
+        "value": "Other personal",
+        "parent": "Personal",
+        "desc": ""
+      },
+      {
+        "value": "Bit",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Bridle component",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Horseshoe",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Buckle",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Horseshoe nail",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Rivet or other fixture",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Hames or collar",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Other harness",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Saddle crest or plate",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Stirrup components",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Other saddle components",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Spurs",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Other saddlery",
+        "parent": "Saddlery and horses",
+        "desc": ""
+      },
+      {
+        "value": "Axe head",
+        "parent": "Tools and implements",
+        "desc": ""
+      },
+      {
+        "value": "Hammer head",
+        "parent": "Tools and implements",
+        "desc": ""
+      },
+      {
+        "value": "Utilised metal piece",
+        "parent": "Tools and implements",
+        "desc": ""
+      },
+      {
+        "value": "File",
+        "parent": "Tools and implements",
+        "desc": ""
+      },
+      {
+        "value": "Hoe or mattock",
+        "parent": "Tools and implements",
+        "desc": ""
+      },
+      {
+        "value": "Other tools or implements",
+        "parent": "Tools and implements",
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "metal_types": {
+    "name": "metal_types",
+    "title": "Metal Types",
+    "options": [
+      {
+        "value": "Brass",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Copper",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Brass/Copper alloy",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Cast iron",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Corrugated/ripple iron (galv and non-galv)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Forged or wrought iron",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Galvanised iron",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gold",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Lead",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Nickel silver (or other base metal)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other iron",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Platinum",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Silver",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Steel",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Tin",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Zinc alloy",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Unidentified",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "misc_material": {
+    "name": "misc_material",
+    "title": "Misc Material",
+    "options": [
+      {
+        "value": "Bone",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Brick",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Canvas",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Ceramic",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Concrete",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Crystal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Earth",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Fabric",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gravel",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Hair",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Lead",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Leather",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Metal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other organic",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Plastic",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shell",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Stone",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Wood",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "mound_matrix": {
+    "name": "mound_matrix",
+    "title": "Mound Matrix",
+    "options": [
+      {
+        "value": "Earth dominant",
+        "parent": null,
+        "desc": "Mound matrix is &gt; 70% sediment (aka earth mound)"
+      },
+      {
+        "value": "Shell dominant",
+        "parent": null,
+        "desc": "Mound matrix is &gt; 70% shell or shell fragments (aka shell mound)"
+      },
+      {
+        "value": "Sand dominant",
+        "parent": null,
+        "desc": "Mound matrix is &gt;70% sand"
+      },
+      {
+        "value": "Mixed",
+        "parent": null,
+        "desc": "Mound matrix is mixed (describe below)"
+      },
+      {
+        "value": "Unknown",
+        "parent": null,
+        "desc": "Mound matrix obscured (e.g. by surface vegetation)"
+      }
+    ]
+  },
+  "mound_shape": {
+    "name": "mound_shape",
+    "title": "Mound Shape",
+    "options": [
+      {
+        "value": "Dome",
+        "parent": null,
+        "desc": "Plan view, circular base. In profile there is only one area of higher elevation with mound surface gently sloping to ground."
+      },
+      {
+        "value": "Cone",
+        "parent": null,
+        "desc": "Plan view, circular base. In profile, there is only one area of higher elevation, but with steep slope on at least three faces of the mound. Conical appearance"
+      },
+      {
+        "value": "Elongate",
+        "parent": null,
+        "desc": "Plan view, base length is 1.5 to 2 times site width. In profile, there is only one area of higher elevation with mound surface gently sloping to ground."
+      },
+      {
+        "value": "Composite",
+        "parent": null,
+        "desc": "Mound shape that includes complex shapes in plan view with multiple areas of high elevation"
+      },
+      {
+        "value": "Incipient",
+        "parent": null,
+        "desc": "Low mound, somewhat amorphous in shape"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Please describe in annotations"
+      }
+    ]
+  },
+  "othersa_coreshape": {
+    "name": "othersa_coreshape",
+    "title": "Othersa Coreshape",
+    "options": [
+      {
+        "value": "Amorphous",
+        "parent": null,
+        "desc": "Core shape does not conform to categories below"
+      },
+      {
+        "value": "Bipolar",
+        "parent": null,
+        "desc": "A core with flakes typically struck from a platform, while the opposite surface is held against an anvil, creating impact damage (e.g. crushing) on the distal surface"
+      },
+      {
+        "value": "Horsehoof",
+        "parent": null,
+        "desc": "Discoidal, high-domed core with step and hinge fractures along a single, circular or ovate, platform"
+      },
+      {
+        "value": "Microblade",
+        "parent": null,
+        "desc": "Parallel elongate flake scars, each 2x longer than width, on a typically very small core (&lt;10cm). Used to produce bladelets as a component for geometric microliths and backed blades"
+      },
+      {
+        "value": "Burin blade core",
+        "parent": null,
+        "desc": "Produced from a flake that is similar in form to a burin, but with bladelets removed from the proximal end"
+      }
+    ]
+  },
+  "othersa_coretype": {
+    "name": "othersa_coretype",
+    "title": "Othersa Coretype",
+    "options": [
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": "Core fragment with flake initiation unclear"
+      },
+      {
+        "value": "Unidirectional core",
+        "parent": null,
+        "desc": "Flake scars originate from a single platform, and all flakes struck in the same direction"
+      },
+      {
+        "value": "Bidirectional core",
+        "parent": null,
+        "desc": "A core with two platforms, opposite each other, with flakes struck from each platform, and thus from opposite directions"
+      },
+      {
+        "value": "Bifacial core",
+        "parent": null,
+        "desc": "Single platform core, but flakes struck from two core faces"
+      },
+      {
+        "value": "Multidirectional core",
+        "parent": null,
+        "desc": "Two or more platforms, with no clear pattern in platform or scar orientation"
+      }
+    ]
+  },
+  "othersa_flakeshape": {
+    "name": "othersa_flakeshape",
+    "title": "Othersa Flakeshape",
+    "options": [
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": "Flake scar incomplete"
+      },
+      {
+        "value": "Elongate",
+        "parent": null,
+        "desc": "Scar length is more than twice its width"
+      },
+      {
+        "value": "Intermediate",
+        "parent": null,
+        "desc": "Scar length is greater than width, but not twice as long as it is wide"
+      },
+      {
+        "value": "Expanding",
+        "parent": null,
+        "desc": "Scar width is greater than scar length"
+      }
+    ]
+  },
+  "othersa_use": {
+    "name": "othersa_use",
+    "title": "Othersa Use",
+    "options": [
+      {
+        "value": "Pitting",
+        "parent": null,
+        "desc": "Small irregular indentations or pits (&lt;5 mm) over a focal area, for example, the distal surface of a hammer stone"
+      },
+      {
+        "value": "Crushing",
+        "parent": null,
+        "desc": "More invasive than pitting, characterised by small fragments of stone being crushed and falling away. Often leaves large pits"
+      },
+      {
+        "value": "Grinding",
+        "parent": null,
+        "desc": "A raw material with at least one surface that is smoother than surrounding cortical surface, typically created by rubbing, and usually indicated also be a colour difference compared with cortex. Does not produce a visible groove"
+      },
+      {
+        "value": "Grooves",
+        "parent": null,
+        "desc": "A distinct, concave and often elongate surface created by removal of raw material through abrasion (e.g. a broad groove on a grindstone)"
+      },
+      {
+        "value": "Waist",
+        "parent": null,
+        "desc": "A narrow, ground or abraded band around the body of a tool (e.g. wasted stone axe)"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Describe in annotations"
+      }
+    ]
+  },
+  "othsa_types": {
+    "name": "othsa_types",
+    "title": "Othsa Types",
+    "options": [
+      {
+        "value": "Core",
+        "parent": null,
+        "desc": "Any core type, from which flakes have been detached"
+      },
+      {
+        "value": "Anvil",
+        "parent": null,
+        "desc": "A stone used as a base on which other materials can be hammered or pounded, for example, bipolar flake production, or for cracking seeds"
+      },
+      {
+        "value": "Hammerstone",
+        "parent": null,
+        "desc": "A stone used to detach flakes from a core, with evidence of pitting created through impact"
+      },
+      {
+        "value": "Muller",
+        "parent": null,
+        "desc": "The top stone used in conjunction with a grindstone, which is used to grind seeds, ochre, or other materials"
+      },
+      {
+        "value": "Grindstone",
+        "parent": null,
+        "desc": "The base stone or slab used in conjunction with a muller to grind seeds, ochre, or other materials"
+      },
+      {
+        "value": "Edgeground",
+        "parent": null,
+        "desc": "An edge-ground implement, featuring a distinctive modified distal margin, used for chopping or cutting tasks"
+      },
+      {
+        "value": "Manuport",
+        "parent": null,
+        "desc": "A stone within an archaeological assemblage or landscape setting where such stone does not occur naturally, and thus, must have been moved by humans. If this shows evidence of utilisation, select another category"
+      },
+      {
+        "value": "Pounder",
+        "parent": null,
+        "desc": "An implement used to crack or crush other materials, typically vegetable materials. Can be difficult to distinguish from hammerstones"
+      },
+      {
+        "value": "Ochre",
+        "parent": null,
+        "desc": "Soft, clay-earth pigment composed of ferric oxide, clay and sand, ranging from deep orange to brown in colour"
+      },
+      {
+        "value": "Multifunction",
+        "parent": null,
+        "desc": "A stone used for at least two purposes (e.g. a core utilised for pounding). Complete all relevant fields below"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Other stone materials utilised by people (e.g hearth stones)"
+      }
+    ]
+  },
+  "overhang_removal": {
+    "name": "overhang_removal",
+    "title": "Overhang Removal",
+    "options": [
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Present",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Absent",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "percentage_amount": {
+    "name": "percentage_amount",
+    "title": "Percentage Amount",
+    "options": [
+      {
+        "value": "0%",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "1-50%",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "51-99%",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "100%",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "percentages": {
+    "name": "percentages",
+    "title": "Percentages",
+    "options": [
+      {
+        "value": "1-25%",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "26-50%",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "51-75%",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "76-100%",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "phase": {
+    "name": "phase",
+    "title": "Phase",
+    "options": [
+      {
+        "value": "Phase 1",
+        "parent": null,
+        "desc": "Coarse level of recording intended to capture overall characteristics of a feature or site. Typically, this approach is used for complex features with multiple attributes that could potentially be recorded separately."
+      },
+      {
+        "value": "Phase 2",
+        "parent": null,
+        "desc": "High resolution recording of discrete features present within a site or assemblage. For example, recording of individual buildings or structures, delineating boundaries of artefact scatters, hearths, faunal deposits or objects that together comprise a discrete feature"
+      }
+    ]
+  },
+  "poi_type": {
+    "name": "poi_type",
+    "title": "Poi Type",
+    "options": [
+      {
+        "value": "Environmental feature",
+        "parent": null,
+        "desc": "Environmental feature that is of interest"
+      },
+      {
+        "value": "Potential Archaeological Deposit",
+        "parent": null,
+        "desc": "Potential deposit, not associated with other feature type. For example, a rockshelter with no art or surface artefacts, but that has excavatable deposits present"
+      },
+      {
+        "value": "Preliminary feature record",
+        "parent": null,
+        "desc": "A preliminary recording of a feature, made due to time or other constrains, and that requires subsequent detailed recording"
+      },
+      {
+        "value": "Ethnographic site",
+        "parent": null,
+        "desc": "A place with either contemporary or historic cultural values, for example, a place associated with an historic or remembered events, a named place, a story place or a significant named landscape feature"
+      },
+      {
+        "value": "Other feature or site",
+        "parent": null,
+        "desc": "Provide information in annotations"
+      }
+    ]
+  },
+  "sa_rawmaterial": {
+    "name": "sa_rawmaterial",
+    "title": "Sa Rawmaterial",
+    "options": [
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": "No stone artefacts observed"
+      },
+      {
+        "value": "Basalt",
+        "parent": null,
+        "desc": "Fine grained igneous rock, very common, often dark in colour, no other mineral inclusions, and sometimes with caviities"
+      },
+      {
+        "value": "Chalcedony",
+        "parent": null,
+        "desc": "Hard, fine grained material composed of very small silica crystals, highly variable in colour. Unlike chert, chalcedony has a fibrous structure with fine intergrowths of quartz and often has a waxy lustre and is often semi-transparent or translucent"
+      },
+      {
+        "value": "Chert",
+        "parent": null,
+        "desc": "Hard, fine grained material composed of very small silica crystals, highly variable in colour, and unlike chalcedony, lacks transparent or transluscent qualities"
+      },
+      {
+        "value": "Ironstone",
+        "parent": null,
+        "desc": "Sedimentary rock, with substantial proportion of iron creating a reddish appearance on outer surface but internally is typically grey. Very hard material with poor flaking properties"
+      },
+      {
+        "value": "Mudstone",
+        "parent": null,
+        "desc": "Very fine grained and at times quite soft sedimentary rock encompassing mudstone, siltstone and claystone. Not prone to lamination"
+      },
+      {
+        "value": "Quartz--clear",
+        "parent": null,
+        "desc": "Clear, colourless and transparent or translucent material composed of silica"
+      },
+      {
+        "value": "Quartz--milky",
+        "parent": null,
+        "desc": "White or milky-coloured material composed of silica, but lacks transparency of clear quartz"
+      },
+      {
+        "value": "Quartzite",
+        "parent": null,
+        "desc": "Hard, non-foliated rock derived from quartz sandstone and metamorphosed, varying in colour depending on presence of other minerals, but typically white, grey, pink or red due to iron oxides. Quartz grains are cemented together to such an extent that fractures break through grain boundaries, rather than around them. Grainy or glassy appearance, but often excellent flaking properties"
+      },
+      {
+        "value": "Sandstone",
+        "parent": null,
+        "desc": "A clastic sedimentary rock, typically of sand-sized mineral particles or rock fragments, often quartz and feldspar"
+      },
+      {
+        "value": "Shale",
+        "parent": null,
+        "desc": "Very fine grained sedimentary rock, but unlike mudstones, is prone to lamination"
+      },
+      {
+        "value": "Silcrete--general",
+        "parent": null,
+        "desc": "Hard, resistant material that can appear simiilar to quartzite but results from the dissolution of silica and its resolidification as a cement, along with other detrital materials. As a result, silcrete has a highly variable grain size but grains are usually evident and, unlike quartzite, fractures will break around grain boundaries. If confident in classification, please select specific silcrete type"
+      },
+      {
+        "value": "Silcrete-microcrystalline",
+        "parent": null,
+        "desc": "Silcrete, very fine grained with almost no visible grains, and scattered quartz clasts"
+      },
+      {
+        "value": "Silcrete\u2013fine grained",
+        "parent": null,
+        "desc": "Silcrete, ,mostly fine-sand-sized grains (<0.25mm)"
+      },
+      {
+        "value": "Silcrete-medium grained",
+        "parent": null,
+        "desc": "Silcrete, mostly medium-sand-sized quartz clasts (0.25-0.5 mm) in a siliceous matrix, with sand grains easily visible. Coarser silcrete varieties tend to have poor flaking qualities, so consider whether this material is quarztite"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Describe in annotation"
+      }
+    ]
+  },
+  "saflake_completeness": {
+    "name": "saflake_completeness",
+    "title": "Saflake Completeness",
+    "options": [
+      {
+        "value": "Complete",
+        "parent": null,
+        "desc": "Ventral surface, platform, lateral margins and termination are preserved"
+      },
+      {
+        "value": "Proximal",
+        "parent": null,
+        "desc": "Broken flake, termination absent with evidence of initation present (e.g. platform, bulb of percussion, bulbar scar or fissures)"
+      },
+      {
+        "value": "Medial",
+        "parent": null,
+        "desc": "Broken flake, both proximal and distal margins absent (ie. termination and initiation points)"
+      },
+      {
+        "value": "Distal",
+        "parent": null,
+        "desc": "Distal fragment, termination preserved but proximal margin absent (e.g. missing platform)"
+      },
+      {
+        "value": "Angular fragment",
+        "parent": null,
+        "desc": "Other fragment, typically amorphous with no characteristics of flakes, cores or tools"
+      }
+    ]
+  },
+  "saflake_dorscortex": {
+    "name": "saflake_dorscortex",
+    "title": "Saflake Dorscortex",
+    "options": [
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": "No dorsal cortex present"
+      },
+      {
+        "value": "Rounded",
+        "parent": null,
+        "desc": "Smooth cortical surface"
+      },
+      {
+        "value": "Irregular",
+        "parent": null,
+        "desc": "Irregular texture"
+      },
+      {
+        "value": "Angular",
+        "parent": null,
+        "desc": "Angular texture"
+      }
+    ]
+  },
+  "saflake_platsurf": {
+    "name": "saflake_platsurf",
+    "title": "Saflake Platsurf",
+    "options": [
+      {
+        "value": "Absent",
+        "parent": null,
+        "desc": "Select this if the platform is absent (e.g. medial flakes)"
+      },
+      {
+        "value": "Natural",
+        "parent": null,
+        "desc": "An unmodified natural surface, typically with cortex, though not exclusively"
+      },
+      {
+        "value": "Flaked",
+        "parent": null,
+        "desc": "A platform surface that has been flaked prior to removal of the flake being analysed"
+      },
+      {
+        "value": "Abraded",
+        "parent": null,
+        "desc": "A platform surface that has been ground against a harder surface"
+      }
+    ]
+  },
+  "saflake_rtinit": {
+    "name": "saflake_rtinit",
+    "title": "Saflake Rtinit",
+    "options": [
+      {
+        "value": "No retouch",
+        "parent": null,
+        "desc": "No retouch present"
+      },
+      {
+        "value": "Ventral",
+        "parent": null,
+        "desc": "Unifacial retouch initiated on the ventral surface, resulting in small flakes detaching from the dorsal surface"
+      },
+      {
+        "value": "Dorsal",
+        "parent": null,
+        "desc": "Unifacial retouch initiated on the dorsal surface, resulting in small flakes detaching from the ventral surface"
+      },
+      {
+        "value": "Bifacial",
+        "parent": null,
+        "desc": "Bifacial retouch, initiated on both dorsal and ventral surface"
+      }
+    ]
+  },
+  "saflake_rtshape": {
+    "name": "saflake_rtshape",
+    "title": "Saflake Rtshape",
+    "options": [
+      {
+        "value": "No retouch",
+        "parent": null,
+        "desc": "No retouch present"
+      },
+      {
+        "value": "Concave",
+        "parent": null,
+        "desc": "In plan view, the retouched margins is concave -- typically on a lateral margin"
+      },
+      {
+        "value": "Convex",
+        "parent": null,
+        "desc": "In plan view, the retouched margin is convex"
+      },
+      {
+        "value": "Straight",
+        "parent": null,
+        "desc": "In plan view, the retouched margin in mostly straight"
+      },
+      {
+        "value": "Irregular",
+        "parent": null,
+        "desc": "In plan view, the retouched margin features a combination of edge-shapes"
+      }
+    ]
+  },
+  "saflake_termination": {
+    "name": "saflake_termination",
+    "title": "Saflake Termination",
+    "options": [
+      {
+        "value": "Absent",
+        "parent": null,
+        "desc": "Missing termination"
+      },
+      {
+        "value": "Feather",
+        "parent": null,
+        "desc": "Minimal thickness at the distal end, and a very acute angle bewteen the dorsal and ventral surface"
+      },
+      {
+        "value": "Axial",
+        "parent": null,
+        "desc": "When the crack forming the termination moves through the core at an approximate right angle"
+      },
+      {
+        "value": "Hinge",
+        "parent": null,
+        "desc": "The fracture meets the core surface at an approximate right angle to the percussion axis of the flake, less abrupt than a step fracture, typically bending from the ventral to dorsal surface"
+      },
+      {
+        "value": "Step",
+        "parent": null,
+        "desc": "Flake is abruptly terminated with a right angled break, creating a distinctive step feature"
+      },
+      {
+        "value": "Plunging",
+        "parent": null,
+        "desc": "The fracture plane curves markedly away from the core and then back into the core, typically leaving a J shaped termination that bends from the dorsal"
+      }
+    ]
+  },
+  "sart_gen_types": {
+    "name": "sart_gen_types",
+    "title": "Sart Gen Types",
+    "options": [
+      {
+        "value": "None observed",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Flakes",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Cores",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Mullers",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Grindstones",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Hammer stones",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Manuports",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Edge-ground implements",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Quarry debitage",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "scar_types": {
+    "name": "scar_types",
+    "title": "Scar Types",
+    "options": [
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Sugarbag",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Woomera",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Guama",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Canoe",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Container",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Toe hold",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other bark removal",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other axe scars",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other scar type",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "shelter_floor": {
+    "name": "shelter_floor",
+    "title": "Shelter Floor",
+    "options": [
+      {
+        "value": "Fine sediment",
+        "parent": null,
+        "desc": "Very fine friable sediment, loosely compacted and principally soil, loam or similar."
+      },
+      {
+        "value": "Sandy sediment",
+        "parent": null,
+        "desc": "Sandy sediment, variable grain size, clearly sand and derived from local parent material (e.g. shelter itself) or that comprises wider landform pattern for this locality (e.g. on sandplains)"
+      },
+      {
+        "value": "Scree",
+        "parent": null,
+        "desc": "Poorly consolidated gravel, rock and stones that have accumulated at the base of a slope"
+      },
+      {
+        "value": "Consolidated material",
+        "parent": null,
+        "desc": "Highly compacted sand, sediment or stone (etc)"
+      },
+      {
+        "value": "Bedrock",
+        "parent": null,
+        "desc": "Solid stone, or large slabs of stone"
+      }
+    ]
+  },
+  "shelter_types": {
+    "name": "shelter_types",
+    "title": "Shelter Types",
+    "options": [
+      {
+        "value": "Tor",
+        "parent": null,
+        "desc": "A freestanding rock outcrop that rises abruptly from a gently rounded hill or ridge top"
+      },
+      {
+        "value": "Escarpment",
+        "parent": null,
+        "desc": "Shelter within a typically long, and steep cliff that demarcates two differing areas of elevation"
+      },
+      {
+        "value": "Mesa",
+        "parent": null,
+        "desc": "A prominent elevated area with a relatively flat top but steep sides"
+      },
+      {
+        "value": "Inselburg",
+        "parent": null,
+        "desc": "A prominent residual relief feature that rises, like an island, from adjacent surrounding plains"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Please describe in annotations"
+      }
+    ]
+  },
+  "stoneartefact_coretypes": {
+    "name": "stoneartefact_coretypes",
+    "title": "Stoneartefact Coretypes",
+    "options": [
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": "Core fragment with flake initiation unclear"
+      },
+      {
+        "value": "Unidirectional core",
+        "parent": null,
+        "desc": "Flake scars originate from a single platform, and all flakes struck in the same direction"
+      },
+      {
+        "value": "Bidirectional core",
+        "parent": null,
+        "desc": "A core with two platforms, opposite each other, with flakes struck from each platform, and thus from opposite directions"
+      },
+      {
+        "value": "Bifacial core",
+        "parent": null,
+        "desc": "Single platform core, but flakes struck from two core faces"
+      },
+      {
+        "value": "Multidirectional core",
+        "parent": null,
+        "desc": "Two or more platforms, with no clear pattern in platform or scar orientation"
+      }
+    ]
+  },
+  "stoneartefact_flake_completeness": {
+    "name": "stoneartefact_flake_completeness",
+    "title": "Stoneartefact Flake Completeness",
+    "options": [
+      {
+        "value": "Complete",
+        "parent": null,
+        "desc": "Ventral surface, platform, lateral margins and termination are preserved"
+      },
+      {
+        "value": "Proximal",
+        "parent": null,
+        "desc": "Broken flake, termination absent with evidence of initation present (e.g. platform, bulb of percussion, bulbar scar or fissures)"
+      },
+      {
+        "value": "Medial",
+        "parent": null,
+        "desc": "Broken flake, both proximal and distal margins absent (ie. termination and initiation points)"
+      },
+      {
+        "value": "Distal",
+        "parent": null,
+        "desc": "Distal fragment, termination preserved but proximal margin absent (e.g. missing platform)"
+      },
+      {
+        "value": "Angular fragment",
+        "parent": null,
+        "desc": "Other fragment, typically amorphous with no characteristics of flakes, cores or tools"
+      }
+    ]
+  },
+  "stoneartefact_rawmaterial": {
+    "name": "stoneartefact_rawmaterial",
+    "title": "Stoneartefact Rawmaterial",
+    "options": [
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": "No stone artefacts observed"
+      },
+      {
+        "value": "Basalt",
+        "parent": null,
+        "desc": "Fine grained igneous rock, very common, often dark in colour, no other mineral inclusions, and sometimes with caviities"
+      },
+      {
+        "value": "Chalcedony",
+        "parent": null,
+        "desc": "Hard, fine grained material composed of very small silica crystals, highly variable in colour. Unlike chert, chalcedony has a fibrous structure with fine intergrowths of quartz and often has a waxy lustre and is often semi-transparent or translucent"
+      },
+      {
+        "value": "Chert",
+        "parent": null,
+        "desc": "Hard, fine grained material composed of very small silica crystals, highly variable in colour, and unlike chalcedony, lacks transparent or transluscent qualities"
+      },
+      {
+        "value": "Ironstone",
+        "parent": null,
+        "desc": "Sedimentary rock, with substantial proportion of iron creating a reddish appearance on outer surface but internally is typically grey. Very hard material with poor flaking properties"
+      },
+      {
+        "value": "Mudstone",
+        "parent": null,
+        "desc": "Very fine grained and at times quite soft sedimentary rock encompassing mudstone, siltstone and claystone. Not prone to lamination"
+      },
+      {
+        "value": "Quartz--clear",
+        "parent": null,
+        "desc": "Clear, colourless and transparent or translucent material composed of silica"
+      },
+      {
+        "value": "Quartz--milky",
+        "parent": null,
+        "desc": "White or milky-coloured material composed of silica, but lacks transparency of clear quartz"
+      },
+      {
+        "value": "Quartzite",
+        "parent": null,
+        "desc": "Hard, non-foliated rock derived from quartz sandstone and metamorphosed, varying in colour depending on presence of other minerals, but typically white, grey, pink or red due to iron oxides. Quartz grains are cemented together to such an extent that fractures break through grain boundaries, rather than around them. Grainy or glassy appearance, but often excellent flaking properties"
+      },
+      {
+        "value": "Sandstone",
+        "parent": null,
+        "desc": "A clastic sedimentary rock, typically of sand-sized mineral particles or rock fragments, often quartz and feldspar"
+      },
+      {
+        "value": "Shale",
+        "parent": null,
+        "desc": "Very fine grained sedimentary rock, but unlike mudstones, is prone to lamination"
+      },
+      {
+        "value": "Silcrete--general",
+        "parent": null,
+        "desc": "Hard, resistant material that can appear simiilar to quartzite but results from the dissolution of silica and its resolidification as a cement, along with other detrital materials. As a result, silcrete has a highly variable grain size but grains are usually evident and, unlike quartzite, fractures will break around grain boundaries. If confident in classification, please select specific silcrete type"
+      },
+      {
+        "value": "Silcrete-microcrystalline",
+        "parent": null,
+        "desc": "Silcrete, very fine grained with almost no visible grains, and scattered quartz clasts"
+      },
+      {
+        "value": "Silcrete\u2013fine grained",
+        "parent": null,
+        "desc": "Silcrete, ,mostly fine-sand-sized grains (&lt;0.25mm)"
+      },
+      {
+        "value": "Silcrete-medium grained",
+        "parent": null,
+        "desc": "Silcrete, mostly medium-sand-sized quartz clasts (0.25-0.5 mm) in a siliceous matrix, with sand grains easily visible. Coarser silcrete varieties tend to have poor flaking qualities, so consider whether this material is quarztite"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Describe in annotation"
+      }
+    ]
+  },
+  "stoneartefact_termination": {
+    "name": "stoneartefact_termination",
+    "title": "Stoneartefact Termination",
+    "options": [
+      {
+        "value": "Absent",
+        "parent": null,
+        "desc": "Missing termination"
+      },
+      {
+        "value": "Feather",
+        "parent": null,
+        "desc": "Minimal thickness at the distal end, and a very acute angle bewteen the dorsal and ventral surface"
+      },
+      {
+        "value": "Axial",
+        "parent": null,
+        "desc": "When the crack forming the termination moves through the core at an approximate right angle because the flake travelled through to the base of the core"
+      },
+      {
+        "value": "Hinge",
+        "parent": null,
+        "desc": "Generally rounded termination. The fracture meets the core surface at an approximate right angle to the percussion axis of the flake, less abrupt than a step fracture, typically bending from the ventral to dorsal surface"
+      },
+      {
+        "value": "Step",
+        "parent": null,
+        "desc": "Flake is abruptly terminated with a right angled break, creating a distinctive step feature"
+      },
+      {
+        "value": "Plunging",
+        "parent": null,
+        "desc": "The fracture plane curves markedly away from the core and then back into the core, typically leaving a J shaped termination that bends from the dorsal"
+      }
+    ]
+  },
+  "subsurface_pot": {
+    "name": "subsurface_pot",
+    "title": "Subsurface Pot",
+    "options": [
+      {
+        "value": "Clear",
+        "parent": null,
+        "desc": "Tangible evidence of-surface deposits, for example, where a section has been exposed that reveals cultural material, or where cultural materials are seen to be eroding from a portion of the feature (e.g. on a slope)"
+      },
+      {
+        "value": "High",
+        "parent": null,
+        "desc": "No unambiguous evidence of sub-surface deposits, but the characterstics of the landform (e.g. aggrading land surface) and local archaeology are highly suggestive of such deposits existing"
+      },
+      {
+        "value": "Low",
+        "parent": null,
+        "desc": "Sub-surface deposits are considered unlikely, due to the characterstics of the landform (e.g. badly eroded surface), but the potential for such deposits to occur can not be ruled out."
+      },
+      {
+        "value": "None",
+        "parent": null,
+        "desc": "Situations where sub-surface deposits can be ruled out due to the landform characteristics (e.g. a substrate of bedrock, clay hardpan or, stones and rubble)"
+      }
+    ]
+  },
+  "survey_instr": {
+    "name": "survey_instr",
+    "title": "Survey Instr",
+    "options": [
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Leica Multistation",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Leica TS09 Unit A",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Leica TS09 Unit B",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "RTK Rover B",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "RTK Rover B",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Reach RS2",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "tech_base_marks": {
+    "name": "tech_base_marks",
+    "title": "Tech Base Marks",
+    "options": [
+      {
+        "value": "Lettering",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Snap pontil",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Iron pontil",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Sand pontil",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shaped push up - Metal cone",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shaped push up - Metal cone with base plate",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Shaped push up - Wooden cone",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Suction scar",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Valve mark",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "technique_types": {
+    "name": "technique_types",
+    "title": "Technique Types",
+    "options": [
+      {
+        "value": "Not applicable",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Pigment -- Stencils",
+        "parent": null,
+        "desc": "Tracings of objects"
+      },
+      {
+        "value": "Pigment -- prints",
+        "parent": null,
+        "desc": "Wet application of pigment onto subject (e.g. hand) and then placed against panel surface"
+      },
+      {
+        "value": "Pigment -- drawings",
+        "parent": null,
+        "desc": "Typically linear application of pigment, for example, clay 'crayons'"
+      },
+      {
+        "value": "Pigment -- paintings",
+        "parent": null,
+        "desc": "Wet application of pigment onto surface"
+      },
+      {
+        "value": "Engraved -- abraded",
+        "parent": null,
+        "desc": "Engravings created through direct abrasion"
+      },
+      {
+        "value": "Engraved -- pecked",
+        "parent": null,
+        "desc": "Engravings created through pecking or percussion"
+      },
+      {
+        "value": "Engraved with pigment applied",
+        "parent": null,
+        "desc": "Engravings with pigment applied"
+      },
+      {
+        "value": "Grinding patches",
+        "parent": null,
+        "desc": "Grooves or depressions created through intensive grinding, e.g. for ochre preparation"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Describe in annotations"
+      }
+    ]
+  },
+  "tree_condition": {
+    "name": "tree_condition",
+    "title": "Tree Condition",
+    "options": [
+      {
+        "value": "Cut down",
+        "parent": null,
+        "desc": "Felled trees"
+      },
+      {
+        "value": "Dead but fallen",
+        "parent": null,
+        "desc": "Naturally fallen trees"
+      },
+      {
+        "value": "Dead and standing",
+        "parent": null,
+        "desc": "Standing tree but no evidence of being alive"
+      },
+      {
+        "value": "Alive but poor condition",
+        "parent": null,
+        "desc": "Alive, with some evidence of growth but more than 50% dead branches or damage to the bole"
+      },
+      {
+        "value": "Alive but good condition",
+        "parent": null,
+        "desc": "Alive, minimal damage or dead branches"
+      }
+    ]
+  },
+  "tree_height": {
+    "name": "tree_height",
+    "title": "Tree Height",
+    "options": [
+      {
+        "value": "Indeterminate",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "<5m",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "5-10m",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": ">10m",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "tree_species": {
+    "name": "tree_species",
+    "title": "Tree Species",
+    "options": [
+      {
+        "value": "Cooktown ironwood",
+        "parent": null,
+        "desc": "Erythrophleum chlorostachys"
+      },
+      {
+        "value": "Redgum",
+        "parent": null,
+        "desc": "Eucalyptus camaldulensis"
+      },
+      {
+        "value": "Black box",
+        "parent": null,
+        "desc": "Eucalyptus largiflorens"
+      },
+      {
+        "value": "Sandalwood",
+        "parent": null,
+        "desc": "Santulum spp."
+      },
+      {
+        "value": "Paperbark",
+        "parent": null,
+        "desc": "Melaleuca spp."
+      },
+      {
+        "value": "Tamarind",
+        "parent": null,
+        "desc": "Tamarindus indica"
+      },
+      {
+        "value": "Mango",
+        "parent": null,
+        "desc": "Mangifera indica"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Please provide common language and scientific name in annotation, where possible."
+      }
+    ]
+  },
+  "tree_types": {
+    "name": "tree_types",
+    "title": "Tree Types",
+    "options": [
+      {
+        "value": "Exotic",
+        "parent": null,
+        "desc": "A non-native species, including both intentional plantings as well as natural spread"
+      },
+      {
+        "value": "Canoe",
+        "parent": null,
+        "desc": "Primary scar is likely associated with watercraft manufacture, typically very long (1.5m or more) scar area"
+      },
+      {
+        "value": "Woomera",
+        "parent": null,
+        "desc": "Primary scar is likely associated with cutting wood to produce one or more woomera blanks"
+      },
+      {
+        "value": "Sugarbag",
+        "parent": null,
+        "desc": "Primary scar is associated with extraction of sugarbag, or wild honey"
+      },
+      {
+        "value": "Combination",
+        "parent": null,
+        "desc": "A tree with multiple scar-types"
+      },
+      {
+        "value": "Blazed Tree",
+        "parent": null,
+        "desc": "Blaze mark"
+      },
+      {
+        "value": "AxeMarks",
+        "parent": null,
+        "desc": "Axe marks not associated with other scar types"
+      },
+      {
+        "value": "Toeholds",
+        "parent": null,
+        "desc": "A series of shallow notches in tree bole, and extending up trunk"
+      },
+      {
+        "value": "Markings",
+        "parent": null,
+        "desc": "Other markings that have involved removal of bark or wood, but reason unclear"
+      },
+      {
+        "value": "Guama",
+        "parent": null,
+        "desc": "Small area of bark removed for manufacture of planer"
+      },
+      {
+        "value": "Survey blaze",
+        "parent": null,
+        "desc": "Blaze mark with letters, numbers and other symbols"
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": "Other tree types not listed here"
+      }
+    ]
+  },
+  "veg_struct_cov": {
+    "name": "veg_struct_cov",
+    "title": "Veg Struct Cov",
+    "options": [
+      {
+        "value": "Heavy",
+        "parent": null,
+        "desc": "Greater than 70%"
+      },
+      {
+        "value": "Mid-dense",
+        "parent": null,
+        "desc": "30\u201370% cover"
+      },
+      {
+        "value": "Sparse",
+        "parent": null,
+        "desc": "10\u201330% cover"
+      },
+      {
+        "value": "Very sparse",
+        "parent": null,
+        "desc": "Less than 10%"
+      }
+    ]
+  },
+  "veg_struct_form": {
+    "name": "veg_struct_form",
+    "title": "Veg Struct Form",
+    "options": [
+      {
+        "value": "Algae: fresh or brackish",
+        "parent": "Acquatic, coastal and lacustrine",
+        "desc": "A member of the Chlorophyta, Cyanophyta Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments."
+      },
+      {
+        "value": "Algae: marine",
+        "parent": "Acquatic, coastal and lacustrine",
+        "desc": "A member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface- hugging layers to tall algal forests."
+      },
+      {
+        "value": "Aquatic higher plants",
+        "parent": "Acquatic, coastal and lacustrine",
+        "desc": "Dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. This may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hypersaline."
+      },
+      {
+        "value": "Seagrass: marine",
+        "parent": "Acquatic, coastal and lacustrine",
+        "desc": "Genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the subtidal level and down to 30 m below mean sea level. Occasionally exposed (e.g. at low tides)."
+      },
+      {
+        "value": "Chenopod Shrub",
+        "parent": "Chenopod Shrub",
+        "desc": "Single-stemmed or multi-stemmed, semi- succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance (e.g. Old Man Saltbush)"
+      },
+      {
+        "value": "Ferns",
+        "parent": "Ferns",
+        "desc": "A member of the Division Pterophyta (i.e.ferns and fern allies). Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure."
+      },
+      {
+        "value": "Grass",
+        "parent": "Grasses",
+        "desc": "Member of the family Poacea (hollow stemmed or graminoid grasses)"
+      },
+      {
+        "value": "Grass: planted/cultivated",
+        "parent": "Grasses",
+        "desc": "Member of the Poaceae planted or cultivated for specific human uses (e.g. human or other animal food, lawn or other ground cover)."
+      },
+      {
+        "value": "Hummock grass",
+        "parent": "Grasses",
+        "desc": "Coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa (e.g. spinifex)"
+      },
+      {
+        "value": "Tussock grass",
+        "parent": "Grasses",
+        "desc": "Grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses."
+      },
+      {
+        "value": "Heath",
+        "parent": "Heath, Shrub and Vines",
+        "desc": "Shrub usually less than 2 m tall, commonly woody with ericoid (i.e. small, tough) leaves. Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates."
+      },
+      {
+        "value": "Shrub",
+        "parent": "Heath, Shrub and Vines",
+        "desc": "Woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees. Includes chenopod scrub."
+      },
+      {
+        "value": "Shrub: planted/cultivated",
+        "parent": "Heath, Shrub and Vines",
+        "desc": "Shrubs planted in rows for the production of food crops."
+      },
+      {
+        "value": "Vine",
+        "parent": "Heath, Shrub and Vines",
+        "desc": "Climbing, twining, winding or sprawling plants usually with a woody stem"
+      },
+      {
+        "value": "Forb",
+        "parent": "Herbs and forbs",
+        "desc": "Plant with leaves and stems that die down an on annual, biennial or perennial basis. Forbs are non-graminoid herbaceous plants, ie. a flowering plant that is not a grass, that have a non-woody stem. Compare with 'Herb'."
+      },
+      {
+        "value": "Herb",
+        "parent": "Herbs and forbs",
+        "desc": "Plant with leaves and stems that die down an on annual, biennial or perennial basis. Herbs have a slightly woody stem. Compare with 'Forb'."
+      },
+      {
+        "value": "Herb: planted/cultivated",
+        "parent": "Herbs and forbs",
+        "desc": "Plant with leaves and stems that die down an on annual, biennial or perennial basis. Planted/cultivated annual or perennial herbaceous plant (monocotyledon or dicotyledon, non-woody stem); includes those cultivated for food or non-food purposes."
+      },
+      {
+        "value": "Bare surface",
+        "parent": "Minimal vegetation on exposed substrates",
+        "desc": "Soil, rock or water surfaces with less than 0.5% plant cover."
+      },
+      {
+        "value": "Surface crusts",
+        "parent": "Minimal vegetation on exposed substrates",
+        "desc": "Assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants."
+      },
+      {
+        "value": "Bryophyte",
+        "parent": "Moss and lichens",
+        "desc": "A member of the Division Bryophyta (i.e. mosses and liverworts). Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverwort often appear moss-like or consist of a flat, ribbon-like, green thallus."
+      },
+      {
+        "value": "Lichen",
+        "parent": "Moss and lichens",
+        "desc": "Composite plant consisting of a fungus living symbiotically with algae or cyanobacteria; without true roots, stems or leaves"
+      },
+      {
+        "value": "Rush",
+        "parent": "Rushes and sedges",
+        "desc": "Herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. According to the ASLSFH, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridacea and the genus Lomandra, i.e. 'graminoid' or grass-like genera."
+      },
+      {
+        "value": "Sedge",
+        "parent": "Rushes and sedges",
+        "desc": "Herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges)."
+      },
+      {
+        "value": "Mallee",
+        "parent": "Woody plants and trees",
+        "desc": "Any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber."
+      },
+      {
+        "value": "Tree",
+        "parent": "Woody plants and trees",
+        "desc": "Woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs."
+      },
+      {
+        "value": "Tree: planted/cultivated",
+        "parent": "Woody plants and trees",
+        "desc": "Trees planted in mostly urban/suburban settings (e.g. gardens, along streets, and nurseries), or cultivated for food (e.g. orchards) or non-food purposes (e.g. forestry)."
+      },
+      {
+        "value": "Tree: rainforest",
+        "parent": "Woody plants and trees",
+        "desc": "No widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition, which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation."
+      },
+      {
+        "value": "Woody plant",
+        "parent": "Woody plants and trees",
+        "desc": "Plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs."
+      }
+    ]
+  },
+  "weapons_cart_firemech": {
+    "name": "weapons_cart_firemech",
+    "title": "Weapons Cart Firemech",
+    "options": [
+      {
+        "value": "Pin fire",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Rim fire",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "weapons_gunpart": {
+    "name": "weapons_gunpart",
+    "title": "Weapons Gunpart",
+    "options": [
+      {
+        "value": "Barrel band",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Butt or stock",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Barrel or muzzle",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Lock, trigger or breach",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Bayonet",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "weapons_material": {
+    "name": "weapons_material",
+    "title": "Weapons Material",
+    "options": [
+      {
+        "value": "Brass",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Lead",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Copper",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Iron",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Steel",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "weapons_object": {
+    "name": "weapons_object",
+    "title": "Weapons Object",
+    "options": [
+      {
+        "value": "Cleaning tool",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gun flint",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gun manufacturing tool",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gun or component",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Gunpowder flask",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Maintenance tool",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Percussion cap",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Projectile mould",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Projectile or component",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Reloading tool",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "weapons_projectile_type": {
+    "name": "weapons_projectile_type",
+    "title": "Weapons Projectile Type",
+    "options": [
+      {
+        "value": "Cartridge case only (fired)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Conical projectile (bullet)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Spherical projectile (ball, shot)",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "Other",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  },
+  "yesno": {
+    "name": "yesno",
+    "title": "Yesno",
+    "options": [
+      {
+        "value": "Yes",
+        "parent": null,
+        "desc": ""
+      },
+      {
+        "value": "No",
+        "parent": null,
+        "desc": ""
+      }
+    ]
+  }
+}
