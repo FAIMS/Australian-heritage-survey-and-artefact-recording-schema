@@ -1,0 +1,37 @@
+AUSTRALIAN HERITAGE SURVEY & ARTEFACT RECORDING — SCHEMA REVIEW (2026),,,
+Review Workbook for Contemporary Archaeological Recording & Next-Gen Implementation,,,
+Author: Mick Morrison (Flinders University Archaeology) | Schema Version: 2026 Review Draft,,,
+,,,
+1. PURPOSE OF THIS REVIEW WORKBOOK,,,
+"The digital recording schema was originally created in 2018 under FAIMS 2. Fieldwork practices, archaeological concepts, tablet technologies, and data standards have significantly evolved.",,,
+"The goal of this workbook is to enable you to systematically review every form, field, vocabulary term, and logic rule, and indicate what should be RETAINED, MODIFIED, or DELETED.",,,
+"Once completed, this spreadsheet will be parsed by the automated assistant to build the updated schema in GeoPackage and/or Fieldmark.",,,
+,,,
+2. WORKBOOK STRUCTURE,,,
+Sheet Name,Description,Number of Items,Your Task
+01_Instructions_and_Legend,This guide and reference glossary,Reference,Read workflow instructions and code definitions
+02_Forms_Overview,All 18 survey modules and primary/child feature types,18 Forms + 2 Boundary layers,"Review form titles, ID prefixes, geometry types, and retain/modify status"
+03_Fields_Review,Detailed field-by-field audit across every form and tab,668 Fields,"Mark ACTION (Retain, Modify, Delete, Add), new labels, widget types, and notes"
+04_Value_Lists_Vocabularies,All 111 controlled vocabularies and their option terms,"1,060 Terms","Review terms, add new contemporary terms, refine definitions, or prune obsolete codes"
+05_Logic_and_Workflows,"Underlying business logic, autonumbering, GPS rules, relations",8 Core Logic Components,"Decide how field behaviors (IDs, GPS constraints, child records) should function in 2026"
+,,,
+3. HOW TO COMPLETE YOUR REVIEW,,,
+Action Code,Meaning,When to Use,How to Fill in the Review Columns
+RETAIN,Keep as-is (Default),Field/form is still relevant and accurately defined.,Leave pre-filled RETAIN. No extra typing needed.
+MODIFY,Change or Update,"Field needs a new label, different type, new vocabulary, or clearer help text.","Set ACTION to MODIFY. Fill in NEW_FIELD_LABEL, NEW_FIELD_TYPE, or notes."
+DELETE,Remove from Schema,"Field/form is obsolete, unhelpful in the field, or redundant with modern GIS.",Set ACTION to DELETE. Explain brief rationale in ARCHAEOLOGICAL_NOTES.
+NEW_FIELD,Add New Field,"A new field is needed in 2026 practice (e.g. cultural authority, drone photo ID).",Add a row (or write in notes) with ACTION=NEW_FIELD and desired prompt/type.
+ADD_TERM,Add Vocab Option,A controlled vocabulary is missing key terms for your current region.,"On the Vocabularies sheet, add a row with ACTION=ADD_TERM."
+,,,
+4. RECOMMENDED WIDGET TYPES FOR 2026,,,
+Widget Type,Usage,Examples
+text,"Short single-line text (names, site IDs, brief labels)","Site name, Landholder name, Tag ID"
+multiline_text,"Free-text narrative notes, descriptions, observations","Additional notes, Excavation summary, Context description"
+integer,Whole counts or positive integers,"Artefact count, Hearth count, Scar count, Axe mark count"
+decimal,"Accurate numeric measurements with decimals (mm, m, g, kg)","Maximum length (mm), Weight (g), Mound height (m), Girth (mm)"
+dropdown,Single-choice selection from controlled vocabulary,"Mound matrix, Flake completeness, Raw material, Landform element"
+multiselect,Multiple-choice checkboxes from controlled vocabulary,"Stone raw materials present, Faunal elements observed, Surface vegetation"
+photo,Camera capture or photo attachment with caption,"Overview site photo, Detail macro photo, Scar face closeup"
+audio,In-field audio voice note recorded directly on tablet,"Field recorder voice memos, Oral histories, Audio descriptions"
+file,"PDF document, historical map, or field sketch attachment","PDF site plan, Section drawing scan, Aerial photo overlay"
+date,Date or timestamp picker,"Survey date, Feature discovery timestamp"
